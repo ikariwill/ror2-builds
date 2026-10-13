@@ -195,18 +195,18 @@
           "pt": "Cinturão de Kjaro",
           "en": "Kjaro's Band",
           "prio": 1,
-          "qty": "1 a 3",
+          "qty": "4 a 6",
           "effect": "Golpes acima de 400% de dano também lançam um tornado de fogo rúnico que causa 300% (+300% por acúmulo) de dano TOTAL ao longo do tempo. Recarrega a cada 10 s.",
-          "why": "Todo tiro da M99 e do Supercarregado passa de 400%. Como o dano é TOTAL, o tornado acompanha o tamanho do tiro."
+          "why": "Todo tiro da M99 e do Supercarregado passa de 400%. Como o dano é TOTAL, o tornado acompanha o tamanho do tiro. É o verde para acumular: cada cópia soma +300% ao tornado. A recarga de 10 s não muda."
         },
         {
           "icon": "runalds-band",
           "pt": "Cinturão de Runald",
           "en": "Runald's Band",
           "prio": 2,
-          "qty": "1 a 2",
+          "qty": "2 a 4",
           "effect": "Golpes acima de 400% de dano também lançam uma explosão de gelo rúnica, que desacelera em 80% por 3 s (+3 s por acúmulo) e causa 250% (+250% por acúmulo) de dano TOTAL. Recarrega a cada 10 s.",
-          "why": "Mesmo gatilho do Kjaro. A lentidão segura quem tenta chegar perto dela."
+          "why": "Mesmo gatilho do Kjaro. A lentidão segura quem tenta chegar perto dela. Cada cópia soma +250% e +3 s de lentidão. Recarga própria de 10 s, separada do Kjaro."
         },
         {
           "icon": "atg-missile-mk-1",
@@ -588,7 +588,7 @@
       "text": "Tônico de Espinélia para chefes ou Cubo Primordial para juntar grupos."
     }
   ],
-  "summary": "Acelerador Magnético, XQR, M99 Sniper, Dispositivo de Concussão e Supercarregado. Acerte Pontos Fracos com a M99 e o Supercarregado: só ali existe crítico, e toda chance de crítico vira dano de crítico. Empilhe Óculos sem medo de passar de 10, pegue Mira Laser, Pé de Cabra e os Cinturões, e use Brutamontes e Ukulele para compensar a fraqueza contra grupos.",
+  "summary": "Acelerador Magnético, XQR, M99 Sniper, Dispositivo de Concussão e Supercarregado. Acerte Pontos Fracos com a M99 e o Supercarregado: só ali existe crítico, e toda chance de crítico vira dano de crítico. Empilhe Óculos sem medo de passar de 10, acumule os Cinturões, pegue Mira Laser e Pé de Cabra e use Brutamontes e Ukulele para compensar a fraqueza contra grupos.",
   "checklist": [
     {
       "title": "Sempre pegue",
@@ -600,7 +600,7 @@
     },
     {
       "title": "Primeiro verde",
-      "text": "Instintos Predatórios ou Cinturão de Kjaro. Depois Runald e Míssil ASM."
+      "text": "Cinturão de Kjaro, depois um Instintos Predatórios. Depois empilhe Kjaro e Runald."
     },
     {
       "title": "Equipamento",
@@ -647,7 +647,7 @@
     "Limite dos Cinturões: a página do Cinturão de Kjaro diz ora mais de 400%, ora 400% ou mais. Não está confirmado se a HH44 (400%) ativa os Cinturões."
   ],
   "command": {
-    "intro": "Com a Autoridade, a Canhoneira começa por Pé de Cabra e Óculos, que aumentam direto o tiro de M99 e o Supercarregado. Depois vêm os Cinturões e a Mira Laser, que transformam cada acerto em Ponto Fraco num tiro de chefe.",
+    "intro": "Com a Autoridade, a Canhoneira começa por Pé de Cabra e Óculos, que aumentam direto o tiro de M99 e o Supercarregado. Depois vêm os Cinturões, acumulados em várias cópias, e a Mira Laser, que transformam cada acerto em Ponto Fraco num tiro de chefe.",
     "tiers": [
       {
         "tier": "comum",
@@ -730,8 +730,13 @@
           },
           {
             "en": "Kjaro's Band",
+            "n": 2,
+            "why": "Três Kjaros: tornado de 900% do tiro."
+          },
+          {
+            "en": "Runald's Band",
             "n": 1,
-            "why": "Segundo Cinturão de Kjaro."
+            "why": "Mesmo gatilho do Kjaro, com recarga própria, e a lentidão segura quem chega perto."
           },
           {
             "en": "AtG Missile Mk. 1",
@@ -739,9 +744,14 @@
             "why": "O coeficiente 3,0 do Supercarregado triplica a chance."
           },
           {
+            "en": "Kjaro's Band",
+            "n": 1,
+            "why": "Quatro Kjaros: 1200%."
+          },
+          {
             "en": "Runald's Band",
             "n": 1,
-            "why": "Mesmo gatilho do Kjaro, e a lentidão segura quem chega perto."
+            "why": "Dois Runalds: 500% e 6 s de lentidão."
           },
           {
             "en": "Ukulele",
@@ -749,27 +759,22 @@
             "why": "Leva parte do tiro grande para o grupo."
           },
           {
-            "en": "Predatory Instincts",
+            "en": "Kjaro's Band",
             "n": 1,
-            "why": "Segundo Instintos."
+            "why": "Cinco Kjaros: 1500%."
+          },
+          {
+            "en": "Runald's Band",
+            "n": 1,
+            "why": "Três Runalds: 750% e 9 s de lentidão."
           },
           {
             "en": "AtG Missile Mk. 1",
             "n": 1,
-            "why": "Segundo Míssil."
-          },
-          {
-            "en": "Kjaro's Band",
-            "n": 1,
-            "why": "Terceiro Kjaro, o máximo da build."
-          },
-          {
-            "en": "Harvester's Scythe",
-            "n": 1,
-            "why": "Pouca cura nos acertos em Ponto Fraco, mas é cura."
+            "why": "Segundo Míssil: 600% por míssil."
           }
         ],
-        "then": "Depois: Míssil até 3 ou Shuriken para limpar os pequenos com a XQR. Com a HH44, a wiki não confirma se 400% exatos ativam os Cinturões: troque os Cinturões por Mísseis e Ukulele."
+        "then": "Depois: Kjaro até 6, Runald até 4 e Mísseis. Instintos Predatórios cresce pouco: o segundo só se a recarga da M99 estiver lenta. Com a HH44, a wiki não confirma se 400% exatos ativam os Cinturões: troque os Cinturões por Mísseis e Ukulele."
       },
       {
         "tier": "lendario",

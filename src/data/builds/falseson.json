@@ -169,18 +169,18 @@
           "pt": "Infusão",
           "en": "Infusion",
           "prio": 1,
-          "qty": "1 a 2",
+          "qty": "3 a 5",
           "effect": "Abater um inimigo aumenta sua vida permanentemente em 1 (+1 por acúmulo), até no máximo 100 (+100 por acúmulo).",
-          "why": "100 de vida bônus equivalem a 4 filés: segundo a tabela da wiki, 4 Espinhos a mais. A vida acumulada conta para o Crescimento."
+          "why": "100 de vida bônus equivalem a 4 filés: segundo a tabela da wiki, 4 Espinhos a mais. A vida acumulada conta para o Crescimento. Acumule: cada cópia soma +1 de vida por abate e +100 no limite. Quatro Infusões cheias dão 400 de vida bônus; pela tabela da wiki, 393 dão 10 Espinhos."
         },
         {
           "icon": "kjaros-band",
           "pt": "Cinturão de Kjaro",
           "en": "Kjaro's Band",
           "prio": 1,
-          "qty": "1 a 2",
+          "qty": "3 a 5",
           "effect": "Golpes que causam mais de 400% de dano também lançam um tornado de fogo rúnico, causando 300% (+300% por acúmulo) de dano TOTAL ao longo do tempo. Recarrega a cada 10 s.",
-          "why": "O golpe da clava causa 450% e o impacto 1.000%: quase todo golpe seu passa do limite. Escala com o dano total do golpe, então o impacto rende mais."
+          "why": "O golpe da clava causa 450% e o impacto 1.000%: quase todo golpe seu passa do limite. Escala com o dano total do golpe, então o impacto rende mais. Acumule: cada cópia soma +300% ao tornado. Num impacto de 1.000%, são 3.000% a mais por cópia, a cada 10 s."
         },
         {
           "icon": "runalds-band",
@@ -565,7 +565,7 @@
     },
     {
       "title": "Primeiro verde",
-      "text": "Infusão. Depois Cinturão de Kjaro."
+      "text": "Infusão. Depois Cinturão de Kjaro, e acumule os dois."
     },
     {
       "title": "Equipamento",
@@ -672,24 +672,14 @@
         "tier": "incomum",
         "steps": [
           {
-            "en": "Kjaro's Band",
-            "n": 1,
-            "why": "Quase todo golpe da clava passa de 400%, e o impacto de 1.000% rende mais."
-          },
-          {
             "en": "Infusion",
             "n": 1,
-            "why": "Pegue cedo: cada abate soma vida bônus até 100, que conta para o Crescimento."
-          },
-          {
-            "en": "Infusion",
-            "n": 1,
-            "why": "A segunda Infusão sobe o limite para 200 de vida bônus."
+            "why": "Pegue cedo: cada abate soma vida bônus, que conta para o Crescimento."
           },
           {
             "en": "Kjaro's Band",
             "n": 1,
-            "why": "O segundo Cinturão aumenta o dano do tornado."
+            "why": "Quase todo golpe da clava passa de 400%, e o impacto de 1.000% rende mais."
           },
           {
             "en": "Leeching Seed",
@@ -697,9 +687,29 @@
             "why": "O Laser e o impacto acertam muitas vezes: muita cura."
           },
           {
+            "en": "Infusion",
+            "n": 2,
+            "why": "Três Infusões: +3 de vida por abate, até 300."
+          },
+          {
+            "en": "Kjaro's Band",
+            "n": 2,
+            "why": "Três Kjaros: tornado de 900% do golpe."
+          },
+          {
             "en": "Runald's Band",
             "n": 1,
             "why": "Mesmo gatilho do Kjaro; a lentidão segura os inimigos perto."
+          },
+          {
+            "en": "Infusion",
+            "n": 1,
+            "why": "Quatro Infusões: até 400 de vida bônus. Pela tabela da wiki, 393 dão 10 Espinhos."
+          },
+          {
+            "en": "Kjaro's Band",
+            "n": 1,
+            "why": "Quatro Kjaros: tornado de 1.200% do golpe."
           },
           {
             "en": "Ukulele",
@@ -707,22 +717,12 @@
             "why": "O raio espalha os golpes grandes para quem está fora do alcance da clava."
           },
           {
-            "en": "Old War Stealthkit",
+            "en": "Infusion",
             "n": 1,
-            "why": "Saída de emergência para um personagem lento no meio da briga."
-          },
-          {
-            "en": "Leeching Seed",
-            "n": 1,
-            "why": "Segunda Semente."
-          },
-          {
-            "en": "Ukulele",
-            "n": 1,
-            "why": "Mais alvos no raio em cadeia."
+            "why": "Cinco Infusões: até 500 de vida bônus."
           }
         ],
-        "then": "O Rosário da Prece fica fora: ele só entrega os atributos guardados quando sai do inventário."
+        "then": "Depois: Kjaro até 5. Kit Furtivo da Guerra Antiga só se faltar fuga. O Rosário da Prece fica fora: ele só entrega os atributos guardados quando sai do inventário."
       },
       {
         "tier": "lendario",

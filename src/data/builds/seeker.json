@@ -185,9 +185,9 @@
           "pt": "Cinturão de Kjaro",
           "en": "Kjaro's Band",
           "prio": 1,
-          "qty": "1 a 3",
+          "qty": "4 a 6",
           "effect": "Golpes acima de 400% de dano também lançam um tornado de fogo rúnico que causa 300% (+300% por acúmulo) de dano TOTAL ao longo do tempo. Recarrega a cada 10 s.",
-          "why": "Mão Invisível (600%), Estadia (500% ou mais) e o terceiro soco com 2 ou mais Tranquilidades passam de 400%."
+          "why": "Mão Invisível (600%), Estadia (500% ou mais) e o terceiro soco com 2 ou mais Tranquilidades passam de 400%. Acumule: cada cópia soma +300% ao tornado. Numa Mão Invisível de 600%, são 1.800% a mais por cópia, a cada 10 s."
         },
         {
           "icon": "runalds-band",
@@ -203,9 +203,9 @@
           "pt": "Broquel da Rosa",
           "en": "Rose Buckler",
           "prio": 2,
-          "qty": "1 a 3",
+          "qty": "3 a 5",
           "effect": "+30 (+30 por acúmulo) de armadura enquanto corre.",
-          "why": "A wiki diz que a Estadia conta como correr, então o bônus vale no voo. Fora dela, correndo entre lutas, também protege."
+          "why": "A wiki diz que a Estadia conta como correr, então o bônus vale no voo. Fora dela, correndo entre lutas, também protege. Acumule: cada cópia soma +30 de armadura."
         },
         {
           "icon": "ukulele",
@@ -578,7 +578,7 @@
       "text": "Capacitor Régio para voadores e elites."
     }
   ],
-  "summary": "Força Interior, Soco Espiritual, Mão Invisível, Estadia e Meditar. Comece cada fase meditando para acumular Tranquilidade, cure com a Mão Invisível no grupo e use a Estadia como esquiva com imunidade e explosão. Empilhe Cristal de Foco e Seringa, pegue os Cinturões para os golpes acima de 400%, e encurte as recargas com Cabeça Alienígena e Célula Lisada.",
+  "summary": "Força Interior, Soco Espiritual, Mão Invisível, Estadia e Meditar. Comece cada fase meditando para acumular Tranquilidade, cure com a Mão Invisível no grupo e use a Estadia como esquiva com imunidade e explosão. Empilhe Cristal de Foco e Seringa, acumule o Cinturão de Kjaro para os golpes acima de 400%, e encurte as recargas com Cabeça Alienígena e Célula Lisada.",
   "checklist": [
     {
       "title": "Sempre pegue",
@@ -590,7 +590,7 @@
     },
     {
       "title": "Primeiro verde",
-      "text": "Cinturão de Kjaro. Depois Broquel da Rosa ou Ukulele."
+      "text": "Cinturão de Kjaro. Depois Broquel da Rosa, e acumule os dois."
     },
     {
       "title": "Equipamento",
@@ -725,7 +725,22 @@
           {
             "en": "Rose Buckler",
             "n": 1,
-            "why": "A Estadia conta como correr, então a armadura vale durante o voo."
+            "why": "A Estadia conta como correr: +30 de armadura durante o voo."
+          },
+          {
+            "en": "Luminous Shot",
+            "n": 1,
+            "why": "A Mão Invisível volta 20% mais rápido: mais cura."
+          },
+          {
+            "en": "Kjaro's Band",
+            "n": 2,
+            "why": "Três Kjaros: tornado de 900% do golpe."
+          },
+          {
+            "en": "Rose Buckler",
+            "n": 1,
+            "why": "Dois Broquéis: +60 de armadura no voo."
           },
           {
             "en": "Runald's Band",
@@ -734,13 +749,13 @@
           },
           {
             "en": "Kjaro's Band",
-            "n": 1,
-            "why": "O segundo Cinturão aumenta o dano do tornado."
+            "n": 2,
+            "why": "Cinco Kjaros: tornado de 1.500% do golpe."
           },
           {
-            "en": "Luminous Shot",
+            "en": "Rose Buckler",
             "n": 1,
-            "why": "A Mão Invisível volta 20% mais rápido: mais cura."
+            "why": "Três Broquéis: +90 de armadura no voo."
           },
           {
             "en": "Ukulele",
@@ -748,27 +763,12 @@
             "why": "Socos perfurantes e explosão em área acertam muito, e o raio espalha."
           },
           {
-            "en": "Rose Buckler",
-            "n": 1,
-            "why": "Mais armadura no voo e correndo entre as lutas."
-          },
-          {
             "en": "AtG Missile Mk. 1",
             "n": 1,
             "why": "O míssil acompanha os golpes grandes de 500% a 600%."
-          },
-          {
-            "en": "Kjaro's Band",
-            "n": 1,
-            "why": "Terceiro Cinturão, o máximo da build."
-          },
-          {
-            "en": "Ukulele",
-            "n": 1,
-            "why": "Mais alvos no raio em cadeia."
           }
         ],
-        "then": "Depois: Broquel até 3 e Míssil até 2. A Foice do Ceifador fica fora: sem Óculos nesta build, ela quase não ativa."
+        "then": "Depois: Kjaro até 6 e Broquel até 5. Com os dois no máximo, o segundo Cinturão de Runald. A Foice do Ceifador fica fora: sem Óculos nesta build, ela quase não ativa."
       },
       {
         "tier": "lendario",

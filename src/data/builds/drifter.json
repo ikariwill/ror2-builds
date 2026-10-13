@@ -193,19 +193,19 @@
           "icon": "regenerating-scrap",
           "pt": "Sucata Regeneradora",
           "en": "Regenerating Scrap",
-          "prio": 2,
+          "prio": 4,
           "qty": "1 a 2",
           "effect": "Não faz nada. Tem prioridade em Impressoras 3D incomuns. No início de cada estágio, se regenera.",
-          "why": "A wiki diz que conta para a passiva: +3 de regeneração por acúmulo enquanto você carrega. Pode ser gasta numa impressora e volta no próximo estágio."
+          "why": "A wiki diz que conta para a passiva: +3 de regeneração por acúmulo enquanto você carrega. Pode ser gasta numa impressora e volta no próximo estágio. Com o Artefato da Autoridade não existe impressora, então ela vira só +3 de regeneração. Uma Semente rende mais nessa escolha verde, e por isso ela fica fora da ordem de compra."
         },
         {
           "icon": "leeching-seed",
           "pt": "Semente Sanguessuga",
           "en": "Leeching Seed",
           "prio": 1,
-          "qty": "1 a 3",
+          "qty": "3 a 5",
           "effect": "Causar dano cura 1 (+1 por acúmulo) de vida.",
-          "why": "A Força Bruta tem coeficiente 1,0 e bate muitas vezes por segundo. Cada golpe cura."
+          "why": "A Força Bruta tem coeficiente 1,0 e bate muitas vezes por segundo. Cada golpe cura. Empilhe: cada cópia soma mais 1 de cura por acerto, e a velocidade de ataque multiplica os acertos."
         },
         {
           "icon": "ukulele",
@@ -221,9 +221,9 @@
           "pt": "Míssil ASM Mk. 1",
           "en": "AtG Missile Mk. 1",
           "prio": 2,
-          "qty": "1 a 3",
+          "qty": "4 ou mais (empilhe)",
           "effect": "10% de chance de disparar um míssil que causa 300% (+300% por acúmulo) de dano TOTAL.",
-          "why": "Dano à distância a partir dos golpes de perto. Ajuda contra chefes, que a Reapropriação não captura."
+          "why": "Dano à distância a partir dos golpes de perto. Ajuda contra chefes, que a Reapropriação não captura. Empilhe: cada cópia soma 300% ao dano de cada míssil. A chance fica em 10%, e a velocidade de ataque dá as tentativas."
         },
         {
           "icon": "shuriken",
@@ -639,7 +639,7 @@
     },
     {
       "title": "Primeiro verde",
-      "text": "Semente Sanguessuga. Depois Ukulele ou Míssil ASM."
+      "text": "Semente Sanguessuga. Depois Míssil ASM, e empilhe os dois."
     },
     {
       "title": "Antes de pegar Vazio",
@@ -764,7 +764,12 @@
           {
             "en": "Leeching Seed",
             "n": 1,
-            "why": "A Força Bruta bate muitas vezes por segundo e cada golpe cura."
+            "why": "Liga a build: a Força Bruta bate muitas vezes por segundo e cada golpe cura 1."
+          },
+          {
+            "en": "AtG Missile Mk. 1",
+            "n": 1,
+            "why": "Dano à distância de 300% contra chefes, que a Reapropriação não captura."
           },
           {
             "en": "Ukulele",
@@ -772,24 +777,19 @@
             "why": "O raio alcança voadores e inimigos espalhados a partir dos golpes rápidos."
           },
           {
-            "en": "AtG Missile Mk. 1",
+            "en": "Leeching Seed",
             "n": 1,
-            "why": "Dano à distância contra chefes, que a Reapropriação não captura."
+            "why": "Segunda Semente: 2 de cura por acerto."
+          },
+          {
+            "en": "AtG Missile Mk. 1",
+            "n": 2,
+            "why": "Três Mísseis: 900% por disparo."
           },
           {
             "en": "Leeching Seed",
             "n": 1,
-            "why": "Segunda Semente."
-          },
-          {
-            "en": "Regenerating Scrap",
-            "n": 1,
-            "why": "Conta para a passiva: +3 de regeneração enquanto você carrega. Sem impressoras na Autoridade, ela só fica guardada."
-          },
-          {
-            "en": "AtG Missile Mk. 1",
-            "n": 1,
-            "why": "Segundo Míssil."
+            "why": "Terceira Semente: 3 de cura por acerto."
           },
           {
             "en": "Shuriken",
@@ -797,17 +797,27 @@
             "why": "Você usa a Força Bruta o tempo todo, então as shurikens nunca ficam paradas."
           },
           {
-            "en": "Ukulele",
+            "en": "AtG Missile Mk. 1",
             "n": 1,
-            "why": "Mais alvos e mais alcance no raio."
+            "why": "Quarto Míssil: 1.200% por disparo."
           },
           {
             "en": "Leeching Seed",
             "n": 1,
-            "why": "Terceira Semente."
+            "why": "Quarta Semente: 4 de cura por acerto."
+          },
+          {
+            "en": "AtG Missile Mk. 1",
+            "n": 1,
+            "why": "Quinto Míssil: 1.500% por disparo."
+          },
+          {
+            "en": "Ukulele",
+            "n": 1,
+            "why": "Segundo Ukulele: o raio salta para 5 alvos a 22 m."
           }
         ],
-        "then": "Depois: mais Míssil ou uma segunda Sucata Regeneradora. Cartucheira pode reiniciar o Sucatear, mas você ainda precisa de 8 Tralhas."
+        "then": "Depois: continue empilhando Míssil ASM. Semente até 5 se faltar cura. Sucata Regeneradora fica fora: sem impressoras, ela é só +3 de regeneração. Cartucheira pode reiniciar o Sucatear, mas você ainda precisa de 8 Tralhas."
       },
       {
         "tier": "lendario",

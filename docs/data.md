@@ -69,6 +69,15 @@ cada essência deixa escolher qualquer item desbloqueado da raridade; não apare
 terminais múltiplos nem Poças de Purificação; **Pérola e Pérola Irradiante não podem ser obtidas** (página
 Irradiant Pearl); berços do Vazio limitam a escolha a uma raridade. Equipamentos lunares ficam fora da ordem laranja.
 
+Critério da ordem: **acumule** os itens que crescem a cada cópia (Míssil ASM, Cinturões, Semente Sanguessuga,
+Tanque de Ignição, Ukulele…) em vez de espalhar 1 de cada. Nos verdes, 1 ou 2 itens de acúmulo somam pelo menos metade
+das ~12 escolhas; itens que crescem pouco (Foice, Instintos, Cartucheira, Marca Fatal…) entram com 1 ou 2 cópias.
+Sucata Regeneradora não serve com o artefato (não há impressoras). O validador barra a ordem que passa do máximo
+do `qty` do card.
+
+Cinturões de Kjaro e Runald **disparam juntos** e dividem a recarga de 10 s (wiki, Kjaro's Band). Crítico e
+Projéteis Perfurantes não fazem um golpe fraco passar do limite de 400%.
+
 ## Pendências de verificação conhecidas
 
 Atualizadas na revisão de 13/10/2026 (`docs/revisoes/2026-10-13-revisao-das-builds.md`). Cada build também lista as

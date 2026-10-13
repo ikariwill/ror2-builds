@@ -225,10 +225,10 @@
           "icon": "luminous-shot",
           "pt": "Disparo Luminoso",
           "en": "Luminous Shot",
-          "prio": 3,
-          "qty": "1",
+          "prio": 2,
+          "qty": "4 ou mais (empilhe)",
           "effect": "Usar a Secundária guarda até 5 (+1 por acúmulo) cargas; com 3 cargas, a Primária dispara raios de 175% de dano TOTAL (+50% por acúmulo). Reduz o tempo de recarga da Secundária em 20%.",
-          "why": "Você usa a Faca o tempo todo, ainda mais com Pente Reserva, então as cargas ficam sempre prontas para a Rajada. Também encurta a recarga da Faca."
+          "why": "Você usa a Faca o tempo todo, ainda mais com Pente Reserva, então as cargas ficam sempre prontas para a Rajada. Cada raio tem coeficiente de proc 1,0, o dobro de um projétil da Rajada. Vale acumular: cada cópia soma 50% ao dano de cada raio e 1 carga máxima. A redução de 20% na recarga da Faca vem só da primeira."
         },
         {
           "icon": "hopoo-feather",
@@ -261,10 +261,10 @@
           "icon": "ukulele",
           "pt": "Ukulele",
           "en": "Ukulele",
-          "prio": 4,
-          "qty": "1 a 2",
+          "prio": 3,
+          "qty": "2 a 4",
           "effect": "25% de chance de disparar um raio em cadeia de 80% de dano TOTAL em até 3 (+2 por acúmulo) alvos a 20 m (+2 m por acúmulo).",
-          "why": "Cada projétil da Rajada tem chance de ativar (cada um com coeficiente 0,5). Bom em grupos, mas não é prioridade."
+          "why": "Cada projétil da Rajada tem chance de ativar (cada um com coeficiente 0,5), e os raios do Disparo Luminoso rolam com coeficiente cheio. Bom em grupos. Vale acumular depois do Disparo Luminoso: cada cópia soma 2 alvos e 2 m de alcance. O dano por alvo continua 80%."
         }
       ]
     },
@@ -631,7 +631,7 @@
     },
     {
       "title": "Primeiro verde",
-      "text": "Foice do Ceifador. Depois Instintos Predatórios; Cartucheira se estiver de Bandoleiro."
+      "text": "Foice do Ceifador. Depois Instintos Predatórios e acumule Disparo Luminoso; Cartucheira se estiver de Bandoleiro."
     },
     {
       "title": "Equipamento",
@@ -737,12 +737,17 @@
           {
             "en": "Harvester's Scythe",
             "n": 1,
-            "why": "Principal cura da build: cada projétil crítico da Rajada cura."
+            "why": "Principal cura da build: cada projétil crítico da Rajada cura. Uma basta; as outras só somam 4 de cura."
           },
           {
             "en": "Predatory Instincts",
             "n": 1,
-            "why": "Velocidade de ataque grátis enquanto você acerta pelas costas."
+            "why": "Velocidade de ataque grátis enquanto você acerta pelas costas. Uma basta."
+          },
+          {
+            "en": "Luminous Shot",
+            "n": 2,
+            "why": "As cargas da Faca viram raios na Rajada. Dois Disparos: 225% por raio e 6 cargas."
           },
           {
             "en": "Noxious Thorn",
@@ -750,37 +755,27 @@
             "why": "Espalha a Hemorragia para o vizinho quando um inimigo morre."
           },
           {
-            "en": "Harvester's Scythe",
-            "n": 1,
-            "why": "A segunda Foice aumenta a cura por crítico."
+            "en": "Luminous Shot",
+            "n": 2,
+            "why": "Quatro Disparos: 325% por raio e 8 cargas."
           },
           {
-            "en": "Bandolier",
-            "n": 1,
-            "why": "Reinicia recargas em abates que não vieram de Luzes Apagadas."
-          },
-          {
-            "en": "Hunter's Harpoon",
-            "n": 1,
-            "why": "Velocidade depois de cada abate para chegar às costas do próximo alvo."
-          },
-          {
-            "en": "Old War Stealthkit",
-            "n": 1,
-            "why": "Invisibilidade automática quando a vida cai abaixo de 25%."
-          },
-          {
-            "en": "Predatory Instincts",
-            "n": 1,
-            "why": "Sobe o limite de velocidade de ataque do segundo acúmulo."
+            "en": "Ukulele",
+            "n": 2,
+            "why": "Dois Ukuleles: o raio pega até 5 inimigos a até 22 m, ativado pelos projéteis e pelos raios."
           },
           {
             "en": "Luminous Shot",
+            "n": 2,
+            "why": "Seis Disparos: 425% por raio e 10 cargas."
+          },
+          {
+            "en": "Ukulele",
             "n": 1,
-            "why": "Raios extras na Rajada com as cargas da Faca."
+            "why": "Terceiro Ukulele: até 7 inimigos a até 24 m."
           }
         ],
-        "then": "Depois: Cartucheira até 3 (prioridade máxima se estiver de Bandoleiro) ou Pluma de Hopoo para mobilidade."
+        "then": "Depois: continue acumulando Disparo Luminoso, que soma 50% por raio e 1 carga por cópia. Na variante com Bandoleiro (Desperado), troque os Ukuleles por Cartucheira até 3. Kit Furtivo da Guerra Antiga ou Arpão do Caçador se faltar fuga."
       },
       {
         "tier": "lendario",

@@ -178,18 +178,18 @@
           "pt": "Cinturão de Kjaro",
           "en": "Kjaro's Band",
           "prio": 1,
-          "qty": "1 a 3",
+          "qty": "4 a 6",
           "effect": "Golpes que causam mais de 400% de dano também atingem os inimigos com um tornado de chamas rúnico, causando 300% (+300% por acúmulo) de dano TOTAL ao longo do tempo. Recarrega a cada 10 segundos.",
-          "why": "A Nanobomba sempre passa dos 400%. A wiki diz que os Cinturões aumentam muito o dano da Nanobomba e do Nanoprojétil."
+          "why": "A Nanobomba sempre passa dos 400%. A wiki diz que os Cinturões aumentam muito o dano da Nanobomba e do Nanoprojétil. Acumule: cada cópia soma +300% ao tornado de cada Nanobomba. A recarga de 10 s não muda com as cópias."
         },
         {
           "icon": "ignition-tank",
           "pt": "Tanque de Ignição",
           "en": "Ignition Tank",
           "prio": 1,
-          "qty": "1 a 3",
+          "qty": "3 a 5",
           "effect": "Efeitos de Incendiário causam +300% (+300% por acúmulo) a mais de dano ao longo do tempo.",
-          "why": "O Raio Flamejante e o Lança-chamas aplicam Incendiário. A wiki chama este item de excelente para os dois."
+          "why": "O Raio Flamejante e o Lança-chamas aplicam Incendiário. A wiki chama este item de excelente para os dois. Acumule: cada cópia soma +300% ao dano de toda queimadura, do Raio Flamejante, do Lança-chamas e da Gasolina."
         },
         {
           "icon": "runalds-band",
@@ -589,7 +589,7 @@
       "text": "Visor Ocular para críticos garantidos ou Crisálida Láctea para mobilidade."
     }
   ],
-  "summary": "Raio Flamejante, Nanobomba Carregada, Congelar Abrupto e Lança-chamas. Abra com a Nanobomba carregada para atordoar e ativar os Cinturões, bloqueie com o muro de gelo e queime o grupo com o Lança-chamas. Empilhe Seringa Militar e Pente Reserva, pegue Cinturão de Kjaro e Tanque de Ignição nos verdes e encurte as recargas com Cabeça Alienígena e Célula Lisada. Mantenha-se em movimento, porque a Artífice não tem fuga horizontal.",
+  "summary": "Raio Flamejante, Nanobomba Carregada, Congelar Abrupto e Lança-chamas. Abra com a Nanobomba carregada para atordoar e ativar os Cinturões, bloqueie com o muro de gelo e queime o grupo com o Lança-chamas. Empilhe Seringa Militar e Pente Reserva, acumule Cinturão de Kjaro e Tanque de Ignição nos verdes e encurte as recargas com Cabeça Alienígena e Célula Lisada. Mantenha-se em movimento, porque a Artífice não tem fuga horizontal.",
   "checklist": [
     {
       "title": "Sempre pegue",
@@ -601,7 +601,7 @@
     },
     {
       "title": "Primeiro verde",
-      "text": "Cinturão de Kjaro. Depois Tanque de Ignição e Cinturão de Runald."
+      "text": "Cinturão de Kjaro. Depois Tanque de Ignição e Cinturão de Runald, e acumule Kjaro e Tanque."
     },
     {
       "title": "Equipamento",
@@ -643,7 +643,7 @@
     "O desbloqueio do Conjurar Nanoprojétil é o desafio Artificer: Chunked!."
   ],
   "command": {
-    "intro": "A Artífice precisa primeiro de velocidade de ataque e Pente Reserva para girar Nanobomba e Lança-chamas, e de velocidade de movimento por não ter fuga horizontal. Nos verdes, o Cinturão de Kjaro e o Tanque de Ignição vêm antes de tudo, porque a Nanobomba e o fogo ativam os dois sozinhos.",
+    "intro": "A Artífice precisa primeiro de velocidade de ataque e Pente Reserva para girar Nanobomba e Lança-chamas, e de velocidade de movimento por não ter fuga horizontal. Nos verdes, acumule Cinturão de Kjaro e Tanque de Ignição, porque a Nanobomba e o fogo ativam os dois sozinhos e cada cópia soma 300%.",
     "tiers": [
       {
         "tier": "comum",
@@ -717,12 +717,12 @@
           {
             "en": "Kjaro's Band",
             "n": 1,
-            "why": "Toda Nanobomba passa dos 400% e ativa o tornado de fogo."
+            "why": "Toda Nanobomba passa dos 400% e ativa um tornado de fogo de 300%."
           },
           {
             "en": "Ignition Tank",
             "n": 1,
-            "why": "Raio Flamejante e Lança-chamas aplicam Incendiário, que o Tanque fortalece."
+            "why": "Raio Flamejante e Lança-chamas aplicam Incendiário: +300% de dano nas queimaduras."
           },
           {
             "en": "Runald's Band",
@@ -730,42 +730,37 @@
             "why": "Mesmo gatilho do Kjaro, e a lentidão segura o alvo no alcance do Lança-chamas."
           },
           {
+            "en": "Kjaro's Band",
+            "n": 2,
+            "why": "Três Kjaros: tornado de 900% em cada Nanobomba."
+          },
+          {
+            "en": "Ignition Tank",
+            "n": 2,
+            "why": "Três Tanques: +900% de dano nas queimaduras."
+          },
+          {
+            "en": "Leeching Seed",
+            "n": 1,
+            "why": "Cada acerto do Lança-chamas cura. Uma das poucas curas da build."
+          },
+          {
+            "en": "Kjaro's Band",
+            "n": 2,
+            "why": "Cinco Kjaros: tornado de 1500%."
+          },
+          {
             "en": "Ignition Tank",
             "n": 1,
-            "why": "Segundo Tanque: mais dano em tudo que queima."
+            "why": "Quatro Tanques: +1200% de dano nas queimaduras."
           },
           {
             "en": "AtG Missile Mk. 1",
             "n": 1,
             "why": "Os acertos do Lança-chamas lançam mísseis que perseguem voadores."
-          },
-          {
-            "en": "Kjaro's Band",
-            "n": 1,
-            "why": "Segundo Kjaro: tornado mais forte em cada Nanobomba."
-          },
-          {
-            "en": "Leeching Seed",
-            "n": 1,
-            "why": "Cada acerto do Lança-chamas cura, uma das poucas curas da build."
-          },
-          {
-            "en": "AtG Missile Mk. 1",
-            "n": 1,
-            "why": "Mais mísseis por uso do Lança-chamas."
-          },
-          {
-            "en": "Ukulele",
-            "n": 1,
-            "why": "O raio alcança inimigos fora do cone do Lança-chamas."
-          },
-          {
-            "en": "Ignition Tank",
-            "n": 1,
-            "why": "Terceiro Tanque, limite da build."
           }
         ],
-        "then": "Depois: Kjaro e Míssil até 3. Will-o'-the-wisp ajuda contra voadores. A Pluma de Hopoo gasta pulos de um jeito que atrapalha a Roupa AMB."
+        "then": "Depois: sexto Kjaro e quinto Tanque, e então o segundo Runald (+250% e +3 s de lentidão). Will-o'-the-wisp ajuda contra voadores. A Pluma de Hopoo gasta pulos de um jeito que atrapalha a Roupa AMB."
       },
       {
         "tier": "lendario",
@@ -802,17 +797,12 @@
         "tier": "chefe",
         "steps": [
           {
-            "en": "Irradiant Pearl",
-            "n": 1,
-            "why": "Vida, dano, velocidade de ataque e de movimento de uma vez."
-          },
-          {
             "en": "Molten Perforator",
             "n": 1,
             "why": "Mais um efeito ao acertar para os muitos acertos do Lança-chamas."
           }
         ],
-        "then": "Depois do primeiro Perfurador, pegue mais Pérolas."
+        "then": "Itens de chefe vêm do chefe do teleporte. A Pérola Irradiante não entra: com a Autoridade ela não sai."
       },
       {
         "tier": "equipamento",

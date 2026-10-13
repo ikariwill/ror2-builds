@@ -178,9 +178,9 @@
           "pt": "Semente Sanguessuga",
           "en": "Leeching Seed",
           "prio": 1,
-          "qty": "1 a 3",
+          "qty": "3 a 6",
           "effect": "Causar dano cura 1 (+1 por acúmulo) de vida.",
-          "why": "Cada golpe das Dilacerações, cada alvo da Epidemia e cada acerto do salto cura. Com muita velocidade de ataque vira a cura principal fora do Regenerativo."
+          "why": "Cada golpe das Dilacerações, cada alvo da Epidemia e cada acerto do salto cura. Com muita velocidade de ataque vira a cura principal fora do Regenerativo. Vale acumular: cada cópia soma +1 de cura em cada acerto, e o Acrid acerta muito."
         },
         {
           "icon": "ukulele",
@@ -196,9 +196,9 @@
           "pt": "Míssil ASM Mk. 1",
           "en": "AtG Missile Mk. 1",
           "prio": 2,
-          "qty": "1 a 3",
+          "qty": "4 a 6",
           "effect": "10% de chance de disparar um míssil que causa 300% (+300% por acúmulo) de dano TOTAL.",
-          "why": "Mesmo motivo do Ukulele: muitos acertos por segundo e muitos alvos com a Epidemia. O Camarão de Plasma (Plasma Shrimp) corrompe todos os Mísseis."
+          "why": "Mesmo motivo do Ukulele: muitos acertos por segundo e muitos alvos com a Epidemia. O Camarão de Plasma (Plasma Shrimp) corrompe todos os Mísseis. É o verde de dano para acumular: cada cópia soma +300% ao dano de cada míssil."
         },
         {
           "icon": "death-mark",
@@ -625,7 +625,7 @@
       "text": "Cubo Primordial para juntar grupos ou Capacitor Régio para voadores."
     }
   ],
-  "summary": "Veneno, Dilacerações Hediondas, Mordida Voraz, Salto Cáustico e Epidemia. Abra cada luta com Epidemia e Salto Cáustico para envenenar o grupo, entre no meio com as Dilacerações e finalize com a Mordida os inimigos que o Veneno deixou com pouca vida. Empilhe velocidade de ataque (Seringa) e dano de perto (Cristal de Foco), cure com Semente Sanguessuga e encurte as recargas com Cabeça Alienígena e Célula Lisada.",
+  "summary": "Veneno, Dilacerações Hediondas, Mordida Voraz, Salto Cáustico e Epidemia. Abra cada luta com Epidemia e Salto Cáustico para envenenar o grupo, entre no meio com as Dilacerações e finalize com a Mordida os inimigos que o Veneno deixou com pouca vida. Empilhe velocidade de ataque (Seringa) e dano de perto (Cristal de Foco), acumule Semente Sanguessuga e Míssil ASM nos verdes e encurte as recargas com Cabeça Alienígena e Célula Lisada.",
   "checklist": [
     {
       "title": "Sempre pegue",
@@ -637,7 +637,7 @@
     },
     {
       "title": "Primeiro verde",
-      "text": "Semente Sanguessuga. Depois Ukulele ou Míssil ASM."
+      "text": "Semente Sanguessuga. Depois empilhe Míssil ASM e mais Sementes; Ukulele só 1 ou 2."
     },
     {
       "title": "Equipamento",
@@ -670,7 +670,7 @@
     "A wiki não diz se o Veneno pode ser crítico ou se ativa itens ao acertar; a build não conta com isso."
   ],
   "command": {
-    "intro": "Com a Autoridade, o Acrid começa por Seringa Militar e Cristal de Foco, que aceleram as Dilacerações e aumentam golpes e Veneno de perto. No verde, a Semente Sanguessuga vem primeiro, porque é a cura de cada golpe.",
+    "intro": "Com a Autoridade, o Acrid começa por Seringa Militar e Cristal de Foco, que aceleram as Dilacerações e aumentam golpes e Veneno de perto. No verde, a Semente Sanguessuga vem primeiro, porque é a cura de cada golpe. Depois, acumule Mísseis ASM e Sementes, que crescem a cada cópia.",
     "tiers": [
       {
         "tier": "comum",
@@ -753,33 +753,13 @@
           },
           {
             "en": "AtG Missile Mk. 1",
-            "n": 1,
-            "why": "Muitos acertos por segundo e muitos alvos com a Epidemia."
+            "n": 2,
+            "why": "Dois Mísseis: 600% por míssil, com muitos acertos por segundo."
           },
           {
             "en": "Leeching Seed",
             "n": 1,
-            "why": "A segunda Semente dobra a cura por golpe."
-          },
-          {
-            "en": "Harvester's Scythe",
-            "n": 1,
-            "why": "Com os Óculos, cada crítico das Dilacerações cura."
-          },
-          {
-            "en": "Predatory Instincts",
-            "n": 1,
-            "why": "Críticos dão mais velocidade às Dilacerações."
-          },
-          {
-            "en": "Ukulele",
-            "n": 1,
-            "why": "O segundo Ukulele faz o raio pular para mais alvos."
-          },
-          {
-            "en": "AtG Missile Mk. 1",
-            "n": 1,
-            "why": "O segundo Míssil dobra o dano de cada míssil."
+            "why": "Segunda Semente: 2 de cura por acerto."
           },
           {
             "en": "Death Mark",
@@ -787,17 +767,27 @@
             "why": "Veneno e sangramento já são dois debuffs; com mais dois, +50% de dano em tudo."
           },
           {
-            "en": "Leeching Seed",
-            "n": 1,
-            "why": "Terceira Semente: a cura principal fora do Regenerativo."
+            "en": "AtG Missile Mk. 1",
+            "n": 2,
+            "why": "Quatro Mísseis: 1200% por míssil."
           },
           {
-            "en": "Shuriken",
+            "en": "Leeching Seed",
+            "n": 2,
+            "why": "Quatro Sementes: 4 de cura em cada golpe e em cada alvo da Epidemia."
+          },
+          {
+            "en": "Ukulele",
             "n": 1,
-            "why": "As Dilacerações nunca param, então as shurikens nunca ficam guardadas."
+            "why": "Segundo Ukulele: o raio pula para 5 alvos."
+          },
+          {
+            "en": "AtG Missile Mk. 1",
+            "n": 1,
+            "why": "Cinco Mísseis: 1500% por míssil."
           }
         ],
-        "then": "Depois: Míssil até 3 e Shuriken até 2. Espinho Nocivo só na variante com Praga, que acumula."
+        "then": "Depois: Míssil até 6, depois mais Sementes. Shuriken ou Foice (com Óculos) só se faltar opção. Espinho Nocivo só na variante com Praga, que acumula."
       },
       {
         "tier": "lendario",
