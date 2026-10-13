@@ -1,0 +1,548 @@
+{
+ "id": "loader",
+ "name_pt": "Carregadeira",
+ "name_en": "Loader",
+ "title": "Carregadeira: Build de Soco Carregado",
+ "tagline": "Gancho, velocidade e um soco que atravessa tudo",
+ "lede": "A Carregadeira (Loader) se pendura com a Agarradeira, ganha velocidade e solta a Garra Carregada, que causa de 600% a 2700% conforme a velocidade e atravessa vários inimigos. Cada golpe das garras dá barreira, então ela aguenta lutar de perto. Os itens aproveitam os golpes enormes, aumentam as cargas do soco e engrossam a barreira.",
+ "loadout": [
+  {"slot": "Passiva", "skill": "Barreira de Sucata (Scrap Barrier)"},
+  {"slot": "Primária", "skill": "Braço Articulado (Knuckleboom)"},
+  {"slot": "Secundária", "skill": "Agarradeira (Grapple Fist)"},
+  {"slot": "Utilitária", "skill": "Garra Carregada (Charged Gauntlet)"},
+  {"slot": "Especial", "skill": "Pilão M551 (M551 Pylon)"}
+ ],
+ "skills": [
+  {
+   "slot": "Passiva",
+   "pt": "Barreira de Sucata",
+   "en": "Scrap Barrier",
+   "pick": "Fixa",
+   "spec": "Imune a dano de queda. Cada golpe das garras dá barreira de 5% da vida máxima mais escudos atuais.",
+   "why": "Dá barreira o Braço Articulado, a Garra Carregada e a Garra do Trovão. O Pilão e o Golpe Trovejante não dão. Mais vida máxima e mais escudo aumentam cada pedaço de barreira."
+  },
+  {
+   "slot": "Primária",
+   "pt": "Braço Articulado",
+   "en": "Knuckleboom",
+   "pick": "Única opção",
+   "spec": "Golpe de 320%. Coeficiente 1,0. Cerca de um golpe a cada 0,6 s com velocidade de ataque base.",
+   "why": "Coeficiente 1,0 em cada golpe é ótimo para itens ao acertar. Velocidade de ataque enche a barreira mais rápido. A wiki avisa que cada golpe empurra inimigos pequenos, que podem sair do alcance; contra chefes e inimigos grandes isso não acontece."
+  },
+  {
+   "slot": "Secundária",
+   "pt": "Agarradeira",
+   "en": "Grapple Fist",
+   "pick": "Recomendada",
+   "spec": "Gancho de até 80 m que puxa você até o alvo. Sem dano. Recarga 5 s, que só começa ao prender em inimigo ou terreno.",
+   "why": "É o que dá velocidade para a Garra Carregada. Dá para carregar o soco enquanto está pendurada, e trocar a corrida no gancho aumenta a velocidade e o raio do balanço. Errar o gancho não gasta a recarga."
+  },
+  {
+   "slot": "Secundária (alt.)",
+   "pt": "Garra Perfurante",
+   "en": "Spiked Fist",
+   "pick": "Variante",
+   "spec": "Atordoante. Gancho de 320%. Coeficiente 1,0. Recarga 5 s. Puxa você até alvos pesados e puxa alvos leves até você.",
+   "why": "Dá dano e barreira, e traz inimigos pequenos para perto do Braço Articulado. Perde parte da mobilidade, porque nem sempre puxa você. A wiki registra um provável bug: acertar na ponta do alcance causa dano sem puxar."
+  },
+  {
+   "slot": "Utilitária",
+   "pt": "Garra Carregada",
+   "en": "Charged Gauntlet",
+   "pick": "Recomendada",
+   "spec": "Pesado. Soco perfurante de 600% a 2700%. Coeficiente 1,0. Recarga 5 s. Carrega em cerca de 2,5 s com velocidade de ataque base.",
+   "why": "Ganha +30% do dano base por cada 1 m/s da sua velocidade atual. Atravessa vários inimigos e dá barreira extra quando acerta mais de um. Segundo a wiki, passa a Garra do Trovão no fim do jogo justamente por perfurar."
+  },
+  {
+   "slot": "Utilitária (alt.)",
+   "pt": "Garra do Trovão",
+   "en": "Thunder Gauntlet",
+   "pick": "Variante",
+   "spec": "Pesado, Ágil. Soco de 2100% em um alvo e choque em cone de 900% (o texto do jogo em português diz 1.000%). Coeficiente 1,0. Recarga 5 s. Carrega em cerca de 0,4 s.",
+   "why": "Carrega rápido, dispara sozinha e pode ser usada correndo. O cone não ganha o bônus de velocidade. É mais fácil de usar no começo; a Garra Carregada escala melhor."
+  },
+  {
+   "slot": "Especial",
+   "pt": "Pilão M551",
+   "en": "M551 Pylon",
+   "pick": "Recomendada",
+   "spec": "Pilão que acerta até 6 inimigos a 25 m com 100%, 14 vezes, uma por segundo. Coeficiente 0,5. Recarga 20 s. Até 3 ao mesmo tempo.",
+   "why": "Dá dano à distância contra voadores e serve de ponto para o gancho. Ignora velocidade de ataque, e o crítico é decidido quando o pilão aparece. Não dá barreira."
+  },
+  {
+   "slot": "Especial (alt.)",
+   "pt": "Golpe Trovejante",
+   "en": "Thunderslam",
+   "pick": "Variante",
+   "spec": "Atordoante. Golpe no chão de 2000% num raio de cerca de 11 m. Coeficiente 1,0. Recarga 8 s.",
+   "why": "Muito dano em área de perto, com recarga curta. A wiki indica com a Garra do Trovão: o ricochete do soco deixa você no ar para cair com o golpe. Não dá barreira e não ajuda contra voadores longe."
+  }
+ ],
+ "sections": [
+  {
+   "id": "comum",
+   "name": "Comum",
+   "color": "branco",
+   "intro": "A Carregadeira bate de perto e vive de barreira. Os brancos dão dano de perto, vida e golpes mais frequentes.",
+   "items": [
+    {
+     "icon": "soldiers-syringe",
+     "pt": "Seringa Militar",
+     "en": "Soldier's Syringe",
+     "prio": 1,
+     "qty": "3 a 6",
+     "effect": "Aumenta a velocidade de ataque em 15% (+15% por acúmulo).",
+     "why": "O Braço Articulado bate mais e enche a barreira mais rápido. A Garra Carregada também carrega mais rápido, porque o tempo de carga depende da velocidade de ataque."
+    },
+    {
+     "icon": "focus-crystal",
+     "pt": "Cristal de Foco",
+     "en": "Focus Crystal",
+     "prio": 1,
+     "qty": "3 a 5",
+     "effect": "Aumenta o dano contra inimigos a até 13 m em 20% (+20% por acúmulo).",
+     "why": "Todo o dano das garras acontece colado no inimigo. Multiplica o Braço Articulado e o soco carregado."
+    },
+    {
+     "icon": "crowbar",
+     "pt": "Pé de Cabra",
+     "en": "Crowbar",
+     "prio": 2,
+     "qty": "2 a 4",
+     "effect": "Causa +75% (+75% por acúmulo) de dano a inimigos acima de 90% de vida.",
+     "why": "A Garra Carregada abre a luta contra inimigos com vida cheia, e o soco perfurante atinge vários deles assim. Muitos morrem com um soco só."
+    },
+    {
+     "icon": "bison-steak",
+     "pt": "Filé de Bisão",
+     "en": "Bison Steak",
+     "prio": 2,
+     "qty": "2 a 4",
+     "effect": "Aumenta a vida máxima em 25 (+25 por acúmulo).",
+     "why": "A Barreira de Sucata dá 5% da vida máxima por golpe. Mais vida máxima é mais barreira em cada golpe."
+    },
+    {
+     "icon": "tougher-times",
+     "pt": "Tempos Difíceis",
+     "en": "Tougher Times",
+     "prio": 2,
+     "qty": "2 a 4",
+     "effect": "15% (+15% por acúmulo) de chance de bloquear o dano recebido. Não é afetado por sorte.",
+     "why": "Lutar no meio do grupo é tomar muitos golpes. Cada bloqueio poupa barreira."
+    },
+    {
+     "icon": "personal-shield-generator",
+     "pt": "Gerador de Escudo Pessoal",
+     "en": "Personal Shield Generator",
+     "prio": 3,
+     "qty": "1 a 3",
+     "effect": "Ganha escudo igual a 8% (+8% por acúmulo) da vida máxima. Recarrega fora de perigo.",
+     "why": "A barreira por golpe conta os escudos atuais junto com a vida máxima. Enquanto o escudo existe, cada golpe dá um pouco mais de barreira."
+    },
+    {
+     "icon": "armor-piercing-rounds",
+     "pt": "Projéteis Perfurantes",
+     "en": "Armor-Piercing Rounds",
+     "prio": 3,
+     "qty": "1 a 3",
+     "effect": "Causa 20% (+20% por acúmulo) de dano adicional a chefes.",
+     "why": "Contra chefes, a Garra Carregada é o golpe principal. Um bônus direto nesse golpe."
+    },
+    {
+     "icon": "lens-makers-glasses",
+     "pt": "Óculos do Fabricante de Lentes",
+     "en": "Lens-Maker's Glasses",
+     "prio": 3,
+     "qty": "2 a 4",
+     "effect": "Seus ataques têm 10% (+10% por acúmulo) de chance de dar Acerto Crítico, causando dano dobrado.",
+     "why": "Um soco carregado crítico pode passar de 5000%. Também melhora o Pilão, que decide o crítico ao aparecer."
+    },
+    {
+     "icon": "pauls-goat-hoof",
+     "pt": "Casco de Bode de Paul",
+     "en": "Paul's Goat Hoof",
+     "prio": 4,
+     "qty": "1 a 2",
+     "effect": "Aumenta a velocidade de movimento em 14% (+14% por acúmulo).",
+     "why": "Ajuda a chegar no alvo a pé quando o gancho está em recarga. A mobilidade principal continua sendo o gancho."
+    }
+   ]
+  },
+  {
+   "id": "incomum",
+   "name": "Incomum",
+   "color": "verde",
+   "intro": "Os verdes da Carregadeira aproveitam golpes acima de 400% e os coeficientes 1,0 das garras.",
+   "items": [
+    {
+     "icon": "ukulele",
+     "pt": "Ukulele",
+     "en": "Ukulele",
+     "prio": 1,
+     "qty": "2 a 4",
+     "effect": "25% de chance de disparar um raio em cadeia que causa 80% de dano TOTAL em até 3 (+2 por acúmulo) alvos a até 20 m (+2 m por acúmulo).",
+     "why": "A wiki cita o Ukulele como forte com a Garra Carregada. O raio usa o dano TOTAL do golpe, então um soco de 2700% vira um raio enorme."
+    },
+    {
+     "icon": "kjaros-band",
+     "pt": "Cinturão de Kjaro",
+     "en": "Kjaro's Band",
+     "prio": 1,
+     "qty": "1 a 3",
+     "effect": "Golpes que causam mais de 400% de dano também atingem os inimigos com um tornado de chamas rúnicas, causando 300% (+300% por acúmulo) de dano TOTAL ao longo do tempo. Recarrega a cada 10 segundos.",
+     "why": "Também citado pela wiki. A Garra Carregada sempre passa de 400%, e o tornado escala com o dano TOTAL do soco. O Braço Articulado (320%) não ativa."
+    },
+    {
+     "icon": "backup-magazine",
+     "pt": "Pente Reserva",
+     "en": "Backup Magazine",
+     "prio": 2,
+     "qty": "1 a 3",
+     "effect": "Adiciona +1 (+1 por acúmulo) carga da habilidade Secundária.",
+     "why": "Mais de uma Agarradeira em sequência: dá para pendurar, soltar e pendurar de novo sem esperar 5 s. Mais velocidade, mais dano no soco."
+    },
+    {
+     "icon": "bandolier",
+     "pt": "Cartucheira",
+     "en": "Bandolier",
+     "prio": 2,
+     "qty": "1 a 2",
+     "effect": "18% (+10% por acúmulo) de chance ao matar de soltar um pacote de munição que reinicia todas as recargas.",
+     "why": "A wiki indica com a Garra Carregada: o soco atravessa os inimigos, e a Carregadeira passa por cima das caixas que caem. Cada pacote devolve soco e gancho."
+    },
+    {
+     "icon": "runalds-band",
+     "pt": "Cinturão de Runald",
+     "en": "Runald's Band",
+     "prio": 3,
+     "qty": "1 a 2",
+     "effect": "Golpes que causam mais de 400% de dano também atingem os inimigos com uma explosão rúnica de gelo, deixando-os 80% mais lentos por 3 s (+3 s por acúmulo) e causando 250% (+250% por acúmulo) de dano TOTAL. Recarrega a cada 10 segundos.",
+     "why": "Mesmo gatilho do Kjaro. A lentidão segura o inimigo no lugar para o próximo soco."
+    },
+    {
+     "icon": "atg-missile-mk-1",
+     "pt": "Míssil ASM Mk. 1",
+     "en": "AtG Missile Mk. 1",
+     "prio": 3,
+     "qty": "1 a 3",
+     "effect": "10% de chance de disparar um míssil que causa 300% (+300% por acúmulo) de dano TOTAL.",
+     "why": "Um míssil saindo do soco carregado causa três vezes o dano dele. Também alcança voadores."
+    },
+    {
+     "icon": "hopoo-feather",
+     "pt": "Pluma de Hopoo",
+     "en": "Hopoo Feather",
+     "prio": 3,
+     "qty": "1 a 2",
+     "effect": "Ganha +1 (+1 por acúmulo) pulo máximo.",
+     "why": "Mais controle no ar entre um gancho e outro. Como a Carregadeira não leva dano de queda, pode pular de qualquer altura."
+    },
+    {
+     "icon": "leeching-seed",
+     "pt": "Semente Sanguessuga",
+     "en": "Leeching Seed",
+     "prio": 4,
+     "qty": "1",
+     "effect": "Causar dano cura você em 1 (+1 por acúmulo) de vida.",
+     "why": "O Braço Articulado bate rápido. Cura pouco, mas ajuda a vida que fica embaixo da barreira."
+    }
+   ]
+  },
+  {
+   "id": "lendario",
+   "name": "Lendário",
+   "color": "vermelho",
+   "intro": "Os vermelhos que mais mudam a Carregadeira dão mais socos e aumentam o que cada soco faz.",
+   "items": [
+    {
+     "icon": "hardlight-afterburner",
+     "pt": "Pós-combustor de Holograma",
+     "en": "Hardlight Afterburner",
+     "prio": 1,
+     "qty": "1",
+     "effect": "Adiciona +2 (+2 por acúmulo) cargas da habilidade Utilitária. Reduz a recarga da Utilitária em 33%.",
+     "why": "A wiki indica para a Carregadeira: três Garras Carregadas seguidas, e cada uma também é deslocamento. É a maior fonte de dano dela multiplicada por três."
+    },
+    {
+     "icon": "alien-head",
+     "pt": "Cabeça Alienígena",
+     "en": "Alien Head",
+     "prio": 1,
+     "qty": "1 a 2",
+     "effect": "Reduz a recarga das habilidades em 25% (+25% por acúmulo).",
+     "why": "Agarradeira (5 s), Garra Carregada (5 s) e Pilão (20 s) voltam mais rápido. Gancho e soco formam o ciclo inteiro de dano e movimento."
+    },
+    {
+     "icon": "brilliant-behemoth",
+     "pt": "Brutamontes Reluzente",
+     "en": "Brilliant Behemoth",
+     "prio": 2,
+     "qty": "1 a 2",
+     "effect": "Todos os seus ataques explodem num raio de 4 m (+2,5 m por acúmulo), causando 60% de dano TOTAL extra a inimigos próximos.",
+     "why": "A explosão usa o dano TOTAL do golpe. Cada inimigo perfurado pela Garra Carregada explode e atinge quem está em volta."
+    },
+    {
+     "icon": "shattering-justice",
+     "pt": "Justiça Destruidora",
+     "en": "Shattering Justice",
+     "prio": 3,
+     "qty": "1",
+     "effect": "Depois de acertar um inimigo 5 vezes, reduz a armadura dele em 60 por 8 (+8 por acúmulo) segundos.",
+     "why": "Cinco golpes do Braço Articulado num chefe saem rápido. Depois disso, o soco carregado bate com 60 a menos de armadura no alvo."
+    },
+    {
+     "icon": "h3ad-5t-v2",
+     "pt": "H3AD-5T v2",
+     "en": "H3AD-5T v2",
+     "prio": 3,
+     "qty": "1",
+     "effect": "Aumenta a altura do pulo. Cria uma explosão cinética de 5 m a 100 m de raio ao tocar o chão, causando de 1000% a 10000% do dano base conforme a altura da queda. Recarrega em 10 (−50% por acúmulo) segundos.",
+     "why": "A wiki cita a combinação com a imunidade a queda: a velocidade de queda extra também aumenta a velocidade das garras. A wiki registra que um bug impedia o item na Carregadeira, corrigido na versão 1.1.1.2."
+    },
+    {
+     "icon": "57-leaf-clover",
+     "pt": "Trevo 57",
+     "en": "57 Leaf Clover",
+     "prio": 3,
+     "qty": "1",
+     "effect": "Todos os efeitos aleatórios são rolados +1 (+1 por acúmulo) vez a seu favor.",
+     "why": "Mais Ukulele, Míssil e crítico em cada soco. Com golpes tão grandes, cada ativação extra conta muito."
+    },
+    {
+     "icon": "aegis",
+     "pt": "Égide",
+     "en": "Aegis",
+     "prio": 4,
+     "qty": "1",
+     "effect": "Curar além da vida cheia dá uma barreira temporária de 50% (+50% por acúmulo) do valor curado.",
+     "why": "Transforma cura em mais barreira. Só vale se você tiver cura, como a Semente Sanguessuga ou a regeneração natural da Carregadeira."
+    }
+   ]
+  },
+  {
+   "id": "chefe",
+   "name": "Chefe",
+   "color": "amarelo",
+   "intro": "Itens de chefe só caem de chefes de teleporte.",
+   "items": [
+    {
+     "icon": "irradiant-pearl",
+     "pt": "Pérola Irradiante",
+     "en": "Irradiant Pearl",
+     "prio": 2,
+     "qty": "1 ou mais",
+     "effect": "Aumenta TODOS os atributos em 10% (+10% por acúmulo).",
+     "why": "Vida (e por isso barreira), dano, velocidade de ataque e de movimento de uma vez."
+    },
+    {
+     "icon": "pearl",
+     "pt": "Pérola",
+     "en": "Pearl",
+     "prio": 3,
+     "qty": "1 ou mais",
+     "effect": "Aumenta a vida máxima em 10% (+10% por acúmulo).",
+     "why": "Vida máxima em porcentagem aumenta a barreira de cada golpe."
+    }
+   ]
+  },
+  {
+   "id": "equipamento",
+   "name": "Equipamentos",
+   "color": "laranja",
+   "intro": "Só dá para carregar um. A Carregadeira quer juntar inimigos na linha do soco ou ter dano à distância.",
+   "items": [
+    {
+     "icon": "primordial-cube",
+     "pt": "Cubo Primordial",
+     "en": "Primordial Cube",
+     "prio": 1,
+     "qty": "1 (recarga 60 s)",
+     "effect": "Dispara um buraco negro que puxa os inimigos a até 30 m para o centro. Dura 10 segundos.",
+     "why": "Junta o grupo num ponto só. A Garra Carregada perfura e atinge todos com um soco, e o Brutamontes explode em cada um."
+    },
+    {
+     "icon": "royal-capacitor",
+     "pt": "Capacitor Régio",
+     "en": "Royal Capacitor",
+     "prio": 2,
+     "qty": "1 (recarga 20 s)",
+     "effect": "Chama um raio sobre um monstro marcado, causando 3000% de dano e atordoando os monstros próximos.",
+     "why": "Dano à distância para voadores longe, o ponto fraco de quem luta de perto. Recarga curta."
+    },
+    {
+     "icon": "spinel-tonic",
+     "pt": "Tônico de Espinélia",
+     "en": "Spinel Tonic",
+     "prio": 2,
+     "qty": "1 (equipamento lunar, recarga 60 s)",
+     "effect": "Bebe o Tônico e ganha um bônus por 20 segundos: +100% de dano, +70% de velocidade de ataque, +20 de armadura, +50% de vida máxima, +300% de regeneração de vida passiva e +30% de velocidade de movimento. Quando o Tônico acaba, há 20% de chance de ganhar uma Aflição do Tônico, que reduz todos os atributos em −5% (−5% por acúmulo).",
+     "why": "Dano dobrado no soco, carga mais rápida e +50% de vida máxima, que aumenta a barreira. Use em chefes por causa da chance de aflição."
+    },
+    {
+     "icon": "gorags-opus",
+     "pt": "Opus de Gorag",
+     "en": "Gorag's Opus",
+     "prio": 3,
+     "qty": "1 (recarga 45 s)",
+     "effect": "Todos os aliados entram em frenesi por 7 segundos. Aumenta a velocidade de movimento em 50% e a velocidade de ataque em 100%.",
+     "why": "Dobra a velocidade do Braço Articulado e da carga do soco por alguns segundos. Bom em grupo."
+    },
+    {
+     "icon": "jade-elephant",
+     "pt": "Elefante de Jade",
+     "en": "Jade Elephant",
+     "prio": 4,
+     "qty": "1 (recarga 45 s)",
+     "effect": "Ganha 500 de armadura por 5 segundos.",
+     "why": "Cinco segundos quase sem levar dano no meio do grupo. Só defesa."
+    }
+   ]
+  },
+  {
+   "id": "lunar",
+   "name": "Lunares",
+   "color": "azul",
+   "intro": "Itens lunares têm custo embutido. Nenhum é obrigatório.",
+   "items": [
+    {
+     "icon": "purity",
+     "pt": "Pureza",
+     "en": "Purity",
+     "prio": 3,
+     "qty": "1",
+     "effect": "Todas as recargas de habilidade são reduzidas em 2 (+1 por acúmulo) segundos. Todos os efeitos aleatórios são rolados +1 (+1 por acúmulo) vez para um resultado desfavorável.",
+     "why": "Gancho e soco caem de 5 s para 3 s. O custo é piorar Ukulele, Míssil e crítico, que esta build usa bastante."
+    },
+    {
+     "icon": "shaped-glass",
+     "pt": "Vidro Configurado",
+     "en": "Shaped Glass",
+     "prio": 4,
+     "qty": "1 (só se estiver confortável)",
+     "effect": "Aumenta o dano base em 100% (+100% por acúmulo). Reduz a vida máxima em 50% (−50% por acúmulo).",
+     "why": "Dobra o soco. Mas a barreira vem da vida máxima, então ela também cai pela metade."
+    },
+    {
+     "icon": "light-flux-pauldron",
+     "pt": "Ombreira do Fluxo Iluminado",
+     "en": "Light Flux Pauldron",
+     "prio": 0,
+     "qty": "0",
+     "effect": "Diminui a recarga das habilidades em 50% (+50% por acúmulo). Diminui a velocidade de ataque em 50% (+50% por acúmulo).",
+     "why": "O tempo de carga da Garra Carregada depende da velocidade de ataque e vai demorar muito mais. O Braço Articulado também bate mais devagar e dá menos barreira."
+    }
+   ]
+  },
+  {
+   "id": "vazio",
+   "name": "Vazio",
+   "color": "roxo",
+   "intro": "Itens do Vazio (DLC Survivors of the Void) corrompem itens comuns quando pegos. Veja o que vai perder antes.",
+   "items": [
+    {
+     "icon": "lysate-cell",
+     "pt": "Célula Lisada",
+     "en": "Lysate Cell",
+     "prio": 2,
+     "qty": "1",
+     "effect": "Adiciona +1 (+1 por acúmulo) carga da habilidade Especial. Reduz a recarga da Especial em 33%. Corrompe todas as Células de Combustível.",
+     "why": "Dois Pilões em sequência e recarga menor. Mais dano à distância e mais pontos para o gancho."
+    },
+    {
+     "icon": "needletick",
+     "pt": "Agulhão",
+     "en": "Needletick",
+     "prio": 3,
+     "qty": "1 a 2",
+     "effect": "10% (+10% por acúmulo) de chance de causar colapso num inimigo por 400% do dano base. Corrompe todas as Adagas Triangulares.",
+     "why": "Os golpes de coeficiente 1,0 do Braço Articulado ativam bastante. Corrompe as Adagas Triangulares (Tri-Tip Dagger), que esta build não usa."
+    },
+    {
+     "icon": "polylute",
+     "pt": "Polialaúde",
+     "en": "Polylute",
+     "prio": 4,
+     "qty": "1",
+     "effect": "25% de chance de disparar um raio que causa 60% de dano TOTAL até 3 (+3 por acúmulo) vezes. Corrompe todos os Ukuleles.",
+     "why": "Forte contra um alvo, mas corrompe os Ukuleles, que são essenciais aqui. Só pegue se não tiver nenhum."
+    },
+    {
+     "icon": "singularity-band",
+     "pt": "Faixa da Singularidade",
+     "en": "Singularity Band",
+     "prio": 0,
+     "qty": "0 (com Cinturões)",
+     "effect": "Golpes que causam mais de 400% de dano também disparam um buraco negro que puxa os inimigos a até 15 m para o centro. Dura 5 segundos antes de colapsar, causando 100% (+100% por acúmulo) de dano TOTAL. Recarrega a cada 20 segundos. Corrompe todos os Cinturões de Runald e de Kjaro.",
+     "why": "A Garra Carregada ativa, mas o item corrompe todos os seus Cinturões de Kjaro e de Runald. O Kjaro causa muito mais dano com socos de 2700%."
+    }
+   ]
+  }
+ ],
+ "synergy": [
+  {
+   "title": "Velocidade é dano",
+   "text": "A Garra Carregada ganha +30% do dano base para cada 1 m/s da velocidade atual. Um soco totalmente carregado dá 90 m/s, por isso chega a 2700%. A wiki explica que dá para carregar pendurada no gancho e que trocar a corrida no gancho aumenta a velocidade e o raio do balanço. Gancho primeiro, soco depois."
+  },
+  {
+   "title": "Itens que usam o dano TOTAL",
+   "text": "Ukulele, Míssil ASM, Cinturão de Kjaro e Brutamontes Reluzente calculam o efeito a partir do dano TOTAL do golpe. Num soco de milhares de por cento, cada ativação é enorme. Por isso a wiki indica Ukulele e Kjaro com a Garra Carregada."
+  },
+  {
+   "title": "Barreira de Sucata",
+   "text": "Cada golpe das garras dá barreira de 5% da vida máxima e dos escudos atuais. O Braço Articulado é a fonte constante, e a Garra Carregada dá mais quando atravessa vários inimigos. O Pilão e o Golpe Trovejante não dão barreira. Vida máxima (Filé de Bisão, Pérola) aumenta cada pedaço."
+  },
+  {
+   "title": "Mais cargas, mais socos",
+   "text": "O Pós-combustor dá +2 cargas da Garra Carregada e o Pente Reserva dá cargas da Agarradeira. A Cabeça Alienígena reduz as duas recargas. A Cartucheira devolve tudo quando um inimigo morre, e o soco perfurante mata vários de uma vez."
+  },
+  {
+   "title": "Voadores e o Pilão",
+   "text": "A Carregadeira tem dificuldade com inimigos voando longe. O Pilão M551 acerta até 6 inimigos a 25 m e serve de ponto para o gancho no ar. O Capacitor Régio cobre o mesmo problema como equipamento."
+  }
+ ],
+ "rotation": [
+  {"step": "Pilão perto do grupo", "text": "Começa a acertar voadores e serve de ponto para o gancho."},
+  {"step": "Agarradeira para ganhar velocidade", "text": "Prenda num inimigo grande, no terreno ou no Pilão."},
+  {"step": "Carregue a Garra no gancho", "text": "Solte o soco quando estiver rápida e alinhada com o grupo."},
+  {"step": "Braço Articulado", "text": "Bata no que sobrou para encher a barreira."},
+  {"step": "Repita com a próxima carga", "text": "Use o gancho para sair se a barreira acabar."}
+ ],
+ "essentials": [
+  {"pt": "Seringa Militar", "en": "Soldier's Syringe"},
+  {"pt": "Cristal de Foco", "en": "Focus Crystal"},
+  {"pt": "Ukulele", "en": "Ukulele"},
+  {"pt": "Cinturão de Kjaro", "en": "Kjaro's Band"},
+  {"pt": "Pós-combustor de Holograma", "en": "Hardlight Afterburner"},
+  {"pt": "Cabeça Alienígena", "en": "Alien Head"},
+  {"pt": "Cubo Primordial", "en": "Primordial Cube"}
+ ],
+ "situational_note": "Situacionais: Justiça Destruidora, H3AD-5T v2, Cartucheira, Pente Reserva, Célula Lisada, Pureza e os demais lunares.",
+ "fallbacks": [
+  {"pt": "Seringa Militar", "en": "Soldier's Syringe", "text": "Opus de Gorag como equipamento, ou Tônico de Espinélia, que também dá velocidade de ataque."},
+  {"pt": "Cristal de Foco", "en": "Focus Crystal", "text": "Pé de Cabra para o primeiro soco e Projéteis Perfurantes contra chefes."},
+  {"pt": "Ukulele", "en": "Ukulele", "text": "Míssil ASM Mk. 1, que também escala com o dano TOTAL do soco."},
+  {"pt": "Cinturão de Kjaro", "en": "Kjaro's Band", "text": "Cinturão de Runald, com o mesmo gatilho acima de 400%."},
+  {"pt": "Pós-combustor de Holograma", "en": "Hardlight Afterburner", "text": "Cartucheira e Pureza para ter o soco de volta mais vezes."},
+  {"pt": "Cabeça Alienígena", "en": "Alien Head", "text": "Pente Reserva para o gancho e Pureza para o soco."},
+  {"pt": "Cubo Primordial", "en": "Primordial Cube", "text": "Capacitor Régio para voadores, ou Tônico de Espinélia para chefes."}
+ ],
+ "summary": "Barreira de Sucata, Braço Articulado, Agarradeira, Garra Carregada e Pilão M551. Ganhe velocidade no gancho, solte o soco carregado através do grupo e mantenha a barreira com o Braço Articulado. Empilhe Seringa e Cristal de Foco nos brancos, Ukulele e Kjaro nos verdes, e procure o Pós-combustor e a Cabeça Alienígena para socar mais vezes.",
+ "checklist": [
+  {"title": "Sempre pegue", "text": "Seringa Militar, Cristal de Foco, Ukulele, Cinturão de Kjaro, Pós-combustor, Cabeça Alienígena."},
+  {"title": "Impressoras brancas", "text": "Seringa Militar até umas 5, depois Cristal de Foco."},
+  {"title": "Primeiro verde", "text": "Ukulele ou Cinturão de Kjaro. Depois Pente Reserva."},
+  {"title": "Equipamento", "text": "Cubo Primordial para grupos; Capacitor Régio se os voadores estiverem incomodando."},
+  {"title": "Antes de pegar Vazio", "text": "Faixa da Singularidade corrompe os Cinturões; Polialaúde corrompe os Ukuleles."},
+  {"title": "Não pegue", "text": "Ombreira do Fluxo Iluminado: a Garra Carregada demora muito mais para carregar."},
+  {"title": "Luta de chefe", "text": "Prenda o gancho no chefe, carregue o soco no caminho e bata com o Braço Articulado entre um soco e outro."}
+ ],
+ "sources": [
+  {"title": "Loader — Risk of Rain 2 Wiki", "url": "https://riskofrain2.wiki.gg/wiki/Loader"},
+  {"title": "Hardlight Afterburner — Risk of Rain 2 Wiki", "url": "https://riskofrain2.wiki.gg/wiki/Hardlight_Afterburner"},
+  {"title": "Items — Risk of Rain 2 Wiki", "url": "https://riskofrain2.wiki.gg/wiki/Items"}
+ ],
+ "notes": [
+  "No jogo em português a Loader se chama Carregadeira.",
+  "Garra Perfurante, Garra do Trovão e Golpe Trovejante precisam ser desbloqueadas por desafios."
+ ]
+}

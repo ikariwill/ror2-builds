@@ -1,0 +1,131 @@
+@import "tailwindcss";
+
+/*
+  Logbook — design system tokens.
+  Fonte da verdade: docs/design-system.md. Mudou um token aqui? Atualize o doc no mesmo commit.
+  Regra: componentes usam SÓ estes tokens (bg-panel, text-ink-2, border-line…). Nada de cores soltas
+  como bg-slate-800 ou text-[#abc] no JSX.
+*/
+@theme {
+  /* Reset da paleta padrão do Tailwind: só existem as cores do Logbook. */
+  --color-*: initial;
+
+  /* Chão e superfícies (azul-tinta, do mais fundo ao mais alto) */
+  --color-ground: #0d1318;
+  --color-surface: #10161d;
+  --color-sunken: #141c24;
+  --color-panel: #17202a;
+  --color-raised: #1e2934;
+
+  /* Linhas */
+  --color-line: #273341;
+  --color-line-soft: #222d38;
+  --color-line-strong: #3a4856;
+
+  /* Texto */
+  --color-ink: #e7ecef;
+  --color-ink-2: #c3cdd5;
+  --color-ink-3: #93a1ae;
+  --color-ink-4: #7d8b98;
+  --color-ink-off: #5f6e7b;
+
+  /* Acento único: dourado de interface do jogo */
+  --color-accent: #e8b04a;
+  --color-accent-hi: #f4cc7a;
+  --color-on-accent: #10161d;
+
+  /* Raridades do jogo: a ÚNICA família de cores saturadas do sistema */
+  --color-tier-comum: #c9ced3;
+  --color-tier-incomum: #7bc86c;
+  --color-tier-lendario: #e5534b;
+  --color-tier-chefe: #e3c24a;
+  --color-tier-equipamento: #f0913a;
+  --color-tier-lunar: #5aa9e6;
+  --color-tier-vazio: #b678e0;
+
+  /* Prioridade (semântica, separada do acento) */
+  --color-prio-avoid: #5a2328;
+  --color-prio-avoid-ink: #f3b5b9;
+
+  --color-white: #ffffff;
+  --color-black: #000000;
+  --color-transparent: transparent;
+
+  /* Tipografia */
+  --font-display: "Saira Condensed", "Arial Narrow", sans-serif;
+  --font-sans: "IBM Plex Sans", system-ui, sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, monospace;
+
+  --text-label: 0.6875rem;   /* 11px — rótulos em mono caixa-alta */
+  --text-label--letter-spacing: 0.08em;
+  --text-meta: 0.8125rem;    /* 13px */
+  --text-body: 0.9375rem;    /* 15px */
+  --text-lede: 1rem;         /* 16px */
+  --text-h-md: 1.375rem;     /* 22px */
+  --text-h-lg: 1.625rem;     /* 26px */
+  --text-h-xl: 3.5rem;       /* 56px */
+  --text-h-xl--line-height: 0.95;
+
+  /* Raios: poucos e com papel definido */
+  --radius-tag: 4px;
+  --radius-control: 6px;
+  --radius-card: 8px;
+  --radius-panel: 12px;
+}
+
+@layer base {
+  html {
+    color-scheme: dark;
+    background: var(--color-ground);
+  }
+  body {
+    margin: 0;
+    background: var(--color-surface);
+    color: var(--color-ink);
+    font-family: var(--font-sans);
+    font-size: var(--text-body);
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+  }
+  a {
+    color: var(--color-accent);
+  }
+  a:hover {
+    color: var(--color-accent-hi);
+  }
+  :focus-visible {
+    outline: 2px solid var(--color-accent);
+    outline-offset: 2px;
+  }
+  input[type="checkbox"] {
+    accent-color: var(--color-accent);
+  }
+  @media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+      transition: none !important;
+      animation: none !important;
+    }
+  }
+}
+
+@layer components {
+  /* Rótulo técnico: mono, caixa-alta, espaçado. Usado para slots, campos e contadores. */
+  .label {
+    font-family: var(--font-mono);
+    font-size: var(--text-label);
+    letter-spacing: var(--text-label--letter-spacing);
+    text-transform: uppercase;
+    color: var(--color-ink-4);
+  }
+  /* Título de seção: display condensado em caixa-alta. */
+  .heading {
+    font-family: var(--font-display);
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    line-height: 1.05;
+    margin: 0;
+  }
+}

@@ -1,0 +1,222 @@
+{
+ "id": "railgunner",
+ "name_pt": "Canhoneira",
+ "name_en": "Railgunner",
+ "title": "Canhoneira: Build de Ponto Fraco",
+ "tagline": "Tiros enormes no Ponto Fraco, crítico vira dano",
+ "lede": "Uma build de atiradora para jogar com calma e chegar longe: mirar com a M99, acertar Pontos Fracos e apagar chefes e elites com um ou dois tiros. A Canhoneira não tem críticos aleatórios; toda chance de crítico vira dano de crítico nos acertos em Ponto Fraco. Os itens aumentam esse tiro único, ativam efeitos de golpes acima de 400% e cobrem a fraqueza dela contra grupos.",
+ "loadout": [
+  {"slot": "Passiva", "skill": "Acelerador Magnético (Magnetic Accelerator)"},
+  {"slot": "Primária", "skill": "Sistema de Projéteis Inteligentes XQR (XQR Smart Round System)"},
+  {"slot": "Secundária", "skill": "M99 Sniper (M99 Sniper)"},
+  {"slot": "Utilitária", "skill": "Dispositivo de Concussão (Concussion Device)"},
+  {"slot": "Especial", "skill": "Supercarregado (Supercharge)"}
+ ],
+ "skills": [
+  {
+   "slot": "Passiva",
+   "pt": "Acelerador Magnético",
+   "en": "Magnetic Accelerator",
+   "pick": "Fixa",
+   "spec": "Toda chance de crítico vira dano de crítico, 1% para 1%, somado à base de 200%. Sem críticos aleatórios.",
+   "why": "Com 50% de chance de crítico, o crítico passa de 200% para 250% de dano. Isso é 25% a mais, metade do que a mesma chance daria a outro personagem, e só vale nos acertos em Ponto Fraco. A vantagem: a chance não tem teto, então Óculos acumulam além de 10."
+  },
+  {
+   "slot": "Primária",
+   "pt": "Sistema de Projéteis Inteligentes XQR",
+   "en": "XQR Smart Round System",
+   "pick": "Recomendada",
+   "spec": "Projéteis teleguiados de 100%. 4 tiros por segundo na velocidade base. Coeficiente 1,0.",
+   "why": "Os projéteis fazem curva, acertam atrás de cobertura e até 30 graus atrás dela. É o dano contra inimigos pequenos e o que ativa itens ao acertar entre um tiro de mira e outro. Como ela não tem críticos aleatórios, não conte com crítico aqui."
+  },
+  {
+   "slot": "Secundária",
+   "pt": "M99 Sniper",
+   "en": "M99 Sniper",
+   "pick": "Recomendada",
+   "spec": "Mira de longo alcance; a Primária vira a M99: 1.000% de dano, perfurante, coeficiente 1,0. Recarga Ativa perfeita: +500% de dano base no próximo tiro.",
+   "why": "Acertar um Ponto Fraco garante crítico, e é ali que entra todo o dano de crítico da passiva. Depois do tiro vem a Recarga Ativa: aperte na faixa certa para recarregar mais rápido e ganhar o bônus. Cada inimigo perfurado corta pela metade o dano para o próximo."
+  },
+  {
+   "slot": "Secundária (alt.)",
+   "pt": "HH44 Atiradora",
+   "en": "HH44 Marksman",
+   "pick": "Variante",
+   "spec": "Mira de curto alcance; a Primária vira a HH44: 400% de dano, 2 tiros por segundo segurando o botão. Coeficiente 1,0.",
+   "why": "Não tem recarga, então não usa Recarga Ativa nem Pente Reserva. Também garante crítico em Ponto Fraco. É mais fácil de usar e cada tiro ainda passa de 400%, o que ativa os Cinturões. Desbloqueio pelo desafio Railgunner: Marksman."
+  },
+  {
+   "slot": "Utilitária",
+   "pt": "Dispositivo de Concussão",
+   "en": "Concussion Device",
+   "pick": "Recomendada",
+   "spec": "Ágil. Empurra você e os inimigos próximos. 2 cargas, recarga 6 s. Coeficiente 0.",
+   "why": "É a fuga e a mobilidade dela. A força do empurrão cresce com a sua velocidade, então pular antes de detonar lança mais longe. O Dispositivo de Campo Polar (Polar Field Device, recarga 12 s) desacelera inimigos e projéteis por 12 s; é mais defensivo e tira a mobilidade."
+  },
+  {
+   "slot": "Especial",
+   "pt": "Supercarregado",
+   "en": "Supercharge",
+   "pick": "Recomendada",
+   "spec": "Tiro perfurante de 4.000% de dano e 150% de dano de Ponto Fraco. Dano de crítico ×1,5. Coeficiente 3,0. Recarga 15 s. Depois, armas desligadas por 5 s.",
+   "why": "É o maior tiro do jogo e o coração da build: o crítico já ampliado pela passiva ainda é multiplicado por 1,5, e a perfuração não perde dano. O coeficiente 3,0 faz itens de chance ao acertar ativarem quase sempre. A Utilitária continua funcionando nos 5 s sem armas."
+  },
+  {
+   "slot": "Especial (alt.)",
+   "pt": "Criocarregado",
+   "en": "Cryocharge",
+   "pick": "Variante",
+   "spec": "Congelante. Tiro perfurante de 2.000% de dano. Coeficiente 1,5. Recarga 15 s. (O texto em português do tiro diz 350%; a wiki corrige para 2.000%.)",
+   "why": "Congela, e inimigos congelados abaixo de 30% de vida morrem na hora. Não desliga as armas. Não congela chefes (exceto o Devastador do Vazio). Melhor contra grupos; o Supercarregado é melhor contra chefes. Desbloqueio pelo desafio Railgunner: Trickshot."
+  }
+ ],
+ "sections": [
+  {
+   "id": "comum",
+   "name": "Comum",
+   "color": "branco",
+   "intro": "A Canhoneira vive de poucos tiros enormes. Os brancos aumentam esse tiro e dão um pouco de folga.",
+   "items": [
+    {"icon": "lens-makers-glasses", "pt": "Óculos do Fabricante de Lentes", "en": "Lens-Maker's Glasses", "prio": 1, "qty": "5 a 15", "effect": "Seus ataques têm 10% (+10% por acúmulo) de chance de dar Acerto Crítico, causando dano dobrado.", "why": "Nela, cada Óculos vira +10% de dano de crítico nos acertos em Ponto Fraco. A wiki diz que, por causa do Acelerador Magnético, dá para acumular além de 10 e continuar ganhando dano."},
+    {"icon": "crowbar", "pt": "Pé de Cabra", "en": "Crowbar", "prio": 1, "qty": "3 a 6", "effect": "+75% (+75% por acúmulo) de dano contra inimigos acima de 90% de vida.", "why": "A wiki destaca: os tiros dela são golpes únicos enormes que pegam o inimigo de vida cheia. O primeiro tiro de M99 ou de Supercarregado leva o bônus inteiro."},
+    {"icon": "backup-magazine", "pt": "Pente Reserva", "en": "Backup Magazine", "prio": 2, "qty": "2 a 4", "effect": "+1 (+1 por acúmulo) carga da habilidade Secundária.", "why": "Com a M99, dá para dar vários tiros seguidos antes de recarregar, e todas as cargas voltam juntas. Só o primeiro tiro depois de uma recarga perfeita ganha o bônus. Inútil com a HH44."},
+    {"icon": "armor-piercing-rounds", "pt": "Projéteis Perfurantes", "en": "Armor-Piercing Rounds", "prio": 2, "qty": "2 a 4", "effect": "+20% (+20% por acúmulo) de dano contra chefes.", "why": "O trabalho dela é apagar chefes. Multiplica o tiro grande inteiro."},
+    {"icon": "soldiers-syringe", "pt": "Seringa Militar", "en": "Soldier's Syringe", "prio": 3, "qty": "2 a 4", "effect": "+15% (+15% por acúmulo) de velocidade de ataque.", "why": "Velocidade de ataque acelera a barra de recarga, alarga a faixa da recarga perfeita, encurta a carga do Supercarregado e faz a XQR atirar mais."},
+    {"icon": "delicate-watch", "pt": "Relógio Delicado", "en": "Delicate Watch", "prio": 3, "qty": "1 a 3", "effect": "+20% (+20% por acúmulo) de dano. Quebra ao levar dano que deixe você abaixo de 25% de vida.", "why": "Ela luta de longe e leva pouco dano. Bônus de dano puro que dura bastante nas mãos de quem fica afastada."},
+    {"icon": "tougher-times", "pt": "Tempos Difíceis", "en": "Tougher Times", "prio": 3, "qty": "1 a 3", "effect": "15% (+15% por acúmulo) de chance de bloquear dano recebido. Não é afetado por sorte.", "why": "A Canhoneira tem pouca defesa e fica parada mirando. Cada bloqueio evita um golpe inteiro."},
+    {"icon": "sticky-bomb", "pt": "Bomba Aderente", "en": "Sticky Bomb", "prio": 4, "qty": "1 a 3", "effect": "5% (+5% por acúmulo) de chance ao acertar de grudar uma bomba no inimigo, que explode causando 180% de dano TOTAL.", "why": "Dano TOTAL é proporcional ao tiro que ativou. Segundo a wiki, com cerca de 7 a ativação no Supercarregado é garantida."},
+    {"icon": "pauls-goat-hoof", "pt": "Casco de Bode de Paul", "en": "Paul's Goat Hoof", "prio": 4, "qty": "1 a 2", "effect": "+14% (+14% por acúmulo) de velocidade de movimento.", "why": "Ajuda a se reposicionar entre tiros e aumenta o empurrão do Dispositivo de Concussão, que cresce com a velocidade."}
+   ]
+  },
+  {
+   "id": "incomum",
+   "name": "Incomum",
+   "color": "verde",
+   "intro": "Os verdes dela são os que ativam com golpes acima de 400% e os que convertem crítico em algo útil.",
+   "items": [
+    {"icon": "predatory-instincts", "pt": "Instintos Predatórios", "en": "Predatory Instincts", "prio": 1, "qty": "1 a 2", "effect": "+5% de chance de crítico. Acertos Críticos aumentam a velocidade de ataque em 12%, até 36% (+24% por acúmulo).", "why": "A wiki confirma que acertar Ponto Fraco ativa o bônus. Com a M99, isso acelera a recarga; com a HH44, os tiros. Os 5% de chance viram +5% de dano de crítico."},
+    {"icon": "kjaros-band", "pt": "Cinturão de Kjaro", "en": "Kjaro's Band", "prio": 1, "qty": "1 a 3", "effect": "Golpes acima de 400% de dano também lançam um tornado de fogo rúnico que causa 300% (+300% por acúmulo) de dano TOTAL ao longo do tempo. Recarrega a cada 10 s.", "why": "Todo tiro da M99, da HH44 e do Supercarregado passa de 400%. Como o dano é TOTAL, o tornado acompanha o tamanho do tiro."},
+    {"icon": "runalds-band", "pt": "Cinturão de Runald", "en": "Runald's Band", "prio": 2, "qty": "1 a 2", "effect": "Golpes acima de 400% de dano também lançam uma explosão de gelo rúnica, que desacelera em 80% por 3 s (+3 s por acúmulo) e causa 250% (+250% por acúmulo) de dano TOTAL. Recarrega a cada 10 s.", "why": "Mesmo gatilho do Kjaro. A lentidão segura quem tenta chegar perto dela."},
+    {"icon": "atg-missile-mk-1", "pt": "Míssil ASM Mk. 1", "en": "AtG Missile Mk. 1", "prio": 2, "qty": "1 a 3", "effect": "10% de chance de disparar um míssil que causa 300% (+300% por acúmulo) de dano TOTAL.", "why": "A wiki cita o coeficiente 3,0 do Supercarregado: a chance de ativar sobe muito, e o dano TOTAL vem de um tiro de 4.000%. A XQR também ativa sem parar."},
+    {"icon": "ukulele", "pt": "Ukulele", "en": "Ukulele", "prio": 3, "qty": "1 a 2", "effect": "25% de chance de disparar um raio em cadeia de 80% de dano TOTAL em até 3 (+2 por acúmulo) alvos a até 20 m (+2 m por acúmulo).", "why": "O próprio jogo avisa que ela sofre contra muitos inimigos pequenos e pede itens de área. O raio leva parte do tiro grande para o grupo."},
+    {"icon": "harvesters-scythe", "pt": "Foice do Ceifador", "en": "Harvester's Scythe", "prio": 3, "qty": "1", "effect": "+5% de chance de crítico. Acertos Críticos curam 8 (+4 por acúmulo) de vida.", "why": "Os 5% viram dano de crítico. A cura só vem quando houver crítico, ou seja, em acerto de Ponto Fraco. Pouca cura, mas é cura."},
+    {"icon": "shuriken", "pt": "Shuriken", "en": "Shuriken", "prio": 4, "qty": "1", "effect": "Ativar a Primária também arremessa uma shuriken de 400% (+100% por acúmulo) do dano base. Guarda até 3 (+1 por acúmulo), que recarregam em 10 s.", "why": "A XQR é Primária e você a usa o tempo todo, então as shurikens nunca ficam paradas. Dano extra contra inimigos pequenos."}
+   ]
+  },
+  {
+   "id": "lendario",
+   "name": "Lendário",
+   "color": "vermelho",
+   "intro": "Os vermelhos que mais mudam a Canhoneira aumentam o crítico e espalham o tiro único para o grupo.",
+   "items": [
+    {"icon": "laser-scope", "pt": "Mira Laser", "en": "Laser Scope", "prio": 1, "qty": "1 a 3", "effect": "Acertos Críticos causam +100% (+100% por acúmulo) de dano.", "why": "Todo acerto em Ponto Fraco é crítico. Uma Mira soma +100% ao multiplicador de crítico, o mesmo que dez Óculos. No Supercarregado, ainda é multiplicada por 1,5."},
+    {"icon": "brilliant-behemoth", "pt": "Brutamontes Reluzente", "en": "Brilliant Behemoth", "prio": 1, "qty": "1 a 2", "effect": "Todos os ataques explodem num raio de 4 m (+2,5 m por acúmulo) causando 60% de dano TOTAL extra aos inimigos próximos.", "why": "A explosão usa o dano TOTAL do tiro, então 60% de um tiro de M99 crítico já limpa o grupo. A wiki diz que o Supercarregado triplica o raio, de 4 m para 12 m."},
+    {"icon": "alien-head", "pt": "Cabeça Alienígena", "en": "Alien Head", "prio": 2, "qty": "1 a 2", "effect": "Reduz o tempo de recarga das habilidades em 25% (+25% por acúmulo).", "why": "Supercarregado (15 s) e Dispositivo de Concussão (6 s) voltam mais rápido. A M99 não tem tempo de recarga, então não ganha nada."},
+    {"icon": "hardlight-afterburner", "pt": "Pós-combustor de Holograma", "en": "Hardlight Afterburner", "prio": 3, "qty": "1", "effect": "+2 (+2 por acúmulo) cargas da habilidade Utilitária e −33% no tempo de recarga dela.", "why": "O Dispositivo de Concussão passa de 2 para 4 cargas. Mais fugas e mais saltos para chegar a pontos altos."},
+    {"icon": "shattering-justice", "pt": "Justiça Destruidora", "en": "Shattering Justice", "prio": 3, "qty": "1", "effect": "Depois de acertar um inimigo 5 vezes, reduz a armadura dele em 60 por 8 s (+8 s por acúmulo).", "why": "A XQR dá 4 tiros por segundo: em pouco mais de um segundo o chefe perde armadura, e o Supercarregado que vem depois bate mais."},
+    {"icon": "pocket-i-c-b-m", "pt": "M.B.I.C. Compacto", "en": "Pocket I.C.B.M.", "prio": 4, "qty": "1 (com Míssil ASM)", "effect": "Todos os itens e equipamentos de míssil disparam 2 mísseis extras. Aumenta o dano dos mísseis em 0% (+50% por acúmulo).", "why": "Triplica os mísseis do Míssil ASM, que ativa muito com o Supercarregado. Sem Mísseis, não vale."}
+   ]
+  },
+  {
+   "id": "chefe",
+   "name": "Chefe",
+   "color": "amarelo",
+   "intro": "Itens de chefe só caem de chefes de teleporte.",
+   "items": [
+    {"icon": "charged-perforator", "pt": "Perfurador Carregado", "en": "Charged Perforator", "prio": 2, "qty": "1 ou mais", "effect": "10% de chance ao acertar de lançar um raio, causando 500% (+500% por acúmulo) de dano.", "why": "Com o coeficiente 3,0 do Supercarregado, a chance de ativar é muito maior. A XQR também ativa bastante."},
+    {"icon": "irradiant-pearl", "pt": "Pérola Irradiante", "en": "Irradiant Pearl", "prio": 3, "qty": "1 ou mais", "effect": "Aumenta TODOS os atributos em 10% (+10% por acúmulo).", "why": "Dano, velocidade de ataque para a recarga e vida, tudo de uma vez."}
+   ]
+  },
+  {
+   "id": "equipamento",
+   "name": "Equipamentos",
+   "color": "laranja",
+   "intro": "Só dá para carregar um. O Visor Ocular foi praticamente feito para ela.",
+   "items": [
+    {"icon": "ocular-hud", "pt": "Visor Ocular", "en": "Ocular HUD", "prio": 1, "qty": "1 (recarga 60 s)", "effect": "+100% de chance de Acerto Crítico por 8 s.", "why": "Nela, vira +100% de dano de crítico em Ponto Fraco, e a wiki diz que também dá +100% de dano de Ponto Fraco no período. Ative logo antes do Supercarregado no chefe."},
+    {"icon": "primordial-cube", "pt": "Cubo Primordial", "en": "Primordial Cube", "prio": 2, "qty": "1 (recarga 60 s)", "effect": "Dispara um buraco negro que puxa inimigos a até 30 m para o centro. Dura 10 s.", "why": "Junta o grupo em fila para o tiro perfurante. O Supercarregado não perde dano ao perfurar, e o Brutamontes explode no meio de todos."},
+    {"icon": "royal-capacitor", "pt": "Capacitor Régio", "en": "Royal Capacitor", "prio": 3, "qty": "1 (recarga 20 s)", "effect": "Lança um raio num monstro marcado, causando 3000% de dano e atordoando os monstros próximos.", "why": "Dano extra garantido a cada 20 s, útil nos 5 s em que o Supercarregado desliga as armas."},
+    {"icon": "spinel-tonic", "pt": "Tônico de Espinélia", "en": "Spinel Tonic", "prio": 3, "qty": "1 (equipamento lunar, recarga 60 s)", "effect": "Por 20 s: +100% de dano, +70% de velocidade de ataque, +20 de armadura, +50% de vida máxima, +300% de regeneração, +30% de movimento. Ao acabar, 20% de chance de Aflição do Tônico (−5% em todos os atributos por acúmulo, permanente).", "why": "Dobra o tiro e acelera a recarga. Guarde para chefes por causa da chance de aflição."},
+    {"icon": "preon-accumulator", "pt": "Acumulador de Préon", "en": "Preon Accumulator", "prio": 4, "qty": "1 (recarga 140 s)", "effect": "Dispara tentáculos de préon que atingem inimigos a até 35 m por até 600% de dano por segundo. Ao tocar, detona numa explosão enorme de 20 m causando 4000% de dano.", "why": "Dano de área enorme de vez em quando, que cobre a fraqueza dela contra grupos."}
+   ]
+  },
+  {
+   "id": "lunar",
+   "name": "Lunares",
+   "color": "azul",
+   "intro": "Itens lunares têm custo embutido. Pense no que ela perde.",
+   "items": [
+    {"icon": "shaped-glass", "pt": "Vidro Configurado", "en": "Shaped Glass", "prio": 3, "qty": "1 (se jogar de longe com segurança)", "effect": "+100% (+100% por acúmulo) de dano base. −50% (−50% por acúmulo) de vida máxima.", "why": "Dobra todo tiro. Ela luta de longe, então a vida menor pesa menos que em outros personagens, mas um erro custa caro."},
+    {"icon": "purity", "pt": "Pureza", "en": "Purity", "prio": 4, "qty": "1", "effect": "Reduz todas as recargas de habilidade em 2 s (+1 s por acúmulo). Todos os efeitos aleatórios são rolados +1 (+1 por acúmulo) vez contra você.", "why": "Supercarregado de 15 s para 13 s e Concussão de 6 s para 4 s. O crítico dela não é aleatório, mas Míssil, Ukulele, Bomba e Perfurador pioram."},
+    {"icon": "light-flux-pauldron", "pt": "Ombreira do Fluxo Iluminado", "en": "Light Flux Pauldron", "prio": 0, "qty": "0", "effect": "−50% (−50% por acúmulo) no tempo de recarga das habilidades. −50% (−50% por acúmulo) de velocidade de ataque.", "why": "A M99 não tem recarga de habilidade; ela depende da barra de recarga, que fica mais lenta com menos velocidade de ataque. Perde mais do que ganha."}
+   ]
+  },
+  {
+   "id": "vazio",
+   "name": "Vazio",
+   "color": "roxo",
+   "intro": "Itens do Vazio corrompem itens comuns quando pegos. Na Canhoneira, um deles destrói a build.",
+   "items": [
+    {"icon": "lysate-cell", "pt": "Célula Lisada", "en": "Lysate Cell", "prio": 2, "qty": "1 a 2", "effect": "+1 (+1 por acúmulo) carga da habilidade Especial e −33% no tempo de recarga dela. Corrompe todas as Células de Combustível.", "why": "O Supercarregado volta mais rápido e você guarda uma carga a mais. Como ele desliga as armas por 5 s, a segunda carga sai depois desse intervalo."},
+    {"icon": "voidsent-flame", "pt": "Chama da Nulidade", "en": "Voidsent Flame", "prio": 3, "qty": "1 a 2", "effect": "Ao acertar um inimigo com a vida cheia, cria um pilar de lava num raio de 12 m (+2,4 m por acúmulo) causando 260% (+156% por acúmulo) do dano base. Corrompe todos os Fogos Fátuos (Will-o'-the-wisp).", "why": "O tiro perfurante atravessa vários inimigos de vida cheia de uma vez, e cada um pode gerar um pilar. Dá dano de área a quem não tem."},
+    {"icon": "singularity-band", "pt": "Faixa da Singularidade", "en": "Singularity Band", "prio": 4, "qty": "1 (só se não tiver Cinturões)", "effect": "Golpes acima de 400% de dano também disparam um buraco negro que puxa inimigos a até 15 m para o centro. Dura 5 s antes de colapsar, causando 100% (+100% por acúmulo) de dano TOTAL. Recarrega a cada 20 s. Corrompe todos os Cinturões de Runald e de Kjaro.", "why": "Junta o grupo para o próximo tiro perfurante. Mas corrompe os Cinturões de Kjaro e Runald que esta build recomenda, e dá menos dano."},
+    {"icon": "plasma-shrimp", "pt": "Camarão de Plasma", "en": "Plasma Shrimp", "prio": 4, "qty": "1", "effect": "Ganha escudo de 10% da vida máxima. Com escudo, cada acerto dispara um míssil de 40% (+40% por acúmulo) de dano TOTAL. Corrompe todos os Mísseis ASM Mk. 1.", "why": "Ela leva pouco dano, então o escudo dura. Mas corrompe os Mísseis ASM, que rendem muito com o coeficiente 3,0 do Supercarregado."},
+    {"icon": "lost-seers-lenses", "pt": "Lentes do Profeta Perdido", "en": "Lost Seer's Lenses", "prio": 0, "qty": "0", "effect": "Seus ataques têm 0,5% (+0,5% por acúmulo) de chance de matar na hora um inimigo que não seja chefe. Corrompe todos os Óculos do Fabricante de Lentes.", "why": "Corrompe todos os seus Óculos, que são a base do dano de crítico dela. Nunca pegue."}
+   ]
+  }
+ ],
+ "synergy": [
+  {"title": "Como o crítico funciona nela", "text": "O Acelerador Magnético transforma toda chance de crítico em dano de crítico, 1% para 1%, sobre a base de 200%. Ela não tem críticos aleatórios: o crítico só acontece ao acertar um Ponto Fraco, que a mira destaca e que garante crítico. Por isso Óculos, Instintos, Foice e Visor Ocular só servem se você acertar os Pontos Fracos. Em troca, a chance não para em 100%: dá para acumular Óculos além de 10."},
+  {"title": "Mira Laser e Supercarregado", "text": "A Mira Laser soma +100% ao dano de crítico por acúmulo, o mesmo que dez Óculos. No Supercarregado, todo o dano de crítico ainda é multiplicado por 1,5, e o tiro tem 150% de dano de Ponto Fraco. Visor Ocular ligado antes do tiro adiciona mais +100% de dano de crítico e +100% de dano de Ponto Fraco. Essa combinação apaga a barra de vida de quase qualquer chefe."},
+  {"title": "Golpes acima de 400%", "text": "Todo tiro de M99 (1.000%), HH44 (400% base, mais com itens) e Supercarregado (4.000%) passa do limite dos Cinturões. Kjaro e Runald ativam a cada 10 s, e o dano TOTAL deles cresce com o tamanho do tiro. Pé de Cabra entra no primeiro tiro em quem está de vida cheia."},
+  {"title": "Coeficiente 3,0 do Supercarregado", "text": "O coeficiente multiplica a chance dos itens ao acertar. Com 3,0, Míssil ASM e Perfurador Carregado ativam com chance três vezes maior no Supercarregado, e o dano TOTAL deles vem de um tiro de 4.000%. Segundo a wiki, cerca de 7 Bombas Aderentes garantem a ativação."},
+  {"title": "A fraqueza contra grupos", "text": "O jogo avisa que ela pode ser sobrecarregada por muitos inimigos pequenos. Brutamontes (raio triplicado no Supercarregado), Ukulele, Chama da Nulidade e Cubo Primordial transformam o tiro único em dano de área. A XQR com Shuriken limpa os pequenos sem gastar a mira."}
+ ],
+ "rotation": [
+  {"step": "Visor Ocular", "text": "Ative logo antes do tiro grande no chefe ou na elite."},
+  {"step": "Supercarregado no Ponto Fraco", "text": "Mire no ponto destacado; o crítico garantido é multiplicado por 1,5."},
+  {"step": "Concussão se precisar", "text": "Nos 5 s sem armas, a Utilitária continua livre para fugir."},
+  {"step": "M99 com recarga perfeita", "text": "Volte à mira e acerte a faixa da Recarga Ativa para +500% no próximo tiro."},
+  {"step": "XQR nos pequenos", "text": "Entre um tiro de mira e outro, limpe os inimigos pequenos com os projéteis teleguiados."}
+ ],
+ "essentials": [
+  {"pt": "Óculos do Fabricante de Lentes", "en": "Lens-Maker's Glasses"},
+  {"pt": "Pé de Cabra", "en": "Crowbar"},
+  {"pt": "Instintos Predatórios", "en": "Predatory Instincts"},
+  {"pt": "Cinturão de Kjaro", "en": "Kjaro's Band"},
+  {"pt": "Mira Laser", "en": "Laser Scope"},
+  {"pt": "Brutamontes Reluzente", "en": "Brilliant Behemoth"},
+  {"pt": "Visor Ocular", "en": "Ocular HUD"}
+ ],
+ "situational_note": "Situacionais: Pente Reserva, Ukulele, Míssil ASM, Cabeça Alienígena, Célula Lisada, Chama da Nulidade, Vidro Configurado e Pureza.",
+ "fallbacks": [
+  {"pt": "Óculos do Fabricante de Lentes", "en": "Lens-Maker's Glasses", "text": "Instintos Predatórios e Foice do Ceifador para algum dano de crítico; Projéteis Perfurantes e Relógio Delicado para dano direto."},
+  {"pt": "Pé de Cabra", "en": "Crowbar", "text": "Projéteis Perfurantes para chefes e Relógio Delicado. Chama da Nulidade também premia o primeiro acerto."},
+  {"pt": "Instintos Predatórios", "en": "Predatory Instincts", "text": "Seringa Militar para acelerar a barra de recarga, e Pente Reserva para dar mais tiros entre recargas."},
+  {"pt": "Cinturão de Kjaro", "en": "Kjaro's Band", "text": "Cinturão de Runald, que usa o mesmo gatilho de 400%."},
+  {"pt": "Mira Laser", "en": "Laser Scope", "text": "Mais Óculos (dez equivalem a uma Mira) e Visor Ocular como equipamento."},
+  {"pt": "Brutamontes Reluzente", "en": "Brilliant Behemoth", "text": "Ukulele, Chama da Nulidade e Cubo Primordial para lidar com grupos."},
+  {"pt": "Visor Ocular", "en": "Ocular HUD", "text": "Tônico de Espinélia para chefes ou Cubo Primordial para juntar grupos."}
+ ],
+ "summary": "Acelerador Magnético, XQR, M99 Sniper, Dispositivo de Concussão e Supercarregado. Acerte Pontos Fracos com a M99 e o Supercarregado: só ali existe crítico, e toda chance de crítico vira dano de crítico. Empilhe Óculos sem medo de passar de 10, pegue Mira Laser, Pé de Cabra e os Cinturões, e use Brutamontes e Ukulele para compensar a fraqueza contra grupos.",
+ "checklist": [
+  {"title": "Sempre pegue", "text": "Óculos do Fabricante de Lentes, Pé de Cabra, Instintos Predatórios, Cinturão de Kjaro, Mira Laser, Brutamontes."},
+  {"title": "Impressoras brancas", "text": "Transforme em Óculos do Fabricante de Lentes; eles não têm limite útil nela. Depois Pé de Cabra."},
+  {"title": "Primeiro verde", "text": "Instintos Predatórios ou Cinturão de Kjaro. Depois Runald e Míssil ASM."},
+  {"title": "Equipamento", "text": "Visor Ocular, ativado logo antes do Supercarregado."},
+  {"title": "Antes de pegar Vazio", "text": "Faixa da Singularidade corrompe os Cinturões; Camarão de Plasma corrompe os Mísseis ASM."},
+  {"title": "Não pegue", "text": "Lentes do Profeta Perdido: corrompe todos os seus Óculos. Ombreira do Fluxo Iluminado: corta a velocidade de ataque."},
+  {"title": "Luta de chefe", "text": "Visor Ocular, Supercarregado no Ponto Fraco, Concussão se apertar, depois M99 com recarga perfeita."}
+ ],
+ "sources": [
+  {"title": "Railgunner — Risk of Rain 2 Wiki", "url": "https://riskofrain2.wiki.gg/wiki/Railgunner"},
+  {"title": "Lens-Maker's Glasses — Risk of Rain 2 Wiki", "url": "https://riskofrain2.wiki.gg/wiki/Lens-Maker's_Glasses"},
+  {"title": "Laser Scope — Risk of Rain 2 Wiki", "url": "https://riskofrain2.wiki.gg/wiki/Laser_Scope"},
+  {"title": "Proc Coefficient — Risk of Rain 2 Wiki", "url": "https://riskofrain2.wiki.gg/wiki/Proc_Coefficient"},
+  {"title": "Items — Risk of Rain 2 Wiki", "url": "https://riskofrain2.wiki.gg/wiki/Items"}
+ ],
+ "notes": [
+  "A Canhoneira faz parte da DLC Survivors of the Void.",
+  "A wiki não diz explicitamente se a XQR pode acertar Ponto Fraco; ela diz apenas que a Canhoneira não tem críticos aleatórios e que o Ponto Fraco é destacado pela mira."
+ ]
+}

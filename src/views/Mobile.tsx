@@ -1,0 +1,211 @@
+import { useEffect, useState, type ReactNode } from 'react';
+import { BUILDS, GROUPS, TIER, shortQty } from '../data/roster.ts';
+import type { BuildState } from '../useBuildState.ts';
+import type { FlatItem } from '../types.ts';
+import { Heading, Label, PrioTag, QtyBadge, SearchField, cx, icon } from '../components/ui.tsx';
+import {
+  Checklist, Fallbacks, ItemDetail, Notes, Rotation, SiteFooter, Skills, Sources, Summary, Synergy, TierTabs,
+} from '../components/build-parts.tsx';
+
+type Tab = 'build' | 'itens' | 'partida';
+const TABS: [Tab, string][] = [
+  ['build', 'Build'],
+  ['itens', 'Itens'],
+  ['partida', 'Partida'],
+];
+
+function More({ title, children }: { title: string; children: ReactNode }) {
+  return (
+    <details className="group rounded-card border border-line-soft">
+      <summary className="flex min-h-12 cursor-pointer list-none items-center justify-between px-4 font-semibold">
+        {title}
+        <svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" className="text-ink-3 transition-transform group-open:rotate-180">
+          <path d="M6 9l6 6 6-6" />
+        </svg>
+      </summary>
+      <div className="px-3 pb-3">{children}</div>
+    </details>
+  );
+}
+
+export function Mobile(s: BuildState) {
+  const { build, all, core, list, selected, sid } = s;
+  const [tab, setTab] = useState<Tab>('itens');
+  const [sheet, setSheet] = useState(false);
+
+  useEffect(() => setSheet(false), [sid]);
+  useEffect(() => {
+    if (!sheet) return;
+    const onKey = (e: KeyboardEvent) => e.key === 'Escape' && setSheet(false);
+    window.addEventListener('keydown', onKey);
+    return () => window.removeEventListener('keydown', onKey);
+  }, [sheet]);
+
+  const open = (it: FlatItem) => {
+    s.select(it);
+    setSheet(true);
+  };
+
+  return (
+    <div className="min-h-dvh bg-surface pb-[calc(72px+env(safe-area-inset-bottom))]">
+      <header className="sticky top-0 z-10 flex flex-col gap-3 border-b border-line-soft bg-ground px-4 pt-[calc(14px+env(safe-area-inset-top))] pb-3">
+        <div className="flex items-center justify-between">
+          <span className="heading text-xl tracking-[0.04em]">Logbook de builds</span>
+          <span className="font-mono text-label text-ink-3">RoR2</span>
+        </div>
+        <label htmlFor="m-sv" className="sr-only">
+          Sobrevivente
+        </label>
+        <div className="relative">
+          <select
+            id="m-sv"
+            value={sid}
+            onChange={(e) => s.go(e.target.value)}
+            className="h-11 w-full appearance-none rounded-card border border-line bg-panel pr-10 pl-3.5 text-body font-semibold text-ink"
+          >
+            {GROUPS.map((g) => (
+              <optgroup key={g.label} label={g.label}>
+                {g.ids.map((id) => (
+                  <option key={id} value={id}>
+                    {BUILDS[id].name_pt}
+                    {BUILDS[id].name_pt !== BUILDS[id].name_en ? ` (${BUILDS[id].name_en})` : ''}
+                  </option>
+                ))}
+              </optgroup>
+            ))}
+          </select>
+          <svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" className="pointer-events-none absolute top-3.5 right-3.5 text-ink-3">
+            <path d="M6 9l6 6 6-6" />
+          </svg>
+        </div>
+      </header>
+
+      <main className="px-4 pt-4.5 pb-6">
+        {tab === 'build' && (
+          <div className="flex flex-col gap-4.5">
+            <div className="flex flex-col gap-2">
+              <Heading as="h1" className="text-[34px] leading-[0.95]">{build.title}</Heading>
+              <p className="m-0 text-sm text-ink-2">{build.lede}</p>
+            </div>
+            <div className="grid grid-cols-2 gap-2">
+              {build.loadout.map((l, i) => (
+                <div key={i} className="flex min-w-0 flex-col gap-0.5 rounded-card border border-line bg-panel px-3 py-2.5">
+                  <Label>{l.slot}</Label>
+                  <span className="text-sm leading-snug font-semibold">{l.skill}</span>
+                </div>
+              ))}
+            </div>
+            <Notes build={build} />
+            <Rotation build={build} idPrefix="m" />
+            <More title="Habilidades em detalhe"><Skills build={build} /></More>
+            <More title="Como as peças se encaixam"><Synergy build={build} /></More>
+            <More title="Quando faltar um essencial"><Fallbacks build={build} /></More>
+            <Summary build={build} />
+            <Sources build={build} />
+          </div>
+        )}
+
+        {tab === 'itens' && (
+          <div className="flex flex-col gap-4">
+            <div className="flex flex-col gap-2.5">
+              <div className="flex items-baseline justify-between">
+                <Heading size="md">Núcleo</Heading>
+                <span className="text-meta text-ink-3">pegue estes primeiro</span>
+              </div>
+              <div className="grid grid-cols-4 gap-1.5">
+                {core.map((it) => (
+                  <button
+                    key={it.key}
+                    type="button"
+                    aria-label={`${it.pt}, quantidade ${it.qty}`}
+                    onClick={() => open(it)}
+                    className="relative grid aspect-square max-w-full cursor-pointer place-items-center rounded-card bg-panel"
+                    style={{ boxShadow: `inset 0 -3px 0 ${TIER[it.tier].color}` }}
+                  >
+                    <img src={icon(it.icon)} alt="" width={56} height={56} className="size-14 object-contain" />
+                    <QtyBadge small>{shortQty(it.qty)}</QtyBadge>
+                  </button>
+                ))}
+              </div>
+            </div>
+            <SearchField id="m-busca" value={s.query} onChange={s.setQuery} />
+            <TierTabs all={all} tier={s.tier} setTier={s.setTier} />
+            <div className="flex flex-col gap-0.5">
+              {list.map((it) => (
+                <button
+                  key={it.key}
+                  type="button"
+                  onClick={() => open(it)}
+                  className={cx('flex min-h-14 cursor-pointer items-center gap-3 rounded-card px-2.5 py-2 text-left', sheet && selected?.key === it.key && 'bg-raised')}
+                  style={{ boxShadow: `inset 3px 0 0 ${TIER[it.tier].color}` }}
+                >
+                  <img src={icon(it.icon)} alt="" width={44} height={44} className="size-11 flex-none object-contain" />
+                  <span className="flex min-w-0 flex-1 flex-col">
+                    <span className="text-sm leading-tight font-medium">{it.pt}</span>
+                    {it.pt !== it.en && <span className="text-xs text-ink-3">{it.en}</span>}
+                  </span>
+                  <span className="flex flex-none flex-col items-end gap-1">
+                    <PrioTag p={it.prio} />
+                    <span className="font-mono text-label text-ink-3">×{shortQty(it.qty)}</span>
+                  </span>
+                </button>
+              ))}
+              {!list.length && <p className="m-0 p-6 text-center text-ink-3">Nenhum item com esse filtro.</p>}
+            </div>
+          </div>
+        )}
+
+        {tab === 'partida' && (
+          <div className="flex flex-col gap-4">
+            <Checklist build={build} done={s.done} toggle={s.toggle} resetChecks={s.resetChecks} idPrefix="m" />
+            <Rotation build={build} idPrefix="m2" />
+          </div>
+        )}
+      </main>
+      <SiteFooter />
+
+      {sheet && selected && (
+        <div className="fixed inset-0 z-30">
+          <button type="button" aria-label="Fechar detalhes" onClick={() => setSheet(false)} className="absolute inset-0 cursor-default bg-black/60" />
+          <section
+            role="dialog"
+            aria-modal="true"
+            aria-label={selected.pt}
+            className="absolute inset-x-0 bottom-0 max-h-[80dvh] overflow-y-auto rounded-t-[18px] border-t border-line bg-panel pt-2.5 pb-[calc(20px+env(safe-area-inset-bottom))]"
+          >
+            <span aria-hidden="true" className="mx-auto mb-1 block h-1 w-10 rounded-full bg-line-strong" />
+            <div className="flex justify-end px-3">
+              <button type="button" aria-label="Fechar" onClick={() => setSheet(false)} className="grid size-11 cursor-pointer place-items-center rounded-full bg-line-soft text-ink">
+                <svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round">
+                  <path d="M6 6l12 12M18 6L6 18" />
+                </svg>
+              </button>
+            </div>
+            <div className="px-3">
+              <ItemDetail it={selected} build={build} />
+            </div>
+          </section>
+        </div>
+      )}
+
+      <nav aria-label="Seções" className="fixed inset-x-0 bottom-0 z-20 grid grid-cols-3 border-t border-line-soft bg-ground pb-[env(safe-area-inset-bottom)]">
+        {TABS.map(([id, label]) => (
+          <button
+            key={id}
+            type="button"
+            aria-current={tab === id ? 'page' : undefined}
+            onClick={() => {
+              setTab(id);
+              setSheet(false);
+              window.scrollTo(0, 0);
+            }}
+            className={cx('flex h-[72px] cursor-pointer flex-col items-center justify-center gap-1.5 text-meta font-medium', tab === id ? 'text-ink' : 'text-ink-4')}
+          >
+            <span aria-hidden="true" className={cx('h-[3px] w-7 rounded-full', tab === id ? 'bg-accent' : 'bg-transparent')} />
+            {label}
+          </button>
+        ))}
+      </nav>
+    </div>
+  );
+}

@@ -1,0 +1,690 @@
+{
+ "id": "drifter",
+ "name_pt": "Andarilho",
+ "name_en": "Drifter",
+ "title": "Andarilho: Build de Tralha e Sucata",
+ "tagline": "Bater rápido, juntar Tralha, gerar itens",
+ "lede": "Uma build de briga corpo a corpo para jogar normalmente e chegar longe: bater rápido com a Força Bruta para gerar Tralha, gastar essa Tralha em itens temporários com o Sucatear e guardar Sucata de Item para ganhar atributos com a passiva. Velocidade de ataque é o atributo central, porque cada golpe tem chance de gerar Tralha.",
+ "loadout": [
+  {
+   "slot": "Passiva",
+   "skill": "Do Lixo ao Luxo (Trash to Treasure)"
+  },
+  {
+   "slot": "Primária",
+   "skill": "Força Bruta (Blunt Force)"
+  },
+  {
+   "slot": "Secundária",
+   "skill": "Limpeza (Cleanup)"
+  },
+  {
+   "slot": "Utilitária",
+   "skill": "Reapropriação (Repossess)"
+  },
+  {
+   "slot": "Especial",
+   "skill": "Sucatear (Salvage)"
+  }
+ ],
+ "skills": [
+  {
+   "slot": "Passiva",
+   "pt": "Do Lixo ao Luxo",
+   "en": "Trash to Treasure",
+   "pick": "Fixa",
+   "spec": "Por Sucata de Item carregada: branca +6% de movimento, verde +3 de regeneração/s, vermelha +30% de velocidade de ataque, amarela −15% nas recargas.",
+   "why": "Sucata deixa de ser só moeda de impressora. Uma vermelha guardada vale +30% de velocidade de ataque, e uma amarela encurta todas as recargas. A wiki diz que a Sucata Regeneradora também conta."
+  },
+  {
+   "slot": "Primária",
+   "pt": "Força Bruta",
+   "en": "Blunt Force",
+   "pick": "Única opção",
+   "spec": "Golpes de 170%; o terceiro causa 350% e atordoa. Coeficiente 1,0. 40% de chance de gerar Tralha ao acertar.",
+   "why": "É a fonte principal de Tralha. Cada golpe é uma chance de 40%, então mais velocidade de ataque significa mais Tralha por segundo e mais Sucatear."
+  },
+  {
+   "slot": "Primária (alt.)",
+   "pt": "Bludgeon",
+   "en": "Bludgeon",
+   "pick": "Variante",
+   "spec": "280% de dano, que escala com a massa do objeto carregado. Coeficiente 1,0.",
+   "why": "Alternativa listada pela wiki, sem nome em português no arquivo do jogo, provavelmente por ser recente. Rende mais quando você carrega objetos pesados. A build usa Força Bruta porque o terceiro golpe atordoa e pode derrubar Tralha."
+  },
+  {
+   "slot": "Secundária",
+   "pt": "Limpeza",
+   "en": "Cleanup",
+   "pick": "Recomendada",
+   "spec": "4 × 100% de dano mais o objeto da bolsa. Coeficiente 1,0 por detrito. Recarga 6 s. Pode gastar 2 Tralhas para ignorar a recarga.",
+   "why": "Dá dano à distância para voadores, que a Força Bruta não alcança. O objeto da bolsa muda com a raridade: a Bola de Tralha comum atordoa e vira 8 bombas, o Barril incomum ativa itens de interação como o Pacote de Fogos de Artifício. Gastar Tralha aqui compete com o Sucatear, então use com moderação."
+  },
+  {
+   "slot": "Secundária (alt.)",
+   "pt": "Cubo de Tralha",
+   "en": "Junk Cube",
+   "pick": "Variante",
+   "spec": "Golpe de 400% que cria um cubo. Rebater o cubo o lança até 3 vezes (+100% por ativação) e ele explode com 800%. Recarga 8 s. Pode gastar 4 Tralhas para ignorar a recarga.",
+   "why": "Mais dano em área e pode ser usado correndo. Até 4 cubos ao mesmo tempo. Gastar Tralha não reduz a recarga que falta, diferente da Limpeza, e custa o dobro."
+  },
+  {
+   "slot": "Utilitária",
+   "pt": "Reapropriação",
+   "en": "Repossess",
+   "pick": "Recomendada",
+   "spec": "Salta e captura um monstro ou objeto interativo. Recarga 7 s, pausada enquanto há algo na bolsa. Esmagar: 280% (cresce com a massa), 1 Tralha por golpe. Descartar: 280% (cresce com a massa), 4 Tralhas ao arremessar um monstro.",
+   "why": "É a forma mais confiável de juntar Tralha: esmagar dá 1 por golpe e destruir o objeto da bolsa dá mais 4. Não captura chefes. Elites capturados continuam causando efeitos, como fogo, em você."
+  },
+  {
+   "slot": "Utilitária (alt.)",
+   "pt": "Tornado Furioso",
+   "en": "Tornado Slam",
+   "pick": "Variante",
+   "spec": "Giro de 220% por acerto e impacto de 600%. Coeficiente 1,0. Recarga 8 s. 50% de chance de Tralha por acerto.",
+   "why": "Mobilidade e dano em área. A wiki registra um bug: a frequência de acertos do giro é dividida pela velocidade de ataque em vez de multiplicada, então combina mal com esta build de velocidade de ataque."
+  },
+  {
+   "slot": "Especial",
+   "pt": "Sucatear",
+   "en": "Salvage",
+   "pick": "Recomendada",
+   "spec": "Consome 8 Tralhas e gera 4 itens temporários. Recarga 30 s.",
+   "why": "Transforma Tralha em itens de verdade por um tempo. Segundo a wiki, cada acúmulo de item temporário dura 80 s e funciona igual à versão permanente. É o motivo de tanta velocidade de ataque."
+  },
+  {
+   "slot": "Especial (alt.)",
+   "pt": "Modificar",
+   "en": "Tinker",
+   "pick": "Variante",
+   "spec": "Consome 8 Tralhas. Onda de 100% que atordoa e aplica um debuff aleatório. Recarga 30 s. Coeficiente 1,0.",
+   "why": "Em um item no chão, gera Sucata do mesmo nível e uma cópia temporária. Em impressoras, Terminais Multiloja e Caldeirões, rola o conteúdo de novo até 2 vezes. Ótimo para escolher itens e alimentar a passiva, mas gera menos poder imediato que o Sucatear."
+  }
+ ],
+ "sections": [
+  {
+   "id": "comum",
+   "name": "Comum",
+   "color": "branco",
+   "intro": "A Força Bruta gera Tralha a cada golpe, então os brancos que mais rendem são velocidade de ataque e dano de perto.",
+   "items": [
+    {
+     "icon": "soldiers-syringe",
+     "pt": "Seringa Militar",
+     "en": "Soldier's Syringe",
+     "prio": 1,
+     "qty": "4 a 8",
+     "effect": "+15% (+15% por acúmulo) de velocidade de ataque.",
+     "why": "Mais golpes da Força Bruta por segundo, e cada um tem 40% de chance de gerar Tralha. Mais Tralha vira mais Sucatear."
+    },
+    {
+     "icon": "focus-crystal",
+     "pt": "Cristal de Foco",
+     "en": "Focus Crystal",
+     "prio": 1,
+     "qty": "3 a 5",
+     "effect": "+20% (+20% por acúmulo) de dano contra inimigos a até 13 m.",
+     "why": "Força Bruta e Esmagar são golpes corpo a corpo. Quase todo o seu dano acontece dentro dos 13 m."
+    },
+    {
+     "icon": "tougher-times",
+     "pt": "Tempos Difíceis",
+     "en": "Tougher Times",
+     "prio": 2,
+     "qty": "2 a 4",
+     "effect": "15% (+15% por acúmulo) de chance de bloquear dano recebido. Não é afetado por sorte.",
+     "why": "Você luta colado no grupo e às vezes carrega um elite na bolsa. Cada bloqueio é um golpe evitado."
+    },
+    {
+     "icon": "backup-magazine",
+     "pt": "Pente Reserva",
+     "en": "Backup Magazine",
+     "prio": 2,
+     "qty": "1 a 3",
+     "effect": "+1 (+1 por acúmulo) carga da habilidade Secundária.",
+     "why": "Mais cargas de Limpeza sem gastar Tralha. Assim a Tralha fica guardada para o Sucatear."
+    },
+    {
+     "icon": "mocha",
+     "pt": "Mocha",
+     "en": "Mocha",
+     "prio": 2,
+     "qty": "1 a 3",
+     "effect": "+7,5% (+7,5% por acúmulo) de velocidade de ataque e +7% (+7% por acúmulo) de velocidade de movimento.",
+     "why": "Velocidade de ataque para gerar Tralha e movimento para alcançar os inimigos."
+    },
+    {
+     "icon": "pauls-goat-hoof",
+     "pt": "Casco de Bode de Paul",
+     "en": "Paul's Goat Hoof",
+     "prio": 3,
+     "qty": "1 a 3",
+     "effect": "+14% (+14% por acúmulo) de velocidade de movimento.",
+     "why": "Objetos pesados na bolsa deixam você mais lenta. Movimento extra compensa e ajuda a chegar perto para bater."
+    },
+    {
+     "icon": "crowbar",
+     "pt": "Pé de Cabra",
+     "en": "Crowbar",
+     "prio": 3,
+     "qty": "1 a 3",
+     "effect": "+75% (+75% por acúmulo) de dano contra inimigos acima de 90% de vida.",
+     "why": "O primeiro golpe pesado, como o arremesso do Descartar ou a Limpeza, pega o inimigo com a vida cheia."
+    },
+    {
+     "icon": "lens-makers-glasses",
+     "pt": "Óculos do Fabricante de Lentes",
+     "en": "Lens-Maker's Glasses",
+     "prio": 3,
+     "qty": "1 a 3",
+     "effect": "10% (+10% por acúmulo) de chance de Acerto Crítico, que causa dano dobrado.",
+     "why": "Dano extra para os golpes rápidos. Com o Tornado Furioso, a wiki diz que críticos geram Tralha extra."
+    },
+    {
+     "icon": "bundle-of-fireworks",
+     "pt": "Pacote de Fogos de Artifício",
+     "en": "Bundle of Fireworks",
+     "prio": 4,
+     "qty": "1 a 2",
+     "effect": "Ativar um objeto interativo lança 8 (+4 por acúmulo) fogos de artifício que causam 300% do dano base.",
+     "why": "A wiki diz que o Barril incomum da Limpeza ativa itens de interação como este. Só vale quando o objeto da bolsa é o Barril."
+    }
+   ]
+  },
+  {
+   "id": "incomum",
+   "name": "Incomum",
+   "color": "verde",
+   "intro": "Os verdes dão efeitos ao acertar para os golpes rápidos e uma Sucata que alimenta a passiva todo estágio.",
+   "items": [
+    {
+     "icon": "regenerating-scrap",
+     "pt": "Sucata Regeneradora",
+     "en": "Regenerating Scrap",
+     "prio": 2,
+     "qty": "1 a 2",
+     "effect": "Não faz nada. Tem prioridade em Impressoras 3D incomuns. No início de cada estágio, se regenera.",
+     "why": "A wiki diz que conta para a passiva: +3 de regeneração por acúmulo enquanto você carrega. Pode ser gasta numa impressora e volta no próximo estágio."
+    },
+    {
+     "icon": "leeching-seed",
+     "pt": "Semente Sanguessuga",
+     "en": "Leeching Seed",
+     "prio": 2,
+     "qty": "1 a 3",
+     "effect": "Causar dano cura 1 (+1 por acúmulo) de vida.",
+     "why": "A Força Bruta tem coeficiente 1,0 e bate muitas vezes por segundo. Cada golpe cura."
+    },
+    {
+     "icon": "ukulele",
+     "pt": "Ukulele",
+     "en": "Ukulele",
+     "prio": 2,
+     "qty": "1 a 2",
+     "effect": "25% de chance de disparar um raio em cadeia de 80% de dano TOTAL em até 3 (+2 por acúmulo) alvos a 20 m (+2 m por acúmulo).",
+     "why": "Os golpes rápidos ativam muito, e o raio alcança voadores e inimigos espalhados."
+    },
+    {
+     "icon": "atg-missile-mk-1",
+     "pt": "Míssil ASM Mk. 1",
+     "en": "AtG Missile Mk. 1",
+     "prio": 2,
+     "qty": "1 a 3",
+     "effect": "10% de chance de disparar um míssil que causa 300% (+300% por acúmulo) de dano TOTAL.",
+     "why": "Dano à distância a partir dos golpes de perto. Ajuda contra chefes, que a Reapropriação não captura."
+    },
+    {
+     "icon": "shuriken",
+     "pt": "Shuriken",
+     "en": "Shuriken",
+     "prio": 3,
+     "qty": "1 a 2",
+     "effect": "Usar a Primária também arremessa uma shuriken de 400% (+100% por acúmulo) do dano base. Guarda até 3 (+1 por acúmulo), que recarregam em 10 s.",
+     "why": "Você usa a Força Bruta o tempo todo, então as shurikens nunca ficam paradas."
+    },
+    {
+     "icon": "collectors-compulsion",
+     "pt": "Compulsão de Colecionador",
+     "en": "Collector's Compulsion",
+     "prio": 3,
+     "qty": "1 a 2",
+     "effect": "Pegar um item ou outro coletável aumenta todos os atributos em +3% por 20 s, até 3 (+2 por acúmulo) vezes. Barris dão pequenos coletáveis.",
+     "why": "O Sucatear gera 4 itens para pegar de uma vez. O texto do item fala em pegar itens, mas a wiki da Andarilho não confirma a interação com itens temporários."
+    },
+    {
+     "icon": "harvesters-scythe",
+     "pt": "Foice do Ceifador",
+     "en": "Harvester's Scythe",
+     "prio": 3,
+     "qty": "1 (com Óculos)",
+     "effect": "+5% de chance de crítico. Críticos curam 8 (+4 por acúmulo) de vida.",
+     "why": "Com golpes rápidos e alguns Óculos, cura a cada crítico. Sem chance de crítico, prefira a Semente."
+    },
+    {
+     "icon": "bandolier",
+     "pt": "Cartucheira",
+     "en": "Bandolier",
+     "prio": 4,
+     "qty": "1",
+     "effect": "18% (+10% por acúmulo) de chance ao abater de derrubar uma caixa de munição que reinicia todas as recargas.",
+     "why": "Pode reiniciar a recarga de 30 s do Sucatear. Você ainda precisa ter 8 Tralhas para usar."
+    },
+    {
+     "icon": "old-war-stealthkit",
+     "pt": "Kit Furtivo da Guerra Antiga",
+     "en": "Old War Stealthkit",
+     "prio": 4,
+     "qty": "1",
+     "effect": "Ao cair abaixo de 25% de vida, ganha 40% de velocidade e invisibilidade por 5 s. Recarrega a cada 30 s (−50% por acúmulo).",
+     "why": "Saída de emergência para quem entrou fundo demais no grupo."
+    }
+   ]
+  },
+  {
+   "id": "lendario",
+   "name": "Lendário",
+   "color": "vermelho",
+   "intro": "Os vermelhos encurtam a recarga do Sucatear e aumentam o dano dos golpes. Um vermelho que não serve vira Sucata e +30% de velocidade de ataque.",
+   "items": [
+    {
+     "icon": "alien-head",
+     "pt": "Cabeça Alienígena",
+     "en": "Alien Head",
+     "prio": 1,
+     "qty": "1 a 2",
+     "effect": "Reduz o tempo de recarga das habilidades em 25% (+25% por acúmulo).",
+     "why": "O Sucatear tem 30 s de recarga. Com Tralha sobrando, a recarga é o limite, e este item a encurta. Limpeza e Reapropriação também voltam antes."
+    },
+    {
+     "icon": "brilliant-behemoth",
+     "pt": "Brutamontes Reluzente",
+     "en": "Brilliant Behemoth",
+     "prio": 1,
+     "qty": "1 a 2",
+     "effect": "Todos os ataques explodem em 4 m (+2,5 m por acúmulo) causando 60% de dano TOTAL extra.",
+     "why": "Cada golpe da Força Bruta vira dano em área no meio do grupo."
+    },
+    {
+     "icon": "substandard-duplicator",
+     "pt": "Duplicador Fajuto",
+     "en": "Substandard Duplicator",
+     "prio": 2,
+     "qty": "1 a 2",
+     "effect": "Pegar um item dá uma cópia temporária dele. Itens temporários duram 10 s a mais (+10 s por acúmulo).",
+     "why": "Todo item que você pega vem em dobro por um tempo, e os itens do Sucatear duram mais. A wiki não diz se pegar um item temporário gera outra cópia."
+    },
+    {
+     "icon": "item-scrap-red",
+     "pt": "Sucata de Item, Vermelha",
+     "en": "Item Scrap, Red",
+     "prio": 3,
+     "qty": "1 a 2",
+     "effect": "Não faz nada. Tem prioridade em Impressoras 3D.",
+     "why": "Pela passiva, cada Sucata vermelha guardada dá +30% de velocidade de ataque. Recicle o vermelho que não combina com a build e guarde a Sucata."
+    },
+    {
+     "icon": "rejuvenation-rack",
+     "pt": "Suporte do Rejuvenescimento",
+     "en": "Rejuvenation Rack",
+     "prio": 3,
+     "qty": "1",
+     "effect": "Cura +100% (+100% por acúmulo) a mais.",
+     "why": "Dobra a cura da Semente, da Foice e a regeneração que vem da Sucata verde."
+    },
+    {
+     "icon": "57-leaf-clover",
+     "pt": "Trevo 57",
+     "en": "57 Leaf Clover",
+     "prio": 3,
+     "qty": "1",
+     "effect": "Todos os efeitos aleatórios são rolados +1 (+1 por acúmulo) vez a seu favor.",
+     "why": "Melhora Ukulele, Míssil e crítico. O guia da comunidade diz que também aumenta a chance de Tralha da Força Bruta, mas a wiki não confirma."
+    },
+    {
+     "icon": "hardlight-afterburner",
+     "pt": "Pós-combustor de Holograma",
+     "en": "Hardlight Afterburner",
+     "prio": 4,
+     "qty": "1",
+     "effect": "+2 (+2 por acúmulo) cargas da Utilitária e −33% no tempo de recarga dela.",
+     "why": "Melhor com o Tornado Furioso, que tem recarga fixa. A recarga da Reapropriação pausa enquanto há algo na bolsa, então rende menos."
+    }
+   ]
+  },
+  {
+   "id": "chefe",
+   "name": "Chefe",
+   "color": "amarelo",
+   "intro": "Itens de chefe só caem de chefes de teleporte. A Sucata amarela tem um efeito próprio na passiva.",
+   "items": [
+    {
+     "icon": "item-scrap-yellow",
+     "pt": "Sucata de Item, Amarela",
+     "en": "Item Scrap, Yellow",
+     "prio": 2,
+     "qty": "1 a 2",
+     "effect": "Não faz nada. Tem prioridade em Impressoras 3D.",
+     "why": "Pela passiva, cada Sucata amarela reduz as recargas em 15%. Inclui o Sucatear. Recicle um item amarelo fraco e guarde a Sucata."
+    },
+    {
+     "icon": "irradiant-pearl",
+     "pt": "Pérola Irradiante",
+     "en": "Irradiant Pearl",
+     "prio": 3,
+     "qty": "1 ou mais",
+     "effect": "Aumenta TODOS os atributos em 10% (+10% por acúmulo).",
+     "why": "Vida, dano, velocidade de ataque e regeneração de uma vez. A Modificar não funciona em Pérolas."
+    }
+   ]
+  },
+  {
+   "id": "equipamento",
+   "name": "Equipamentos",
+   "color": "laranja",
+   "intro": "Só dá para carregar um. A Andarilho não captura chefes, então vale ter dano à distância para eles.",
+   "items": [
+    {
+     "icon": "gorags-opus",
+     "pt": "Opus de Gorag",
+     "en": "Gorag's Opus",
+     "prio": 2,
+     "qty": "1 (recarga 45 s)",
+     "effect": "Todos os aliados entram em frenesi por 7 s: +50% de movimento e +100% de velocidade de ataque.",
+     "why": "Dobra a velocidade da Força Bruta por alguns segundos. Muita Tralha de uma vez para o próximo Sucatear."
+    },
+    {
+     "icon": "royal-capacitor",
+     "pt": "Capacitor Régio",
+     "en": "Royal Capacitor",
+     "prio": 2,
+     "qty": "1 (recarga 20 s)",
+     "effect": "Raio em um monstro marcado causando 3000% de dano e atordoando os monstros próximos.",
+     "why": "Dano à distância contra voadores e chefes, os alvos que a Reapropriação não resolve."
+    },
+    {
+     "icon": "spinel-tonic",
+     "pt": "Tônico de Espinélia",
+     "en": "Spinel Tonic",
+     "prio": 3,
+     "qty": "1 (equipamento lunar, recarga 60 s)",
+     "effect": "Por 20 s: +100% de dano, +70% de velocidade de ataque, +20 de armadura, +50% de vida máxima, +300% de regeneração, +30% de movimento. Ao acabar, 20% de chance de Aflição do Tônico (−5% em todos os atributos, permanente).",
+     "why": "Velocidade de ataque e dano para lutas de chefe. Use só quando importa, pela chance de aflição."
+    },
+    {
+     "icon": "primordial-cube",
+     "pt": "Cubo Primordial",
+     "en": "Primordial Cube",
+     "prio": 3,
+     "qty": "1 (recarga 60 s)",
+     "effect": "Buraco negro que puxa inimigos a até 30 m para o centro por 10 s.",
+     "why": "Junta o grupo num ponto: a Força Bruta e o Brutamontes acertam todos, e cada acerto é chance de Tralha."
+    },
+    {
+     "icon": "blast-shower",
+     "pt": "Expurgação Explosiva",
+     "en": "Blast Shower",
+     "prio": 4,
+     "qty": "1 (recarga 20 s)",
+     "effect": "Remove todos os efeitos negativos, incluindo dano contínuo e projéteis próximos.",
+     "why": "Defensivo contra elites que aplicam debuffs, inclusive o fogo de um elite na bolsa."
+    }
+   ]
+  },
+  {
+   "id": "lunar",
+   "name": "Lunares",
+   "color": "azul",
+   "intro": "Dois lunares comuns atrapalham diretamente a geração de Tralha.",
+   "items": [
+    {
+     "icon": "purity",
+     "pt": "Pureza",
+     "en": "Purity",
+     "prio": 3,
+     "qty": "1",
+     "effect": "Reduz todas as recargas de habilidade em 2 s (+1 s por acúmulo). Todos os efeitos aleatórios são rolados +1 (+1 por acúmulo) vez contra você.",
+     "why": "Limpeza cai de 6 para 4 s. O custo é piorar Ukulele, Míssil e crítico."
+    },
+    {
+     "icon": "shaped-glass",
+     "pt": "Vidro Configurado",
+     "en": "Shaped Glass",
+     "prio": 4,
+     "qty": "1 (só se estiver confortável)",
+     "effect": "+100% (+100% por acúmulo) de dano base. −50% (−50% por acúmulo) de vida máxima.",
+     "why": "Dobra todos os golpes, mas corta a vida de quem luta colada no grupo."
+    },
+    {
+     "icon": "visions-of-heresy",
+     "pt": "Visões Profanas",
+     "en": "Visions of Heresy",
+     "prio": 0,
+     "qty": "0",
+     "effect": "Substitui a habilidade Primária por Olhar Faminto: fragmentos teleguiados que explodem após um atraso, causando 120% do dano base. Guarda até 12 cargas (+12 por acúmulo), que recarregam após 2 s (+2 s por acúmulo).",
+     "why": "Troca a Força Bruta, que é a sua fonte de Tralha. A wiki diz que o Esmagar continua. Mesmo assim, sem a Força Bruta a build perde o motor."
+    },
+    {
+     "icon": "light-flux-pauldron",
+     "pt": "Ombreira do Fluxo Iluminado",
+     "en": "Light Flux Pauldron",
+     "prio": 0,
+     "qty": "0",
+     "effect": "−50% (−50% por acúmulo) no tempo de recarga das habilidades. −50% (−50% por acúmulo) de velocidade de ataque.",
+     "why": "Metade da velocidade de ataque é metade da Tralha da Força Bruta. A wiki nota que, pelo bug do Tornado Furioso, ela aumenta os acertos do giro; só considere com essa variante."
+    }
+   ]
+  },
+  {
+   "id": "vazio",
+   "name": "Vazio",
+   "color": "roxo",
+   "intro": "Itens do Vazio (DLC Survivors of the Void) corrompem itens comuns quando pegos. Veja o que vai perder antes.",
+   "items": [
+    {
+     "icon": "lysate-cell",
+     "pt": "Célula Lisada",
+     "en": "Lysate Cell",
+     "prio": 1,
+     "qty": "1 a 2",
+     "effect": "+1 (+1 por acúmulo) carga da habilidade Especial e −33% no tempo de recarga dela. Corrompe todas as Células de Combustível.",
+     "why": "O Sucatear cai de 30 para cerca de 20 s e ganha uma segunda carga. Com Tralha para as duas cargas, são 8 itens temporários seguidos."
+    },
+    {
+     "icon": "weeping-fungus",
+     "pt": "Fungo Choroso",
+     "en": "Weeping Fungus",
+     "prio": 3,
+     "qty": "1 a 2",
+     "effect": "Cura 2% (+2% por acúmulo) da vida por segundo enquanto corre. Corrompe todos os Fungos Vibrantes.",
+     "why": "Recupera vida entre uma briga e outra sem parar. Corrompe o Fungo Vibrante, que pede para ficar parada."
+    },
+    {
+     "icon": "polylute",
+     "pt": "Polialaúde",
+     "en": "Polylute",
+     "prio": 3,
+     "qty": "1 a 2",
+     "effect": "25% de chance de disparar um raio de 60% de dano TOTAL até 3 (+3 por acúmulo) vezes. Corrompe todos os Ukuleles.",
+     "why": "Melhor que o Ukulele contra chefes, pior em grupo. Corrompe os Ukuleles que você recomendou."
+    },
+    {
+     "icon": "plasma-shrimp",
+     "pt": "Camarão de Plasma",
+     "en": "Plasma Shrimp",
+     "prio": 4,
+     "qty": "1",
+     "effect": "Ganha escudo de 10% da vida máxima. Com escudo, cada acerto dispara um míssil de 40% (+40% por acúmulo) de dano TOTAL. Corrompe todos os Mísseis ASM Mk. 1.",
+     "why": "Ativa muito com os golpes rápidos, mas só enquanto o escudo existe. Corrompe os seus Mísseis ASM."
+    }
+   ]
+  }
+ ],
+ "synergy": [
+  {
+   "title": "Tralha é o recurso de tudo",
+   "text": "A Força Bruta tem 40% de chance de gerar Tralha por golpe, o Esmagar gera 1 por golpe e destruir o objeto da bolsa gera mais 4. Arremessar um monstro com o Descartar gera 4. A Tralha paga o Sucatear (8), a Limpeza sem recarga (2) e o Cubo de Tralha sem recarga (4). Gaste na Limpeza só quando precisar de dano à distância."
+  },
+  {
+   "title": "Sucata como atributo",
+   "text": "A passiva dá bônus por Sucata de Item carregada: branca +6% de movimento, verde +3 de regeneração/s, vermelha +30% de velocidade de ataque, amarela −15% nas recargas. Por isso reciclar um vermelho ou amarelo fraco e guardar a Sucata é uma boa troca. A Sucata Regeneradora conta e volta a cada estágio, e a Modificar transforma itens do chão em Sucata e uma cópia temporária."
+  },
+  {
+   "title": "Itens temporários",
+   "text": "Segundo a wiki, cada acúmulo temporário dura 80 s e funciona igual ao item permanente, somando com ele. Equipamentos, lunares e Sucata não podem ser temporários, e itens temporários não podem ser reciclados nem trocados em impressoras. O Duplicador Fajuto aumenta essa duração em 10 s por acúmulo."
+  },
+  {
+   "title": "Velocidade de ataque e recarga",
+   "text": "Velocidade de ataque gera mais Tralha, e a recarga de 30 s limita quantas vezes você usa o Sucatear. Seringa, Mocha e Sucata vermelha cuidam da primeira parte; Cabeça Alienígena, Célula Lisada e Sucata amarela cuidam da segunda. Objetos pesados na bolsa reduzem a velocidade de ataque, então não fique com eles por muito tempo."
+  },
+  {
+   "title": "O que a bolsa não resolve",
+   "text": "A Reapropriação não captura chefes. Contra eles, a Tralha vem só da Força Bruta e de inimigos menores por perto. Míssil ASM, Capacitor Régio e a Limpeza dão o dano à distância que falta."
+  }
+ ],
+ "rotation": [
+  {
+   "step": "Reapropriação no inimigo",
+   "text": "Capture um monstro e esmague com a Primária para gerar Tralha a cada golpe."
+  },
+  {
+   "step": "Descartar no grupo",
+   "text": "Arremesse o monstro para atordoar e gerar 4 Tralhas onde ele cair."
+  },
+  {
+   "step": "Força Bruta sem parar",
+   "text": "Bata no grupo; cada golpe tem 40% de chance de Tralha e o terceiro atordoa."
+  },
+  {
+   "step": "Sucatear com 8 Tralhas",
+   "text": "Gere 4 itens temporários e pegue todos antes de continuar."
+  },
+  {
+   "step": "Limpeza nos voadores",
+   "text": "Use a recarga normal e gaste Tralha só se o Sucatear já estiver garantido."
+  }
+ ],
+ "essentials": [
+  {
+   "pt": "Seringa Militar",
+   "en": "Soldier's Syringe"
+  },
+  {
+   "pt": "Cristal de Foco",
+   "en": "Focus Crystal"
+  },
+  {
+   "pt": "Semente Sanguessuga",
+   "en": "Leeching Seed"
+  },
+  {
+   "pt": "Cabeça Alienígena",
+   "en": "Alien Head"
+  },
+  {
+   "pt": "Brutamontes Reluzente",
+   "en": "Brilliant Behemoth"
+  },
+  {
+   "pt": "Célula Lisada",
+   "en": "Lysate Cell"
+  },
+  {
+   "pt": "Opus de Gorag",
+   "en": "Gorag's Opus"
+  }
+ ],
+ "situational_note": "Situacionais: Duplicador Fajuto, Sucata vermelha e amarela, Compulsão de Colecionador, Pacote de Fogos de Artifício, Cartucheira, Pós-combustor (com Tornado Furioso), Pureza e os demais lunares.",
+ "fallbacks": [
+  {
+   "pt": "Seringa Militar",
+   "en": "Soldier's Syringe",
+   "text": "Mocha, Sucata de Item vermelha guardada (+30% cada) ou Opus de Gorag como equipamento."
+  },
+  {
+   "pt": "Cristal de Foco",
+   "en": "Focus Crystal",
+   "text": "Pé de Cabra para o primeiro golpe e Brutamontes para o dano em área."
+  },
+  {
+   "pt": "Semente Sanguessuga",
+   "en": "Leeching Seed",
+   "text": "Sucata Regeneradora ou Sucata verde guardada (+3 de regeneração cada) e Tempos Difíceis."
+  },
+  {
+   "pt": "Cabeça Alienígena",
+   "en": "Alien Head",
+   "text": "Célula Lisada e Sucata amarela guardada (−15% nas recargas cada)."
+  },
+  {
+   "pt": "Brutamontes Reluzente",
+   "en": "Brilliant Behemoth",
+   "text": "Ukulele e Míssil ASM, que ativam muito com os golpes rápidos."
+  },
+  {
+   "pt": "Célula Lisada",
+   "en": "Lysate Cell",
+   "text": "Cabeça Alienígena. Sem as duas, guarde Tralha e use o Sucatear assim que a recarga voltar."
+  },
+  {
+   "pt": "Opus de Gorag",
+   "en": "Gorag's Opus",
+   "text": "Capacitor Régio para chefes ou Cubo Primordial para juntar grupos."
+  }
+ ],
+ "summary": "Do Lixo ao Luxo, Força Bruta, Limpeza, Reapropriação e Sucatear. Gere Tralha batendo rápido e esmagando monstros na bolsa, e gaste 8 de cada vez no Sucatear para ganhar 4 itens temporários. Empilhe velocidade de ataque (Seringa) e dano de perto (Cristal de Foco), encurte a recarga do Sucatear com Cabeça Alienígena e Célula Lisada e guarde Sucata vermelha e amarela pela passiva.",
+ "checklist": [
+  {
+   "title": "Sempre pegue",
+   "text": "Seringa Militar, Cristal de Foco, Semente Sanguessuga, Cabeça Alienígena, Brutamontes, Célula Lisada."
+  },
+  {
+   "title": "Impressoras brancas",
+   "text": "Transforme em Seringa Militar até umas 6, depois Cristal de Foco."
+  },
+  {
+   "title": "Sucata",
+   "text": "Guarde Sucata vermelha (+30% de velocidade de ataque) e amarela (−15% nas recargas) em vez de gastar em impressora."
+  },
+  {
+   "title": "Primeiro verde",
+   "text": "Semente Sanguessuga. Depois Ukulele ou Míssil ASM."
+  },
+  {
+   "title": "Antes de pegar Vazio",
+   "text": "Polialaúde corrompe os Ukuleles; Camarão de Plasma corrompe os Mísseis ASM."
+  },
+  {
+   "title": "Não pegue",
+   "text": "Visões Profanas (troca a Força Bruta) e Ombreira do Fluxo Iluminado (corta a velocidade de ataque)."
+  },
+  {
+   "title": "Luta de chefe",
+   "text": "Chefes não entram na bolsa. Capture os inimigos menores para gerar Tralha e use o Sucatear antes da luta."
+  }
+ ],
+ "sources": [
+  {
+   "title": "Drifter — Risk of Rain 2 Wiki",
+   "url": "https://riskofrain2.wiki.gg/wiki/Drifter"
+  },
+  {
+   "title": "Temporary Items — Risk of Rain 2 Wiki",
+   "url": "https://riskofrain2.wiki.gg/wiki/Temporary_Items"
+  },
+  {
+   "title": "Items — Risk of Rain 2 Wiki",
+   "url": "https://riskofrain2.wiki.gg/wiki/Items"
+  },
+  {
+   "title": "Drifter Risk of Rain 2 — Rogue Ranker",
+   "url": "https://rogueranker.com/drifter-ror2/"
+  }
+ ],
+ "notes": [
+  "Requer a DLC Alloyed Collective. A Andarilho é desbloqueada pelo desafio Lost in Transit.",
+  "O nome no jogo em português é Andarilho, embora a descrição use \"a Andarilha\".",
+  "A wiki não diz de quais raridades são os itens gerados pelo Sucatear nem se o Duplicador Fajuto copia itens temporários.",
+  "A seção de Dicas (Tips) da wiki não pôde ser lida; a build se apoia nas notas de cada habilidade.",
+  "Cubo de Tralha, Tornado Furioso e Modificar são desbloqueados por desafios (Trash Compactor, In The Bag e Leave No Trace)."
+ ]
+}
