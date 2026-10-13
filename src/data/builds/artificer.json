@@ -1,645 +1,645 @@
 {
- "id": "artificer",
- "name_pt": "Artífice",
- "name_en": "Artificer",
- "title": "Artífice: Build de Fogo e Bombas",
- "tagline": "Lança-chamas, Nanobomba e Cinturões rúnicos",
- "lede": "Uma build de dano alto e consistente: Raio Flamejante para incendiar, Nanobomba Carregada para golpes enormes e Lança-chamas para derreter grupos e chefes de perto. A Artífice não tem habilidade de movimento horizontal, então a build junta dano com velocidade de movimento e usa o Congelar Abrupto como muro defensivo.",
- "loadout": [
-  {
-   "slot": "Passiva",
-   "skill": "Roupa AMB (ENV Suit)"
-  },
-  {
-   "slot": "Primária",
-   "skill": "Raio Flamejante (Flame Bolt)"
-  },
-  {
-   "slot": "Secundária",
-   "skill": "Nanobomba Carregada (Charged Nano-Bomb)"
-  },
-  {
-   "slot": "Utilitária",
-   "skill": "Congelar Abrupto (Snapfreeze)"
-  },
-  {
-   "slot": "Especial",
-   "skill": "Lança-chamas (Flamethrower)"
-  }
- ],
- "skills": [
-  {
-   "slot": "Passiva",
-   "pt": "Roupa AMB",
-   "en": "ENV Suit",
-   "pick": "Fixa",
-   "spec": "Segure o botão de pulo para pairar no ar. Pode virar alternância nas opções desde Seekers of the Storm.",
-   "why": "Pairar é a principal defesa contra inimigos de chão. Com a Pluma de Hopoo, os pulos extras são gastos antes de a roupa ativar."
-  },
-  {
-   "slot": "Primária",
-   "pt": "Raio Flamejante",
-   "en": "Flame Bolt",
-   "pick": "Recomendada",
-   "spec": "Incendiário. 280% de dano, até 4 cargas, recarga 1,3 s que diminui com velocidade de ataque. Coeficiente 1,0.",
-   "why": "Incendiário soma +50% de dano contínuo total e o Tanque de Ignição multiplica isso. A wiki diz que dá mais dano em alvo único que o Raio de Plasma. Alterne com outras habilidades enquanto as cargas voltam."
-  },
-  {
-   "slot": "Primária (alt.)",
-   "pt": "Raio de Plasma",
-   "en": "Plasma Bolt",
-   "pick": "Variante",
-   "spec": "280% de dano e explosão de 6 m sem perda nas bordas. Até 4 cargas, recarga 1,3 s com velocidade de ataque. Coeficiente 1,0.",
-   "why": "Mais preciso e melhor em área, segundo a wiki, e mais fácil contra voadores. Perde a sinergia com o Tanque de Ignição. Desbloqueio: Artífice: Massacre (Massacre)."
-  },
-  {
-   "slot": "Secundária",
-   "pt": "Nanobomba Carregada",
-   "en": "Charged Nano-Bomb",
-   "pick": "Recomendada",
-   "spec": "Atordoante. 400% a 2000% de dano conforme a carga (2 s para carga total). Explosão de 14 m. Coeficiente 1,0 (faíscas 0,3). Recarga 5 s.",
-   "why": "Passa com folga dos 400% que ativam os Cinturões de Kjaro e Runald. Velocidade de ataque carrega mais rápido e o Pente Reserva dá cargas extras. A alternativa Conjurar Nanoprojétil (Cast Nano-Spear, 400% a 1200%, perfurante, Congelante) é forte contra chefes com muitos Pentes, segundo a wiki."
-  },
-  {
-   "slot": "Utilitária",
-   "pt": "Congelar Abrupto",
-   "en": "Snapfreeze",
-   "pick": "Recomendada",
-   "spec": "Congelante. Barreira de pilares de 100% de dano cada. Coeficiente 1,0 × 12. Recarga 12 s.",
-   "why": "Congela e bloqueia o caminho dos inimigos de chão. Inimigos congelados abaixo de 30% de vida morrem na hora. Não congela a maioria dos chefes. A alternativa Tectonic Blast (8 × 100%, Óleo, 2 cargas, recarga 7 s) é da DLC Hallowed Concepts (veja as notas)."
-  },
-  {
-   "slot": "Especial",
-   "pt": "Lança-chamas",
-   "en": "Flamethrower",
-   "pick": "Recomendada",
-   "spec": "Incendiário. O texto do jogo diz 2000%; a wiki dá cerca de 2095% em 22 acertos durante 3 s, mais o dano contínuo. Coeficiente 1,0 por acerto. Alcance 20 m, perfura. Recarga 5 s após terminar.",
-   "why": "Velocidade de ataque adiciona acertos, e cada acerto ativa itens com coeficiente cheio. O crítico é rolado uma vez no uso. Não dá para correr durante o ataque. A alternativa Surto de Íon (Ion Surge, 800%, Atordoante, recarga 8 s) é a única fuga vertical, desbloqueada por Artífice: Bombardeio Orbital (Orbital Bombardment)."
-  }
- ],
- "sections": [
-  {
-   "id": "comum",
-   "name": "Comum",
-   "color": "branco",
-   "intro": "A Artífice precisa de velocidade de ataque para as recargas e o Lança-chamas, e de velocidade de movimento por não ter fuga horizontal.",
-   "items": [
+  "id": "artificer",
+  "name_pt": "Artífice",
+  "name_en": "Artificer",
+  "title": "Artífice: Build de Fogo e Bombas",
+  "tagline": "Lança-chamas, Nanobomba e Cinturões rúnicos",
+  "lede": "Uma build de dano alto e consistente: Raio Flamejante para incendiar, Nanobomba Carregada para golpes enormes e Lança-chamas para derreter grupos e chefes de perto. A Artífice não tem habilidade de movimento horizontal, então a build junta dano com velocidade de movimento e usa o Congelar Abrupto como muro defensivo.",
+  "loadout": [
     {
-     "icon": "soldiers-syringe",
-     "pt": "Seringa Militar",
-     "en": "Soldier's Syringe",
-     "prio": 1,
-     "qty": "3 a 6",
-     "effect": "+15% (+15% por acúmulo) de velocidade de ataque.",
-     "why": "Reduz a recarga do Raio Flamejante, carrega a Nanobomba mais rápido e adiciona acertos ao Lança-chamas. A wiki cita a Seringa como item que dá valor ao Lança-chamas."
+      "slot": "Passiva",
+      "skill": "Roupa AMB (ENV Suit)"
     },
     {
-     "icon": "backup-magazine",
-     "pt": "Pente Reserva",
-     "en": "Backup Magazine",
-     "prio": 1,
-     "qty": "2 a 5",
-     "effect": "+1 (+1 por acúmulo) carga da sua habilidade Secundária.",
-     "why": "Mais Nanobombas seguidas. Cada uma passa dos 400% e pode ativar os Cinturões."
+      "slot": "Primária",
+      "skill": "Raio Flamejante (Flame Bolt)"
     },
     {
-     "icon": "pauls-goat-hoof",
-     "pt": "Casco de Bode de Paul",
-     "en": "Paul's Goat Hoof",
-     "prio": 2,
-     "qty": "2 a 4",
-     "effect": "+14% (+14% por acúmulo) de velocidade de movimento.",
-     "why": "Sem habilidade de movimento horizontal, a wiki recomenda manter-se em movimento. A velocidade vale também enquanto paira."
+      "slot": "Secundária",
+      "skill": "Nanobomba Carregada (Charged Nano-Bomb)"
     },
     {
-     "icon": "lens-makers-glasses",
-     "pt": "Óculos do Fabricante de Lentes",
-     "en": "Lens-Maker's Glasses",
-     "prio": 2,
-     "qty": "2 a 4",
-     "effect": "10% (+10% por acúmulo) de chance de Acerto Crítico, que causa dano dobrado.",
-     "why": "Uma Nanobomba crítica dobra um golpe de até 2000%. No Lança-chamas o crítico é rolado uma vez por uso: ou o ataque inteiro é crítico ou nenhum acerto é."
+      "slot": "Utilitária",
+      "skill": "Congelar Abrupto (Snapfreeze)"
     },
     {
-     "icon": "crowbar",
-     "pt": "Pé de Cabra",
-     "en": "Crowbar",
-     "prio": 3,
-     "qty": "1 a 3",
-     "effect": "+75% (+75% por acúmulo) de dano contra inimigos acima de 90% de vida.",
-     "why": "A Nanobomba abre a luta em inimigos de vida cheia. A wiki cita Pé de Cabra com Fogo-fátuo para matar Lesser Wisps de uma vez."
-    },
-    {
-     "icon": "tri-tip-dagger",
-     "pt": "Adaga Triangular",
-     "en": "Tri-Tip Dagger",
-     "prio": 3,
-     "qty": "1 a 3",
-     "effect": "10% (+10% por acúmulo) de chance de sangrar um inimigo por 240% do dano base.",
-     "why": "O Lança-chamas acerta 22 vezes ou mais. A wiki cita a Adaga junto com a Seringa para dar valor a ele."
-    },
-    {
-     "icon": "gasoline",
-     "pt": "Gasolina",
-     "en": "Gasoline",
-     "prio": 3,
-     "qty": "1 a 2",
-     "effect": "Abater um inimigo incendeia todos os inimigos a até 12 m (+4 m por acúmulo) por 150% do dano base. Além disso, os inimigos queimam por 150% (+75% por acúmulo) do dano base.",
-     "why": "A wiki indica Gasolina para limpar voadores, ponto fraco da Artífice. A queimadura também aproveita o Tanque de Ignição."
-    },
-    {
-     "icon": "tougher-times",
-     "pt": "Tempos Difíceis",
-     "en": "Tougher Times",
-     "prio": 3,
-     "qty": "1 a 3",
-     "effect": "15% (+15% por acúmulo) de chance de bloquear dano recebido. Não é afetado por sorte.",
-     "why": "A Artífice tem pouca vida e ataca parada com o Lança-chamas. Cada bloqueio conta."
-    },
-    {
-     "icon": "energy-drink",
-     "pt": "Bebida Energética",
-     "en": "Energy Drink",
-     "prio": 4,
-     "qty": "1 a 3 (com Surto de Íon)",
-     "effect": "Velocidade de corrida aumentada em 25% (+25% por acúmulo).",
-     "why": "A wiki prefere a Bebida ao Casco quando se usa o Surto de Íon, cujo impulso cresce com a velocidade de movimento."
+      "slot": "Especial",
+      "skill": "Lança-chamas (Flamethrower)"
     }
-   ]
-  },
-  {
-   "id": "incomum",
-   "name": "Incomum",
-   "color": "verde",
-   "intro": "Os verdes que mais rendem ativam com golpes de mais de 400% ou com os muitos acertos do Lança-chamas.",
-   "items": [
+  ],
+  "skills": [
     {
-     "icon": "kjaros-band",
-     "pt": "Cinturão de Kjaro",
-     "en": "Kjaro's Band",
-     "prio": 1,
-     "qty": "1 a 3",
-     "effect": "Golpes que causam mais de 400% de dano também atingem os inimigos com um tornado de chamas rúnico, causando 300% (+300% por acúmulo) de dano TOTAL ao longo do tempo. Recarrega a cada 10 segundos.",
-     "why": "A Nanobomba sempre passa dos 400%. A wiki diz que os Cinturões aumentam muito o dano da Nanobomba e do Nanoprojétil."
+      "slot": "Passiva",
+      "pt": "Roupa AMB",
+      "en": "ENV Suit",
+      "pick": "Fixa",
+      "spec": "Segure o botão de pulo para pairar no ar. Pode virar alternância nas opções desde Seekers of the Storm.",
+      "why": "Pairar é a principal defesa contra inimigos de chão. Com a Pluma de Hopoo, os pulos extras são gastos antes de a roupa ativar."
     },
     {
-     "icon": "ignition-tank",
-     "pt": "Tanque de Ignição",
-     "en": "Ignition Tank",
-     "prio": 1,
-     "qty": "1 a 3",
-     "effect": "Efeitos de Incendiário causam +300% (+300% por acúmulo) a mais de dano ao longo do tempo.",
-     "why": "O Raio Flamejante e o Lança-chamas aplicam Incendiário. A wiki chama este item de excelente para os dois."
+      "slot": "Primária",
+      "pt": "Raio Flamejante",
+      "en": "Flame Bolt",
+      "pick": "Recomendada",
+      "spec": "Incendiário. 280% de dano, até 4 cargas, recarga 1,3 s que diminui com velocidade de ataque. Coeficiente 1,0.",
+      "why": "Incendiário soma +50% de dano contínuo total e o Tanque de Ignição multiplica isso. A wiki diz que dá mais dano em alvo único que o Raio de Plasma. Alterne com outras habilidades enquanto as cargas voltam."
     },
     {
-     "icon": "runalds-band",
-     "pt": "Cinturão de Runald",
-     "en": "Runald's Band",
-     "prio": 2,
-     "qty": "1 a 2",
-     "effect": "Golpes que causam mais de 400% de dano também atingem os inimigos com uma explosão de gelo rúnica, deixando-os 80% mais lentos por 3 s (+3 s por acúmulo) e causando 250% (+250% por acúmulo) de dano TOTAL. Recarrega a cada 10 segundos.",
-     "why": "Mesmo gatilho do Kjaro. A lentidão de 80% segura o alvo dentro do alcance do Lança-chamas."
+      "slot": "Primária (alt.)",
+      "pt": "Raio de Plasma",
+      "en": "Plasma Bolt",
+      "pick": "Variante",
+      "spec": "280% de dano e explosão de 6 m sem perda nas bordas. Até 4 cargas, recarga 1,3 s com velocidade de ataque. Coeficiente 1,0.",
+      "why": "Mais preciso e melhor em área, segundo a wiki, e mais fácil contra voadores. Perde a sinergia com o Tanque de Ignição. Desbloqueio: Artífice: Massacre (Massacre)."
     },
     {
-     "icon": "atg-missile-mk-1",
-     "pt": "Míssil ASM Mk. 1",
-     "en": "AtG Missile Mk. 1",
-     "prio": 2,
-     "qty": "1 a 3",
-     "effect": "10% de chance de disparar um míssil que causa 300% (+300% por acúmulo) de dano TOTAL.",
-     "why": "Os 22 acertos do Lança-chamas com coeficiente 1,0 lançam vários mísseis por uso. Os mísseis também perseguem voadores."
+      "slot": "Secundária",
+      "pt": "Nanobomba Carregada",
+      "en": "Charged Nano-Bomb",
+      "pick": "Recomendada",
+      "spec": "Atordoante. 400% a 2000% de dano conforme a carga (2 s para carga total). Explosão de 14 m. Coeficiente 1,0 (faíscas 0,3). Recarga 5 s.",
+      "why": "Passa com folga dos 400% que ativam os Cinturões de Kjaro e Runald. Velocidade de ataque carrega mais rápido e o Pente Reserva dá cargas extras. A alternativa Conjurar Nanoprojétil (Cast Nano-Spear, 400% a 1200%, perfurante, Congelante) é forte contra chefes com muitos Pentes, segundo a wiki."
     },
     {
-     "icon": "will-o-the-wisp",
-     "pt": "Will-o'-the-wisp",
-     "en": "Will-o'-the-wisp",
-     "prio": 3,
-     "qty": "1 a 2",
-     "effect": "Ao abater um inimigo, cria um pilar de lava num raio de 12 m (+2,4 m por acúmulo) causando 350% (+280% por acúmulo) do dano base.",
-     "why": "A wiki indica para limpar voadores e para combinar com o Pé de Cabra."
+      "slot": "Utilitária",
+      "pt": "Congelar Abrupto",
+      "en": "Snapfreeze",
+      "pick": "Recomendada",
+      "spec": "Congelante. Barreira de pilares de 100% de dano cada. Coeficiente 1,0 × 12. Recarga 12 s.",
+      "why": "Congela e bloqueia o caminho dos inimigos de chão. Inimigos congelados abaixo de 30% de vida morrem na hora. Não congela a maioria dos chefes. A alternativa Tectonic Blast (8 × 100%, Óleo, 2 cargas, recarga 7 s) é da DLC Hallowed Concepts (veja as notas)."
     },
     {
-     "icon": "ukulele",
-     "pt": "Ukulele",
-     "en": "Ukulele",
-     "prio": 3,
-     "qty": "1 a 2",
-     "effect": "25% de chance de disparar um raio em cadeia de 80% de dano TOTAL em até 3 (+2 por acúmulo) alvos a 20 m (+2 m por acúmulo).",
-     "why": "Muitos acertos do Lança-chamas ativam o Ukulele com frequência e o raio alcança inimigos fora do cone."
-    },
-    {
-     "icon": "leeching-seed",
-     "pt": "Semente Sanguessuga",
-     "en": "Leeching Seed",
-     "prio": 3,
-     "qty": "1 a 2",
-     "effect": "Causar dano cura 1 (+1 por acúmulo) de vida.",
-     "why": "Cada acerto do Lança-chamas cura, em cada alvo atravessado. É uma das poucas curas que a build ativa sozinha."
-    },
-    {
-     "icon": "hopoo-feather",
-     "pt": "Pluma de Hopoo",
-     "en": "Hopoo Feather",
-     "prio": 4,
-     "qty": "1",
-     "effect": "+1 (+1 por acúmulo) pulo máximo.",
-     "why": "Mais altura para fugir. A wiki avisa: a Roupa AMB só ativa depois de gastar os pulos extras, e segurar o pulo gasta um pulo primeiro."
+      "slot": "Especial",
+      "pt": "Lança-chamas",
+      "en": "Flamethrower",
+      "pick": "Recomendada",
+      "spec": "Incendiário. O texto do jogo diz 2000%; a wiki dá cerca de 2095% em 22 acertos durante 3 s, mais o dano contínuo. Coeficiente 1,0 por acerto. Alcance 20 m, perfura. Recarga 5 s após terminar.",
+      "why": "Velocidade de ataque adiciona acertos, e cada acerto ativa itens com coeficiente cheio. O crítico é rolado uma vez no uso. Não dá para correr durante o ataque. A alternativa Surto de Íon (Ion Surge, 800%, Atordoante, recarga 8 s) é a única fuga vertical, desbloqueada por Artífice: Bombardeio Orbital (Orbital Bombardment)."
     }
-   ]
-  },
-  {
-   "id": "lendario",
-   "name": "Lendário",
-   "color": "vermelho",
-   "intro": "Os vermelhos que mais ajudam encurtam as recargas de 5 s e 12 s ou somam dano em área aos golpes grandes.",
-   "items": [
+  ],
+  "sections": [
     {
-     "icon": "alien-head",
-     "pt": "Cabeça Alienígena",
-     "en": "Alien Head",
-     "prio": 1,
-     "qty": "1 a 2",
-     "effect": "Reduz o tempo de recarga das habilidades em 25% (+25% por acúmulo).",
-     "why": "Lança-chamas e Nanobomba (5 s) e Congelar Abrupto (12 s) voltam mais rápido. Mais Lança-chamas por luta é o maior ganho de dano."
+      "id": "comum",
+      "name": "Comum",
+      "color": "branco",
+      "intro": "A Artífice precisa de velocidade de ataque para as recargas e o Lança-chamas, e de velocidade de movimento por não ter fuga horizontal.",
+      "items": [
+        {
+          "icon": "soldiers-syringe",
+          "pt": "Seringa Militar",
+          "en": "Soldier's Syringe",
+          "prio": 1,
+          "qty": "3 a 6",
+          "effect": "+15% (+15% por acúmulo) de velocidade de ataque.",
+          "why": "Reduz a recarga do Raio Flamejante, carrega a Nanobomba mais rápido e adiciona acertos ao Lança-chamas. A wiki cita a Seringa como item que dá valor ao Lança-chamas."
+        },
+        {
+          "icon": "backup-magazine",
+          "pt": "Pente Reserva",
+          "en": "Backup Magazine",
+          "prio": 1,
+          "qty": "2 a 5",
+          "effect": "+1 (+1 por acúmulo) carga da sua habilidade Secundária.",
+          "why": "Mais Nanobombas seguidas. Cada uma passa dos 400% e pode ativar os Cinturões."
+        },
+        {
+          "icon": "pauls-goat-hoof",
+          "pt": "Casco de Bode de Paul",
+          "en": "Paul's Goat Hoof",
+          "prio": 2,
+          "qty": "2 a 4",
+          "effect": "+14% (+14% por acúmulo) de velocidade de movimento.",
+          "why": "Sem habilidade de movimento horizontal, a wiki recomenda manter-se em movimento. A velocidade vale também enquanto paira."
+        },
+        {
+          "icon": "lens-makers-glasses",
+          "pt": "Óculos do Fabricante de Lentes",
+          "en": "Lens-Maker's Glasses",
+          "prio": 2,
+          "qty": "2 a 4",
+          "effect": "10% (+10% por acúmulo) de chance de Acerto Crítico, que causa dano dobrado.",
+          "why": "Uma Nanobomba crítica dobra um golpe de até 2000%. No Lança-chamas o crítico é rolado uma vez por uso: ou o ataque inteiro é crítico ou nenhum acerto é."
+        },
+        {
+          "icon": "crowbar",
+          "pt": "Pé de Cabra",
+          "en": "Crowbar",
+          "prio": 3,
+          "qty": "1 a 3",
+          "effect": "+75% (+75% por acúmulo) de dano contra inimigos acima de 90% de vida.",
+          "why": "A Nanobomba abre a luta em inimigos de vida cheia. A wiki cita Pé de Cabra com Fogo-fátuo para matar Lesser Wisps de uma vez."
+        },
+        {
+          "icon": "tri-tip-dagger",
+          "pt": "Adaga Triangular",
+          "en": "Tri-Tip Dagger",
+          "prio": 3,
+          "qty": "1 a 3",
+          "effect": "10% (+10% por acúmulo) de chance de sangrar um inimigo por 240% do dano base.",
+          "why": "O Lança-chamas acerta 22 vezes ou mais. A wiki cita a Adaga junto com a Seringa para dar valor a ele."
+        },
+        {
+          "icon": "gasoline",
+          "pt": "Gasolina",
+          "en": "Gasoline",
+          "prio": 3,
+          "qty": "1 a 2",
+          "effect": "Abater um inimigo incendeia todos os inimigos a até 12 m (+4 m por acúmulo) por 150% do dano base. Além disso, os inimigos queimam por 150% (+75% por acúmulo) do dano base.",
+          "why": "A wiki indica Gasolina para limpar voadores, ponto fraco da Artífice. A queimadura também aproveita o Tanque de Ignição."
+        },
+        {
+          "icon": "tougher-times",
+          "pt": "Tempos Difíceis",
+          "en": "Tougher Times",
+          "prio": 3,
+          "qty": "1 a 3",
+          "effect": "15% (+15% por acúmulo) de chance de bloquear dano recebido. Não é afetado por sorte.",
+          "why": "A Artífice tem pouca vida e ataca parada com o Lança-chamas. Cada bloqueio conta."
+        },
+        {
+          "icon": "energy-drink",
+          "pt": "Bebida Energética",
+          "en": "Energy Drink",
+          "prio": 4,
+          "qty": "1 a 3 (com Surto de Íon)",
+          "effect": "Velocidade de corrida aumentada em 25% (+25% por acúmulo).",
+          "why": "A wiki prefere a Bebida ao Casco quando se usa o Surto de Íon, cujo impulso cresce com a velocidade de movimento."
+        }
+      ]
     },
     {
-     "icon": "brilliant-behemoth",
-     "pt": "Brutamontes Reluzente",
-     "en": "Brilliant Behemoth",
-     "prio": 2,
-     "qty": "1",
-     "effect": "Todos os ataques explodem em 4 m (+2,5 m por acúmulo) causando 60% de dano TOTAL extra.",
-     "why": "Cada acerto do Lança-chamas e cada Raio Flamejante vira dano em área. Na Nanobomba, a explosão extra vale 60% de um golpe de até 2000%."
+      "id": "incomum",
+      "name": "Incomum",
+      "color": "verde",
+      "intro": "Os verdes que mais rendem ativam com golpes de mais de 400% ou com os muitos acertos do Lança-chamas.",
+      "items": [
+        {
+          "icon": "kjaros-band",
+          "pt": "Cinturão de Kjaro",
+          "en": "Kjaro's Band",
+          "prio": 1,
+          "qty": "1 a 3",
+          "effect": "Golpes que causam mais de 400% de dano também atingem os inimigos com um tornado de chamas rúnico, causando 300% (+300% por acúmulo) de dano TOTAL ao longo do tempo. Recarrega a cada 10 segundos.",
+          "why": "A Nanobomba sempre passa dos 400%. A wiki diz que os Cinturões aumentam muito o dano da Nanobomba e do Nanoprojétil."
+        },
+        {
+          "icon": "ignition-tank",
+          "pt": "Tanque de Ignição",
+          "en": "Ignition Tank",
+          "prio": 1,
+          "qty": "1 a 3",
+          "effect": "Efeitos de Incendiário causam +300% (+300% por acúmulo) a mais de dano ao longo do tempo.",
+          "why": "O Raio Flamejante e o Lança-chamas aplicam Incendiário. A wiki chama este item de excelente para os dois."
+        },
+        {
+          "icon": "runalds-band",
+          "pt": "Cinturão de Runald",
+          "en": "Runald's Band",
+          "prio": 2,
+          "qty": "1 a 2",
+          "effect": "Golpes que causam mais de 400% de dano também atingem os inimigos com uma explosão de gelo rúnica, deixando-os 80% mais lentos por 3 s (+3 s por acúmulo) e causando 250% (+250% por acúmulo) de dano TOTAL. Recarrega a cada 10 segundos.",
+          "why": "Mesmo gatilho do Kjaro. A lentidão de 80% segura o alvo dentro do alcance do Lança-chamas."
+        },
+        {
+          "icon": "atg-missile-mk-1",
+          "pt": "Míssil ASM Mk. 1",
+          "en": "AtG Missile Mk. 1",
+          "prio": 2,
+          "qty": "1 a 3",
+          "effect": "10% de chance de disparar um míssil que causa 300% (+300% por acúmulo) de dano TOTAL.",
+          "why": "Os 22 acertos do Lança-chamas com coeficiente 1,0 lançam vários mísseis por uso. Os mísseis também perseguem voadores."
+        },
+        {
+          "icon": "will-o-the-wisp",
+          "pt": "Will-o'-the-wisp",
+          "en": "Will-o'-the-wisp",
+          "prio": 3,
+          "qty": "1 a 2",
+          "effect": "Ao abater um inimigo, cria um pilar de lava num raio de 12 m (+2,4 m por acúmulo) causando 350% (+280% por acúmulo) do dano base.",
+          "why": "A wiki indica para limpar voadores e para combinar com o Pé de Cabra."
+        },
+        {
+          "icon": "ukulele",
+          "pt": "Ukulele",
+          "en": "Ukulele",
+          "prio": 3,
+          "qty": "1 a 2",
+          "effect": "25% de chance de disparar um raio em cadeia de 80% de dano TOTAL em até 3 (+2 por acúmulo) alvos a 20 m (+2 m por acúmulo).",
+          "why": "Muitos acertos do Lança-chamas ativam o Ukulele com frequência e o raio alcança inimigos fora do cone."
+        },
+        {
+          "icon": "leeching-seed",
+          "pt": "Semente Sanguessuga",
+          "en": "Leeching Seed",
+          "prio": 3,
+          "qty": "1 a 2",
+          "effect": "Causar dano cura 1 (+1 por acúmulo) de vida.",
+          "why": "Cada acerto do Lança-chamas cura, em cada alvo atravessado. É uma das poucas curas que a build ativa sozinha."
+        },
+        {
+          "icon": "hopoo-feather",
+          "pt": "Pluma de Hopoo",
+          "en": "Hopoo Feather",
+          "prio": 4,
+          "qty": "1",
+          "effect": "+1 (+1 por acúmulo) pulo máximo.",
+          "why": "Mais altura para fugir. A wiki avisa: a Roupa AMB só ativa depois de gastar os pulos extras, e segurar o pulo gasta um pulo primeiro."
+        }
+      ]
     },
     {
-     "icon": "hardlight-afterburner",
-     "pt": "Pós-combustor de Holograma",
-     "en": "Hardlight Afterburner",
-     "prio": 2,
-     "qty": "1",
-     "effect": "+2 (+2 por acúmulo) cargas da Utilitária e −33% no tempo de recarga dela.",
-     "why": "Três muros do Congelar Abrupto em vez de um, com recarga menor. Mais congelamentos e mais execuções abaixo de 30% de vida."
+      "id": "lendario",
+      "name": "Lendário",
+      "color": "vermelho",
+      "intro": "Os vermelhos que mais ajudam encurtam as recargas de 5 s e 12 s ou somam dano em área aos golpes grandes.",
+      "items": [
+        {
+          "icon": "alien-head",
+          "pt": "Cabeça Alienígena",
+          "en": "Alien Head",
+          "prio": 1,
+          "qty": "1 a 2",
+          "effect": "Reduz o tempo de recarga das habilidades em 25% (+25% por acúmulo).",
+          "why": "Lança-chamas e Nanobomba (5 s) e Congelar Abrupto (12 s) voltam mais rápido. Mais Lança-chamas por luta é o maior ganho de dano."
+        },
+        {
+          "icon": "brilliant-behemoth",
+          "pt": "Brutamontes Reluzente",
+          "en": "Brilliant Behemoth",
+          "prio": 2,
+          "qty": "1",
+          "effect": "Todos os ataques explodem em 4 m (+2,5 m por acúmulo) causando 60% de dano TOTAL extra.",
+          "why": "Cada acerto do Lança-chamas e cada Raio Flamejante vira dano em área. Na Nanobomba, a explosão extra vale 60% de um golpe de até 2000%."
+        },
+        {
+          "icon": "hardlight-afterburner",
+          "pt": "Pós-combustor de Holograma",
+          "en": "Hardlight Afterburner",
+          "prio": 2,
+          "qty": "1",
+          "effect": "+2 (+2 por acúmulo) cargas da Utilitária e −33% no tempo de recarga dela.",
+          "why": "Três muros do Congelar Abrupto em vez de um, com recarga menor. Mais congelamentos e mais execuções abaixo de 30% de vida."
+        },
+        {
+          "icon": "ceremonial-dagger",
+          "pt": "Adaga Cerimonial",
+          "en": "Ceremonial Dagger",
+          "prio": 3,
+          "qty": "1 a 2",
+          "effect": "Abater um inimigo dispara 3 adagas teleguiadas que causam 150% (+150% por acúmulo) do dano base.",
+          "why": "O Lança-chamas mata grupos inteiros, e as adagas teleguiadas caçam os voadores que sobram."
+        },
+        {
+          "icon": "57-leaf-clover",
+          "pt": "Trevo 57",
+          "en": "57 Leaf Clover",
+          "prio": 3,
+          "qty": "1",
+          "effect": "Todos os efeitos aleatórios são rolados +1 (+1 por acúmulo) vez a seu favor.",
+          "why": "Melhora Míssil, Ukulele, Adaga e crítico, que ativam muito com o Lança-chamas."
+        },
+        {
+          "icon": "sentient-meat-hook",
+          "pt": "Gancho de Carnes Senciente",
+          "en": "Sentient Meat Hook",
+          "prio": 3,
+          "qty": "1",
+          "effect": "20% (+20% por acúmulo) de chance ao acertar de lançar ganchos teleguiados em até 10 (+5 por acúmulo) inimigos causando 100% de dano TOTAL.",
+          "why": "Com 22 acertos por Lança-chamas, os ganchos saem várias vezes por uso e acertam inimigos fora do alcance de 20 m."
+        },
+        {
+          "icon": "rejuvenation-rack",
+          "pt": "Suporte do Rejuvenescimento",
+          "en": "Rejuvenation Rack",
+          "prio": 4,
+          "qty": "1",
+          "effect": "Cura +100% (+100% por acúmulo) a mais.",
+          "why": "Só vale se você já tem Semente Sanguessuga ou outras curas. Sem elas, prefira dano."
+        }
+      ]
     },
     {
-     "icon": "ceremonial-dagger",
-     "pt": "Adaga Cerimonial",
-     "en": "Ceremonial Dagger",
-     "prio": 3,
-     "qty": "1 a 2",
-     "effect": "Abater um inimigo dispara 3 adagas teleguiadas que causam 150% (+150% por acúmulo) do dano base.",
-     "why": "O Lança-chamas mata grupos inteiros, e as adagas teleguiadas caçam os voadores que sobram."
+      "id": "chefe",
+      "name": "Chefe",
+      "color": "amarelo",
+      "intro": "Itens de chefe só caem de chefes de teleporte.",
+      "items": [
+        {
+          "icon": "irradiant-pearl",
+          "pt": "Pérola Irradiante",
+          "en": "Irradiant Pearl",
+          "prio": 2,
+          "qty": "1 ou mais",
+          "effect": "Aumenta TODOS os atributos em 10% (+10% por acúmulo).",
+          "why": "Vida, dano, velocidade de ataque e de movimento de uma vez. Tudo o que falta para a Artífice."
+        },
+        {
+          "icon": "molten-perforator",
+          "pt": "Perfurador Fundido",
+          "en": "Molten Perforator",
+          "prio": 3,
+          "qty": "1",
+          "effect": "10% de chance ao acertar de lançar 3 bolas de magma do inimigo, causando 300% (+300% por acúmulo) de dano cada.",
+          "why": "Mais um efeito ao acertar para os muitos acertos do Lança-chamas."
+        }
+      ]
     },
     {
-     "icon": "57-leaf-clover",
-     "pt": "Trevo 57",
-     "en": "57 Leaf Clover",
-     "prio": 3,
-     "qty": "1",
-     "effect": "Todos os efeitos aleatórios são rolados +1 (+1 por acúmulo) vez a seu favor.",
-     "why": "Melhora Míssil, Ukulele, Adaga e crítico, que ativam muito com o Lança-chamas."
+      "id": "equipamento",
+      "name": "Equipamentos",
+      "color": "laranja",
+      "intro": "Só dá para carregar um. A Artífice ganha mais com equipamentos que juntam inimigos ou dão mobilidade.",
+      "items": [
+        {
+          "icon": "primordial-cube",
+          "pt": "Cubo Primordial",
+          "en": "Primordial Cube",
+          "prio": 1,
+          "qty": "1 (recarga 60 s)",
+          "effect": "Dispara um buraco negro que puxa inimigos a até 30 m para o centro. Dura 10 segundos.",
+          "why": "Junta o grupo num ponto: o Lança-chamas atravessa todos e a Nanobomba de 14 m pega o grupo inteiro."
+        },
+        {
+          "icon": "ocular-hud",
+          "pt": "Visor Ocular",
+          "en": "Ocular HUD",
+          "prio": 2,
+          "qty": "1 (recarga 60 s)",
+          "effect": "Ganha +100% de chance de Acerto Crítico por 8 segundos.",
+          "why": "O crítico do Lança-chamas é rolado uma vez no uso. Com o Visor ativo, todo o ataque sai crítico, e a Nanobomba também."
+        },
+        {
+          "icon": "milky-chrysalis",
+          "pt": "Crisálida Láctea",
+          "en": "Milky Chrysalis",
+          "prio": 3,
+          "qty": "1 (recarga 60 s)",
+          "effect": "Cria asas e voa por 15 segundos. Ganha +20% de velocidade de movimento durante o efeito.",
+          "why": "A mobilidade que a Artífice não tem. Útil para fugir ou cruzar o mapa."
+        },
+        {
+          "icon": "royal-capacitor",
+          "pt": "Capacitor Régio",
+          "en": "Royal Capacitor",
+          "prio": 3,
+          "qty": "1 (recarga 20 s)",
+          "effect": "Invoca um raio sobre um monstro marcado, causando 3000% de dano e atordoando os monstros próximos.",
+          "why": "Dano à distância contra voadores e elites que ficam fora dos 20 m do Lança-chamas."
+        },
+        {
+          "icon": "gorags-opus",
+          "pt": "Opus de Gorag",
+          "en": "Gorag's Opus",
+          "prio": 4,
+          "qty": "1 (recarga 45 s)",
+          "effect": "Todos os aliados entram em frenesi por 7 segundos. Aumenta a velocidade de movimento em 50% e a de ataque em 100%.",
+          "why": "Velocidade de ataque dobrada adiciona muitos acertos ao Lança-chamas e acelera as cargas do Raio Flamejante."
+        }
+      ]
     },
     {
-     "icon": "sentient-meat-hook",
-     "pt": "Gancho de Carnes Senciente",
-     "en": "Sentient Meat Hook",
-     "prio": 3,
-     "qty": "1",
-     "effect": "20% (+20% por acúmulo) de chance ao acertar de lançar ganchos teleguiados em até 10 (+5 por acúmulo) inimigos causando 100% de dano TOTAL.",
-     "why": "Com 22 acertos por Lança-chamas, os ganchos saem várias vezes por uso e acertam inimigos fora do alcance de 20 m."
+      "id": "lunar",
+      "name": "Lunares",
+      "color": "azul",
+      "intro": "Itens lunares têm custo embutido. Para a Artífice, cuidado com o que corta velocidade de ataque ou vida.",
+      "items": [
+        {
+          "icon": "purity",
+          "pt": "Pureza",
+          "en": "Purity",
+          "prio": 3,
+          "qty": "1",
+          "effect": "Reduz todas as recargas de habilidade em 2 s (+1 s por acúmulo). Todos os efeitos aleatórios são rolados +1 (+1 por acúmulo) vez contra você.",
+          "why": "Lança-chamas e Nanobomba caem de 5 s para 3 s. O custo é piorar Míssil, Ukulele, Gancho e crítico, que esta build usa."
+        },
+        {
+          "icon": "shaped-glass",
+          "pt": "Vidro Configurado",
+          "en": "Shaped Glass",
+          "prio": 4,
+          "qty": "1 (só se estiver confortável)",
+          "effect": "+100% (+100% por acúmulo) de dano base. −50% (−50% por acúmulo) de vida máxima.",
+          "why": "Dobra a Nanobomba e o Lança-chamas, mas a Artífice já tem pouca vida e nenhuma fuga horizontal."
+        },
+        {
+          "icon": "light-flux-pauldron",
+          "pt": "Ombreira do Fluxo Iluminado",
+          "en": "Light Flux Pauldron",
+          "prio": 0,
+          "qty": "0",
+          "effect": "−50% (−50% por acúmulo) no tempo de recarga das habilidades. −50% (−50% por acúmulo) de velocidade de ataque.",
+          "why": "A recarga do Raio Flamejante, a carga da Nanobomba e os acertos do Lança-chamas dependem de velocidade de ataque. Cortá-la pela metade anula boa parte do ganho nas recargas."
+        }
+      ]
     },
     {
-     "icon": "rejuvenation-rack",
-     "pt": "Suporte do Rejuvenescimento",
-     "en": "Rejuvenation Rack",
-     "prio": 4,
-     "qty": "1",
-     "effect": "Cura +100% (+100% por acúmulo) a mais.",
-     "why": "Só vale se você já tem Semente Sanguessuga ou outras curas. Sem elas, prefira dano."
+      "id": "vazio",
+      "name": "Vazio",
+      "color": "roxo",
+      "intro": "Itens do Vazio (DLC Survivors of the Void) corrompem seus equivalentes. Dois dos itens centrais desta build podem ser corrompidos.",
+      "items": [
+        {
+          "icon": "lysate-cell",
+          "pt": "Célula Lisada",
+          "en": "Lysate Cell",
+          "prio": 1,
+          "qty": "1 a 2",
+          "effect": "+1 (+1 por acúmulo) carga da habilidade Especial e −33% no tempo de recarga dela. Corrompe todas as Células de Combustível.",
+          "why": "Dois Lança-chamas seguidos e recarga menor. É o maior ganho de dano possível para esta build."
+        },
+        {
+          "icon": "polylute",
+          "pt": "Polialaúde",
+          "en": "Polylute",
+          "prio": 3,
+          "qty": "1",
+          "effect": "25% de chance de disparar um raio de 60% de dano TOTAL até 3 (+3 por acúmulo) vezes. Corrompe todos os Ukuleles.",
+          "why": "Melhor contra chefes, pior em grupo. Corrompe os Ukuleles que você tiver."
+        },
+        {
+          "icon": "voidsent-flame",
+          "pt": "Chama da Nulidade",
+          "en": "Voidsent Flame",
+          "prio": 3,
+          "qty": "1",
+          "effect": "Ao acertar um inimigo com a vida cheia, cria um pilar de lava de 12 m (+2,4 m por acúmulo) causando 260% (+156% por acúmulo) do dano base. Corrompe todos os Will-o'-the-wisps.",
+          "why": "O Lança-chamas perfura e toca vários inimigos de vida cheia ao mesmo tempo. Corrompe os Will-o'-the-wisps recomendados acima."
+        },
+        {
+          "icon": "singularity-band",
+          "pt": "Faixa da Singularidade",
+          "en": "Singularity Band",
+          "prio": 0,
+          "qty": "0 (se tiver Cinturões)",
+          "effect": "Golpes que causam mais de 400% de dano também disparam um buraco negro que puxa inimigos a até 15 m para o centro. Dura 5 segundos antes de colapsar, causando 100% (+100% por acúmulo) de dano TOTAL. Recarrega a cada 20 segundos. Corrompe todos os Cinturões de Runald e de Kjaro.",
+          "why": "Armadilha: apaga todos os seus Cinturões de Kjaro e de Runald, os verdes centrais da Nanobomba, em troca de um efeito com recarga de 20 s."
+        }
+      ]
     }
-   ]
-  },
-  {
-   "id": "chefe",
-   "name": "Chefe",
-   "color": "amarelo",
-   "intro": "Itens de chefe só caem de chefes de teleporte.",
-   "items": [
+  ],
+  "synergy": [
     {
-     "icon": "irradiant-pearl",
-     "pt": "Pérola Irradiante",
-     "en": "Irradiant Pearl",
-     "prio": 2,
-     "qty": "1 ou mais",
-     "effect": "Aumenta TODOS os atributos em 10% (+10% por acúmulo).",
-     "why": "Vida, dano, velocidade de ataque e de movimento de uma vez. Tudo o que falta para a Artífice."
+      "title": "Nanobomba e os Cinturões",
+      "text": "Os Cinturões de Kjaro e Runald ativam em golpes de mais de 400% e recarregam a cada 10 s. A Nanobomba Carregada vai de 400% a 2000%, então qualquer carga razoável ativa os dois. Com Pente Reserva você tem várias Nanobombas, e o limite passa a ser a recarga de 10 s dos Cinturões. A wiki diz que os Cinturões aumentam muito o dano da Nanobomba."
     },
     {
-     "icon": "molten-perforator",
-     "pt": "Perfurador Fundido",
-     "en": "Molten Perforator",
-     "prio": 3,
-     "qty": "1",
-     "effect": "10% de chance ao acertar de lançar 3 bolas de magma do inimigo, causando 300% (+300% por acúmulo) de dano cada.",
-     "why": "Mais um efeito ao acertar para os muitos acertos do Lança-chamas."
+      "title": "Incendiário e Tanque de Ignição",
+      "text": "Raio Flamejante e Lança-chamas aplicam Incendiário, que soma dano contínuo e impede a regeneração do alvo. O Tanque de Ignição adiciona +300% por acúmulo a esse dano. A Gasolina também queima, então aproveita o mesmo Tanque. É por isso que a build usa o Raio Flamejante em vez do Raio de Plasma."
+    },
+    {
+      "title": "Velocidade de ataque",
+      "text": "Velocidade de ataque reduz a recarga do Raio Flamejante, carrega a Nanobomba mais rápido e adiciona acertos ao Lança-chamas sem aumentar a duração. Mais acertos significam mais ativações de Míssil, Ukulele, Adaga e Semente. Evite a Ombreira do Fluxo Iluminado."
+    },
+    {
+      "title": "Crítico rolado uma vez",
+      "text": "O crítico do Lança-chamas é decidido no início: o ataque inteiro é crítico ou nenhum acerto é. Por isso o Visor Ocular rende tanto aqui, já que garante o crítico enquanto dura. Óculos ajudam, mas o resultado varia muito de um uso para outro."
+    },
+    {
+      "title": "Congelar e executar",
+      "text": "O Congelar Abrupto congela inimigos, e congelados abaixo de 30% de vida morrem na hora. Use o muro, depois o Lança-chamas: quem cair abaixo de 30% enquanto congelado é executado. Não funciona na maioria dos chefes. O Pós-combustor dá três muros."
     }
-   ]
-  },
-  {
-   "id": "equipamento",
-   "name": "Equipamentos",
-   "color": "laranja",
-   "intro": "Só dá para carregar um. A Artífice ganha mais com equipamentos que juntam inimigos ou dão mobilidade.",
-   "items": [
+  ],
+  "rotation": [
     {
-     "icon": "primordial-cube",
-     "pt": "Cubo Primordial",
-     "en": "Primordial Cube",
-     "prio": 1,
-     "qty": "1 (recarga 60 s)",
-     "effect": "Dispara um buraco negro que puxa inimigos a até 30 m para o centro. Dura 10 segundos.",
-     "why": "Junta o grupo num ponto: o Lança-chamas atravessa todos e a Nanobomba de 14 m pega o grupo inteiro."
+      "step": "Nanobomba de longe",
+      "text": "Carregue até o fim e jogue no grupo para atordoar e ativar os Cinturões."
     },
     {
-     "icon": "ocular-hud",
-     "pt": "Visor Ocular",
-     "en": "Ocular HUD",
-     "prio": 2,
-     "qty": "1 (recarga 60 s)",
-     "effect": "Ganha +100% de chance de Acerto Crítico por 8 segundos.",
-     "why": "O crítico do Lança-chamas é rolado uma vez no uso. Com o Visor ativo, todo o ataque sai crítico, e a Nanobomba também."
+      "step": "Congelar Abrupto na frente",
+      "text": "Ponha o muro entre você e o grupo para congelar e bloquear quem vem a pé."
     },
     {
-     "icon": "milky-chrysalis",
-     "pt": "Crisálida Láctea",
-     "en": "Milky Chrysalis",
-     "prio": 3,
-     "qty": "1 (recarga 60 s)",
-     "effect": "Cria asas e voa por 15 segundos. Ganha +20% de velocidade de movimento durante o efeito.",
-     "why": "A mobilidade que a Artífice não tem. Útil para fugir ou cruzar o mapa."
+      "step": "Lança-chamas no grupo",
+      "text": "Fique dentro de 20 m e queime tudo durante os 3 s, sem correr."
     },
     {
-     "icon": "royal-capacitor",
-     "pt": "Capacitor Régio",
-     "en": "Royal Capacitor",
-     "prio": 3,
-     "qty": "1 (recarga 20 s)",
-     "effect": "Invoca um raio sobre um monstro marcado, causando 3000% de dano e atordoando os monstros próximos.",
-     "why": "Dano à distância contra voadores e elites que ficam fora dos 20 m do Lança-chamas."
+      "step": "Raio Flamejante entre recargas",
+      "text": "Gaste as 4 cargas no alvo mais perigoso e deixe recarregar."
     },
     {
-     "icon": "gorags-opus",
-     "pt": "Opus de Gorag",
-     "en": "Gorag's Opus",
-     "prio": 4,
-     "qty": "1 (recarga 45 s)",
-     "effect": "Todos os aliados entram em frenesi por 7 segundos. Aumenta a velocidade de movimento em 50% e a de ataque em 100%.",
-     "why": "Velocidade de ataque dobrada adiciona muitos acertos ao Lança-chamas e acelera as cargas do Raio Flamejante."
+      "step": "Paire e se mova",
+      "text": "Segure o pulo para sair do alcance de inimigos de chão enquanto as recargas voltam."
     }
-   ]
-  },
-  {
-   "id": "lunar",
-   "name": "Lunares",
-   "color": "azul",
-   "intro": "Itens lunares têm custo embutido. Para a Artífice, cuidado com o que corta velocidade de ataque ou vida.",
-   "items": [
+  ],
+  "essentials": [
     {
-     "icon": "purity",
-     "pt": "Pureza",
-     "en": "Purity",
-     "prio": 3,
-     "qty": "1",
-     "effect": "Reduz todas as recargas de habilidade em 2 s (+1 s por acúmulo). Todos os efeitos aleatórios são rolados +1 (+1 por acúmulo) vez contra você.",
-     "why": "Lança-chamas e Nanobomba caem de 5 s para 3 s. O custo é piorar Míssil, Ukulele, Gancho e crítico, que esta build usa."
+      "pt": "Seringa Militar",
+      "en": "Soldier's Syringe"
     },
     {
-     "icon": "shaped-glass",
-     "pt": "Vidro Configurado",
-     "en": "Shaped Glass",
-     "prio": 4,
-     "qty": "1 (só se estiver confortável)",
-     "effect": "+100% (+100% por acúmulo) de dano base. −50% (−50% por acúmulo) de vida máxima.",
-     "why": "Dobra a Nanobomba e o Lança-chamas, mas a Artífice já tem pouca vida e nenhuma fuga horizontal."
+      "pt": "Pente Reserva",
+      "en": "Backup Magazine"
     },
     {
-     "icon": "light-flux-pauldron",
-     "pt": "Ombreira do Fluxo Iluminado",
-     "en": "Light Flux Pauldron",
-     "prio": 0,
-     "qty": "0",
-     "effect": "−50% (−50% por acúmulo) no tempo de recarga das habilidades. −50% (−50% por acúmulo) de velocidade de ataque.",
-     "why": "A recarga do Raio Flamejante, a carga da Nanobomba e os acertos do Lança-chamas dependem de velocidade de ataque. Cortá-la pela metade anula boa parte do ganho nas recargas."
+      "pt": "Cinturão de Kjaro",
+      "en": "Kjaro's Band"
+    },
+    {
+      "pt": "Tanque de Ignição",
+      "en": "Ignition Tank"
+    },
+    {
+      "pt": "Cabeça Alienígena",
+      "en": "Alien Head"
+    },
+    {
+      "pt": "Célula Lisada",
+      "en": "Lysate Cell"
+    },
+    {
+      "pt": "Cubo Primordial",
+      "en": "Primordial Cube"
     }
-   ]
-  },
-  {
-   "id": "vazio",
-   "name": "Vazio",
-   "color": "roxo",
-   "intro": "Itens do Vazio (DLC Survivors of the Void) corrompem seus equivalentes. Dois dos itens centrais desta build podem ser corrompidos.",
-   "items": [
+  ],
+  "situational_note": "Situacionais: Pé de Cabra, Gasolina, Will-o'-the-wisp, Pluma de Hopoo, Adaga Cerimonial, Chama da Nulidade, Pureza e Vidro Configurado.",
+  "fallbacks": [
     {
-     "icon": "lysate-cell",
-     "pt": "Célula Lisada",
-     "en": "Lysate Cell",
-     "prio": 1,
-     "qty": "1 a 2",
-     "effect": "+1 (+1 por acúmulo) carga da habilidade Especial e −33% no tempo de recarga dela. Corrompe todas as Células de Combustível.",
-     "why": "Dois Lança-chamas seguidos e recarga menor. É o maior ganho de dano possível para esta build."
+      "pt": "Seringa Militar",
+      "en": "Soldier's Syringe",
+      "text": "Opus de Gorag como equipamento, ou Mocha se aparecer."
     },
     {
-     "icon": "polylute",
-     "pt": "Polialaúde",
-     "en": "Polylute",
-     "prio": 3,
-     "qty": "1",
-     "effect": "25% de chance de disparar um raio de 60% de dano TOTAL até 3 (+3 por acúmulo) vezes. Corrompe todos os Ukuleles.",
-     "why": "Melhor contra chefes, pior em grupo. Corrompe os Ukuleles que você tiver."
+      "pt": "Pente Reserva",
+      "en": "Backup Magazine",
+      "text": "Cabeça Alienígena ou Pureza para a Nanobomba voltar mais rápido."
     },
     {
-     "icon": "voidsent-flame",
-     "pt": "Chama da Nulidade",
-     "en": "Voidsent Flame",
-     "prio": 3,
-     "qty": "1",
-     "effect": "Ao acertar um inimigo com a vida cheia, cria um pilar de lava de 12 m (+2,4 m por acúmulo) causando 260% (+156% por acúmulo) do dano base. Corrompe todos os Will-o'-the-wisps.",
-     "why": "O Lança-chamas perfura e toca vários inimigos de vida cheia ao mesmo tempo. Corrompe os Will-o'-the-wisps recomendados acima."
+      "pt": "Cinturão de Kjaro",
+      "en": "Kjaro's Band",
+      "text": "Cinturão de Runald, que usa o mesmo gatilho de 400%."
     },
     {
-     "icon": "singularity-band",
-     "pt": "Faixa da Singularidade",
-     "en": "Singularity Band",
-     "prio": 0,
-     "qty": "0 (se tiver Cinturões)",
-     "effect": "Golpes que causam mais de 400% de dano também disparam um buraco negro que puxa inimigos a até 15 m para o centro. Dura 5 segundos antes de colapsar, causando 100% (+100% por acúmulo) de dano TOTAL. Recarrega a cada 20 segundos. Corrompe todos os Cinturões de Runald e de Kjaro.",
-     "why": "Armadilha: apaga todos os seus Cinturões de Kjaro e de Runald, os verdes centrais da Nanobomba, em troca de um efeito com recarga de 20 s."
+      "pt": "Tanque de Ignição",
+      "en": "Ignition Tank",
+      "text": "Míssil ASM e Ukulele para aproveitar os acertos do Lança-chamas. Raio de Plasma passa a valer tanto quanto o Flamejante."
+    },
+    {
+      "pt": "Cabeça Alienígena",
+      "en": "Alien Head",
+      "text": "Célula Lisada para o Lança-chamas e Pós-combustor para o Congelar Abrupto."
+    },
+    {
+      "pt": "Célula Lisada",
+      "en": "Lysate Cell",
+      "text": "Cabeça Alienígena e velocidade de ataque para mais acertos por Lança-chamas."
+    },
+    {
+      "pt": "Cubo Primordial",
+      "en": "Primordial Cube",
+      "text": "Visor Ocular para críticos garantidos ou Crisálida Láctea para mobilidade."
     }
-   ]
-  }
- ],
- "synergy": [
-  {
-   "title": "Nanobomba e os Cinturões",
-   "text": "Os Cinturões de Kjaro e Runald ativam em golpes de mais de 400% e recarregam a cada 10 s. A Nanobomba Carregada vai de 400% a 2000%, então qualquer carga razoável ativa os dois. Com Pente Reserva você tem várias Nanobombas, e o limite passa a ser a recarga de 10 s dos Cinturões. A wiki diz que os Cinturões aumentam muito o dano da Nanobomba."
-  },
-  {
-   "title": "Incendiário e Tanque de Ignição",
-   "text": "Raio Flamejante e Lança-chamas aplicam Incendiário, que soma dano contínuo e impede a regeneração do alvo. O Tanque de Ignição adiciona +300% por acúmulo a esse dano. A Gasolina também queima, então aproveita o mesmo Tanque. É por isso que a build usa o Raio Flamejante em vez do Raio de Plasma."
-  },
-  {
-   "title": "Velocidade de ataque",
-   "text": "Velocidade de ataque reduz a recarga do Raio Flamejante, carrega a Nanobomba mais rápido e adiciona acertos ao Lança-chamas sem aumentar a duração. Mais acertos significam mais ativações de Míssil, Ukulele, Adaga e Semente. Evite a Ombreira do Fluxo Iluminado."
-  },
-  {
-   "title": "Crítico rolado uma vez",
-   "text": "O crítico do Lança-chamas é decidido no início: o ataque inteiro é crítico ou nenhum acerto é. Por isso o Visor Ocular rende tanto aqui, já que garante o crítico enquanto dura. Óculos ajudam, mas o resultado varia muito de um uso para outro."
-  },
-  {
-   "title": "Congelar e executar",
-   "text": "O Congelar Abrupto congela inimigos, e congelados abaixo de 30% de vida morrem na hora. Use o muro, depois o Lança-chamas: quem cair abaixo de 30% enquanto congelado é executado. Não funciona na maioria dos chefes. O Pós-combustor dá três muros."
-  }
- ],
- "rotation": [
-  {
-   "step": "Nanobomba de longe",
-   "text": "Carregue até o fim e jogue no grupo para atordoar e ativar os Cinturões."
-  },
-  {
-   "step": "Congelar Abrupto na frente",
-   "text": "Ponha o muro entre você e o grupo para congelar e bloquear quem vem a pé."
-  },
-  {
-   "step": "Lança-chamas no grupo",
-   "text": "Fique dentro de 20 m e queime tudo durante os 3 s, sem correr."
-  },
-  {
-   "step": "Raio Flamejante entre recargas",
-   "text": "Gaste as 4 cargas no alvo mais perigoso e deixe recarregar."
-  },
-  {
-   "step": "Paire e se mova",
-   "text": "Segure o pulo para sair do alcance de inimigos de chão enquanto as recargas voltam."
-  }
- ],
- "essentials": [
-  {
-   "pt": "Seringa Militar",
-   "en": "Soldier's Syringe"
-  },
-  {
-   "pt": "Pente Reserva",
-   "en": "Backup Magazine"
-  },
-  {
-   "pt": "Cinturão de Kjaro",
-   "en": "Kjaro's Band"
-  },
-  {
-   "pt": "Tanque de Ignição",
-   "en": "Ignition Tank"
-  },
-  {
-   "pt": "Cabeça Alienígena",
-   "en": "Alien Head"
-  },
-  {
-   "pt": "Célula Lisada",
-   "en": "Lysate Cell"
-  },
-  {
-   "pt": "Cubo Primordial",
-   "en": "Primordial Cube"
-  }
- ],
- "situational_note": "Situacionais: Pé de Cabra, Gasolina, Will-o'-the-wisp, Pluma de Hopoo, Adaga Cerimonial, Chama da Nulidade, Pureza e Vidro Configurado.",
- "fallbacks": [
-  {
-   "pt": "Seringa Militar",
-   "en": "Soldier's Syringe",
-   "text": "Opus de Gorag como equipamento, ou Mocha se aparecer."
-  },
-  {
-   "pt": "Pente Reserva",
-   "en": "Backup Magazine",
-   "text": "Cabeça Alienígena ou Pureza para a Nanobomba voltar mais rápido."
-  },
-  {
-   "pt": "Cinturão de Kjaro",
-   "en": "Kjaro's Band",
-   "text": "Cinturão de Runald, que usa o mesmo gatilho de 400%."
-  },
-  {
-   "pt": "Tanque de Ignição",
-   "en": "Ignition Tank",
-   "text": "Míssil ASM e Ukulele para aproveitar os acertos do Lança-chamas. Raio de Plasma passa a valer tanto quanto o Flamejante."
-  },
-  {
-   "pt": "Cabeça Alienígena",
-   "en": "Alien Head",
-   "text": "Célula Lisada para o Lança-chamas e Pós-combustor para o Congelar Abrupto."
-  },
-  {
-   "pt": "Célula Lisada",
-   "en": "Lysate Cell",
-   "text": "Cabeça Alienígena e velocidade de ataque para mais acertos por Lança-chamas."
-  },
-  {
-   "pt": "Cubo Primordial",
-   "en": "Primordial Cube",
-   "text": "Visor Ocular para críticos garantidos ou Crisálida Láctea para mobilidade."
-  }
- ],
- "summary": "Raio Flamejante, Nanobomba Carregada, Congelar Abrupto e Lança-chamas. Abra com a Nanobomba carregada para atordoar e ativar os Cinturões, bloqueie com o muro de gelo e queime o grupo com o Lança-chamas. Empilhe Seringa Militar e Pente Reserva, pegue Cinturão de Kjaro e Tanque de Ignição nos verdes e encurte as recargas com Cabeça Alienígena e Célula Lisada. Mantenha-se em movimento, porque a Artífice não tem fuga horizontal.",
- "checklist": [
-  {
-   "title": "Sempre pegue",
-   "text": "Seringa Militar, Pente Reserva, Cinturão de Kjaro, Tanque de Ignição, Cabeça Alienígena, Célula Lisada."
-  },
-  {
-   "title": "Impressoras brancas",
-   "text": "Seringa Militar até umas 5, depois Pente Reserva e Casco de Bode."
-  },
-  {
-   "title": "Primeiro verde",
-   "text": "Cinturão de Kjaro. Depois Tanque de Ignição e Cinturão de Runald."
-  },
-  {
-   "title": "Equipamento",
-   "text": "Cubo Primordial para grupos; Visor Ocular para chefes."
-  },
-  {
-   "title": "Antes de pegar Vazio",
-   "text": "Faixa da Singularidade apaga os Cinturões. Polialaúde corrompe Ukuleles; Chama da Nulidade, Will-o'-the-wisps."
-  },
-  {
-   "title": "Não pegue",
-   "text": "Ombreira do Fluxo Iluminado e Faixa da Singularidade se já tiver Cinturões."
-  },
-  {
-   "title": "Luta de chefe",
-   "text": "Nanobombas carregadas de longe, Lança-chamas quando ele chegar perto; o gelo não congela a maioria dos chefes."
-  }
- ],
- "sources": [
-  {
-   "title": "Artificer — Risk of Rain 2 Wiki",
-   "url": "https://riskofrain2.wiki.gg/wiki/Artificer"
-  },
-  {
-   "title": "Items — Risk of Rain 2 Wiki",
-   "url": "https://riskofrain2.wiki.gg/wiki/Items"
-  },
-  {
-   "title": "Artificer Risk of Rain 2 — Rogue Ranker",
-   "url": "https://rogueranker.com/artificer-ror2/"
-  },
-  {
-   "title": "All new abilities in Risk of Rain 2 Hallowed Concepts — Destructoid",
-   "url": "https://www.destructoid.com/all-new-abilities-in-risk-of-rain-2-hallowed-concepts-and-how-to-unlock-them/"
-  }
- ],
- "notes": [
-  "Tectonic Blast veio com a DLC Hallowed Concepts (lançada em 8 out. 2026) e ainda não tem nome no arquivo pt-BR do jogo, por isso aparece em inglês. Desbloqueio: chegar ao chefe final da Lua sem ativar nenhum pilar.",
-  "O desbloqueio do Conjurar Nanoprojétil é o desafio Artificer: Chunked!."
- ]
+  ],
+  "summary": "Raio Flamejante, Nanobomba Carregada, Congelar Abrupto e Lança-chamas. Abra com a Nanobomba carregada para atordoar e ativar os Cinturões, bloqueie com o muro de gelo e queime o grupo com o Lança-chamas. Empilhe Seringa Militar e Pente Reserva, pegue Cinturão de Kjaro e Tanque de Ignição nos verdes e encurte as recargas com Cabeça Alienígena e Célula Lisada. Mantenha-se em movimento, porque a Artífice não tem fuga horizontal.",
+  "checklist": [
+    {
+      "title": "Sempre pegue",
+      "text": "Seringa Militar, Pente Reserva, Cinturão de Kjaro, Tanque de Ignição, Cabeça Alienígena, Célula Lisada."
+    },
+    {
+      "title": "Impressoras brancas",
+      "text": "Seringa Militar até umas 5, depois Pente Reserva e Casco de Bode."
+    },
+    {
+      "title": "Primeiro verde",
+      "text": "Cinturão de Kjaro. Depois Tanque de Ignição e Cinturão de Runald."
+    },
+    {
+      "title": "Equipamento",
+      "text": "Cubo Primordial para grupos; Visor Ocular para chefes."
+    },
+    {
+      "title": "Antes de pegar Vazio",
+      "text": "Faixa da Singularidade apaga os Cinturões. Polialaúde corrompe Ukuleles; Chama da Nulidade, Will-o'-the-wisps."
+    },
+    {
+      "title": "Não pegue",
+      "text": "Ombreira do Fluxo Iluminado e Faixa da Singularidade se já tiver Cinturões."
+    },
+    {
+      "title": "Luta de chefe",
+      "text": "Nanobombas carregadas de longe, Lança-chamas quando ele chegar perto; o gelo não congela a maioria dos chefes."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Artificer — Risk of Rain 2 Wiki",
+      "url": "https://riskofrain2.wiki.gg/wiki/Artificer"
+    },
+    {
+      "title": "Items — Risk of Rain 2 Wiki",
+      "url": "https://riskofrain2.wiki.gg/wiki/Items"
+    },
+    {
+      "title": "Artificer Risk of Rain 2 — Rogue Ranker",
+      "url": "https://rogueranker.com/artificer-ror2/"
+    },
+    {
+      "title": "All new abilities in Risk of Rain 2 Hallowed Concepts — Destructoid",
+      "url": "https://www.destructoid.com/all-new-abilities-in-risk-of-rain-2-hallowed-concepts-and-how-to-unlock-them/"
+    }
+  ],
+  "notes": [
+    "Tectonic Blast veio com a DLC Hallowed Concepts (lançada em 8 out. 2026) e ainda não tem nome no arquivo pt-BR do jogo, por isso aparece em inglês. Desbloqueio: chegar ao chefe final da Lua sem ativar nenhum pilar.",
+    "O desbloqueio do Conjurar Nanoprojétil é o desafio Artificer: Chunked!."
+  ]
 }

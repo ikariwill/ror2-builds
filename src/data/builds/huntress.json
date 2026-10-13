@@ -1,537 +1,640 @@
 {
- "id": "huntress",
- "name_pt": "Caçadora",
- "name_en": "Huntress",
- "title": "Caçadora: Build de Crítico em Movimento",
- "tagline": "Flechas teleguiadas, crítico e correr sem parar",
- "lede": "A Caçadora atira, joga a alabarda e teleporta enquanto corre, então a build aposta em crítico e mobilidade para nunca ficar parada. O Turbilhão dobra as flechas em cada crítico, o que faz o crítico valer duas vezes. Ela tem só 90 de vida: os itens de defesa e cura entram cedo.",
- "loadout": [
-  {"slot": "Primária", "skill": "Turbilhão (Flurry)"},
-  {"slot": "Secundária", "skill": "Alabarda de Laser (Laser Glaive)"},
-  {"slot": "Utilitária", "skill": "Teleporte Fásico (Phase Blink)"},
-  {"slot": "Especial", "skill": "Balista (Ballista)"}
- ],
- "skills": [
-  {
-   "slot": "Primária",
-   "pt": "Disparo",
-   "en": "Strafe",
-   "pick": "Variante",
-   "spec": "Ágil. Flecha teleguiada de 150%, uma a cada 0,5 s na velocidade base. Coeficiente 1,0. Precisa de um alvo travado a até 60 m.",
-   "why": "A melhor primária no começo da run e sem crítico. O coeficiente 1,0 dá o raio cheio do Brutamontes e a duração cheia do sangramento. Use até ter uns 20% de crítico."
-  },
-  {
-   "slot": "Primária (alt.)",
-   "pt": "Turbilhão",
-   "en": "Flurry",
-   "pick": "Recomendada",
-   "spec": "Ágil. 3 flechas de 100% a cada 1,3 s; críticos disparam 6. Coeficiente 0,7 por flecha. Desbloqueio: Huntress: Finishing Touch.",
-   "why": "Um crítico dispara o dobro de flechas, ou seja, 4× o dano em vez de 2×. Segundo a wiki, passa o Disparo com algo entre 16% e 26% de crítico. Cada flecha rola os itens ao acertar, mas o coeficiente 0,7 reduz chance, raio do Brutamontes, sangramento e cura da Foice por flecha."
-  },
-  {
-   "slot": "Secundária",
-   "pt": "Alabarda de Laser",
-   "en": "Laser Glaive",
-   "pick": "Recomendada",
-   "spec": "250% por acerto, +10% a cada salto, até 6 saltos (2372% se todos acertarem). Atravessa o cenário. Recarga 7 s. Coeficiente 0,8 por salto.",
-   "why": "Dano em grupo teleguiado e pode ser usada correndo. O Pente Reserva dá cargas extras para lançar várias seguidas. O texto do jogo não cita os 10% como multiplicativos; a wiki diz que são."
-  },
-  {
-   "slot": "Secundária (alt.)",
-   "pt": "Ciclone de Laser",
-   "en": "Laser Cyclone",
-   "pick": "Variante",
-   "spec": "Alabarda giratória de 400% de dano por segundo; ao pegar de volta, repetir o comando a relança e soma dano. 2 cargas, recarga 3 s. Só uma por vez. Desbloqueio: Huntress: Tomb Raider.",
-   "why": "Opção nova, que a wiki associa à atualização Hallowed Concepts. Pede timing para pegar e relançar. O nome em português não está no arquivo de tradução atual, por isso aparece em inglês."
-  },
-  {
-   "slot": "Utilitária",
-   "pt": "Translocação",
-   "en": "Blink",
-   "pick": "Variante",
-   "spec": "Ágil. Teleporte de distância média na direção da câmera, inclusive para cima ou para baixo. Recarga 7 s.",
-   "why": "Sobe em plataformas e foge na vertical, o que o Teleporte Fásico não faz. A distância cresce com a velocidade de movimento. Use se ainda não desbloqueou a alternativa."
-  },
-  {
-   "slot": "Utilitária (alt.)",
-   "pt": "Teleporte Fásico",
-   "en": "Phase Blink",
-   "pick": "Recomendada",
-   "spec": "Ágil. Teleporte horizontal curto. 3 cargas, 2 s por carga. Desbloqueio: Huntress: One Shot, One Kill (a wiki troca o nome com o da Balista no histórico).",
-   "why": "Três esquivas curtas que voltam rápido. Para uma personagem frágil, esquivar várias vezes por luta vale mais que um teleporte longo."
-  },
-  {
-   "slot": "Especial",
-   "pt": "Chuva de Flechas",
-   "en": "Arrow Rain",
-   "pick": "Variante",
-   "spec": "Sobe para o céu e faz chover flechas numa área de 7,5 m com lentidão. 19 acertos em 6 s, 2090% no total. Recarga 12 s. Coeficiente 0,2 por acerto.",
-   "why": "O jogo em português diz 225% por segundo; a wiki diz que esse número está errado e dá 2090% no total. Melhor contra grupos e com itens que contam acertos sem depender de chance, como Justiça Destruidora e Camarão de Plasma."
-  },
-  {
-   "slot": "Especial (alt.)",
-   "pt": "Balista",
-   "en": "Ballista",
-   "pick": "Recomendada",
-   "spec": "Sobe para trás e dispara até 3 raios de 900% (2700% no total). Recarga 12 s. Coeficiente 1,0 por raio. Desbloqueio: Huntress: Piercing Wind.",
-   "why": "A wiki prefere a Balista contra alvo único. Cada raio passa de 400% e pode ativar os Cinturões. Com crítico, cada raio dobra, e com Mira Laser triplica."
-  }
- ],
- "sections": [
-  {
-   "id": "comum",
-   "name": "Comum",
-   "color": "branco",
-   "intro": "A Caçadora luta de longe e correndo. Os brancos dão crítico, velocidade e a defesa que os 90 de vida dela não têm.",
-   "items": [
+  "id": "huntress",
+  "name_pt": "Caçadora",
+  "name_en": "Huntress",
+  "title": "Caçadora: Build de Crítico em Movimento",
+  "tagline": "Flechas teleguiadas, crítico e correr sem parar",
+  "lede": "A Caçadora atira, joga a alabarda e teleporta enquanto corre, então a build aposta em crítico e mobilidade para nunca ficar parada. O Turbilhão dobra as flechas em cada crítico, o que faz o crítico valer duas vezes. Ela tem só 90 de vida: os itens de defesa e cura entram cedo.",
+  "loadout": [
     {
-     "icon": "lens-makers-glasses",
-     "pt": "Óculos do Fabricante de Lentes",
-     "en": "Lens-Maker's Glasses",
-     "prio": 1,
-     "qty": "4 a 8",
-     "effect": "10% (+10% por acúmulo) de chance de Acerto Crítico, que causa dano dobrado.",
-     "why": "No Turbilhão, crítico dobra as flechas além de dobrar o dano. É o item que faz a build funcionar."
+      "slot": "Primária",
+      "skill": "Turbilhão (Flurry)"
     },
     {
-     "icon": "soldiers-syringe",
-     "pt": "Seringa Militar",
-     "en": "Soldier's Syringe",
-     "prio": 1,
-     "qty": "3 a 6",
-     "effect": "+15% (+15% por acúmulo) de velocidade de ataque.",
-     "why": "Encurta o intervalo de 1,3 s do Turbilhão (ou 0,5 s do Disparo). Mais rajadas, mais críticos, mais ativações."
+      "slot": "Secundária",
+      "skill": "Alabarda de Laser (Laser Glaive)"
     },
     {
-     "icon": "tougher-times",
-     "pt": "Tempos Difíceis",
-     "en": "Tougher Times",
-     "prio": 2,
-     "qty": "2 a 4",
-     "effect": "15% (+15% por acúmulo) de chance de bloquear dano recebido. Não é afetado por sorte.",
-     "why": "Com 90 de vida, um golpe bloqueado pode ser a diferença entre morrer e não morrer."
+      "slot": "Utilitária",
+      "skill": "Teleporte Fásico (Phase Blink)"
     },
     {
-     "icon": "pauls-goat-hoof",
-     "pt": "Casco de Bode de Paul",
-     "en": "Paul's Goat Hoof",
-     "prio": 2,
-     "qty": "2 a 4",
-     "effect": "+14% (+14% por acúmulo) de velocidade de movimento.",
-     "why": "A distância dos teleportes cresce com a velocidade de movimento, e correr é a principal defesa dela."
-    },
-    {
-     "icon": "energy-drink",
-     "pt": "Bebida Energética",
-     "en": "Energy Drink",
-     "prio": 3,
-     "qty": "1 a 3",
-     "effect": "Velocidade de corrida aumentada em 25% (+25% por acúmulo).",
-     "why": "Todas as habilidades dela, menos as especiais, podem ser usadas correndo. Você passa a luta inteira em corrida."
-    },
-    {
-     "icon": "armor-piercing-rounds",
-     "pt": "Projéteis Perfurantes",
-     "en": "Armor-Piercing Rounds",
-     "prio": 3,
-     "qty": "1 a 3",
-     "effect": "+20% (+20% por acúmulo) de dano contra chefes.",
-     "why": "Melhora a Balista, que é a ferramenta dela contra chefes."
-    },
-    {
-     "icon": "backup-magazine",
-     "pt": "Pente Reserva",
-     "en": "Backup Magazine",
-     "prio": 3,
-     "qty": "1 a 3",
-     "effect": "+1 (+1 por acúmulo) carga da habilidade Secundária.",
-     "why": "A wiki cita: cargas extras da Alabarda de Laser para controlar grupos uma atrás da outra."
-    },
-    {
-     "icon": "personal-shield-generator",
-     "pt": "Gerador de Escudo Pessoal",
-     "en": "Personal Shield Generator",
-     "prio": 4,
-     "qty": "1 a 2",
-     "effect": "Ganha escudo de 8% (+8% por acúmulo) da vida máxima. Recarrega fora de perigo.",
-     "why": "Uma camada extra de vida que volta entre as lutas. Bom para quem vive à distância e recebe pouco dano contínuo."
+      "slot": "Especial",
+      "skill": "Balista (Ballista)"
     }
-   ]
-  },
-  {
-   "id": "incomum",
-   "name": "Incomum",
-   "color": "verde",
-   "intro": "Os verdes de crítico rendem em dobro no Turbilhão. Os de chance rolam em cada flecha, mas com coeficiente 0,7.",
-   "items": [
+  ],
+  "skills": [
     {
-     "icon": "predatory-instincts",
-     "pt": "Instintos Predatórios",
-     "en": "Predatory Instincts",
-     "prio": 1,
-     "qty": "1 a 2",
-     "effect": "+5% de chance de crítico. Críticos dão +12% de velocidade de ataque, até 36% (+24% por acúmulo).",
-     "why": "A wiki destaca este item com o Turbilhão: cada flecha pode ser crítica, então o bônus fica no máximo quase o tempo todo."
+      "slot": "Primária",
+      "pt": "Disparo",
+      "en": "Strafe",
+      "pick": "Variante",
+      "spec": "Ágil. Flecha teleguiada de 150%, uma a cada 0,5 s na velocidade base. Coeficiente 1,0. Precisa de um alvo travado a até 60 m.",
+      "why": "A melhor primária no começo da run e sem crítico. O coeficiente 1,0 dá o raio cheio do Brutamontes e a duração cheia do sangramento. Use até ter uns 20% de crítico."
     },
     {
-     "icon": "harvesters-scythe",
-     "pt": "Foice do Ceifador",
-     "en": "Harvester's Scythe",
-     "prio": 1,
-     "qty": "1 a 2",
-     "effect": "+5% de chance de crítico. Críticos curam 8 (+4 por acúmulo) de vida.",
-     "why": "A cura principal da build. A wiki avisa que a cura escala com o coeficiente, então cada flecha do Turbilhão cura um pouco menos, compensado pelo número de flechas."
+      "slot": "Primária (alt.)",
+      "pt": "Turbilhão",
+      "en": "Flurry",
+      "pick": "Recomendada",
+      "spec": "Ágil. 3 flechas de 100% a cada 1,3 s; críticos disparam 6. Coeficiente 0,7 por flecha. Desbloqueio: Huntress: Finishing Touch.",
+      "why": "Um crítico dispara o dobro de flechas, ou seja, 4× o dano em vez de 2×. Segundo a wiki, passa o Disparo com algo entre 16% e 26% de crítico. Cada flecha rola os itens ao acertar, mas o coeficiente 0,7 reduz chance, raio do Brutamontes, sangramento e cura da Foice por flecha."
     },
     {
-     "icon": "rose-buckler",
-     "pt": "Broquel da Rosa",
-     "en": "Rose Buckler",
-     "prio": 2,
-     "qty": "1 a 3",
-     "effect": "+30 (+30 por acúmulo) de armadura enquanto corre.",
-     "why": "A wiki recomenda este item para a Caçadora: ela ataca, joga a alabarda e teleporta sem parar de correr, então a armadura fica ativa quase sempre."
+      "slot": "Secundária",
+      "pt": "Alabarda de Laser",
+      "en": "Laser Glaive",
+      "pick": "Recomendada",
+      "spec": "250% por acerto, +10% a cada salto, até 6 saltos (2372% se todos acertarem). Atravessa o cenário. Recarga 7 s. Coeficiente 0,8 por salto.",
+      "why": "Dano em grupo teleguiado e pode ser usada correndo. O Pente Reserva dá cargas extras para lançar várias seguidas. O texto do jogo não cita os 10% como multiplicativos; a wiki diz que são."
     },
     {
-     "icon": "ukulele",
-     "pt": "Ukulele",
-     "en": "Ukulele",
-     "prio": 2,
-     "qty": "1 a 2",
-     "effect": "25% de chance de disparar um raio em cadeia de 80% de dano TOTAL em até 3 (+2 por acúmulo) alvos a 20 m (+2 m por acúmulo).",
-     "why": "Mais dano em grupo sem perder o foco. O dano do raio não muda com o coeficiente, só a chance de ativar por flecha."
+      "slot": "Secundária (alt.)",
+      "pt": "Ciclone de Laser",
+      "en": "Laser Cyclone",
+      "pick": "Variante",
+      "spec": "Alabarda giratória de 400% de dano por segundo; ao pegar de volta, repetir o comando a relança e soma dano. 2 cargas, recarga 3 s. Só uma por vez. Desbloqueio: Huntress: Tomb Raider.",
+      "why": "Opção nova, que a wiki associa à atualização Hallowed Concepts. Pede timing para pegar e relançar. O nome em português não está no arquivo de tradução atual, por isso aparece em inglês."
     },
     {
-     "icon": "atg-missile-mk-1",
-     "pt": "Míssil ASM Mk. 1",
-     "en": "AtG Missile Mk. 1",
-     "prio": 2,
-     "qty": "1 a 3",
-     "effect": "10% de chance de disparar um míssil que causa 300% (+300% por acúmulo) de dano TOTAL.",
-     "why": "Funciona bem de longe, que é onde ela luta. Seis flechas por crítico são seis rolagens."
+      "slot": "Utilitária",
+      "pt": "Translocação",
+      "en": "Blink",
+      "pick": "Variante",
+      "spec": "Ágil. Teleporte de distância média na direção da câmera, inclusive para cima ou para baixo. Recarga 7 s.",
+      "why": "Sobe em plataformas e foge na vertical, o que o Teleporte Fásico não faz. A distância cresce com a velocidade de movimento. Use se ainda não desbloqueou a alternativa."
     },
     {
-     "icon": "runalds-band",
-     "pt": "Cinturão de Runald",
-     "en": "Runald's Band",
-     "prio": 3,
-     "qty": "1",
-     "effect": "Golpes que causam mais de 400% de dano também lançam uma explosão de gelo rúnico que deixa o inimigo 80% mais lento por 3 s (+3 s por acúmulo) e causa 250% (+250% por acúmulo) de dano TOTAL. Recarrega a cada 10 s.",
-     "why": "Os raios de 900% da Balista passam de 400% e ativam o cinturão. A lentidão ajuda a manter distância."
+      "slot": "Utilitária (alt.)",
+      "pt": "Teleporte Fásico",
+      "en": "Phase Blink",
+      "pick": "Recomendada",
+      "spec": "Ágil. Teleporte horizontal curto. 3 cargas, 2 s por carga. Desbloqueio: Huntress: One Shot, One Kill (a wiki troca o nome com o da Balista no histórico).",
+      "why": "Três esquivas curtas que voltam rápido. Para uma personagem frágil, esquivar várias vezes por luta vale mais que um teleporte longo."
     },
     {
-     "icon": "kjaros-band",
-     "pt": "Cinturão de Kjaro",
-     "en": "Kjaro's Band",
-     "prio": 3,
-     "qty": "1",
-     "effect": "Golpes que causam mais de 400% de dano também lançam um tornado de chamas rúnico com 300% (+300% por acúmulo) de dano TOTAL ao longo do tempo. Recarrega a cada 10 s.",
-     "why": "Mesmo motivo do Runald: a Balista ativa. Dano extra em chefes."
+      "slot": "Especial",
+      "pt": "Chuva de Flechas",
+      "en": "Arrow Rain",
+      "pick": "Variante",
+      "spec": "Sobe para o céu e faz chover flechas numa área de 7,5 m com lentidão. 19 acertos em 6 s, 2090% no total. Recarga 12 s. Coeficiente 0,2 por acerto.",
+      "why": "O jogo em português diz 225% por segundo; a wiki diz que esse número está errado e dá 2090% no total. Melhor contra grupos e com itens que contam acertos sem depender de chance, como Justiça Destruidora e Camarão de Plasma."
     },
     {
-     "icon": "old-war-stealthkit",
-     "pt": "Kit Furtivo da Guerra Antiga",
-     "en": "Old War Stealthkit",
-     "prio": 4,
-     "qty": "1",
-     "effect": "Ao cair abaixo de 25% de vida, ganha 40% de velocidade e invisibilidade por 5 s. Recarrega a cada 30 s (−50% por acúmulo).",
-     "why": "Com pouca vida, uma fuga automática salva a run mais de uma vez."
+      "slot": "Especial (alt.)",
+      "pt": "Balista",
+      "en": "Ballista",
+      "pick": "Recomendada",
+      "spec": "Sobe para trás e dispara até 3 raios de 900% (2700% no total). Recarga 12 s. Coeficiente 1,0 por raio. Desbloqueio: Huntress: Piercing Wind.",
+      "why": "A wiki prefere a Balista contra alvo único. Cada raio passa de 400% e pode ativar os Cinturões. Com crítico, cada raio dobra, e com Mira Laser triplica."
     }
-   ]
-  },
-  {
-   "id": "lendario",
-   "name": "Lendário",
-   "color": "vermelho",
-   "intro": "Os vermelhos que mais mudam a Caçadora multiplicam o crítico e dão dano em área às flechas.",
-   "items": [
+  ],
+  "sections": [
     {
-     "icon": "laser-scope",
-     "pt": "Mira Laser",
-     "en": "Laser Scope",
-     "prio": 1,
-     "qty": "1 a 2",
-     "effect": "Acertos Críticos causam +100% (+100% por acúmulo) de dano.",
-     "why": "Com muitos Óculos, quase toda flecha é crítica. A Mira passa cada uma de 2× para 3× o dano, e no Turbilhão o crítico ainda dobra as flechas."
+      "id": "comum",
+      "name": "Comum",
+      "color": "branco",
+      "intro": "A Caçadora luta de longe e correndo. Os brancos dão crítico, velocidade e a defesa que os 90 de vida dela não têm.",
+      "items": [
+        {
+          "icon": "lens-makers-glasses",
+          "pt": "Óculos do Fabricante de Lentes",
+          "en": "Lens-Maker's Glasses",
+          "prio": 1,
+          "qty": "4 a 8",
+          "effect": "10% (+10% por acúmulo) de chance de Acerto Crítico, que causa dano dobrado.",
+          "why": "No Turbilhão, crítico dobra as flechas além de dobrar o dano. É o item que faz a build funcionar."
+        },
+        {
+          "icon": "soldiers-syringe",
+          "pt": "Seringa Militar",
+          "en": "Soldier's Syringe",
+          "prio": 1,
+          "qty": "3 a 6",
+          "effect": "+15% (+15% por acúmulo) de velocidade de ataque.",
+          "why": "Encurta o intervalo de 1,3 s do Turbilhão (ou 0,5 s do Disparo). Mais rajadas, mais críticos, mais ativações."
+        },
+        {
+          "icon": "tougher-times",
+          "pt": "Tempos Difíceis",
+          "en": "Tougher Times",
+          "prio": 2,
+          "qty": "2 a 4",
+          "effect": "15% (+15% por acúmulo) de chance de bloquear dano recebido. Não é afetado por sorte.",
+          "why": "Com 90 de vida, um golpe bloqueado pode ser a diferença entre morrer e não morrer."
+        },
+        {
+          "icon": "pauls-goat-hoof",
+          "pt": "Casco de Bode de Paul",
+          "en": "Paul's Goat Hoof",
+          "prio": 2,
+          "qty": "2 a 4",
+          "effect": "+14% (+14% por acúmulo) de velocidade de movimento.",
+          "why": "A distância dos teleportes cresce com a velocidade de movimento, e correr é a principal defesa dela."
+        },
+        {
+          "icon": "energy-drink",
+          "pt": "Bebida Energética",
+          "en": "Energy Drink",
+          "prio": 3,
+          "qty": "1 a 3",
+          "effect": "Velocidade de corrida aumentada em 25% (+25% por acúmulo).",
+          "why": "Todas as habilidades dela, menos as especiais, podem ser usadas correndo. Você passa a luta inteira em corrida."
+        },
+        {
+          "icon": "armor-piercing-rounds",
+          "pt": "Projéteis Perfurantes",
+          "en": "Armor-Piercing Rounds",
+          "prio": 3,
+          "qty": "1 a 3",
+          "effect": "+20% (+20% por acúmulo) de dano contra chefes.",
+          "why": "Melhora a Balista, que é a ferramenta dela contra chefes."
+        },
+        {
+          "icon": "backup-magazine",
+          "pt": "Pente Reserva",
+          "en": "Backup Magazine",
+          "prio": 3,
+          "qty": "1 a 3",
+          "effect": "+1 (+1 por acúmulo) carga da habilidade Secundária.",
+          "why": "A wiki cita: cargas extras da Alabarda de Laser para controlar grupos uma atrás da outra."
+        },
+        {
+          "icon": "personal-shield-generator",
+          "pt": "Gerador de Escudo Pessoal",
+          "en": "Personal Shield Generator",
+          "prio": 4,
+          "qty": "1 a 2",
+          "effect": "Ganha escudo de 8% (+8% por acúmulo) da vida máxima. Recarrega fora de perigo.",
+          "why": "Uma camada extra de vida que volta entre as lutas. Bom para quem vive à distância e recebe pouco dano contínuo."
+        }
+      ]
     },
     {
-     "icon": "brilliant-behemoth",
-     "pt": "Brutamontes Reluzente",
-     "en": "Brilliant Behemoth",
-     "prio": 1,
-     "qty": "1",
-     "effect": "Todos os ataques explodem em 4 m (+2,5 m por acúmulo) causando 60% de dano TOTAL extra.",
-     "why": "Transforma as flechas teleguiadas em dano em área. A wiki avisa que o raio escala com o coeficiente, então fica menor no Turbilhão (0,7) que no Disparo (1,0)."
+      "id": "incomum",
+      "name": "Incomum",
+      "color": "verde",
+      "intro": "Os verdes de crítico rendem em dobro no Turbilhão. Os de chance rolam em cada flecha, mas com coeficiente 0,7.",
+      "items": [
+        {
+          "icon": "predatory-instincts",
+          "pt": "Instintos Predatórios",
+          "en": "Predatory Instincts",
+          "prio": 1,
+          "qty": "1 a 2",
+          "effect": "+5% de chance de crítico. Críticos dão +12% de velocidade de ataque, até 36% (+24% por acúmulo).",
+          "why": "A wiki destaca este item com o Turbilhão: cada flecha pode ser crítica, então o bônus fica no máximo quase o tempo todo."
+        },
+        {
+          "icon": "harvesters-scythe",
+          "pt": "Foice do Ceifador",
+          "en": "Harvester's Scythe",
+          "prio": 1,
+          "qty": "1 a 2",
+          "effect": "+5% de chance de crítico. Críticos curam 8 (+4 por acúmulo) de vida.",
+          "why": "A cura principal da build. A wiki avisa que a cura escala com o coeficiente, então cada flecha do Turbilhão cura um pouco menos, compensado pelo número de flechas."
+        },
+        {
+          "icon": "rose-buckler",
+          "pt": "Broquel da Rosa",
+          "en": "Rose Buckler",
+          "prio": 2,
+          "qty": "1 a 3",
+          "effect": "+30 (+30 por acúmulo) de armadura enquanto corre.",
+          "why": "A wiki recomenda este item para a Caçadora: ela ataca, joga a alabarda e teleporta sem parar de correr, então a armadura fica ativa quase sempre."
+        },
+        {
+          "icon": "ukulele",
+          "pt": "Ukulele",
+          "en": "Ukulele",
+          "prio": 2,
+          "qty": "1 a 2",
+          "effect": "25% de chance de disparar um raio em cadeia de 80% de dano TOTAL em até 3 (+2 por acúmulo) alvos a 20 m (+2 m por acúmulo).",
+          "why": "Mais dano em grupo sem perder o foco. O dano do raio não muda com o coeficiente, só a chance de ativar por flecha."
+        },
+        {
+          "icon": "atg-missile-mk-1",
+          "pt": "Míssil ASM Mk. 1",
+          "en": "AtG Missile Mk. 1",
+          "prio": 2,
+          "qty": "1 a 3",
+          "effect": "10% de chance de disparar um míssil que causa 300% (+300% por acúmulo) de dano TOTAL.",
+          "why": "Funciona bem de longe, que é onde ela luta. Seis flechas por crítico são seis rolagens."
+        },
+        {
+          "icon": "runalds-band",
+          "pt": "Cinturão de Runald",
+          "en": "Runald's Band",
+          "prio": 3,
+          "qty": "1",
+          "effect": "Golpes que causam mais de 400% de dano também lançam uma explosão de gelo rúnico que deixa o inimigo 80% mais lento por 3 s (+3 s por acúmulo) e causa 250% (+250% por acúmulo) de dano TOTAL. Recarrega a cada 10 s.",
+          "why": "Os raios de 900% da Balista passam de 400% e ativam o cinturão. A lentidão ajuda a manter distância."
+        },
+        {
+          "icon": "kjaros-band",
+          "pt": "Cinturão de Kjaro",
+          "en": "Kjaro's Band",
+          "prio": 3,
+          "qty": "1",
+          "effect": "Golpes que causam mais de 400% de dano também lançam um tornado de chamas rúnico com 300% (+300% por acúmulo) de dano TOTAL ao longo do tempo. Recarrega a cada 10 s.",
+          "why": "Mesmo motivo do Runald: a Balista ativa. Dano extra em chefes."
+        },
+        {
+          "icon": "old-war-stealthkit",
+          "pt": "Kit Furtivo da Guerra Antiga",
+          "en": "Old War Stealthkit",
+          "prio": 4,
+          "qty": "1",
+          "effect": "Ao cair abaixo de 25% de vida, ganha 40% de velocidade e invisibilidade por 5 s. Recarrega a cada 30 s (−50% por acúmulo).",
+          "why": "Com pouca vida, uma fuga automática salva a run mais de uma vez."
+        }
+      ]
     },
     {
-     "icon": "sentient-meat-hook",
-     "pt": "Gancho de Carnes Senciente",
-     "en": "Sentient Meat Hook",
-     "prio": 2,
-     "qty": "1",
-     "effect": "20% (+20% por acúmulo) de chance ao acertar de disparar ganchos teleguiados em até 10 (+5 por acúmulo) inimigos, causando 100% de dano TOTAL.",
-     "why": "Muitas flechas por segundo, cada uma rolando a chance. Limpa grupos enquanto você corre."
+      "id": "lendario",
+      "name": "Lendário",
+      "color": "vermelho",
+      "intro": "Os vermelhos que mais mudam a Caçadora multiplicam o crítico e dão dano em área às flechas.",
+      "items": [
+        {
+          "icon": "laser-scope",
+          "pt": "Mira Laser",
+          "en": "Laser Scope",
+          "prio": 1,
+          "qty": "1 a 2",
+          "effect": "Acertos Críticos causam +100% (+100% por acúmulo) de dano.",
+          "why": "Com muitos Óculos, quase toda flecha é crítica. A Mira passa cada uma de 2× para 3× o dano, e no Turbilhão o crítico ainda dobra as flechas."
+        },
+        {
+          "icon": "brilliant-behemoth",
+          "pt": "Brutamontes Reluzente",
+          "en": "Brilliant Behemoth",
+          "prio": 1,
+          "qty": "1",
+          "effect": "Todos os ataques explodem em 4 m (+2,5 m por acúmulo) causando 60% de dano TOTAL extra.",
+          "why": "Transforma as flechas teleguiadas em dano em área. A wiki avisa que o raio escala com o coeficiente, então fica menor no Turbilhão (0,7) que no Disparo (1,0)."
+        },
+        {
+          "icon": "sentient-meat-hook",
+          "pt": "Gancho de Carnes Senciente",
+          "en": "Sentient Meat Hook",
+          "prio": 2,
+          "qty": "1",
+          "effect": "20% (+20% por acúmulo) de chance ao acertar de disparar ganchos teleguiados em até 10 (+5 por acúmulo) inimigos, causando 100% de dano TOTAL.",
+          "why": "Muitas flechas por segundo, cada uma rolando a chance. Limpa grupos enquanto você corre."
+        },
+        {
+          "icon": "hardlight-afterburner",
+          "pt": "Pós-combustor de Holograma",
+          "en": "Hardlight Afterburner",
+          "prio": 2,
+          "qty": "1",
+          "effect": "+2 (+2 por acúmulo) cargas da Utilitária e −33% no tempo de recarga dela.",
+          "why": "O Teleporte Fásico passa de 3 para 5 cargas e volta mais rápido. Com a Translocação, vira 3 teleportes longos."
+        },
+        {
+          "icon": "alien-head",
+          "pt": "Cabeça Alienígena",
+          "en": "Alien Head",
+          "prio": 3,
+          "qty": "1",
+          "effect": "Reduz o tempo de recarga das habilidades em 25% (+25% por acúmulo).",
+          "why": "Alabarda (7 s) e Balista (12 s) têm recargas longas. Mais Balistas por luta de chefe."
+        },
+        {
+          "icon": "57-leaf-clover",
+          "pt": "Trevo 57",
+          "en": "57 Leaf Clover",
+          "prio": 3,
+          "qty": "1",
+          "effect": "Todos os efeitos aleatórios são rolados +1 (+1 por acúmulo) vez a seu favor.",
+          "why": "Melhora o crítico e todos os itens de chance, compensando o coeficiente 0,7 do Turbilhão."
+        },
+        {
+          "icon": "dios-best-friend",
+          "pt": "Melhor Amigo de Dio",
+          "en": "Dio's Best Friend",
+          "prio": 4,
+          "qty": "1",
+          "effect": "Ao morrer, este item é consumido e você volta à vida com 3 s de invulnerabilidade.",
+          "why": "Uma segunda chance para a sobrevivente mais frágil do jogo. Não aumenta o dano."
+        }
+      ]
     },
     {
-     "icon": "hardlight-afterburner",
-     "pt": "Pós-combustor de Holograma",
-     "en": "Hardlight Afterburner",
-     "prio": 2,
-     "qty": "1",
-     "effect": "+2 (+2 por acúmulo) cargas da Utilitária e −33% no tempo de recarga dela.",
-     "why": "O Teleporte Fásico passa de 3 para 5 cargas e volta mais rápido. Com a Translocação, vira 3 teleportes longos."
+      "id": "chefe",
+      "name": "Chefe",
+      "color": "amarelo",
+      "intro": "Itens de chefe só caem de chefes de teleporte.",
+      "items": [
+        {
+          "icon": "shatterspleen",
+          "pt": "Baço Desfigurado",
+          "en": "Shatterspleen",
+          "prio": 2,
+          "qty": "1",
+          "effect": "+5% de chance de crítico. Críticos fazem o inimigo sangrar por 240% do dano base. Inimigos sangrando explodem ao morrer, causando 400% (+400% por acúmulo) de dano mais 15% (+15% por acúmulo) da vida máxima deles.",
+          "why": "Com crítico alto, quase todo inimigo sangra e explode ao morrer, espalhando dano no grupo."
+        },
+        {
+          "icon": "irradiant-pearl",
+          "pt": "Pérola Irradiante",
+          "en": "Irradiant Pearl",
+          "prio": 3,
+          "qty": "1 ou mais",
+          "effect": "Aumenta TODOS os atributos em 10% (+10% por acúmulo).",
+          "why": "Vida, dano, crítico e velocidade de uma vez. Tudo ajuda uma personagem frágil."
+        }
+      ]
     },
     {
-     "icon": "alien-head",
-     "pt": "Cabeça Alienígena",
-     "en": "Alien Head",
-     "prio": 3,
-     "qty": "1",
-     "effect": "Reduz o tempo de recarga das habilidades em 25% (+25% por acúmulo).",
-     "why": "Alabarda (7 s) e Balista (12 s) têm recargas longas. Mais Balistas por luta de chefe."
+      "id": "equipamento",
+      "name": "Equipamentos",
+      "color": "laranja",
+      "intro": "Só dá para carregar um. O Visor Ocular é o melhor parceiro do Turbilhão.",
+      "items": [
+        {
+          "icon": "ocular-hud",
+          "pt": "Visor Ocular",
+          "en": "Ocular HUD",
+          "prio": 1,
+          "qty": "1 (recarga 60 s)",
+          "effect": "+100% de chance de Acerto Crítico por 8 s.",
+          "why": "Oito segundos em que toda rajada do Turbilhão sai com 6 flechas e todo raio da Balista é crítico."
+        },
+        {
+          "icon": "royal-capacitor",
+          "pt": "Capacitor Régio",
+          "en": "Royal Capacitor",
+          "prio": 2,
+          "qty": "1 (recarga 20 s)",
+          "effect": "Raio em um monstro marcado causando 3000% de dano e atordoando os monstros próximos.",
+          "why": "Recarga curta e muito dano à distância. Combina com o jeito de lutar de longe."
+        },
+        {
+          "icon": "gorags-opus",
+          "pt": "Opus de Gorag",
+          "en": "Gorag's Opus",
+          "prio": 2,
+          "qty": "1 (recarga 45 s)",
+          "effect": "Todos os aliados entram em frenesi por 7 s: +50% de movimento e +100% de velocidade de ataque.",
+          "why": "Dobra a cadência das flechas e acelera os teleportes pelo bônus de movimento."
+        },
+        {
+          "icon": "jade-elephant",
+          "pt": "Elefante de Jade",
+          "en": "Jade Elephant",
+          "prio": 3,
+          "qty": "1 (recarga 45 s)",
+          "effect": "Ganha 500 de armadura por 5 s.",
+          "why": "Botão de pânico contra golpes grandes de chefe."
+        },
+        {
+          "icon": "primordial-cube",
+          "pt": "Cubo Primordial",
+          "en": "Primordial Cube",
+          "prio": 3,
+          "qty": "1 (recarga 60 s)",
+          "effect": "Buraco negro que puxa inimigos a até 30 m para o centro por 10 s.",
+          "why": "Junta o grupo para a Alabarda saltar entre todos e para a Chuva de Flechas pegar todo mundo."
+        }
+      ]
     },
     {
-     "icon": "57-leaf-clover",
-     "pt": "Trevo 57",
-     "en": "57 Leaf Clover",
-     "prio": 3,
-     "qty": "1",
-     "effect": "Todos os efeitos aleatórios são rolados +1 (+1 por acúmulo) vez a seu favor.",
-     "why": "Melhora o crítico e todos os itens de chance, compensando o coeficiente 0,7 do Turbilhão."
+      "id": "lunar",
+      "name": "Lunares",
+      "color": "azul",
+      "intro": "Itens lunares têm custo embutido. Com 90 de vida, cuidado com os que tiram vida.",
+      "items": [
+        {
+          "icon": "purity",
+          "pt": "Pureza",
+          "en": "Purity",
+          "prio": 4,
+          "qty": "0 a 1",
+          "effect": "Reduz todas as recargas de habilidade em 2 s (+1 s por acúmulo). Todos os efeitos aleatórios são rolados +1 (+1 por acúmulo) vez contra você.",
+          "why": "Encurta a Alabarda e a Balista, mas piora o crítico, que é a base da build. Só compensa com Trevo 57 para anular."
+        },
+        {
+          "icon": "shaped-glass",
+          "pt": "Vidro Configurado",
+          "en": "Shaped Glass",
+          "prio": 0,
+          "qty": "0",
+          "effect": "+100% (+100% por acúmulo) de dano base. −50% (−50% por acúmulo) de vida máxima.",
+          "why": "A Caçadora começa com 90 de vida. Cortar pela metade deixa qualquer golpe de elite letal."
+        },
+        {
+          "icon": "light-flux-pauldron",
+          "pt": "Ombreira do Fluxo Iluminado",
+          "en": "Light Flux Pauldron",
+          "prio": 4,
+          "qty": "0 a 1",
+          "effect": "−50% (−50% por acúmulo) no tempo de recarga das habilidades. −50% (−50% por acúmulo) de velocidade de ataque.",
+          "why": "Mais Alabardas, Balistas e teleportes, em troca de metade das flechas. Só com muita velocidade de ataque."
+        }
+      ]
     },
     {
-     "icon": "dios-best-friend",
-     "pt": "Melhor Amigo de Dio",
-     "en": "Dio's Best Friend",
-     "prio": 4,
-     "qty": "1",
-     "effect": "Ao morrer, este item é consumido e você volta à vida com 3 s de invulnerabilidade.",
-     "why": "Uma segunda chance para a sobrevivente mais frágil do jogo. Não aumenta o dano."
+      "id": "vazio",
+      "name": "Vazio",
+      "color": "roxo",
+      "intro": "Itens do Vazio (DLC Survivors of the Void) corrompem itens comuns. Veja o que vai perder antes.",
+      "items": [
+        {
+          "icon": "lysate-cell",
+          "pt": "Célula Lisada",
+          "en": "Lysate Cell",
+          "prio": 1,
+          "qty": "1",
+          "effect": "+1 (+1 por acúmulo) carga da habilidade Especial e −33% no tempo de recarga dela. Corrompe todas as Células de Combustível.",
+          "why": "Duas Balistas seguidas e recarga menor: dobra o dano de abertura contra chefes."
+        },
+        {
+          "icon": "polylute",
+          "pt": "Polialaúde",
+          "en": "Polylute",
+          "prio": 3,
+          "qty": "1",
+          "effect": "25% de chance de disparar um raio de 60% de dano TOTAL até 3 (+3 por acúmulo) vezes. Corrompe todos os Ukuleles.",
+          "why": "Mais forte em alvo único. Corrompe os Ukuleles, que esta build usa para grupos."
+        },
+        {
+          "icon": "plasma-shrimp",
+          "pt": "Camarão de Plasma",
+          "en": "Plasma Shrimp",
+          "prio": 3,
+          "qty": "1",
+          "effect": "Ganha escudo de 10% da vida máxima. Com escudo, cada acerto dispara um míssil de 40% (+40% por acúmulo) de dano TOTAL. Corrompe todos os Mísseis ASM Mk. 1.",
+          "why": "A wiki cita o Camarão como bom com muitos acertos, como a Chuva de Flechas. Lutando de longe você mantém o escudo mais tempo. Corrompe seus Mísseis ASM."
+        },
+        {
+          "icon": "lost-seers-lenses",
+          "pt": "Lentes do Profeta Perdido",
+          "en": "Lost Seer's Lenses",
+          "prio": 0,
+          "qty": "0",
+          "effect": "0,5% (+0,5% por acúmulo) de chance de matar instantaneamente um inimigo que não seja chefe. Corrompe todos os Óculos do Fabricante de Lentes.",
+          "why": "Apaga todos os seus Óculos. Sem crítico, o Turbilhão perde as 6 flechas e a Foice para de curar."
+        }
+      ]
     }
-   ]
-  },
-  {
-   "id": "chefe",
-   "name": "Chefe",
-   "color": "amarelo",
-   "intro": "Itens de chefe só caem de chefes de teleporte.",
-   "items": [
+  ],
+  "synergy": [
     {
-     "icon": "shatterspleen",
-     "pt": "Baço Desfigurado",
-     "en": "Shatterspleen",
-     "prio": 2,
-     "qty": "1",
-     "effect": "+5% de chance de crítico. Críticos fazem o inimigo sangrar por 240% do dano base. Inimigos sangrando explodem ao morrer, causando 400% (+400% por acúmulo) de dano mais 15% (+15% por acúmulo) da vida máxima deles.",
-     "why": "Com crítico alto, quase todo inimigo sangra e explode ao morrer, espalhando dano no grupo."
+      "title": "Crítico conta duas vezes no Turbilhão",
+      "text": "No Turbilhão, um crítico dispara 6 flechas em vez de 3, cada uma com dano dobrado: 4× o dano normal. Segundo a wiki, ele passa o Disparo com algo entre 16% e 26% de crítico. Por isso Óculos, Instintos, Foice e Visor Ocular valem mais aqui do que em quase qualquer outra sobrevivente. A Mira Laser leva cada crítico a 3×."
     },
     {
-     "icon": "irradiant-pearl",
-     "pt": "Pérola Irradiante",
-     "en": "Irradiant Pearl",
-     "prio": 3,
-     "qty": "1 ou mais",
-     "effect": "Aumenta TODOS os atributos em 10% (+10% por acúmulo).",
-     "why": "Vida, dano, crítico e velocidade de uma vez. Tudo ajuda uma personagem frágil."
+      "title": "Coeficiente 0,7 e o que ele afeta",
+      "text": "Cada flecha do Turbilhão tem coeficiente 0,7. A wiki lista o que isso reduz: o raio do Brutamontes, a duração do sangramento e a cura da Foice. Itens de dano fixo, como Bomba Aderente e o raio do Ukulele, causam o mesmo dano; só a chance por flecha é menor. Antes de ter crítico, o Disparo (1,0) é melhor."
+    },
+    {
+      "title": "Tudo correndo",
+      "text": "Disparo, Turbilhão, Alabarda, Translocação e Teleporte Fásico podem ser usados correndo. O Broquel da Rosa dá armadura enquanto você corre, a Bebida Energética acelera a corrida e o Casco aumenta a distância dos teleportes. Ficar parado é o que mata a Caçadora."
+    },
+    {
+      "title": "Balista e os Cinturões",
+      "text": "Cada raio da Balista causa 900%, acima dos 400% que os Cinturões de Runald e Kjaro pedem. As flechas nunca chegam lá. A Célula Lisada dá uma segunda Balista e a Cabeça Alienígena encurta os 12 s de recarga."
+    },
+    {
+      "title": "Evitar dano de queda",
+      "text": "A wiki lista Alabarda, Translocação, Teleporte Fásico, Chuva de Flechas e Balista como formas de cancelar dano de queda. A Alabarda precisa de um alvo. Com 90 de vida, uma queda pode custar caro."
     }
-   ]
-  },
-  {
-   "id": "equipamento",
-   "name": "Equipamentos",
-   "color": "laranja",
-   "intro": "Só dá para carregar um. O Visor Ocular é o melhor parceiro do Turbilhão.",
-   "items": [
+  ],
+  "rotation": [
     {
-     "icon": "ocular-hud",
-     "pt": "Visor Ocular",
-     "en": "Ocular HUD",
-     "prio": 1,
-     "qty": "1 (recarga 60 s)",
-     "effect": "+100% de chance de Acerto Crítico por 8 s.",
-     "why": "Oito segundos em que toda rajada do Turbilhão sai com 6 flechas e todo raio da Balista é crítico."
+      "step": "Alabarda no grupo",
+      "text": "Abra a luta com ela; cada salto aumenta o dano em 10%."
     },
     {
-     "icon": "royal-capacitor",
-     "pt": "Capacitor Régio",
-     "en": "Royal Capacitor",
-     "prio": 2,
-     "qty": "1 (recarga 20 s)",
-     "effect": "Raio em um monstro marcado causando 3000% de dano e atordoando os monstros próximos.",
-     "why": "Recarga curta e muito dano à distância. Combina com o jeito de lutar de longe."
+      "step": "Turbilhão correndo",
+      "text": "Trave no alvo mais perigoso e atire sem parar de se mover."
     },
     {
-     "icon": "gorags-opus",
-     "pt": "Opus de Gorag",
-     "en": "Gorag's Opus",
-     "prio": 2,
-     "qty": "1 (recarga 45 s)",
-     "effect": "Todos os aliados entram em frenesi por 7 s: +50% de movimento e +100% de velocidade de ataque.",
-     "why": "Dobra a cadência das flechas e acelera os teleportes pelo bônus de movimento."
+      "step": "Balista no alvo grande",
+      "text": "Três raios de 900% em elites e chefes, saindo do alcance deles ao subir."
     },
     {
-     "icon": "jade-elephant",
-     "pt": "Elefante de Jade",
-     "en": "Jade Elephant",
-     "prio": 3,
-     "qty": "1 (recarga 45 s)",
-     "effect": "Ganha 500 de armadura por 5 s.",
-     "why": "Botão de pânico contra golpes grandes de chefe."
+      "step": "Teleporte Fásico ao ver o ataque",
+      "text": "Gaste uma carga por golpe perigoso; elas voltam em 2 s."
     },
     {
-     "icon": "primordial-cube",
-     "pt": "Cubo Primordial",
-     "en": "Primordial Cube",
-     "prio": 3,
-     "qty": "1 (recarga 60 s)",
-     "effect": "Buraco negro que puxa inimigos a até 30 m para o centro por 10 s.",
-     "why": "Junta o grupo para a Alabarda saltar entre todos e para a Chuva de Flechas pegar todo mundo."
+      "step": "Visor Ocular para chefes",
+      "text": "Ative junto com a Balista para todos os raios saírem críticos."
     }
-   ]
-  },
-  {
-   "id": "lunar",
-   "name": "Lunares",
-   "color": "azul",
-   "intro": "Itens lunares têm custo embutido. Com 90 de vida, cuidado com os que tiram vida.",
-   "items": [
+  ],
+  "essentials": [
     {
-     "icon": "purity",
-     "pt": "Pureza",
-     "en": "Purity",
-     "prio": 4,
-     "qty": "0 a 1",
-     "effect": "Reduz todas as recargas de habilidade em 2 s (+1 s por acúmulo). Todos os efeitos aleatórios são rolados +1 (+1 por acúmulo) vez contra você.",
-     "why": "Encurta a Alabarda e a Balista, mas piora o crítico, que é a base da build. Só compensa com Trevo 57 para anular."
+      "pt": "Óculos do Fabricante de Lentes",
+      "en": "Lens-Maker's Glasses"
     },
     {
-     "icon": "shaped-glass",
-     "pt": "Vidro Configurado",
-     "en": "Shaped Glass",
-     "prio": 0,
-     "qty": "0",
-     "effect": "+100% (+100% por acúmulo) de dano base. −50% (−50% por acúmulo) de vida máxima.",
-     "why": "A Caçadora começa com 90 de vida. Cortar pela metade deixa qualquer golpe de elite letal."
+      "pt": "Seringa Militar",
+      "en": "Soldier's Syringe"
     },
     {
-     "icon": "light-flux-pauldron",
-     "pt": "Ombreira do Fluxo Iluminado",
-     "en": "Light Flux Pauldron",
-     "prio": 4,
-     "qty": "0 a 1",
-     "effect": "−50% (−50% por acúmulo) no tempo de recarga das habilidades. −50% (−50% por acúmulo) de velocidade de ataque.",
-     "why": "Mais Alabardas, Balistas e teleportes, em troca de metade das flechas. Só com muita velocidade de ataque."
+      "pt": "Instintos Predatórios",
+      "en": "Predatory Instincts"
+    },
+    {
+      "pt": "Foice do Ceifador",
+      "en": "Harvester's Scythe"
+    },
+    {
+      "pt": "Mira Laser",
+      "en": "Laser Scope"
+    },
+    {
+      "pt": "Brutamontes Reluzente",
+      "en": "Brilliant Behemoth"
+    },
+    {
+      "pt": "Visor Ocular",
+      "en": "Ocular HUD"
     }
-   ]
-  },
-  {
-   "id": "vazio",
-   "name": "Vazio",
-   "color": "roxo",
-   "intro": "Itens do Vazio (DLC Survivors of the Void) corrompem itens comuns. Veja o que vai perder antes.",
-   "items": [
+  ],
+  "situational_note": "Situacionais: Broquel da Rosa, Cinturões de Runald e Kjaro (com Balista), Pós-combustor, Célula Lisada, Camarão de Plasma e Pureza com Trevo 57.",
+  "fallbacks": [
     {
-     "icon": "lysate-cell",
-     "pt": "Célula Lisada",
-     "en": "Lysate Cell",
-     "prio": 1,
-     "qty": "1",
-     "effect": "+1 (+1 por acúmulo) carga da habilidade Especial e −33% no tempo de recarga dela. Corrompe todas as Células de Combustível.",
-     "why": "Duas Balistas seguidas e recarga menor: dobra o dano de abertura contra chefes."
+      "pt": "Óculos do Fabricante de Lentes",
+      "en": "Lens-Maker's Glasses",
+      "text": "Fique no Disparo (Strafe) e priorize Seringa, Míssil ASM e Ukulele. Instintos e Foice somam 5% cada."
     },
     {
-     "icon": "polylute",
-     "pt": "Polialaúde",
-     "en": "Polylute",
-     "prio": 3,
-     "qty": "1",
-     "effect": "25% de chance de disparar um raio de 60% de dano TOTAL até 3 (+3 por acúmulo) vezes. Corrompe todos os Ukuleles.",
-     "why": "Mais forte em alvo único. Corrompe os Ukuleles, que esta build usa para grupos."
+      "pt": "Seringa Militar",
+      "en": "Soldier's Syringe",
+      "text": "Instintos Predatórios com crítico, Mocha ou Opus de Gorag."
     },
     {
-     "icon": "plasma-shrimp",
-     "pt": "Camarão de Plasma",
-     "en": "Plasma Shrimp",
-     "prio": 3,
-     "qty": "1",
-     "effect": "Ganha escudo de 10% da vida máxima. Com escudo, cada acerto dispara um míssil de 40% (+40% por acúmulo) de dano TOTAL. Corrompe todos os Mísseis ASM Mk. 1.",
-     "why": "A wiki cita o Camarão como bom com muitos acertos, como a Chuva de Flechas. Lutando de longe você mantém o escudo mais tempo. Corrompe seus Mísseis ASM."
+      "pt": "Instintos Predatórios",
+      "en": "Predatory Instincts",
+      "text": "Mais Seringas. A Foice também dá os 5% de crítico."
     },
     {
-     "icon": "lost-seers-lenses",
-     "pt": "Lentes do Profeta Perdido",
-     "en": "Lost Seer's Lenses",
-     "prio": 0,
-     "qty": "0",
-     "effect": "0,5% (+0,5% por acúmulo) de chance de matar instantaneamente um inimigo que não seja chefe. Corrompe todos os Óculos do Fabricante de Lentes.",
-     "why": "Apaga todos os seus Óculos. Sem crítico, o Turbilhão perde as 6 flechas e a Foice para de curar."
+      "pt": "Foice do Ceifador",
+      "en": "Harvester's Scythe",
+      "text": "Semente Sanguessuga, Broquel da Rosa e Tempos Difíceis para levar menos dano."
+    },
+    {
+      "pt": "Mira Laser",
+      "en": "Laser Scope",
+      "text": "Gancho de Carnes Senciente ou Brutamontes. Baço Desfigurado se aparecer."
+    },
+    {
+      "pt": "Brutamontes Reluzente",
+      "en": "Brilliant Behemoth",
+      "text": "Gancho de Carnes Senciente e Ukulele para dano em grupo; mais cargas da Alabarda com Pente Reserva."
+    },
+    {
+      "pt": "Visor Ocular",
+      "en": "Ocular HUD",
+      "text": "Capacitor Régio para dano à distância ou Opus de Gorag para dobrar as flechas."
     }
-   ]
-  }
- ],
- "synergy": [
-  {
-   "title": "Crítico conta duas vezes no Turbilhão",
-   "text": "No Turbilhão, um crítico dispara 6 flechas em vez de 3, cada uma com dano dobrado: 4× o dano normal. Segundo a wiki, ele passa o Disparo com algo entre 16% e 26% de crítico. Por isso Óculos, Instintos, Foice e Visor Ocular valem mais aqui do que em quase qualquer outra sobrevivente. A Mira Laser leva cada crítico a 3×."
-  },
-  {
-   "title": "Coeficiente 0,7 e o que ele afeta",
-   "text": "Cada flecha do Turbilhão tem coeficiente 0,7. A wiki lista o que isso reduz: o raio do Brutamontes, a duração do sangramento e a cura da Foice. Itens de dano fixo, como Bomba Aderente e o raio do Ukulele, causam o mesmo dano; só a chance por flecha é menor. Antes de ter crítico, o Disparo (1,0) é melhor."
-  },
-  {
-   "title": "Tudo correndo",
-   "text": "Disparo, Turbilhão, Alabarda, Translocação e Teleporte Fásico podem ser usados correndo. O Broquel da Rosa dá armadura enquanto você corre, a Bebida Energética acelera a corrida e o Casco aumenta a distância dos teleportes. Ficar parado é o que mata a Caçadora."
-  },
-  {
-   "title": "Balista e os Cinturões",
-   "text": "Cada raio da Balista causa 900%, acima dos 400% que os Cinturões de Runald e Kjaro pedem. As flechas nunca chegam lá. A Célula Lisada dá uma segunda Balista e a Cabeça Alienígena encurta os 12 s de recarga."
-  },
-  {
-   "title": "Evitar dano de queda",
-   "text": "A wiki lista Alabarda, Translocação, Teleporte Fásico, Chuva de Flechas e Balista como formas de cancelar dano de queda. A Alabarda precisa de um alvo. Com 90 de vida, uma queda pode custar caro."
-  }
- ],
- "rotation": [
-  {"step": "Alabarda no grupo", "text": "Abra a luta com ela; cada salto aumenta o dano em 10%."},
-  {"step": "Turbilhão correndo", "text": "Trave no alvo mais perigoso e atire sem parar de se mover."},
-  {"step": "Balista no alvo grande", "text": "Três raios de 900% em elites e chefes, saindo do alcance deles ao subir."},
-  {"step": "Teleporte Fásico ao ver o ataque", "text": "Gaste uma carga por golpe perigoso; elas voltam em 2 s."},
-  {"step": "Visor Ocular para chefes", "text": "Ative junto com a Balista para todos os raios saírem críticos."}
- ],
- "essentials": [
-  {"pt": "Óculos do Fabricante de Lentes", "en": "Lens-Maker's Glasses"},
-  {"pt": "Seringa Militar", "en": "Soldier's Syringe"},
-  {"pt": "Instintos Predatórios", "en": "Predatory Instincts"},
-  {"pt": "Foice do Ceifador", "en": "Harvester's Scythe"},
-  {"pt": "Mira Laser", "en": "Laser Scope"},
-  {"pt": "Brutamontes Reluzente", "en": "Brilliant Behemoth"},
-  {"pt": "Visor Ocular", "en": "Ocular HUD"}
- ],
- "situational_note": "Situacionais: Broquel da Rosa, Cinturões de Runald e Kjaro (com Balista), Pós-combustor, Célula Lisada, Camarão de Plasma e Pureza com Trevo 57.",
- "fallbacks": [
-  {"pt": "Óculos do Fabricante de Lentes", "en": "Lens-Maker's Glasses", "text": "Fique no Disparo (Strafe) e priorize Seringa, Míssil ASM e Ukulele. Instintos e Foice somam 5% cada."},
-  {"pt": "Seringa Militar", "en": "Soldier's Syringe", "text": "Instintos Predatórios com crítico, Mocha ou Opus de Gorag."},
-  {"pt": "Instintos Predatórios", "en": "Predatory Instincts", "text": "Mais Seringas. A Foice também dá os 5% de crítico."},
-  {"pt": "Foice do Ceifador", "en": "Harvester's Scythe", "text": "Semente Sanguessuga, Broquel da Rosa e Tempos Difíceis para levar menos dano."},
-  {"pt": "Mira Laser", "en": "Laser Scope", "text": "Gancho de Carnes Senciente ou Brutamontes. Baço Desfigurado se aparecer."},
-  {"pt": "Brutamontes Reluzente", "en": "Brilliant Behemoth", "text": "Gancho de Carnes Senciente e Ukulele para dano em grupo; mais cargas da Alabarda com Pente Reserva."},
-  {"pt": "Visor Ocular", "en": "Ocular HUD", "text": "Capacitor Régio para dano à distância ou Opus de Gorag para dobrar as flechas."}
- ],
- "summary": "Turbilhão, Alabarda de Laser, Teleporte Fásico e Balista. Empilhe Óculos até o crítico ficar alto, porque cada crítico dobra as flechas do Turbilhão; antes disso, use o Disparo. Cure com a Foice, ganhe velocidade com Instintos e Seringa e multiplique tudo com Mira Laser e Visor Ocular. Lute sempre correndo e use a Balista em chefes.",
- "checklist": [
-  {"title": "Sempre pegue", "text": "Óculos, Seringa Militar, Instintos Predatórios, Foice do Ceifador, Mira Laser, Brutamontes."},
-  {"title": "Impressoras brancas", "text": "Óculos até uns 60% de crítico somado, depois Seringa Militar."},
-  {"title": "Primeiro verde", "text": "Instintos Predatórios ou Foice do Ceifador. Broquel da Rosa se estiver morrendo muito."},
-  {"title": "Equipamento", "text": "Visor Ocular. Capacitor Régio enquanto ele não aparecer."},
-  {"title": "Troque de primária", "text": "Comece no Disparo e passe para o Turbilhão quando tiver uns 20% de crítico."},
-  {"title": "Antes de pegar Vazio", "text": "Lentes do Profeta corrompe os Óculos; Camarão de Plasma corrompe os Mísseis ASM; Polialaúde, os Ukuleles."},
-  {"title": "Luta de chefe", "text": "Visor Ocular, Balista, Alabarda na recarga, Turbilhão correndo em volta."}
- ],
- "sources": [
-  {"title": "Huntress — Risk of Rain 2 Wiki", "url": "https://riskofrain2.wiki.gg/wiki/Huntress"},
-  {"title": "Items — Risk of Rain 2 Wiki", "url": "https://riskofrain2.wiki.gg/wiki/Items"}
- ],
- "notes": [
-  "Turbilhão, Teleporte Fásico e Balista precisam ser desbloqueados por desafios. A wiki troca os nomes dos desafios do Teleporte Fásico e da Balista entre a tabela de habilidades e o histórico de versões.",
-  "O Ciclone de Laser (Laser Cyclone) aparece na wiki ligado à atualização Hallowed Concepts e não tem nome no arquivo de tradução pt-BR usado aqui."
- ]
+  ],
+  "summary": "Turbilhão, Alabarda de Laser, Teleporte Fásico e Balista. Empilhe Óculos até o crítico ficar alto, porque cada crítico dobra as flechas do Turbilhão; antes disso, use o Disparo. Cure com a Foice, ganhe velocidade com Instintos e Seringa e multiplique tudo com Mira Laser e Visor Ocular. Lute sempre correndo e use a Balista em chefes.",
+  "checklist": [
+    {
+      "title": "Sempre pegue",
+      "text": "Óculos, Seringa Militar, Instintos Predatórios, Foice do Ceifador, Mira Laser, Brutamontes."
+    },
+    {
+      "title": "Impressoras brancas",
+      "text": "Óculos até uns 60% de crítico somado, depois Seringa Militar."
+    },
+    {
+      "title": "Primeiro verde",
+      "text": "Instintos Predatórios ou Foice do Ceifador. Broquel da Rosa se estiver morrendo muito."
+    },
+    {
+      "title": "Equipamento",
+      "text": "Visor Ocular. Capacitor Régio enquanto ele não aparecer."
+    },
+    {
+      "title": "Troque de primária",
+      "text": "Comece no Disparo e passe para o Turbilhão quando tiver uns 20% de crítico."
+    },
+    {
+      "title": "Antes de pegar Vazio",
+      "text": "Lentes do Profeta corrompe os Óculos; Camarão de Plasma corrompe os Mísseis ASM; Polialaúde, os Ukuleles."
+    },
+    {
+      "title": "Luta de chefe",
+      "text": "Visor Ocular, Balista, Alabarda na recarga, Turbilhão correndo em volta."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Huntress — Risk of Rain 2 Wiki",
+      "url": "https://riskofrain2.wiki.gg/wiki/Huntress"
+    },
+    {
+      "title": "Items — Risk of Rain 2 Wiki",
+      "url": "https://riskofrain2.wiki.gg/wiki/Items"
+    }
+  ],
+  "notes": [
+    "Turbilhão, Teleporte Fásico e Balista precisam ser desbloqueados por desafios. A wiki troca os nomes dos desafios do Teleporte Fásico e da Balista entre a tabela de habilidades e o histórico de versões.",
+    "O Ciclone de Laser (Laser Cyclone) aparece na wiki ligado à atualização Hallowed Concepts e não tem nome no arquivo de tradução pt-BR usado aqui."
+  ]
 }

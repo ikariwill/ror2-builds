@@ -1,656 +1,656 @@
 {
- "id": "bandit",
- "name_pt": "Bandido",
- "name_en": "Bandit",
- "title": "Bandido: Build de Crítico",
- "tagline": "Crítico pelas costas, Hemorragia e reinício de recargas",
- "lede": "Uma build para jogar normalmente e chegar longe: ficar atrás dos inimigos para que todo golpe seja crítico, empilhar Hemorragia com a Faca e encadear abates com Luzes Apagadas, que reinicia todas as recargas.",
- "loadout": [
-  {
-   "slot": "Primária",
-   "skill": "Rajada (Burst)"
-  },
-  {
-   "slot": "Secundária",
-   "skill": "Faca Serrilhada (Serrated Shiv)"
-  },
-  {
-   "slot": "Utilitária",
-   "skill": "Bomba de Fumaça (Smoke Bomb)"
-  },
-  {
-   "slot": "Especial",
-   "skill": "Luzes Apagadas (Lights Out)"
-  }
- ],
- "skills": [
-  {
-   "slot": "Passiva",
-   "pt": "Facada nas Costas",
-   "en": "Backstab",
-   "pick": "Fixa",
-   "spec": "Todo ataque vindo por trás é Acerto Crítico.",
-   "why": "\"Por trás\" é o hemisfério de 180° atrás do alvo, medido pela direção entre você e o inimigo. Uma explosão que atinge as costas de um inimigo virado para você não conta. Isso vale para qualquer golpe: Rajada, Faca, Bomba de Fumaça e o especial."
-  },
-  {
-   "slot": "Primária",
-   "pt": "Rajada",
-   "en": "Burst",
-   "pick": "Recomendada",
-   "spec": "5 × 100% de dano, 4 cartuchos. Coeficiente 0,5 por projétil.",
-   "why": "Cinco golpes separados por disparo: cinco chances de crítico, cinco curas da Foice, cinco acúmulos de Instintos, cinco explosões do Brutamontes. Perde dano com a distância, então lute perto. A alternativa Tiro (Blast, 330%, sem perda por distância) é melhor só se você prefere ficar longe."
-  },
-  {
-   "slot": "Secundária",
-   "pt": "Faca Serrilhada",
-   "en": "Serrated Shiv",
-   "pick": "Recomendada",
-   "spec": "Arremessa uma lâmina de 240%. Críticos aplicam Hemorragia. Recarga 4 s.",
-   "why": "A Hemorragia (2000% do dano base em 15 s) é igual na Faca e na Adaga; o que muda é o golpe inicial. A Faca aplica Hemorragia de longe, sem se expor. A Adaga Serrilhada (Serrated Dagger, 360%, com investida) vale se você gosta de jogar colado."
-  },
-  {
-   "slot": "Utilitária",
-   "pt": "Bomba de Fumaça",
-   "en": "Smoke Bomb",
-   "pick": "Única opção",
-   "spec": "Atordoa, 200% de dano, invisibilidade, mais 200% ao sair. Recarga 6 s.",
-   "why": "Os inimigos continuam mirando onde você estava, o que libera as costas deles. A recarga começa ao usar, então ficando invisível o tempo todo ela volta em cerca de 3 s. Usar habilidade encerra a invisibilidade; usar equipamento não. A arma recarrega enquanto você está invisível."
-  },
-  {
-   "slot": "Especial",
-   "pt": "Luzes Apagadas",
-   "en": "Lights Out",
-   "pick": "Recomendada",
-   "spec": "Tiro de revólver de 600%. Assassino (Slayer). Abates reiniciam todas as recargas. Recarga 4 s.",
-   "why": "Um abate devolve tudo: Faca, Bomba de Fumaça, o próprio especial e até os cartuchos da Rajada, com todas as cargas extras. É o que permite encadear inimigo após inimigo. Use como finalizador."
-  },
-  {
-   "slot": "Especial (alt.)",
-   "pt": "Bandoleiro",
-   "en": "Desperado",
-   "pick": "Variante",
-   "spec": "Tiro de 600%. Assassino (Slayer). Abates dão fichas de +10% de dano para a própria habilidade. Recarga 4 s.",
-   "why": "Cada ficha soma 60% do dano base ao tiro, mas todas somem ao trocar de fase e nada é reiniciado. Por isso pede Cartucheira, Pureza e Cabeça Alienígena para compensar. No jogo em português esta habilidade se chama Bandoleiro."
-  }
- ],
- "sections": [
-  {
-   "id": "comum",
-   "name": "Comum",
-   "color": "branco",
-   "intro": "Itens brancos aparecem muito. Aqui está o grosso da build: crítico, cargas da Faca e velocidade de recarga.",
-   "items": [
+  "id": "bandit",
+  "name_pt": "Bandido",
+  "name_en": "Bandit",
+  "title": "Bandido: Build de Crítico",
+  "tagline": "Crítico pelas costas, Hemorragia e reinício de recargas",
+  "lede": "Uma build para jogar normalmente e chegar longe: ficar atrás dos inimigos para que todo golpe seja crítico, empilhar Hemorragia com a Faca e encadear abates com Luzes Apagadas, que reinicia todas as recargas.",
+  "loadout": [
     {
-     "icon": "lens-makers-glasses",
-     "pt": "Óculos do Fabricante de Lentes",
-     "en": "Lens-Maker's Glasses",
-     "prio": 1,
-     "qty": "4 a 8",
-     "effect": "10% (+10% por acúmulo) de chance de Acerto Crítico, que causa dano dobrado.",
-     "why": "Facada nas Costas só garante crítico por trás. Contra chefes virados para você e em brigas no meio do grupo, é a chance de crítico que faz a Faca Serrilhada aplicar Hemorragia de frente. Some os 5% de Instintos, Foice e Baço e mire em 60–100% no total; acima de 100% não há ganho extra."
+      "slot": "Primária",
+      "skill": "Rajada (Burst)"
     },
     {
-     "icon": "backup-magazine",
-     "pt": "Pente Reserva",
-     "en": "Backup Magazine",
-     "prio": 1,
-     "qty": "3 a 6 (mais não faz mal)",
-     "effect": "+1 (+1 por acúmulo) carga da habilidade Secundária.",
-     "why": "Cada carga da Faca é uma chance de empilhar mais um acúmulo de Hemorragia. Com Luzes Apagadas, um abate devolve todas as cargas de uma vez, então mais pentes significam mais Hemorragia por ciclo. Não afeta os cartuchos da Rajada."
+      "slot": "Secundária",
+      "skill": "Faca Serrilhada (Serrated Shiv)"
     },
     {
-     "icon": "soldiers-syringe",
-     "pt": "Seringa Militar",
-     "en": "Soldier's Syringe",
-     "prio": 2,
-     "qty": "3 a 5",
-     "effect": "+15% (+15% por acúmulo) de velocidade de ataque.",
-     "why": "A cadência da Rajada depende só do seu clique; a velocidade de ataque acelera a recarga dos cartuchos e faz Luzes Apagadas e a Faca saírem mais rápido. É o que mantém o ciclo girando."
+      "slot": "Utilitária",
+      "skill": "Bomba de Fumaça (Smoke Bomb)"
     },
     {
-     "icon": "crowbar",
-     "pt": "Pé de Cabra",
-     "en": "Crowbar",
-     "prio": 2,
-     "qty": "1 a 3",
-     "effect": "+75% (+75% por acúmulo) de dano contra inimigos acima de 90% de vida.",
-     "why": "O Bandido abre o combate com golpes pesados (Rajada crítica pelas costas, Faca). O primeiro golpe em cada inimigo novo sai bem mais forte, o que tira inimigos fracos de cena de uma vez e alimenta as cadeias de abate."
-    },
-    {
-     "icon": "chronic-expansion",
-     "pt": "Expansão Crônica",
-     "en": "Chronic Expansion",
-     "prio": 3,
-     "qty": "1 a 3",
-     "effect": "Abates dão +3,5% (+1% por acúmulo) de dano por 7 s, até 10 (+5 por acúmulo) vezes. Causar dano renova o tempo.",
-     "why": "Cadeias de Luzes Apagadas geram abates em sequência, então os acúmulos sobem rápido e ficam ativos enquanto você continua atirando."
-    },
-    {
-     "icon": "focus-crystal",
-     "pt": "Cristal de Foco",
-     "en": "Focus Crystal",
-     "prio": 3,
-     "qty": "1 a 3",
-     "effect": "+20% (+20% por acúmulo) de dano contra inimigos a até 13 m.",
-     "why": "A Rajada perde dano com a distância e você já luta perto para pegar as costas dos inimigos. Bônus quase sempre ativo."
-    },
-    {
-     "icon": "pauls-goat-hoof",
-     "pt": "Casco de Bode de Paul",
-     "en": "Paul's Goat Hoof",
-     "prio": 3,
-     "qty": "1 a 3",
-     "effect": "+14% (+14% por acúmulo) de velocidade de movimento.",
-     "why": "Velocidade é o que permite contornar o inimigo durante a Bomba de Fumaça e chegar às costas antes de ele virar."
-    },
-    {
-     "icon": "tougher-times",
-     "pt": "Tempos Difíceis",
-     "en": "Tougher Times",
-     "prio": 3,
-     "qty": "2 a 4",
-     "effect": "15% (+15% por acúmulo) de chance de bloquear dano recebido. Não é afetado por sorte.",
-     "why": "O Bandido tem 110 de vida base e nenhuma armadura. Como não sofre com sorte, continua funcionando mesmo se você pegar Pureza."
-    },
-    {
-     "icon": "armor-piercing-rounds",
-     "pt": "Projéteis Perfurantes",
-     "en": "Armor-Piercing Rounds",
-     "prio": 3,
-     "qty": "1 a 3 (mais no fim da run)",
-     "effect": "+20% (+20% por acúmulo) de dano contra chefes.",
-     "why": "Chefes são onde o Bandido mais sofre, porque ficam de frente para você. Ganha valor a partir do loop e na luta final."
+      "slot": "Especial",
+      "skill": "Luzes Apagadas (Lights Out)"
     }
-   ]
-  },
-  {
-   "id": "incomum",
-   "name": "Incomum",
-   "color": "verde",
-   "intro": "Os verdes trazem a sustentação e os efeitos que transformam críticos em vida, velocidade e mais Hemorragia.",
-   "items": [
+  ],
+  "skills": [
     {
-     "icon": "harvesters-scythe",
-     "pt": "Foice do Ceifador",
-     "en": "Harvester's Scythe",
-     "prio": 1,
-     "qty": "1 a 2",
-     "effect": "+5% de chance de crítico. Acertos Críticos curam 8 (+4 por acúmulo) de vida.",
-     "why": "Cada um dos 5 projéteis da Rajada é um golpe separado, então um disparo crítico pelas costas pode curar até 5 vezes. É a principal fonte de cura da build."
+      "slot": "Passiva",
+      "pt": "Facada nas Costas",
+      "en": "Backstab",
+      "pick": "Fixa",
+      "spec": "Todo ataque vindo por trás é Acerto Crítico.",
+      "why": "\"Por trás\" é o hemisfério de 180° atrás do alvo, medido pela direção entre você e o inimigo. Uma explosão que atinge as costas de um inimigo virado para você não conta. Isso vale para qualquer golpe: Rajada, Faca, Bomba de Fumaça e o especial."
     },
     {
-     "icon": "predatory-instincts",
-     "pt": "Instintos Predatórios",
-     "en": "Predatory Instincts",
-     "prio": 2,
-     "qty": "1 a 2",
-     "effect": "+5% de chance de crítico. Críticos dão +12% de velocidade de ataque, até 36% (+24% por acúmulo).",
-     "why": "Um disparo crítico da Rajada atinge o limite de acúmulos quase na hora. Na prática vira velocidade de recarga gratuita enquanto você estiver acertando pelas costas."
+      "slot": "Primária",
+      "pt": "Rajada",
+      "en": "Burst",
+      "pick": "Recomendada",
+      "spec": "5 × 100% de dano, 4 cartuchos. Coeficiente 0,5 por projétil.",
+      "why": "Cinco golpes separados por disparo: cinco chances de crítico, cinco curas da Foice, cinco acúmulos de Instintos, cinco explosões do Brutamontes. Perde dano com a distância, então lute perto. A alternativa Tiro (Blast, 330%, sem perda por distância) é melhor só se você prefere ficar longe."
     },
     {
-     "icon": "bandolier",
-     "pt": "Cartucheira",
-     "en": "Bandolier",
-     "prio": 2,
-     "qty": "1 a 3 (prioridade máxima com Bandoleiro/Desperado)",
-     "effect": "18% (+10% por acúmulo) de chance de, ao abater, soltar munição que reinicia todos os tempos de recarga.",
-     "why": "Funciona com abates de qualquer fonte, inclusive Hemorragia. Com Luzes Apagadas é um bônus; com Bandoleiro (Desperado), que não reinicia nada, é o que repõe as habilidades."
+      "slot": "Secundária",
+      "pt": "Faca Serrilhada",
+      "en": "Serrated Shiv",
+      "pick": "Recomendada",
+      "spec": "Arremessa uma lâmina de 240%. Críticos aplicam Hemorragia. Recarga 4 s.",
+      "why": "A Hemorragia (2000% do dano base em 15 s) é igual na Faca e na Adaga; o que muda é o golpe inicial. A Faca aplica Hemorragia de longe, sem se expor. A Adaga Serrilhada (Serrated Dagger, 360%, com investida) vale se você gosta de jogar colado."
     },
     {
-     "icon": "noxious-thorn",
-     "pt": "Espinho Nocivo",
-     "en": "Noxious Thorn",
-     "prio": 2,
-     "qty": "1 a 2",
-     "effect": "+10% de chance de sangramento. Ao abater, transfere 33% de cada acúmulo de debuff para 1 (+1 por acúmulo) inimigo a até 20 m (+5 m por acúmulo).",
-     "why": "Inimigos carregados de Hemorragia passam parte dos acúmulos para o vizinho quando morrem. Dano de Hemorragia se espalha pelo grupo sem você gastar outra Faca."
+      "slot": "Utilitária",
+      "pt": "Bomba de Fumaça",
+      "en": "Smoke Bomb",
+      "pick": "Única opção",
+      "spec": "Atordoa, 200% de dano, invisibilidade, mais 200% ao sair. Recarga 6 s.",
+      "why": "Os inimigos continuam mirando onde você estava, o que libera as costas deles. A recarga começa ao usar, então ficando invisível o tempo todo ela volta em cerca de 3 s. Usar habilidade encerra a invisibilidade; usar equipamento não. A arma recarrega enquanto você está invisível."
     },
     {
-     "icon": "luminous-shot",
-     "pt": "Disparo Luminoso",
-     "en": "Luminous Shot",
-     "prio": 3,
-     "qty": "1",
-     "effect": "Usar a Secundária guarda até 5 (+1 por acúmulo) cargas; com 3 cargas, a Primária dispara raios de 175% de dano TOTAL (+50% por acúmulo). Reduz o tempo de recarga da Secundária em 20%.",
-     "why": "Você usa a Faca o tempo todo, ainda mais com Pente Reserva, então as cargas ficam sempre prontas para a Rajada. Também encurta a recarga da Faca."
+      "slot": "Especial",
+      "pt": "Luzes Apagadas",
+      "en": "Lights Out",
+      "pick": "Recomendada",
+      "spec": "Tiro de revólver de 600%. Assassino (Slayer). Abates reiniciam todas as recargas. Recarga 4 s.",
+      "why": "Um abate devolve tudo: Faca, Bomba de Fumaça, o próprio especial e até os cartuchos da Rajada, com todas as cargas extras. É o que permite encadear inimigo após inimigo. Use como finalizador."
     },
     {
-     "icon": "hopoo-feather",
-     "pt": "Pluma de Hopoo",
-     "en": "Hopoo Feather",
-     "prio": 3,
-     "qty": "1 a 2",
-     "effect": "+1 (+1 por acúmulo) pulo extra.",
-     "why": "Mobilidade vertical para fugir e para cair atrás de inimigos maiores."
-    },
-    {
-     "icon": "old-war-stealthkit",
-     "pt": "Kit Furtivo da Guerra Antiga",
-     "en": "Old War Stealthkit",
-     "prio": 3,
-     "qty": "1",
-     "effect": "Ao cair abaixo de 25% de vida, ganha 40% de velocidade e invisibilidade por 5 s. Recarrega a cada 30 s (-50% por acúmulo).",
-     "why": "Uma segunda Bomba de Fumaça automática na hora de pânico. Invisível, a arma continua recarregando."
-    },
-    {
-     "icon": "hunters-harpoon",
-     "pt": "Arpão do Caçador",
-     "en": "Hunter's Harpoon",
-     "prio": 3,
-     "qty": "1 a 2",
-     "effect": "Abates dão +125% de velocidade de movimento, diminuindo ao longo de 1 s (+0,5 s por acúmulo).",
-     "why": "Depois de cada abate de Luzes Apagadas você dispara para a próxima posição atrás de outro inimigo."
-    },
-    {
-     "icon": "ukulele",
-     "pt": "Ukulele",
-     "en": "Ukulele",
-     "prio": 4,
-     "qty": "1 a 2",
-     "effect": "25% de chance de disparar um raio em cadeia de 80% de dano TOTAL em até 3 (+2 por acúmulo) alvos a 20 m (+2 m por acúmulo).",
-     "why": "Cada projétil da Rajada tem chance de ativar (cada um com coeficiente 0,5). Bom em grupos, mas não é prioridade."
+      "slot": "Especial (alt.)",
+      "pt": "Bandoleiro",
+      "en": "Desperado",
+      "pick": "Variante",
+      "spec": "Tiro de 600%. Assassino (Slayer). Abates dão fichas de +10% de dano para a própria habilidade. Recarga 4 s.",
+      "why": "Cada ficha soma 60% do dano base ao tiro, mas todas somem ao trocar de fase e nada é reiniciado. Por isso pede Cartucheira, Pureza e Cabeça Alienígena para compensar. No jogo em português esta habilidade se chama Bandoleiro."
     }
-   ]
-  },
-  {
-   "id": "lendario",
-   "name": "Lendário",
-   "color": "vermelho",
-   "intro": "Poucos itens vermelhos aparecem por run. Estes são os que mudam o Bandido de patamar.",
-   "items": [
+  ],
+  "sections": [
     {
-     "icon": "laser-scope",
-     "pt": "Mira Laser",
-     "en": "Laser Scope",
-     "prio": 1,
-     "qty": "1 ou mais (não tem limite)",
-     "effect": "Acertos Críticos causam +100% (+100% por acúmulo) de dano adicional.",
-     "why": "Como as costas sempre são crítico, cada golpe passa de 2x para 3x de dano. Não aumenta a Hemorragia, que é calculada sobre o dano base."
+      "id": "comum",
+      "name": "Comum",
+      "color": "branco",
+      "intro": "Itens brancos aparecem muito. Aqui está o grosso da build: crítico, cargas da Faca e velocidade de recarga.",
+      "items": [
+        {
+          "icon": "lens-makers-glasses",
+          "pt": "Óculos do Fabricante de Lentes",
+          "en": "Lens-Maker's Glasses",
+          "prio": 1,
+          "qty": "4 a 8",
+          "effect": "10% (+10% por acúmulo) de chance de Acerto Crítico, que causa dano dobrado.",
+          "why": "Facada nas Costas só garante crítico por trás. Contra chefes virados para você e em brigas no meio do grupo, é a chance de crítico que faz a Faca Serrilhada aplicar Hemorragia de frente. Some os 5% de Instintos, Foice e Baço e mire em 60–100% no total; acima de 100% não há ganho extra."
+        },
+        {
+          "icon": "backup-magazine",
+          "pt": "Pente Reserva",
+          "en": "Backup Magazine",
+          "prio": 1,
+          "qty": "3 a 6 (mais não faz mal)",
+          "effect": "+1 (+1 por acúmulo) carga da habilidade Secundária.",
+          "why": "Cada carga da Faca é uma chance de empilhar mais um acúmulo de Hemorragia. Com Luzes Apagadas, um abate devolve todas as cargas de uma vez, então mais pentes significam mais Hemorragia por ciclo. Não afeta os cartuchos da Rajada."
+        },
+        {
+          "icon": "soldiers-syringe",
+          "pt": "Seringa Militar",
+          "en": "Soldier's Syringe",
+          "prio": 2,
+          "qty": "3 a 5",
+          "effect": "+15% (+15% por acúmulo) de velocidade de ataque.",
+          "why": "A cadência da Rajada depende só do seu clique; a velocidade de ataque acelera a recarga dos cartuchos e faz Luzes Apagadas e a Faca saírem mais rápido. É o que mantém o ciclo girando."
+        },
+        {
+          "icon": "crowbar",
+          "pt": "Pé de Cabra",
+          "en": "Crowbar",
+          "prio": 2,
+          "qty": "1 a 3",
+          "effect": "+75% (+75% por acúmulo) de dano contra inimigos acima de 90% de vida.",
+          "why": "O Bandido abre o combate com golpes pesados (Rajada crítica pelas costas, Faca). O primeiro golpe em cada inimigo novo sai bem mais forte, o que tira inimigos fracos de cena de uma vez e alimenta as cadeias de abate."
+        },
+        {
+          "icon": "chronic-expansion",
+          "pt": "Expansão Crônica",
+          "en": "Chronic Expansion",
+          "prio": 3,
+          "qty": "1 a 3",
+          "effect": "Abates dão +3,5% (+1% por acúmulo) de dano por 7 s, até 10 (+5 por acúmulo) vezes. Causar dano renova o tempo.",
+          "why": "Cadeias de Luzes Apagadas geram abates em sequência, então os acúmulos sobem rápido e ficam ativos enquanto você continua atirando."
+        },
+        {
+          "icon": "focus-crystal",
+          "pt": "Cristal de Foco",
+          "en": "Focus Crystal",
+          "prio": 3,
+          "qty": "1 a 3",
+          "effect": "+20% (+20% por acúmulo) de dano contra inimigos a até 13 m.",
+          "why": "A Rajada perde dano com a distância e você já luta perto para pegar as costas dos inimigos. Bônus quase sempre ativo."
+        },
+        {
+          "icon": "pauls-goat-hoof",
+          "pt": "Casco de Bode de Paul",
+          "en": "Paul's Goat Hoof",
+          "prio": 3,
+          "qty": "1 a 3",
+          "effect": "+14% (+14% por acúmulo) de velocidade de movimento.",
+          "why": "Velocidade é o que permite contornar o inimigo durante a Bomba de Fumaça e chegar às costas antes de ele virar."
+        },
+        {
+          "icon": "tougher-times",
+          "pt": "Tempos Difíceis",
+          "en": "Tougher Times",
+          "prio": 3,
+          "qty": "2 a 4",
+          "effect": "15% (+15% por acúmulo) de chance de bloquear dano recebido. Não é afetado por sorte.",
+          "why": "O Bandido tem 110 de vida base e nenhuma armadura. Como não sofre com sorte, continua funcionando mesmo se você pegar Pureza."
+        },
+        {
+          "icon": "armor-piercing-rounds",
+          "pt": "Projéteis Perfurantes",
+          "en": "Armor-Piercing Rounds",
+          "prio": 3,
+          "qty": "1 a 3 (mais no fim da run)",
+          "effect": "+20% (+20% por acúmulo) de dano contra chefes.",
+          "why": "Chefes são onde o Bandido mais sofre, porque ficam de frente para você. Ganha valor a partir do loop e na luta final."
+        }
+      ]
     },
     {
-     "icon": "brilliant-behemoth",
-     "pt": "Brutamontes Reluzente",
-     "en": "Brilliant Behemoth",
-     "prio": 1,
-     "qty": "1 a 2",
-     "effect": "Todos os ataques explodem em 4 m (+2,5 m por acúmulo) causando 60% de dano TOTAL extra.",
-     "why": "Cada projétil da Rajada explode. E um inimigo morto pela explosão de Luzes Apagadas também conta como abate da habilidade: reinicia as recargas ou dá fichas ao Bandoleiro."
+      "id": "incomum",
+      "name": "Incomum",
+      "color": "verde",
+      "intro": "Os verdes trazem a sustentação e os efeitos que transformam críticos em vida, velocidade e mais Hemorragia.",
+      "items": [
+        {
+          "icon": "harvesters-scythe",
+          "pt": "Foice do Ceifador",
+          "en": "Harvester's Scythe",
+          "prio": 1,
+          "qty": "1 a 2",
+          "effect": "+5% de chance de crítico. Acertos Críticos curam 8 (+4 por acúmulo) de vida.",
+          "why": "Cada um dos 5 projéteis da Rajada é um golpe separado, então um disparo crítico pelas costas pode curar até 5 vezes. É a principal fonte de cura da build."
+        },
+        {
+          "icon": "predatory-instincts",
+          "pt": "Instintos Predatórios",
+          "en": "Predatory Instincts",
+          "prio": 2,
+          "qty": "1 a 2",
+          "effect": "+5% de chance de crítico. Críticos dão +12% de velocidade de ataque, até 36% (+24% por acúmulo).",
+          "why": "Um disparo crítico da Rajada atinge o limite de acúmulos quase na hora. Na prática vira velocidade de recarga gratuita enquanto você estiver acertando pelas costas."
+        },
+        {
+          "icon": "bandolier",
+          "pt": "Cartucheira",
+          "en": "Bandolier",
+          "prio": 2,
+          "qty": "1 a 3 (prioridade máxima com Bandoleiro/Desperado)",
+          "effect": "18% (+10% por acúmulo) de chance de, ao abater, soltar munição que reinicia todos os tempos de recarga.",
+          "why": "Funciona com abates de qualquer fonte, inclusive Hemorragia. Com Luzes Apagadas é um bônus; com Bandoleiro (Desperado), que não reinicia nada, é o que repõe as habilidades."
+        },
+        {
+          "icon": "noxious-thorn",
+          "pt": "Espinho Nocivo",
+          "en": "Noxious Thorn",
+          "prio": 2,
+          "qty": "1 a 2",
+          "effect": "+10% de chance de sangramento. Ao abater, transfere 33% de cada acúmulo de debuff para 1 (+1 por acúmulo) inimigo a até 20 m (+5 m por acúmulo).",
+          "why": "Inimigos carregados de Hemorragia passam parte dos acúmulos para o vizinho quando morrem. Dano de Hemorragia se espalha pelo grupo sem você gastar outra Faca."
+        },
+        {
+          "icon": "luminous-shot",
+          "pt": "Disparo Luminoso",
+          "en": "Luminous Shot",
+          "prio": 3,
+          "qty": "1",
+          "effect": "Usar a Secundária guarda até 5 (+1 por acúmulo) cargas; com 3 cargas, a Primária dispara raios de 175% de dano TOTAL (+50% por acúmulo). Reduz o tempo de recarga da Secundária em 20%.",
+          "why": "Você usa a Faca o tempo todo, ainda mais com Pente Reserva, então as cargas ficam sempre prontas para a Rajada. Também encurta a recarga da Faca."
+        },
+        {
+          "icon": "hopoo-feather",
+          "pt": "Pluma de Hopoo",
+          "en": "Hopoo Feather",
+          "prio": 3,
+          "qty": "1 a 2",
+          "effect": "+1 (+1 por acúmulo) pulo extra.",
+          "why": "Mobilidade vertical para fugir e para cair atrás de inimigos maiores."
+        },
+        {
+          "icon": "old-war-stealthkit",
+          "pt": "Kit Furtivo da Guerra Antiga",
+          "en": "Old War Stealthkit",
+          "prio": 3,
+          "qty": "1",
+          "effect": "Ao cair abaixo de 25% de vida, ganha 40% de velocidade e invisibilidade por 5 s. Recarrega a cada 30 s (-50% por acúmulo).",
+          "why": "Uma segunda Bomba de Fumaça automática na hora de pânico. Invisível, a arma continua recarregando."
+        },
+        {
+          "icon": "hunters-harpoon",
+          "pt": "Arpão do Caçador",
+          "en": "Hunter's Harpoon",
+          "prio": 3,
+          "qty": "1 a 2",
+          "effect": "Abates dão +125% de velocidade de movimento, diminuindo ao longo de 1 s (+0,5 s por acúmulo).",
+          "why": "Depois de cada abate de Luzes Apagadas você dispara para a próxima posição atrás de outro inimigo."
+        },
+        {
+          "icon": "ukulele",
+          "pt": "Ukulele",
+          "en": "Ukulele",
+          "prio": 4,
+          "qty": "1 a 2",
+          "effect": "25% de chance de disparar um raio em cadeia de 80% de dano TOTAL em até 3 (+2 por acúmulo) alvos a 20 m (+2 m por acúmulo).",
+          "why": "Cada projétil da Rajada tem chance de ativar (cada um com coeficiente 0,5). Bom em grupos, mas não é prioridade."
+        }
+      ]
     },
     {
-     "icon": "alien-head",
-     "pt": "Cabeça Alienígena",
-     "en": "Alien Head",
-     "prio": 2,
-     "qty": "1 a 2",
-     "effect": "Reduz o tempo de recarga das habilidades em 25% (+25% por acúmulo).",
-     "why": "Faca, Bomba de Fumaça e Luzes Apagadas voltam mais rápido mesmo quando a cadeia de abates quebra, por exemplo contra chefes."
+      "id": "lendario",
+      "name": "Lendário",
+      "color": "vermelho",
+      "intro": "Poucos itens vermelhos aparecem por run. Estes são os que mudam o Bandido de patamar.",
+      "items": [
+        {
+          "icon": "laser-scope",
+          "pt": "Mira Laser",
+          "en": "Laser Scope",
+          "prio": 1,
+          "qty": "1 ou mais (não tem limite)",
+          "effect": "Acertos Críticos causam +100% (+100% por acúmulo) de dano adicional.",
+          "why": "Como as costas sempre são crítico, cada golpe passa de 2x para 3x de dano. Não aumenta a Hemorragia, que é calculada sobre o dano base."
+        },
+        {
+          "icon": "brilliant-behemoth",
+          "pt": "Brutamontes Reluzente",
+          "en": "Brilliant Behemoth",
+          "prio": 1,
+          "qty": "1 a 2",
+          "effect": "Todos os ataques explodem em 4 m (+2,5 m por acúmulo) causando 60% de dano TOTAL extra.",
+          "why": "Cada projétil da Rajada explode. E um inimigo morto pela explosão de Luzes Apagadas também conta como abate da habilidade: reinicia as recargas ou dá fichas ao Bandoleiro."
+        },
+        {
+          "icon": "alien-head",
+          "pt": "Cabeça Alienígena",
+          "en": "Alien Head",
+          "prio": 2,
+          "qty": "1 a 2",
+          "effect": "Reduz o tempo de recarga das habilidades em 25% (+25% por acúmulo).",
+          "why": "Faca, Bomba de Fumaça e Luzes Apagadas voltam mais rápido mesmo quando a cadeia de abates quebra, por exemplo contra chefes."
+        },
+        {
+          "icon": "hardlight-afterburner",
+          "pt": "Pós-combustor de Holograma",
+          "en": "Hardlight Afterburner",
+          "prio": 2,
+          "qty": "1",
+          "effect": "+2 (+2 por acúmulo) cargas da Utilitária e −33% no tempo de recarga dela.",
+          "why": "Três Bombas de Fumaça seguidas: invisibilidade quase constante para escolher sempre o lado das costas."
+        },
+        {
+          "icon": "runic-lens",
+          "pt": "Lente Rúnica",
+          "en": "Runic Lens",
+          "prio": 3,
+          "qty": "1",
+          "effect": "3% de chance ao acertar de invocar um meteoro de 2000% de dano base. Cada 100% de dano do ataque aumenta a chance em 3% (+3% por acúmulo) e o dano em 150% (+50% por acúmulo).",
+          "why": "Luzes Apagadas causa 600%, então cada tiro soma +18% de chance. A Faca (240%) também ajuda. Os golpes grandes do Bandido são exatamente o que esse item quer."
+        },
+        {
+          "icon": "brainstalks",
+          "pt": "Genialidade",
+          "en": "Brainstalks",
+          "prio": 3,
+          "qty": "1",
+          "effect": "Ao abater um inimigo de elite, entra em frenesi por 4 s (+4 s por acúmulo) com recargas de 0,5 s.",
+          "why": "Quatro segundos de Faca e Luzes Apagadas quase sem recarga. Pode virar uma reação em cadeia em telas cheias de elites."
+        },
+        {
+          "icon": "57-leaf-clover",
+          "pt": "Trevo 57",
+          "en": "57 Leaf Clover",
+          "prio": 3,
+          "qty": "1",
+          "effect": "Todos os efeitos aleatórios são rolados +1 (+1 por acúmulo) vez a seu favor.",
+          "why": "A chance de crítico é afetada por sorte, assim como os efeitos de chance. Não combine com Pureza: um anula o outro."
+        }
+      ]
     },
     {
-     "icon": "hardlight-afterburner",
-     "pt": "Pós-combustor de Holograma",
-     "en": "Hardlight Afterburner",
-     "prio": 2,
-     "qty": "1",
-     "effect": "+2 (+2 por acúmulo) cargas da Utilitária e −33% no tempo de recarga dela.",
-     "why": "Três Bombas de Fumaça seguidas: invisibilidade quase constante para escolher sempre o lado das costas."
+      "id": "chefe",
+      "name": "Chefe",
+      "color": "amarelo",
+      "intro": "Itens de chefe só caem de chefes de teleporte. Vale um para o Bandido.",
+      "items": [
+        {
+          "icon": "shatterspleen",
+          "pt": "Baço Desfigurado",
+          "en": "Shatterspleen",
+          "prio": 2,
+          "qty": "1 a 2",
+          "effect": "+5% de chance de crítico. Críticos causam sangramento de 240% do dano base. Inimigos sangrando explodem ao morrer causando 400% (+400% por acúmulo) de dano mais 15% (+15% por acúmulo) da vida máxima deles.",
+          "why": "Cada projétil crítico da Rajada aplica um sangramento. Num grupo, as mortes viram explosões que matam os vizinhos. Mantenha a velocidade de ataque alta para continuar reaplicando."
+        }
+      ]
     },
     {
-     "icon": "runic-lens",
-     "pt": "Lente Rúnica",
-     "en": "Runic Lens",
-     "prio": 3,
-     "qty": "1",
-     "effect": "3% de chance ao acertar de invocar um meteoro de 2000% de dano base. Cada 100% de dano do ataque aumenta a chance em 3% (+3% por acúmulo) e o dano em 150% (+50% por acúmulo).",
-     "why": "Luzes Apagadas causa 600%, então cada tiro soma +18% de chance. A Faca (240%) também ajuda. Os golpes grandes do Bandido são exatamente o que esse item quer."
+      "id": "equipamento",
+      "name": "Equipamentos",
+      "color": "laranja",
+      "intro": "Só dá para carregar um. Escolha pelo momento da run.",
+      "items": [
+        {
+          "icon": "ocular-hud",
+          "pt": "Visor Ocular",
+          "en": "Ocular HUD",
+          "prio": 1,
+          "qty": "1 (tempo de recarga 60 s)",
+          "effect": "+100% de chance de Acerto Crítico por 8 segundos.",
+          "why": "Por 8 s todo golpe é crítico de qualquer ângulo: cada Faca aplica Hemorragia mesmo de frente para o chefe. Usar equipamento não quebra a invisibilidade da Bomba de Fumaça."
+        },
+        {
+          "icon": "royal-capacitor",
+          "pt": "Capacitor Régio",
+          "en": "Royal Capacitor",
+          "prio": 2,
+          "qty": "1 (recarga 20 s)",
+          "effect": "Raio em um monstro marcado causando 3000% de dano e atordoando os monstros próximos.",
+          "why": "Dano alto em um alvo e recarga curta. Ótimo para baixar a vida de um elite e finalizar com Luzes Apagadas."
+        },
+        {
+          "icon": "primordial-cube",
+          "pt": "Cubo Primordial",
+          "en": "Primordial Cube",
+          "prio": 3,
+          "qty": "1 (recarga 60 s)",
+          "effect": "Buraco negro que puxa inimigos a até 30 m para o centro por 10 s.",
+          "why": "Junta o grupo para a Rajada acertar todos os projéteis e o Brutamontes explodir em vários alvos."
+        },
+        {
+          "icon": "spinel-tonic",
+          "pt": "Tônico de Espinélia",
+          "en": "Spinel Tonic",
+          "prio": 3,
+          "qty": "1 (equipamento lunar, recarga 60 s)",
+          "effect": "Por 20 s: +100% de dano, +70% de velocidade de ataque, +20 de armadura, +50% de vida máxima, +300% de regeneração, +30% de movimento. Ao acabar, 20% de chance de Aflição do Tônico (−5% em todos os atributos, permanente).",
+          "why": "Poder bruto para chefes, com um custo que se acumula. Use só nas lutas que importam."
+        },
+        {
+          "icon": "volcanic-egg",
+          "pt": "Ovo Vulcânico",
+          "en": "Volcanic Egg",
+          "prio": 4,
+          "qty": "1 (recarga 30 s)",
+          "effect": "Vira uma bola de fogo por 5 s, causando 500% ao impacto e 800% ao detonar.",
+          "why": "Mobilidade e fuga em mapas grandes."
+        },
+        {
+          "icon": "blast-shower",
+          "pt": "Expurgação Explosiva",
+          "en": "Blast Shower",
+          "prio": 4,
+          "qty": "1 (recarga 20 s)",
+          "effect": "Remove todos os efeitos negativos, incluindo dano contínuo e projéteis próximos.",
+          "why": "Defensivo contra elites que aplicam debuffs. Não ajuda a matar."
+        }
+      ]
     },
     {
-     "icon": "brainstalks",
-     "pt": "Genialidade",
-     "en": "Brainstalks",
-     "prio": 3,
-     "qty": "1",
-     "effect": "Ao abater um inimigo de elite, entra em frenesi por 4 s (+4 s por acúmulo) com recargas de 0,5 s.",
-     "why": "Quatro segundos de Faca e Luzes Apagadas quase sem recarga. Pode virar uma reação em cadeia em telas cheias de elites."
+      "id": "lunar",
+      "name": "Lunares",
+      "color": "azul",
+      "intro": "Itens lunares têm um custo embutido. Nenhum é obrigatório; estes têm sinergia real com o Bandido.",
+      "items": [
+        {
+          "icon": "purity",
+          "pt": "Pureza",
+          "en": "Purity",
+          "prio": 3,
+          "qty": "1 (núcleo da variante com Bandoleiro)",
+          "effect": "Reduz todas as recargas de habilidade em 2 s (+1 s por acúmulo). Todos os efeitos aleatórios são rolados +1 (+1 por acúmulo) vez contra você.",
+          "why": "Faca e especial vão de 4 s para 2 s, Bomba de Fumaça de 6 s para 4 s. O custo: chance de crítico de itens e efeitos de chance pioram. A Facada nas Costas não é aleatória, então continua garantida."
+        },
+        {
+          "icon": "gesture-of-the-drowned",
+          "pt": "Marca do Submerso",
+          "en": "Gesture of the Drowned",
+          "prio": 4,
+          "qty": "1 (só com Visor Ocular)",
+          "effect": "Reduz a recarga do equipamento em 50% (+15% por acúmulo). Força o equipamento a ativar sempre que estiver pronto.",
+          "why": "Com o Visor Ocular vira 8 s de crítico garantido a cada 30 s, sem apertar nada. Com outros equipamentos costuma atrapalhar."
+        },
+        {
+          "icon": "shaped-glass",
+          "pt": "Vidro Configurado",
+          "en": "Shaped Glass",
+          "prio": 4,
+          "qty": "1 (só se estiver confortável)",
+          "effect": "+100% (+100% por acúmulo) de dano base. −50% (−50% por acúmulo) de vida máxima.",
+          "why": "Como a Hemorragia escala com o dano base, este é um dos poucos itens que dobra a Hemorragia. O Bandido já é frágil, então o risco é alto."
+        },
+        {
+          "icon": "light-flux-pauldron",
+          "pt": "Ombreira do Fluxo Iluminado",
+          "en": "Light Flux Pauldron",
+          "prio": 4,
+          "qty": "1 (geralmente evitar)",
+          "effect": "−50% (−50% por acúmulo) no tempo de recarga das habilidades. −50% (−50% por acúmulo) de velocidade de ataque.",
+          "why": "Corta pela metade a recarga da Faca e do especial, mas deixa a recarga da Rajada e o tiro de Luzes Apagadas bem mais lentos. Só compensa com muita velocidade de ataque."
+        }
+      ]
     },
     {
-     "icon": "57-leaf-clover",
-     "pt": "Trevo 57",
-     "en": "57 Leaf Clover",
-     "prio": 3,
-     "qty": "1",
-     "effect": "Todos os efeitos aleatórios são rolados +1 (+1 por acúmulo) vez a seu favor.",
-     "why": "A chance de crítico é afetada por sorte, assim como os efeitos de chance. Não combine com Pureza: um anula o outro."
+      "id": "vazio",
+      "name": "Vazio",
+      "color": "roxo",
+      "intro": "Itens do Vazio (DLC Survivors of the Void) corrompem itens comuns quando pegos. Confira o que vai perder antes de pegar.",
+      "items": [
+        {
+          "icon": "lysate-cell",
+          "pt": "Célula Lisada",
+          "en": "Lysate Cell",
+          "prio": 1,
+          "qty": "1 a 3",
+          "effect": "+1 (+1 por acúmulo) carga da habilidade Especial e −33% no tempo de recarga dela. Corrompe todas as Células de Combustível.",
+          "why": "Um abate com Luzes Apagadas devolve todas as cargas, então dá para encadear vários tiros. Atenção ao bug descrito na wiki: apertar o especial de novo antes do primeiro tiro sair desperdiça a carga extra. Espere o disparo."
+        },
+        {
+          "icon": "singularity-band",
+          "pt": "Faixa da Singularidade",
+          "en": "Singularity Band",
+          "prio": 2,
+          "qty": "1",
+          "effect": "Golpes acima de 400% de dano disparam um buraco negro que puxa inimigos a até 15 m e colapsa após 5 s causando 100% (+100% por acúmulo) de dano TOTAL. Recarga de 20 s. Corrompe os Cinturões de Kjaro e Runald.",
+          "why": "Luzes Apagadas (600%) ativa sempre. O dano chega depois, então não rouba o abate do seu especial, e o grupo fica parado para a Rajada e o Brutamontes."
+        },
+        {
+          "icon": "needletick",
+          "pt": "Agulhão",
+          "en": "Needletick",
+          "prio": 3,
+          "qty": "1 a 3",
+          "effect": "10% (+10% por acúmulo) de chance de colapsar um inimigo, causando 400% de dano base. Corrompe todas as Adagas Triangulares.",
+          "why": "O colapso é atrasado, então raramente rouba o abate de Luzes Apagadas. Prefira a uma Adaga Triangular."
+        },
+        {
+          "icon": "lost-seers-lenses",
+          "pt": "Lentes do Profeta Perdido",
+          "en": "Lost Seer's Lenses",
+          "prio": 0,
+          "qty": "0 se você depende de Óculos",
+          "effect": "0,5% (+0,5% por acúmulo) de chance de matar instantaneamente um inimigo que não seja chefe. Corrompe todos os Óculos do Fabricante de Lentes.",
+          "why": "Pegar uma transforma todos os seus Óculos. A wiki lembra que o Bandido aguenta isso melhor que outros, porque as costas ainda dão crítico, mas você perde o crítico de frente. Só pegue com poucos Óculos e com Visor Ocular."
+        }
+      ]
     }
-   ]
-  },
-  {
-   "id": "chefe",
-   "name": "Chefe",
-   "color": "amarelo",
-   "intro": "Itens de chefe só caem de chefes de teleporte. Vale um para o Bandido.",
-   "items": [
+  ],
+  "synergy": [
     {
-     "icon": "shatterspleen",
-     "pt": "Baço Desfigurado",
-     "en": "Shatterspleen",
-     "prio": 2,
-     "qty": "1 a 2",
-     "effect": "+5% de chance de crítico. Críticos causam sangramento de 240% do dano base. Inimigos sangrando explodem ao morrer causando 400% (+400% por acúmulo) de dano mais 15% (+15% por acúmulo) da vida máxima deles.",
-     "why": "Cada projétil crítico da Rajada aplica um sangramento. Num grupo, as mortes viram explosões que matam os vizinhos. Mantenha a velocidade de ataque alta para continuar reaplicando."
+      "title": "Crítico e Facada nas Costas",
+      "text": "Por trás, todo golpe é crítico sem depender de sorte. Os itens de chance de crítico (Óculos, Instintos, Foice, Baço, Visor Ocular) existem para cobrir os momentos em que você não consegue ficar atrás: chefes, inimigos voadores, grupos espalhados. Itens que reagem ao crítico (Foice, Instintos, Baço, Mira Laser) funcionam nas duas situações, e a Rajada ativa cada um deles até cinco vezes por disparo."
+    },
+    {
+      "title": "Hemorragia",
+      "text": "Só a Faca (ou Adaga) aplica Hemorragia, e só quando o golpe é crítico. Cada acúmulo causa 2000% do dano base em 15 s, e aplicar um novo acúmulo renova a duração de todos os anteriores, então reaplicando dentro de 15 s os acúmulos crescem sem limite. Por usar o dano base, ela não é multiplicada pela Mira Laser nem pelo dano de crítico. Cresce com o nível, com o Vidro Configurado e com o número de cargas da Faca (Pente Reserva)."
+    },
+    {
+      "title": "Recarga da arma",
+      "text": "A Rajada guarda 4 cartuchos e recarrega um por vez (1,2 s para os quatro, começando 0,25 s após o último tiro). A recarga é acelerada por velocidade de ataque e começa mais rápido com o pente vazio. Ela para enquanto você usa outra habilidade, mas continua durante a invisibilidade: esvazie o pente, solte a Bomba de Fumaça e reposicione enquanto recarrega."
+    },
+    {
+      "title": "Luzes Apagadas e o reinício",
+      "text": "Assassino aumenta o dano em 2% para cada 1% de vida que o alvo perdeu, até 3×. O tiro foi feito para terminar inimigos já machucados. Se ele matar, todas as habilidades voltam com todas as cargas, inclusive as extras de Pente Reserva, Pós-combustor e Célula Lisada. Abates por Hemorragia, Ukulele ou outros itens não contam; abates pela explosão do Brutamontes vindos do tiro contam."
+    },
+    {
+      "title": "Bandoleiro (Desperado)",
+      "text": "Cada abate do tiro dá uma ficha de +10% de dano para a própria habilidade, e explosões do Brutamontes podem dar várias de uma vez. As fichas se perdem ao trocar de fase, então o dano não carrega pela run. Sem reinício, a rotação depende de Cartucheira, Pureza, Cabeça Alienígena e Célula Lisada. Para jogar normalmente e chegar longe, Luzes Apagadas é mais consistente; o Bandoleiro rende mais em fases longas com muitos alvos para farmar fichas."
     }
-   ]
-  },
-  {
-   "id": "equipamento",
-   "name": "Equipamentos",
-   "color": "laranja",
-   "intro": "Só dá para carregar um. Escolha pelo momento da run.",
-   "items": [
+  ],
+  "rotation": [
     {
-     "icon": "ocular-hud",
-     "pt": "Visor Ocular",
-     "en": "Ocular HUD",
-     "prio": 1,
-     "qty": "1 (tempo de recarga 60 s)",
-     "effect": "+100% de chance de Acerto Crítico por 8 segundos.",
-     "why": "Por 8 s todo golpe é crítico de qualquer ângulo: cada Faca aplica Hemorragia mesmo de frente para o chefe. Usar equipamento não quebra a invisibilidade da Bomba de Fumaça."
+      "step": "Bomba de Fumaça",
+      "text": "Some da vista. Os inimigos continuam mirando onde você estava."
     },
     {
-     "icon": "royal-capacitor",
-     "pt": "Capacitor Régio",
-     "en": "Royal Capacitor",
-     "prio": 2,
-     "qty": "1 (recarga 20 s)",
-     "effect": "Raio em um monstro marcado causando 3000% de dano e atordoando os monstros próximos.",
-     "why": "Dano alto em um alvo e recarga curta. Ótimo para baixar a vida de um elite e finalizar com Luzes Apagadas."
+      "step": "Contorne e esvazie a Rajada",
+      "text": "Atire por trás: todo projétil é crítico e ativa Foice, Instintos e Baço."
     },
     {
-     "icon": "primordial-cube",
-     "pt": "Cubo Primordial",
-     "en": "Primordial Cube",
-     "prio": 3,
-     "qty": "1 (recarga 60 s)",
-     "effect": "Buraco negro que puxa inimigos a até 30 m para o centro por 10 s.",
-     "why": "Junta o grupo para a Rajada acertar todos os projéteis e o Brutamontes explodir em vários alvos."
+      "step": "Faca Serrilhada",
+      "text": "Gaste as cargas pelas costas para empilhar Hemorragia no alvo mais forte."
     },
     {
-     "icon": "spinel-tonic",
-     "pt": "Tônico de Espinélia",
-     "en": "Spinel Tonic",
-     "prio": 3,
-     "qty": "1 (equipamento lunar, recarga 60 s)",
-     "effect": "Por 20 s: +100% de dano, +70% de velocidade de ataque, +20 de armadura, +50% de vida máxima, +300% de regeneração, +30% de movimento. Ao acabar, 20% de chance de Aflição do Tônico (−5% em todos os atributos, permanente).",
-     "why": "Poder bruto para chefes, com um custo que se acumula. Use só nas lutas que importam."
+      "step": "Luzes Apagadas no inimigo machucado",
+      "text": "Assassino triplica o dano em alvos quase mortos. Abate reinicia tudo."
     },
     {
-     "icon": "volcanic-egg",
-     "pt": "Ovo Vulcânico",
-     "en": "Volcanic Egg",
-     "prio": 4,
-     "qty": "1 (recarga 30 s)",
-     "effect": "Vira uma bola de fogo por 5 s, causando 500% ao impacto e 800% ao detonar.",
-     "why": "Mobilidade e fuga em mapas grandes."
-    },
-    {
-     "icon": "blast-shower",
-     "pt": "Expurgação Explosiva",
-     "en": "Blast Shower",
-     "prio": 4,
-     "qty": "1 (recarga 20 s)",
-     "effect": "Remove todos os efeitos negativos, incluindo dano contínuo e projéteis próximos.",
-     "why": "Defensivo contra elites que aplicam debuffs. Não ajuda a matar."
+      "step": "Repita no próximo alvo",
+      "text": "Com tudo de volta, comece de novo. Contra chefes sem reinício, use o Visor Ocular e mantenha a Hemorragia ativa."
     }
-   ]
-  },
-  {
-   "id": "lunar",
-   "name": "Lunares",
-   "color": "azul",
-   "intro": "Itens lunares têm um custo embutido. Nenhum é obrigatório; estes têm sinergia real com o Bandido.",
-   "items": [
+  ],
+  "essentials": [
     {
-     "icon": "purity",
-     "pt": "Pureza",
-     "en": "Purity",
-     "prio": 3,
-     "qty": "1 (núcleo da variante com Bandoleiro)",
-     "effect": "Reduz todas as recargas de habilidade em 2 s (+1 s por acúmulo). Todos os efeitos aleatórios são rolados +1 (+1 por acúmulo) vez contra você.",
-     "why": "Faca e especial vão de 4 s para 2 s, Bomba de Fumaça de 6 s para 4 s. O custo: chance de crítico de itens e efeitos de chance pioram. A Facada nas Costas não é aleatória, então continua garantida."
+      "pt": "Óculos do Fabricante de Lentes",
+      "en": "Lens-Maker's Glasses"
     },
     {
-     "icon": "gesture-of-the-drowned",
-     "pt": "Marca do Submerso",
-     "en": "Gesture of the Drowned",
-     "prio": 4,
-     "qty": "1 (só com Visor Ocular)",
-     "effect": "Reduz a recarga do equipamento em 50% (+15% por acúmulo). Força o equipamento a ativar sempre que estiver pronto.",
-     "why": "Com o Visor Ocular vira 8 s de crítico garantido a cada 30 s, sem apertar nada. Com outros equipamentos costuma atrapalhar."
+      "pt": "Pente Reserva",
+      "en": "Backup Magazine"
     },
     {
-     "icon": "shaped-glass",
-     "pt": "Vidro Configurado",
-     "en": "Shaped Glass",
-     "prio": 4,
-     "qty": "1 (só se estiver confortável)",
-     "effect": "+100% (+100% por acúmulo) de dano base. −50% (−50% por acúmulo) de vida máxima.",
-     "why": "Como a Hemorragia escala com o dano base, este é um dos poucos itens que dobra a Hemorragia. O Bandido já é frágil, então o risco é alto."
+      "pt": "Foice do Ceifador",
+      "en": "Harvester's Scythe"
     },
     {
-     "icon": "light-flux-pauldron",
-     "pt": "Ombreira do Fluxo Iluminado",
-     "en": "Light Flux Pauldron",
-     "prio": 4,
-     "qty": "1 (geralmente evitar)",
-     "effect": "−50% (−50% por acúmulo) no tempo de recarga das habilidades. −50% (−50% por acúmulo) de velocidade de ataque.",
-     "why": "Corta pela metade a recarga da Faca e do especial, mas deixa a recarga da Rajada e o tiro de Luzes Apagadas bem mais lentos. Só compensa com muita velocidade de ataque."
+      "pt": "Mira Laser",
+      "en": "Laser Scope"
+    },
+    {
+      "pt": "Brutamontes Reluzente",
+      "en": "Brilliant Behemoth"
+    },
+    {
+      "pt": "Célula Lisada",
+      "en": "Lysate Cell"
+    },
+    {
+      "pt": "Visor Ocular",
+      "en": "Ocular HUD"
     }
-   ]
-  },
-  {
-   "id": "vazio",
-   "name": "Vazio",
-   "color": "roxo",
-   "intro": "Itens do Vazio (DLC Survivors of the Void) corrompem itens comuns quando pegos. Confira o que vai perder antes de pegar.",
-   "items": [
+  ],
+  "situational_note": "Situacionais: Cartucheira, Espinho Nocivo, Lente Rúnica, Genialidade, Trevo 57, Faixa da Singularidade, Agulhão, Pureza e os demais lunares.",
+  "fallbacks": [
     {
-     "icon": "lysate-cell",
-     "pt": "Célula Lisada",
-     "en": "Lysate Cell",
-     "prio": 1,
-     "qty": "1 a 3",
-     "effect": "+1 (+1 por acúmulo) carga da habilidade Especial e −33% no tempo de recarga dela. Corrompe todas as Células de Combustível.",
-     "why": "Um abate com Luzes Apagadas devolve todas as cargas, então dá para encadear vários tiros. Atenção ao bug descrito na wiki: apertar o especial de novo antes do primeiro tiro sair desperdiça a carga extra. Espere o disparo."
+      "pt": "Óculos do Fabricante de Lentes",
+      "en": "Lens-Maker's Glasses",
+      "text": "Jogue mais posicionado com a Bomba de Fumaça e junte os 5% de Instintos Predatórios, Foice do Ceifador e Baço Desfigurado. Segure o Visor Ocular para chefes."
     },
     {
-     "icon": "singularity-band",
-     "pt": "Faixa da Singularidade",
-     "en": "Singularity Band",
-     "prio": 2,
-     "qty": "1",
-     "effect": "Golpes acima de 400% de dano disparam um buraco negro que puxa inimigos a até 15 m e colapsa após 5 s causando 100% (+100% por acúmulo) de dano TOTAL. Recarga de 20 s. Corrompe os Cinturões de Kjaro e Runald.",
-     "why": "Luzes Apagadas (600%) ativa sempre. O dano chega depois, então não rouba o abate do seu especial, e o grupo fica parado para a Rajada e o Brutamontes."
+      "pt": "Pente Reserva",
+      "en": "Backup Magazine",
+      "text": "Cabeça Alienígena ou Pureza para a Faca voltar mais rápido; Disparo Luminoso também reduz a recarga da Secundária em 20%."
     },
     {
-     "icon": "needletick",
-     "pt": "Agulhão",
-     "en": "Needletick",
-     "prio": 3,
-     "qty": "1 a 3",
-     "effect": "10% (+10% por acúmulo) de chance de colapsar um inimigo, causando 400% de dano base. Corrompe todas as Adagas Triangulares.",
-     "why": "O colapso é atrasado, então raramente rouba o abate de Luzes Apagadas. Prefira a uma Adaga Triangular."
+      "pt": "Foice do Ceifador",
+      "en": "Harvester's Scythe",
+      "text": "Semente Sanguessuga (Leeching Seed) cura a cada golpe e a Rajada acerta 5 vezes; Broche de Topázio (Topaz Brooch) dá barreira a cada abate. Tempos Difíceis para reduzir o dano recebido."
     },
     {
-     "icon": "lost-seers-lenses",
-     "pt": "Lentes do Profeta Perdido",
-     "en": "Lost Seer's Lenses",
-     "prio": 0,
-     "qty": "0 se você depende de Óculos",
-     "effect": "0,5% (+0,5% por acúmulo) de chance de matar instantaneamente um inimigo que não seja chefe. Corrompe todos os Óculos do Fabricante de Lentes.",
-     "why": "Pegar uma transforma todos os seus Óculos. A wiki lembra que o Bandido aguenta isso melhor que outros, porque as costas ainda dão crítico, mas você perde o crítico de frente. Só pegue com poucos Óculos e com Visor Ocular."
+      "pt": "Célula Lisada",
+      "en": "Lysate Cell",
+      "text": "Cabeça Alienígena, Cartucheira e Pureza mantêm o especial girando quando a cadeia de abates quebra."
+    },
+    {
+      "pt": "Mira Laser",
+      "en": "Laser Scope",
+      "text": "Empilhe Pé de Cabra, Expansão Crônica e Cristal de Foco: aumentam o mesmo golpe crítico que a Mira aumentaria."
+    },
+    {
+      "pt": "Brutamontes Reluzente",
+      "en": "Brilliant Behemoth",
+      "text": "Para grupos, Baço Desfigurado e Espinho Nocivo espalham dano; o Cubo Primordial junta os inimigos na frente da Rajada."
+    },
+    {
+      "pt": "Visor Ocular",
+      "en": "Ocular HUD",
+      "text": "Capacitor Régio para dano em um alvo; Tônico de Espinélia para lutas de chefe se aceitar o risco."
     }
-   ]
-  }
- ],
- "synergy": [
-  {
-   "title": "Crítico e Facada nas Costas",
-   "text": "Por trás, todo golpe é crítico sem depender de sorte. Os itens de chance de crítico (Óculos, Instintos, Foice, Baço, Visor Ocular) existem para cobrir os momentos em que você não consegue ficar atrás: chefes, inimigos voadores, grupos espalhados. Itens que reagem ao crítico (Foice, Instintos, Baço, Mira Laser) funcionam nas duas situações, e a Rajada ativa cada um deles até cinco vezes por disparo."
-  },
-  {
-   "title": "Hemorragia",
-   "text": "Só a Faca (ou Adaga) aplica Hemorragia, e só quando o golpe é crítico. Cada acúmulo causa 2000% do dano base em 15 s, e aplicar um novo acúmulo renova a duração de todos os anteriores, então reaplicando dentro de 15 s os acúmulos crescem sem limite. Por usar o dano base, ela não é multiplicada pela Mira Laser nem pelo dano de crítico. Cresce com o nível, com o Vidro Configurado e com o número de cargas da Faca (Pente Reserva)."
-  },
-  {
-   "title": "Recarga da arma",
-   "text": "A Rajada guarda 4 cartuchos e recarrega um por vez (1,2 s para os quatro, começando 0,25 s após o último tiro). A recarga é acelerada por velocidade de ataque e começa mais rápido com o pente vazio. Ela para enquanto você usa outra habilidade, mas continua durante a invisibilidade: esvazie o pente, solte a Bomba de Fumaça e reposicione enquanto recarrega."
-  },
-  {
-   "title": "Luzes Apagadas e o reinício",
-   "text": "Assassino aumenta o dano em 2% para cada 1% de vida que o alvo perdeu, até 3×. O tiro foi feito para terminar inimigos já machucados. Se ele matar, todas as habilidades voltam com todas as cargas, inclusive as extras de Pente Reserva, Pós-combustor e Célula Lisada. Abates por Hemorragia, Ukulele ou outros itens não contam; abates pela explosão do Brutamontes vindos do tiro contam."
-  },
-  {
-   "title": "Bandoleiro (Desperado)",
-   "text": "Cada abate do tiro dá uma ficha de +10% de dano para a própria habilidade, e explosões do Brutamontes podem dar várias de uma vez. As fichas se perdem ao trocar de fase, então o dano não carrega pela run. Sem reinício, a rotação depende de Cartucheira, Pureza, Cabeça Alienígena e Célula Lisada. Para jogar normalmente e chegar longe, Luzes Apagadas é mais consistente; o Bandoleiro rende mais em fases longas com muitos alvos para farmar fichas."
-  }
- ],
- "rotation": [
-  {
-   "step": "Bomba de Fumaça",
-   "text": "Some da vista. Os inimigos continuam mirando onde você estava."
-  },
-  {
-   "step": "Contorne e esvazie a Rajada",
-   "text": "Atire por trás: todo projétil é crítico e ativa Foice, Instintos e Baço."
-  },
-  {
-   "step": "Faca Serrilhada",
-   "text": "Gaste as cargas pelas costas para empilhar Hemorragia no alvo mais forte."
-  },
-  {
-   "step": "Luzes Apagadas no inimigo machucado",
-   "text": "Assassino triplica o dano em alvos quase mortos. Abate reinicia tudo."
-  },
-  {
-   "step": "Repita no próximo alvo",
-   "text": "Com tudo de volta, comece de novo. Contra chefes sem reinício, use o Visor Ocular e mantenha a Hemorragia ativa."
-  }
- ],
- "essentials": [
-  {
-   "pt": "Óculos do Fabricante de Lentes",
-   "en": "Lens-Maker's Glasses"
-  },
-  {
-   "pt": "Pente Reserva",
-   "en": "Backup Magazine"
-  },
-  {
-   "pt": "Foice do Ceifador",
-   "en": "Harvester's Scythe"
-  },
-  {
-   "pt": "Mira Laser",
-   "en": "Laser Scope"
-  },
-  {
-   "pt": "Brutamontes Reluzente",
-   "en": "Brilliant Behemoth"
-  },
-  {
-   "pt": "Célula Lisada",
-   "en": "Lysate Cell"
-  },
-  {
-   "pt": "Visor Ocular",
-   "en": "Ocular HUD"
-  }
- ],
- "situational_note": "Situacionais: Cartucheira, Espinho Nocivo, Lente Rúnica, Genialidade, Trevo 57, Faixa da Singularidade, Agulhão, Pureza e os demais lunares.",
- "fallbacks": [
-  {
-   "pt": "Óculos do Fabricante de Lentes",
-   "en": "Lens-Maker's Glasses",
-   "text": "Jogue mais posicionado com a Bomba de Fumaça e junte os 5% de Instintos Predatórios, Foice do Ceifador e Baço Desfigurado. Segure o Visor Ocular para chefes."
-  },
-  {
-   "pt": "Pente Reserva",
-   "en": "Backup Magazine",
-   "text": "Cabeça Alienígena ou Pureza para a Faca voltar mais rápido; Disparo Luminoso também reduz a recarga da Secundária em 20%."
-  },
-  {
-   "pt": "Foice do Ceifador",
-   "en": "Harvester's Scythe",
-   "text": "Semente Sanguessuga (Leeching Seed) cura a cada golpe e a Rajada acerta 5 vezes; Broche de Topázio (Topaz Brooch) dá barreira a cada abate. Tempos Difíceis para reduzir o dano recebido."
-  },
-  {
-   "pt": "Célula Lisada",
-   "en": "Lysate Cell",
-   "text": "Cabeça Alienígena, Cartucheira e Pureza mantêm o especial girando quando a cadeia de abates quebra."
-  },
-  {
-   "pt": "Mira Laser",
-   "en": "Laser Scope",
-   "text": "Empilhe Pé de Cabra, Expansão Crônica e Cristal de Foco: aumentam o mesmo golpe crítico que a Mira aumentaria."
-  },
-  {
-   "pt": "Brutamontes Reluzente",
-   "en": "Brilliant Behemoth",
-   "text": "Para grupos, Baço Desfigurado e Espinho Nocivo espalham dano; o Cubo Primordial junta os inimigos na frente da Rajada."
-  },
-  {
-   "pt": "Visor Ocular",
-   "en": "Ocular HUD",
-   "text": "Capacitor Régio para dano em um alvo; Tônico de Espinélia para lutas de chefe se aceitar o risco."
-  }
- ],
- "summary": "Rajada, Faca Serrilhada, Bomba de Fumaça e Luzes Apagadas. Use a fumaça para pegar as costas, transforme os críticos em vida (Foice) e dano (Mira Laser, Brutamontes), empilhe Hemorragia com muitas cargas de Faca (Pente Reserva) e termine cada alvo com Luzes Apagadas para reiniciar tudo. Óculos e Visor Ocular cobrem as lutas em que não dá para ficar atrás.",
- "checklist": [
-  {
-   "title": "Sempre pegue",
-   "text": "Pente Reserva, Óculos (até ~100% de crítico somado), Foice do Ceifador, Mira Laser, Brutamontes, Célula Lisada."
-  },
-  {
-   "title": "Impressoras brancas",
-   "text": "Transforme em Pente Reserva ou Seringa Militar. Óculos se o crítico total estiver abaixo de 60%."
-  },
-  {
-   "title": "Primeiro verde",
-   "text": "Foice do Ceifador. Depois Instintos Predatórios; Cartucheira se estiver de Bandoleiro."
-  },
-  {
-   "title": "Equipamento",
-   "text": "Visor Ocular. Troque por Capacitor Régio se não aparecer."
-  },
-  {
-   "title": "Antes de pegar Vazio",
-   "text": "Lentes do Profeta Perdido corrompe todos os Óculos. Célula Lisada corrompe Células de Combustível."
-  },
-  {
-   "title": "Não misture",
-   "text": "Trevo 57 com Pureza (se anulam). Ombreira do Fluxo Iluminado só com muita velocidade de ataque."
-  },
-  {
-   "title": "Luta de chefe",
-   "text": "Visor Ocular, Faca até esvaziar as cargas, Luzes Apagadas quando a vida estiver baixa."
-  }
- ],
- "sources": [
-  {
-   "title": "Bandit — Risk of Rain 2 Wiki",
-   "url": "https://riskofrain2.wiki.gg/wiki/Bandit"
-  },
-  {
-   "title": "Items — Risk of Rain 2 Wiki",
-   "url": "https://riskofrain2.wiki.gg/wiki/Items"
-  },
-  {
-   "title": "Luck — Risk of Rain 2 Wiki",
-   "url": "https://riskofrain2.wiki.gg/wiki/Luck"
-  },
-  {
-   "title": "Guia do Bandit — Rogue Ranker",
-   "url": "https://rogueranker.com/risk-of-rain-2-bandit/"
-  }
- ],
- "notes": []
+  ],
+  "summary": "Rajada, Faca Serrilhada, Bomba de Fumaça e Luzes Apagadas. Use a fumaça para pegar as costas, transforme os críticos em vida (Foice) e dano (Mira Laser, Brutamontes), empilhe Hemorragia com muitas cargas de Faca (Pente Reserva) e termine cada alvo com Luzes Apagadas para reiniciar tudo. Óculos e Visor Ocular cobrem as lutas em que não dá para ficar atrás.",
+  "checklist": [
+    {
+      "title": "Sempre pegue",
+      "text": "Pente Reserva, Óculos (até ~100% de crítico somado), Foice do Ceifador, Mira Laser, Brutamontes, Célula Lisada."
+    },
+    {
+      "title": "Impressoras brancas",
+      "text": "Transforme em Pente Reserva ou Seringa Militar. Óculos se o crítico total estiver abaixo de 60%."
+    },
+    {
+      "title": "Primeiro verde",
+      "text": "Foice do Ceifador. Depois Instintos Predatórios; Cartucheira se estiver de Bandoleiro."
+    },
+    {
+      "title": "Equipamento",
+      "text": "Visor Ocular. Troque por Capacitor Régio se não aparecer."
+    },
+    {
+      "title": "Antes de pegar Vazio",
+      "text": "Lentes do Profeta Perdido corrompe todos os Óculos. Célula Lisada corrompe Células de Combustível."
+    },
+    {
+      "title": "Não misture",
+      "text": "Trevo 57 com Pureza (se anulam). Ombreira do Fluxo Iluminado só com muita velocidade de ataque."
+    },
+    {
+      "title": "Luta de chefe",
+      "text": "Visor Ocular, Faca até esvaziar as cargas, Luzes Apagadas quando a vida estiver baixa."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Bandit — Risk of Rain 2 Wiki",
+      "url": "https://riskofrain2.wiki.gg/wiki/Bandit"
+    },
+    {
+      "title": "Items — Risk of Rain 2 Wiki",
+      "url": "https://riskofrain2.wiki.gg/wiki/Items"
+    },
+    {
+      "title": "Luck — Risk of Rain 2 Wiki",
+      "url": "https://riskofrain2.wiki.gg/wiki/Luck"
+    },
+    {
+      "title": "Guia do Bandit — Rogue Ranker",
+      "url": "https://rogueranker.com/risk-of-rain-2-bandit/"
+    }
+  ],
+  "notes": []
 }
