@@ -16,6 +16,8 @@ O que precisa ficar registrado sobre o projeto. Atualize junto com o código.
 - [0002 — Tema escuro único](decisions/0002-tema-escuro-unico.md)
 - [0003 — Dados estáticos em JSON, um arquivo por sobrevivente](decisions/0003-dados-estaticos.md)
 
+## Revisões
 
+- [13/10/2026 — revisão das 21 builds](revisoes/2026-10-13-revisao-das-builds.md)
 
 Modelo de ADR: copie [decisions/_modelo.md](decisions/_modelo.md).
