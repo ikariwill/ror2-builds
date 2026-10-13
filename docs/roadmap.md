@@ -3,7 +3,7 @@
 ## Agora
 - [ ] Refinar o layout (desktop e celular) com base no protótipo do canvas "Builds RoR2 — Redesign".
 - [ ] Evoluir o design system Logbook (ver `design-system.md › Em aberto`).
-- [ ] Primeiro deploy na Vercel.
+- [x] Primeiro deploy na Vercel (13/10/2026).
 
 ## Próximo
 - [ ] Incluir itens da DLC Hallowed Concepts quando os dados da wiki estiverem completos.
