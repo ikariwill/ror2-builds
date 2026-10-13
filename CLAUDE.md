@@ -30,7 +30,7 @@ src/
   useBuildState.ts        estado da página: sobrevivente (#/id na URL), filtros, item selecionado, lista da partida
   components/ui.tsx       primitivas do design system (Chip, Label, Heading, PrioTag, ItemIcon…)
   components/build-parts.tsx  blocos de conteúdo (detalhe do item, checklist, rotação, habilidades…)
-  views/Desktop.tsx       layout ≥ 761px: trilho de personagens | conteúdo | painel de detalhe
+  views/Desktop.tsx       layout ≥ 761px: trilho de personagens (≥ 1180px) | conteúdo | painel de detalhe fixo
   views/Mobile.tsx        layout ≤ 760px: abas Build/Itens/Partida + folha de detalhe
   styles.css              tokens do design system (@theme) — fonte de verdade das cores e tipos
 public/icons/<slug>.webp  ícones originais dos itens (ver docs/data.md › Ícones)

@@ -60,5 +60,14 @@ export function flatItems(build: Build): FlatItem[] {
   );
 }
 
+/** "Bandido: Build de Crítico" → { name: "Bandido", build: "Build de Crítico" }. */
+export function splitTitle(title: string): { name: string; build: string } {
+  const i = title.indexOf(':');
+  return i < 0 ? { name: title, build: '' } : { name: title.slice(0, i).trim(), build: title.slice(i + 1).trim() };
+}
+
+/** Nome do grupo (DLC) de um sobrevivente. */
+export const groupOf = (id: string): string => GROUPS.find((g) => g.ids.includes(id))?.label ?? '';
+
 /** "3 a 6 (mais não faz mal)" → "3 a 6" para caber no selo do ícone. */
 export const shortQty = (q: string): string => q.split(' (')[0].replace(' ou mais', '+');

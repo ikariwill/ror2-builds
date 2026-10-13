@@ -1,6 +1,6 @@
 # Design system — Logbook
 
-> Status: **v0.1, em refinamento.** Os tokens abaixo já estão em `src/styles.css`. O layout ainda vai mudar;
+> Status: **v0.2, em refinamento.** Os tokens abaixo já estão em `src/styles.css`. O layout ainda vai mudar;
 > as regras de "o que não fazer" valem desde já.
 
 ## 1. Direção
@@ -123,17 +123,26 @@ Primitivas em `src/components/ui.tsx`:
 | `QtyBadge` | selo dourado de quantidade sobre o ícone |
 | `SearchField` | busca com rótulo acessível |
 
+Em `build-parts.tsx` também: `SurvivorSelect` (seletor nativo agrupado por DLC, usado no celular e no desktop estreito).
+
 Blocos em `src/components/build-parts.tsx`: `TierTabs`, `PrioChips`, `ItemDetail`, `Checklist`, `Rotation`,
 `Notes`, `Skills`, `Synergy`, `Fallbacks`, `Summary`, `Sources`, `SiteFooter`.
 
 ## 6. Layout
 
-- **Desktop (> 760px):** três colunas que quebram em linha: trilho de personagens (220–260px) · conteúdo
-  (flexível, mín. 560px) · painel de detalhe e modo partida (340–400px).
+- **Desktop largo (≥ 1180px):** grade de três colunas, largura máxima 1680px.
+  - Trilho de personagens (232px), fixo na tela com rolagem própria; a marca fica no topo dele.
+  - Conteúdo: cabeçalho da build (nome do sobrevivente em `h-xl`, nome da build abaixo, loadout em cards),
+    depois uma **barra de seções fixa** (Núcleo · Itens · Habilidades · Sinergia · Substitutos + busca).
+  - Painel lateral (360px), fixo na tela com rolagem própria: detalhe do item, modo partida e rotação.
+    O detalhe fica sempre visível enquanto se rola a grade de itens.
+- **Desktop estreito (761–1179px):** some o trilho; o seletor de personagem (`SurvivorSelect`) vai para o topo do
+  conteúdo. Duas colunas: conteúdo + painel (340px).
 - **Celular (≤ 760px):** cabeçalho fixo com seletor de personagem; abas embaixo (Build, Itens, Partida);
   detalhe do item numa folha que sobe de baixo. Respeita `safe-area-inset`.
+- **Núcleo da build:** uma linha quando o contêiner tem ≥ 680px; senão duas linhas equilibradas
+  (`ceil(n/2)` colunas, via container query). Nunca sobra um item sozinho numa linha.
 - Espaçamento entre irmãos com `gap`, nunca margens soltas.
-
 ## 7. Acessibilidade
 
 - Contraste: texto ≥ 4.5:1 sobre o fundo em que está (os pares de token acima já passam).
@@ -151,7 +160,9 @@ Blocos em `src/components/build-parts.tsx`: `TierTabs`, `PrioChips`, `ItemDetail
 
 ## 9. Em aberto (para o refinamento)
 
-- Ritmo vertical e densidade do desktop (o painel lateral está alto demais em telas de 900px).
+- ~~Painel lateral alto demais em telas de 900px~~ → painel fixo com rolagem própria (v0.2).
+- ~~Núcleo de 7 itens quebrando em 6 + 1~~ → uma linha ou duas equilibradas (v0.2).
+- ~~Escala de títulos no celular~~ → nome do sobrevivente e nome da build separados (v0.2).
 - Retrato ou silhueta dos sobreviventes no trilho? Só se for arte oficial com licença clara.
 - Estado "item marcado como pego" ligado ao modo partida.
-- Escala de títulos no celular.
+- Testar a busca da barra de seções com teclado (atalho `/`?).

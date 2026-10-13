@@ -1,10 +1,10 @@
 import { useEffect, useState, type ReactNode } from 'react';
-import { BUILDS, GROUPS, TIER, shortQty } from '../data/roster.ts';
+import { TIER, groupOf, shortQty, splitTitle } from '../data/roster.ts';
 import type { BuildState } from '../useBuildState.ts';
 import type { FlatItem } from '../types.ts';
 import { Heading, Label, PrioTag, QtyBadge, SearchField, cx, icon } from '../components/ui.tsx';
 import {
-  Checklist, Fallbacks, ItemDetail, Notes, Rotation, SiteFooter, Skills, Sources, Summary, Synergy, TierTabs,
+  Checklist, Fallbacks, ItemDetail, Notes, Rotation, SiteFooter, Skills, Sources, Summary, Synergy, SurvivorSelect, TierTabs,
 } from '../components/build-parts.tsx';
 
 type Tab = 'build' | 'itens' | 'partida';
@@ -53,38 +53,16 @@ export function Mobile(s: BuildState) {
           <span className="heading text-xl tracking-[0.04em]">Logbook de builds</span>
           <span className="font-mono text-label text-ink-3">RoR2</span>
         </div>
-        <label htmlFor="m-sv" className="sr-only">
-          Sobrevivente
-        </label>
-        <div className="relative">
-          <select
-            id="m-sv"
-            value={sid}
-            onChange={(e) => s.go(e.target.value)}
-            className="h-11 w-full appearance-none rounded-card border border-line bg-panel pr-10 pl-3.5 text-body font-semibold text-ink"
-          >
-            {GROUPS.map((g) => (
-              <optgroup key={g.label} label={g.label}>
-                {g.ids.map((id) => (
-                  <option key={id} value={id}>
-                    {BUILDS[id].name_pt}
-                    {BUILDS[id].name_pt !== BUILDS[id].name_en ? ` (${BUILDS[id].name_en})` : ''}
-                  </option>
-                ))}
-              </optgroup>
-            ))}
-          </select>
-          <svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" className="pointer-events-none absolute top-3.5 right-3.5 text-ink-3">
-            <path d="M6 9l6 6 6-6" />
-          </svg>
-        </div>
+        <SurvivorSelect id="m-sv" sid={sid} go={s.go} />
       </header>
 
       <main className="px-4 pt-4.5 pb-6">
         {tab === 'build' && (
           <div className="flex flex-col gap-4.5">
             <div className="flex flex-col gap-2">
-              <Heading as="h1" className="text-[34px] leading-[0.95]">{build.title}</Heading>
+              <Label className="text-accent">{build.name_en} · {groupOf(sid)}</Label>
+              <Heading as="h1" className="text-[40px] leading-[0.95]">{splitTitle(build.title).name}</Heading>
+              <p className="heading m-0 text-lg font-semibold tracking-normal text-ink-2 normal-case">{splitTitle(build.title).build}</p>
               <p className="m-0 text-sm text-ink-2">{build.lede}</p>
             </div>
             <div className="grid grid-cols-2 gap-2">

@@ -96,7 +96,7 @@ export function SearchField({ id, value, onChange }: { id: string; value: string
       <input
         id={id}
         type="search"
-        placeholder="Buscar item (português ou inglês)"
+        placeholder="Buscar item (PT ou EN)"
         value={value}
         onChange={(e) => onChange(e.target.value)}
         className="h-11 w-full rounded-card border border-line bg-sunken pr-3.5 pl-10 text-body text-ink placeholder:text-ink-4 focus:border-transparent"
