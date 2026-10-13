@@ -1,7 +1,38 @@
 // Blocos de conteúdo de uma build, usados pelas visões de desktop e celular.
-import { PRIO_LABEL, PRIOS, TIER, TIERS, type PrioFilter } from '../data/roster.ts';
+import { BUILDS, GROUPS, PRIO_LABEL, PRIOS, TIER, TIERS, type PrioFilter } from '../data/roster.ts';
 import type { Build, FlatItem, TierId } from '../types.ts';
 import { Chip, Heading, Label, cx, icon } from './ui.tsx';
+
+/** Seletor nativo de sobrevivente, agrupado por DLC. Usado no celular e no desktop estreito (sem trilho). */
+export function SurvivorSelect({ id, sid, go, className }: { id: string; sid: string; go: (id: string) => void; className?: string }) {
+  return (
+    <div className={cx('relative', className)}>
+      <label htmlFor={id} className="sr-only">
+        Sobrevivente
+      </label>
+      <select
+        id={id}
+        value={sid}
+        onChange={(e) => go(e.target.value)}
+        className="h-11 w-full cursor-pointer appearance-none rounded-card border border-line bg-panel pr-10 pl-3.5 text-body font-semibold text-ink"
+      >
+        {GROUPS.map((g) => (
+          <optgroup key={g.label} label={g.label}>
+            {g.ids.map((sv) => (
+              <option key={sv} value={sv}>
+                {BUILDS[sv].name_pt}
+                {BUILDS[sv].name_pt !== BUILDS[sv].name_en ? ` (${BUILDS[sv].name_en})` : ''}
+              </option>
+            ))}
+          </optgroup>
+        ))}
+      </select>
+      <svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" className="pointer-events-none absolute top-3.5 right-3.5 text-ink-3">
+        <path d="M6 9l6 6 6-6" />
+      </svg>
+    </div>
+  );
+}
 
 export function TierTabs({ all, tier, setTier }: { all: FlatItem[]; tier: TierId | 'all'; setTier: (t: TierId | 'all') => void }) {
   return (
@@ -88,8 +119,8 @@ export function Checklist({ build, done, toggle, resetChecks, idPrefix }: Checkl
   return (
     <section aria-labelledby={`${idPrefix}-run`} className="flex flex-col gap-3.5 rounded-panel border border-line-soft bg-sunken p-5">
       <div className="flex items-center justify-between gap-3">
-        <Heading id={`${idPrefix}-run`} size="md">Modo partida</Heading>
-        <span className="font-mono text-meta text-ink-3">{n}/{items.length} feito</span>
+        <Heading id={`${idPrefix}-run`} size="md" className="whitespace-nowrap">Modo partida</Heading>
+        <span className="flex-none font-mono text-meta text-ink-3">{n}/{items.length} feito</span>
       </div>
       <div className="h-1.5 overflow-hidden rounded-full bg-line-soft" aria-hidden="true">
         <div className="h-full bg-accent transition-[width]" style={{ width: `${items.length ? (n / items.length) * 100 : 0}%` }} />
