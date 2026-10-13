@@ -205,16 +205,16 @@
           "prio": 1,
           "qty": "2 a 4",
           "effect": "25% de chance de disparar um raio em cadeia que causa 80% de dano TOTAL em até 3 (+2 por acúmulo) alvos a até 20 m (+2 m por acúmulo).",
-          "why": "A wiki cita o Ukulele como forte com a Garra Carregada. O raio usa o dano TOTAL do golpe, então um soco de 2700% vira um raio enorme."
+          "why": "A wiki cita o Ukulele como forte com a Garra Carregada. O raio usa o dano TOTAL do golpe, então um soco de 2700% vira um raio enorme. Cada cópia soma 2 alvos e 2 m de alcance, mas o dano por alvo não sobe. Dois bastam antes de acumular Kjaro e Míssil."
         },
         {
           "icon": "kjaros-band",
           "pt": "Cinturão de Kjaro",
           "en": "Kjaro's Band",
           "prio": 1,
-          "qty": "1 a 3",
+          "qty": "4 ou mais (empilhe)",
           "effect": "Golpes que causam mais de 400% de dano também atingem os inimigos com um tornado de chamas rúnicas, causando 300% (+300% por acúmulo) de dano TOTAL ao longo do tempo. Recarrega a cada 10 segundos.",
-          "why": "Também citado pela wiki. A Garra Carregada sempre passa de 400%, e o tornado escala com o dano TOTAL do soco. O Braço Articulado (320%) não ativa."
+          "why": "Também citado pela wiki. A Garra Carregada sempre passa de 400%, e o tornado escala com o dano TOTAL do soco. O Braço Articulado (320%) não ativa. Cada cópia soma 300% do dano do soco ao tornado, e a recarga continua 10 s. Com a Autoridade, é o verde para acumular."
         },
         {
           "icon": "bandolier",
@@ -238,10 +238,10 @@
           "icon": "atg-missile-mk-1",
           "pt": "Míssil ASM Mk. 1",
           "en": "AtG Missile Mk. 1",
-          "prio": 3,
-          "qty": "1 a 3",
+          "prio": 2,
+          "qty": "3 a 6",
           "effect": "10% de chance de disparar um míssil que causa 300% (+300% por acúmulo) de dano TOTAL.",
-          "why": "Um míssil saindo do soco carregado causa três vezes o dano dele. Também alcança voadores."
+          "why": "Um míssil saindo do soco carregado causa três vezes o dano dele. Também alcança voadores. A chance fica em 10%, mas cada cópia soma 300% ao míssil. Com socos de 2700%, cada cópia pesa muito."
         },
         {
           "icon": "hopoo-feather",
@@ -605,7 +605,7 @@
       "text": "Capacitor Régio para voadores, ou Tônico de Espinélia para chefes."
     }
   ],
-  "summary": "Barreira de Sucata, Braço Articulado, Agarradeira, Garra Carregada e Pilão M551. Ganhe velocidade no gancho, solte o soco carregado através do grupo e mantenha a barreira com o Braço Articulado. Empilhe Seringa e Cristal de Foco nos brancos, Ukulele e Kjaro nos verdes, e procure o Pós-combustor e a Cabeça Alienígena para socar mais vezes.",
+  "summary": "Barreira de Sucata, Braço Articulado, Agarradeira, Garra Carregada e Pilão M551. Ganhe velocidade no gancho, solte o soco carregado através do grupo e mantenha a barreira com o Braço Articulado. Empilhe Seringa e Cristal de Foco nos brancos, Kjaro e Míssil ASM acumulados nos verdes, com dois Ukuleles, e procure o Pós-combustor e a Cabeça Alienígena para socar mais vezes.",
   "checklist": [
     {
       "title": "Sempre pegue",
@@ -617,7 +617,7 @@
     },
     {
       "title": "Primeiro verde",
-      "text": "Ukulele ou Cinturão de Kjaro. Depois Cartucheira."
+      "text": "Ukulele e Cinturão de Kjaro. Depois acumule Kjaro e Míssil ASM."
     },
     {
       "title": "Equipamento",
@@ -730,12 +730,7 @@
           {
             "en": "Kjaro's Band",
             "n": 1,
-            "why": "A Garra Carregada sempre passa de 400% e liga o tornado."
-          },
-          {
-            "en": "Ukulele",
-            "n": 1,
-            "why": "Dois Ukuleles: o raio pula para mais alvos."
+            "why": "A Garra Carregada sempre passa de 400% e liga o tornado de 300%."
           },
           {
             "en": "Bandolier",
@@ -743,37 +738,32 @@
             "why": "O soco perfurante mata vários de uma vez, e cada pacote devolve soco e gancho."
           },
           {
-            "en": "AtG Missile Mk. 1",
-            "n": 1,
-            "why": "Um míssil saído do soco causa três vezes o dano dele."
-          },
-          {
             "en": "Kjaro's Band",
-            "n": 1,
-            "why": "O segundo Cinturão dobra o dano do tornado."
-          },
-          {
-            "en": "Runald's Band",
-            "n": 1,
-            "why": "Mesmo gatilho. A lentidão segura o alvo para o próximo soco."
+            "n": 2,
+            "why": "Três Kjaros: 900% do dano do soco por tornado."
           },
           {
             "en": "Ukulele",
             "n": 1,
-            "why": "Terceiro Ukulele: mais alvos e mais alcance."
-          },
-          {
-            "en": "Hopoo Feather",
-            "n": 1,
-            "why": "Mais controle no ar entre um gancho e outro."
+            "why": "Dois Ukuleles: o raio pula para até 5 alvos a 22 m."
           },
           {
             "en": "AtG Missile Mk. 1",
-            "n": 1,
-            "why": "O segundo Míssil dobra o dano de cada míssil."
+            "n": 2,
+            "why": "Dois Mísseis: 600% do dano do golpe por míssil."
+          },
+          {
+            "en": "Kjaro's Band",
+            "n": 2,
+            "why": "Cinco Kjaros: 1500% do dano do soco por tornado."
+          },
+          {
+            "en": "AtG Missile Mk. 1",
+            "n": 2,
+            "why": "Quatro Mísseis: 1200% do dano do golpe por míssil."
           }
         ],
-        "then": "Depois: Ukulele até 4, Kjaro até 3 e Cartucheira até 2."
+        "then": "Depois: continue acumulando Cinturão de Kjaro, e Míssil até 6. Cinturão de Runald para segurar o alvo, Ukulele até 4 para mais alvos e Pluma de Hopoo para controle no ar."
       },
       {
         "tier": "lendario",

@@ -169,9 +169,9 @@
           "pt": "Foice do Ceifador",
           "en": "Harvester's Scythe",
           "prio": 1,
-          "qty": "1 a 3",
+          "qty": "1 a 2",
           "effect": "+5% de chance de crítico. Críticos curam 8 (+4 por acúmulo) de vida.",
-          "why": "O tiro Traçante garante pelo menos um crítico por pente, então a cura sempre acontece. Com Óculos, cura com mais frequência."
+          "why": "O tiro Traçante garante pelo menos um crítico por pente, então a cura sempre acontece. Com Óculos, cura com mais frequência. A partir da segunda cópia, a Foice só soma 4 de cura por crítico; o crítico de 5% vem só da primeira."
         },
         {
           "icon": "predatory-instincts",
@@ -187,18 +187,18 @@
           "pt": "Míssil ASM Mk. 1",
           "en": "AtG Missile Mk. 1",
           "prio": 2,
-          "qty": "1 a 3",
+          "qty": "4 ou mais (empilhe)",
           "effect": "10% de chance de disparar um míssil que causa 300% (+300% por acúmulo) de dano TOTAL.",
-          "why": "Dano TOTAL escala com a bala de 350%. Os 6 bagos da postura defensiva dão mais chances, com coeficiente 0,7."
+          "why": "Dano TOTAL escala com a bala de 350%. Os 6 bagos da postura defensiva dão mais chances, com coeficiente 0,7. Vale acumular: cada cópia soma 300% ao míssil sem mudar a chance, então com 4 cada míssil causa 1200% do dano do tiro. Camarão de Plasma (Vazio) corrompe todos."
         },
         {
           "icon": "ukulele",
           "pt": "Ukulele",
           "en": "Ukulele",
           "prio": 2,
-          "qty": "1 a 2",
+          "qty": "2 a 4",
           "effect": "25% de chance de disparar um raio em cadeia de 80% de dano TOTAL em até 3 (+2 por acúmulo) alvos a 20 m (+2 m por acúmulo).",
-          "why": "A bala única não acerta grupos. O raio espalha parte desse dano para os inimigos próximos."
+          "why": "A bala única não acerta grupos. O raio espalha parte desse dano para os inimigos próximos. Cada cópia soma 2 alvos e 2 m de alcance; o dano por alvo continua em 80%. Polialaúde (Vazio) corrompe todos."
         },
         {
           "icon": "leeching-seed",
@@ -232,9 +232,9 @@
           "pt": "Cinturão de Kjaro",
           "en": "Kjaro's Band",
           "prio": 4,
-          "qty": "1 (com Shrapnel Grenade)",
+          "qty": "1 a 3 (com Shrapnel Grenade)",
           "effect": "Golpes que causam mais de 400% de dano também lançam um tornado de chamas rúnicas, causando 300% (+300% por acúmulo) de dano TOTAL ao longo do tempo. Recarrega a cada 10 s.",
-          "why": "A granada da Shrapnel Grenade causa 500% e passa do limite de 400%. Na metade externa do raio ela causa 75% do dano (375%) e não passa. A bala de 350% da Trenchbroom também não passa."
+          "why": "A granada da Shrapnel Grenade causa 500% e passa do limite de 400%. Na metade externa do raio ela causa 75% do dano (375%) e não passa. A bala de 350% da Trenchbroom também não passa. Na variante, cada cópia soma 300% ao tornado."
         }
       ]
     },
@@ -580,7 +580,7 @@
       "text": "Visor Ocular com Mira Laser, ou Capacitor Régio para elites."
     }
   ],
-  "summary": "Big Man, Trenchbroom, Steel Protection, Shield Tackle e Rally Point. Esvazie o pente com o pente cheio para o crítico garantido, entre na postura defensiva quando o dano apertar e saia dela aparando um golpe para refletir dano e recarregar. Empilhe velocidade de ataque (Seringa) para atirar e recarregar mais rápido, cure com a Foice a cada crítico e encurte as recargas com Cabeça Alienígena e Célula Lisada.",
+  "summary": "Big Man, Trenchbroom, Steel Protection, Shield Tackle e Rally Point. Esvazie o pente com o pente cheio para o crítico garantido, entre na postura defensiva quando o dano apertar e saia dela aparando um golpe para refletir dano e recarregar. Empilhe velocidade de ataque (Seringa) para atirar e recarregar mais rápido, cure com a Foice a cada crítico, acumule Míssil ASM nos verdes e encurte as recargas com Cabeça Alienígena e Célula Lisada.",
   "checklist": [
     {
       "title": "Sempre pegue",
@@ -592,7 +592,7 @@
     },
     {
       "title": "Primeiro verde",
-      "text": "Foice do Ceifador. Depois Instintos Predatórios ou Míssil ASM."
+      "text": "Foice do Ceifador e Instintos Predatórios. Depois acumule Míssil ASM, com alguns Ukuleles."
     },
     {
       "title": "Equipamento",
@@ -717,46 +717,41 @@
           },
           {
             "en": "AtG Missile Mk. 1",
-            "n": 1,
-            "why": "Dano TOTAL escala com a bala de 350%."
+            "n": 2,
+            "why": "Dois Mísseis: 600% do tiro de 350% por míssil."
           },
           {
             "en": "Ukulele",
             "n": 1,
-            "why": "Espalha parte do dano da bala para o grupo."
-          },
-          {
-            "en": "Harvester's Scythe",
-            "n": 1,
-            "why": "Segunda Foice: mais cura por crítico."
+            "why": "A bala única não acerta grupos. O raio leva 80% do tiro a até 3 alvos."
           },
           {
             "en": "AtG Missile Mk. 1",
-            "n": 1,
-            "why": "Segundo Míssil."
-          },
-          {
-            "en": "Predatory Instincts",
-            "n": 1,
-            "why": "Sobe o limite de velocidade de ataque."
-          },
-          {
-            "en": "Lepton Daisy",
-            "n": 1,
-            "why": "Ativa no farol do Rally Point e cura os aliados em 50% da vida máxima."
+            "n": 2,
+            "why": "Quatro Mísseis: 1200% do tiro por míssil."
           },
           {
             "en": "Ukulele",
             "n": 1,
-            "why": "Mais alvos e mais alcance no raio."
+            "why": "Segundo Ukulele: 5 alvos a 22 m."
           },
           {
             "en": "Harvester's Scythe",
             "n": 1,
-            "why": "Terceira Foice."
+            "why": "Segunda Foice: 12 de cura por crítico, o suficiente para a build."
+          },
+          {
+            "en": "AtG Missile Mk. 1",
+            "n": 2,
+            "why": "Seis Mísseis: 1800% do tiro por míssil."
+          },
+          {
+            "en": "Ukulele",
+            "n": 1,
+            "why": "Terceiro Ukulele: 7 alvos a 24 m."
           }
         ],
-        "then": "Depois: Shuriken ou Semente Sanguessuga. Na variante Shrapnel Grenade, troque um Míssil pelo Cinturão de Kjaro."
+        "then": "Depois: continue acumulando Míssil ASM e leve o Ukulele até 4. Margarida de Lépton só se jogar em grupo. Na variante Shrapnel Grenade, troque os dois últimos Mísseis por Cinturões de Kjaro."
       },
       {
         "tier": "lendario",

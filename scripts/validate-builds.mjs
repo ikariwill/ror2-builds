@@ -12,6 +12,15 @@ const TIERS = ['comum', 'incomum', 'lendario', 'chefe', 'equipamento', 'lunar', 
 const ITEM = ['icon', 'pt', 'en', 'prio', 'qty', 'effect', 'why'];
 const SKILL = ['slot', 'pt', 'en', 'pick', 'spec', 'why'];
 
+/** Máximo de uma quantidade como "3 a 6", "1", "2 a 4 (…)". Sem máximo ("ou mais", "+", "sem limite"): null. */
+function qtyMax(q) {
+  if (!q) return null;
+  const head = String(q).split(' (')[0];
+  if (/ou mais|\+|sem limite|não tem limite/i.test(q)) return null;
+  const nums = head.match(/\d+/g);
+  return nums ? Math.max(...nums.map(Number)) : null;
+}
+
 let failed = 0;
 for (const file of readdirSync(DIR).filter((f) => f.endsWith('.json')).sort()) {
   const errs = [];
@@ -48,6 +57,7 @@ for (const file of readdirSync(DIR).filter((f) => f.endsWith('.json')).sort()) {
 
   // Ordem de compra (Artefato da Autoridade): opcional, mas se existir precisa bater com os cards.
   if (d.command) {
+    const qtyOf = Object.fromEntries((d.sections ?? []).flatMap((s) => s.items.map((i) => [i.en, i.qty])));
     const byTier = Object.fromEntries((d.sections ?? []).map((s) => [s.id, new Set(s.items.map((i) => i.en))]));
     if (typeof d.command.intro !== 'string') errs.push('command: falta "intro"');
     const seen = new Set();
@@ -57,10 +67,17 @@ for (const file of readdirSync(DIR).filter((f) => f.endsWith('.json')).sort()) {
       seen.add(t.tier);
       if (!t.steps?.length) errs.push(`command.${t.tier}: sem passos`);
       if (typeof t.then !== 'string') errs.push(`command.${t.tier}: falta "then"`);
+      const total = {};
       for (const st of t.steps ?? []) {
         if (!byTier[t.tier]?.has(st.en)) errs.push(`command.${t.tier}: "${st.en}" não está nos cards dessa raridade`);
         if (!Number.isInteger(st.n) || st.n < 1) errs.push(`command.${t.tier}: "${st.en}" com n inválido (${st.n})`);
         if (!st.why) errs.push(`command.${t.tier}: "${st.en}" sem "why"`);
+        total[st.en] = (total[st.en] ?? 0) + (st.n ?? 0);
+      }
+      // A soma de cópias na ordem não pode passar do máximo da quantidade do card.
+      for (const [en, n] of Object.entries(total)) {
+        const max = qtyMax(qtyOf[en]);
+        if (max !== null && n > max) errs.push(`command.${t.tier}: ${n}× "${en}" passa do máximo do card ("${qtyOf[en]}")`);
       }
     }
   }

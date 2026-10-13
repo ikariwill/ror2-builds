@@ -199,9 +199,9 @@
           "pt": "Broquel da Rosa",
           "en": "Rose Buckler",
           "prio": 2,
-          "qty": "1 a 3",
+          "qty": "3 a 5",
           "effect": "+30 (+30 por acúmulo) de armadura enquanto corre.",
-          "why": "A wiki recomenda este item para a Caçadora: ela ataca, joga a alabarda e teleporta sem parar de correr, então a armadura fica ativa quase sempre."
+          "why": "A wiki recomenda este item para a Caçadora: ela ataca, joga a alabarda e teleporta sem parar de correr, então a armadura fica ativa quase sempre. Vale acumular: cada cópia soma 30 de armadura enquanto ela corre. Com 3, são 90."
         },
         {
           "icon": "ukulele",
@@ -216,10 +216,10 @@
           "icon": "atg-missile-mk-1",
           "pt": "Míssil ASM Mk. 1",
           "en": "AtG Missile Mk. 1",
-          "prio": 2,
-          "qty": "1 a 3",
+          "prio": 1,
+          "qty": "4 ou mais (empilhe)",
           "effect": "10% de chance de disparar um míssil que causa 300% (+300% por acúmulo) de dano TOTAL.",
-          "why": "Funciona bem de longe, que é onde ela luta. Seis flechas por crítico são seis rolagens."
+          "why": "Funciona bem de longe, que é onde ela luta. Seis flechas por crítico são seis rolagens. Vale acumular: cada cópia soma 300% ao dano de cada míssil, e a chance de 10% fica igual."
         },
         {
           "icon": "runalds-band",
@@ -604,7 +604,7 @@
     },
     {
       "title": "Primeiro verde",
-      "text": "Instintos Predatórios ou Foice do Ceifador. Broquel da Rosa se estiver morrendo muito."
+      "text": "Instintos Predatórios ou Foice do Ceifador. Depois acumule Míssil ASM e Broquel da Rosa."
     },
     {
       "title": "Equipamento",
@@ -638,7 +638,7 @@
     "O Ciclone de Laser (Laser Cyclone) aparece na wiki ligado à atualização Hallowed Concepts e não tem nome no arquivo de tradução pt-BR usado aqui."
   ],
   "command": {
-    "intro": "Com a Autoridade, o crítico vem primeiro: Óculos nos brancos e Foice e Instintos nos verdes, porque no Turbilhão cada crítico dobra as flechas. Ela tem só 90 de vida, então Tempos Difíceis e a Foice entram cedo.",
+    "intro": "Com a Autoridade, o crítico vem primeiro: Óculos nos brancos e Foice e Instintos nos verdes, porque no Turbilhão cada crítico dobra as flechas. Depois, os verdes vão para Míssil ASM e Broquel da Rosa, que crescem a cada cópia.",
     "tiers": [
       {
         "tier": "comum",
@@ -722,50 +722,40 @@
           {
             "en": "Predatory Instincts",
             "n": 1,
-            "why": "Cada flecha pode ser crítica, então o bônus fica no máximo quase sempre."
+            "why": "Cada flecha pode ser crítica, então o bônus fica no máximo quase sempre. Uma basta."
+          },
+          {
+            "en": "AtG Missile Mk. 1",
+            "n": 2,
+            "why": "Dois Mísseis: 600% por disparo, e seis flechas por crítico são seis rolagens."
           },
           {
             "en": "Rose Buckler",
             "n": 1,
-            "why": "Armadura ativa enquanto ela corre, que é quase o tempo todo."
+            "why": "30 de armadura enquanto ela corre, que é quase o tempo todo."
           },
           {
             "en": "AtG Missile Mk. 1",
-            "n": 1,
-            "why": "Funciona de longe, e seis flechas por crítico são seis rolagens."
+            "n": 2,
+            "why": "Quatro Mísseis: 1200% por disparo."
+          },
+          {
+            "en": "Rose Buckler",
+            "n": 2,
+            "why": "Três Broquéis: 90 de armadura em corrida para uma personagem de 90 de vida."
+          },
+          {
+            "en": "AtG Missile Mk. 1",
+            "n": 2,
+            "why": "Seis Mísseis: 1800% por disparo."
           },
           {
             "en": "Ukulele",
             "n": 1,
             "why": "Dano em grupo sem perder o foco no alvo."
-          },
-          {
-            "en": "Harvester's Scythe",
-            "n": 1,
-            "why": "A segunda Foice aumenta a cura por crítico."
-          },
-          {
-            "en": "Predatory Instincts",
-            "n": 1,
-            "why": "Sobe o limite de velocidade de ataque do bônus."
-          },
-          {
-            "en": "Rose Buckler",
-            "n": 1,
-            "why": "Mais armadura em corrida para uma personagem frágil."
-          },
-          {
-            "en": "AtG Missile Mk. 1",
-            "n": 1,
-            "why": "Mais dano por míssil."
-          },
-          {
-            "en": "Kjaro's Band",
-            "n": 1,
-            "why": "Os raios de 900% da Balista ativam o Cinturão contra chefes."
           }
         ],
-        "then": "Depois: Broquel e Míssil até 3, Ukulele até 2, Cinturão de Runald e Kit Furtivo da Guerra Antiga para fugas."
+        "then": "Depois: continue acumulando Míssil ASM, que soma 300% por cópia. Quarto e quinto Broquel se estiver morrendo muito. Kit Furtivo da Guerra Antiga para fugas; Cinturão de Kjaro só para reforçar a Balista contra chefes."
       },
       {
         "tier": "lendario",

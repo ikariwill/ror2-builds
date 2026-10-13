@@ -179,9 +179,9 @@
           "pt": "Cinturão de Kjaro",
           "en": "Kjaro's Band",
           "prio": 2,
-          "qty": "1 a 2",
+          "qty": "2 a 4",
           "effect": "Golpes acima de 400% de dano também lançam um tornado de fogo rúnico que causa 300% (+300% por acúmulo) de dano TOTAL ao longo do tempo. Recarrega a cada 10 s.",
-          "why": "A Inundação (600% ou 1.100%) e a bomba corrompida (1.100%) passam de 400%. Os acertos de 250% do Afogar corrompido não ativam."
+          "why": "A Inundação (600% ou 1.100%) e a bomba corrompida (1.100%) passam de 400%. Os acertos de 250% do Afogar corrompido não ativam. Vale acumular: cada cópia soma +300% ao tornado, e a recarga de 10 s não muda."
         },
         {
           "icon": "ukulele",
@@ -214,10 +214,10 @@
           "icon": "atg-missile-mk-1",
           "pt": "Míssil ASM Mk. 1",
           "en": "AtG Missile Mk. 1",
-          "prio": 3,
-          "qty": "1 a 2",
+          "prio": 2,
+          "qty": "4 ou mais (empilhe)",
           "effect": "10% de chance de disparar um míssil que causa 300% (+300% por acúmulo) de dano TOTAL.",
-          "why": "Muitos acertos por segundo no raio corrompido. Camarão de Plasma corrompe este item."
+          "why": "Muitos acertos por segundo no raio corrompido. Acumule: cada cópia soma +300% ao dano de cada míssil, e a chance de 10% continua a mesma. Camarão de Plasma corrompe este item."
         },
         {
           "icon": "leeching-seed",
@@ -425,10 +425,10 @@
           "icon": "plasma-shrimp",
           "pt": "Camarão de Plasma",
           "en": "Plasma Shrimp",
-          "prio": 3,
+          "prio": 4,
           "qty": "1",
           "effect": "Ganha escudo de 10% da vida máxima. Com escudo, cada acerto dispara um míssil de 40% (+40% por acúmulo) de dano TOTAL. Corrompe todos os Mísseis ASM Mk. 1.",
-          "why": "Com cerca de 8 acertos por segundo, é muito míssil enquanto o escudo existe. Corrompe os Mísseis ASM que você tiver."
+          "why": "Com cerca de 8 acertos por segundo, é muito míssil enquanto o escudo existe. Mas corrompe todos os Mísseis ASM, o verde que esta build acumula: só pegue se não tiver Mísseis."
         },
         {
           "icon": "lost-seers-lenses",
@@ -566,7 +566,7 @@
     },
     {
       "title": "Primeiro verde",
-      "text": "Instintos Predatórios. Depois Ukulele ou Cinturão de Kjaro."
+      "text": "Instintos Predatórios. Depois acumule Míssil ASM Mk. 1 e alguns Cinturões de Kjaro."
     },
     {
       "title": "Equipamento",
@@ -574,7 +574,7 @@
     },
     {
       "title": "Antes de pegar Vazio",
-      "text": "Lentes do Profeta Perdido corrompem os Óculos; Polialaúde corrompe os Ukuleles; Espaços Seguros, os Tempos Difíceis."
+      "text": "Lentes do Profeta Perdido corrompem os Óculos; Camarão de Plasma corrompe os Mísseis; Polialaúde corrompe os Ukuleles; Espaços Seguros, os Tempos Difíceis."
     },
     {
       "title": "Não pegue",
@@ -688,45 +688,45 @@
           {
             "en": "Harvester's Scythe",
             "n": 1,
-            "why": "A wiki diz que ajuda a encher a Corrupção nas primeiras fases."
+            "why": "A wiki diz que ajuda a encher a Corrupção nas primeiras fases. Uma basta: o crítico de 5% vem só da primeira."
+          },
+          {
+            "en": "AtG Missile Mk. 1",
+            "n": 2,
+            "why": "Dois Mísseis: 600% por míssil, e o raio corrompido acerta cerca de 8 vezes por segundo."
           },
           {
             "en": "Kjaro's Band",
             "n": 1,
-            "why": "A Inundação e a bomba corrompida passam de 400%."
+            "why": "A Inundação e a bomba corrompida passam de 400% e lançam o tornado."
           },
           {
-            "en": "Ukulele",
+            "en": "AtG Missile Mk. 1",
+            "n": 2,
+            "why": "Quatro Mísseis: 1.200% por míssil."
+          },
+          {
+            "en": "Kjaro's Band",
             "n": 1,
-            "why": "O raio corrompido acerta cerca de 8 vezes por segundo e perfura."
+            "why": "Segundo Kjaro: tornado de 600%."
           },
           {
             "en": "Predatory Instincts",
             "n": 1,
-            "why": "Segundo Instintos, o máximo da build."
-          },
-          {
-            "en": "Runald's Band",
-            "n": 1,
-            "why": "A lentidão segura os inimigos dentro dos 40 m do raio."
+            "why": "Segundo Instintos: o limite de velocidade de ataque sobe de 36% para 60%."
           },
           {
             "en": "AtG Missile Mk. 1",
-            "n": 1,
-            "why": "Muitos acertos por segundo, muitas chances."
-          },
-          {
-            "en": "Ukulele",
-            "n": 1,
-            "why": "Segundo Ukulele."
+            "n": 2,
+            "why": "Seis Mísseis: 1.800% por míssil."
           },
           {
             "en": "Kjaro's Band",
             "n": 1,
-            "why": "Segundo Kjaro."
+            "why": "Terceiro Kjaro: tornado de 900%."
           }
         ],
-        "then": "Depois: segundo Míssil. Nunca escolha Semente Sanguessuga: a cura em cada acerto tira Corrupção."
+        "then": "Depois: continue acumulando Míssil. Ukulele e Cinturão de Runald ficam fora: o dano do Ukulele por alvo não sobe com cópias, e o Runald soma menos por cópia que o Kjaro (250% contra 300%). Nunca escolha Semente Sanguessuga: a cura em cada acerto tira Corrupção."
       },
       {
         "tier": "lendario",
@@ -826,7 +826,7 @@
             "why": "Segunda Célula."
           }
         ],
-        "then": "Nunca escolha Lentes do Profeta Perdido (berço branco): corrompe todos os Óculos. Polialaúde (berço verde) corrompe os Ukuleles e Camarão de Plasma (berço verde) corrompe os Mísseis: só contra chefes."
+        "then": "Nunca escolha Lentes do Profeta Perdido (berço branco): corrompe todos os Óculos. Nem Camarão de Plasma (berço verde): corrompe os Mísseis que você está acumulando. Polialaúde (berço verde) corrompe só os Ukuleles, que a ordem verde não usa."
       }
     ]
   }

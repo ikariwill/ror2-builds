@@ -209,9 +209,9 @@
           "pt": "Ukulele",
           "en": "Ukulele",
           "prio": 1,
-          "qty": "2 a 4",
+          "qty": "3 a 5",
           "effect": "25% de chance de disparar um raio em cadeia que causa 80% de dano TOTAL em até 3 (+2 por acúmulo) alvos a até 20 m (+2 m por acúmulo).",
-          "why": "Cada um dos oito projéteis pode ativar, e o raio pula para outros inimigos. Dá à Escopeta um dano em grupo que ela não tem."
+          "why": "Cada um dos oito projéteis pode ativar, e o raio pula para outros inimigos. Dá à Escopeta um dano em grupo que ela não tem. Cada cópia soma +2 alvos e +2 m de alcance ao raio. O dano por alvo não sobe."
         },
         {
           "icon": "bandolier",
@@ -236,9 +236,9 @@
           "pt": "Míssil ASM Mk. 1",
           "en": "AtG Missile Mk. 1",
           "prio": 2,
-          "qty": "1 a 3",
+          "qty": "4 a 6",
           "effect": "10% de chance de disparar um míssil que causa 300% (+300% por acúmulo) de dano TOTAL.",
-          "why": "Oito chances por disparo."
+          "why": "Oito chances por disparo. É o verde para acumular: cada cópia soma +300% ao dano de cada míssil."
         },
         {
           "icon": "harvesters-scythe",
@@ -588,7 +588,7 @@
     {
       "pt": "Ukulele",
       "en": "Ukulele",
-      "text": "Míssil ASM Mk. 1 e Gancho de Carnes Senciente para dano em grupo."
+      "text": "Mais Mísseis ASM Mk. 1 e Gancho de Carnes Senciente para dano em grupo."
     },
     {
       "pt": "Cartucheira",
@@ -611,7 +611,7 @@
       "text": "Visor Ocular com o Baço Desfigurado, ou Capacitor Régio."
     }
   ],
-  "summary": "Microrrobôs Defensivos, Escopeta Vulcan, Arma de Eletrochoque, Sonda Orbital e os faróis Cura e Hack. Choque o alvo, peça as Sondas e atire com a Escopeta, que ativa itens oito vezes por disparo. Empilhe Adaga Triangular e Seringa nos brancos, Ukulele e Cartucheira nos verdes, e procure o Pós-combustor para ter até 9 Sondas. Lute o teleporte dentro do Farol: Cura.",
+  "summary": "Microrrobôs Defensivos, Escopeta Vulcan, Arma de Eletrochoque, Sonda Orbital e os faróis Cura e Hack. Choque o alvo, peça as Sondas e atire com a Escopeta, que ativa itens oito vezes por disparo. Empilhe Adaga Triangular e Seringa nos brancos, Ukulele e Míssil ASM nos verdes, com uma Cartucheira, e procure o Pós-combustor para ter até 9 Sondas. Lute o teleporte dentro do Farol: Cura.",
   "checklist": [
     {
       "title": "Sempre pegue",
@@ -623,7 +623,7 @@
     },
     {
       "title": "Primeiro verde",
-      "text": "Ukulele. Depois Cartucheira."
+      "text": "Ukulele e uma Cartucheira. Depois empilhe Míssil ASM e mais Ukuleles."
     },
     {
       "title": "Faróis",
@@ -666,7 +666,7 @@
     "Sondas, DIABLO e faróis não funcionam nos Reinos Ocultos (Hidden Realms)."
   ],
   "command": {
-    "intro": "Com a Autoridade, comece pelas Adagas e Seringas, que rendem nos oito projéteis da Escopeta, e pegue defesa cedo, porque o Capitão tem pouca vida e nenhuma fuga. Os verdes e vermelhos depois giram em torno das Sondas.",
+    "intro": "Com a Autoridade, comece pelas Adagas e Seringas, que rendem nos oito projéteis da Escopeta, e pegue defesa cedo, porque o Capitão tem pouca vida e nenhuma fuga. Nos verdes, acumule Mísseis ASM e Ukuleles, que ganham a cada cópia. Os vermelhos giram em torno das Sondas.",
     "tiers": [
       {
         "tier": "comum",
@@ -758,9 +758,14 @@
             "why": "Pacote pego mirando devolve uma carga de Sonda e reinicia a Arma de Eletrochoque."
           },
           {
+            "en": "AtG Missile Mk. 1",
+            "n": 2,
+            "why": "Dois Mísseis: oito chances por disparo, 600% por míssil."
+          },
+          {
             "en": "Ukulele",
             "n": 1,
-            "why": "Dois Ukuleles: o mínimo da build."
+            "why": "Segundo Ukulele: o raio pula para 5 alvos."
           },
           {
             "en": "Kjaro's Band",
@@ -768,42 +773,27 @@
             "why": "Cada Sonda de 1000% passa do limite de 400% e ativa o tornado."
           },
           {
+            "en": "AtG Missile Mk. 1",
+            "n": 2,
+            "why": "Quatro Mísseis: 1200% por míssil."
+          },
+          {
             "en": "Old War Stealthkit",
             "n": 1,
             "why": "Fuga para voltar ao Farol: Cura."
           },
           {
-            "en": "Harvester's Scythe",
-            "n": 1,
-            "why": "Com os Óculos já pegos, cada disparo crítico cura."
-          },
-          {
-            "en": "AtG Missile Mk. 1",
-            "n": 1,
-            "why": "Oito chances por disparo."
-          },
-          {
-            "en": "Bandolier",
-            "n": 1,
-            "why": "Mais cargas de Sonda devolvidas."
-          },
-          {
             "en": "Ukulele",
             "n": 1,
-            "why": "Terceiro Ukulele: mais raios no grupo."
-          },
-          {
-            "en": "Hopoo Feather",
-            "n": 1,
-            "why": "Pulo extra para desviar e subir no mapa."
+            "why": "Terceiro Ukulele: 7 alvos e 24 m de alcance."
           },
           {
             "en": "AtG Missile Mk. 1",
-            "n": 1,
-            "why": "Segundo Míssil."
+            "n": 2,
+            "why": "Seis Mísseis: 1800% por míssil."
           }
         ],
-        "then": "Depois: Ukulele até 4, Cartucheira até 3 e Míssil até 3. Com o DIABLO, a Cartucheira sobe para o primeiro passo, por causa da recarga de 40 s."
+        "then": "Depois: Ukulele até 5. A Cartucheira cresce pouco por cópia: a segunda só com o DIABLO, que sobe para o primeiro passo por causa da recarga de 40 s."
       },
       {
         "tier": "lendario",

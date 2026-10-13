@@ -174,18 +174,18 @@
           "pt": "Míssil ASM Mk. 1",
           "en": "AtG Missile Mk. 1",
           "prio": 1,
-          "qty": "1 a 3",
+          "qty": "4 ou mais (empilhe)",
           "effect": "10% de chance de disparar um míssil que causa 300% (+300% por acúmulo) de dano TOTAL.",
-          "why": "Com cerca de três tiros por segundo, cada torreta lança mísseis o tempo todo. Também alcança voadores longe."
+          "why": "Com cerca de três tiros por segundo, cada torreta lança mísseis o tempo todo. Também alcança voadores longe. Acumule: cada cópia soma +300% ao dano de cada míssil em cada torreta, e as torretas copiam todas as cópias."
         },
         {
           "icon": "ukulele",
           "pt": "Ukulele",
           "en": "Ukulele",
           "prio": 1,
-          "qty": "1 a 3",
+          "qty": "2 a 4",
           "effect": "25% de chance de disparar um raio em cadeia de 80% de dano TOTAL em até 3 (+2 por acúmulo) alvos a 20 m (+2 m por acúmulo).",
-          "why": "A TR12 atira em um alvo por vez. O Ukulele espalha esse dano pelo grupo ao redor."
+          "why": "A TR12 atira em um alvo por vez. O Ukulele espalha esse dano pelo grupo ao redor. Cada cópia soma 2 alvos e 2 m de alcance. O dano por alvo não sobe, então ele vem atrás do Míssil."
         },
         {
           "icon": "leeching-seed",
@@ -612,7 +612,7 @@
       "text": "Capacitor Régio para elites ou Criatura da Floresta Deformada para curar torretas."
     }
   ],
-  "summary": "Granadas Saltitantes, Minas de Pressão, Redoma Protetora e Torreta TR12. Posicione as torretas lado a lado, cubra com a Redoma e deixe que elas atirem enquanto você joga granadas e minas. Empilhe Fungo Vibrante e Seringa Militar, depois Míssil ASM e Ukulele, porque cada torreta copia tudo isso. Lembre de reposicionar as torretas depois de pegar itens novos.",
+  "summary": "Granadas Saltitantes, Minas de Pressão, Redoma Protetora e Torreta TR12. Posicione as torretas lado a lado, cubra com a Redoma e deixe que elas atirem enquanto você joga granadas e minas. Empilhe Fungo Vibrante e Seringa Militar, depois acumule Míssil ASM e some Ukulele, porque cada torreta copia tudo isso. Lembre de reposicionar as torretas depois de pegar itens novos.",
   "checklist": [
     {
       "title": "Sempre pegue",
@@ -624,7 +624,7 @@
     },
     {
       "title": "Primeiro verde",
-      "text": "Míssil ASM ou Ukulele. Depois Semente Sanguessuga."
+      "text": "Míssil ASM, e continue acumulando. Depois Semente Sanguessuga e Ukulele."
     },
     {
       "title": "Reposicione",
@@ -744,7 +744,17 @@
           {
             "en": "AtG Missile Mk. 1",
             "n": 1,
-            "why": "Cada torreta lança mísseis o tempo todo e alcança voadores longe."
+            "why": "Cada torreta lança mísseis de 300% o tempo todo e alcança voadores longe."
+          },
+          {
+            "en": "Leeching Seed",
+            "n": 1,
+            "why": "Tiro rápido vira cura constante em cada torreta, somada ao Fungo. Uma basta para começar."
+          },
+          {
+            "en": "AtG Missile Mk. 1",
+            "n": 2,
+            "why": "Três Mísseis: 900% por míssil em cada torreta."
           },
           {
             "en": "Ukulele",
@@ -752,47 +762,32 @@
             "why": "Espalha pelo grupo o dano do tiro de alvo único da TR12."
           },
           {
-            "en": "Leeching Seed",
-            "n": 1,
-            "why": "Tiro rápido vira cura constante em cada torreta, somada ao Fungo."
-          },
-          {
             "en": "AtG Missile Mk. 1",
-            "n": 1,
-            "why": "Segundo Míssil: mais dano a cada tiro de cada torreta."
-          },
-          {
-            "en": "Ukulele",
-            "n": 1,
-            "why": "Segundo Ukulele: raio maior e mais alvos."
+            "n": 2,
+            "why": "Cinco Mísseis: 1500% por míssil."
           },
           {
             "en": "Harvester's Scythe",
             "n": 1,
-            "why": "Com os Óculos dos brancos, cada crítico de torreta cura."
+            "why": "Com os Óculos dos brancos, cada crítico de torreta cura. Uma basta: o crítico de 5% vem só da primeira."
           },
           {
-            "en": "Leeching Seed",
-            "n": 1,
-            "why": "Mais cura por tiro para as torretas aguentarem o teleporte."
+            "en": "Ukulele",
+            "n": 2,
+            "why": "Três Ukuleles: até 7 alvos e 24 m de alcance. O dano por alvo não muda."
           },
           {
             "en": "AtG Missile Mk. 1",
             "n": 1,
-            "why": "Terceiro Míssil, limite da build."
+            "why": "Sexto Míssil: 1800% por míssil em cada torreta."
           },
           {
-            "en": "Predatory Instincts",
+            "en": "Leeching Seed",
             "n": 1,
-            "why": "Mais tiros por segundo quando as torretas já têm crítico."
-          },
-          {
-            "en": "Ukulele",
-            "n": 1,
-            "why": "Terceiro Ukulele, limite da build."
+            "why": "Segunda Semente: 2 de vida por tiro em cada torreta."
           }
         ],
-        "then": "Depois: Semente até 3 e Foice até 2. A Margarida de Lépton não passa para as torretas. Marca Fatal só se os tiros já aplicam sangramento, lentidão e redução de armadura."
+        "then": "Depois: continue acumulando Mísseis e leve o Ukulele até 4. A Margarida de Lépton não passa para as torretas. Marca Fatal só se os tiros já aplicam sangramento, lentidão e redução de armadura."
       },
       {
         "tier": "lendario",
@@ -829,17 +824,12 @@
         "tier": "chefe",
         "steps": [
           {
-            "en": "Irradiant Pearl",
-            "n": 1,
-            "why": "Vida, dano, velocidade de ataque e regeneração para você e cada torreta."
-          },
-          {
             "en": "Molten Perforator",
             "n": 1,
             "why": "Mais um efeito ao acertar para o tiro rápido das torretas."
           }
         ],
-        "then": "Depois, mais Pérolas. Glândula da Rainha, Núcleos Empáticos e Semente Intocada não passam para as torretas."
+        "then": "Itens de chefe vêm do chefe do teleporte. A Pérola Irradiante não entra: com a Autoridade ela não sai. Glândula da Rainha, Núcleos Empáticos e Semente Intocada não passam para as torretas."
       },
       {
         "tier": "equipamento",

@@ -202,18 +202,18 @@
           "pt": "Cinturão de Kjaro",
           "en": "Kjaro's Band",
           "prio": 1,
-          "qty": "1 a 3",
+          "qty": "4 ou mais (empilhe)",
           "effect": "Golpes que causam mais de 400% de dano também atingem os inimigos com um tornado de chamas rúnicas, causando 300% (+300% por acúmulo) de dano TOTAL ao longo do tempo. Recarrega a cada 10 segundos.",
-          "why": "A Barragem (450%) e a Rajada (550%) passam do limite de 400%. Com recarga de 0,5 s, a Barragem ativa o Cinturão assim que ele volta."
+          "why": "A Barragem (450%) e a Rajada (550%) passam do limite de 400%. Com recarga de 0,5 s, a Barragem ativa o Cinturão assim que ele volta. Cada cópia soma 300% ao tornado e a recarga continua 10 s. Com a Autoridade, é o verde para acumular."
         },
         {
           "icon": "runalds-band",
           "pt": "Cinturão de Runald",
           "en": "Runald's Band",
           "prio": 2,
-          "qty": "1 a 2",
+          "qty": "2 a 4",
           "effect": "Golpes que causam mais de 400% de dano também atingem os inimigos com uma explosão rúnica de gelo, deixando-os 80% mais lentos por 3 s (+3 s por acúmulo) e causando 250% (+250% por acúmulo) de dano TOTAL. Recarrega a cada 10 segundos.",
-          "why": "Mesmo gatilho do Kjaro: a Barragem ativa sempre que ele estiver pronto. A lentidão mantém o alvo longe, que é onde o REX quer ele."
+          "why": "Mesmo gatilho do Kjaro: a Barragem ativa sempre que ele estiver pronto. A lentidão mantém o alvo longe, que é onde o REX quer ele. Cada cópia soma 250% de dano e 3 s de lentidão."
         },
         {
           "icon": "will-o-the-wisp",
@@ -631,7 +631,7 @@
       "text": "Elefante de Jade para disparar quase sem custo, ou Capacitor Régio para elites."
     }
   ],
-  "summary": "Toxina Natural, Injetar, Barragem de Sementes, Rajada de Espinhos e Aprimoramento Emaranhado. Prenda o grupo com a flor, bombardeie com a Barragem e recupere a vida com a Rajada e a Injetar. Empilhe Seringa e Placa de Repulsão nos brancos, Cinturão de Kjaro nos verdes e dobre a cura com o Suporte do Rejuvenescimento. Evite itens que trocam vida por escudo.",
+  "summary": "Toxina Natural, Injetar, Barragem de Sementes, Rajada de Espinhos e Aprimoramento Emaranhado. Prenda o grupo com a flor, bombardeie com a Barragem e recupere a vida com a Rajada e a Injetar. Empilhe Seringa e Placa de Repulsão nos brancos, Cinturões de Kjaro e de Runald acumulados nos verdes e dobre a cura com o Suporte do Rejuvenescimento. Evite itens que trocam vida por escudo.",
   "checklist": [
     {
       "title": "Sempre pegue",
@@ -643,7 +643,7 @@
     },
     {
       "title": "Primeiro verde",
-      "text": "Cinturão de Kjaro. Depois Cinturão de Runald ou Will-o'-the-wisp."
+      "text": "Cinturão de Kjaro, e continue acumulando. Cinturão de Runald é o segundo verde para empilhar."
     },
     {
       "title": "Equipamento",
@@ -755,12 +755,17 @@
           {
             "en": "Kjaro's Band",
             "n": 1,
-            "why": "A Barragem passa de 400% e ativa o tornado sempre que ele volta."
+            "why": "A Barragem passa de 400% e ativa o tornado de 300% sempre que ele volta."
           },
           {
             "en": "Runald's Band",
             "n": 1,
-            "why": "Mesmo gatilho. A lentidão mantém o alvo longe, onde o REX quer ele."
+            "why": "Mesmo gatilho: 250% de dano e lentidão que mantém o alvo longe."
+          },
+          {
+            "en": "Kjaro's Band",
+            "n": 2,
+            "why": "Três Kjaros: 900% por tornado."
           },
           {
             "en": "Will-o'-the-wisp",
@@ -768,14 +773,14 @@
             "why": "Um abate no grupo preso pelo Emaranhado atinge todos com o pilar."
           },
           {
-            "en": "Infusion",
+            "en": "Runald's Band",
             "n": 1,
-            "why": "Vida máxima que cresce sozinha, para as curas percentuais."
+            "why": "Dois Runalds: 500% por explosão e 6 s de lentidão."
           },
           {
             "en": "Kjaro's Band",
-            "n": 1,
-            "why": "O segundo Cinturão dobra o dano do tornado."
+            "n": 2,
+            "why": "Cinco Kjaros: 1500% por tornado."
           },
           {
             "en": "Death Mark",
@@ -783,27 +788,22 @@
             "why": "Enfraquecer, Emaranhado e a queima da Gasolina levam o grupo preso a 4 debuffs."
           },
           {
-            "en": "Razorwire",
+            "en": "Infusion",
             "n": 1,
-            "why": "O custo de cada Barragem ativa a explosão de lâminas em volta do REX."
+            "why": "Vida máxima que cresce sozinha, para as curas percentuais."
           },
           {
-            "en": "Ukulele",
+            "en": "Runald's Band",
             "n": 1,
-            "why": "A Barragem sai a cada 0,5 s e o raio pula entre os inimigos presos."
+            "why": "Três Runalds: 750% por explosão e 9 s de lentidão."
           },
           {
-            "en": "Harvester's Scythe",
+            "en": "Kjaro's Band",
             "n": 1,
-            "why": "Com quatro Óculos, cada seringa crítica cura a mais."
-          },
-          {
-            "en": "Will-o'-the-wisp",
-            "n": 1,
-            "why": "Pilar maior e mais forte nos grupos presos."
+            "why": "Seis Kjaros: 1800% por tornado."
           }
         ],
-        "then": "Depois: Kjaro até 3, Infusão até 2 e Will-o'-the-wisp até 3. Kit Furtivo ou Transmissor Instável só se estiver morrendo com a vida baixa."
+        "then": "Depois: continue acumulando Cinturão de Kjaro. Will-o'-the-wisp até 3 se os grupos presos morrem juntos. Ukulele, Arame Farpado e Foice são extras. Kit Furtivo ou Transmissor Instável só se estiver morrendo com a vida baixa."
       },
       {
         "tier": "lendario",

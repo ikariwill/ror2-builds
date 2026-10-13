@@ -178,16 +178,16 @@
           "pt": "Ukulele",
           "en": "Ukulele",
           "prio": 2,
-          "qty": "1 a 2",
+          "qty": "4 ou mais (empilhe)",
           "effect": "25% de chance de disparar um raio em cadeia de 80% de dano TOTAL em até 3 (+2 por acúmulo) alvos a 20 m (+2 m por acúmulo).",
-          "why": "Muitos acertos por golpe rápido significam muitas chances de raio no grupo."
+          "why": "Muitos acertos por golpe rápido significam muitas chances de raio no grupo. Vale acumular: cada cópia soma 2 alvos e 2 m de alcance, e no meio do grupo cada raio pega mais inimigos. O dano por alvo continua em 80%. Polialaúde (Vazio) corrompe todos."
         },
         {
           "icon": "atg-missile-mk-1",
           "pt": "Míssil ASM Mk. 1",
           "en": "AtG Missile Mk. 1",
           "prio": 2,
-          "qty": "1 a 3",
+          "qty": "1 a 2",
           "effect": "10% de chance de disparar um míssil que causa 300% (+300% por acúmulo) de dano TOTAL.",
           "why": "Ativa com os vários acertos do golpe rápido e alcança voadores. A Blade Slice inteira tem coeficiente 0,7; as outras habilidades, 1,0."
         },
@@ -196,9 +196,9 @@
           "pt": "Cinturão de Kjaro",
           "en": "Kjaro's Band",
           "prio": 2,
-          "qty": "1",
+          "qty": "2 a 4",
           "effect": "Golpes que causam mais de 400% de dano também lançam um tornado de chamas rúnicas, causando 300% (+300% por acúmulo) de dano TOTAL ao longo do tempo. Recarrega a cada 10 s.",
-          "why": "O Sacrifice causa 1000% e tem 10 s de recarga, quase o mesmo tempo do Cinturão. Cada Sacrifice ativa o tornado."
+          "why": "O Sacrifice causa 1000% e tem 10 s de recarga, quase o mesmo tempo do Cinturão. Cada Sacrifice ativa o tornado. Cada cópia soma 300% ao tornado: com 3, cada Sacrifice lança um tornado de 900% do golpe de 1000%. Faixa da Singularidade (Vazio) corrompe todos."
         },
         {
           "icon": "leeching-seed",
@@ -533,7 +533,7 @@
       "en": "Gorag's Opus"
     }
   ],
-  "situational_note": "Situacionais: Cinturão de Kjaro, Shuriken, Justiça Destruidora, Mira Laser, Kit Furtivo, Espaços Seguros, Semente Sanguessuga (só alimenta a vida recuperável), Pureza.",
+  "situational_note": "Situacionais: Shuriken, Justiça Destruidora, Mira Laser, Kit Furtivo, Espaços Seguros, Semente Sanguessuga (só alimenta a vida recuperável), Pureza.",
   "fallbacks": [
     {
       "pt": "Seringa Militar",
@@ -583,7 +583,7 @@
     },
     {
       "title": "Primeiro verde",
-      "text": "Instintos Predatórios. Depois Ukulele ou Cinturão de Kjaro."
+      "text": "Instintos Predatórios. Depois acumule Ukulele e Cinturão de Kjaro."
     },
     {
       "title": "Equipamento",
@@ -708,13 +708,8 @@
           },
           {
             "en": "Ukulele",
-            "n": 1,
-            "why": "Muitos acertos por golpe rápido são muitas chances de raio no grupo."
-          },
-          {
-            "en": "AtG Missile Mk. 1",
-            "n": 1,
-            "why": "Ativa com os acertos do golpe rápido e alcança os voadores."
+            "n": 2,
+            "why": "Dois Ukuleles: muitos acertos por golpe rápido são muitas chances de raio em até 5 alvos."
           },
           {
             "en": "Old War Stealthkit",
@@ -722,32 +717,37 @@
             "why": "Sem cura direta, a invisibilidade dá tempo para os orbes devolverem vida."
           },
           {
-            "en": "Predatory Instincts",
+            "en": "Kjaro's Band",
             "n": 1,
-            "why": "O segundo sobe o limite de velocidade de ataque dos acúmulos."
+            "why": "Segundo Cinturão: tornado de 600% do Sacrifice."
           },
           {
             "en": "Ukulele",
+            "n": 2,
+            "why": "Quatro Ukuleles: o raio pega até 9 alvos a 26 m."
+          },
+          {
+            "en": "Predatory Instincts",
             "n": 1,
-            "why": "Segundo Ukulele, o máximo da build."
+            "why": "O segundo sobe o limite de velocidade de ataque de 36% para 60%."
           },
           {
             "en": "AtG Missile Mk. 1",
             "n": 1,
-            "why": "Mais mísseis contra voadores e elites."
+            "why": "Um Míssil para alcançar voadores e elites."
           },
           {
-            "en": "Leeching Seed",
+            "en": "Ukulele",
             "n": 1,
-            "why": "A cura vira vida recuperável, que mantém a velocidade de ataque da passiva."
+            "why": "Quinto Ukulele: até 11 alvos a 28 m."
           },
           {
-            "en": "Shuriken",
+            "en": "Kjaro's Band",
             "n": 1,
-            "why": "Sai sozinha com a Blade Slice e dá dano à distância."
+            "why": "Terceiro Cinturão: tornado de 900% do Sacrifice."
           }
         ],
-        "then": "Depois: Míssil até 3 e Semente ou Shuriken até 2. Foice do Ceifador só se já tiver Óculos; a cura dela também vira vida recuperável."
+        "then": "Depois: continue acumulando Ukulele e leve o Cinturão até 4. Semente ou Shuriken só depois disso. Foice do Ceifador só se já tiver Óculos; a cura dela também vira vida recuperável."
       },
       {
         "tier": "lendario",

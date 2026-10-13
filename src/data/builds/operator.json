@@ -169,18 +169,18 @@
           "pt": "Ukulele",
           "en": "Ukulele",
           "prio": 2,
-          "qty": "1 a 2",
+          "qty": "2 a 4",
           "effect": "25% de chance de disparar um raio em cadeia de 80% de dano TOTAL em até 3 (+2 por acúmulo) alvos a 20 m (+2 m por acúmulo).",
-          "why": "Os ataques comandados ativam seus itens. Rajadas como 6 mísseis ou 6 tiros dão muitas chances de raio, e o kit do Operador é quase todo de alvo único."
+          "why": "Os ataques comandados ativam seus itens. Rajadas como 6 mísseis ou 6 tiros dão muitas chances de raio, e o kit do Operador é quase todo de alvo único. Cada cópia soma 2 alvos e 2 m ao raio. O dano por alvo fica em 80%."
         },
         {
           "icon": "atg-missile-mk-1",
           "pt": "Míssil ASM Mk. 1",
           "en": "AtG Missile Mk. 1",
           "prio": 2,
-          "qty": "1 a 3",
+          "qty": "4 ou mais (empilhe)",
           "effect": "10% de chance de disparar um míssil que causa 300% (+300% por acúmulo) de dano TOTAL.",
-          "why": "Mesmo motivo do Ukulele: muitos acertos comandados e os acertos extras do Nanodefeituoso."
+          "why": "Mesmo motivo do Ukulele: muitos acertos comandados e os acertos extras do Nanodefeituoso. Empilhe: cada cópia soma 300% ao dano de cada míssil. A chance fica em 10%, e as rajadas comandadas dão as tentativas."
         },
         {
           "icon": "kjaros-band",
@@ -560,7 +560,7 @@
     },
     {
       "title": "Primeiro verde",
-      "text": "Caixa de Dinamites. Depois Ukulele ou Míssil ASM."
+      "text": "Caixa de Dinamites. Depois Míssil ASM, e continue empilhando."
     },
     {
       "title": "Equipamento",
@@ -677,7 +677,7 @@
           {
             "en": "Box of Dynamite",
             "n": 1,
-            "why": "Mais um drone é mais uma carga do ADMIN-SOBRESCREVER, e o Lt. Droneboy tem um comando próprio de dinamites."
+            "why": "Liga a build: mais um drone é mais uma carga do ADMIN-SOBRESCREVER, e o Lt. Droneboy tem um comando próprio de dinamites."
           },
           {
             "en": "Ukulele",
@@ -686,38 +686,38 @@
           },
           {
             "en": "AtG Missile Mk. 1",
-            "n": 1,
-            "why": "Mais um efeito ao acertar para as rajadas e os acertos extras do Nanodefeituoso."
+            "n": 2,
+            "why": "Dois Mísseis: 600% por disparo nas rajadas e nos acertos extras do Nanodefeituoso."
           },
           {
             "en": "Kjaro's Band",
             "n": 1,
-            "why": "O tiro carregado de 600% passa do limite de 400%."
-          },
-          {
-            "en": "Box of Dynamite",
-            "n": 1,
-            "why": "A segunda Caixa aumenta o dano das dinamites."
+            "why": "O tiro carregado de 600% passa do limite de 400%. Uma cópia basta, porque recarrega a cada 10 s."
           },
           {
             "en": "AtG Missile Mk. 1",
             "n": 1,
-            "why": "Segundo Míssil: dano por míssil dobra."
+            "why": "Terceiro Míssil: 900% por disparo."
           },
           {
             "en": "Ukulele",
             "n": 1,
-            "why": "Mais alvos e mais alcance no raio."
+            "why": "Segundo Ukulele: o raio salta para 5 alvos a 22 m."
+          },
+          {
+            "en": "AtG Missile Mk. 1",
+            "n": 2,
+            "why": "Cinco Mísseis: 1.500% por disparo."
           },
           {
             "en": "Harvester's Scythe",
             "n": 1,
-            "why": "Com quatro Óculos, cura à distância a cada crítico."
+            "why": "Com quatro Óculos, cura à distância a cada crítico. Uma basta: as próximas só somam +4 de cura."
           },
           {
-            "en": "AtG Missile Mk. 1",
+            "en": "Ukulele",
             "n": 1,
-            "why": "Terceiro Míssil."
+            "why": "Terceiro Ukulele: 7 alvos a 24 m."
           },
           {
             "en": "Death Mark",
@@ -725,7 +725,7 @@
             "why": "Nanodefeituoso, Queimadura e Gelo dos drones ajudam a chegar aos 4 debuffs."
           }
         ],
-        "then": "Depois: Nadadeira da Interrupção se quiser manter os inimigos no ar para o Nanodefeituoso."
+        "then": "Depois: continue empilhando Míssil ASM. Segunda Caixa de Dinamites só aumenta o dano das dinamites em 85%. Nadadeira da Interrupção se quiser manter os inimigos no ar para o Nanodefeituoso."
       },
       {
         "tier": "lendario",

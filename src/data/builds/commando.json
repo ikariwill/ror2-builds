@@ -173,18 +173,18 @@
           "pt": "Míssil ASM Mk. 1",
           "en": "AtG Missile Mk. 1",
           "prio": 1,
-          "qty": "2 a 4",
+          "qty": "4 ou mais (empilhe)",
           "effect": "10% de chance de disparar um míssil que causa 300% (+300% por acúmulo) de dano TOTAL.",
-          "why": "Com 6 tiros por segundo, sai em média um míssil a cada 1,7 s na velocidade base, e mais com Seringas. Cada acúmulo aumenta o dano do míssil."
+          "why": "Com 6 tiros por segundo, sai em média um míssil a cada 1,7 s na velocidade base, e mais com Seringas. Vale acumular: cada cópia soma 300% ao dano de cada míssil, e a chance de 10% fica igual."
         },
         {
           "icon": "ukulele",
           "pt": "Ukulele",
           "en": "Ukulele",
           "prio": 1,
-          "qty": "1 a 3",
+          "qty": "3 a 5",
           "effect": "25% de chance de disparar um raio em cadeia de 80% de dano TOTAL em até 3 (+2 por acúmulo) alvos a 20 m (+2 m por acúmulo).",
-          "why": "O Tiro Duplo é de alvo único. O Ukulele espalha o dano para o grupo a cada poucos tiros."
+          "why": "O Tiro Duplo é de alvo único. O Ukulele espalha o dano para o grupo a cada poucos tiros. Vale acumular: cada cópia soma 2 alvos e 2 m de alcance ao raio. O dano por alvo continua 80%."
         },
         {
           "icon": "predatory-instincts",
@@ -602,7 +602,7 @@
       "text": "Justiça Destruidora para dano em chefes e mais Mísseis ASM."
     }
   ],
-  "summary": "Tiro Duplo, Projétil Fásico, Deslize Tático e Fogo de Supressão. A build vive de tiros rápidos com coeficiente 1,0 que ativam itens ao acertar o tempo todo. Empilhe Seringa e Óculos, depois Míssil ASM, Ukulele e Foice; nos vermelhos, Brutamontes e Gancho. Fique a média distância, atire sem parar e use o Fogo de Supressão para atordoar o que chegar perto.",
+  "summary": "Tiro Duplo, Projétil Fásico, Deslize Tático e Fogo de Supressão. A build vive de tiros rápidos com coeficiente 1,0 que ativam itens ao acertar o tempo todo. Empilhe Seringa e Óculos, depois acumule Míssil ASM e Ukulele, com uma Foice para a cura; nos vermelhos, Brutamontes e Gancho. Fique a média distância, atire sem parar e use o Fogo de Supressão para atordoar o que chegar perto.",
   "checklist": [
     {
       "title": "Sempre pegue",
@@ -614,7 +614,7 @@
     },
     {
       "title": "Primeiro verde",
-      "text": "Míssil ASM. Depois Ukulele e Foice do Ceifador."
+      "text": "Míssil ASM. Depois uma Foice do Ceifador e continue acumulando Míssil e Ukulele."
     },
     {
       "title": "Equipamento",
@@ -711,55 +711,50 @@
           {
             "en": "AtG Missile Mk. 1",
             "n": 1,
-            "why": "Com 6 tiros por segundo, o míssil sai a todo momento desde o primeiro."
+            "why": "Com 6 tiros por segundo, o míssil sai a todo momento desde o primeiro: 300% por disparo."
           },
           {
             "en": "Harvester's Scythe",
             "n": 1,
-            "why": "A cura da build: o Comando não tem cura própria."
-          },
-          {
-            "en": "Ukulele",
-            "n": 1,
-            "why": "Espalha o dano do Tiro Duplo, que é de alvo único, para o grupo."
+            "why": "A cura da build: o Comando não tem cura própria. Uma basta; as outras só somam 4 de cura."
           },
           {
             "en": "AtG Missile Mk. 1",
             "n": 1,
-            "why": "O segundo acúmulo aumenta o dano de cada míssil."
-          },
-          {
-            "en": "Predatory Instincts",
-            "n": 1,
-            "why": "Com os Óculos, o bônus de velocidade fica no máximo quase o tempo todo."
+            "why": "Segundo Míssil: 600% por disparo."
           },
           {
             "en": "Ukulele",
             "n": 1,
-            "why": "Mais alcance e alvos para o raio contra grupos."
+            "why": "Espalha o dano do Tiro Duplo, que é de alvo único, para até 3 inimigos."
+          },
+          {
+            "en": "Predatory Instincts",
+            "n": 1,
+            "why": "Com os Óculos, o bônus de velocidade fica no máximo quase o tempo todo. Uma basta."
           },
           {
             "en": "AtG Missile Mk. 1",
-            "n": 1,
-            "why": "Terceiro Míssil: mais dano por ativação."
+            "n": 2,
+            "why": "Quatro Mísseis: 1200% por disparo."
           },
           {
-            "en": "Harvester's Scythe",
-            "n": 1,
-            "why": "A segunda Foice aumenta a cura por crítico."
+            "en": "Ukulele",
+            "n": 2,
+            "why": "Três Ukuleles: o raio pega até 7 inimigos a até 24 m."
           },
           {
-            "en": "Predatory Instincts",
-            "n": 1,
-            "why": "Mais velocidade de ataque, que já é a base da build."
+            "en": "AtG Missile Mk. 1",
+            "n": 2,
+            "why": "Seis Mísseis: 1800% por disparo."
           },
           {
             "en": "Ukulele",
             "n": 1,
-            "why": "Terceiro Ukulele, o limite da build."
+            "why": "Quarto Ukulele: até 9 inimigos a até 26 m."
           }
         ],
-        "then": "Depois: o quarto Míssil. Semente Sanguessuga se a cura ainda faltar. Na variante com Granada de Fragmentação, um Cinturão de Kjaro."
+        "then": "Depois: continue acumulando Míssil ASM, que soma 300% por cópia. Quinto Ukulele para grupos grandes. Segunda Foice ou Semente Sanguessuga só se a cura faltar. Na variante com Granada de Fragmentação, um Cinturão de Kjaro."
       },
       {
         "tier": "lendario",

@@ -165,27 +165,27 @@
           "pt": "Foice do Ceifador",
           "en": "Harvester's Scythe",
           "prio": 1,
-          "qty": "1 a 3",
+          "qty": "1 a 2",
           "effect": "+5% de chance de crítico. Críticos curam 8 (+4 por acúmulo) de vida.",
-          "why": "O Olhar Faminto dispara muitos fragmentos e cada um pode ser crítico. É cura constante enquanto você atira, o que segura a regeneração negativa entre as Dissipações."
+          "why": "O Olhar Faminto dispara muitos fragmentos e cada um pode ser crítico. É cura constante enquanto você atira, o que segura a regeneração negativa entre as Dissipações. A segunda cópia só soma 4 de cura por crítico; o crítico de 5% vem só da primeira. Depois disso, a cura cresce mais pela Semente."
         },
         {
           "icon": "kjaros-band",
           "pt": "Cinturão de Kjaro",
           "en": "Kjaro's Band",
           "prio": 2,
-          "qty": "1 a 2",
+          "qty": "2 a 4",
           "effect": "Acertos de mais de 400% de dano também lançam um tornado de fogo rúnico de 300% (+300% por acúmulo) de dano TOTAL ao longo do tempo. Recarrega a cada 10 s.",
-          "why": "A detonação da Ruína com 1 acúmulo já causa 420%, e a explosão do Redemoinho causa 700%. Os dois ativam o cinturão com facilidade."
+          "why": "A detonação da Ruína com 1 acúmulo já causa 420%, e a explosão do Redemoinho causa 700%. Os dois ativam o cinturão com facilidade. Cada cópia soma 300% ao tornado: com 3, a explosão do Redemoinho lança um tornado de 900% dos 700%. Faixa da Singularidade (Vazio) corrompe todos."
         },
         {
           "icon": "leeching-seed",
           "pt": "Semente Sanguessuga",
           "en": "Leeching Seed",
           "prio": 2,
-          "qty": "1 a 3",
+          "qty": "4 ou mais (empilhe)",
           "effect": "Causar dano cura 1 (+1 por acúmulo) de vida.",
-          "why": "Cada fragmento acerta duas vezes (impacto e explosão). Com velocidade de ataque, vira cura contínua contra a perda de vida."
+          "why": "Cada fragmento acerta duas vezes (impacto e explosão). Com velocidade de ataque, vira cura contínua contra a perda de vida. Vale acumular: cada cópia soma 1 de cura a cada acerto, e o Olhar acerta muitas vezes por segundo."
         },
         {
           "icon": "ukulele",
@@ -585,7 +585,7 @@
       "text": "Capacitor Régio para dano; a cura vem de Fragmento Titânico, Pérola Irradiante e Fungo Choroso."
     }
   ],
-  "summary": "Junte os quatro itens da Heresia para virar a Herege e empilhe Passadas Profanas até 2 ou 3: é o que mantém a Dissipação Sombria curando mais do que a vida cai. Atire o Olhar Faminto para espalhar Ruína, enraíze grupos com o Redemoinho e detone a Ruína em todos os marcados. Reduza recargas com Cabeça Alienígena, Pós-combustor e Célula Lisada, e some cura com Foice, Fragmento Titânico e Criatura da Floresta Deformada.",
+  "summary": "Junte os quatro itens da Heresia para virar a Herege e empilhe Passadas Profanas até 2 ou 3: é o que mantém a Dissipação Sombria curando mais do que a vida cai. Atire o Olhar Faminto para espalhar Ruína, enraíze grupos com o Redemoinho e detone a Ruína em todos os marcados. Reduza recargas com Cabeça Alienígena, Pós-combustor e Célula Lisada, e some cura com Foice, Semente Sanguessuga acumulada, Fragmento Titânico e Criatura da Floresta Deformada.",
   "checklist": [
     {
       "title": "Sempre pegue",
@@ -597,7 +597,7 @@
     },
     {
       "title": "Primeiro verde",
-      "text": "Foice do Ceifador. Depois Cinturão de Kjaro e Semente Sanguessuga."
+      "text": "Foice do Ceifador. Depois acumule Semente Sanguessuga e Cinturão de Kjaro."
     },
     {
       "title": "Equipamento",
@@ -741,8 +741,8 @@
           },
           {
             "en": "Leeching Seed",
-            "n": 1,
-            "why": "Cura por acerto para qualquer personagem; os fragmentos acertam duas vezes."
+            "n": 2,
+            "why": "Duas Sementes: 2 de cura por acerto para qualquer personagem; os fragmentos acertam duas vezes."
           },
           {
             "en": "Kjaro's Band",
@@ -750,14 +750,29 @@
             "why": "A detonação da Ruína e a explosão do Redemoinho passam de 400% com facilidade."
           },
           {
-            "en": "Ukulele",
+            "en": "Leeching Seed",
             "n": 1,
-            "why": "As explosões dos fragmentos têm coeficiente 1,0 e saem em quantidade."
+            "why": "Três Sementes: 3 de cura por acerto."
+          },
+          {
+            "en": "Kjaro's Band",
+            "n": 1,
+            "why": "Segundo Cinturão: tornado de 600% do golpe."
           },
           {
             "en": "Harvester's Scythe",
             "n": 1,
-            "why": "Segunda Foice, mais cura por crítico."
+            "why": "Segunda Foice: 12 de cura por crítico."
+          },
+          {
+            "en": "Leeching Seed",
+            "n": 2,
+            "why": "Cinco Sementes: 5 de cura por acerto."
+          },
+          {
+            "en": "Kjaro's Band",
+            "n": 1,
+            "why": "Terceiro Cinturão: tornado de 900% do golpe."
           },
           {
             "en": "Bandolier",
@@ -767,25 +782,10 @@
           {
             "en": "Leeching Seed",
             "n": 1,
-            "why": "Segunda Semente para a cura contínua com velocidade de ataque."
-          },
-          {
-            "en": "AtG Missile Mk. 1",
-            "n": 1,
-            "why": "Muitos acertos de coeficiente 1,0 por segundo com o Olhar."
-          },
-          {
-            "en": "Runald's Band",
-            "n": 1,
-            "why": "Mesmo gatilho do Kjaro, e a lentidão ajuda a manter distância."
-          },
-          {
-            "en": "Harvester's Scythe",
-            "n": 1,
-            "why": "Terceira Foice, o máximo da build."
+            "why": "Seis Sementes: 6 de cura por acerto."
           }
         ],
-        "then": "Depois: Ukulele, Míssil e Cartucheira até 2, mais Semente até 3. Instintos Predatórios só com Óculos."
+        "then": "Depois: continue acumulando Semente Sanguessuga e leve o Cinturão de Kjaro até 4. Ukulele, Míssil e Cinturão de Runald só depois disso. Instintos Predatórios só com Óculos."
       },
       {
         "tier": "lendario",

@@ -169,18 +169,18 @@
           "pt": "Tanque de Ignição",
           "en": "Ignition Tank",
           "prio": 1,
-          "qty": "1 a 3",
+          "qty": "4 ou mais (empilhe)",
           "effect": "Efeitos de Incendiar causam +300% (+300% por acúmulo) de dano ao longo do tempo.",
-          "why": "O Chamuscar incendeia, e o Óleo quadruplica a Queimadura. Este item aumenta o fogo que já é a base do dano do CHEF, e também a Gasolina."
+          "why": "O Chamuscar incendeia, e o Óleo quadruplica a Queimadura. Este item aumenta o fogo que já é a base do dano do CHEF, e também a Gasolina. Empilhe: cada cópia soma mais +300% ao dano de Queimadura, sem teto. Com 4 Tanques são +1.200%."
         },
         {
           "icon": "atg-missile-mk-1",
           "pt": "Míssil ASM Mk. 1",
           "en": "AtG Missile Mk. 1",
           "prio": 2,
-          "qty": "1 a 3",
+          "qty": "3 a 5",
           "effect": "10% de chance de disparar um míssil que causa 300% (+300% por acúmulo) de dano TOTAL.",
-          "why": "Cada cutelo acerta na ida e na volta, e o Cristalizar acerta 7 vezes. Muitas chances de míssil."
+          "why": "Cada cutelo acerta na ida e na volta, e o Cristalizar acerta 7 vezes. Muitas chances de míssil. Cada cópia soma 300% ao dano de cada míssil. A chance fica em 10%, então os muitos acertos dão os mísseis e as cópias os deixam mais fortes."
         },
         {
           "icon": "ukulele",
@@ -574,7 +574,7 @@
     },
     {
       "title": "Primeiro verde",
-      "text": "Tanque de Ignição. Depois Míssil ASM ou Ukulele."
+      "text": "Tanque de Ignição, e continue empilhando. Míssil ASM é o segundo verde que vale acumular."
     },
     {
       "title": "Equipamento",
@@ -698,55 +698,55 @@
           {
             "en": "Ignition Tank",
             "n": 1,
-            "why": "O Óleo quadruplica a Queimadura do Chamuscar, e o Tanque soma +300% a ela e à Gasolina."
+            "why": "Liga a build: o Óleo quadruplica a Queimadura do Chamuscar, e o Tanque soma +300% a ela e à Gasolina."
           },
           {
             "en": "AtG Missile Mk. 1",
             "n": 1,
-            "why": "Cutelos na ida e na volta e 7 bolas do Cristalizar: muitas chances de míssil."
+            "why": "Cutelos na ida e na volta e 7 bolas do Cristalizar: muitas chances de míssil de 300%."
           },
           {
             "en": "Ignition Tank",
-            "n": 1,
-            "why": "O segundo Tanque soma mais 300% ao fogo."
+            "n": 2,
+            "why": "Três Tanques: +900% no dano de Queimadura."
           },
           {
-            "en": "Ukulele",
+            "en": "AtG Missile Mk. 1",
             "n": 1,
-            "why": "Cutelos perfurantes acertam vários inimigos, e cada acerto pode soltar raio."
+            "why": "Segundo Míssil: 600% por disparo."
           },
           {
             "en": "Kjaro's Band",
             "n": 1,
-            "why": "O Chamuscar causa 600%, acima do limite de 400%."
-          },
-          {
-            "en": "AtG Missile Mk. 1",
-            "n": 1,
-            "why": "Segundo Míssil."
-          },
-          {
-            "en": "Will-o'-the-wisp",
-            "n": 1,
-            "why": "A Queimadura mata grupos, e cada abate vira um pilar de lava."
-          },
-          {
-            "en": "Harvester's Scythe",
-            "n": 1,
-            "why": "Com os Óculos dos brancos, cura a cada crítico dos cutelos."
+            "why": "O Chamuscar causa 600%, acima do limite de 400%. Uma cópia basta, porque recarrega a cada 10 s."
           },
           {
             "en": "Ignition Tank",
-            "n": 1,
-            "why": "Terceiro Tanque, o máximo da build."
+            "n": 2,
+            "why": "Cinco Tanques: +1.500% na Queimadura."
           },
           {
             "en": "Ukulele",
             "n": 1,
-            "why": "Mais alvos no raio em cadeia."
+            "why": "Cutelos perfurantes acertam vários inimigos, e cada acerto pode soltar raio em 3 alvos."
+          },
+          {
+            "en": "AtG Missile Mk. 1",
+            "n": 1,
+            "why": "Terceiro Míssil: 900% por disparo."
+          },
+          {
+            "en": "Harvester's Scythe",
+            "n": 1,
+            "why": "Com os Óculos dos brancos, cura a cada crítico dos cutelos. Uma basta: as próximas só somam +4 de cura."
+          },
+          {
+            "en": "Ignition Tank",
+            "n": 1,
+            "why": "Seis Tanques: +1.800% na Queimadura."
           }
         ],
-        "then": "Depois: Míssil até 3 e Will-o'-the-wisp até 2. Marca Fatal parece ideal, mas os buffs de cozinha do CHEF não contam para ela."
+        "then": "Depois: continue empilhando Tanque de Ignição. Míssil até 5. Will-o'-the-wisp só se sobrar escolha. Marca Fatal parece ideal, mas os buffs de cozinha do CHEF não contam para ela."
       },
       {
         "tier": "lendario",

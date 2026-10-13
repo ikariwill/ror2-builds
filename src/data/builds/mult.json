@@ -193,18 +193,18 @@
           "pt": "Míssil ASM Mk. 1",
           "en": "AtG Missile Mk. 1",
           "prio": 1,
-          "qty": "2 a 4",
+          "qty": "4 ou mais (empilhe)",
           "effect": "10% de chance de disparar um míssil que causa 300% (+300% por acúmulo) de dano TOTAL.",
-          "why": "Com 24 pregos por segundo no Modo de Força, os mísseis saem o tempo todo, mesmo com a chance reduzida pelo coeficiente."
+          "why": "Com 24 pregos por segundo no Modo de Força, os mísseis saem o tempo todo, mesmo com a chance reduzida pelo coeficiente. Acumule: cada cópia soma +300% ao dano de cada míssil, sem mudar a chance, então o dano cresce em linha reta."
         },
         {
           "icon": "ukulele",
           "pt": "Ukulele",
           "en": "Ukulele",
           "prio": 1,
-          "qty": "1 a 3",
+          "qty": "2 a 4",
           "effect": "25% de chance de disparar um raio em cadeia de 80% de dano TOTAL em até 3 (+2 por acúmulo) alvos a 20 m (+2 m por acúmulo).",
-          "why": "Espalha o dano dos pregos para os inimigos em volta, que é o que falta à Pistola."
+          "why": "Espalha o dano dos pregos para os inimigos em volta, que é o que falta à Pistola. Cada cópia soma 2 alvos e 2 m de alcance. O dano por alvo não sobe, então ele é o segundo verde a acumular, atrás do Míssil."
         },
         {
           "icon": "harvesters-scythe",
@@ -604,7 +604,7 @@
       "text": "Cubo Primordial para juntar o grupo ou Capacitor Régio para alvos longe."
     }
   ],
-  "summary": "Pistola de Pregos nas duas primárias, Filtro Explosivo, Modo de Transporte e Modo de Força. Ligue o Modo de Força perto do grupo e deixe 24 pregos por segundo ativarem Míssil, Ukulele e Gancho. Empilhe Seringa e Óculos, cure por acerto com Semente e Foice e use o Filtro para atordoar. Saia do Modo de Força para se mover.",
+  "summary": "Pistola de Pregos nas duas primárias, Filtro Explosivo, Modo de Transporte e Modo de Força. Ligue o Modo de Força perto do grupo e deixe 24 pregos por segundo ativarem Míssil, Ukulele e Gancho. Nos verdes, acumule Mísseis. Empilhe Seringa e Óculos, cure por acerto com Semente e Foice e use o Filtro para atordoar. Saia do Modo de Força para se mover.",
   "checklist": [
     {
       "title": "Sempre pegue",
@@ -616,7 +616,7 @@
     },
     {
       "title": "Primeiro verde",
-      "text": "Míssil ASM. Depois Ukulele e Semente Sanguessuga."
+      "text": "Míssil ASM, e continue acumulando. Depois Semente Sanguessuga e Ukulele."
     },
     {
       "title": "Equipamento",
@@ -660,7 +660,7 @@
     "O nome em inglês da passiva (Multifunctional) vem das notas de atualização citadas pela wiki."
   ],
   "command": {
-    "intro": "Com a Autoridade, comece por Seringas e Óculos nos brancos e Míssil, Semente e Ukulele nos verdes. No Modo de Força são 24 pregos por segundo rolando itens ao acertar, então cada item de chance compensa o coeficiente 0,6 pelo volume.",
+    "intro": "Com a Autoridade, comece por Seringas e Óculos nos brancos e concentre os verdes em Mísseis ASM, com Ukulele em segundo. No Modo de Força são 24 pregos por segundo rolando itens ao acertar, então cada item de chance compensa o coeficiente 0,6 pelo volume.",
     "tiers": [
       {
         "tier": "comum",
@@ -734,55 +734,50 @@
           {
             "en": "AtG Missile Mk. 1",
             "n": 1,
-            "why": "Com 24 pregos por segundo, os mísseis saem o tempo todo."
+            "why": "Com 24 pregos por segundo, os mísseis saem o tempo todo: 300% cada."
           },
           {
             "en": "Leeching Seed",
             "n": 1,
-            "why": "Cura a cada prego, sem depender de crítico."
+            "why": "Cura a cada prego, sem depender de crítico. Uma basta para começar."
+          },
+          {
+            "en": "AtG Missile Mk. 1",
+            "n": 2,
+            "why": "Três Mísseis: 900% por míssil, com a mesma chance de disparo."
           },
           {
             "en": "Ukulele",
             "n": 1,
-            "why": "Espalha o dano dos pregos para os inimigos em volta."
+            "why": "Espalha o dano dos pregos para até 3 inimigos em volta."
           },
           {
             "en": "AtG Missile Mk. 1",
-            "n": 1,
-            "why": "O segundo acúmulo aumenta o dano de cada míssil."
+            "n": 2,
+            "why": "Cinco Mísseis: 1500% por míssil."
           },
           {
             "en": "Harvester's Scythe",
             "n": 1,
-            "why": "Com os Óculos, os críticos dos pregos viram mais cura."
+            "why": "Com os Óculos, os críticos dos pregos viram cura. Uma basta: o crítico de 5% vem só da primeira."
           },
           {
             "en": "Ukulele",
-            "n": 1,
-            "why": "Mais alcance e alvos para o raio."
-          },
-          {
-            "en": "AtG Missile Mk. 1",
-            "n": 1,
-            "why": "Terceiro Míssil: mais dano por ativação."
+            "n": 2,
+            "why": "Três Ukuleles: até 7 alvos e 24 m de alcance. O dano por alvo não muda."
           },
           {
             "en": "Leeching Seed",
             "n": 1,
-            "why": "A segunda Semente dobra a cura por prego."
+            "why": "Segunda Semente: 2 de vida por prego."
           },
           {
-            "en": "Predatory Instincts",
+            "en": "AtG Missile Mk. 1",
             "n": 1,
-            "why": "Mais velocidade para as pistolas, já com crítico."
-          },
-          {
-            "en": "Harvester's Scythe",
-            "n": 1,
-            "why": "A segunda Foice aumenta a cura por crítico."
+            "why": "Sexto Míssil: 1800% por míssil."
           }
         ],
-        "then": "Depois: o quarto Míssil e o terceiro Ukulele. Com Reequipar no lugar do Modo de Força, Chifre da Guerra e Célula de Combustível sobem na ordem."
+        "then": "Depois: continue acumulando Mísseis e leve o Ukulele até 4. Instintos Predatórios só com muitos Óculos. Com Reequipar no lugar do Modo de Força, Chifre da Guerra e Célula de Combustível sobem na ordem."
       },
       {
         "tier": "lendario",
