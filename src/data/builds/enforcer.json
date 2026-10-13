@@ -1,631 +1,631 @@
 {
- "id": "enforcer",
- "name_pt": "Enforcer",
- "name_en": "Enforcer",
- "title": "Enforcer: Build de Escudo e Escopeta",
- "tagline": "Escopeta pesada, escudo na frente, recarga rápida",
- "lede": "Uma build de tanque para jogar normalmente e chegar longe: atirar balas de 350% com a Trenchbroom, entrar na postura defensiva para bloquear e refletir golpes e sair dela com o pente cheio e um crítico garantido. Velocidade de ataque acelera o disparo e a recarga, e as recargas curtas do escudo e da investida mantêm você protegido.",
- "loadout": [
-  {
-   "slot": "Passiva",
-   "skill": "Big Man"
-  },
-  {
-   "slot": "Primária",
-   "skill": "Trenchbroom"
-  },
-  {
-   "slot": "Secundária",
-   "skill": "Steel Protection"
-  },
-  {
-   "slot": "Utilitária",
-   "skill": "Shield Tackle"
-  },
-  {
-   "slot": "Especial",
-   "skill": "Rally Point"
-  }
- ],
- "skills": [
-  {
-   "slot": "Passiva",
-   "pt": "Big Man",
-   "en": "Big Man",
-   "pick": "Fixa",
-   "spec": "Massivo. Cair a mais de 35 m/s atordoa por 1 s numa explosão de 400% a 3000% de dano, com raio de 6 a 40 m, crescendo com a velocidade de queda. Coeficiente 1,0. Pode ser crítico.",
-   "why": "Dano extra ao cair de lugares altos. A wiki avisa que a passiva não protege contra dano de queda. A menor repulsão parece vir da massa de 300 do Enforcer, e não da passiva."
-  },
-  {
-   "slot": "Primária",
-   "pt": "Trenchbroom",
-   "en": "Trenchbroom",
-   "pick": "Recomendada",
-   "spec": "Bala de 350%, 6 cartuchos, um disparo a cada 0,7 s. Coeficiente 1,0. Dano total até 40 m. Na postura defensiva: 6 bagos perfurantes de 70% a cada 0,333 s, 9 cartuchos, coeficiente 0,7.",
-   "why": "Velocidade de ataque reduz o intervalo entre disparos e os dois tempos de recarga. Traçante: se o pente estava cheio, o tiro que o esvazia é crítico garantido. A alternativa Shrapnel Grenade (granada de 500% em 9 m) é dano em área, mas nunca recebe o crítico da Traçante."
-  },
-  {
-   "slot": "Secundária",
-   "pt": "Steel Protection",
-   "en": "Steel Protection",
-   "pick": "Recomendada",
-   "spec": "Postura defensiva: bloqueia dano frontal, troca a Primária, 32% da velocidade de caminhada. Ao sair: golpe de escudo de 300% com 1 s de atordoamento. Recarga 4 s, começa ao sair.",
-   "why": "Aparar golpes logo antes do golpe de escudo reflete o dano: projéteis voltam ao atacante e outros golpes viram um raio de 6× o dano bloqueado, que pode ser crítico. O primeiro aparo dá +200 de armadura até o fim do golpe. Sair da postura recarrega o pente e prepara o tiro Traçante. A alternativa Surge Protection dura até 5 s, transforma 50% do dano bloqueado em barreira e depois explode consumindo barreira e escudo."
-  },
-  {
-   "slot": "Utilitária",
-   "pt": "Shield Tackle",
-   "en": "Shield Tackle",
-   "pick": "Recomendada",
-   "spec": "Investida de 600% de dano por segundo (150% por acerto, 1 s de atordoamento). 2 cargas que recarregam juntas. Recarga 6 s. Coeficiente 1,0.",
-   "why": "Toque para uma investida curta ou segure para gastar outra carga e ir mais longe. O escudo bloqueia ataques frontais durante a investida. A wiki confirma que o Pós-combustor de Holograma adiciona cargas que podem ser gastas segurando. A alternativa Ripcord (300% em 20 m, puxa inimigos e aplica Provocação com −10 de armadura) não faz os inimigos mirarem no Enforcer, apesar do texto do jogo."
-  },
-  {
-   "slot": "Especial",
-   "pt": "Rally Point",
-   "en": "Rally Point",
-   "pick": "Recomendada",
-   "spec": "Salta e cai com 400% em 10 m, 1 s de atordoamento. Coloca um Farol de Resistência de 30 m por 16 s. Recarga 24 s. Coeficiente 1,0.",
-   "why": "Ao colocar, aliados dentro ganham barreira de 20% da vida máxima do Enforcer (não está no texto do jogo). Cada abate de aliado dentro dá barreira de 10% da vida máxima a todos. A wiki diz que Margarida de Lépton e Estandarte de Guerra ativam no farol; a Convergência Concentrada não o afeta."
-  },
-  {
-   "slot": "Especial (alt.)",
-   "pt": "Crash Point",
-   "en": "Crash Point",
-   "pick": "Variante",
-   "spec": "Sobe por 1,5 s, plana até 2,5 s e mergulha. 100% e atordoamento durante o mergulho; 700% em 15 m ao cair, puxando inimigos. Recarga 7 s. Coeficiente 1,0.",
-   "why": "Muito mais dano e recarga bem menor que o Rally Point, mas sem barreira. Você fica imune a dano de queda durante o mergulho. A wiki diz que o impacto conta como dano de habilidade Utilitária, e não Especial. Desbloqueado pelo desafio Indomitable."
-  }
- ],
- "sections": [
-  {
-   "id": "comum",
-   "name": "Comum",
-   "color": "branco",
-   "intro": "Velocidade de ataque é o atributo que mais mexe na Trenchbroom, porque acelera o disparo e as duas recargas.",
-   "items": [
+  "id": "enforcer",
+  "name_pt": "Enforcer",
+  "name_en": "Enforcer",
+  "title": "Enforcer: Build de Escudo e Escopeta",
+  "tagline": "Escopeta pesada, escudo na frente, recarga rápida",
+  "lede": "Uma build de tanque para jogar normalmente e chegar longe: atirar balas de 350% com a Trenchbroom, entrar na postura defensiva para bloquear e refletir golpes e sair dela com o pente cheio e um crítico garantido. Velocidade de ataque acelera o disparo e a recarga, e as recargas curtas do escudo e da investida mantêm você protegido.",
+  "loadout": [
     {
-     "icon": "soldiers-syringe",
-     "pt": "Seringa Militar",
-     "en": "Soldier's Syringe",
-     "prio": 1,
-     "qty": "4 a 8",
-     "effect": "+15% (+15% por acúmulo) de velocidade de ataque.",
-     "why": "Segundo a wiki, velocidade de ataque reduz o intervalo entre disparos e os tempos de recarga da Trenchbroom. É mais dano e menos tempo parado recarregando."
+      "slot": "Passiva",
+      "skill": "Big Man"
     },
     {
-     "icon": "lens-makers-glasses",
-     "pt": "Óculos do Fabricante de Lentes",
-     "en": "Lens-Maker's Glasses",
-     "prio": 2,
-     "qty": "2 a 5",
-     "effect": "10% (+10% por acúmulo) de chance de Acerto Crítico, que causa dano dobrado.",
-     "why": "O tiro Traçante já é crítico; os Óculos cobrem os outros cinco tiros do pente. A wiki diz que o reflexo do aparo e a explosão do Big Man também podem ser críticos."
+      "slot": "Primária",
+      "skill": "Trenchbroom"
     },
     {
-     "icon": "crowbar",
-     "pt": "Pé de Cabra",
-     "en": "Crowbar",
-     "prio": 2,
-     "qty": "1 a 3",
-     "effect": "+75% (+75% por acúmulo) de dano contra inimigos acima de 90% de vida.",
-     "why": "Cada bala de 350% é um golpe grande e isolado. O primeiro tiro em cada inimigo fica muito mais forte."
+      "slot": "Secundária",
+      "skill": "Steel Protection"
     },
     {
-     "icon": "tougher-times",
-     "pt": "Tempos Difíceis",
-     "en": "Tougher Times",
-     "prio": 2,
-     "qty": "2 a 4",
-     "effect": "15% (+15% por acúmulo) de chance de bloquear dano recebido. Não é afetado por sorte.",
-     "why": "O escudo só bloqueia pela frente. Este item cobre os golpes que vêm de lado e de trás."
+      "slot": "Utilitária",
+      "skill": "Shield Tackle"
     },
     {
-     "icon": "armor-piercing-rounds",
-     "pt": "Projéteis Perfurantes",
-     "en": "Armor-Piercing Rounds",
-     "prio": 3,
-     "qty": "1 a 3",
-     "effect": "+20% (+20% por acúmulo) de dano contra chefes.",
-     "why": "Contra chefes, a Trenchbroom é dano de alvo único com balas grandes. Ganho direto."
-    },
-    {
-     "icon": "warbanner",
-     "pt": "Estandarte de Guerra",
-     "en": "Warbanner",
-     "prio": 3,
-     "qty": "1 a 2",
-     "effect": "Ao subir de nível ou iniciar o evento do Teletransportador, solta um estandarte que fortalece todos os aliados a até 16 m (+8 m por acúmulo). Aumenta a velocidade de ataque e de movimento em 30%.",
-     "why": "A wiki lista o Estandarte entre os itens que ativam com o farol do Rally Point. São 30% de velocidade de ataque a cada 24 s, além do teleporte."
-    },
-    {
-     "icon": "repulsion-armor-plate",
-     "pt": "Placa da Armadura de Repulsão",
-     "en": "Repulsion Armor Plate",
-     "prio": 3,
-     "qty": "2 a 5",
-     "effect": "Reduz todo dano recebido em 5 (+5 por acúmulo). Não pode reduzir abaixo de 1.",
-     "why": "O Enforcer luta no meio do grupo e se move devagar na postura. Reduz os muitos golpes pequenos que chegam pelos lados."
-    },
-    {
-     "icon": "topaz-brooch",
-     "pt": "Broche de Topázio",
-     "en": "Topaz Brooch",
-     "prio": 4,
-     "qty": "1 a 3 (com Surge Protection)",
-     "effect": "Ganha barreira temporária de 15 (+15 por acúmulo) de vida ao abater.",
-     "why": "Só vale com a Surge Protection, cuja explosão consome toda a barreira e soma o valor ao dano."
+      "slot": "Especial",
+      "skill": "Rally Point"
     }
-   ]
-  },
-  {
-   "id": "incomum",
-   "name": "Incomum",
-   "color": "verde",
-   "intro": "A bala tem coeficiente 1,0 e o tiro Traçante é crítico garantido, então os verdes de crítico e de efeito ao acertar rendem bem.",
-   "items": [
+  ],
+  "skills": [
     {
-     "icon": "harvesters-scythe",
-     "pt": "Foice do Ceifador",
-     "en": "Harvester's Scythe",
-     "prio": 1,
-     "qty": "1 a 3",
-     "effect": "+5% de chance de crítico. Críticos curam 8 (+4 por acúmulo) de vida.",
-     "why": "O tiro Traçante garante pelo menos um crítico por pente, então a cura sempre acontece. Com Óculos, cura em quase todo tiro."
+      "slot": "Passiva",
+      "pt": "Big Man",
+      "en": "Big Man",
+      "pick": "Fixa",
+      "spec": "Massivo. Cair a mais de 35 m/s atordoa por 1 s numa explosão de 400% a 3000% de dano, com raio de 6 a 40 m, crescendo com a velocidade de queda. Coeficiente 1,0. Pode ser crítico.",
+      "why": "Dano extra ao cair de lugares altos. A wiki avisa que a passiva não protege contra dano de queda. A menor repulsão parece vir da massa de 300 do Enforcer, e não da passiva."
     },
     {
-     "icon": "predatory-instincts",
-     "pt": "Instintos Predatórios",
-     "en": "Predatory Instincts",
-     "prio": 2,
-     "qty": "1 a 2",
-     "effect": "+5% de chance de crítico. Críticos dão +12% de velocidade de ataque, até 36% (+24% por acúmulo).",
-     "why": "Velocidade de ataque acelera disparo e recarga, e o Traçante ativa o bônus a cada pente."
+      "slot": "Primária",
+      "pt": "Trenchbroom",
+      "en": "Trenchbroom",
+      "pick": "Recomendada",
+      "spec": "Bala de 350%, 6 cartuchos, um disparo a cada 0,7 s. Coeficiente 1,0. Dano total até 40 m. Na postura defensiva: 6 bagos perfurantes de 70% a cada 0,333 s, 9 cartuchos, coeficiente 0,7.",
+      "why": "Velocidade de ataque reduz o intervalo entre disparos e os dois tempos de recarga. Traçante: se o pente estava cheio, o tiro que o esvazia é crítico garantido. A alternativa Shrapnel Grenade (granada de 500% em 9 m) é dano em área, mas nunca recebe o crítico da Traçante."
     },
     {
-     "icon": "atg-missile-mk-1",
-     "pt": "Míssil ASM Mk. 1",
-     "en": "AtG Missile Mk. 1",
-     "prio": 2,
-     "qty": "1 a 3",
-     "effect": "10% de chance de disparar um míssil que causa 300% (+300% por acúmulo) de dano TOTAL.",
-     "why": "Dano TOTAL escala com a bala de 350%. Os 6 bagos da postura defensiva dão mais chances, com coeficiente 0,7."
+      "slot": "Secundária",
+      "pt": "Steel Protection",
+      "en": "Steel Protection",
+      "pick": "Recomendada",
+      "spec": "Postura defensiva: bloqueia dano frontal, troca a Primária, 32% da velocidade de caminhada. Ao sair: golpe de escudo de 300% com 1 s de atordoamento. Recarga 4 s, começa ao sair.",
+      "why": "Aparar golpes logo antes do golpe de escudo reflete o dano: projéteis voltam ao atacante e outros golpes viram um raio de 6× o dano bloqueado, que pode ser crítico. O primeiro aparo dá +200 de armadura até o fim do golpe. Sair da postura recarrega o pente e prepara o tiro Traçante. A alternativa Surge Protection (recarga 6 s) dura até 5 s, transforma 50% do dano bloqueado em barreira e depois explode consumindo barreira e escudo, com 250% de dano mais o valor consumido."
     },
     {
-     "icon": "ukulele",
-     "pt": "Ukulele",
-     "en": "Ukulele",
-     "prio": 2,
-     "qty": "1 a 2",
-     "effect": "25% de chance de disparar um raio em cadeia de 80% de dano TOTAL em até 3 (+2 por acúmulo) alvos a 20 m (+2 m por acúmulo).",
-     "why": "A bala única não acerta grupos. O raio espalha parte desse dano para os inimigos próximos."
+      "slot": "Utilitária",
+      "pt": "Shield Tackle",
+      "en": "Shield Tackle",
+      "pick": "Recomendada",
+      "spec": "Investida de 600% de dano por segundo (150% por acerto, 1 s de atordoamento). 2 cargas que recarregam juntas. Recarga 6 s. Coeficiente 1,0.",
+      "why": "Toque para uma investida curta ou segure para gastar outra carga e ir mais longe. O escudo bloqueia ataques frontais durante a investida. A wiki confirma que o Pós-combustor de Holograma adiciona cargas que podem ser gastas segurando. A alternativa Ripcord (2 cargas, recarga 8 s; 300% em 20 m, puxa inimigos e aplica Provocação com −10 de armadura) não faz os inimigos mirarem no Enforcer, apesar do texto do jogo."
     },
     {
-     "icon": "leeching-seed",
-     "pt": "Semente Sanguessuga",
-     "en": "Leeching Seed",
-     "prio": 3,
-     "qty": "1 a 2",
-     "effect": "Causar dano cura 1 (+1 por acúmulo) de vida.",
-     "why": "Rende mais na postura defensiva, que dispara 6 bagos perfurantes a cada 0,333 s. Na forma normal, os tiros são poucos."
+      "slot": "Especial",
+      "pt": "Rally Point",
+      "en": "Rally Point",
+      "pick": "Recomendada",
+      "spec": "Salta e cai com 400% em 10 m, 1 s de atordoamento. Coloca um Farol de Resistência de 30 m por 16 s. Recarga 24 s. Coeficiente 1,0.",
+      "why": "Ao colocar, aliados dentro ganham barreira de 20% da vida máxima do Enforcer (não está no texto do jogo). Cada abate de aliado dentro dá barreira de 10% da vida máxima a todos. A wiki diz que Margarida de Lépton e Estandarte de Guerra ativam no farol; a Convergência Concentrada não o afeta."
     },
     {
-     "icon": "lepton-daisy",
-     "pt": "Margarida de Lépton",
-     "en": "Lepton Daisy",
-     "prio": 3,
-     "qty": "1 a 2",
-     "effect": "Libera uma nova de cura durante o evento do Teletransportador, curando todos os aliados próximos em 50% da vida máxima. Acontece 1 (+1 por acúmulo) vez.",
-     "why": "A wiki diz que a Margarida ativa no farol do Rally Point, curando os aliados em 50% da vida máxima. Ótimo em grupo."
-    },
-    {
-     "icon": "shuriken",
-     "pt": "Shuriken",
-     "en": "Shuriken",
-     "prio": 3,
-     "qty": "1 a 2",
-     "effect": "Usar a Primária também arremessa uma shuriken de 400% (+100% por acúmulo) do dano base. Guarda até 3 (+1 por acúmulo), que recarregam em 10 s.",
-     "why": "Cada disparo da Trenchbroom conta como usar a Primária, então as shurikens saem junto com as balas."
-    },
-    {
-     "icon": "kjaros-band",
-     "pt": "Cinturão de Kjaro",
-     "en": "Kjaro's Band",
-     "prio": 4,
-     "qty": "1 (com Shrapnel Grenade)",
-     "effect": "Golpes que causam mais de 400% de dano também lançam um tornado de chamas rúnicas, causando 300% (+300% por acúmulo) de dano TOTAL ao longo do tempo. Recarrega a cada 10 s.",
-     "why": "A granada da Shrapnel Grenade causa 500% e passa do limite de 400%. A bala de 350% da Trenchbroom não passa."
+      "slot": "Especial (alt.)",
+      "pt": "Crash Point",
+      "en": "Crash Point",
+      "pick": "Variante",
+      "spec": "Sobe por 1,5 s, plana até 2,5 s e mergulha. 100% e atordoamento durante o mergulho; 700% em 15 m ao cair, puxando inimigos. Recarga 7 s. Coeficiente 1,0.",
+      "why": "Muito mais dano e recarga bem menor que o Rally Point, mas sem barreira. Você fica imune a dano de queda durante o mergulho. A wiki diz que o impacto conta como dano de habilidade Utilitária, e não Especial. Desbloqueado pelo desafio Indomitable."
     }
-   ]
-  },
-  {
-   "id": "lendario",
-   "name": "Lendário",
-   "color": "vermelho",
-   "intro": "Os vermelhos que mais mudam o Enforcer encurtam as recargas do escudo e da investida e aumentam o crítico.",
-   "items": [
+  ],
+  "sections": [
     {
-     "icon": "alien-head",
-     "pt": "Cabeça Alienígena",
-     "en": "Alien Head",
-     "prio": 1,
-     "qty": "1 a 2",
-     "effect": "Reduz o tempo de recarga das habilidades em 25% (+25% por acúmulo).",
-     "why": "Steel Protection (4 s), Shield Tackle (6 s) e Rally Point (24 s) voltam mais rápido. Mais postura significa mais recargas instantâneas e mais tiros Traçantes."
+      "id": "comum",
+      "name": "Comum",
+      "color": "branco",
+      "intro": "Velocidade de ataque é o atributo que mais mexe na Trenchbroom, porque acelera o disparo e as duas recargas.",
+      "items": [
+        {
+          "icon": "soldiers-syringe",
+          "pt": "Seringa Militar",
+          "en": "Soldier's Syringe",
+          "prio": 1,
+          "qty": "4 a 8",
+          "effect": "+15% (+15% por acúmulo) de velocidade de ataque.",
+          "why": "Segundo a wiki, velocidade de ataque reduz o intervalo entre disparos e os tempos de recarga da Trenchbroom. É mais dano e menos tempo parado recarregando."
+        },
+        {
+          "icon": "lens-makers-glasses",
+          "pt": "Óculos do Fabricante de Lentes",
+          "en": "Lens-Maker's Glasses",
+          "prio": 2,
+          "qty": "2 a 5",
+          "effect": "10% (+10% por acúmulo) de chance de Acerto Crítico, que causa dano dobrado.",
+          "why": "O tiro Traçante já é crítico; os Óculos cobrem os outros cinco tiros do pente. A wiki diz que o reflexo do aparo e a explosão do Big Man também podem ser críticos."
+        },
+        {
+          "icon": "crowbar",
+          "pt": "Pé de Cabra",
+          "en": "Crowbar",
+          "prio": 2,
+          "qty": "1 a 3",
+          "effect": "+75% (+75% por acúmulo) de dano contra inimigos acima de 90% de vida.",
+          "why": "Cada bala de 350% é um golpe grande e isolado. O primeiro tiro em cada inimigo fica muito mais forte."
+        },
+        {
+          "icon": "tougher-times",
+          "pt": "Tempos Difíceis",
+          "en": "Tougher Times",
+          "prio": 2,
+          "qty": "2 a 4",
+          "effect": "15% (+15% por acúmulo) de chance de bloquear dano recebido. Não é afetado por sorte.",
+          "why": "O escudo só bloqueia pela frente. Este item cobre os golpes que vêm de lado e de trás."
+        },
+        {
+          "icon": "armor-piercing-rounds",
+          "pt": "Projéteis Perfurantes",
+          "en": "Armor-Piercing Rounds",
+          "prio": 3,
+          "qty": "1 a 3",
+          "effect": "+20% (+20% por acúmulo) de dano contra chefes.",
+          "why": "Contra chefes, a Trenchbroom é dano de alvo único com balas grandes. Ganho direto."
+        },
+        {
+          "icon": "warbanner",
+          "pt": "Estandarte de Guerra",
+          "en": "Warbanner",
+          "prio": 3,
+          "qty": "1 a 2",
+          "effect": "Ao subir de nível ou iniciar o evento do Teletransportador, solta um estandarte que fortalece todos os aliados a até 16 m (+8 m por acúmulo). Aumenta a velocidade de ataque e de movimento em 30%.",
+          "why": "A wiki lista o Estandarte entre os itens que ativam com o farol do Rally Point. São 30% de velocidade de ataque a cada 24 s, além do teleporte."
+        },
+        {
+          "icon": "repulsion-armor-plate",
+          "pt": "Placa da Armadura de Repulsão",
+          "en": "Repulsion Armor Plate",
+          "prio": 3,
+          "qty": "2 a 5",
+          "effect": "Reduz todo dano recebido em 5 (+5 por acúmulo). Não pode reduzir abaixo de 1.",
+          "why": "O Enforcer luta no meio do grupo e se move devagar na postura. Reduz os muitos golpes pequenos que chegam pelos lados."
+        },
+        {
+          "icon": "topaz-brooch",
+          "pt": "Broche de Topázio",
+          "en": "Topaz Brooch",
+          "prio": 4,
+          "qty": "1 a 3 (com Surge Protection)",
+          "effect": "Ganha barreira temporária de 15 (+15 por acúmulo) de vida ao abater.",
+          "why": "Só vale com a Surge Protection, cuja explosão consome toda a barreira e soma o valor ao dano."
+        }
+      ]
     },
     {
-     "icon": "brilliant-behemoth",
-     "pt": "Brutamontes Reluzente",
-     "en": "Brilliant Behemoth",
-     "prio": 1,
-     "qty": "1 a 2",
-     "effect": "Todos os ataques explodem em 4 m (+2,5 m por acúmulo) causando 60% de dano TOTAL extra.",
-     "why": "Dá à bala de alvo único o dano em área que ela não tem. Dano TOTAL escala com os 350% da bala."
+      "id": "incomum",
+      "name": "Incomum",
+      "color": "verde",
+      "intro": "A bala tem coeficiente 1,0 e o tiro Traçante é crítico garantido, então os verdes de crítico e de efeito ao acertar rendem bem.",
+      "items": [
+        {
+          "icon": "harvesters-scythe",
+          "pt": "Foice do Ceifador",
+          "en": "Harvester's Scythe",
+          "prio": 1,
+          "qty": "1 a 3",
+          "effect": "+5% de chance de crítico. Críticos curam 8 (+4 por acúmulo) de vida.",
+          "why": "O tiro Traçante garante pelo menos um crítico por pente, então a cura sempre acontece. Com Óculos, cura com mais frequência."
+        },
+        {
+          "icon": "predatory-instincts",
+          "pt": "Instintos Predatórios",
+          "en": "Predatory Instincts",
+          "prio": 2,
+          "qty": "1 a 2",
+          "effect": "+5% de chance de crítico. Críticos dão +12% de velocidade de ataque, até 36% (+24% por acúmulo).",
+          "why": "Velocidade de ataque acelera disparo e recarga, e o Traçante ativa o bônus a cada pente."
+        },
+        {
+          "icon": "atg-missile-mk-1",
+          "pt": "Míssil ASM Mk. 1",
+          "en": "AtG Missile Mk. 1",
+          "prio": 2,
+          "qty": "1 a 3",
+          "effect": "10% de chance de disparar um míssil que causa 300% (+300% por acúmulo) de dano TOTAL.",
+          "why": "Dano TOTAL escala com a bala de 350%. Os 6 bagos da postura defensiva dão mais chances, com coeficiente 0,7."
+        },
+        {
+          "icon": "ukulele",
+          "pt": "Ukulele",
+          "en": "Ukulele",
+          "prio": 2,
+          "qty": "1 a 2",
+          "effect": "25% de chance de disparar um raio em cadeia de 80% de dano TOTAL em até 3 (+2 por acúmulo) alvos a 20 m (+2 m por acúmulo).",
+          "why": "A bala única não acerta grupos. O raio espalha parte desse dano para os inimigos próximos."
+        },
+        {
+          "icon": "leeching-seed",
+          "pt": "Semente Sanguessuga",
+          "en": "Leeching Seed",
+          "prio": 3,
+          "qty": "1 a 2",
+          "effect": "Causar dano cura 1 (+1 por acúmulo) de vida.",
+          "why": "Rende mais na postura defensiva, que dispara 6 bagos perfurantes a cada 0,333 s. Na forma normal, os tiros são poucos."
+        },
+        {
+          "icon": "lepton-daisy",
+          "pt": "Margarida de Lépton",
+          "en": "Lepton Daisy",
+          "prio": 3,
+          "qty": "1 a 2",
+          "effect": "Libera uma nova de cura durante o evento do Teletransportador, curando todos os aliados próximos em 50% da vida máxima. Acontece 1 (+1 por acúmulo) vez.",
+          "why": "A wiki diz que a Margarida ativa no farol do Rally Point, curando os aliados em 50% da vida máxima. Ótimo em grupo."
+        },
+        {
+          "icon": "shuriken",
+          "pt": "Shuriken",
+          "en": "Shuriken",
+          "prio": 3,
+          "qty": "1 a 2",
+          "effect": "Usar a Primária também arremessa uma shuriken de 400% (+100% por acúmulo) do dano base. Guarda até 3 (+1 por acúmulo), que recarregam em 10 s.",
+          "why": "Cada disparo da Trenchbroom conta como usar a Primária, então as shurikens saem junto com as balas."
+        },
+        {
+          "icon": "kjaros-band",
+          "pt": "Cinturão de Kjaro",
+          "en": "Kjaro's Band",
+          "prio": 4,
+          "qty": "1 (com Shrapnel Grenade)",
+          "effect": "Golpes que causam mais de 400% de dano também lançam um tornado de chamas rúnicas, causando 300% (+300% por acúmulo) de dano TOTAL ao longo do tempo. Recarrega a cada 10 s.",
+          "why": "A granada da Shrapnel Grenade causa 500% e passa do limite de 400%. Na metade externa do raio ela causa 75% do dano (375%) e não passa. A bala de 350% da Trenchbroom também não passa."
+        }
+      ]
     },
     {
-     "icon": "hardlight-afterburner",
-     "pt": "Pós-combustor de Holograma",
-     "en": "Hardlight Afterburner",
-     "prio": 2,
-     "qty": "1",
-     "effect": "+2 (+2 por acúmulo) cargas da Utilitária e −33% no tempo de recarga dela.",
-     "why": "A wiki confirma: com o item, o Shield Tackle tem 4 cargas e cada carga extra segurada adiciona 0,35 s de investida. Mais tempo atordoando e bloqueando pela frente."
+      "id": "lendario",
+      "name": "Lendário",
+      "color": "vermelho",
+      "intro": "Os vermelhos que mais mudam o Enforcer encurtam as recargas do escudo e da investida e aumentam o crítico.",
+      "items": [
+        {
+          "icon": "alien-head",
+          "pt": "Cabeça Alienígena",
+          "en": "Alien Head",
+          "prio": 1,
+          "qty": "1 a 2",
+          "effect": "Reduz o tempo de recarga das habilidades em 25% (+25% por acúmulo).",
+          "why": "Steel Protection (4 s), Shield Tackle (6 s) e Rally Point (24 s) voltam mais rápido. Mais postura significa mais recargas instantâneas e mais tiros Traçantes."
+        },
+        {
+          "icon": "brilliant-behemoth",
+          "pt": "Brutamontes Reluzente",
+          "en": "Brilliant Behemoth",
+          "prio": 1,
+          "qty": "1 a 2",
+          "effect": "Todos os ataques explodem em 4 m (+2,5 m por acúmulo) causando 60% de dano TOTAL extra.",
+          "why": "Dá à bala de alvo único o dano em área que ela não tem. Dano TOTAL escala com os 350% da bala."
+        },
+        {
+          "icon": "hardlight-afterburner",
+          "pt": "Pós-combustor de Holograma",
+          "en": "Hardlight Afterburner",
+          "prio": 2,
+          "qty": "1",
+          "effect": "+2 (+2 por acúmulo) cargas da Utilitária e −33% no tempo de recarga dela.",
+          "why": "A wiki confirma: com o item, o Shield Tackle tem 4 cargas e cada carga extra segurada adiciona 0,35 s de investida. Mais tempo atordoando e bloqueando pela frente."
+        },
+        {
+          "icon": "laser-scope",
+          "pt": "Mira Laser",
+          "en": "Laser Scope",
+          "prio": 2,
+          "qty": "1",
+          "effect": "Acertos Críticos causam 100% (+100% por acúmulo) de dano extra.",
+          "why": "O tiro Traçante é crítico garantido, então este item sempre rende, mesmo sem outros itens de crítico."
+        },
+        {
+          "icon": "57-leaf-clover",
+          "pt": "Trevo 57",
+          "en": "57 Leaf Clover",
+          "prio": 3,
+          "qty": "1",
+          "effect": "Todos os efeitos aleatórios são rolados +1 (+1 por acúmulo) vez a seu favor.",
+          "why": "Melhora crítico, Míssil e Ukulele. Com poucos tiros por segundo, cada rolagem a mais conta."
+        },
+        {
+          "icon": "shattering-justice",
+          "pt": "Justiça Destruidora",
+          "en": "Shattering Justice",
+          "prio": 3,
+          "qty": "1",
+          "effect": "Depois de acertar um inimigo 5 vezes, reduz a armadura dele em 60 por 8 s (+8 s por acúmulo).",
+          "why": "Os 6 bagos da postura defensiva chegam a 5 acertos num disparo só. Depois disso, as balas normais batem mais forte."
+        }
+      ]
     },
     {
-     "icon": "laser-scope",
-     "pt": "Mira Laser",
-     "en": "Laser Scope",
-     "prio": 2,
-     "qty": "1",
-     "effect": "Acertos Críticos causam 100% (+100% por acúmulo) de dano extra.",
-     "why": "O tiro Traçante é crítico garantido, então este item sempre rende, mesmo sem outros itens de crítico."
+      "id": "chefe",
+      "name": "Chefe",
+      "color": "amarelo",
+      "intro": "Itens de chefe só caem de chefes de teleporte.",
+      "items": [
+        {
+          "icon": "irradiant-pearl",
+          "pt": "Pérola Irradiante",
+          "en": "Irradiant Pearl",
+          "prio": 2,
+          "qty": "1 ou mais",
+          "effect": "Aumenta TODOS os atributos em 10% (+10% por acúmulo).",
+          "why": "Vida, armadura, dano e velocidade de ataque de uma vez. Tudo o que um tanque com escopeta usa."
+        },
+        {
+          "icon": "molten-perforator",
+          "pt": "Perfurador Fundido",
+          "en": "Molten Perforator",
+          "prio": 3,
+          "qty": "1",
+          "effect": "10% de chance ao acertar de lançar 3 bolas de magma do inimigo, causando 300% (+300% por acúmulo) de dano cada.",
+          "why": "Mais um efeito ao acertar para as balas e os bagos."
+        }
+      ]
     },
     {
-     "icon": "57-leaf-clover",
-     "pt": "Trevo 57",
-     "en": "57 Leaf Clover",
-     "prio": 3,
-     "qty": "1",
-     "effect": "Todos os efeitos aleatórios são rolados +1 (+1 por acúmulo) vez a seu favor.",
-     "why": "Melhora crítico, Míssil e Ukulele. Com poucos tiros por segundo, cada rolagem a mais conta."
+      "id": "equipamento",
+      "name": "Equipamentos",
+      "color": "laranja",
+      "intro": "Só dá para carregar um. O Enforcer já tem defesa; os melhores equipamentos aumentam o dano.",
+      "items": [
+        {
+          "icon": "gorags-opus",
+          "pt": "Opus de Gorag",
+          "en": "Gorag's Opus",
+          "prio": 1,
+          "qty": "1 (recarga 45 s)",
+          "effect": "Todos os aliados entram em frenesi por 7 s: +50% de movimento e +100% de velocidade de ataque.",
+          "why": "Dobra a cadência e acelera a recarga da Trenchbroom por 7 s. O movimento extra também compensa a lentidão da postura."
+        },
+        {
+          "icon": "ocular-hud",
+          "pt": "Visor Ocular",
+          "en": "Ocular HUD",
+          "prio": 2,
+          "qty": "1 (recarga 60 s)",
+          "effect": "+100% de chance de Acerto Crítico por 8 s.",
+          "why": "Todo tiro vira crítico, não só o Traçante. Com Foice e Mira Laser, é cura e dano dobrados por 8 s."
+        },
+        {
+          "icon": "royal-capacitor",
+          "pt": "Capacitor Régio",
+          "en": "Royal Capacitor",
+          "prio": 2,
+          "qty": "1 (recarga 20 s)",
+          "effect": "Raio em um monstro marcado causando 3000% de dano e atordoando os monstros próximos.",
+          "why": "Dano grande a cada 20 s em elites e voadores, enquanto você segura a posição com o escudo."
+        },
+        {
+          "icon": "primordial-cube",
+          "pt": "Cubo Primordial",
+          "en": "Primordial Cube",
+          "prio": 3,
+          "qty": "1 (recarga 60 s)",
+          "effect": "Buraco negro que puxa inimigos a até 30 m para o centro por 10 s.",
+          "why": "Junta o grupo à sua frente: o escudo bloqueia tudo de um lado só e os bagos perfurantes acertam vários."
+        },
+        {
+          "icon": "jade-elephant",
+          "pt": "Elefante de Jade",
+          "en": "Jade Elephant",
+          "prio": 4,
+          "qty": "1 (recarga 45 s)",
+          "effect": "Ganha 500 de armadura por 5 s.",
+          "why": "Proteção contra ataques que vêm de todos os lados, onde o escudo frontal não ajuda."
+        }
+      ]
     },
     {
-     "icon": "shattering-justice",
-     "pt": "Justiça Destruidora",
-     "en": "Shattering Justice",
-     "prio": 3,
-     "qty": "1",
-     "effect": "Depois de acertar um inimigo 5 vezes, reduz a armadura dele em 60 por 8 s (+8 s por acúmulo).",
-     "why": "Os 6 bagos da postura defensiva chegam a 5 acertos num disparo só. Depois disso, as balas normais batem mais forte."
+      "id": "lunar",
+      "name": "Lunares",
+      "color": "azul",
+      "intro": "Itens lunares têm custo embutido. Nenhum é obrigatório.",
+      "items": [
+        {
+          "icon": "purity",
+          "pt": "Pureza",
+          "en": "Purity",
+          "prio": 3,
+          "qty": "1",
+          "effect": "Reduz todas as recargas de habilidade em 2 s (+1 s por acúmulo). Todos os efeitos aleatórios são rolados +1 (+1 por acúmulo) vez contra você.",
+          "why": "Steel Protection cai de 4 para 2 s e Shield Tackle de 6 para 4 s. O custo é piorar crítico, Míssil e Ukulele."
+        },
+        {
+          "icon": "shaped-glass",
+          "pt": "Vidro Configurado",
+          "en": "Shaped Glass",
+          "prio": 4,
+          "qty": "1 (só se estiver confortável)",
+          "effect": "+100% (+100% por acúmulo) de dano base. −50% (−50% por acúmulo) de vida máxima.",
+          "why": "Dobra as balas. A wiki diz que o reflexo do aparo não depende do atributo de dano, então ele não melhora. A barreira do Rally Point também cai, porque é baseada na vida máxima."
+        },
+        {
+          "icon": "stone-flux-pauldron",
+          "pt": "Ombreira do Fluxo Pétreo",
+          "en": "Stone Flux Pauldron",
+          "prio": 4,
+          "qty": "1",
+          "effect": "+100% (+100% por acúmulo) de vida máxima. −50% (−50% por acúmulo) de velocidade de movimento.",
+          "why": "Dobra a vida e a barreira do Rally Point, que é 20% da vida máxima. O Enforcer já é lento na postura, então pese o custo."
+        },
+        {
+          "icon": "light-flux-pauldron",
+          "pt": "Ombreira do Fluxo Iluminado",
+          "en": "Light Flux Pauldron",
+          "prio": 0,
+          "qty": "0",
+          "effect": "−50% (−50% por acúmulo) no tempo de recarga das habilidades. −50% (−50% por acúmulo) de velocidade de ataque.",
+          "why": "Metade da velocidade de ataque deixa a Trenchbroom mais lenta para atirar e para recarregar. A base do dano sofre mais do que as recargas ganham."
+        }
+      ]
+    },
+    {
+      "id": "vazio",
+      "name": "Vazio",
+      "color": "roxo",
+      "intro": "Itens do Vazio (DLC Survivors of the Void) corrompem itens comuns quando pegos. Veja o que vai perder antes.",
+      "items": [
+        {
+          "icon": "lysate-cell",
+          "pt": "Célula Lisada",
+          "en": "Lysate Cell",
+          "prio": 1,
+          "qty": "1 a 2",
+          "effect": "+1 (+1 por acúmulo) carga da habilidade Especial e −33% no tempo de recarga dela. Corrompe todas as Células de Combustível.",
+          "why": "O Rally Point tem 24 s de recarga. Com o item, cai para cerca de 16 s e ganha uma segunda carga: mais barreira e mais ativações de Estandarte e Margarida."
+        },
+        {
+          "icon": "safer-spaces",
+          "pt": "Espaços Seguros",
+          "en": "Safer Spaces",
+          "prio": 3,
+          "qty": "1 a 2",
+          "effect": "Bloqueia dano recebido uma vez. Recarrega após 13,5 s (−10% por acúmulo). Corrompe todos os Tempos Difíceis.",
+          "why": "Bloqueio garantido contra um golpe grande pelas costas. Corrompe os Tempos Difíceis que você recomendou; escolha um dos dois."
+        },
+        {
+          "icon": "polylute",
+          "pt": "Polialaúde",
+          "en": "Polylute",
+          "prio": 3,
+          "qty": "1 a 2",
+          "effect": "25% de chance de disparar um raio de 60% de dano TOTAL até 3 (+3 por acúmulo) vezes. Corrompe todos os Ukuleles.",
+          "why": "Bom contra chefes, alvo único como a bala. Corrompe os seus Ukuleles."
+        },
+        {
+          "icon": "plasma-shrimp",
+          "pt": "Camarão de Plasma",
+          "en": "Plasma Shrimp",
+          "prio": 4,
+          "qty": "1",
+          "effect": "Ganha escudo de 10% da vida máxima. Com escudo, cada acerto dispara um míssil de 40% (+40% por acúmulo) de dano TOTAL. Corrompe todos os Mísseis ASM Mk. 1.",
+          "why": "O escudo também alimenta a explosão da Surge Protection. Corrompe os seus Mísseis ASM."
+        }
+      ]
     }
-   ]
-  },
-  {
-   "id": "chefe",
-   "name": "Chefe",
-   "color": "amarelo",
-   "intro": "Itens de chefe só caem de chefes de teleporte.",
-   "items": [
+  ],
+  "synergy": [
     {
-     "icon": "irradiant-pearl",
-     "pt": "Pérola Irradiante",
-     "en": "Irradiant Pearl",
-     "prio": 2,
-     "qty": "1 ou mais",
-     "effect": "Aumenta TODOS os atributos em 10% (+10% por acúmulo).",
-     "why": "Vida, armadura, dano e velocidade de ataque de uma vez. Tudo o que um tanque com escopeta usa."
+      "title": "Postura, recarga e Traçante",
+      "text": "Sair da Steel Protection recarrega o pente inteiro e prepara o tiro Traçante. Se o pente estava cheio, o tiro que o esvazia é crítico garantido. Por isso o ciclo é atirar, entrar na postura quando o perigo aumentar e sair dela com o golpe de escudo. A Cabeça Alienígena encurta esse ciclo."
     },
     {
-     "icon": "molten-perforator",
-     "pt": "Perfurador Fundido",
-     "en": "Molten Perforator",
-     "prio": 3,
-     "qty": "1",
-     "effect": "10% de chance ao acertar de lançar 3 bolas de magma do inimigo, causando 300% (+300% por acúmulo) de dano cada.",
-     "why": "Mais um efeito ao acertar para as balas e os bagos."
+      "title": "Velocidade de ataque na Trenchbroom",
+      "text": "A wiki diz que velocidade de ataque reduz o intervalo entre disparos e os dois tempos de recarga. Na forma normal a recarga leva 2,7 s do pente vazio; na postura, 4,29 s. Seringa, Instintos e Opus de Gorag diminuem esses números e aumentam o dano ao mesmo tempo."
+    },
+    {
+      "title": "Aparo e crítico",
+      "text": "Golpes bloqueados entre 0,5 s antes e 0,15 s depois do golpe de escudo são refletidos com 6× o dano bloqueado. Esse valor independe do seu atributo de dano e pode ser crítico. O primeiro aparo dá +200 de armadura até o fim do golpe de escudo. Óculos e Visor Ocular aumentam o reflexo; o Vidro Configurado não."
+    },
+    {
+      "title": "O farol do Rally Point",
+      "text": "O farol é uma zona de resistência de 30 m por 16 s. Ao colocar, aliados dentro ganham barreira de 20% da vida máxima do Enforcer, e cada abate dentro dá mais 10% a todos. A wiki lista Margarida de Lépton e Estandarte de Guerra entre os itens que ativam nele. A Convergência Concentrada não o afeta."
+    },
+    {
+      "title": "Escudo só na frente",
+      "text": "Steel Protection e Shield Tackle bloqueiam apenas ataques frontais. Tempos Difíceis, Placa da Armadura de Repulsão e Elefante de Jade cobrem os lados e as costas. Mantenha os inimigos à sua frente com a investida e o Cubo Primordial."
     }
-   ]
-  },
-  {
-   "id": "equipamento",
-   "name": "Equipamentos",
-   "color": "laranja",
-   "intro": "Só dá para carregar um. O Enforcer já tem defesa; os melhores equipamentos aumentam o dano.",
-   "items": [
+  ],
+  "rotation": [
     {
-     "icon": "gorags-opus",
-     "pt": "Opus de Gorag",
-     "en": "Gorag's Opus",
-     "prio": 1,
-     "qty": "1 (recarga 45 s)",
-     "effect": "Todos os aliados entram em frenesi por 7 s: +50% de movimento e +100% de velocidade de ataque.",
-     "why": "Dobra a cadência e acelera a recarga da Trenchbroom por 7 s. O movimento extra também compensa a lentidão da postura."
+      "step": "Rally Point no grupo",
+      "text": "Atordoa ao cair e coloca o farol, que dá barreira a você e aos aliados."
     },
     {
-     "icon": "ocular-hud",
-     "pt": "Visor Ocular",
-     "en": "Ocular HUD",
-     "prio": 2,
-     "qty": "1 (recarga 60 s)",
-     "effect": "+100% de chance de Acerto Crítico por 8 s.",
-     "why": "Todo tiro vira crítico, não só o Traçante. Com Foice e Mira Laser, é cura e dano dobrados por 8 s."
+      "step": "Esvazie o pente",
+      "text": "Atire as 6 balas; com o pente cheio, a última é crítico garantido."
     },
     {
-     "icon": "royal-capacitor",
-     "pt": "Capacitor Régio",
-     "en": "Royal Capacitor",
-     "prio": 2,
-     "qty": "1 (recarga 20 s)",
-     "effect": "Raio em um monstro marcado causando 3000% de dano e atordoando os monstros próximos.",
-     "why": "Dano grande a cada 20 s em elites e voadores, enquanto você segura a posição com o escudo."
+      "step": "Steel Protection",
+      "text": "Entre na postura quando o dano apertar e bloqueie pela frente."
     },
     {
-     "icon": "primordial-cube",
-     "pt": "Cubo Primordial",
-     "en": "Primordial Cube",
-     "prio": 3,
-     "qty": "1 (recarga 60 s)",
-     "effect": "Buraco negro que puxa inimigos a até 30 m para o centro por 10 s.",
-     "why": "Junta o grupo à sua frente: o escudo bloqueia tudo de um lado só e os bagos perfurantes acertam vários."
+      "step": "Golpe de escudo no ataque inimigo",
+      "text": "Saia logo antes do golpe chegar para aparar, refletir e recarregar o pente."
     },
     {
-     "icon": "jade-elephant",
-     "pt": "Elefante de Jade",
-     "en": "Jade Elephant",
-     "prio": 4,
-     "qty": "1 (recarga 45 s)",
-     "effect": "Ganha 500 de armadura por 5 s.",
-     "why": "Proteção contra ataques que vêm de todos os lados, onde o escudo frontal não ajuda."
+      "step": "Shield Tackle para reposicionar",
+      "text": "Atordoe e empurre os inimigos que tentam cercar você."
     }
-   ]
-  },
-  {
-   "id": "lunar",
-   "name": "Lunares",
-   "color": "azul",
-   "intro": "Itens lunares têm custo embutido. Nenhum é obrigatório.",
-   "items": [
+  ],
+  "essentials": [
     {
-     "icon": "purity",
-     "pt": "Pureza",
-     "en": "Purity",
-     "prio": 3,
-     "qty": "1",
-     "effect": "Reduz todas as recargas de habilidade em 2 s (+1 s por acúmulo). Todos os efeitos aleatórios são rolados +1 (+1 por acúmulo) vez contra você.",
-     "why": "Steel Protection cai de 4 para 2 s e Shield Tackle de 6 para 4 s. O custo é piorar crítico, Míssil e Ukulele."
+      "pt": "Seringa Militar",
+      "en": "Soldier's Syringe"
     },
     {
-     "icon": "shaped-glass",
-     "pt": "Vidro Configurado",
-     "en": "Shaped Glass",
-     "prio": 4,
-     "qty": "1 (só se estiver confortável)",
-     "effect": "+100% (+100% por acúmulo) de dano base. −50% (−50% por acúmulo) de vida máxima.",
-     "why": "Dobra as balas. A wiki diz que o reflexo do aparo não depende do atributo de dano, então ele não melhora. A barreira do Rally Point também cai, porque é baseada na vida máxima."
+      "pt": "Óculos do Fabricante de Lentes",
+      "en": "Lens-Maker's Glasses"
     },
     {
-     "icon": "stone-flux-pauldron",
-     "pt": "Ombreira do Fluxo Pétreo",
-     "en": "Stone Flux Pauldron",
-     "prio": 4,
-     "qty": "1",
-     "effect": "+100% (+100% por acúmulo) de vida máxima. −50% (−50% por acúmulo) de velocidade de movimento.",
-     "why": "Dobra a vida e a barreira do Rally Point, que é 20% da vida máxima. O Enforcer já é lento na postura, então pese o custo."
+      "pt": "Foice do Ceifador",
+      "en": "Harvester's Scythe"
     },
     {
-     "icon": "light-flux-pauldron",
-     "pt": "Ombreira do Fluxo Iluminado",
-     "en": "Light Flux Pauldron",
-     "prio": 0,
-     "qty": "0",
-     "effect": "−50% (−50% por acúmulo) no tempo de recarga das habilidades. −50% (−50% por acúmulo) de velocidade de ataque.",
-     "why": "Metade da velocidade de ataque deixa a Trenchbroom mais lenta para atirar e para recarregar. A base do dano sofre mais do que as recargas ganham."
+      "pt": "Cabeça Alienígena",
+      "en": "Alien Head"
+    },
+    {
+      "pt": "Brutamontes Reluzente",
+      "en": "Brilliant Behemoth"
+    },
+    {
+      "pt": "Célula Lisada",
+      "en": "Lysate Cell"
+    },
+    {
+      "pt": "Opus de Gorag",
+      "en": "Gorag's Opus"
     }
-   ]
-  },
-  {
-   "id": "vazio",
-   "name": "Vazio",
-   "color": "roxo",
-   "intro": "Itens do Vazio (DLC Survivors of the Void) corrompem itens comuns quando pegos. Veja o que vai perder antes.",
-   "items": [
+  ],
+  "situational_note": "Situacionais: Estandarte de Guerra, Margarida de Lépton, Cinturão de Kjaro (com Shrapnel Grenade), Broche de Topázio (com Surge Protection), Justiça Destruidora, Espaços Seguros, Pureza e os demais lunares.",
+  "fallbacks": [
     {
-     "icon": "lysate-cell",
-     "pt": "Célula Lisada",
-     "en": "Lysate Cell",
-     "prio": 1,
-     "qty": "1 a 2",
-     "effect": "+1 (+1 por acúmulo) carga da habilidade Especial e −33% no tempo de recarga dela. Corrompe todas as Células de Combustível.",
-     "why": "O Rally Point tem 24 s de recarga. Com o item, cai para cerca de 16 s e ganha uma segunda carga: mais barreira e mais ativações de Estandarte e Margarida."
+      "pt": "Seringa Militar",
+      "en": "Soldier's Syringe",
+      "text": "Mocha ou Instintos Predatórios, e Opus de Gorag como equipamento."
     },
     {
-     "icon": "safer-spaces",
-     "pt": "Espaços Seguros",
-     "en": "Safer Spaces",
-     "prio": 3,
-     "qty": "1 a 2",
-     "effect": "Bloqueia dano recebido uma vez. Recarrega após 13,5 s (−10% por acúmulo). Corrompe todos os Tempos Difíceis.",
-     "why": "Bloqueio garantido contra um golpe grande pelas costas. Corrompe os Tempos Difíceis que você recomendou; escolha um dos dois."
+      "pt": "Óculos do Fabricante de Lentes",
+      "en": "Lens-Maker's Glasses",
+      "text": "Conte com o tiro Traçante e junte os 5% de Foice e Instintos. Visor Ocular para chefes."
     },
     {
-     "icon": "polylute",
-     "pt": "Polialaúde",
-     "en": "Polylute",
-     "prio": 3,
-     "qty": "1 a 2",
-     "effect": "25% de chance de disparar um raio de 60% de dano TOTAL até 3 (+3 por acúmulo) vezes. Corrompe todos os Ukuleles.",
-     "why": "Bom contra chefes, alvo único como a bala. Corrompe os seus Ukuleles."
+      "pt": "Foice do Ceifador",
+      "en": "Harvester's Scythe",
+      "text": "Semente Sanguessuga usando mais a postura defensiva, e o farol do Rally Point para barreira."
     },
     {
-     "icon": "plasma-shrimp",
-     "pt": "Camarão de Plasma",
-     "en": "Plasma Shrimp",
-     "prio": 4,
-     "qty": "1",
-     "effect": "Ganha escudo de 10% da vida máxima. Com escudo, cada acerto dispara um míssil de 40% (+40% por acúmulo) de dano TOTAL. Corrompe todos os Mísseis ASM Mk. 1.",
-     "why": "O escudo também alimenta a explosão da Surge Protection. Corrompe os seus Mísseis ASM."
+      "pt": "Cabeça Alienígena",
+      "en": "Alien Head",
+      "text": "Pós-combustor para a investida e Pureza se aceitar o custo nos efeitos de chance."
+    },
+    {
+      "pt": "Brutamontes Reluzente",
+      "en": "Brilliant Behemoth",
+      "text": "Ukulele e Míssil ASM para levar o dano da bala aos inimigos próximos."
+    },
+    {
+      "pt": "Célula Lisada",
+      "en": "Lysate Cell",
+      "text": "Cabeça Alienígena. Sem as duas, considere Crash Point, que tem só 7 s de recarga."
+    },
+    {
+      "pt": "Opus de Gorag",
+      "en": "Gorag's Opus",
+      "text": "Visor Ocular com Mira Laser, ou Capacitor Régio para elites."
     }
-   ]
-  }
- ],
- "synergy": [
-  {
-   "title": "Postura, recarga e Traçante",
-   "text": "Sair da Steel Protection recarrega o pente inteiro e prepara o tiro Traçante. Se o pente estava cheio, o tiro que o esvazia é crítico garantido. Por isso o ciclo é atirar, entrar na postura quando o perigo aumentar e sair dela com o golpe de escudo. A Cabeça Alienígena encurta esse ciclo."
-  },
-  {
-   "title": "Velocidade de ataque na Trenchbroom",
-   "text": "A wiki diz que velocidade de ataque reduz o intervalo entre disparos e os dois tempos de recarga. Na forma normal a recarga leva 2,7 s do pente vazio; na postura, 4,29 s. Seringa, Instintos e Opus de Gorag diminuem esses números e aumentam o dano ao mesmo tempo."
-  },
-  {
-   "title": "Aparo e crítico",
-   "text": "Golpes bloqueados entre 0,5 s antes e 0,15 s depois do golpe de escudo são refletidos com 6× o dano bloqueado. Esse valor independe do seu atributo de dano e pode ser crítico. O primeiro aparo dá +200 de armadura até o fim do golpe de escudo. Óculos e Visor Ocular aumentam o reflexo; o Vidro Configurado não."
-  },
-  {
-   "title": "O farol do Rally Point",
-   "text": "O farol é uma zona de resistência de 30 m por 16 s. Ao colocar, aliados dentro ganham barreira de 20% da vida máxima do Enforcer, e cada abate dentro dá mais 10% a todos. A wiki lista Margarida de Lépton e Estandarte de Guerra entre os itens que ativam nele. A Convergência Concentrada não o afeta."
-  },
-  {
-   "title": "Escudo só na frente",
-   "text": "Steel Protection e Shield Tackle bloqueiam apenas ataques frontais. Tempos Difíceis, Placa da Armadura de Repulsão e Elefante de Jade cobrem os lados e as costas. Mantenha os inimigos à sua frente com a investida e o Cubo Primordial."
-  }
- ],
- "rotation": [
-  {
-   "step": "Rally Point no grupo",
-   "text": "Atordoa ao cair e coloca o farol, que dá barreira a você e aos aliados."
-  },
-  {
-   "step": "Esvazie o pente",
-   "text": "Atire as 6 balas; com o pente cheio, a última é crítico garantido."
-  },
-  {
-   "step": "Steel Protection",
-   "text": "Entre na postura quando o dano apertar e bloqueie pela frente."
-  },
-  {
-   "step": "Golpe de escudo no ataque inimigo",
-   "text": "Saia logo antes do golpe chegar para aparar, refletir e recarregar o pente."
-  },
-  {
-   "step": "Shield Tackle para reposicionar",
-   "text": "Atordoe e empurre os inimigos que tentam cercar você."
-  }
- ],
- "essentials": [
-  {
-   "pt": "Seringa Militar",
-   "en": "Soldier's Syringe"
-  },
-  {
-   "pt": "Óculos do Fabricante de Lentes",
-   "en": "Lens-Maker's Glasses"
-  },
-  {
-   "pt": "Foice do Ceifador",
-   "en": "Harvester's Scythe"
-  },
-  {
-   "pt": "Cabeça Alienígena",
-   "en": "Alien Head"
-  },
-  {
-   "pt": "Brutamontes Reluzente",
-   "en": "Brilliant Behemoth"
-  },
-  {
-   "pt": "Célula Lisada",
-   "en": "Lysate Cell"
-  },
-  {
-   "pt": "Opus de Gorag",
-   "en": "Gorag's Opus"
-  }
- ],
- "situational_note": "Situacionais: Estandarte de Guerra, Margarida de Lépton, Cinturão de Kjaro (com Shrapnel Grenade), Broche de Topázio (com Surge Protection), Justiça Destruidora, Espaços Seguros, Pureza e os demais lunares.",
- "fallbacks": [
-  {
-   "pt": "Seringa Militar",
-   "en": "Soldier's Syringe",
-   "text": "Mocha ou Instintos Predatórios, e Opus de Gorag como equipamento."
-  },
-  {
-   "pt": "Óculos do Fabricante de Lentes",
-   "en": "Lens-Maker's Glasses",
-   "text": "Conte com o tiro Traçante e junte os 5% de Foice e Instintos. Visor Ocular para chefes."
-  },
-  {
-   "pt": "Foice do Ceifador",
-   "en": "Harvester's Scythe",
-   "text": "Semente Sanguessuga usando mais a postura defensiva, e o farol do Rally Point para barreira."
-  },
-  {
-   "pt": "Cabeça Alienígena",
-   "en": "Alien Head",
-   "text": "Pós-combustor para a investida e Pureza se aceitar o custo nos efeitos de chance."
-  },
-  {
-   "pt": "Brutamontes Reluzente",
-   "en": "Brilliant Behemoth",
-   "text": "Ukulele e Míssil ASM para levar o dano da bala aos inimigos próximos."
-  },
-  {
-   "pt": "Célula Lisada",
-   "en": "Lysate Cell",
-   "text": "Cabeça Alienígena. Sem as duas, considere Crash Point, que tem só 7 s de recarga."
-  },
-  {
-   "pt": "Opus de Gorag",
-   "en": "Gorag's Opus",
-   "text": "Visor Ocular com Mira Laser, ou Capacitor Régio para elites."
-  }
- ],
- "summary": "Big Man, Trenchbroom, Steel Protection, Shield Tackle e Rally Point. Esvazie o pente com o pente cheio para o crítico garantido, entre na postura defensiva quando o dano apertar e saia dela aparando um golpe para refletir dano e recarregar. Empilhe velocidade de ataque (Seringa) para atirar e recarregar mais rápido, cure com a Foice a cada crítico e encurte as recargas com Cabeça Alienígena e Célula Lisada.",
- "checklist": [
-  {
-   "title": "Sempre pegue",
-   "text": "Seringa Militar, Óculos, Foice do Ceifador, Cabeça Alienígena, Brutamontes, Célula Lisada."
-  },
-  {
-   "title": "Impressoras brancas",
-   "text": "Transforme em Seringa Militar até umas 6, depois Óculos."
-  },
-  {
-   "title": "Primeiro verde",
-   "text": "Foice do Ceifador. Depois Instintos Predatórios ou Míssil ASM."
-  },
-  {
-   "title": "Equipamento",
-   "text": "Opus de Gorag; Visor Ocular se já tiver Mira Laser."
-  },
-  {
-   "title": "Antes de pegar Vazio",
-   "text": "Espaços Seguros corrompe Tempos Difíceis; Polialaúde corrompe Ukuleles; Camarão de Plasma corrompe Mísseis ASM."
-  },
-  {
-   "title": "Não pegue",
-   "text": "Ombreira do Fluxo Iluminado: deixa o disparo e a recarga da Trenchbroom muito mais lentos."
-  },
-  {
-   "title": "Luta de chefe",
-   "text": "Rally Point para a barreira, pente cheio para o Traçante e postura para aparar os ataques grandes."
-  }
- ],
- "sources": [
-  {
-   "title": "Enforcer — Risk of Rain 2 Wiki",
-   "url": "https://riskofrain2.wiki.gg/wiki/Enforcer"
-  },
-  {
-   "title": "Items — Risk of Rain 2 Wiki",
-   "url": "https://riskofrain2.wiki.gg/wiki/Items"
-  }
- ],
- "notes": [
-  "A DLC Hallowed Concepts é muito nova (lançada em 8 de outubro de 2026). Este guia usa só itens do jogo base e das três DLCs anteriores, então pode mudar conforme a comunidade testar o personagem.",
-  "O Enforcer e suas habilidades ainda não estão no arquivo de textos em português, por isso os nomes aparecem em inglês.",
-  "Requer a DLC Hallowed Concepts ativa ao começar a run. A wiki diz que ele vem desbloqueado.",
-  "As seções de Dicas e Comportamento da wiki ainda estão vazias. Shrapnel Grenade, Ripcord, Surge Protection e Crash Point têm desafios de desbloqueio cujos requisitos a wiki não descreve.",
-  "A wiki aponta diferenças com o texto do jogo: a Surge Protection não tem o limite de 1800% citado no jogo, a Provocação do Ripcord não faz os inimigos mirarem no Enforcer e o Rally Point dá uma barreira de 20% que o texto não menciona."
- ]
+  ],
+  "summary": "Big Man, Trenchbroom, Steel Protection, Shield Tackle e Rally Point. Esvazie o pente com o pente cheio para o crítico garantido, entre na postura defensiva quando o dano apertar e saia dela aparando um golpe para refletir dano e recarregar. Empilhe velocidade de ataque (Seringa) para atirar e recarregar mais rápido, cure com a Foice a cada crítico e encurte as recargas com Cabeça Alienígena e Célula Lisada.",
+  "checklist": [
+    {
+      "title": "Sempre pegue",
+      "text": "Seringa Militar, Óculos, Foice do Ceifador, Cabeça Alienígena, Brutamontes, Célula Lisada."
+    },
+    {
+      "title": "Impressoras brancas",
+      "text": "Transforme em Seringa Militar até umas 6, depois Óculos."
+    },
+    {
+      "title": "Primeiro verde",
+      "text": "Foice do Ceifador. Depois Instintos Predatórios ou Míssil ASM."
+    },
+    {
+      "title": "Equipamento",
+      "text": "Opus de Gorag; Visor Ocular se já tiver Mira Laser."
+    },
+    {
+      "title": "Antes de pegar Vazio",
+      "text": "Espaços Seguros corrompe Tempos Difíceis; Polialaúde corrompe Ukuleles; Camarão de Plasma corrompe Mísseis ASM."
+    },
+    {
+      "title": "Não pegue",
+      "text": "Ombreira do Fluxo Iluminado: deixa o disparo e a recarga da Trenchbroom muito mais lentos."
+    },
+    {
+      "title": "Luta de chefe",
+      "text": "Rally Point para a barreira, pente cheio para o Traçante e postura para aparar os ataques grandes."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Enforcer — Risk of Rain 2 Wiki",
+      "url": "https://riskofrain2.wiki.gg/wiki/Enforcer"
+    },
+    {
+      "title": "Items — Risk of Rain 2 Wiki",
+      "url": "https://riskofrain2.wiki.gg/wiki/Items"
+    }
+  ],
+  "notes": [
+    "A DLC Hallowed Concepts é muito nova (lançada em 8 de outubro de 2026). Este guia usa só itens do jogo base e das três DLCs anteriores, então pode mudar conforme a comunidade testar o personagem.",
+    "O Enforcer e suas habilidades ainda não estão no arquivo de textos em português, por isso os nomes aparecem em inglês.",
+    "Requer a DLC Hallowed Concepts ativa ao começar a run. A wiki diz que ele vem desbloqueado.",
+    "A seção de Dicas da wiki ainda está vazia. As alternativas vêm de desafios: Burning Lead (Shrapnel Grenade), +PARRY (Surge Protection), Safe and Sound (Ripcord) e Indomitable (Crash Point). A wiki só descreve o +PARRY: aparar a supernova de uma Peregrina Errante (Wandering Vagrant).",
+    "A wiki aponta diferenças com o texto do jogo: a Surge Protection não tem o limite de 1800% citado no jogo, a Provocação do Ripcord não faz os inimigos mirarem no Enforcer e o Rally Point dá uma barreira de 20% que o texto não menciona."
+  ]
 }

@@ -1,540 +1,662 @@
 {
- "id": "mult",
- "name_pt": "MUL-T",
- "name_en": "MUL-T",
- "title": "MUL-T: Build de Pregos em Dobro",
- "tagline": "Duas pistolas de pregos e muita armadura",
- "lede": "O MUL-T tem 200 de vida e 12 de armadura, o mais resistente dos sobreviventes iniciais. No Modo de Força ele usa as duas primárias ao mesmo tempo e ganha 100 de armadura; com duas Pistolas de Pregos, são 24 pregos por segundo rolando itens ao acertar. A build empilha velocidade de ataque e itens de chance e luta de perto.",
- "loadout": [
-  {"slot": "Primária 1", "skill": "Pistola de Pregos Automática (Auto-Nailgun)"},
-  {"slot": "Primária 2", "skill": "Pistola de Pregos Automática (Auto-Nailgun)"},
-  {"slot": "Secundária", "skill": "Filtro Explosivo (Blast Canister)"},
-  {"slot": "Utilitária", "skill": "Modo de Transporte (Transport Mode)"},
-  {"slot": "Especial", "skill": "Modo de Força (Power Mode)"}
- ],
- "skills": [
-  {
-   "slot": "Primária",
-   "pt": "Pistola de Pregos Automática",
-   "en": "Auto-Nailgun",
-   "pick": "Recomendada",
-   "spec": "70% por prego, 12 pregos por segundo (840% de dano por segundo). Termina com uma rajada de 12 pregos. Coeficiente 0,6.",
-   "why": "Dano contínuo alto e muitos acertos por segundo. Os pregos perdem dano com a distância e somem depois de 40 m, então lute perto. Depois de soltar o botão há 1,152 s de desaceleração."
-  },
-  {
-   "slot": "Primária (alt.)",
-   "pt": "Perfurador de Barra",
-   "en": "Rebar Puncher",
-   "pick": "Variante",
-   "spec": "Perfurante. Barra de 600%, 1,8 s entre tiros na velocidade base (333% de dano por segundo). Coeficiente 1,0.",
-   "why": "Bom como segunda primária para derrubar elites de longe e atravessar filas. Passa de 400%, então ativa os Cinturões. A wiki cita a combinação com Pé de Cabra, mas outras fontes de dano tiram o alvo de cima de 90% de vida antes."
-  },
-  {
-   "slot": "Primária (alt.)",
-   "pt": "Lançador de Sucata",
-   "en": "Scrap Launcher",
-   "pick": "Variante",
-   "spec": "Foguete de 360% com explosão de 7 m. 4 cargas que recarregam juntas em 1,5 s (600% de dano por segundo). Coeficiente 1,0. Desbloqueio: MUL-T: Pest Control.",
-   "why": "Dano em área próprio. A wiki diz que ativa o Brutamontes pelo menos duas vezes por acerto direto e que a Pureza leva a recarga ao mínimo de 0,5 s. Perde dano fora do centro da explosão."
-  },
-  {
-   "slot": "Primária (alt.)",
-   "pt": "Serra Elétrica",
-   "en": "Power-Saw",
-   "pick": "Variante",
-   "spec": "100% por golpe, 10 golpes por segundo na velocidade base (1000% de dano por segundo). Coeficiente 1,0. Desbloqueio: MUL-T: Gotcha!.",
-   "why": "Mais dano e coeficiente cheio, mas só alcança quem está colado. Puxa o MUL-T para o alvo e funciona correndo ou no Modo de Transporte. Como Primária 1 ao lado da Pistola, tira toda a dispersão dos pregos."
-  },
-  {
-   "slot": "Secundária",
-   "pt": "Filtro Explosivo",
-   "en": "Blast Canister",
-   "pick": "Única opção",
-   "spec": "Atordoante. Filtro de 220% que solta bombinhas atordoantes de 5 × 44%. Recarga 6 s. Coeficiente 1,0 no filtro, 0,3 nas bombinhas.",
-   "why": "Atordoa o grupo para os pregos acertarem com segurança. O Pente Reserva dá cargas extras, e sair do Modo de Força restaura todas as cargas."
-  },
-  {
-   "slot": "Utilitária",
-   "pt": "Modo de Transporte",
-   "en": "Transport Mode",
-   "pick": "Única opção",
-   "spec": "Pesado, Ágil. Investida com 200 de armadura e 220% de velocidade de movimento; atropelo de 250%. Recarga 6 s, que só começa quando a habilidade termina.",
-   "why": "Fuga e reposicionamento. O dano cresce com o atributo de velocidade de movimento. Atropelar um inimigo grande encerra a investida, causa 4× de dano e atordoa. Ativar antes de cair reduz o dano de queda."
-  },
-  {
-   "slot": "Especial",
-   "pt": "Reequipar",
-   "en": "Retool",
-   "pick": "Variante",
-   "spec": "Ágil. Alterna a primária e o equipamento ativo. Recarga 0,5 s; a troca leva 0,4 s.",
-   "why": "Permite carregar dois equipamentos. Use enquanto o Modo de Força não estiver desbloqueado. A Célula de Combustível rende mais aqui, com dois equipamentos para recarregar."
-  },
-  {
-   "slot": "Especial (alt.)",
-   "pt": "Modo de Força",
-   "en": "Power Mode",
-   "pick": "Recomendada",
-   "spec": "Usa as duas primárias ao mesmo tempo. +100 de armadura e −60% de velocidade de movimento. Recarga 5 s. Desbloqueio: MUL-T: Seventh Day.",
-   "why": "Segundo a wiki, pode quase dobrar o dano. Com duas Pistolas de Pregos, dobra as ativações ao acertar, o que compensa o coeficiente 0,6. A lentidão é o custo: entre e saia conforme a luta."
-  }
- ],
- "sections": [
-  {
-   "id": "comum",
-   "name": "Comum",
-   "color": "branco",
-   "intro": "O MUL-T luta de perto e dispara pregos sem parar. Os brancos dão velocidade de ataque, crítico e dano a curta distância.",
-   "items": [
+  "id": "mult",
+  "name_pt": "MUL-T",
+  "name_en": "MUL-T",
+  "title": "MUL-T: Build de Pregos em Dobro",
+  "tagline": "Duas pistolas de pregos e muita armadura",
+  "lede": "O MUL-T tem 200 de vida e 12 de armadura de base. No Modo de Força ele usa as duas primárias ao mesmo tempo e ganha 100 de armadura; com duas Pistolas de Pregos, são 24 pregos por segundo rolando itens ao acertar. A build empilha velocidade de ataque e itens de chance e luta de perto.",
+  "loadout": [
     {
-     "icon": "soldiers-syringe",
-     "pt": "Seringa Militar",
-     "en": "Soldier's Syringe",
-     "prio": 1,
-     "qty": "4 a 8",
-     "effect": "+15% (+15% por acúmulo) de velocidade de ataque.",
-     "why": "Mais pregos por segundo nas duas pistolas. Cada prego extra é mais uma rolagem para os itens ao acertar."
+      "slot": "Primária 1",
+      "skill": "Pistola de Pregos Automática (Auto-Nailgun)"
     },
     {
-     "icon": "lens-makers-glasses",
-     "pt": "Óculos do Fabricante de Lentes",
-     "en": "Lens-Maker's Glasses",
-     "prio": 1,
-     "qty": "3 a 6",
-     "effect": "10% (+10% por acúmulo) de chance de Acerto Crítico, que causa dano dobrado.",
-     "why": "Dano extra constante em 24 pregos por segundo, e base para Foice e Instintos."
+      "slot": "Primária 2",
+      "skill": "Pistola de Pregos Automática (Auto-Nailgun)"
     },
     {
-     "icon": "focus-crystal",
-     "pt": "Cristal de Foco",
-     "en": "Focus Crystal",
-     "prio": 2,
-     "qty": "2 a 4",
-     "effect": "+20% (+20% por acúmulo) de dano contra inimigos a até 13 m.",
-     "why": "Os pregos perdem dano com a distância, então você já luta perto. O Cristal recompensa isso."
+      "slot": "Secundária",
+      "skill": "Filtro Explosivo (Blast Canister)"
     },
     {
-     "icon": "tri-tip-dagger",
-     "pt": "Adaga Triangular",
-     "en": "Tri-Tip Dagger",
-     "prio": 2,
-     "qty": "2 a 4",
-     "effect": "10% (+10% por acúmulo) de chance de sangrar um inimigo por 240% do dano base.",
-     "why": "Muitos pregos compensam a chance reduzida pelo coeficiente 0,6."
+      "slot": "Utilitária",
+      "skill": "Modo de Transporte (Transport Mode)"
     },
     {
-     "icon": "armor-piercing-rounds",
-     "pt": "Projéteis Perfurantes",
-     "en": "Armor-Piercing Rounds",
-     "prio": 3,
-     "qty": "1 a 3",
-     "effect": "+20% (+20% por acúmulo) de dano contra chefes.",
-     "why": "O MUL-T aguenta ficar colado no chefe; cada prego bate mais."
-    },
-    {
-     "icon": "repulsion-armor-plate",
-     "pt": "Placa da Armadura de Repulsão",
-     "en": "Repulsion Armor Plate",
-     "prio": 3,
-     "qty": "2 a 5",
-     "effect": "Reduz todo dano recebido em 5 (+5 por acúmulo). Não pode reduzir abaixo de 1.",
-     "why": "Lutando de perto você leva muitos golpes pequenos. A redução fixa corta cada um deles."
-    },
-    {
-     "icon": "backup-magazine",
-     "pt": "Pente Reserva",
-     "en": "Backup Magazine",
-     "prio": 3,
-     "qty": "1 a 3",
-     "effect": "+1 (+1 por acúmulo) carga da habilidade Secundária.",
-     "why": "Mais Filtros Explosivos para atordoar. A wiki observa que sair do Modo de Força restaura todas as cargas."
-    },
-    {
-     "icon": "crowbar",
-     "pt": "Pé de Cabra",
-     "en": "Crowbar",
-     "prio": 4,
-     "qty": "1 a 2 (com Perfurador de Barra)",
-     "effect": "+75% (+75% por acúmulo) de dano contra inimigos acima de 90% de vida.",
-     "why": "Só faz sentido com o Perfurador de Barra, que tira muito de uma vez. Com duas Pistolas de Pregos, o primeiro prego já tira o alvo da faixa."
+      "slot": "Especial",
+      "skill": "Modo de Força (Power Mode)"
     }
-   ]
-  },
-  {
-   "id": "incomum",
-   "name": "Incomum",
-   "color": "verde",
-   "intro": "Os verdes ao acertar rendem pelo volume de pregos, mesmo com o coeficiente 0,6.",
-   "items": [
+  ],
+  "skills": [
     {
-     "icon": "atg-missile-mk-1",
-     "pt": "Míssil ASM Mk. 1",
-     "en": "AtG Missile Mk. 1",
-     "prio": 1,
-     "qty": "2 a 4",
-     "effect": "10% de chance de disparar um míssil que causa 300% (+300% por acúmulo) de dano TOTAL.",
-     "why": "Com 24 pregos por segundo no Modo de Força, os mísseis saem o tempo todo, mesmo com a chance reduzida pelo coeficiente."
+      "slot": "Passiva",
+      "pt": "Multitarefa",
+      "en": "Multifunctional",
+      "pick": "Fixa",
+      "spec": "Carrega dois equipamentos ao mesmo tempo. O equipamento ativo é alternado ao usar Reequipar.",
+      "why": "Só rende com o Reequipar. Com o Modo de Força, conte com o equipamento ativo."
     },
     {
-     "icon": "ukulele",
-     "pt": "Ukulele",
-     "en": "Ukulele",
-     "prio": 1,
-     "qty": "1 a 3",
-     "effect": "25% de chance de disparar um raio em cadeia de 80% de dano TOTAL em até 3 (+2 por acúmulo) alvos a 20 m (+2 m por acúmulo).",
-     "why": "Espalha o dano dos pregos para os inimigos em volta, que é o que falta à Pistola."
+      "slot": "Primária",
+      "pt": "Pistola de Pregos Automática",
+      "en": "Auto-Nailgun",
+      "pick": "Recomendada",
+      "spec": "70% por prego, 12 pregos por segundo (840% de dano por segundo). Termina com uma rajada de 12 pregos. Coeficiente 0,6.",
+      "why": "Dano contínuo alto e muitos acertos por segundo. Os pregos perdem dano com a distância e somem depois de 40 m, então lute perto. Depois de soltar o botão há 1,152 s de desaceleração."
     },
     {
-     "icon": "harvesters-scythe",
-     "pt": "Foice do Ceifador",
-     "en": "Harvester's Scythe",
-     "prio": 2,
-     "qty": "1 a 2 (com Óculos)",
-     "effect": "+5% de chance de crítico. Críticos curam 8 (+4 por acúmulo) de vida.",
-     "why": "Com tantos pregos, os críticos viram cura constante para quem luta colado."
+      "slot": "Primária (alt.)",
+      "pt": "Perfurador de Barra",
+      "en": "Rebar Puncher",
+      "pick": "Variante",
+      "spec": "Perfurante. Barra de 600%, 1,8 s entre tiros na velocidade base (333% de dano por segundo). Coeficiente 1,0.",
+      "why": "Bom como segunda primária para derrubar elites de longe e atravessar filas. Passa de 400%, então ativa o Cinturão de Kjaro (Kjaro's Band) e o Cinturão de Runald (Runald's Band), que esta build não usa. A wiki cita a combinação com Pé de Cabra, mas outras fontes de dano tiram o alvo de cima de 90% de vida antes."
     },
     {
-     "icon": "leeching-seed",
-     "pt": "Semente Sanguessuga",
-     "en": "Leeching Seed",
-     "prio": 2,
-     "qty": "1 a 2",
-     "effect": "Causar dano cura 1 (+1 por acúmulo) de vida.",
-     "why": "Cura a cada prego. No Modo de Força são 24 acertos por segundo."
+      "slot": "Primária (alt.)",
+      "pt": "Lançador de Sucata",
+      "en": "Scrap Launcher",
+      "pick": "Variante",
+      "spec": "Foguete de 360% com explosão de 7 m. 4 cargas que recarregam juntas em 1,5 s (600% de dano por segundo). Coeficiente 1,0. Desbloqueio: MUL-T: Pest Control.",
+      "why": "Dano em área próprio. A wiki diz que ativa o Brutamontes pelo menos duas vezes por acerto direto e que a Pureza leva a recarga ao mínimo de 0,5 s. Perde dano fora do centro da explosão."
     },
     {
-     "icon": "predatory-instincts",
-     "pt": "Instintos Predatórios",
-     "en": "Predatory Instincts",
-     "prio": 3,
-     "qty": "1 (com Óculos)",
-     "effect": "+5% de chance de crítico. Críticos dão +12% de velocidade de ataque, até 36% (+24% por acúmulo).",
-     "why": "Mais velocidade para as pistolas quando você já tem crítico."
+      "slot": "Primária (alt.)",
+      "pt": "Serra Elétrica",
+      "en": "Power-Saw",
+      "pick": "Variante",
+      "spec": "100% por golpe, 10 golpes por segundo na velocidade base (1000% de dano por segundo). Coeficiente 1,0. Desbloqueio: MUL-T: Gotcha!.",
+      "why": "Mais dano e coeficiente cheio, mas só alcança quem está colado. Puxa o MUL-T para o alvo e funciona correndo ou no Modo de Transporte. Como Primária 1 ao lado da Pistola, tira toda a dispersão dos pregos."
     },
     {
-     "icon": "war-horn",
-     "pt": "Chifre da Guerra",
-     "en": "War Horn",
-     "prio": 3,
-     "qty": "1",
-     "effect": "Ativar o Equipamento dá +70% de velocidade de ataque por 8 s (+4 s por acúmulo).",
-     "why": "Cada uso de equipamento acelera as duas pistolas. Com Reequipar, dois equipamentos dão duas ativações."
+      "slot": "Secundária",
+      "pt": "Filtro Explosivo",
+      "en": "Blast Canister",
+      "pick": "Única opção",
+      "spec": "Atordoante. Filtro de 220% que solta bombinhas atordoantes de 5 × 44%. Recarga 6 s. Coeficiente 1,0 no filtro, 0,3 nas bombinhas.",
+      "why": "Atordoa o grupo para os pregos acertarem com segurança. O Pente Reserva dá cargas extras, e sair do Modo de Força restaura todas as cargas."
     },
     {
-     "icon": "fuel-cell",
-     "pt": "Célula de Combustível",
-     "en": "Fuel Cell",
-     "prio": 4,
-     "qty": "1 a 2 (com Reequipar)",
-     "effect": "Uma carga extra de equipamento (+1 por acúmulo). Reduz a recarga do equipamento em 15% (+15% por acúmulo).",
-     "why": "Mais forte com o Reequipar, que carrega dois equipamentos. No Modo de Força você usa só um."
+      "slot": "Utilitária",
+      "pt": "Modo de Transporte",
+      "en": "Transport Mode",
+      "pick": "Única opção",
+      "spec": "Pesado, Ágil. Investida com 200 de armadura e 220% de velocidade de movimento; atropelo de 250%. Recarga 6 s, que só começa quando a habilidade termina.",
+      "why": "Fuga e reposicionamento. O dano cresce com o atributo de velocidade de movimento. Atropelar um inimigo grande encerra a investida, causa 4× de dano e atordoa. Ativar antes de cair reduz o dano de queda."
     },
     {
-     "icon": "death-mark",
-     "pt": "Marca Fatal",
-     "en": "Death Mark",
-     "prio": 4,
-     "qty": "1",
-     "effect": "Inimigos com 4 ou mais debuffs ficam marcados e recebem 50% a mais de dano de todas as fontes por 7 s (+7 s por acúmulo).",
-     "why": "Atordoamento do Filtro, sangramento e redução de armadura somam debuffs. Só com várias fontes."
+      "slot": "Especial",
+      "pt": "Reequipar",
+      "en": "Retool",
+      "pick": "Variante",
+      "spec": "Ágil. Alterna a primária e o equipamento ativo. Recarga 0,5 s; a troca leva 0,4 s.",
+      "why": "Permite carregar dois equipamentos. Use enquanto o Modo de Força não estiver desbloqueado. A Célula de Combustível rende mais aqui, com dois equipamentos para recarregar."
+    },
+    {
+      "slot": "Especial (alt.)",
+      "pt": "Modo de Força",
+      "en": "Power Mode",
+      "pick": "Recomendada",
+      "spec": "Usa as duas primárias ao mesmo tempo. +100 de armadura. O texto do jogo diz −60% de velocidade de movimento; a wiki corrige: o multiplicador real é 1/1,5, cerca de 66% da velocidade. Recarga 5 s. Desbloqueio: MUL-T: Seventh Day.",
+      "why": "Segundo a wiki, dobra o dano na prática. Com duas Pistolas de Pregos, dobra as ativações ao acertar, o que compensa o coeficiente 0,6. A lentidão é o custo: entre e saia conforme a luta."
     }
-   ]
-  },
-  {
-   "id": "lendario",
-   "name": "Lendário",
-   "color": "vermelho",
-   "intro": "Os vermelhos ao acertar escalam com o volume de pregos do MUL-T.",
-   "items": [
+  ],
+  "sections": [
     {
-     "icon": "sentient-meat-hook",
-     "pt": "Gancho de Carnes Senciente",
-     "en": "Sentient Meat Hook",
-     "prio": 1,
-     "qty": "1 a 2",
-     "effect": "20% (+20% por acúmulo) de chance ao acertar de disparar ganchos teleguiados em até 10 (+5 por acúmulo) inimigos, causando 100% de dano TOTAL.",
-     "why": "Rola em cada prego e acerta até 10 inimigos. Dá à Pistola o dano em grupo que ela não tem."
+      "id": "comum",
+      "name": "Comum",
+      "color": "branco",
+      "intro": "O MUL-T luta de perto e dispara pregos sem parar. Os brancos dão velocidade de ataque, crítico e dano a curta distância.",
+      "items": [
+        {
+          "icon": "soldiers-syringe",
+          "pt": "Seringa Militar",
+          "en": "Soldier's Syringe",
+          "prio": 1,
+          "qty": "4 a 8",
+          "effect": "+15% (+15% por acúmulo) de velocidade de ataque.",
+          "why": "Mais pregos por segundo nas duas pistolas. Cada prego extra é mais uma rolagem para os itens ao acertar."
+        },
+        {
+          "icon": "lens-makers-glasses",
+          "pt": "Óculos do Fabricante de Lentes",
+          "en": "Lens-Maker's Glasses",
+          "prio": 1,
+          "qty": "3 a 6",
+          "effect": "10% (+10% por acúmulo) de chance de Acerto Crítico, que causa dano dobrado.",
+          "why": "Dano extra constante em 24 pregos por segundo, e base para Foice e Instintos."
+        },
+        {
+          "icon": "focus-crystal",
+          "pt": "Cristal de Foco",
+          "en": "Focus Crystal",
+          "prio": 2,
+          "qty": "2 a 4",
+          "effect": "+20% (+20% por acúmulo) de dano contra inimigos a até 13 m.",
+          "why": "Os pregos perdem dano com a distância, então você já luta perto. O Cristal recompensa isso."
+        },
+        {
+          "icon": "tri-tip-dagger",
+          "pt": "Adaga Triangular",
+          "en": "Tri-Tip Dagger",
+          "prio": 2,
+          "qty": "2 a 4",
+          "effect": "10% (+10% por acúmulo) de chance de sangrar um inimigo por 240% do dano base.",
+          "why": "Muitos pregos compensam a chance reduzida pelo coeficiente 0,6."
+        },
+        {
+          "icon": "armor-piercing-rounds",
+          "pt": "Projéteis Perfurantes",
+          "en": "Armor-Piercing Rounds",
+          "prio": 3,
+          "qty": "1 a 3",
+          "effect": "+20% (+20% por acúmulo) de dano contra chefes.",
+          "why": "O MUL-T aguenta ficar colado no chefe; cada prego bate mais."
+        },
+        {
+          "icon": "repulsion-armor-plate",
+          "pt": "Placa da Armadura de Repulsão",
+          "en": "Repulsion Armor Plate",
+          "prio": 3,
+          "qty": "2 a 5",
+          "effect": "Reduz todo dano recebido em 5 (+5 por acúmulo). Não pode reduzir abaixo de 1.",
+          "why": "Lutando de perto você leva muitos golpes pequenos. A redução fixa corta cada um deles."
+        },
+        {
+          "icon": "backup-magazine",
+          "pt": "Pente Reserva",
+          "en": "Backup Magazine",
+          "prio": 3,
+          "qty": "1 a 3",
+          "effect": "+1 (+1 por acúmulo) carga da habilidade Secundária.",
+          "why": "Mais Filtros Explosivos para atordoar. A wiki observa que sair do Modo de Força restaura todas as cargas. No Modo de Força o Pente afeta a segunda primária, e a wiki diz que isso só rende algo com o Lançador de Sucata."
+        },
+        {
+          "icon": "crowbar",
+          "pt": "Pé de Cabra",
+          "en": "Crowbar",
+          "prio": 4,
+          "qty": "1 a 2 (com Perfurador de Barra)",
+          "effect": "+75% (+75% por acúmulo) de dano contra inimigos acima de 90% de vida.",
+          "why": "Só faz sentido com o Perfurador de Barra, que tira muito de uma vez. Com duas Pistolas de Pregos, os primeiros pregos já tiram o alvo de cima de 90% de vida."
+        }
+      ]
     },
     {
-     "icon": "brilliant-behemoth",
-     "pt": "Brutamontes Reluzente",
-     "en": "Brilliant Behemoth",
-     "prio": 1,
-     "qty": "1 a 2",
-     "effect": "Todos os ataques explodem em 4 m (+2,5 m por acúmulo) causando 60% de dano TOTAL extra.",
-     "why": "Cada prego explode. A wiki observa, na página da Caçadora, que o raio escala com o coeficiente, então fica menor nos pregos (0,6). Com o Lançador de Sucata ativa pelo menos duas vezes por acerto direto."
+      "id": "incomum",
+      "name": "Incomum",
+      "color": "verde",
+      "intro": "Os verdes ao acertar rendem pelo volume de pregos, mesmo com o coeficiente 0,6.",
+      "items": [
+        {
+          "icon": "atg-missile-mk-1",
+          "pt": "Míssil ASM Mk. 1",
+          "en": "AtG Missile Mk. 1",
+          "prio": 1,
+          "qty": "2 a 4",
+          "effect": "10% de chance de disparar um míssil que causa 300% (+300% por acúmulo) de dano TOTAL.",
+          "why": "Com 24 pregos por segundo no Modo de Força, os mísseis saem o tempo todo, mesmo com a chance reduzida pelo coeficiente."
+        },
+        {
+          "icon": "ukulele",
+          "pt": "Ukulele",
+          "en": "Ukulele",
+          "prio": 1,
+          "qty": "1 a 3",
+          "effect": "25% de chance de disparar um raio em cadeia de 80% de dano TOTAL em até 3 (+2 por acúmulo) alvos a 20 m (+2 m por acúmulo).",
+          "why": "Espalha o dano dos pregos para os inimigos em volta, que é o que falta à Pistola."
+        },
+        {
+          "icon": "harvesters-scythe",
+          "pt": "Foice do Ceifador",
+          "en": "Harvester's Scythe",
+          "prio": 2,
+          "qty": "1 a 2 (com Óculos)",
+          "effect": "+5% de chance de crítico. Críticos curam 8 (+4 por acúmulo) de vida.",
+          "why": "Com tantos pregos, os críticos viram cura constante para quem luta colado."
+        },
+        {
+          "icon": "leeching-seed",
+          "pt": "Semente Sanguessuga",
+          "en": "Leeching Seed",
+          "prio": 2,
+          "qty": "1 a 2",
+          "effect": "Causar dano cura 1 (+1 por acúmulo) de vida.",
+          "why": "Cura a cada prego. No Modo de Força são 24 acertos por segundo."
+        },
+        {
+          "icon": "predatory-instincts",
+          "pt": "Instintos Predatórios",
+          "en": "Predatory Instincts",
+          "prio": 3,
+          "qty": "1 (com Óculos)",
+          "effect": "+5% de chance de crítico. Críticos dão +12% de velocidade de ataque, até 36% (+24% por acúmulo).",
+          "why": "Mais velocidade para as pistolas quando você já tem crítico."
+        },
+        {
+          "icon": "war-horn",
+          "pt": "Chifre da Guerra",
+          "en": "War Horn",
+          "prio": 3,
+          "qty": "1",
+          "effect": "Ativar o Equipamento dá +70% de velocidade de ataque por 8 s (+4 s por acúmulo).",
+          "why": "Cada uso de equipamento acelera as duas pistolas. Com Reequipar, dois equipamentos dão duas ativações."
+        },
+        {
+          "icon": "fuel-cell",
+          "pt": "Célula de Combustível",
+          "en": "Fuel Cell",
+          "prio": 4,
+          "qty": "1 a 2 (com Reequipar)",
+          "effect": "Uma carga extra de equipamento (+1 por acúmulo). Reduz a recarga do equipamento em 15% (+15% por acúmulo).",
+          "why": "Mais forte com o Reequipar, que carrega dois equipamentos. No Modo de Força você usa só um."
+        },
+        {
+          "icon": "death-mark",
+          "pt": "Marca Fatal",
+          "en": "Death Mark",
+          "prio": 4,
+          "qty": "1",
+          "effect": "Inimigos com 4 ou mais debuffs ficam marcados e recebem 50% a mais de dano de todas as fontes por 7 s (+7 s por acúmulo).",
+          "why": "Atordoamento do Filtro, sangramento e redução de armadura somam debuffs. Só com várias fontes."
+        }
+      ]
     },
     {
-     "icon": "shattering-justice",
-     "pt": "Justiça Destruidora",
-     "en": "Shattering Justice",
-     "prio": 2,
-     "qty": "1",
-     "effect": "Depois de acertar um inimigo 5 vezes, reduz a armadura dele em 60 por 8 s (+8 s por acúmulo).",
-     "why": "Cinco acertos saem em menos de meio segundo com 12 pregos por segundo. Fica ativo a luta toda contra chefes."
+      "id": "lendario",
+      "name": "Lendário",
+      "color": "vermelho",
+      "intro": "Os vermelhos ao acertar escalam com o volume de pregos do MUL-T.",
+      "items": [
+        {
+          "icon": "sentient-meat-hook",
+          "pt": "Gancho de Carnes Senciente",
+          "en": "Sentient Meat Hook",
+          "prio": 1,
+          "qty": "1 a 2",
+          "effect": "20% (+20% por acúmulo) de chance ao acertar de disparar ganchos teleguiados em até 10 (+5 por acúmulo) inimigos, causando 100% de dano TOTAL.",
+          "why": "Rola em cada prego e acerta até 10 inimigos. Dá à Pistola o dano em grupo que ela não tem."
+        },
+        {
+          "icon": "brilliant-behemoth",
+          "pt": "Brutamontes Reluzente",
+          "en": "Brilliant Behemoth",
+          "prio": 1,
+          "qty": "1 a 2",
+          "effect": "Todos os ataques explodem em 4 m (+2,5 m por acúmulo) causando 60% de dano TOTAL extra.",
+          "why": "Cada prego explode. A wiki diz que o raio é multiplicado pelo coeficiente do ataque, então fica menor nos pregos (0,6). Com o Lançador de Sucata ativa pelo menos duas vezes por acerto direto."
+        },
+        {
+          "icon": "shattering-justice",
+          "pt": "Justiça Destruidora",
+          "en": "Shattering Justice",
+          "prio": 2,
+          "qty": "1",
+          "effect": "Depois de acertar um inimigo 5 vezes, reduz a armadura dele em 60 por 8 s (+8 s por acúmulo).",
+          "why": "Cinco acertos saem em menos de meio segundo com 12 pregos por segundo. Fica ativo a luta toda contra chefes."
+        },
+        {
+          "icon": "57-leaf-clover",
+          "pt": "Trevo 57",
+          "en": "57 Leaf Clover",
+          "prio": 2,
+          "qty": "1",
+          "effect": "Todos os efeitos aleatórios são rolados +1 (+1 por acúmulo) vez a seu favor.",
+          "why": "Compensa o coeficiente baixo dos pregos em todos os itens de chance."
+        },
+        {
+          "icon": "symbiotic-scorpion",
+          "pt": "Escorpião Simbiótico",
+          "en": "Symbiotic Scorpion",
+          "prio": 3,
+          "qty": "1",
+          "effect": "100% de chance ao acertar de reduzir a armadura em 2 (+2 por acúmulo) permanentemente.",
+          "why": "Com dezenas de pregos por segundo, a armadura de um chefe cai muito rápido."
+        },
+        {
+          "icon": "rejuvenation-rack",
+          "pt": "Suporte do Rejuvenescimento",
+          "en": "Rejuvenation Rack",
+          "prio": 3,
+          "qty": "1",
+          "effect": "Cura +100% (+100% por acúmulo) a mais.",
+          "why": "Dobra a cura da Semente e da Foice, que já curam a cada prego."
+        },
+        {
+          "icon": "alien-head",
+          "pt": "Cabeça Alienígena",
+          "en": "Alien Head",
+          "prio": 4,
+          "qty": "1",
+          "effect": "Reduz o tempo de recarga das habilidades em 25% (+25% por acúmulo).",
+          "why": "A wiki diz que ajuda todas as habilidades, mas o efeito é menor no MUL-T: o dano vem das primárias, que não têm recarga."
+        }
+      ]
     },
     {
-     "icon": "57-leaf-clover",
-     "pt": "Trevo 57",
-     "en": "57 Leaf Clover",
-     "prio": 2,
-     "qty": "1",
-     "effect": "Todos os efeitos aleatórios são rolados +1 (+1 por acúmulo) vez a seu favor.",
-     "why": "Compensa o coeficiente baixo dos pregos em todos os itens de chance."
+      "id": "chefe",
+      "name": "Chefe",
+      "color": "amarelo",
+      "intro": "Itens de chefe só caem de chefes de teleporte.",
+      "items": [
+        {
+          "icon": "charged-perforator",
+          "pt": "Perfurador Carregado",
+          "en": "Charged Perforator",
+          "prio": 2,
+          "qty": "1",
+          "effect": "10% de chance ao acertar de lançar um raio que causa 500% (+500% por acúmulo) de dano.",
+          "why": "Mais um efeito de chance para os pregos rolarem várias vezes por segundo."
+        },
+        {
+          "icon": "irradiant-pearl",
+          "pt": "Pérola Irradiante",
+          "en": "Irradiant Pearl",
+          "prio": 3,
+          "qty": "1 ou mais",
+          "effect": "Aumenta TODOS os atributos em 10% (+10% por acúmulo).",
+          "why": "Inclui velocidade de movimento, que ajuda a compensar a lentidão do Modo de Força."
+        }
+      ]
     },
     {
-     "icon": "symbiotic-scorpion",
-     "pt": "Escorpião Simbiótico",
-     "en": "Symbiotic Scorpion",
-     "prio": 3,
-     "qty": "1",
-     "effect": "100% de chance ao acertar de reduzir a armadura em 2 (+2 por acúmulo) permanentemente.",
-     "why": "Com dezenas de pregos por segundo, a armadura de um chefe cai muito rápido."
+      "id": "equipamento",
+      "name": "Equipamentos",
+      "color": "laranja",
+      "intro": "Com o Reequipar você leva dois; no Modo de Força, conte com o equipamento ativo.",
+      "items": [
+        {
+          "icon": "gorags-opus",
+          "pt": "Opus de Gorag",
+          "en": "Gorag's Opus",
+          "prio": 1,
+          "qty": "1 (recarga 45 s)",
+          "effect": "Todos os aliados entram em frenesi por 7 s: +50% de movimento e +100% de velocidade de ataque.",
+          "why": "Dobra a cadência das duas pistolas e devolve parte da velocidade que o Modo de Força tira."
+        },
+        {
+          "icon": "royal-capacitor",
+          "pt": "Capacitor Régio",
+          "en": "Royal Capacitor",
+          "prio": 2,
+          "qty": "1 (recarga 20 s)",
+          "effect": "Raio em um monstro marcado causando 3000% de dano e atordoando os monstros próximos.",
+          "why": "Alcance que os pregos não têm. Bom contra voadores e elites longe."
+        },
+        {
+          "icon": "primordial-cube",
+          "pt": "Cubo Primordial",
+          "en": "Primordial Cube",
+          "prio": 2,
+          "qty": "1 (recarga 60 s)",
+          "effect": "Buraco negro que puxa inimigos a até 30 m para o centro por 10 s.",
+          "why": "Junta o grupo na frente das pistolas, dentro do alcance curto e do raio do Brutamontes."
+        },
+        {
+          "icon": "jade-elephant",
+          "pt": "Elefante de Jade",
+          "en": "Jade Elephant",
+          "prio": 3,
+          "qty": "1 (recarga 45 s)",
+          "effect": "Ganha 500 de armadura por 5 s.",
+          "why": "No Modo de Força você fica lento. A armadura cobre os golpes que não dá para desviar."
+        },
+        {
+          "icon": "volcanic-egg",
+          "pt": "Ovo Vulcânico",
+          "en": "Volcanic Egg",
+          "prio": 4,
+          "qty": "1 (recarga 30 s, com Serra)",
+          "effect": "Vira uma bola de fogo dracônica por 5 s. Causa 500% de dano ao impacto e explode no final causando 800%.",
+          "why": "A wiki diz que a Serra Elétrica continua funcionando durante o Ovo. Mobilidade e dano juntos se você usar a Serra."
+        }
+      ]
     },
     {
-     "icon": "rejuvenation-rack",
-     "pt": "Suporte do Rejuvenescimento",
-     "en": "Rejuvenation Rack",
-     "prio": 3,
-     "qty": "1",
-     "effect": "Cura +100% (+100% por acúmulo) a mais.",
-     "why": "Dobra a cura da Semente e da Foice, que já curam a cada prego."
+      "id": "lunar",
+      "name": "Lunares",
+      "color": "azul",
+      "intro": "Itens lunares têm custo embutido. Os 200 de vida do MUL-T aguentam alguns deles.",
+      "items": [
+        {
+          "icon": "shaped-glass",
+          "pt": "Vidro Configurado",
+          "en": "Shaped Glass",
+          "prio": 3,
+          "qty": "1 (com armadura)",
+          "effect": "+100% (+100% por acúmulo) de dano base. −50% (−50% por acúmulo) de vida máxima.",
+          "why": "Dobra todos os pregos. O MUL-T tem vida e armadura de sobra para pagar metade, ao contrário dos sobreviventes frágeis."
+        },
+        {
+          "icon": "purity",
+          "pt": "Pureza",
+          "en": "Purity",
+          "prio": 4,
+          "qty": "1 (só com Lançador de Sucata)",
+          "effect": "Reduz todas as recargas de habilidade em 2 s (+1 s por acúmulo). Todos os efeitos aleatórios são rolados +1 (+1 por acúmulo) vez contra você.",
+          "why": "A wiki diz que leva o Lançador de Sucata ao mínimo de 0,5 s. Com Pistolas de Pregos, só piora os itens de chance."
+        },
+        {
+          "icon": "light-flux-pauldron",
+          "pt": "Ombreira do Fluxo Iluminado",
+          "en": "Light Flux Pauldron",
+          "prio": 0,
+          "qty": "0",
+          "effect": "−50% (−50% por acúmulo) no tempo de recarga das habilidades. −50% (−50% por acúmulo) de velocidade de ataque.",
+          "why": "As primárias não têm recarga. Você perde metade dos pregos e não ganha quase nada."
+        }
+      ]
     },
     {
-     "icon": "alien-head",
-     "pt": "Cabeça Alienígena",
-     "en": "Alien Head",
-     "prio": 4,
-     "qty": "1",
-     "effect": "Reduz o tempo de recarga das habilidades em 25% (+25% por acúmulo).",
-     "why": "A wiki diz que ajuda todas as habilidades, mas o efeito é menor no MUL-T: o dano vem das primárias, que não têm recarga."
+      "id": "vazio",
+      "name": "Vazio",
+      "color": "roxo",
+      "intro": "Itens do Vazio (DLC Survivors of the Void) corrompem itens comuns. Veja o que vai perder antes.",
+      "items": [
+        {
+          "icon": "plasma-shrimp",
+          "pt": "Camarão de Plasma",
+          "en": "Plasma Shrimp",
+          "prio": 3,
+          "qty": "1",
+          "effect": "Ganha escudo de 10% da vida máxima. Com escudo, cada acerto dispara um míssil de 40% (+40% por acúmulo) de dano TOTAL. Corrompe todos os Mísseis ASM Mk. 1.",
+          "why": "Dispara em todo acerto enquanto houver escudo, e o MUL-T acerta muito. Corrompe os Mísseis ASM que esta build recomenda."
+        },
+        {
+          "icon": "polylute",
+          "pt": "Polialaúde",
+          "en": "Polylute",
+          "prio": 3,
+          "qty": "1",
+          "effect": "25% de chance de disparar um raio de 60% de dano TOTAL até 3 (+3 por acúmulo) vezes. Corrompe todos os Ukuleles.",
+          "why": "Melhor em chefes, pior em grupos. Corrompe os Ukuleles."
+        },
+        {
+          "icon": "needletick",
+          "pt": "Agulhão",
+          "en": "Needletick",
+          "prio": 3,
+          "qty": "1 a 2",
+          "effect": "10% (+10% por acúmulo) de chance de colapsar um inimigo por 400% do dano base. Corrompe todas as Adagas Triangulares.",
+          "why": "Rola em cada prego. Corrompe as Adagas Triangulares que esta build recomenda."
+        },
+        {
+          "icon": "lost-seers-lenses",
+          "pt": "Lentes do Profeta Perdido",
+          "en": "Lost Seer's Lenses",
+          "prio": 0,
+          "qty": "0",
+          "effect": "0,5% (+0,5% por acúmulo) de chance de matar instantaneamente um inimigo que não seja chefe. Corrompe todos os Óculos do Fabricante de Lentes.",
+          "why": "Corrompe todos os Óculos do Fabricante de Lentes, que esta build recomenda. Você troca o crítico de todos os pregos por uma chance minúscula de abate, e a Foice e os Instintos ficam só com os 5% de crítico deles."
+        }
+      ]
     }
-   ]
-  },
-  {
-   "id": "chefe",
-   "name": "Chefe",
-   "color": "amarelo",
-   "intro": "Itens de chefe só caem de chefes de teleporte.",
-   "items": [
+  ],
+  "synergy": [
     {
-     "icon": "charged-perforator",
-     "pt": "Perfurador Carregado",
-     "en": "Charged Perforator",
-     "prio": 2,
-     "qty": "1",
-     "effect": "10% de chance ao acertar de lançar um raio que causa 500% (+500% por acúmulo) de dano.",
-     "why": "Mais um efeito de chance para os pregos rolarem várias vezes por segundo."
+      "title": "Duas pistolas, o dobro de rolagens",
+      "text": "A Pistola de Pregos tem coeficiente 0,6, o que reduz a chance de cada item ao acertar. No Modo de Força as duas pistolas atiram juntas, 24 pregos por segundo na velocidade base. A wiki diz que isso compensa o coeficiente baixo com mais ativações. Míssil, Ukulele, Gancho e Adaga rolam em cada prego."
     },
     {
-     "icon": "irradiant-pearl",
-     "pt": "Pérola Irradiante",
-     "en": "Irradiant Pearl",
-     "prio": 3,
-     "qty": "1 ou mais",
-     "effect": "Aumenta TODOS os atributos em 10% (+10% por acúmulo).",
-     "why": "Inclui velocidade de movimento, que ajuda a compensar a lentidão do Modo de Força."
+      "title": "Dano a curta distância",
+      "text": "Os pregos perdem dano com a distância e somem depois de 40 m. Por isso a build é de perto: Cristal de Foco, Placa da Armadura e cura por acerto. Os 100 de armadura do Modo de Força somados aos 12 de base deixam o MUL-T aguentar ficar colado."
+    },
+    {
+      "title": "Entrar e sair do Modo de Força",
+      "text": "O Modo de Força deixa você com cerca de 66% da velocidade de movimento, segundo a wiki, e tem 5 s de recarga. Saia para atravessar o mapa ou fugir com o Modo de Transporte. A wiki observa que sair restaura todas as cargas do Filtro Explosivo, o que rende mais com o Pente Reserva."
+    },
+    {
+      "title": "Filtro e Transporte para controlar",
+      "text": "O Filtro Explosivo atordoa o grupo e solta bombinhas que atordoam de novo, segurando os inimigos na frente das pistolas. O Modo de Transporte dá 200 de armadura, atordoa inimigos grandes no atropelo e causa 4× de dano neles. O dano do atropelo cresce com o atributo de velocidade de movimento."
+    },
+    {
+      "title": "Reequipar e dois equipamentos",
+      "text": "Antes de desbloquear o Modo de Força, use o Reequipar. O MUL-T sempre carrega dois equipamentos, e o Reequipar alterna a primária e o equipamento ativo. Célula de Combustível e Chifre da Guerra rendem mais assim. Pelo texto do jogo, só o Reequipar troca o equipamento ativo, então no Modo de Força conte com um só."
     }
-   ]
-  },
-  {
-   "id": "equipamento",
-   "name": "Equipamentos",
-   "color": "laranja",
-   "intro": "Com o Reequipar você leva dois; no Modo de Força, conte com o equipamento ativo.",
-   "items": [
+  ],
+  "rotation": [
     {
-     "icon": "gorags-opus",
-     "pt": "Opus de Gorag",
-     "en": "Gorag's Opus",
-     "prio": 1,
-     "qty": "1 (recarga 45 s)",
-     "effect": "Todos os aliados entram em frenesi por 7 s: +50% de movimento e +100% de velocidade de ataque.",
-     "why": "Dobra a cadência das duas pistolas e devolve parte da velocidade que o Modo de Força tira."
+      "step": "Modo de Transporte para entrar",
+      "text": "Chegue rápido ao grupo com 200 de armadura e atropele no caminho."
     },
     {
-     "icon": "royal-capacitor",
-     "pt": "Capacitor Régio",
-     "en": "Royal Capacitor",
-     "prio": 2,
-     "qty": "1 (recarga 20 s)",
-     "effect": "Raio em um monstro marcado causando 3000% de dano e atordoando os monstros próximos.",
-     "why": "Alcance que os pregos não têm. Bom contra voadores e elites longe."
+      "step": "Filtro Explosivo no grupo",
+      "text": "Atordoa todos para os pregos acertarem sem resposta."
     },
     {
-     "icon": "primordial-cube",
-     "pt": "Cubo Primordial",
-     "en": "Primordial Cube",
-     "prio": 2,
-     "qty": "1 (recarga 60 s)",
-     "effect": "Buraco negro que puxa inimigos a até 30 m para o centro por 10 s.",
-     "why": "Junta o grupo na frente das pistolas, dentro do alcance curto e do raio do Brutamontes."
+      "step": "Ative o Modo de Força",
+      "text": "Liga as duas pistolas e dá +100 de armadura."
     },
     {
-     "icon": "jade-elephant",
-     "pt": "Elefante de Jade",
-     "en": "Jade Elephant",
-     "prio": 3,
-     "qty": "1 (recarga 45 s)",
-     "effect": "Ganha 500 de armadura por 5 s.",
-     "why": "No Modo de Força você fica lento. A armadura cobre os golpes que não dá para desviar."
+      "step": "Pregos sem parar",
+      "text": "Fique perto do alvo e deixe os itens ao acertar limparem o resto."
     },
     {
-     "icon": "volcanic-egg",
-     "pt": "Ovo Vulcânico",
-     "en": "Volcanic Egg",
-     "prio": 4,
-     "qty": "1 (recarga 30 s, com Serra)",
-     "effect": "Vira uma bola de fogo dracônica por 5 s. Causa 500% de dano ao impacto e explode no final causando 800%.",
-     "why": "A wiki diz que a Serra Elétrica continua funcionando durante o Ovo. Mobilidade e dano juntos se você usar a Serra."
+      "step": "Saia para se mover",
+      "text": "Desligue o Modo de Força para fugir ou avançar e recuperar as cargas do Filtro."
     }
-   ]
-  },
-  {
-   "id": "lunar",
-   "name": "Lunares",
-   "color": "azul",
-   "intro": "Itens lunares têm custo embutido. Os 200 de vida do MUL-T aguentam alguns deles.",
-   "items": [
+  ],
+  "essentials": [
     {
-     "icon": "shaped-glass",
-     "pt": "Vidro Configurado",
-     "en": "Shaped Glass",
-     "prio": 3,
-     "qty": "1 (com armadura)",
-     "effect": "+100% (+100% por acúmulo) de dano base. −50% (−50% por acúmulo) de vida máxima.",
-     "why": "Dobra todos os pregos. O MUL-T tem vida e armadura de sobra para pagar metade, ao contrário dos sobreviventes frágeis."
+      "pt": "Seringa Militar",
+      "en": "Soldier's Syringe"
     },
     {
-     "icon": "purity",
-     "pt": "Pureza",
-     "en": "Purity",
-     "prio": 4,
-     "qty": "1 (só com Lançador de Sucata)",
-     "effect": "Reduz todas as recargas de habilidade em 2 s (+1 s por acúmulo). Todos os efeitos aleatórios são rolados +1 (+1 por acúmulo) vez contra você.",
-     "why": "A wiki diz que leva o Lançador de Sucata ao mínimo de 0,5 s. Com Pistolas de Pregos, só piora os itens de chance."
+      "pt": "Óculos do Fabricante de Lentes",
+      "en": "Lens-Maker's Glasses"
     },
     {
-     "icon": "light-flux-pauldron",
-     "pt": "Ombreira do Fluxo Iluminado",
-     "en": "Light Flux Pauldron",
-     "prio": 0,
-     "qty": "0",
-     "effect": "−50% (−50% por acúmulo) no tempo de recarga das habilidades. −50% (−50% por acúmulo) de velocidade de ataque.",
-     "why": "As primárias não têm recarga. Você perde metade dos pregos e não ganha quase nada."
+      "pt": "Míssil ASM Mk. 1",
+      "en": "AtG Missile Mk. 1"
+    },
+    {
+      "pt": "Ukulele",
+      "en": "Ukulele"
+    },
+    {
+      "pt": "Semente Sanguessuga",
+      "en": "Leeching Seed"
+    },
+    {
+      "pt": "Gancho de Carnes Senciente",
+      "en": "Sentient Meat Hook"
+    },
+    {
+      "pt": "Opus de Gorag",
+      "en": "Gorag's Opus"
     }
-   ]
-  },
-  {
-   "id": "vazio",
-   "name": "Vazio",
-   "color": "roxo",
-   "intro": "Itens do Vazio (DLC Survivors of the Void) corrompem itens comuns. Veja o que vai perder antes.",
-   "items": [
+  ],
+  "situational_note": "Situacionais: Pé de Cabra (com Perfurador de Barra), Célula de Combustível e Chifre da Guerra (com Reequipar), Ovo Vulcânico (com Serra), Pureza (com Lançador de Sucata), Vidro Configurado e os itens do Vazio.",
+  "fallbacks": [
     {
-     "icon": "plasma-shrimp",
-     "pt": "Camarão de Plasma",
-     "en": "Plasma Shrimp",
-     "prio": 3,
-     "qty": "1",
-     "effect": "Ganha escudo de 10% da vida máxima. Com escudo, cada acerto dispara um míssil de 40% (+40% por acúmulo) de dano TOTAL. Corrompe todos os Mísseis ASM Mk. 1.",
-     "why": "Dispara em todo acerto enquanto houver escudo, e o MUL-T acerta muito. Corrompe os Mísseis ASM que esta build recomenda."
+      "pt": "Seringa Militar",
+      "en": "Soldier's Syringe",
+      "text": "Mocha, Instintos Predatórios com Óculos, ou Chifre da Guerra com equipamento de recarga curta."
     },
     {
-     "icon": "polylute",
-     "pt": "Polialaúde",
-     "en": "Polylute",
-     "prio": 3,
-     "qty": "1",
-     "effect": "25% de chance de disparar um raio de 60% de dano TOTAL até 3 (+3 por acúmulo) vezes. Corrompe todos os Ukuleles.",
-     "why": "Melhor em chefes, pior em grupos. Corrompe os Ukuleles."
+      "pt": "Óculos do Fabricante de Lentes",
+      "en": "Lens-Maker's Glasses",
+      "text": "Semente Sanguessuga para cura e Cristal de Foco para dano."
     },
     {
-     "icon": "needletick",
-     "pt": "Agulhão",
-     "en": "Needletick",
-     "prio": 3,
-     "qty": "1 a 2",
-     "effect": "10% (+10% por acúmulo) de chance de colapsar um inimigo por 400% do dano base. Corrompe todas as Adagas Triangulares.",
-     "why": "Rola em cada prego. Corrompe as Adagas Triangulares que esta build recomenda."
+      "pt": "Míssil ASM Mk. 1",
+      "en": "AtG Missile Mk. 1",
+      "text": "Perfurador Carregado e Bomba Aderente (Sticky Bomb), que também rolam em cada prego."
     },
     {
-     "icon": "lost-seers-lenses",
-     "pt": "Lentes do Profeta Perdido",
-     "en": "Lost Seer's Lenses",
-     "prio": 0,
-     "qty": "0",
-     "effect": "0,5% (+0,5% por acúmulo) de chance de matar instantaneamente um inimigo que não seja chefe. Corrompe todos os Óculos do Fabricante de Lentes.",
-     "why": "Troca o crítico de todos os pregos por uma chance minúscula de abate, e a Foice para de curar."
+      "pt": "Ukulele",
+      "en": "Ukulele",
+      "text": "Gancho ou Brutamontes para grupos; sem nenhum, troque a Primária 2 pelo Lançador de Sucata."
+    },
+    {
+      "pt": "Semente Sanguessuga",
+      "en": "Leeching Seed",
+      "text": "Foice do Ceifador com Óculos, e Placa da Armadura para levar menos dano."
+    },
+    {
+      "pt": "Gancho de Carnes Senciente",
+      "en": "Sentient Meat Hook",
+      "text": "Brutamontes Reluzente, Justiça Destruidora para chefes e mais Mísseis."
+    },
+    {
+      "pt": "Opus de Gorag",
+      "en": "Gorag's Opus",
+      "text": "Cubo Primordial para juntar o grupo ou Capacitor Régio para alvos longe."
     }
-   ]
-  }
- ],
- "synergy": [
-  {
-   "title": "Duas pistolas, o dobro de rolagens",
-   "text": "A Pistola de Pregos tem coeficiente 0,6, o que reduz a chance de cada item ao acertar. No Modo de Força as duas pistolas atiram juntas, 24 pregos por segundo na velocidade base. A wiki diz que isso compensa o coeficiente baixo com mais ativações. Míssil, Ukulele, Gancho e Adaga rolam em cada prego."
-  },
-  {
-   "title": "Dano a curta distância",
-   "text": "Os pregos perdem dano com a distância e somem depois de 40 m. Por isso a build é de perto: Cristal de Foco, Placa da Armadura e cura por acerto. Os 100 de armadura do Modo de Força somados aos 12 de base deixam o MUL-T aguentar ficar colado."
-  },
-  {
-   "title": "Entrar e sair do Modo de Força",
-   "text": "O Modo de Força tira 60% da velocidade de movimento e tem 5 s de recarga. Saia para atravessar o mapa ou fugir com o Modo de Transporte. A wiki observa que sair restaura todas as cargas do Filtro Explosivo, o que rende mais com o Pente Reserva."
-  },
-  {
-   "title": "Filtro e Transporte para controlar",
-   "text": "O Filtro Explosivo atordoa o grupo e solta bombinhas que atordoam de novo, segurando os inimigos na frente das pistolas. O Modo de Transporte dá 200 de armadura, atordoa inimigos grandes no atropelo e causa 4× de dano neles. O dano do atropelo cresce com o atributo de velocidade de movimento."
-  },
-  {
-   "title": "Reequipar e dois equipamentos",
-   "text": "Antes de desbloquear o Modo de Força, use o Reequipar. Ele alterna a primária e o equipamento ativo, então você leva dois equipamentos. Célula de Combustível e Chifre da Guerra rendem mais assim. Ao trocar para o Modo de Força, você perde a alternância de equipamentos."
-  }
- ],
- "rotation": [
-  {"step": "Modo de Transporte para entrar", "text": "Chegue rápido ao grupo com 200 de armadura e atropele no caminho."},
-  {"step": "Filtro Explosivo no grupo", "text": "Atordoa todos para os pregos acertarem sem resposta."},
-  {"step": "Ative o Modo de Força", "text": "Liga as duas pistolas e dá +100 de armadura."},
-  {"step": "Pregos sem parar", "text": "Fique perto do alvo e deixe os itens ao acertar limparem o resto."},
-  {"step": "Saia para se mover", "text": "Desligue o Modo de Força para fugir ou avançar e recuperar as cargas do Filtro."}
- ],
- "essentials": [
-  {"pt": "Seringa Militar", "en": "Soldier's Syringe"},
-  {"pt": "Óculos do Fabricante de Lentes", "en": "Lens-Maker's Glasses"},
-  {"pt": "Míssil ASM Mk. 1", "en": "AtG Missile Mk. 1"},
-  {"pt": "Ukulele", "en": "Ukulele"},
-  {"pt": "Semente Sanguessuga", "en": "Leeching Seed"},
-  {"pt": "Gancho de Carnes Senciente", "en": "Sentient Meat Hook"},
-  {"pt": "Opus de Gorag", "en": "Gorag's Opus"}
- ],
- "situational_note": "Situacionais: Pé de Cabra (com Perfurador de Barra), Célula de Combustível e Chifre da Guerra (com Reequipar), Ovo Vulcânico (com Serra), Pureza (com Lançador de Sucata), Vidro Configurado e os itens do Vazio.",
- "fallbacks": [
-  {"pt": "Seringa Militar", "en": "Soldier's Syringe", "text": "Mocha, Instintos Predatórios com Óculos, ou Chifre da Guerra com equipamento de recarga curta."},
-  {"pt": "Óculos do Fabricante de Lentes", "en": "Lens-Maker's Glasses", "text": "Semente Sanguessuga para cura e Cristal de Foco para dano."},
-  {"pt": "Míssil ASM Mk. 1", "en": "AtG Missile Mk. 1", "text": "Perfurador Carregado e Bomba Aderente, que também rolam em cada prego."},
-  {"pt": "Ukulele", "en": "Ukulele", "text": "Gancho ou Brutamontes para grupos; sem nenhum, troque a Primária 2 pelo Lançador de Sucata."},
-  {"pt": "Semente Sanguessuga", "en": "Leeching Seed", "text": "Foice do Ceifador com Óculos, e Placa da Armadura para levar menos dano."},
-  {"pt": "Gancho de Carnes Senciente", "en": "Sentient Meat Hook", "text": "Brutamontes Reluzente, Justiça Destruidora para chefes e mais Mísseis."},
-  {"pt": "Opus de Gorag", "en": "Gorag's Opus", "text": "Cubo Primordial para juntar o grupo ou Capacitor Régio para alvos longe."}
- ],
- "summary": "Pistola de Pregos nas duas primárias, Filtro Explosivo, Modo de Transporte e Modo de Força. Ligue o Modo de Força perto do grupo e deixe 24 pregos por segundo ativarem Míssil, Ukulele e Gancho. Empilhe Seringa e Óculos, cure por acerto com Semente e Foice e use o Filtro para atordoar. Saia do Modo de Força para se mover.",
- "checklist": [
-  {"title": "Sempre pegue", "text": "Seringa Militar, Óculos, Míssil ASM, Ukulele, Semente Sanguessuga, Gancho de Carnes."},
-  {"title": "Impressoras brancas", "text": "Seringa Militar até umas 6, depois Óculos e Cristal de Foco."},
-  {"title": "Primeiro verde", "text": "Míssil ASM. Depois Ukulele e Semente Sanguessuga."},
-  {"title": "Equipamento", "text": "Opus de Gorag. Capacitor Régio se os voadores ficarem fora do alcance."},
-  {"title": "Sem Modo de Força", "text": "Use Reequipar com Pistola e Perfurador de Barra, e leve dois equipamentos."},
-  {"title": "Antes de pegar Vazio", "text": "Camarão corrompe os Mísseis ASM, Polialaúde os Ukuleles, Lentes do Profeta os Óculos."},
-  {"title": "Luta de chefe", "text": "Opus, Modo de Força colado no chefe, Filtro na recarga, Transporte para sair dos golpes grandes."}
- ],
- "sources": [
-  {"title": "MUL-T — Risk of Rain 2 Wiki", "url": "https://riskofrain2.wiki.gg/wiki/MUL-T"},
-  {"title": "Huntress — Risk of Rain 2 Wiki (raio do Brutamontes e coeficiente)", "url": "https://riskofrain2.wiki.gg/wiki/Huntress"},
-  {"title": "Items — Risk of Rain 2 Wiki", "url": "https://riskofrain2.wiki.gg/wiki/Items"},
-  {"title": "MUL-T Risk of Rain 2 — Rogue Ranker", "url": "https://rogueranker.com/mul-t-risk-of-rain-2/"}
- ],
- "notes": [
-  "Modo de Força, Lançador de Sucata e Serra Elétrica precisam ser desbloqueados pelos desafios MUL-T: Seventh Day, Pest Control e Gotcha!. Sem o Modo de Força, use Reequipar com Pistola de Pregos e Perfurador de Barra.",
-  "A wiki não diz se a velocidade de ataque muda a rajada final da Pistola de Pregos nem se o Modo de Força altera o uso de equipamentos; o guia não afirma nada sobre isso."
- ]
+  ],
+  "summary": "Pistola de Pregos nas duas primárias, Filtro Explosivo, Modo de Transporte e Modo de Força. Ligue o Modo de Força perto do grupo e deixe 24 pregos por segundo ativarem Míssil, Ukulele e Gancho. Empilhe Seringa e Óculos, cure por acerto com Semente e Foice e use o Filtro para atordoar. Saia do Modo de Força para se mover.",
+  "checklist": [
+    {
+      "title": "Sempre pegue",
+      "text": "Seringa Militar, Óculos, Míssil ASM, Ukulele, Semente Sanguessuga, Gancho de Carnes."
+    },
+    {
+      "title": "Impressoras brancas",
+      "text": "Seringa Militar até umas 6, depois Óculos e Cristal de Foco."
+    },
+    {
+      "title": "Primeiro verde",
+      "text": "Míssil ASM. Depois Ukulele e Semente Sanguessuga."
+    },
+    {
+      "title": "Equipamento",
+      "text": "Opus de Gorag. Capacitor Régio se os voadores ficarem fora do alcance."
+    },
+    {
+      "title": "Sem Modo de Força",
+      "text": "Use Reequipar com Pistola e Perfurador de Barra, e leve dois equipamentos."
+    },
+    {
+      "title": "Antes de pegar Vazio",
+      "text": "Camarão corrompe os Mísseis ASM, Polialaúde os Ukuleles, Lentes do Profeta os Óculos."
+    },
+    {
+      "title": "Luta de chefe",
+      "text": "Opus e Filtro, depois Modo de Força colado no chefe. Saia para recuperar as cargas do Filtro e use o Transporte para sair dos golpes grandes."
+    }
+  ],
+  "sources": [
+    {
+      "title": "MUL-T — Risk of Rain 2 Wiki",
+      "url": "https://riskofrain2.wiki.gg/wiki/MUL-T"
+    },
+    {
+      "title": "Brilliant Behemoth — Risk of Rain 2 Wiki (raio e coeficiente)",
+      "url": "https://riskofrain2.wiki.gg/wiki/Brilliant_Behemoth"
+    },
+    {
+      "title": "Items — Risk of Rain 2 Wiki",
+      "url": "https://riskofrain2.wiki.gg/wiki/Items"
+    },
+    {
+      "title": "MUL-T Risk of Rain 2 — Rogue Ranker",
+      "url": "https://rogueranker.com/mul-t-risk-of-rain-2/"
+    }
+  ],
+  "notes": [
+    "Modo de Força, Lançador de Sucata e Serra Elétrica precisam ser desbloqueados pelos desafios MUL-T: Seventh Day, Pest Control e Gotcha!. Sem o Modo de Força, use Reequipar com Pistola de Pregos e Perfurador de Barra.",
+    "A wiki não diz se a velocidade de ataque muda a rajada final da Pistola de Pregos nem se o Modo de Força altera o uso de equipamentos; o guia não afirma nada sobre isso.",
+    "A wiki trata a segunda primária do Modo de Força como habilidade Secundária, o que sugere que o Filtro Explosivo fica indisponível nesse modo. Não está confirmado.",
+    "O nome em inglês da passiva (Multifunctional) vem das notas de atualização citadas pela wiki."
+  ]
 }

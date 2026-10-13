@@ -1,663 +1,672 @@
 {
- "id": "engineer",
- "name_pt": "Engenheiro",
- "name_en": "Engineer",
- "title": "Engenheiro: Build de Torretas",
- "tagline": "Torretas que copiam seus itens e Redoma Protetora",
- "lede": "Uma build defensiva e consistente: posicionar duas Torretas Eletromagnéticas TR12 em lugar seguro, proteger com a Redoma Protetora e deixar que elas façam a maior parte do dano. As torretas herdam quase todos os seus itens, então cada item de efeito ao acertar, de vida ou de cura conta duas ou três vezes. Você escolhe itens pensando nas torretas primeiro e em você depois.",
- "loadout": [
-  {
-   "slot": "Primária",
-   "skill": "Granadas Saltitantes (Bouncing Grenades)"
-  },
-  {
-   "slot": "Secundária",
-   "skill": "Minas de Pressão (Pressure Mines)"
-  },
-  {
-   "slot": "Utilitária",
-   "skill": "Redoma Protetora (Bubble Shield)"
-  },
-  {
-   "slot": "Especial",
-   "skill": "Torreta Automática Eletromagnética TR12 (TR12 Gauss Auto-Turret)"
-  }
- ],
- "skills": [
-  {
-   "slot": "Primária",
-   "pt": "Granadas Saltitantes",
-   "en": "Bouncing Grenades",
-   "pick": "Recomendada",
-   "spec": "Carrega até 8 granadas de 100% de dano cada. Coeficiente 1,0 por granada. Carga em 2 s, dispara sozinha após 3 s. Explosão de 3,5 m.",
-   "why": "Dá para correr enquanto carrega, e cada granada ativa itens ao acertar com coeficiente cheio. É o seu dano pessoal enquanto as torretas trabalham. As granadas quicam no terreno e na parte de fora da Redoma."
-  },
-  {
-   "slot": "Primária (alt.)",
-   "pt": "Laser Cutter",
-   "en": "Laser Cutter",
-   "pick": "Variante",
-   "spec": "Laser de 50 m, 9 acertos por segundo, 270% a 630% de dano por segundo em 3 estágios. Coeficiente 0,7. Cura torretas e drones aliados em vez de causar dano.",
-   "why": "Cada acerto em uma torreta cura 15% a 35% do seu dano, conforme o estágio. A velocidade de ataque acelera o início e a taxa de acertos. O laser para no primeiro personagem que atinge e reduz sua movimentação para 70% e depois 40%. É da DLC Hallowed Concepts (veja as notas)."
-  },
-  {
-   "slot": "Secundária",
-   "pt": "Minas de Pressão",
-   "en": "Pressure Mines",
-   "pick": "Recomendada",
-   "spec": "300% de dano, ou 900% depois de armada. Coeficiente 1,0. Até 4, recarga 8 s. Detecção de 7,5 m armada, sem perda de dano na borda.",
-   "why": "Não exige desbloqueio e cobre o caminho até as torretas. Deixe as minas antes da luta, porque leva alguns segundos para armar. Elas grudam na Redoma, o que transforma a bolha numa armadilha."
-  },
-  {
-   "slot": "Secundária (alt.)",
-   "pt": "Minas de Aranha",
-   "en": "Spider Mines",
-   "pick": "Variante",
-   "spec": "600% de dano quando um inimigo se aproxima. Coeficiente 1,0. Até 4, recarga 8 s. Não precisa armar.",
-   "why": "Procuram inimigos no raio e causam 600% na hora se você arremessar direto no alvo. Mais simples de usar que as Minas de Pressão. Desbloqueio: Engenheiro: 100% Calculado (100% Calculated)."
-  },
-  {
-   "slot": "Utilitária",
-   "pt": "Redoma Protetora",
-   "en": "Bubble Shield",
-   "pick": "Recomendada",
-   "spec": "Escudo de 10 m que bloqueia todo dano vindo de fora por 15 s. Recarga 25 s. Só uma ativa por vez.",
-   "why": "Coloque sobre as torretas: elas e você atiram para fora e nada entra. Inimigos que entram na bolha anulam a proteção. A alternativa Arpões Térmicos (Thermal Harpoons, 4 × 500%, recarga 2,5 s) dá muito dano, mas tira a defesa das torretas."
-  },
-  {
-   "slot": "Especial",
-   "pt": "Torreta Automática Eletromagnética TR12",
-   "en": "TR12 Gauss Auto-Turret",
-   "pick": "Recomendada",
-   "spec": "O texto do jogo diz 100%; a wiki esclarece: disparo a cada 0,35 s de 70%, cerca de 200% por segundo. Coeficiente 1,0. Até 2, recarga 30 s. Alcance de mira 60 m.",
-   "why": "Herda seus itens e o equipamento. Fica parada e não sofre empurrão, então o Fungo Vibrante fica sempre ativo nela. Coeficiente 1,0 com tiro rápido faz os itens ao acertar ativarem muito. A TR58 Carbonizante (TR58 Carbonizer Turret, móvel, 200% por segundo, coeficiente 0,6, 25 m) segue você, mas perde o Fungo parado e ativa menos itens."
-  }
- ],
- "sections": [
-  {
-   "id": "comum",
-   "name": "Comum",
-   "color": "branco",
-   "intro": "Cada branco vai para você e para cada torreta. Priorize o que mantém as torretas vivas e o que ativa com tiro rápido.",
-   "items": [
+  "id": "engineer",
+  "name_pt": "Engenheiro",
+  "name_en": "Engineer",
+  "title": "Engenheiro: Build de Torretas",
+  "tagline": "Torretas que copiam seus itens e Redoma Protetora",
+  "lede": "Uma build defensiva e consistente: posicionar duas Torretas Eletromagnéticas TR12 em lugar seguro, proteger com a Redoma Protetora e deixar que elas façam a maior parte do dano. As torretas herdam quase todos os seus itens, então cada item de efeito ao acertar, de vida ou de cura conta duas ou três vezes. Você escolhe itens pensando nas torretas primeiro e em você depois.",
+  "loadout": [
     {
-     "icon": "bustling-fungus",
-     "pt": "Fungo Vibrante",
-     "en": "Bustling Fungus",
-     "prio": 1,
-     "qty": "2 a 5",
-     "effect": "Depois de ficar parado por 1 segundo, cria uma zona que cura 4,5% (+2,25% por acúmulo) da sua vida por segundo para todos os aliados a até 3 m (+1,5 m por acúmulo).",
-     "why": "A wiki diz que a TR12 fica sempre sob o efeito do Fungo, porque nunca se mexe. Torretas lado a lado curam uma à outra e você também, se ficar perto."
+      "slot": "Primária",
+      "skill": "Granadas Saltitantes (Bouncing Grenades)"
     },
     {
-     "icon": "soldiers-syringe",
-     "pt": "Seringa Militar",
-     "en": "Soldier's Syringe",
-     "prio": 1,
-     "qty": "3 a 6",
-     "effect": "+15% (+15% por acúmulo) de velocidade de ataque.",
-     "why": "A torreta dispara a cada 0,35 s. Mais velocidade é mais tiros, mais dano e mais ativações dos itens ao acertar em cada torreta."
+      "slot": "Secundária",
+      "skill": "Minas de Pressão (Pressure Mines)"
     },
     {
-     "icon": "repulsion-armor-plate",
-     "pt": "Placa da Armadura de Repulsão",
-     "en": "Repulsion Armor Plate",
-     "prio": 2,
-     "qty": "3 a 8",
-     "effect": "Reduz todo dano recebido em 5 (+5 por acúmulo). Não reduz abaixo de 1.",
-     "why": "As torretas começam com 0 de armadura e levam muitos golpes pequenos. Com várias placas, inimigos fracos quase não arranham."
+      "slot": "Utilitária",
+      "skill": "Redoma Protetora (Bubble Shield)"
     },
     {
-     "icon": "tougher-times",
-     "pt": "Tempos Difíceis",
-     "en": "Tougher Times",
-     "prio": 2,
-     "qty": "2 a 4",
-     "effect": "15% (+15% por acúmulo) de chance de bloquear dano recebido. Não é afetado por sorte.",
-     "why": "Vale para você e para cada torreta, que viram alvo de quase todo o grupo."
-    },
-    {
-     "icon": "lens-makers-glasses",
-     "pt": "Óculos do Fabricante de Lentes",
-     "en": "Lens-Maker's Glasses",
-     "prio": 2,
-     "qty": "2 a 5",
-     "effect": "10% (+10% por acúmulo) de chance de Acerto Crítico, que causa dano dobrado.",
-     "why": "Dano dobrado nos tiros da torreta. A wiki cita os Óculos com a Foice do Ceifador como forma de manter as torretas vivas."
-    },
-    {
-     "icon": "tri-tip-dagger",
-     "pt": "Adaga Triangular",
-     "en": "Tri-Tip Dagger",
-     "prio": 3,
-     "qty": "1 a 3",
-     "effect": "10% (+10% por acúmulo) de chance de sangrar um inimigo por 240% do dano base.",
-     "why": "Cerca de três tiros por segundo por torreta com coeficiente 1,0. O sangramento sai com frequência."
-    },
-    {
-     "icon": "armor-piercing-rounds",
-     "pt": "Projéteis Perfurantes",
-     "en": "Armor-Piercing Rounds",
-     "prio": 3,
-     "qty": "1 a 3",
-     "effect": "+20% (+20% por acúmulo) de dano contra chefes.",
-     "why": "Na luta do teleporte as torretas atiram no chefe o tempo todo. O bônus conta em cada uma."
-    },
-    {
-     "icon": "monster-tooth",
-     "pt": "Presa de Monstro",
-     "en": "Monster Tooth",
-     "prio": 3,
-     "qty": "1 a 2",
-     "effect": "Abater um inimigo gera um orbe de cura que cura 8 mais 2% (+2% por acúmulo) da vida máxima.",
-     "why": "A wiki lista a Presa entre as curas que sustentam as torretas. Elas fazem muitos abates."
-    },
-    {
-     "icon": "warbanner",
-     "pt": "Estandarte de Guerra",
-     "en": "Warbanner",
-     "prio": 4,
-     "qty": "1",
-     "effect": "Ao subir de nível ou iniciar o evento do Teleporte, deixa um estandarte que fortalece todos os aliados a até 16 m (+8 m por acúmulo). Aumenta a velocidade de ataque e de movimento em 30%.",
-     "why": "As torretas não herdam este item (lista TurretBlacklist da wiki). Só vale se você colocar o estandarte perto delas, já que o bônus é para aliados no raio."
+      "slot": "Especial",
+      "skill": "Torreta Automática Eletromagnética TR12 (TR12 Gauss Auto-Turret)"
     }
-   ]
-  },
-  {
-   "id": "incomum",
-   "name": "Incomum",
-   "color": "verde",
-   "intro": "Os verdes de efeito ao acertar rendem muito: cada torreta tem cópia própria e atira sem parar com coeficiente 1,0.",
-   "items": [
+  ],
+  "skills": [
     {
-     "icon": "atg-missile-mk-1",
-     "pt": "Míssil ASM Mk. 1",
-     "en": "AtG Missile Mk. 1",
-     "prio": 1,
-     "qty": "1 a 3",
-     "effect": "10% de chance de disparar um míssil que causa 300% (+300% por acúmulo) de dano TOTAL.",
-     "why": "Com cerca de três tiros por segundo, cada torreta lança mísseis o tempo todo. Também alcança voadores longe."
+      "slot": "Primária",
+      "pt": "Granadas Saltitantes",
+      "en": "Bouncing Grenades",
+      "pick": "Recomendada",
+      "spec": "Carrega até 8 granadas de 100% de dano cada. Coeficiente 1,0 por granada. Carga em 2 s, dispara sozinha após 3 s. Explosão de 3,5 m.",
+      "why": "Dá para correr enquanto carrega, e cada granada ativa itens ao acertar com coeficiente cheio. É o seu dano pessoal enquanto as torretas trabalham. As granadas quicam no terreno e na parte de fora da Redoma."
     },
     {
-     "icon": "ukulele",
-     "pt": "Ukulele",
-     "en": "Ukulele",
-     "prio": 1,
-     "qty": "1 a 3",
-     "effect": "25% de chance de disparar um raio em cadeia de 80% de dano TOTAL em até 3 (+2 por acúmulo) alvos a 20 m (+2 m por acúmulo).",
-     "why": "A TR12 atira em um alvo por vez. O Ukulele espalha esse dano pelo grupo ao redor."
+      "slot": "Primária (alt.)",
+      "pt": "Laser Cutter",
+      "en": "Laser Cutter",
+      "pick": "Variante",
+      "spec": "Laser de 50 m, 9 acertos por segundo, 270% a 630% de dano por segundo em 3 estágios. Coeficiente 0,7. Cura torretas e drones aliados em vez de causar dano.",
+      "why": "Cada acerto em uma torreta cura 15% a 35% do seu atributo de dano, conforme o estágio. A velocidade de ataque acelera o início e a taxa de acertos. O laser para no primeiro personagem que atinge e reduz sua movimentação para 70% e depois 40%. É da DLC Hallowed Concepts (veja as notas)."
     },
     {
-     "icon": "leeching-seed",
-     "pt": "Semente Sanguessuga",
-     "en": "Leeching Seed",
-     "prio": 2,
-     "qty": "1 a 3",
-     "effect": "Causar dano cura 1 (+1 por acúmulo) de vida.",
-     "why": "Tiro rápido significa cura constante para cada torreta, somada ao Fungo."
+      "slot": "Secundária",
+      "pt": "Minas de Pressão",
+      "en": "Pressure Mines",
+      "pick": "Recomendada",
+      "spec": "300% de dano, ou 900% depois de armada. Coeficiente 1,0. Até 4, recarga 8 s. Detecção de 7,5 m armada, sem perda de dano na borda.",
+      "why": "Não exige desbloqueio e cobre o caminho até as torretas. Deixe as minas antes da luta, porque leva alguns segundos para armar. Elas grudam na Redoma, o que transforma a bolha numa armadilha."
     },
     {
-     "icon": "harvesters-scythe",
-     "pt": "Foice do Ceifador",
-     "en": "Harvester's Scythe",
-     "prio": 2,
-     "qty": "1 a 2 (com Óculos)",
-     "effect": "+5% de chance de crítico. Críticos curam 8 (+4 por acúmulo) de vida.",
-     "why": "A wiki cita a Foice como cura para as torretas. Rende mais com alguns Óculos."
+      "slot": "Secundária (alt.)",
+      "pt": "Minas de Aranha",
+      "en": "Spider Mines",
+      "pick": "Variante",
+      "spec": "600% de dano quando um inimigo se aproxima. Coeficiente 1,0. Até 4, recarga 8 s. Não precisa armar.",
+      "why": "Procuram inimigos no raio e causam 600% na hora se você arremessar direto no alvo. Mais simples de usar que as Minas de Pressão. Desbloqueio: Engenheiro: 100% Calculado (100% Calculated)."
     },
     {
-     "icon": "predatory-instincts",
-     "pt": "Instintos Predatórios",
-     "en": "Predatory Instincts",
-     "prio": 3,
-     "qty": "1 (com Óculos)",
-     "effect": "+5% de chance de crítico. Críticos dão +12% de velocidade de ataque, até 36% (+24% por acúmulo).",
-     "why": "Mais tiros por segundo para as torretas quando já há chance de crítico."
+      "slot": "Utilitária",
+      "pt": "Redoma Protetora",
+      "en": "Bubble Shield",
+      "pick": "Recomendada",
+      "spec": "Escudo de 10 m que bloqueia todo dano vindo de fora por 15 s. Recarga 25 s. Só uma ativa por vez.",
+      "why": "Coloque sobre as torretas: elas e você atiram para fora e nada entra. Inimigos que entram na bolha anulam a proteção. A alternativa Arpões Térmicos (Thermal Harpoons, 4 × 500%, recarga 2,5 s) dá muito dano, mas tira a defesa das torretas."
     },
     {
-     "icon": "death-mark",
-     "pt": "Marca Fatal",
-     "en": "Death Mark",
-     "prio": 3,
-     "qty": "1",
-     "effect": "Inimigos com 4 ou mais debuffs ficam marcados e recebem 50% a mais de dano de todas as fontes por 7 s (+7 s por acúmulo).",
-     "why": "Útil se você já tem sangramento, lentidão e redução de armadura saindo dos tiros das torretas. Sem esses itens, pule."
-    },
-    {
-     "icon": "infusion",
-     "pt": "Infusão",
-     "en": "Infusion",
-     "prio": 4,
-     "qty": "1 a 2",
-     "effect": "Abater um inimigo aumenta sua vida permanentemente em 1 (+1 por acúmulo), até no máximo 100 (+100 por acúmulo) de vida.",
-     "why": "Torretas fazem muitos abates. A wiki não detalha como a vida ganha passa entre você e as torretas, então trate como bônus incerto."
-    },
-    {
-     "icon": "lepton-daisy",
-     "pt": "Margarida de Lépton",
-     "en": "Lepton Daisy",
-     "prio": 4,
-     "qty": "1",
-     "effect": "Libera uma onda de cura durante o evento do Teleporte, curando todos os aliados próximos em 50% da vida máxima. Ocorre 1 (+1 por acúmulo) vez.",
-     "why": "As torretas não herdam este item. Ainda cura os aliados próximos, então posicione as torretas dentro da zona do teleporte."
+      "slot": "Especial",
+      "pt": "Torreta Automática Eletromagnética TR12",
+      "en": "TR12 Gauss Auto-Turret",
+      "pick": "Recomendada",
+      "spec": "O texto do jogo diz 100%; a wiki esclarece: disparo a cada 0,35 s de 70%, cerca de 200% por segundo. Coeficiente 1,0. Até 2, recarga 30 s. Alcance de mira 60 m.",
+      "why": "Herda seus itens e o equipamento. Fica parada e não sofre empurrão, então o Fungo Vibrante fica sempre ativo nela. Coeficiente 1,0 com tiro rápido faz os itens ao acertar ativarem muito. A TR58 Carbonizante (TR58 Carbonizer Turret, móvel, 200% por segundo, coeficiente 0,6, 25 m) segue você, mas perde o Fungo parado e ativa menos itens."
     }
-   ]
-  },
-  {
-   "id": "lendario",
-   "name": "Lendário",
-   "color": "vermelho",
-   "intro": "Um lendário nas torretas vale por dois ou três. Os melhores somam dano em área ou tornam as torretas mais difíceis de matar.",
-   "items": [
+  ],
+  "sections": [
     {
-     "icon": "brilliant-behemoth",
-     "pt": "Brutamontes Reluzente",
-     "en": "Brilliant Behemoth",
-     "prio": 1,
-     "qty": "1 a 2",
-     "effect": "Todos os ataques explodem em 4 m (+2,5 m por acúmulo) causando 60% de dano TOTAL extra.",
-     "why": "Transforma o tiro de alvo único da TR12 em dano em área, em cada torreta."
+      "id": "comum",
+      "name": "Comum",
+      "color": "branco",
+      "intro": "Cada branco vai para você e para cada torreta. Priorize o que mantém as torretas vivas e o que ativa com tiro rápido.",
+      "items": [
+        {
+          "icon": "bustling-fungus",
+          "pt": "Fungo Vibrante",
+          "en": "Bustling Fungus",
+          "prio": 1,
+          "qty": "2 a 5",
+          "effect": "Depois de ficar parado por 1 segundo, cria uma zona que cura 4,5% (+2,25% por acúmulo) da sua vida por segundo para todos os aliados a até 3 m (+1,5 m por acúmulo).",
+          "why": "A wiki diz que a TR12 fica sempre sob o efeito do Fungo, porque nunca se mexe. Torretas lado a lado curam uma à outra e você também, se ficar perto."
+        },
+        {
+          "icon": "soldiers-syringe",
+          "pt": "Seringa Militar",
+          "en": "Soldier's Syringe",
+          "prio": 1,
+          "qty": "3 a 6",
+          "effect": "+15% (+15% por acúmulo) de velocidade de ataque.",
+          "why": "A torreta dispara a cada 0,35 s. Mais velocidade é mais tiros, mais dano e mais ativações dos itens ao acertar em cada torreta."
+        },
+        {
+          "icon": "repulsion-armor-plate",
+          "pt": "Placa da Armadura de Repulsão",
+          "en": "Repulsion Armor Plate",
+          "prio": 2,
+          "qty": "3 a 8",
+          "effect": "Reduz todo dano recebido em 5 (+5 por acúmulo). Não reduz abaixo de 1.",
+          "why": "As torretas começam com 0 de armadura e levam muitos golpes pequenos. Com várias placas, inimigos fracos quase não arranham."
+        },
+        {
+          "icon": "tougher-times",
+          "pt": "Tempos Difíceis",
+          "en": "Tougher Times",
+          "prio": 2,
+          "qty": "2 a 4",
+          "effect": "15% (+15% por acúmulo) de chance de bloquear dano recebido. Não é afetado por sorte.",
+          "why": "Vale para você e para cada torreta, que viram alvo de quase todo o grupo."
+        },
+        {
+          "icon": "lens-makers-glasses",
+          "pt": "Óculos do Fabricante de Lentes",
+          "en": "Lens-Maker's Glasses",
+          "prio": 2,
+          "qty": "2 a 5",
+          "effect": "10% (+10% por acúmulo) de chance de Acerto Crítico, que causa dano dobrado.",
+          "why": "Dano dobrado nos tiros da torreta. A wiki cita os Óculos com a Foice do Ceifador como forma de manter as torretas vivas."
+        },
+        {
+          "icon": "tri-tip-dagger",
+          "pt": "Adaga Triangular",
+          "en": "Tri-Tip Dagger",
+          "prio": 3,
+          "qty": "1 a 3",
+          "effect": "10% (+10% por acúmulo) de chance de sangrar um inimigo por 240% do dano base.",
+          "why": "Cerca de três tiros por segundo por torreta com coeficiente 1,0. O sangramento sai com frequência."
+        },
+        {
+          "icon": "armor-piercing-rounds",
+          "pt": "Projéteis Perfurantes",
+          "en": "Armor-Piercing Rounds",
+          "prio": 3,
+          "qty": "1 a 3",
+          "effect": "+20% (+20% por acúmulo) de dano contra chefes.",
+          "why": "Na luta do teleporte as torretas atiram no chefe o tempo todo. O bônus conta em cada uma."
+        },
+        {
+          "icon": "monster-tooth",
+          "pt": "Presa de Monstro",
+          "en": "Monster Tooth",
+          "prio": 3,
+          "qty": "1 a 2",
+          "effect": "Abater um inimigo gera um orbe de cura que cura 8 mais 2% (+2% por acúmulo) da vida máxima.",
+          "why": "A wiki lista a Presa entre as curas que sustentam as torretas. Elas fazem muitos abates."
+        },
+        {
+          "icon": "warbanner",
+          "pt": "Estandarte de Guerra",
+          "en": "Warbanner",
+          "prio": 4,
+          "qty": "1",
+          "effect": "Ao subir de nível ou iniciar o evento do Teleporte, deixa um estandarte que fortalece todos os aliados a até 16 m (+8 m por acúmulo). Aumenta a velocidade de ataque e de movimento em 30%.",
+          "why": "As torretas não herdam este item (lista TurretBlacklist da wiki). Só vale se você colocar o estandarte perto delas, já que o bônus é para aliados no raio."
+        }
+      ]
     },
     {
-     "icon": "sentient-meat-hook",
-     "pt": "Gancho de Carnes Senciente",
-     "en": "Sentient Meat Hook",
-     "prio": 2,
-     "qty": "1 a 2",
-     "effect": "20% (+20% por acúmulo) de chance ao acertar de lançar ganchos teleguiados em até 10 (+5 por acúmulo) inimigos causando 100% de dano TOTAL.",
-     "why": "Muitos tiros por segundo e coeficiente 1,0: o gancho dispara o tempo todo e acerta o grupo inteiro."
+      "id": "incomum",
+      "name": "Incomum",
+      "color": "verde",
+      "intro": "Os verdes de efeito ao acertar rendem muito: cada torreta tem cópia própria e atira sem parar com coeficiente 1,0.",
+      "items": [
+        {
+          "icon": "atg-missile-mk-1",
+          "pt": "Míssil ASM Mk. 1",
+          "en": "AtG Missile Mk. 1",
+          "prio": 1,
+          "qty": "1 a 3",
+          "effect": "10% de chance de disparar um míssil que causa 300% (+300% por acúmulo) de dano TOTAL.",
+          "why": "Com cerca de três tiros por segundo, cada torreta lança mísseis o tempo todo. Também alcança voadores longe."
+        },
+        {
+          "icon": "ukulele",
+          "pt": "Ukulele",
+          "en": "Ukulele",
+          "prio": 1,
+          "qty": "1 a 3",
+          "effect": "25% de chance de disparar um raio em cadeia de 80% de dano TOTAL em até 3 (+2 por acúmulo) alvos a 20 m (+2 m por acúmulo).",
+          "why": "A TR12 atira em um alvo por vez. O Ukulele espalha esse dano pelo grupo ao redor."
+        },
+        {
+          "icon": "leeching-seed",
+          "pt": "Semente Sanguessuga",
+          "en": "Leeching Seed",
+          "prio": 2,
+          "qty": "1 a 3",
+          "effect": "Causar dano cura 1 (+1 por acúmulo) de vida.",
+          "why": "Tiro rápido significa cura constante para cada torreta, somada ao Fungo."
+        },
+        {
+          "icon": "harvesters-scythe",
+          "pt": "Foice do Ceifador",
+          "en": "Harvester's Scythe",
+          "prio": 2,
+          "qty": "1 a 2 (com Óculos)",
+          "effect": "+5% de chance de crítico. Críticos curam 8 (+4 por acúmulo) de vida.",
+          "why": "A wiki cita a Foice como cura para as torretas. Rende mais com alguns Óculos."
+        },
+        {
+          "icon": "predatory-instincts",
+          "pt": "Instintos Predatórios",
+          "en": "Predatory Instincts",
+          "prio": 3,
+          "qty": "1 (com Óculos)",
+          "effect": "+5% de chance de crítico. Críticos dão +12% de velocidade de ataque, até 36% (+24% por acúmulo).",
+          "why": "Mais tiros por segundo para as torretas quando já há chance de crítico."
+        },
+        {
+          "icon": "death-mark",
+          "pt": "Marca Fatal",
+          "en": "Death Mark",
+          "prio": 3,
+          "qty": "1",
+          "effect": "Inimigos com 4 ou mais debuffs ficam marcados e recebem 50% a mais de dano de todas as fontes por 7 s (+7 s por acúmulo).",
+          "why": "Útil se você já tem sangramento, lentidão e redução de armadura saindo dos tiros das torretas. Sem esses itens, pule."
+        },
+        {
+          "icon": "infusion",
+          "pt": "Infusão",
+          "en": "Infusion",
+          "prio": 4,
+          "qty": "1 a 2",
+          "effect": "Abater um inimigo aumenta sua vida permanentemente em 1 (+1 por acúmulo), até no máximo 100 (+100 por acúmulo) de vida.",
+          "why": "Torretas fazem muitos abates. A wiki não detalha como a vida ganha passa entre você e as torretas, então trate como bônus incerto."
+        },
+        {
+          "icon": "lepton-daisy",
+          "pt": "Margarida de Lépton",
+          "en": "Lepton Daisy",
+          "prio": 4,
+          "qty": "1",
+          "effect": "Libera uma onda de cura durante o evento do Teleporte, curando todos os aliados próximos em 50% da vida máxima. Ocorre 1 (+1 por acúmulo) vez.",
+          "why": "As torretas não herdam este item. Ainda cura os aliados próximos, então posicione as torretas dentro da zona do teleporte."
+        }
+      ]
     },
     {
-     "icon": "rejuvenation-rack",
-     "pt": "Suporte do Rejuvenescimento",
-     "en": "Rejuvenation Rack",
-     "prio": 2,
-     "qty": "1",
-     "effect": "Cura +100% (+100% por acúmulo) a mais.",
-     "why": "Dobra a cura do Fungo, da Semente e da Foice em você e em cada torreta."
+      "id": "lendario",
+      "name": "Lendário",
+      "color": "vermelho",
+      "intro": "Um lendário nas torretas vale por dois ou três. Os melhores somam dano em área ou tornam as torretas mais difíceis de matar.",
+      "items": [
+        {
+          "icon": "brilliant-behemoth",
+          "pt": "Brutamontes Reluzente",
+          "en": "Brilliant Behemoth",
+          "prio": 1,
+          "qty": "1 a 2",
+          "effect": "Todos os ataques explodem em 4 m (+2,5 m por acúmulo) causando 60% de dano TOTAL extra.",
+          "why": "Transforma o tiro de alvo único da TR12 em dano em área, em cada torreta."
+        },
+        {
+          "icon": "sentient-meat-hook",
+          "pt": "Gancho de Carnes Senciente",
+          "en": "Sentient Meat Hook",
+          "prio": 2,
+          "qty": "1 a 2",
+          "effect": "20% (+20% por acúmulo) de chance ao acertar de lançar ganchos teleguiados em até 10 (+5 por acúmulo) inimigos causando 100% de dano TOTAL.",
+          "why": "Muitos tiros por segundo e coeficiente 1,0: o gancho dispara o tempo todo e acerta o grupo inteiro."
+        },
+        {
+          "icon": "rejuvenation-rack",
+          "pt": "Suporte do Rejuvenescimento",
+          "en": "Rejuvenation Rack",
+          "prio": 2,
+          "qty": "1",
+          "effect": "Cura +100% (+100% por acúmulo) a mais.",
+          "why": "Dobra a cura do Fungo, da Semente e da Foice em você e em cada torreta."
+        },
+        {
+          "icon": "dios-best-friend",
+          "pt": "Melhor Amigo de Dio",
+          "en": "Dio's Best Friend",
+          "prio": 2,
+          "qty": "1",
+          "effect": "Ao morrer, este item é consumido e você volta à vida com 3 segundos de invulnerabilidade.",
+          "why": "Segundo a wiki, as torretas recebem o item de novo a cada vez que são posicionadas, desde que você não morra. Na prática, cada torreta ganha uma vida extra por posicionamento."
+        },
+        {
+          "icon": "spare-drone-parts",
+          "pt": "Peças de Drone Avulsas",
+          "en": "Spare Drone Parts",
+          "prio": 2,
+          "qty": "1",
+          "effect": "Ganha o Col. Droneman. Drones ganham +25% (+25% por acúmulo) de velocidade de ataque e redução de recarga. Drones ganham 10% de chance de disparar um míssil ao acertar, causando 150% de dano TOTAL. Drones ganham uma metralhadora automática que causa 6×50% de dano, ricocheteando em 2 inimigos.",
+          "why": "As torretas não copiam este item, mas a sua cópia vale para elas: a wiki diz que afeta todos os lacaios mecânicos, incluindo as torretas. Como elas têm os seus itens, a metralhadora e o míssil também ativam os efeitos ao acertar delas. DLC Survivors of the Void."
+        },
+        {
+          "icon": "hardlight-afterburner",
+          "pt": "Pós-combustor de Holograma",
+          "en": "Hardlight Afterburner",
+          "prio": 3,
+          "qty": "1",
+          "effect": "+2 (+2 por acúmulo) cargas da Utilitária e −33% no tempo de recarga dela.",
+          "why": "A wiki cita este item para manter a Redoma Protetora quase sempre ativa. Só uma bolha existe por vez, então as cargas servem para reposicionar."
+        },
+        {
+          "icon": "57-leaf-clover",
+          "pt": "Trevo 57",
+          "en": "57 Leaf Clover",
+          "prio": 3,
+          "qty": "1",
+          "effect": "Todos os efeitos aleatórios são rolados +1 (+1 por acúmulo) vez a seu favor.",
+          "why": "Melhora Míssil, Ukulele, Gancho, Adaga e crítico em cada torreta."
+        },
+        {
+          "icon": "symbiotic-scorpion",
+          "pt": "Escorpião Simbiótico",
+          "en": "Symbiotic Scorpion",
+          "prio": 3,
+          "qty": "1",
+          "effect": "100% de chance ao acertar de reduzir a armadura em 2 (+2 por acúmulo) permanentemente.",
+          "why": "Duas torretas atirando sem parar no chefe derrubam a armadura dele rápido."
+        },
+        {
+          "icon": "wake-of-vultures",
+          "pt": "Despertar dos Abutres",
+          "en": "Wake of Vultures",
+          "prio": 4,
+          "qty": "1",
+          "effect": "Ganha o poder de qualquer monstro de elite abatido por 8 s (+5 s por acúmulo).",
+          "why": "A wiki diz que as torretas se beneficiam deste item. Elas abatem muitas elites e ganham os poderes delas."
+        }
+      ]
     },
     {
-     "icon": "dios-best-friend",
-     "pt": "Melhor Amigo de Dio",
-     "en": "Dio's Best Friend",
-     "prio": 2,
-     "qty": "1",
-     "effect": "Ao morrer, este item é consumido e você volta à vida com 3 segundos de invulnerabilidade.",
-     "why": "Segundo a wiki, as torretas recebem o item de novo a cada vez que são posicionadas, desde que você não morra. Na prática, cada torreta ganha uma vida extra por posicionamento."
+      "id": "chefe",
+      "name": "Chefe",
+      "color": "amarelo",
+      "intro": "Itens de chefe que dão atributos ou ativam ao acertar passam para as torretas. Os que invocam aliados, como Glândula da Rainha (Queen's Gland), Núcleos Empáticos (Empathy Cores) e Semente Intocada (Halcyon Seed), não passam.",
+      "items": [
+        {
+          "icon": "irradiant-pearl",
+          "pt": "Pérola Irradiante",
+          "en": "Irradiant Pearl",
+          "prio": 2,
+          "qty": "1 ou mais",
+          "effect": "Aumenta TODOS os atributos em 10% (+10% por acúmulo).",
+          "why": "Vida, dano, velocidade de ataque e regeneração para você e cada torreta."
+        },
+        {
+          "icon": "molten-perforator",
+          "pt": "Perfurador Fundido",
+          "en": "Molten Perforator",
+          "prio": 3,
+          "qty": "1",
+          "effect": "10% de chance ao acertar de lançar 3 bolas de magma do inimigo, causando 300% (+300% por acúmulo) de dano cada.",
+          "why": "Mais um efeito ao acertar para o tiro rápido das torretas."
+        }
+      ]
     },
     {
-     "icon": "hardlight-afterburner",
-     "pt": "Pós-combustor de Holograma",
-     "en": "Hardlight Afterburner",
-     "prio": 3,
-     "qty": "1",
-     "effect": "+2 (+2 por acúmulo) cargas da Utilitária e −33% no tempo de recarga dela.",
-     "why": "A wiki cita este item para manter a Redoma Protetora quase sempre ativa. Só uma bolha existe por vez, então as cargas servem para reposicionar."
+      "id": "equipamento",
+      "name": "Equipamentos",
+      "color": "laranja",
+      "intro": "As torretas herdam o equipamento, mas não conseguem ativá-lo, nem com a Marca do Submerso (Gesture of the Drowned). Escolha pensando no que você ativa.",
+      "items": [
+        {
+          "icon": "primordial-cube",
+          "pt": "Cubo Primordial",
+          "en": "Primordial Cube",
+          "prio": 1,
+          "qty": "1 (recarga 60 s)",
+          "effect": "Dispara um buraco negro que puxa inimigos a até 30 m para o centro. Dura 10 segundos.",
+          "why": "Jogue na frente das torretas: o grupo fica preso no ponto onde elas, o Brutamontes e as Minas acertam todos."
+        },
+        {
+          "icon": "royal-capacitor",
+          "pt": "Capacitor Régio",
+          "en": "Royal Capacitor",
+          "prio": 2,
+          "qty": "1 (recarga 20 s)",
+          "effect": "Invoca um raio sobre um monstro marcado, causando 3000% de dano e atordoando os monstros próximos.",
+          "why": "Dano alto à distância contra a elite que ameaça as torretas. Recarga curta."
+        },
+        {
+          "icon": "gnarled-woodsprite",
+          "pt": "Criatura da Floresta Deformada",
+          "en": "Gnarled Woodsprite",
+          "prio": 3,
+          "qty": "1 (recarga 15 s)",
+          "effect": "Ganha uma criatura seguidora que cura 1,5% da sua vida máxima por segundo. Pode ser enviada a um aliado para curá-lo em 10% da vida máxima dele.",
+          "why": "Ative para mandar a criatura a uma torreta ferida. Recarga de 15 s."
+        },
+        {
+          "icon": "fuel-array",
+          "pt": "Matriz de Combustível",
+          "en": "Fuel Array",
+          "prio": 4,
+          "qty": "1 (só para o desafio)",
+          "effect": "Parece que pode alimentar algo. EXTREMAMENTE instável...",
+          "why": "As torretas recebem a própria Matriz e ela explode quando elas levam muito dano. A wiki chama isso de mais viável no multijogador. A DLC Hallowed Concepts usa este item para desbloquear o Laser Cutter."
+        },
+        {
+          "icon": "spinel-tonic",
+          "pt": "Tônico de Espinélia",
+          "en": "Spinel Tonic",
+          "prio": 0,
+          "qty": "0",
+          "effect": "Por 20 s: +100% de dano, +70% de velocidade de ataque, +20 de armadura, +50% de vida máxima, +300% de regeneração, +30% de movimento. Ao acabar, 20% de chance de Aflição do Tônico (−5% em todos os atributos, permanente).",
+          "why": "A wiki avisa que as torretas herdam as Aflições do Tônico e não conseguem curá-las. Elas não ganham o bônus, já que não ativam equipamento, e ficam só com a perda."
+        }
+      ]
     },
     {
-     "icon": "57-leaf-clover",
-     "pt": "Trevo 57",
-     "en": "57 Leaf Clover",
-     "prio": 3,
-     "qty": "1",
-     "effect": "Todos os efeitos aleatórios são rolados +1 (+1 por acúmulo) vez a seu favor.",
-     "why": "Melhora Míssil, Ukulele, Gancho, Adaga e crítico em cada torreta."
+      "id": "lunar",
+      "name": "Lunares",
+      "color": "azul",
+      "intro": "Lunares também passam para as torretas, com o custo junto. Pense no efeito em três corpos.",
+      "items": [
+        {
+          "icon": "transcendence",
+          "pt": "Transcendência",
+          "en": "Transcendence",
+          "prio": 4,
+          "qty": "1 (com Égide e curas fixas)",
+          "effect": "Converte toda a vida, menos 1, em escudo regenerável. Ganha 50% (+25% por acúmulo) de vida máxima.",
+          "why": "A wiki desaconselha para torretas: o Fungo Vibrante cura por porcentagem da vida máxima, que vira 1. Se usar com a Égide (Aegis), a wiki pede curas de valor fixo, como Semente Sanguessuga e Foice do Ceifador."
+        },
+        {
+          "icon": "visions-of-heresy",
+          "pt": "Visões Profanas",
+          "en": "Visions of Heresy",
+          "prio": 4,
+          "qty": "1 (com Pureza)",
+          "effect": "Substitui sua Primária por Olhar Faminto. Dispara uma rajada de fragmentos teleguiados que detonam após um atraso, causando 120% do dano base. Guarda até 12 cargas (+12 por acúmulo) que recarregam após 2 segundos (+2 por acúmulo).",
+          "why": "Segundo a wiki, com Pureza e Visões Profanas o dano das torretas fica cerca de 4 vezes maior, ao custo dos efeitos aleatórios ao acertar. É uma build diferente, para quem já tem as duas."
+        },
+        {
+          "icon": "purity",
+          "pt": "Pureza",
+          "en": "Purity",
+          "prio": 4,
+          "qty": "1 (com Visões)",
+          "effect": "Reduz todas as recargas de habilidade em 2 s (+1 s por acúmulo). Todos os efeitos aleatórios são rolados +1 (+1 por acúmulo) vez contra você.",
+          "why": "Sozinha, piora Míssil, Ukulele, Gancho e crítico em todas as torretas. Só faz sentido na combinação com Visões Profanas citada pela wiki."
+        }
+      ]
     },
     {
-     "icon": "symbiotic-scorpion",
-     "pt": "Escorpião Simbiótico",
-     "en": "Symbiotic Scorpion",
-     "prio": 3,
-     "qty": "1",
-     "effect": "100% de chance ao acertar de reduzir a armadura em 2 (+2 por acúmulo) permanentemente.",
-     "why": "Duas torretas atirando sem parar no chefe derrubam a armadura dele rápido."
-    },
-    {
-     "icon": "wake-of-vultures",
-     "pt": "Despertar dos Abutres",
-     "en": "Wake of Vultures",
-     "prio": 4,
-     "qty": "1",
-     "effect": "Ganha o poder de qualquer monstro de elite abatido por 8 s (+5 s por acúmulo).",
-     "why": "A wiki diz que as torretas se beneficiam deste item. Elas abatem muitas elites e ganham os poderes delas."
+      "id": "vazio",
+      "name": "Vazio",
+      "color": "roxo",
+      "intro": "Itens do Vazio (DLC Survivors of the Void) corrompem seus equivalentes. Olhe o que perde antes, porque as torretas perdem junto.",
+      "items": [
+        {
+          "icon": "lysate-cell",
+          "pt": "Célula Lisada",
+          "en": "Lysate Cell",
+          "prio": 1,
+          "qty": "1",
+          "effect": "+1 (+1 por acúmulo) carga da habilidade Especial e −33% no tempo de recarga dela. Corrompe todas as Células de Combustível.",
+          "why": "Permite 3 torretas ao mesmo tempo, segundo a wiki. Mais Células dão cargas extras, mas não aumentam o limite de torretas. É o item mais forte para esta build."
+        },
+        {
+          "icon": "polylute",
+          "pt": "Polialaúde",
+          "en": "Polylute",
+          "prio": 3,
+          "qty": "1",
+          "effect": "25% de chance de disparar um raio de 60% de dano TOTAL até 3 (+3 por acúmulo) vezes. Corrompe todos os Ukuleles.",
+          "why": "Melhor contra um alvo e pior em grupo. Corrompe os Ukuleles que esta build recomenda: só pegue se preferir dano em chefe."
+        },
+        {
+          "icon": "needletick",
+          "pt": "Agulhão",
+          "en": "Needletick",
+          "prio": 3,
+          "qty": "1 a 2",
+          "effect": "10% (+10% por acúmulo) de chance de colapsar um inimigo, causando 400% do dano base. Corrompe todas as Adagas Triangulares.",
+          "why": "Ativa muito com o tiro rápido das torretas. Corrompe as Adagas Triangulares."
+        },
+        {
+          "icon": "safer-spaces",
+          "pt": "Espaços Seguros",
+          "en": "Safer Spaces",
+          "prio": 4,
+          "qty": "1",
+          "effect": "Bloqueia dano recebido uma vez. Recarrega após 13,5 segundos (−10% por acúmulo). Corrompe todos os Tempos Difíceis.",
+          "why": "Cada torreta bloqueia um golpe grande a cada 13,5 s. Corrompe os Tempos Difíceis."
+        },
+        {
+          "icon": "weeping-fungus",
+          "pt": "Fungo Choroso",
+          "en": "Weeping Fungus",
+          "prio": 0,
+          "qty": "0",
+          "effect": "Cura 2% (+2% por acúmulo) da vida por segundo enquanto corre. Corrompe todos os Fungos Vibrantes.",
+          "why": "A TR12 nunca corre. Este item apaga todos os seus Fungos Vibrantes e tira a cura principal das torretas."
+        }
+      ]
     }
-   ]
-  },
-  {
-   "id": "chefe",
-   "name": "Chefe",
-   "color": "amarelo",
-   "intro": "Itens de chefe que dão atributos ou ativam ao acertar passam para as torretas. Os que invocam aliados, como Glândula da Rainha (Queen's Gland), Núcleos Empáticos (Empathy Cores) e Semente Intocada (Halcyon Seed), não passam.",
-   "items": [
+  ],
+  "synergy": [
     {
-     "icon": "irradiant-pearl",
-     "pt": "Pérola Irradiante",
-     "en": "Irradiant Pearl",
-     "prio": 2,
-     "qty": "1 ou mais",
-     "effect": "Aumenta TODOS os atributos em 10% (+10% por acúmulo).",
-     "why": "Vida, dano, velocidade de ataque e regeneração para você e cada torreta."
+      "title": "O que as torretas herdam",
+      "text": "As torretas herdam todos os seus itens e o equipamento, menos os da lista TurretBlacklist da wiki. Nessa lista estão Estandarte de Guerra, Margarida de Lépton, Peças de Drone Avulsas (a sua cópia já fortalece as torretas), Glândula da Rainha, Núcleos Empáticos, Semente Intocada, Zoea recém-nascida e Convergência Concentrada, além de itens da DLC Alloyed Collective como Caixa de Dinamites, Núcleo Órfão, Matriz Prisional, Chave Sentinela, Massa do Neutrônio, Conserto Rápido e os Cerebelos. Elas herdam o equipamento, mas não o ativam."
     },
     {
-     "icon": "molten-perforator",
-     "pt": "Perfurador Fundido",
-     "en": "Molten Perforator",
-     "prio": 3,
-     "qty": "1",
-     "effect": "10% de chance ao acertar de lançar 3 bolas de magma do inimigo, causando 300% (+300% por acúmulo) de dano cada.",
-     "why": "Mais um efeito ao acertar para o tiro rápido das torretas."
+      "title": "Itens novos só depois de reposicionar",
+      "text": "As torretas não recebem os itens que você pega depois de posicionadas. Depois de uma boa leva de itens, principalmente antes do teleporte, posicione as torretas de novo. A recarga é de 30 s, então faça isso com calma, fora do perigo."
+    },
+    {
+      "title": "Fungo e torreta parada",
+      "text": "A TR12 não se move nem sofre empurrão, então o Fungo Vibrante fica ativo nela o tempo todo. Duas torretas encostadas curam uma à outra, e você recebe a cura se ficar dentro da zona. O Suporte do Rejuvenescimento dobra isso, e a Redoma Protetora por cima bloqueia o dano de fora."
+    },
+    {
+      "title": "Tiro rápido e coeficiente 1,0",
+      "text": "Cada torreta dispara a cada 0,35 s com coeficiente 1,0. Míssil, Ukulele, Gancho, Adaga e Perfurador ativam com muita frequência, e cada torreta tem as próprias cópias. Com a Célula Lisada são três torretas. Velocidade de ataque melhora tudo isso, então evite a Ombreira do Fluxo Iluminado (Light Flux Pauldron)."
+    },
+    {
+      "title": "Itens com regra própria nas torretas",
+      "text": "Melhor Amigo de Dio volta para a torreta a cada posicionamento, desde que você não morra. As Aflições do Tônico de Espinélia passam para elas e não somem. A Matriz de Combustível também é copiada e explode na torreta sob muito dano. O Ciclo do Gênese (Genesis Loop) pode ser ativado pelas torretas."
     }
-   ]
-  },
-  {
-   "id": "equipamento",
-   "name": "Equipamentos",
-   "color": "laranja",
-   "intro": "As torretas herdam o equipamento, mas não conseguem ativá-lo, nem com a Marca do Submerso (Gesture of the Drowned). Escolha pensando no que você ativa.",
-   "items": [
+  ],
+  "rotation": [
     {
-     "icon": "primordial-cube",
-     "pt": "Cubo Primordial",
-     "en": "Primordial Cube",
-     "prio": 1,
-     "qty": "1 (recarga 60 s)",
-     "effect": "Dispara um buraco negro que puxa inimigos a até 30 m para o centro. Dura 10 segundos.",
-     "why": "Jogue na frente das torretas: o grupo fica preso no ponto onde elas, o Brutamontes e as Minas acertam todos."
+      "step": "Posicione as duas torretas",
+      "text": "Em terreno alto ou perto do teleporte, lado a lado para dividir o Fungo."
     },
     {
-     "icon": "royal-capacitor",
-     "pt": "Capacitor Régio",
-     "en": "Royal Capacitor",
-     "prio": 2,
-     "qty": "1 (recarga 20 s)",
-     "effect": "Invoca um raio sobre um monstro marcado, causando 3000% de dano e atordoando os monstros próximos.",
-     "why": "Dano alto à distância contra a elite que ameaça as torretas. Recarga curta."
+      "step": "Minas no caminho",
+      "text": "Deixe as Minas de Pressão onde os inimigos vão chegar, com tempo para armar."
     },
     {
-     "icon": "gnarled-woodsprite",
-     "pt": "Criatura da Floresta Deformada",
-     "en": "Gnarled Woodsprite",
-     "prio": 3,
-     "qty": "1 (recarga 15 s)",
-     "effect": "Ganha uma criatura seguidora que cura 1,5% da sua vida máxima por segundo. Pode ser enviada a um aliado para curá-lo em 10% da vida máxima dele.",
-     "why": "Ative para mandar a criatura a uma torreta ferida. Recarga de 15 s."
+      "step": "Inicie o teleporte",
+      "text": "Fique perto das torretas e jogue Granadas Saltitantes no grupo."
     },
     {
-     "icon": "fuel-array",
-     "pt": "Matriz de Combustível",
-     "en": "Fuel Array",
-     "prio": 4,
-     "qty": "1 (só para o desafio)",
-     "effect": "Parece que pode alimentar algo. EXTREMAMENTE instável...",
-     "why": "As torretas recebem a própria Matriz e ela explode quando elas levam muito dano. A wiki chama isso de mais viável no multijogador. A DLC Hallowed Concepts usa este item para desbloquear o Laser Cutter."
+      "step": "Redoma sobre as torretas",
+      "text": "Use quando o grupo grande ou o chefe chegar; mate quem entrar na bolha."
     },
     {
-     "icon": "spinel-tonic",
-     "pt": "Tônico de Espinélia",
-     "en": "Spinel Tonic",
-     "prio": 0,
-     "qty": "0",
-     "effect": "Por 20 s: +100% de dano, +70% de velocidade de ataque, +20 de armadura, +50% de vida máxima, +300% de regeneração, +30% de movimento. Ao acabar, 20% de chance de Aflição do Tônico (−5% em todos os atributos, permanente).",
-     "why": "A wiki avisa que as torretas herdam as Aflições do Tônico e não conseguem curá-las. Elas não ganham o bônus, já que não ativam equipamento, e ficam só com a perda."
+      "step": "Reposicione após itens novos",
+      "text": "Torretas antigas não têm os itens recentes; recoloque quando a recarga voltar."
     }
-   ]
-  },
-  {
-   "id": "lunar",
-   "name": "Lunares",
-   "color": "azul",
-   "intro": "Lunares também passam para as torretas, com o custo junto. Pense no efeito em três corpos.",
-   "items": [
+  ],
+  "essentials": [
     {
-     "icon": "transcendence",
-     "pt": "Transcendência",
-     "en": "Transcendence",
-     "prio": 3,
-     "qty": "1 (com curas fixas)",
-     "effect": "Converte toda a vida, menos 1, em escudo regenerável. Ganha 50% (+25% por acúmulo) de vida máxima.",
-     "why": "A wiki permite combinar com a Égide, mas recomenda curas de valor fixo (como Semente e Placa) junto com a Transcendência. A cura em porcentagem do Fungo perde força."
+      "pt": "Fungo Vibrante",
+      "en": "Bustling Fungus"
     },
     {
-     "icon": "visions-of-heresy",
-     "pt": "Visões Profanas",
-     "en": "Visions of Heresy",
-     "prio": 4,
-     "qty": "1 (com Pureza)",
-     "effect": "Substitui sua Primária por Olhar Faminto. Dispara uma rajada de fragmentos teleguiados que detonam após um atraso, causando 120% do dano base. Guarda até 12 cargas (+12 por acúmulo) que recarregam após 2 segundos (+2 por acúmulo).",
-     "why": "Segundo a wiki, com Pureza e Visões Profanas o dano das torretas fica cerca de 4 vezes maior, ao custo dos efeitos aleatórios ao acertar. É uma build diferente, para quem já tem as duas."
+      "pt": "Seringa Militar",
+      "en": "Soldier's Syringe"
     },
     {
-     "icon": "purity",
-     "pt": "Pureza",
-     "en": "Purity",
-     "prio": 4,
-     "qty": "1 (com Visões)",
-     "effect": "Reduz todas as recargas de habilidade em 2 s (+1 s por acúmulo). Todos os efeitos aleatórios são rolados +1 (+1 por acúmulo) vez contra você.",
-     "why": "Sozinha, piora Míssil, Ukulele, Gancho e crítico em todas as torretas. Só faz sentido na combinação com Visões Profanas citada pela wiki."
+      "pt": "Míssil ASM Mk. 1",
+      "en": "AtG Missile Mk. 1"
+    },
+    {
+      "pt": "Ukulele",
+      "en": "Ukulele"
+    },
+    {
+      "pt": "Brutamontes Reluzente",
+      "en": "Brilliant Behemoth"
+    },
+    {
+      "pt": "Célula Lisada",
+      "en": "Lysate Cell"
+    },
+    {
+      "pt": "Cubo Primordial",
+      "en": "Primordial Cube"
     }
-   ]
-  },
-  {
-   "id": "vazio",
-   "name": "Vazio",
-   "color": "roxo",
-   "intro": "Itens do Vazio (DLC Survivors of the Void) corrompem seus equivalentes. Olhe o que perde antes, porque as torretas perdem junto.",
-   "items": [
+  ],
+  "situational_note": "Situacionais: Marca Fatal, Infusão, Despertar dos Abutres, Transcendência, Visões Profanas com Pureza, Agulhão e Espaços Seguros.",
+  "fallbacks": [
     {
-     "icon": "lysate-cell",
-     "pt": "Célula Lisada",
-     "en": "Lysate Cell",
-     "prio": 1,
-     "qty": "1",
-     "effect": "+1 (+1 por acúmulo) carga da habilidade Especial e −33% no tempo de recarga dela. Corrompe todas as Células de Combustível.",
-     "why": "Permite 3 torretas ao mesmo tempo, segundo a wiki. Mais Células dão cargas extras, mas não aumentam o limite de torretas. É o item mais forte para esta build."
+      "pt": "Fungo Vibrante",
+      "en": "Bustling Fungus",
+      "text": "Semente Sanguessuga e Foice do Ceifador (com Óculos) para curar as torretas. Placa da Armadura de Repulsão para elas levarem menos dano."
     },
     {
-     "icon": "polylute",
-     "pt": "Polialaúde",
-     "en": "Polylute",
-     "prio": 3,
-     "qty": "1",
-     "effect": "25% de chance de disparar um raio de 60% de dano TOTAL até 3 (+3 por acúmulo) vezes. Corrompe todos os Ukuleles.",
-     "why": "Melhor contra um alvo e pior em grupo. Corrompe os Ukuleles que esta build recomenda: só pegue se preferir dano em chefe."
+      "pt": "Seringa Militar",
+      "en": "Soldier's Syringe",
+      "text": "Instintos Predatórios com alguns Óculos, ou Mocha se aparecer."
     },
     {
-     "icon": "needletick",
-     "pt": "Agulhão",
-     "en": "Needletick",
-     "prio": 3,
-     "qty": "1 a 2",
-     "effect": "10% (+10% por acúmulo) de chance de colapsar um inimigo, causando 400% do dano base. Corrompe todas as Adagas Triangulares.",
-     "why": "Ativa muito com o tiro rápido das torretas. Corrompe as Adagas Triangulares."
+      "pt": "Míssil ASM Mk. 1",
+      "en": "AtG Missile Mk. 1",
+      "text": "Adaga Triangular e Óculos nas impressoras brancas. Perfurador Fundido se cair de um chefe."
     },
     {
-     "icon": "safer-spaces",
-     "pt": "Espaços Seguros",
-     "en": "Safer Spaces",
-     "prio": 4,
-     "qty": "1",
-     "effect": "Bloqueia dano recebido uma vez. Recarrega após 13,5 segundos (−10% por acúmulo). Corrompe todos os Tempos Difíceis.",
-     "why": "Cada torreta bloqueia um golpe grande a cada 13,5 s. Corrompe os Tempos Difíceis."
+      "pt": "Ukulele",
+      "en": "Ukulele",
+      "text": "Gancho de Carnes Senciente ou Brutamontes para dano em grupo. Cubo Primordial para juntar os inimigos."
     },
     {
-     "icon": "weeping-fungus",
-     "pt": "Fungo Choroso",
-     "en": "Weeping Fungus",
-     "prio": 0,
-     "qty": "0",
-     "effect": "Cura 2% (+2% por acúmulo) da vida por segundo enquanto corre. Corrompe todos os Fungos Vibrantes.",
-     "why": "A TR12 nunca corre. Este item apaga todos os seus Fungos Vibrantes e tira a cura principal das torretas."
+      "pt": "Brutamontes Reluzente",
+      "en": "Brilliant Behemoth",
+      "text": "Gancho de Carnes Senciente, Trevo 57 ou Suporte do Rejuvenescimento."
+    },
+    {
+      "pt": "Célula Lisada",
+      "en": "Lysate Cell",
+      "text": "Mais itens de vida e cura nas duas torretas. Melhor Amigo de Dio protege as duas a cada posicionamento."
+    },
+    {
+      "pt": "Cubo Primordial",
+      "en": "Primordial Cube",
+      "text": "Capacitor Régio para elites ou Criatura da Floresta Deformada para curar torretas."
     }
-   ]
-  }
- ],
- "synergy": [
-  {
-   "title": "O que as torretas herdam",
-   "text": "As torretas herdam todos os seus itens e o equipamento, menos os da lista TurretBlacklist da wiki. Nessa lista estão Estandarte de Guerra, Margarida de Lépton, Peças de Drone Avulsas (que só afeta drones), Glândula da Rainha, Núcleos Empáticos, Semente Intocada, Zoea recém-nascida e Convergência Concentrada, além de itens da DLC Alloyed Collective como Caixa de Dinamites, Núcleo Órfão, Matriz Prisional, Chave Sentinela, Massa do Neutrônio, Conserto Rápido e os Cerebelos. Elas herdam o equipamento, mas não o ativam."
-  },
-  {
-   "title": "Itens novos só depois de reposicionar",
-   "text": "As torretas não recebem os itens que você pega depois de posicionadas. Depois de uma boa leva de itens, principalmente antes do teleporte, posicione as torretas de novo. A recarga é de 30 s, então faça isso com calma, fora do perigo."
-  },
-  {
-   "title": "Fungo e torreta parada",
-   "text": "A TR12 não se move nem sofre empurrão, então o Fungo Vibrante fica ativo nela o tempo todo. Duas torretas encostadas curam uma à outra, e você recebe a cura se ficar dentro da zona. O Suporte do Rejuvenescimento dobra isso, e a Redoma Protetora por cima bloqueia o dano de fora."
-  },
-  {
-   "title": "Tiro rápido e coeficiente 1,0",
-   "text": "Cada torreta dispara a cada 0,35 s com coeficiente 1,0. Míssil, Ukulele, Gancho, Adaga e Perfurador ativam com muita frequência, e cada torreta tem as próprias cópias. Com a Célula Lisada são três torretas. Velocidade de ataque melhora tudo isso, então evite a Ombreira do Fluxo Iluminado."
-  },
-  {
-   "title": "Itens com regra própria nas torretas",
-   "text": "Melhor Amigo de Dio volta para a torreta a cada posicionamento, desde que você não morra. As Aflições do Tônico de Espinélia passam para elas e não somem. A Matriz de Combustível também é copiada e explode na torreta sob muito dano. O Ciclo do Gênese (Genesis Loop) pode ser ativado pelas torretas."
-  }
- ],
- "rotation": [
-  {
-   "step": "Posicione as duas torretas",
-   "text": "Em terreno alto ou perto do teleporte, lado a lado para dividir o Fungo."
-  },
-  {
-   "step": "Minas no caminho",
-   "text": "Deixe as Minas de Pressão onde os inimigos vão chegar, com tempo para armar."
-  },
-  {
-   "step": "Inicie o teleporte",
-   "text": "Fique perto das torretas e jogue Granadas Saltitantes no grupo."
-  },
-  {
-   "step": "Redoma sobre as torretas",
-   "text": "Use quando o grupo grande ou o chefe chegar; mate quem entrar na bolha."
-  },
-  {
-   "step": "Reposicione após itens novos",
-   "text": "Torretas antigas não têm os itens recentes; recoloque quando a recarga voltar."
-  }
- ],
- "essentials": [
-  {
-   "pt": "Fungo Vibrante",
-   "en": "Bustling Fungus"
-  },
-  {
-   "pt": "Seringa Militar",
-   "en": "Soldier's Syringe"
-  },
-  {
-   "pt": "Míssil ASM Mk. 1",
-   "en": "AtG Missile Mk. 1"
-  },
-  {
-   "pt": "Ukulele",
-   "en": "Ukulele"
-  },
-  {
-   "pt": "Brutamontes Reluzente",
-   "en": "Brilliant Behemoth"
-  },
-  {
-   "pt": "Célula Lisada",
-   "en": "Lysate Cell"
-  },
-  {
-   "pt": "Cubo Primordial",
-   "en": "Primordial Cube"
-  }
- ],
- "situational_note": "Situacionais: Marca Fatal, Infusão, Despertar dos Abutres, Transcendência, Visões Profanas com Pureza, Agulhão e Espaços Seguros.",
- "fallbacks": [
-  {
-   "pt": "Fungo Vibrante",
-   "en": "Bustling Fungus",
-   "text": "Semente Sanguessuga e Foice do Ceifador (com Óculos) para curar as torretas. Placa da Armadura de Repulsão para elas levarem menos dano."
-  },
-  {
-   "pt": "Seringa Militar",
-   "en": "Soldier's Syringe",
-   "text": "Instintos Predatórios com alguns Óculos, ou Mocha se aparecer."
-  },
-  {
-   "pt": "Míssil ASM Mk. 1",
-   "en": "AtG Missile Mk. 1",
-   "text": "Adaga Triangular e Óculos nas impressoras brancas. Perfurador Fundido se cair de um chefe."
-  },
-  {
-   "pt": "Ukulele",
-   "en": "Ukulele",
-   "text": "Gancho de Carnes Senciente ou Brutamontes para dano em grupo. Cubo Primordial para juntar os inimigos."
-  },
-  {
-   "pt": "Brutamontes Reluzente",
-   "en": "Brilliant Behemoth",
-   "text": "Gancho de Carnes Senciente, Trevo 57 ou Suporte do Rejuvenescimento."
-  },
-  {
-   "pt": "Célula Lisada",
-   "en": "Lysate Cell",
-   "text": "Mais itens de vida e cura nas duas torretas. Melhor Amigo de Dio protege as duas a cada posicionamento."
-  },
-  {
-   "pt": "Cubo Primordial",
-   "en": "Primordial Cube",
-   "text": "Capacitor Régio para elites ou Criatura da Floresta Deformada para curar torretas."
-  }
- ],
- "summary": "Granadas Saltitantes, Minas de Pressão, Redoma Protetora e Torreta TR12. Posicione as torretas lado a lado, cubra com a Redoma e deixe que elas atirem enquanto você joga granadas e minas. Empilhe Fungo Vibrante e Seringa Militar, depois Míssil ASM e Ukulele, porque cada torreta copia tudo isso. Lembre de reposicionar as torretas depois de pegar itens novos.",
- "checklist": [
-  {
-   "title": "Sempre pegue",
-   "text": "Fungo Vibrante, Seringa Militar, Míssil ASM, Ukulele, Brutamontes, Célula Lisada."
-  },
-  {
-   "title": "Impressoras brancas",
-   "text": "Fungo Vibrante até uns 4, depois Seringa Militar e Placa da Armadura."
-  },
-  {
-   "title": "Primeiro verde",
-   "text": "Míssil ASM ou Ukulele. Depois Semente Sanguessuga."
-  },
-  {
-   "title": "Reposicione",
-   "text": "Depois de cada leva boa de itens, coloque as torretas de novo para elas herdarem tudo."
-  },
-  {
-   "title": "Antes de pegar Vazio",
-   "text": "Fungo Choroso apaga os Fungos Vibrantes. Polialaúde corrompe Ukuleles; Agulhão, Adagas."
-  },
-  {
-   "title": "Não pegue",
-   "text": "Tônico de Espinélia (as aflições passam para as torretas) e Fungo Choroso (apaga os Fungos Vibrantes)."
-  },
-  {
-   "title": "Luta de chefe",
-   "text": "Torretas novas perto do teleporte, Minas no caminho, Redoma quando o chefe chegar."
-  }
- ],
- "sources": [
-  {
-   "title": "Engineer — Risk of Rain 2 Wiki",
-   "url": "https://riskofrain2.wiki.gg/wiki/Engineer"
-  },
-  {
-   "title": "TR12 Gauss Auto-Turret — Risk of Rain 2 Wiki",
-   "url": "https://riskofrain2.wiki.gg/wiki/TR12_Gauss_Auto-Turret"
-  },
-  {
-   "title": "Category:TurretBlacklist Items — Risk of Rain 2 Wiki",
-   "url": "https://riskofrain2.wiki.gg/wiki/Category:TurretBlacklist_Items"
-  },
-  {
-   "title": "Items — Risk of Rain 2 Wiki",
-   "url": "https://riskofrain2.wiki.gg/wiki/Items"
-  },
-  {
-   "title": "All new abilities in Risk of Rain 2 Hallowed Concepts — Destructoid",
-   "url": "https://www.destructoid.com/all-new-abilities-in-risk-of-rain-2-hallowed-concepts-and-how-to-unlock-them/"
-  }
- ],
- "notes": [
-  "O Laser Cutter veio com a DLC Hallowed Concepts (lançada em 8 out. 2026) e ainda não tem nome no arquivo pt-BR do jogo, por isso aparece em inglês. Ele se desbloqueia consertando um Drone de Equipamento com a Matriz de Combustível da cápsula de fuga.",
-  "A lista de itens que as torretas não herdam vem da categoria TurretBlacklist da wiki (16 itens). A wiki não detalha a interação das torretas com Infusão, Formulário de Envio, Elixir de Força ou Relógio Delicado."
- ]
+  ],
+  "summary": "Granadas Saltitantes, Minas de Pressão, Redoma Protetora e Torreta TR12. Posicione as torretas lado a lado, cubra com a Redoma e deixe que elas atirem enquanto você joga granadas e minas. Empilhe Fungo Vibrante e Seringa Militar, depois Míssil ASM e Ukulele, porque cada torreta copia tudo isso. Lembre de reposicionar as torretas depois de pegar itens novos.",
+  "checklist": [
+    {
+      "title": "Sempre pegue",
+      "text": "Fungo Vibrante, Seringa Militar, Míssil ASM, Ukulele, Brutamontes, Célula Lisada."
+    },
+    {
+      "title": "Impressoras brancas",
+      "text": "Fungo Vibrante até uns 4, depois Seringa Militar e Placa da Armadura."
+    },
+    {
+      "title": "Primeiro verde",
+      "text": "Míssil ASM ou Ukulele. Depois Semente Sanguessuga."
+    },
+    {
+      "title": "Reposicione",
+      "text": "Depois de cada leva boa de itens, coloque as torretas de novo para elas herdarem tudo."
+    },
+    {
+      "title": "Antes de pegar Vazio",
+      "text": "Fungo Choroso apaga os Fungos Vibrantes. Polialaúde corrompe Ukuleles; Agulhão, Adagas."
+    },
+    {
+      "title": "Não pegue",
+      "text": "Tônico de Espinélia (as aflições passam para as torretas) e Fungo Choroso (apaga os Fungos Vibrantes)."
+    },
+    {
+      "title": "Luta de chefe",
+      "text": "Torretas novas perto do teleporte, Minas no caminho, Redoma quando o chefe chegar."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Engineer — Risk of Rain 2 Wiki",
+      "url": "https://riskofrain2.wiki.gg/wiki/Engineer"
+    },
+    {
+      "title": "TR12 Gauss Auto-Turret — Risk of Rain 2 Wiki",
+      "url": "https://riskofrain2.wiki.gg/wiki/TR12_Gauss_Auto-Turret"
+    },
+    {
+      "title": "Category:TurretBlacklist Items — Risk of Rain 2 Wiki",
+      "url": "https://riskofrain2.wiki.gg/wiki/Category:TurretBlacklist_Items"
+    },
+    {
+      "title": "Items — Risk of Rain 2 Wiki",
+      "url": "https://riskofrain2.wiki.gg/wiki/Items"
+    },
+    {
+      "title": "All new abilities in Risk of Rain 2 Hallowed Concepts — Destructoid",
+      "url": "https://www.destructoid.com/all-new-abilities-in-risk-of-rain-2-hallowed-concepts-and-how-to-unlock-them/"
+    }
+  ],
+  "notes": [
+    "O Laser Cutter veio com a DLC Hallowed Concepts (lançada em 8 out. 2026) e ainda não tem nome no arquivo pt-BR do jogo, por isso aparece em inglês. A wiki cita o desafio Engineer: Mad Scientist sem o texto do requisito; segundo a Destructoid, ele se desbloqueia consertando um Drone de Equipamento com a Matriz de Combustível da cápsula de fuga.",
+    "A lista de itens que as torretas não herdam vem da categoria TurretBlacklist da wiki (16 itens). A wiki não detalha a interação das torretas com Infusão, Formulário de Envio, Elixir de Força ou Relógio Delicado."
+  ]
 }

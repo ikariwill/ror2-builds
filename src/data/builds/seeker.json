@@ -1,227 +1,638 @@
 {
- "id": "seeker",
- "name_pt": "Exploradora",
- "name_en": "Seeker",
- "title": "Exploradora: Build de Tranquilidade",
- "tagline": "Meditar, acumular Tranquilidade e curar batendo",
- "lede": "Uma build de média distância para jogar normalmente e chegar longe: acumular Tranquilidade com o Meditar, curar com a Mão Invisível e finalizar grupos com o terceiro Soco Espiritual e a Estadia. Cada Tranquilidade melhora todas as habilidades, até 7. Os itens aumentam o dano dos golpes grandes, que também é a sua cura, e dão defesa para aguentar o custo de vida da Estadia.",
- "loadout": [
-  {"slot": "Passiva", "skill": "Força Interior (Inner Strength)"},
-  {"slot": "Primária", "skill": "Soco Espiritual (Spirit Punch)"},
-  {"slot": "Secundária", "skill": "Mão Invisível (Unseen Hand)"},
-  {"slot": "Utilitária", "skill": "Estadia (Sojourn)"},
-  {"slot": "Especial", "skill": "Meditar (Meditate)"}
- ],
- "skills": [
-  {
-   "slot": "Passiva",
-   "pt": "Força Interior",
-   "en": "Inner Strength",
-   "pick": "Fixa",
-   "spec": "As habilidades melhoram a cada Tranquilidade, até o máximo de 7.",
-   "why": "Cada habilidade ganha algo por acúmulo: mais dano no terceiro soco, mais cura na Mão Invisível, raio maior na Estadia, mais dano e cura no Meditar. Por isso o Meditar é a primeira coisa a usar em cada fase."
-  },
-  {
-   "slot": "Primária",
-   "pt": "Soco Espiritual",
-   "en": "Spirit Punch",
-   "pick": "Recomendada",
-   "spec": "Socos perfurantes de 250%; o terceiro explode em 7 m causando 350% (+50% do dano base por Tranquilidade). Coeficiente 1,0 × 3. Lentidão de 50%.",
-   "why": "A sequência de 3 golpes leva 2,06 s. O terceiro golpe é o que cresce com a Tranquilidade: com 2 ou mais acúmulos ele passa de 400% e ativa os Cinturões. Os punhos ficam mais rápidos com velocidade de ataque (+2 m/s por 100% extra)."
-  },
-  {
-   "slot": "Secundária",
-   "pt": "Mão Invisível",
-   "en": "Unseen Hand",
-   "pick": "Recomendada",
-   "spec": "Atordoante. Mão perfurante de 600% que sobe do chão. Cura 3,5% do dano causado (+4% por Tranquilidade; 31,5% no máximo). Recarga 6 s. Coeficiente 1,0.",
-   "why": "É a cura principal: quanto mais dano, mais cura, e quanto mais inimigos atingidos, mais dano. Com Tranquilidade máxima cura quase um terço do dano. Tem 0,8 s de recuperação que não diminui com velocidade de ataque."
-  },
-  {
-   "slot": "Secundária (alt.)",
-   "pt": "Espiral de Alma",
-   "en": "Soul Spiral",
-   "pick": "Variante",
-   "spec": "Ágil. Orbes giratórios de 150% (até 6). 3 cargas, recarga 7 s. Coeficiente 1,0. Cada acerto dá 3,45 de barreira (+1,15 por Tranquilidade).",
-   "why": "Com 6 orbes, ativar de novo dá Entusiasmo (+66% de rotação e dano). Cada orbe dura 11 acertos (+2 por Tranquilidade). A barreira por acerto vem da vida de nível 1 e não cresce com o nível, então perde força no fim da run. Desbloqueio pelo desafio Seeker: Airborne Souls."
-  },
-  {
-   "slot": "Utilitária",
-   "pt": "Estadia",
-   "en": "Sojourn",
-   "pick": "Recomendada",
-   "spec": "Atordoante, Ágil. Voa e explode causando 500% (+500% por segundo após o primeiro). Recarga 8 s. Coeficiente 1,0. Raio 5,5 m (+0,6325 m por Tranquilidade).",
-   "why": "Você fica imune a todo outro dano enquanto voa, o que faz da Estadia uma esquiva e um golpe enorme. O custo: depois de 1,4 s você perde 5% da vida base a cada 0,2 s, cada vez mais, e a cura recebida cai 10% por segundo. Não dá para usar habilidades nem equipamento durante o voo. Conta como correr, então Broquel da Rosa e Pequeno Discípulo funcionam."
-  },
-  {
-   "slot": "Utilitária (alt.)",
-   "pt": "Adiamento",
-   "en": "Reprieve",
-   "pick": "Variante",
-   "spec": "Ganha barreira e voa. Perder toda a barreira ou bater no chão cria um ciclone que cura aliados e causa 200% de dano por segundo (+0,5 s de duração por Tranquilidade).",
-   "why": "Não custa vida como a Estadia. É mais segura e mais de grupo, com menos dano de explosão. A wiki não lista a recarga nem o coeficiente."
-  },
-  {
-   "slot": "Especial",
-   "pt": "Meditar",
-   "en": "Meditate",
-   "pick": "Recomendada",
-   "spec": "Foco. Explosão de 300% (+200% por Tranquilidade), cura aliados próximos (+4% da vida máxima por Tranquilidade) e dá 1 Tranquilidade. Na Tranquilidade máxima, revive aliados e concede Salvação (Saving Grace).",
-   "why": "Foco significa uma sequência de teclas cronometrada; se você errar, a recarga aumenta. É o único jeito de ganhar Tranquilidade além da Explosão de Palma. A wiki antiga explica que o revive só acontece ao passar do 6º para o 7º acúmulo e que a Exploradora não revive a si mesma; no solo, a Salvação é o que importa."
-  },
-  {
-   "slot": "Especial (alt.)",
-   "pt": "Explosão de Palma",
-   "en": "Palm Blast",
-   "pick": "Variante",
-   "spec": "Mão espectral perfurante carregada de 400% a 700% que cura aliados. Acertar três personagens dá Tranquilidade e barreira. Por Tranquilidade: +15% de tamanho, +250% de dano.",
-   "why": "Dá Tranquilidade sem a sequência de teclas, mas pede acertar três alvos de uma vez. Mais agressiva e melhor contra grupos; o Meditar é mais seguro e cura mais."
-  }
- ],
- "sections": [
-  {
-   "id": "comum",
-   "name": "Comum",
-   "color": "branco",
-   "intro": "A Exploradora luta a média distância e paga vida pela Estadia. Os brancos dão dano de perto e vida para gastar.",
-   "items": [
-    {"icon": "focus-crystal", "pt": "Cristal de Foco", "en": "Focus Crystal", "prio": 1, "qty": "3 a 5", "effect": "+20% (+20% por acúmulo) de dano contra inimigos a até 13 m.", "why": "A explosão do terceiro soco, a Mão Invisível e a Estadia acontecem perto dos inimigos. Mais dano na Mão Invisível também é mais cura."},
-    {"icon": "soldiers-syringe", "pt": "Seringa Militar", "en": "Soldier's Syringe", "prio": 1, "qty": "3 a 6", "effect": "+15% (+15% por acúmulo) de velocidade de ataque.", "why": "A sequência de 2,06 s do Soco Espiritual fica mais curta: o terceiro golpe, que cresce com a Tranquilidade, chega mais vezes. Os punhos também viajam mais rápido."},
-    {"icon": "bison-steak", "pt": "Filé de Bisão", "en": "Bison Steak", "prio": 2, "qty": "2 a 4", "effect": "+25 (+25 por acúmulo) de vida máxima.", "why": "A wiki cita: o dano da Estadia em você vem da vida base, então mais vida máxima deixa você ficar mais tempo no voo e explodir mais forte."},
-    {"icon": "tougher-times", "pt": "Tempos Difíceis", "en": "Tougher Times", "prio": 2, "qty": "2 a 4", "effect": "15% (+15% por acúmulo) de chance de bloquear dano recebido. Não é afetado por sorte.", "why": "Defesa contra o que bate em você fora da Estadia. A wiki antiga lista entre os itens que combinam com o custo de vida dela."},
-    {"icon": "backup-magazine", "pt": "Pente Reserva", "en": "Backup Magazine", "prio": 2, "qty": "1 a 3", "effect": "+1 (+1 por acúmulo) carga da habilidade Secundária.", "why": "Mais Mãos Invisíveis seguidas: mais dano de área e mais cura. Com a Espiral de Alma, a wiki diz que vira uma boa ferramenta de movimento no ar."},
-    {"icon": "repulsion-armor-plate", "pt": "Placa da Armadura de Repulsão", "en": "Repulsion Armor Plate", "prio": 3, "qty": "2 a 5", "effect": "Reduz todo dano recebido em 5 (+5 por acúmulo). Não pode reduzir abaixo de 1.", "why": "Corta os golpes pequenos que se acumulam entre as Estadias. Citada pela wiki antiga para essa função."},
-    {"icon": "armor-piercing-rounds", "pt": "Projéteis Perfurantes", "en": "Armor-Piercing Rounds", "prio": 3, "qty": "1 a 3", "effect": "+20% (+20% por acúmulo) de dano contra chefes.", "why": "Mais dano da Mão Invisível no chefe é também mais cura na luta mais difícil da fase."},
-    {"icon": "crowbar", "pt": "Pé de Cabra", "en": "Crowbar", "prio": 4, "qty": "1 a 2", "effect": "+75% (+75% por acúmulo) de dano contra inimigos acima de 90% de vida.", "why": "A Mão Invisível e a Estadia abrem a luta com golpes grandes em inimigos de vida cheia."}
-   ]
-  },
-  {
-   "id": "incomum",
-   "name": "Incomum",
-   "color": "verde",
-   "intro": "Os verdes que mais rendem nela ativam com golpes acima de 400% e dão defesa no voo.",
-   "items": [
-    {"icon": "kjaros-band", "pt": "Cinturão de Kjaro", "en": "Kjaro's Band", "prio": 1, "qty": "1 a 3", "effect": "Golpes acima de 400% de dano também lançam um tornado de fogo rúnico que causa 300% (+300% por acúmulo) de dano TOTAL ao longo do tempo. Recarrega a cada 10 s.", "why": "Mão Invisível (600%), Estadia (500% ou mais) e o terceiro soco com 2 ou mais Tranquilidades passam de 400%. A wiki antiga confirma que a Mão Invisível ativa o Kjaro."},
-    {"icon": "runalds-band", "pt": "Cinturão de Runald", "en": "Runald's Band", "prio": 2, "qty": "1 a 2", "effect": "Golpes acima de 400% de dano também lançam uma explosão de gelo rúnica, que desacelera em 80% por 3 s (+3 s por acúmulo) e causa 250% (+250% por acúmulo) de dano TOTAL. Recarrega a cada 10 s.", "why": "Mesmo gatilho do Kjaro. A lentidão segura os inimigos no lugar para o terceiro soco e a Estadia."},
-    {"icon": "rose-buckler", "pt": "Broquel da Rosa", "en": "Rose Buckler", "prio": 2, "qty": "1 a 3", "effect": "+30 (+30 por acúmulo) de armadura enquanto corre.", "why": "A wiki diz que a Estadia conta como correr, então o bônus vale no voo. Fora dela, correndo entre lutas, também protege."},
-    {"icon": "ukulele", "pt": "Ukulele", "en": "Ukulele", "prio": 2, "qty": "1 a 2", "effect": "25% de chance de disparar um raio em cadeia de 80% de dano TOTAL em até 3 (+2 por acúmulo) alvos a até 20 m (+2 m por acúmulo).", "why": "Os socos perfuram e o terceiro explode em área: muitos acertos por sequência, e o raio espalha para o grupo. Polialaúde corrompe este item."},
-    {"icon": "atg-missile-mk-1", "pt": "Míssil ASM Mk. 1", "en": "AtG Missile Mk. 1", "prio": 3, "qty": "1 a 2", "effect": "10% de chance de disparar um míssil que causa 300% (+300% por acúmulo) de dano TOTAL.", "why": "O dano TOTAL acompanha o golpe que ativou, e os golpes grandes dela são de 500% a 600% ou mais."},
-    {"icon": "luminous-shot", "pt": "Disparo Luminoso", "en": "Luminous Shot", "prio": 3, "qty": "1", "effect": "Ativar a habilidade Secundária guarda até 5 cargas (+1 por acúmulo). Com 3 cargas, a Primária dispara raios que causam 175% de dano TOTAL (+50% por acúmulo) cada. Reduz o tempo de recarga da Secundária em 20%.", "why": "A Mão Invisível volta 20% mais rápido, e o Soco Espiritual vira raios extras. Menos recarga na Mão também é mais cura."},
-    {"icon": "harvesters-scythe", "pt": "Foice do Ceifador", "en": "Harvester's Scythe", "prio": 4, "qty": "1 (com Óculos)", "effect": "+5% de chance de crítico. Acertos Críticos curam 8 (+4 por acúmulo) de vida.", "why": "Cura extra por crítico nos três socos da sequência. Só vale com alguma chance de crítico."}
-   ]
-  },
-  {
-   "id": "lendario",
-   "name": "Lendário",
-   "color": "vermelho",
-   "intro": "Os vermelhos que mais mudam a Exploradora encurtam as recargas e dobram a cura da Mão Invisível.",
-   "items": [
-    {"icon": "alien-head", "pt": "Cabeça Alienígena", "en": "Alien Head", "prio": 1, "qty": "1 a 2", "effect": "Reduz o tempo de recarga das habilidades em 25% (+25% por acúmulo).", "why": "Meditar mais vezes chega antes à Tranquilidade máxima. Mão Invisível (6 s) e Estadia (8 s) também voltam mais rápido."},
-    {"icon": "rejuvenation-rack", "pt": "Suporte do Rejuvenescimento", "en": "Rejuvenation Rack", "prio": 1, "qty": "1", "effect": "Cura +100% (+100% por acúmulo) a mais.", "why": "Dobra a cura da Mão Invisível, que já chega a 31,5% do dano, e a cura do Meditar. Paga o custo de vida da Estadia."},
-    {"icon": "brilliant-behemoth", "pt": "Brutamontes Reluzente", "en": "Brilliant Behemoth", "prio": 2, "qty": "1 a 2", "effect": "Todos os ataques explodem num raio de 4 m (+2,5 m por acúmulo) causando 60% de dano TOTAL extra aos inimigos próximos.", "why": "Os socos perfurantes acertam vários inimigos, e cada acerto vira explosão. Mais acertos da Mão Invisível em grupo, mais cura."},
-    {"icon": "hardlight-afterburner", "pt": "Pós-combustor de Holograma", "en": "Hardlight Afterburner", "prio": 3, "qty": "1", "effect": "+2 (+2 por acúmulo) cargas da habilidade Utilitária e −33% no tempo de recarga dela.", "why": "Mais Estadias: mais esquivas com imunidade e mais explosões. Cuidado com a vida, já que cada voo longo custa caro."},
-    {"icon": "unstable-tesla-coil", "pt": "Bobina de Tesla Instável", "en": "Unstable Tesla Coil", "prio": 4, "qty": "1", "effect": "Dispara raios que atingem 3 (+2 por acúmulo) inimigos causando 200% do dano base a cada 0,5 s. A Bobina desliga a cada 10 s.", "why": "A wiki antiga cita para o alcance curto dela. Dano constante nos inimigos ao redor, sem depender das habilidades."},
-    {"icon": "frost-relic", "pt": "Relíquia Congelada", "en": "Frost Relic", "prio": 3, "qty": "1", "effect": "Abater um inimigo cria uma tempestade de gelo ao seu redor que causa 1200% de dano por segundo e desacelera inimigos em 80% por 1,5 s. A tempestade cresce a cada abate, aumentando o raio em 2 m. Acumula até 18 m (+12 m por acúmulo).", "why": "A wiki antiga destaca para o alcance curto dela. Os abates da explosão do terceiro soco mantêm a tempestade ligada."}
-   ]
-  },
-  {
-   "id": "chefe",
-   "name": "Chefe",
-   "color": "amarelo",
-   "intro": "Itens de chefe só caem de chefes de teleporte.",
-   "items": [
-    {"icon": "little-disciple", "pt": "Pequeno Discípulo", "en": "Little Disciple", "prio": 2, "qty": "1 ou mais", "effect": "Dispara um fogo-fátuo teleguiado de 300% (+300% por acúmulo) de dano. Dispara a cada 1,6 s enquanto corre. A frequência aumenta com a velocidade de movimento.", "why": "A wiki diz que a Estadia conta como correr: os fogos-fátuos atiram enquanto você voa e não pode usar habilidades."},
-    {"icon": "planula", "pt": "Plânula", "en": "Planula", "prio": 3, "qty": "1", "effect": "Cura 15 (+15 por acúmulo) a cada dano recebido.", "why": "Citada pela wiki antiga para o custo de vida da Estadia. Fora do voo, cada golpe recebido devolve um pouco."}
-   ]
-  },
-  {
-   "id": "equipamento",
-   "name": "Equipamentos",
-   "color": "laranja",
-   "intro": "Só dá para carregar um. Lembre que não dá para usar equipamento durante a Estadia.",
-   "items": [
-    {"icon": "primordial-cube", "pt": "Cubo Primordial", "en": "Primordial Cube", "prio": 1, "qty": "1 (recarga 60 s)", "effect": "Dispara um buraco negro que puxa inimigos a até 30 m para o centro. Dura 10 s.", "why": "A wiki antiga destaca a combinação: o grupo junto leva a Mão Invisível inteira, e cada inimigo atingido aumenta a cura. A Estadia e o terceiro soco também pegam todos."},
-    {"icon": "royal-capacitor", "pt": "Capacitor Régio", "en": "Royal Capacitor", "prio": 2, "qty": "1 (recarga 20 s)", "effect": "Lança um raio num monstro marcado, causando 3000% de dano e atordoando os monstros próximos.", "why": "Dano à distância contra voadores e elites, fora do alcance curto do terceiro soco."},
-    {"icon": "gorags-opus", "pt": "Opus de Gorag", "en": "Gorag's Opus", "prio": 3, "qty": "1 (recarga 45 s)", "effect": "Todos os aliados entram em frenesi por 7 s: +50% de movimento e +100% de velocidade de ataque.", "why": "Dobra a velocidade dos socos por alguns segundos. Bom em grupo."},
-    {"icon": "blast-shower", "pt": "Expurgação Explosiva", "en": "Blast Shower", "prio": 4, "qty": "1 (recarga 20 s)", "effect": "Remove todos os efeitos negativos, incluindo debuffs, dano contínuo e projéteis próximos.", "why": "Defensivo contra elites que aplicam debuffs. Use antes de entrar na Estadia."}
-   ]
-  },
-  {
-   "id": "lunar",
-   "name": "Lunares",
-   "color": "azul",
-   "intro": "Itens lunares têm custo embutido. Os que cortam vida pesam muito nela.",
-   "items": [
-    {"icon": "purity", "pt": "Pureza", "en": "Purity", "prio": 3, "qty": "1", "effect": "Reduz todas as recargas de habilidade em 2 s (+1 s por acúmulo). Todos os efeitos aleatórios são rolados +1 (+1 por acúmulo) vez contra você.", "why": "Mão Invisível de 6 s para 4 s e Estadia de 8 s para 6 s, além do Meditar. O custo é piorar Ukulele e Míssil. Tempos Difíceis não é afetado, porque ignora sorte."},
-    {"icon": "light-flux-pauldron", "pt": "Ombreira do Fluxo Iluminado", "en": "Light Flux Pauldron", "prio": 4, "qty": "1", "effect": "−50% (−50% por acúmulo) no tempo de recarga das habilidades. −50% (−50% por acúmulo) de velocidade de ataque.", "why": "Mais Meditar, Mão e Estadia, mas o Soco Espiritual fica muito mais lento. Só para quem joga baseado nas habilidades e não nos socos."},
-    {"icon": "shaped-glass", "pt": "Vidro Configurado", "en": "Shaped Glass", "prio": 0, "qty": "0", "effect": "+100% (+100% por acúmulo) de dano base. −50% (−50% por acúmulo) de vida máxima.", "why": "A wiki antiga manda evitar: menos vida máxima encurta a Estadia, que custa vida a cada instante."}
-   ]
-  },
-  {
-   "id": "vazio",
-   "name": "Vazio",
-   "color": "roxo",
-   "intro": "Itens do Vazio (DLC Survivors of the Void) corrompem itens comuns quando pegos. Veja o que vai perder antes.",
-   "items": [
-    {"icon": "lysate-cell", "pt": "Célula Lisada", "en": "Lysate Cell", "prio": 1, "qty": "1 a 2", "effect": "+1 (+1 por acúmulo) carga da habilidade Especial e −33% no tempo de recarga dela. Corrompe todas as Células de Combustível.", "why": "Dois Meditar seguidos e recarga menor: a Tranquilidade sobe muito mais rápido no começo de cada fase."},
-    {"icon": "safer-spaces", "pt": "Espaços Seguros", "en": "Safer Spaces", "prio": 2, "qty": "1 a 2", "effect": "Bloqueia o dano recebido uma vez. Recarrega após 13,5 s (−10% por acúmulo). Corrompe todos os Tempos Difíceis.", "why": "Citado pela wiki antiga contra o custo de vida da Estadia. Corrompe os Tempos Difíceis que esta build recomenda: escolha um dos dois."},
-    {"icon": "voidsent-flame", "pt": "Chama da Nulidade", "en": "Voidsent Flame", "prio": 3, "qty": "1 a 2", "effect": "Ao acertar um inimigo com a vida cheia, cria um pilar de lava num raio de 12 m (+2,4 m por acúmulo) causando 260% (+156% por acúmulo) do dano base. Corrompe todos os Fogos Fátuos (Will-o'-the-wisp).", "why": "Os socos e a Mão Invisível perfuram e acertam vários inimigos de vida cheia de uma vez, e cada um pode gerar um pilar."},
-    {"icon": "polylute", "pt": "Polialaúde", "en": "Polylute", "prio": 3, "qty": "1 a 2", "effect": "25% de chance de disparar um raio de 60% de dano TOTAL até 3 (+3 por acúmulo) vezes. Corrompe todos os Ukuleles.", "why": "Mais forte que o Ukulele contra um alvo, mais fraco em grupo. Corrompe os seus Ukuleles."},
-    {"icon": "weeping-fungus", "pt": "Fungo Choroso", "en": "Weeping Fungus", "prio": 4, "qty": "1", "effect": "Cura 2% (+2% por acúmulo) da vida por segundo enquanto corre. Corrompe todos os Fungos Vibrantes.", "why": "A wiki antiga lista entre os defensivos. Cura entre as lutas enquanto você corre."}
-   ]
-  }
- ],
- "synergy": [
-  {"title": "Tranquilidade primeiro", "text": "Cada Meditar bem-sucedido dá 1 Tranquilidade, até 7. Cada acúmulo dá +50% ao terceiro soco, +4% de cura à Mão Invisível, raio maior à Estadia e mais dano e cura ao próprio Meditar. Errar a sequência de teclas aumenta a recarga. Cabeça Alienígena e Célula Lisada fazem você chegar ao máximo bem mais cedo."},
-  {"title": "Dano é cura", "text": "A Mão Invisível cura 3,5% do dano causado, mais 4% por Tranquilidade, até 31,5%. Por isso Cristal de Foco, Projéteis Perfurantes e Cubo Primordial (mais alvos atingidos) também são itens de cura. O Suporte do Rejuvenescimento dobra o resultado."},
-  {"title": "Estadia e o custo de vida", "text": "Durante a Estadia você é imune a todo outro dano, mas depois de 1,4 s perde vida baseada na vida base, e a cura recebida cai 10% por segundo. Mais vida máxima (Filé de Bisão) deixa voar mais tempo. A Estadia conta como correr: Broquel da Rosa dá armadura e o Pequeno Discípulo atira enquanto você voa. Velocidade de movimento não muda a velocidade do voo, segundo a wiki antiga."},
-  {"title": "Golpes acima de 400%", "text": "A Mão Invisível (600%), a Estadia (500% ou mais) e o terceiro soco com 2 Tranquilidades (450%) ativam os Cinturões de Kjaro e Runald. Com Tranquilidade máxima o terceiro soco chega a 700% de base. Os Cinturões recarregam em 10 s, então quase toda Mão Invisível pode ativar um."},
-  {"title": "Salvação e o revive", "text": "Ao chegar à Tranquilidade máxima, o Meditar revive aliados caídos e concede Salvação (Saving Grace) a todos os sobreviventes vivos. A wiki antiga diz que o revive só acontece na passagem do 6º para o 7º acúmulo e que ela não revive a si mesma. Em grupo, segure o 7º Meditar até alguém precisar."}
- ],
- "rotation": [
-  {"step": "Meditar no começo", "text": "Acerte a sequência para ganhar Tranquilidade antes da luta apertar."},
-  {"step": "Mão Invisível no grupo", "text": "Atordoa, causa 600% em todos que perfura e cura pelo dano."},
-  {"step": "Soco Espiritual", "text": "Mantenha a sequência; o terceiro golpe explode em área."},
-  {"step": "Estadia para esquivar", "text": "Voe quando vier dano pesado e exploda no meio do grupo antes de perder muita vida."},
-  {"step": "Meditar de novo", "text": "Assim que voltar, use para subir a Tranquilidade e curar."}
- ],
- "essentials": [
-  {"pt": "Cristal de Foco", "en": "Focus Crystal"},
-  {"pt": "Seringa Militar", "en": "Soldier's Syringe"},
-  {"pt": "Cinturão de Kjaro", "en": "Kjaro's Band"},
-  {"pt": "Cabeça Alienígena", "en": "Alien Head"},
-  {"pt": "Suporte do Rejuvenescimento", "en": "Rejuvenation Rack"},
-  {"pt": "Célula Lisada", "en": "Lysate Cell"},
-  {"pt": "Cubo Primordial", "en": "Primordial Cube"}
- ],
- "situational_note": "Situacionais: Pente Reserva, Broquel da Rosa, Disparo Luminoso, Pós-combustor, Relíquia Congelada, Espaços Seguros, Pureza e Ombreira do Fluxo Iluminado.",
- "fallbacks": [
-  {"pt": "Cristal de Foco", "en": "Focus Crystal", "text": "Projéteis Perfurantes para chefes e Pé de Cabra para abrir lutas."},
-  {"pt": "Seringa Militar", "en": "Soldier's Syringe", "text": "Mocha ou Opus de Gorag como equipamento."},
-  {"pt": "Cinturão de Kjaro", "en": "Kjaro's Band", "text": "Cinturão de Runald, mesmo gatilho de 400%. Depois Míssil ASM."},
-  {"pt": "Cabeça Alienígena", "en": "Alien Head", "text": "Célula Lisada para o Meditar e Disparo Luminoso para a Mão Invisível. Pureza se aceitar o custo nos efeitos de chance."},
-  {"pt": "Suporte do Rejuvenescimento", "en": "Rejuvenation Rack", "text": "Mais dano na Mão Invisível (é a mesma coisa que mais cura) e Filé de Bisão, Tempos Difíceis e Broquel da Rosa para defesa."},
-  {"pt": "Célula Lisada", "en": "Lysate Cell", "text": "Cabeça Alienígena. Sem as duas, troque o Meditar pela Explosão de Palma em fases cheias de inimigos."},
-  {"pt": "Cubo Primordial", "en": "Primordial Cube", "text": "Capacitor Régio para voadores e elites."}
- ],
- "summary": "Força Interior, Soco Espiritual, Mão Invisível, Estadia e Meditar. Comece cada fase meditando para acumular Tranquilidade, cure com a Mão Invisível no grupo e use a Estadia como esquiva com imunidade e explosão. Empilhe Cristal de Foco e Seringa, pegue os Cinturões para os golpes acima de 400%, e encurte as recargas com Cabeça Alienígena e Célula Lisada.",
- "checklist": [
-  {"title": "Sempre pegue", "text": "Cristal de Foco, Seringa Militar, Cinturão de Kjaro, Cabeça Alienígena, Suporte do Rejuvenescimento, Célula Lisada."},
-  {"title": "Impressoras brancas", "text": "Transforme em Cristal de Foco até uns 4, depois Seringa Militar e Filé de Bisão."},
-  {"title": "Primeiro verde", "text": "Cinturão de Kjaro. Depois Broquel da Rosa ou Ukulele."},
-  {"title": "Equipamento", "text": "Cubo Primordial, seguido da Mão Invisível no grupo puxado."},
-  {"title": "Antes de pegar Vazio", "text": "Espaços Seguros corrompe os Tempos Difíceis; Polialaúde corrompe os Ukuleles."},
-  {"title": "Não pegue", "text": "Vidro Configurado: corta a vida pela metade e encurta a Estadia."},
-  {"title": "Luta de chefe", "text": "Tranquilidade alta antes do teleporte, Mão Invisível sempre que voltar, Estadia para esquivar os ataques grandes."}
- ],
- "sources": [
-  {"title": "Seeker — Risk of Rain 2 Wiki", "url": "https://riskofrain2.wiki.gg/wiki/Seeker"},
-  {"title": "Seeker — Risk of Rain 2 Wiki (Fandom, wiki antiga)", "url": "https://riskofrain2.fandom.com/wiki/Seeker"},
-  {"title": "Seeker RoR2 Guide — Rogue Ranker", "url": "https://rogueranker.com/seeker-ror2/"},
-  {"title": "Items — Risk of Rain 2 Wiki", "url": "https://riskofrain2.wiki.gg/wiki/Items"}
- ],
- "notes": [
-  "A Exploradora faz parte da DLC Seekers of the Storm.",
-  "A wiki atual não lista recarga nem coeficiente do Meditar, da Explosão de Palma e do Adiamento. Detalhes do revive e da Salvação vêm da wiki antiga (Fandom) e podem estar desatualizados."
- ]
+  "id": "seeker",
+  "name_pt": "Exploradora",
+  "name_en": "Seeker",
+  "title": "Exploradora: Build de Tranquilidade",
+  "tagline": "Meditar, acumular Tranquilidade e curar batendo",
+  "lede": "Uma build de média distância para jogar normalmente e chegar longe: acumular Tranquilidade com o Meditar, curar com a Mão Invisível e finalizar grupos com o terceiro Soco Espiritual e a Estadia. Cada Tranquilidade melhora todas as habilidades, até 7. Os itens aumentam o dano dos golpes grandes, que também é a sua cura, e dão defesa para aguentar o custo de vida da Estadia.",
+  "loadout": [
+    {
+      "slot": "Passiva",
+      "skill": "Força Interior (Inner Strength)"
+    },
+    {
+      "slot": "Primária",
+      "skill": "Soco Espiritual (Spirit Punch)"
+    },
+    {
+      "slot": "Secundária",
+      "skill": "Mão Invisível (Unseen Hand)"
+    },
+    {
+      "slot": "Utilitária",
+      "skill": "Estadia (Sojourn)"
+    },
+    {
+      "slot": "Especial",
+      "skill": "Meditar (Meditate)"
+    }
+  ],
+  "skills": [
+    {
+      "slot": "Passiva",
+      "pt": "Força Interior",
+      "en": "Inner Strength",
+      "pick": "Fixa",
+      "spec": "As habilidades melhoram a cada Tranquilidade, até o máximo de 7.",
+      "why": "Cada habilidade ganha algo por acúmulo: mais dano no terceiro soco, mais cura na Mão Invisível, raio maior na Estadia, mais dano e cura no Meditar. Por isso o Meditar é a primeira coisa a usar em cada fase."
+    },
+    {
+      "slot": "Primária",
+      "pt": "Soco Espiritual",
+      "en": "Spirit Punch",
+      "pick": "Recomendada",
+      "spec": "Socos perfurantes de 250%; o terceiro explode em 7 m causando 350% (+50% do dano base por Tranquilidade). Coeficiente 1,0 × 3. Lentidão de 50%.",
+      "why": "A sequência de 3 golpes leva 2,06 s. O terceiro golpe é o que cresce com a Tranquilidade: com 2 ou mais acúmulos ele passa de 400% e ativa os Cinturões. Os punhos ficam mais rápidos com velocidade de ataque (+2 m/s por 100% extra)."
+    },
+    {
+      "slot": "Secundária",
+      "pt": "Mão Invisível",
+      "en": "Unseen Hand",
+      "pick": "Recomendada",
+      "spec": "Atordoante. Mão perfurante de 600% que sobe do chão. Cura 3,5% do dano causado (+4% por Tranquilidade; 31,5% no máximo). Recarga 6 s. Coeficiente 1,0.",
+      "why": "É a cura principal: quanto mais dano, mais cura, e quanto mais inimigos atingidos, mais dano. Com Tranquilidade máxima cura quase um terço do dano. Tem 0,8 s de recuperação que não diminui com velocidade de ataque."
+    },
+    {
+      "slot": "Secundária (alt.)",
+      "pt": "Espiral de Alma",
+      "en": "Soul Spiral",
+      "pick": "Variante",
+      "spec": "Ágil. Orbes giratórios de 150% (até 6). 3 cargas, recarga 7 s. Coeficiente 1,0. Cada acerto dá 3,45 de barreira (+1,15 por Tranquilidade).",
+      "why": "Com 6 orbes, ativar de novo dá Entusiasmo (+66% de rotação e dano). Cada orbe dura 11 acertos (+2 por Tranquilidade). A barreira por acerto vem da vida de nível 1 e não cresce com o nível, então perde força no fim da run. Desbloqueio pelo desafio Seeker: Airborne Souls."
+    },
+    {
+      "slot": "Utilitária",
+      "pt": "Estadia",
+      "en": "Sojourn",
+      "pick": "Recomendada",
+      "spec": "Atordoante, Ágil. Voa e explode causando 500% (+500% por segundo após o primeiro). Recarga 8 s. Coeficiente 1,0. Raio 5,5 m (+0,6325 m por Tranquilidade; o texto do jogo diz +0,5 m).",
+      "why": "Você fica imune a todo outro dano enquanto voa (exceto o buraco negro do Voidling), o que faz da Estadia uma esquiva e um golpe enorme. O custo: depois de 1,4 s você perde 5% da vida base a cada 0,2 s, cada vez mais, e a cura recebida cai 10% por segundo. Não dá para usar habilidades nem equipamento durante o voo. Conta como correr, então Broquel da Rosa e Pequeno Discípulo funcionam."
+    },
+    {
+      "slot": "Utilitária (alt.)",
+      "pt": "Adiamento",
+      "en": "Reprieve",
+      "pick": "Variante",
+      "spec": "Ganha barreira e voa. Perder toda a barreira ou bater no chão cria um ciclone que cura aliados e causa 200% de dano por segundo (+0,5 s de duração por Tranquilidade).",
+      "why": "Não custa vida como a Estadia. É mais segura e mais de grupo, com menos dano de explosão. A wiki não lista a recarga nem o coeficiente."
+    },
+    {
+      "slot": "Especial",
+      "pt": "Meditar",
+      "en": "Meditate",
+      "pick": "Recomendada",
+      "spec": "Foco. Explosão de 300% (+200% e +100% de raio por Tranquilidade), cura aliados próximos (+4% da vida máxima por Tranquilidade) e dá 1 Tranquilidade. Na Tranquilidade máxima, revive aliados e concede Salvação (Saving Grace). A wiki não lista recarga nem coeficiente.",
+      "why": "Foco significa uma sequência de teclas cronometrada; se você errar, a recarga aumenta. É o único jeito de ganhar Tranquilidade além da Explosão de Palma. A wiki antiga explica que o revive só acontece ao passar do 6º para o 7º acúmulo e que a Exploradora não revive a si mesma. No solo, a Salvação é o que importa: pelo texto do jogo, dá +7% em todos os atributos e é consumida para reviver você quando morre."
+    },
+    {
+      "slot": "Especial (alt.)",
+      "pt": "Explosão de Palma",
+      "en": "Palm Blast",
+      "pick": "Variante",
+      "spec": "Mão espectral perfurante carregada de 400% a 700% que cura aliados. Acertar três personagens dá Tranquilidade e barreira. Por Tranquilidade: +15% de tamanho, +250% de dano.",
+      "why": "Dá Tranquilidade sem a sequência de teclas, mas pede acertar três alvos de uma vez. Mais agressiva e melhor contra grupos; o Meditar é mais seguro e cura mais."
+    }
+  ],
+  "sections": [
+    {
+      "id": "comum",
+      "name": "Comum",
+      "color": "branco",
+      "intro": "A Exploradora luta a média distância e paga vida pela Estadia. Os brancos dão dano de perto e vida para gastar.",
+      "items": [
+        {
+          "icon": "focus-crystal",
+          "pt": "Cristal de Foco",
+          "en": "Focus Crystal",
+          "prio": 1,
+          "qty": "3 a 5",
+          "effect": "+20% (+20% por acúmulo) de dano contra inimigos a até 13 m.",
+          "why": "A explosão do terceiro soco, a Mão Invisível e a Estadia acontecem perto dos inimigos. Mais dano na Mão Invisível também é mais cura."
+        },
+        {
+          "icon": "soldiers-syringe",
+          "pt": "Seringa Militar",
+          "en": "Soldier's Syringe",
+          "prio": 1,
+          "qty": "3 a 6",
+          "effect": "+15% (+15% por acúmulo) de velocidade de ataque.",
+          "why": "A sequência de 2,06 s do Soco Espiritual fica mais curta: o terceiro golpe, que cresce com a Tranquilidade, chega mais vezes. Os punhos também viajam mais rápido."
+        },
+        {
+          "icon": "bison-steak",
+          "pt": "Filé de Bisão",
+          "en": "Bison Steak",
+          "prio": 2,
+          "qty": "2 a 4",
+          "effect": "+25 (+25 por acúmulo) de vida máxima.",
+          "why": "A wiki cita: o dano da Estadia em você vem da vida base, então mais vida máxima deixa você ficar mais tempo no voo e explodir mais forte."
+        },
+        {
+          "icon": "tougher-times",
+          "pt": "Tempos Difíceis",
+          "en": "Tougher Times",
+          "prio": 2,
+          "qty": "2 a 4",
+          "effect": "15% (+15% por acúmulo) de chance de bloquear dano recebido. Não é afetado por sorte.",
+          "why": "Defesa contra o que bate em você fora da Estadia. A wiki antiga lista entre os itens que combinam com o custo de vida dela."
+        },
+        {
+          "icon": "backup-magazine",
+          "pt": "Pente Reserva",
+          "en": "Backup Magazine",
+          "prio": 2,
+          "qty": "1 a 3",
+          "effect": "+1 (+1 por acúmulo) carga da habilidade Secundária.",
+          "why": "Mais Mãos Invisíveis seguidas: mais dano de área e mais cura. Com a Espiral de Alma, a wiki diz que vira uma boa ferramenta de movimento no ar."
+        },
+        {
+          "icon": "repulsion-armor-plate",
+          "pt": "Placa da Armadura de Repulsão",
+          "en": "Repulsion Armor Plate",
+          "prio": 3,
+          "qty": "2 a 5",
+          "effect": "Reduz todo dano recebido em 5 (+5 por acúmulo). Não pode reduzir abaixo de 1.",
+          "why": "Corta os golpes pequenos que se acumulam entre as Estadias. Citada pela wiki antiga para essa função."
+        },
+        {
+          "icon": "armor-piercing-rounds",
+          "pt": "Projéteis Perfurantes",
+          "en": "Armor-Piercing Rounds",
+          "prio": 3,
+          "qty": "1 a 3",
+          "effect": "+20% (+20% por acúmulo) de dano contra chefes.",
+          "why": "Mais dano da Mão Invisível no chefe é também mais cura na luta mais difícil da fase."
+        },
+        {
+          "icon": "crowbar",
+          "pt": "Pé de Cabra",
+          "en": "Crowbar",
+          "prio": 4,
+          "qty": "1 a 2",
+          "effect": "+75% (+75% por acúmulo) de dano contra inimigos acima de 90% de vida.",
+          "why": "A Mão Invisível e a Estadia abrem a luta com golpes grandes em inimigos de vida cheia."
+        }
+      ]
+    },
+    {
+      "id": "incomum",
+      "name": "Incomum",
+      "color": "verde",
+      "intro": "Os verdes que mais rendem nela ativam com golpes acima de 400% e dão defesa no voo.",
+      "items": [
+        {
+          "icon": "kjaros-band",
+          "pt": "Cinturão de Kjaro",
+          "en": "Kjaro's Band",
+          "prio": 1,
+          "qty": "1 a 3",
+          "effect": "Golpes acima de 400% de dano também lançam um tornado de fogo rúnico que causa 300% (+300% por acúmulo) de dano TOTAL ao longo do tempo. Recarrega a cada 10 s.",
+          "why": "Mão Invisível (600%), Estadia (500% ou mais) e o terceiro soco com 2 ou mais Tranquilidades passam de 400%."
+        },
+        {
+          "icon": "runalds-band",
+          "pt": "Cinturão de Runald",
+          "en": "Runald's Band",
+          "prio": 2,
+          "qty": "1 a 2",
+          "effect": "Golpes acima de 400% de dano também lançam uma explosão de gelo rúnica, que desacelera em 80% por 3 s (+3 s por acúmulo) e causa 250% (+250% por acúmulo) de dano TOTAL. Recarrega a cada 10 s.",
+          "why": "Mesmo gatilho do Kjaro. A lentidão segura os inimigos no lugar para o terceiro soco e a Estadia."
+        },
+        {
+          "icon": "rose-buckler",
+          "pt": "Broquel da Rosa",
+          "en": "Rose Buckler",
+          "prio": 2,
+          "qty": "1 a 3",
+          "effect": "+30 (+30 por acúmulo) de armadura enquanto corre.",
+          "why": "A wiki diz que a Estadia conta como correr, então o bônus vale no voo. Fora dela, correndo entre lutas, também protege."
+        },
+        {
+          "icon": "ukulele",
+          "pt": "Ukulele",
+          "en": "Ukulele",
+          "prio": 2,
+          "qty": "1 a 2",
+          "effect": "25% de chance de disparar um raio em cadeia de 80% de dano TOTAL em até 3 (+2 por acúmulo) alvos a até 20 m (+2 m por acúmulo).",
+          "why": "Os socos perfuram e o terceiro explode em área: muitos acertos por sequência, e o raio espalha para o grupo. Polialaúde corrompe este item."
+        },
+        {
+          "icon": "atg-missile-mk-1",
+          "pt": "Míssil ASM Mk. 1",
+          "en": "AtG Missile Mk. 1",
+          "prio": 3,
+          "qty": "1 a 2",
+          "effect": "10% de chance de disparar um míssil que causa 300% (+300% por acúmulo) de dano TOTAL.",
+          "why": "O dano TOTAL acompanha o golpe que ativou, e os golpes grandes dela são de 500% a 600% ou mais."
+        },
+        {
+          "icon": "luminous-shot",
+          "pt": "Disparo Luminoso",
+          "en": "Luminous Shot",
+          "prio": 3,
+          "qty": "1",
+          "effect": "Ativar a habilidade Secundária guarda até 5 cargas (+1 por acúmulo). Com 3 cargas, a Primária dispara raios que causam 175% de dano TOTAL (+50% por acúmulo) cada. Reduz o tempo de recarga da Secundária em 20%.",
+          "why": "A Mão Invisível volta 20% mais rápido, e o Soco Espiritual vira raios extras. Menos recarga na Mão também é mais cura."
+        },
+        {
+          "icon": "harvesters-scythe",
+          "pt": "Foice do Ceifador",
+          "en": "Harvester's Scythe",
+          "prio": 4,
+          "qty": "1 (com Óculos)",
+          "effect": "+5% de chance de crítico. Acertos Críticos curam 8 (+4 por acúmulo) de vida.",
+          "why": "Cura extra por crítico nos três socos da sequência. Só vale com alguma chance de crítico."
+        }
+      ]
+    },
+    {
+      "id": "lendario",
+      "name": "Lendário",
+      "color": "vermelho",
+      "intro": "Os vermelhos que mais mudam a Exploradora encurtam as recargas e dobram a cura da Mão Invisível.",
+      "items": [
+        {
+          "icon": "alien-head",
+          "pt": "Cabeça Alienígena",
+          "en": "Alien Head",
+          "prio": 1,
+          "qty": "1 a 2",
+          "effect": "Reduz o tempo de recarga das habilidades em 25% (+25% por acúmulo).",
+          "why": "Meditar mais vezes chega antes à Tranquilidade máxima. Mão Invisível (6 s) e Estadia (8 s) também voltam mais rápido."
+        },
+        {
+          "icon": "rejuvenation-rack",
+          "pt": "Suporte do Rejuvenescimento",
+          "en": "Rejuvenation Rack",
+          "prio": 1,
+          "qty": "1",
+          "effect": "Cura +100% (+100% por acúmulo) a mais.",
+          "why": "Dobra a cura da Mão Invisível, que já chega a 31,5% do dano, e a cura do Meditar. Paga o custo de vida da Estadia."
+        },
+        {
+          "icon": "brilliant-behemoth",
+          "pt": "Brutamontes Reluzente",
+          "en": "Brilliant Behemoth",
+          "prio": 2,
+          "qty": "1 a 2",
+          "effect": "Todos os ataques explodem num raio de 4 m (+2,5 m por acúmulo) causando 60% de dano TOTAL extra aos inimigos próximos.",
+          "why": "Os socos perfurantes acertam vários inimigos, e cada acerto vira explosão. A wiki não diz se o dano da explosão conta para a cura da Mão Invisível."
+        },
+        {
+          "icon": "hardlight-afterburner",
+          "pt": "Pós-combustor de Holograma",
+          "en": "Hardlight Afterburner",
+          "prio": 3,
+          "qty": "1",
+          "effect": "+2 (+2 por acúmulo) cargas da habilidade Utilitária e −33% no tempo de recarga dela.",
+          "why": "Mais Estadias: mais esquivas com imunidade e mais explosões. Cuidado com a vida, já que cada voo longo custa caro."
+        },
+        {
+          "icon": "unstable-tesla-coil",
+          "pt": "Bobina de Tesla Instável",
+          "en": "Unstable Tesla Coil",
+          "prio": 4,
+          "qty": "1",
+          "effect": "Dispara raios que atingem 3 (+2 por acúmulo) inimigos causando 200% do dano base a cada 0,5 s. A Bobina desliga a cada 10 s.",
+          "why": "A wiki antiga cita para o alcance curto dela. Dano constante nos inimigos ao redor, sem depender das habilidades."
+        },
+        {
+          "icon": "frost-relic",
+          "pt": "Relíquia Congelada",
+          "en": "Frost Relic",
+          "prio": 3,
+          "qty": "1",
+          "effect": "Abater um inimigo cria uma tempestade de gelo ao seu redor que causa 1200% de dano por segundo e desacelera inimigos em 80% por 1,5 s. A tempestade cresce a cada abate, aumentando o raio em 2 m. Acumula até 18 m (+12 m por acúmulo).",
+          "why": "A wiki antiga destaca para o alcance curto dela. Os abates da explosão do terceiro soco mantêm a tempestade ligada."
+        }
+      ]
+    },
+    {
+      "id": "chefe",
+      "name": "Chefe",
+      "color": "amarelo",
+      "intro": "Itens de chefe só caem de chefes de teleporte.",
+      "items": [
+        {
+          "icon": "little-disciple",
+          "pt": "Pequeno Discípulo",
+          "en": "Little Disciple",
+          "prio": 2,
+          "qty": "1 ou mais",
+          "effect": "Dispara um fogo-fátuo teleguiado de 300% (+300% por acúmulo) de dano. Dispara a cada 1,6 s enquanto corre. A frequência aumenta com a velocidade de movimento.",
+          "why": "A wiki diz que a Estadia conta como correr: os fogos-fátuos atiram enquanto você voa e não pode usar habilidades."
+        },
+        {
+          "icon": "planula",
+          "pt": "Plânula",
+          "en": "Planula",
+          "prio": 3,
+          "qty": "1",
+          "effect": "Cura 15 (+15 por acúmulo) a cada dano recebido.",
+          "why": "Citada pela wiki antiga para o custo de vida da Estadia. Fora do voo, cada golpe recebido devolve um pouco."
+        }
+      ]
+    },
+    {
+      "id": "equipamento",
+      "name": "Equipamentos",
+      "color": "laranja",
+      "intro": "Só dá para carregar um. Lembre que não dá para usar equipamento durante a Estadia.",
+      "items": [
+        {
+          "icon": "primordial-cube",
+          "pt": "Cubo Primordial",
+          "en": "Primordial Cube",
+          "prio": 1,
+          "qty": "1 (recarga 60 s)",
+          "effect": "Dispara um buraco negro que puxa inimigos a até 30 m para o centro. Dura 10 s.",
+          "why": "A wiki antiga destaca a combinação: o grupo junto leva a Mão Invisível inteira, e cada inimigo atingido aumenta a cura. A Estadia e o terceiro soco também pegam todos."
+        },
+        {
+          "icon": "royal-capacitor",
+          "pt": "Capacitor Régio",
+          "en": "Royal Capacitor",
+          "prio": 2,
+          "qty": "1 (recarga 20 s)",
+          "effect": "Lança um raio num monstro marcado, causando 3000% de dano e atordoando os monstros próximos.",
+          "why": "Dano à distância contra voadores e elites, fora do alcance curto do terceiro soco."
+        },
+        {
+          "icon": "gorags-opus",
+          "pt": "Opus de Gorag",
+          "en": "Gorag's Opus",
+          "prio": 3,
+          "qty": "1 (recarga 45 s)",
+          "effect": "Todos os aliados entram em frenesi por 7 s: +50% de movimento e +100% de velocidade de ataque.",
+          "why": "Dobra a velocidade dos socos por alguns segundos. Bom em grupo."
+        },
+        {
+          "icon": "blast-shower",
+          "pt": "Expurgação Explosiva",
+          "en": "Blast Shower",
+          "prio": 4,
+          "qty": "1 (recarga 20 s)",
+          "effect": "Remove todos os efeitos negativos, incluindo debuffs, dano contínuo e projéteis próximos.",
+          "why": "Defensivo contra elites que aplicam debuffs. Use antes de entrar na Estadia."
+        }
+      ]
+    },
+    {
+      "id": "lunar",
+      "name": "Lunares",
+      "color": "azul",
+      "intro": "Itens lunares têm custo embutido. Os que cortam vida pesam muito nela.",
+      "items": [
+        {
+          "icon": "purity",
+          "pt": "Pureza",
+          "en": "Purity",
+          "prio": 3,
+          "qty": "1",
+          "effect": "Reduz todas as recargas de habilidade em 2 s (+1 s por acúmulo). Todos os efeitos aleatórios são rolados +1 (+1 por acúmulo) vez contra você.",
+          "why": "Mão Invisível de 6 s para 4 s e Estadia de 8 s para 6 s, além do Meditar. O custo é piorar Ukulele e Míssil. Tempos Difíceis não é afetado, porque ignora sorte."
+        },
+        {
+          "icon": "light-flux-pauldron",
+          "pt": "Ombreira do Fluxo Iluminado",
+          "en": "Light Flux Pauldron",
+          "prio": 4,
+          "qty": "1",
+          "effect": "−50% (−50% por acúmulo) no tempo de recarga das habilidades. −50% (−50% por acúmulo) de velocidade de ataque.",
+          "why": "Mais Meditar, Mão e Estadia, mas o Soco Espiritual fica muito mais lento. Só para quem joga baseado nas habilidades e não nos socos."
+        },
+        {
+          "icon": "shaped-glass",
+          "pt": "Vidro Configurado",
+          "en": "Shaped Glass",
+          "prio": 0,
+          "qty": "0",
+          "effect": "+100% (+100% por acúmulo) de dano base. −50% (−50% por acúmulo) de vida máxima.",
+          "why": "A wiki antiga manda evitar: menos vida máxima encurta a Estadia, que custa vida a cada instante."
+        }
+      ]
+    },
+    {
+      "id": "vazio",
+      "name": "Vazio",
+      "color": "roxo",
+      "intro": "Itens do Vazio (DLC Survivors of the Void) corrompem itens comuns quando pegos. Veja o que vai perder antes.",
+      "items": [
+        {
+          "icon": "lysate-cell",
+          "pt": "Célula Lisada",
+          "en": "Lysate Cell",
+          "prio": 1,
+          "qty": "1 a 2",
+          "effect": "+1 (+1 por acúmulo) carga da habilidade Especial e −33% no tempo de recarga dela. Corrompe todas as Células de Combustível.",
+          "why": "Dois Meditar seguidos e recarga menor: a Tranquilidade sobe muito mais rápido no começo de cada fase."
+        },
+        {
+          "icon": "safer-spaces",
+          "pt": "Espaços Seguros",
+          "en": "Safer Spaces",
+          "prio": 2,
+          "qty": "1 a 2",
+          "effect": "Bloqueia o dano recebido uma vez. Recarrega após 13,5 s (−10% por acúmulo). Corrompe todos os Tempos Difíceis.",
+          "why": "Citado pela wiki antiga contra o custo de vida da Estadia. Corrompe os Tempos Difíceis que esta build recomenda: escolha um dos dois."
+        },
+        {
+          "icon": "voidsent-flame",
+          "pt": "Chama da Nulidade",
+          "en": "Voidsent Flame",
+          "prio": 3,
+          "qty": "1 a 2",
+          "effect": "Ao acertar um inimigo com a vida cheia, cria um pilar de lava num raio de 12 m (+2,4 m por acúmulo) causando 260% (+156% por acúmulo) do dano base. Corrompe todos os Will-o'-the-wisp.",
+          "why": "Os socos e a Mão Invisível perfuram e acertam vários inimigos de vida cheia de uma vez, e cada um pode gerar um pilar."
+        },
+        {
+          "icon": "polylute",
+          "pt": "Polialaúde",
+          "en": "Polylute",
+          "prio": 3,
+          "qty": "1 a 2",
+          "effect": "25% de chance de disparar um raio de 60% de dano TOTAL até 3 (+3 por acúmulo) vezes. Corrompe todos os Ukuleles.",
+          "why": "Mais forte que o Ukulele contra um alvo, mais fraco em grupo. Corrompe os seus Ukuleles."
+        },
+        {
+          "icon": "weeping-fungus",
+          "pt": "Fungo Choroso",
+          "en": "Weeping Fungus",
+          "prio": 4,
+          "qty": "1",
+          "effect": "Cura 2% (+2% por acúmulo) da vida por segundo enquanto corre. Corrompe todos os Fungos Vibrantes.",
+          "why": "A wiki antiga lista entre os defensivos. Cura entre as lutas enquanto você corre."
+        }
+      ]
+    }
+  ],
+  "synergy": [
+    {
+      "title": "Tranquilidade primeiro",
+      "text": "Cada Meditar bem-sucedido dá 1 Tranquilidade, até 7. Cada acúmulo dá +50% ao terceiro soco, +4% de cura à Mão Invisível, raio maior à Estadia e mais dano e cura ao próprio Meditar. Errar a sequência de teclas aumenta a recarga. Cabeça Alienígena e Célula Lisada fazem você chegar ao máximo bem mais cedo."
+    },
+    {
+      "title": "Dano é cura",
+      "text": "A Mão Invisível cura 3,5% do dano causado, mais 4% por Tranquilidade, até 31,5%. Por isso Cristal de Foco, Projéteis Perfurantes e Cubo Primordial (mais alvos atingidos) também são itens de cura. O Suporte do Rejuvenescimento dobra o resultado."
+    },
+    {
+      "title": "Estadia e o custo de vida",
+      "text": "Durante a Estadia você é imune a todo outro dano, mas depois de 1,4 s perde vida baseada na vida base, e a cura recebida cai 10% por segundo. Mais vida máxima (Filé de Bisão) deixa voar mais tempo. A Estadia conta como correr: Broquel da Rosa dá armadura e o Pequeno Discípulo atira enquanto você voa. Velocidade de movimento não muda a velocidade do voo, segundo a wiki antiga."
+    },
+    {
+      "title": "Golpes acima de 400%",
+      "text": "A Mão Invisível (600%), a Estadia (500% ou mais) e o terceiro soco com 2 Tranquilidades (450%) ativam os Cinturões de Kjaro e Runald. Com Tranquilidade máxima o terceiro soco chega a 700% de base. Os Cinturões recarregam em 10 s, então quase toda Mão Invisível pode ativar um."
+    },
+    {
+      "title": "Salvação e o revive",
+      "text": "Ao chegar à Tranquilidade máxima, o Meditar revive aliados caídos e concede Salvação (Saving Grace) a todos os sobreviventes vivos. Pelo texto do jogo, a Salvação dá +7% em todos os atributos e é consumida para reviver quem morrer. A wiki antiga diz que o revive só acontece na passagem do 6º para o 7º acúmulo e que ela não revive a si mesma. Em grupo, segure o 7º Meditar até alguém precisar."
+    }
+  ],
+  "rotation": [
+    {
+      "step": "Meditar no começo",
+      "text": "Acerte a sequência para ganhar Tranquilidade antes da luta apertar."
+    },
+    {
+      "step": "Mão Invisível no grupo",
+      "text": "Atordoa, causa 600% em todos que perfura e cura pelo dano."
+    },
+    {
+      "step": "Soco Espiritual",
+      "text": "Mantenha a sequência; o terceiro golpe explode em área."
+    },
+    {
+      "step": "Estadia para esquivar",
+      "text": "Voe quando vier dano pesado e exploda no meio do grupo antes de perder muita vida."
+    },
+    {
+      "step": "Meditar de novo",
+      "text": "Assim que voltar, use para subir a Tranquilidade e curar."
+    }
+  ],
+  "essentials": [
+    {
+      "pt": "Cristal de Foco",
+      "en": "Focus Crystal"
+    },
+    {
+      "pt": "Seringa Militar",
+      "en": "Soldier's Syringe"
+    },
+    {
+      "pt": "Cinturão de Kjaro",
+      "en": "Kjaro's Band"
+    },
+    {
+      "pt": "Cabeça Alienígena",
+      "en": "Alien Head"
+    },
+    {
+      "pt": "Suporte do Rejuvenescimento",
+      "en": "Rejuvenation Rack"
+    },
+    {
+      "pt": "Célula Lisada",
+      "en": "Lysate Cell"
+    },
+    {
+      "pt": "Cubo Primordial",
+      "en": "Primordial Cube"
+    }
+  ],
+  "situational_note": "Situacionais: Pente Reserva, Broquel da Rosa, Disparo Luminoso, Pós-combustor de Holograma, Relíquia Congelada, Espaços Seguros, Pureza e Ombreira do Fluxo Iluminado.",
+  "fallbacks": [
+    {
+      "pt": "Cristal de Foco",
+      "en": "Focus Crystal",
+      "text": "Projéteis Perfurantes para chefes e Pé de Cabra para abrir lutas."
+    },
+    {
+      "pt": "Seringa Militar",
+      "en": "Soldier's Syringe",
+      "text": "Mocha ou Opus de Gorag como equipamento."
+    },
+    {
+      "pt": "Cinturão de Kjaro",
+      "en": "Kjaro's Band",
+      "text": "Cinturão de Runald, mesmo gatilho de 400%. Depois Míssil ASM."
+    },
+    {
+      "pt": "Cabeça Alienígena",
+      "en": "Alien Head",
+      "text": "Célula Lisada para o Meditar e Disparo Luminoso para a Mão Invisível. Pureza se aceitar o custo nos efeitos de chance."
+    },
+    {
+      "pt": "Suporte do Rejuvenescimento",
+      "en": "Rejuvenation Rack",
+      "text": "Mais dano na Mão Invisível (é a mesma coisa que mais cura) e Filé de Bisão, Tempos Difíceis e Broquel da Rosa para defesa."
+    },
+    {
+      "pt": "Célula Lisada",
+      "en": "Lysate Cell",
+      "text": "Cabeça Alienígena. Sem as duas, troque o Meditar pela Explosão de Palma em fases cheias de inimigos."
+    },
+    {
+      "pt": "Cubo Primordial",
+      "en": "Primordial Cube",
+      "text": "Capacitor Régio para voadores e elites."
+    }
+  ],
+  "summary": "Força Interior, Soco Espiritual, Mão Invisível, Estadia e Meditar. Comece cada fase meditando para acumular Tranquilidade, cure com a Mão Invisível no grupo e use a Estadia como esquiva com imunidade e explosão. Empilhe Cristal de Foco e Seringa, pegue os Cinturões para os golpes acima de 400%, e encurte as recargas com Cabeça Alienígena e Célula Lisada.",
+  "checklist": [
+    {
+      "title": "Sempre pegue",
+      "text": "Cristal de Foco, Seringa Militar, Cinturão de Kjaro, Cabeça Alienígena, Suporte do Rejuvenescimento, Célula Lisada."
+    },
+    {
+      "title": "Impressoras brancas",
+      "text": "Transforme em Cristal de Foco até uns 4, depois Seringa Militar e Filé de Bisão."
+    },
+    {
+      "title": "Primeiro verde",
+      "text": "Cinturão de Kjaro. Depois Broquel da Rosa ou Ukulele."
+    },
+    {
+      "title": "Equipamento",
+      "text": "Cubo Primordial, seguido da Mão Invisível no grupo puxado."
+    },
+    {
+      "title": "Antes de pegar Vazio",
+      "text": "Espaços Seguros corrompe os Tempos Difíceis; Polialaúde corrompe os Ukuleles."
+    },
+    {
+      "title": "Não pegue",
+      "text": "Vidro Configurado: corta a vida pela metade e encurta a Estadia."
+    },
+    {
+      "title": "Luta de chefe",
+      "text": "Tranquilidade alta antes do teleporte, Mão Invisível sempre que voltar, Estadia para esquivar os ataques grandes."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Seeker — Risk of Rain 2 Wiki",
+      "url": "https://riskofrain2.wiki.gg/wiki/Seeker"
+    },
+    {
+      "title": "Seeker — Risk of Rain 2 Wiki (Fandom, wiki antiga)",
+      "url": "https://riskofrain2.fandom.com/wiki/Seeker"
+    },
+    {
+      "title": "Seeker RoR2 Guide — Rogue Ranker",
+      "url": "https://rogueranker.com/seeker-ror2/"
+    },
+    {
+      "title": "Items — Risk of Rain 2 Wiki",
+      "url": "https://riskofrain2.wiki.gg/wiki/Items"
+    }
+  ],
+  "notes": [
+    "A Exploradora faz parte da DLC Seekers of the Storm.",
+    "Mão Invisível: a wiki atual confirma 6 s de recarga (a wiki antiga diz 7 s e um guia diz 5 s; vale a wiki atual).",
+    "Meditar: a wiki atual e o texto do jogo confirmam 300% (+200% por Tranquilidade) e cura de +4% da vida máxima por Tranquilidade. Recarga e coeficiente não aparecem na wiki atual; os 15 s e 450% da wiki antiga são de uma versão anterior e não foram usados.",
+    "A wiki atual não lista recarga nem coeficiente da Explosão de Palma e do Adiamento.",
+    "Salvação (Saving Grace): a wiki atual não descreve o efeito. O texto do jogo (pt-BR, dez/2025) diz +7% em todos os atributos e revive ao morrer; a wiki antiga descreve uma versão anterior (cura com vida baixa). O revive só na passagem do 6º para o 7º acúmulo vem da wiki antiga.",
+    "O arquivo de idioma do jogo tem um primário alternativo, Busca de Alma (Soul Search), que a wiki atual não lista. Ficou fora da build até a wiki confirmar se ele está disponível."
+  ]
 }

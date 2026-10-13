@@ -13,6 +13,7 @@ Deploy na Vercel a partir da branch `main` (detecção automática do Vite). Det
 ```bash
 npm install
 npm run dev        # servidor local
+npm run format:data # formata src/data/builds/*.json no padrão (2 espaços)
 npm run validate   # confere src/data/builds/*.json (formato, ícones, essenciais)
 npm run typecheck  # tsc --noEmit
 npm run build      # typecheck + build de produção em dist/

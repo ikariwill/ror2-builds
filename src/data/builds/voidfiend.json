@@ -1,204 +1,611 @@
 {
- "id": "voidfiend",
- "name_pt": "Demônio Nulo",
- "name_en": "Void Fiend",
- "title": "Demônio Nulo: Build de Corrupção Crítica",
- "tagline": "Crítico enche a Corrupção, o raio corrompido derrete",
- "lede": "Uma build para passar o máximo de tempo na forma corrompida, onde o Afogar vira um raio contínuo de curto alcance e você ganha 100 de armadura. Críticos enchem a barra de Corrupção, itens do Vazio sobem o mínimo dela, e a Inundação ativa os Cinturões. O cuidado principal é a cura: receber cura tira Corrupção.",
- "loadout": [
-  {"slot": "Passiva", "skill": "Corrupção da Nulidade (Void Corruption)"},
-  {"slot": "Primária", "skill": "Afogar (Drown)"},
-  {"slot": "Secundária", "skill": "Inundação (Flood)"},
-  {"slot": "Utilitária", "skill": "Invasão (Trespass)"},
-  {"slot": "Especial", "skill": "Supressão (Suppress)"}
- ],
- "skills": [
-  {
-   "slot": "Passiva",
-   "pt": "Corrupção da Nulidade",
-   "en": "Void Corruption",
-   "pick": "Única opção",
-   "spec": "Barra de 0 a 100%. Normal: +3% por segundo, +2% × coeficiente por crítico, +0,5% por 1% de vida perdida. Corrompido: −6,67% por segundo (15 s) e +100 de armadura.",
-   "why": "Em 100%, todas as habilidades mudam para a forma corrompida. Receber cura tira 1% de Corrupção por 1% da vida máxima curado. Cada item do Vazio sobe o mínimo da barra em 2% e faz ela esvaziar mais devagar. Trocar de forma dá 0,5 s de invencibilidade e reinicia as recargas. O Demônio Nulo não tem habilidades alternativas."
-  },
-  {
-   "slot": "Primária",
-   "pt": "Afogar",
-   "en": "Drown",
-   "pick": "Única opção",
-   "spec": "Normal: raio de 300% com lentidão, alcance de 1000 m, 1 tiro a cada 0,6 s, coeficiente 1,0. Corrompido: raio perfurante de 40 m, cerca de 8 acertos de 250% por segundo, coeficiente 0,625.",
-   "why": "O texto do jogo diz 2.000% para a versão corrompida; a wiki esclarece que são cerca de 8 acertos de 250% por segundo. Velocidade de ataque aumenta a frequência dos acertos. É a principal fonte de dano e de acertos para itens. Você fica 50% mais lento enquanto atira."
-  },
-  {
-   "slot": "Secundária",
-   "pt": "Inundação",
-   "en": "Flood",
-   "pick": "Única opção",
-   "spec": "Normal: míssil de 600%, ou 1.100% em área de 5 m com carga total (cerca de 1 s). Corrompido: bomba em arco de 1.100%, raio de 10 m, sem carga. Recarga 4 s, coeficiente 1,0.",
-   "why": "As duas formas passam de 400%, então ativam os Cinturões de Kjaro e Runald, como a wiki confirma. Dá para carregar correndo e atirar durante a Invasão. A bomba corrompida empurra você para trás."
-  },
-  {
-   "slot": "Utilitária",
-   "pt": "Invasão",
-   "en": "Trespass",
-   "pick": "Única opção",
-   "spec": "Ágil. Some no Vazio, remove todos os efeitos negativos e danos contínuos e se move em arco para cima. Recarga 5 s. Corrompido: arco para frente, mais longo e rápido, com menos invulnerabilidade.",
-   "why": "Na forma normal você fica invulnerável e sem hitbox durante o movimento. É a fuga e a limpeza de debuffs ao mesmo tempo, o que dispensa equipamentos de limpeza."
-  },
-  {
-   "slot": "Especial",
-   "pt": "Supressão",
-   "en": "Suppress",
-   "pick": "Única opção",
-   "spec": "Ágil. Normal: destrói 25% de Corrupção para curar 25% da vida máxima (canalização de cerca de 1 s). Corrompido: destrói 25% da vida máxima para ganhar 25% de Corrupção; 2 cargas.",
-   "why": "Na forma normal é a sua cura. Na corrompida, troca vida por mais tempo corrompido. As cargas corrompidas só voltam quando você sai da forma corrompida e entra de novo, e não são afetadas pela Cartucheira (Bandolier). Se o mínimo de Corrupção chegar a 25%, a Supressão normal pode ser usada sem limite."
-  }
- ],
- "sections": [
-  {
-   "id": "comum",
-   "name": "Comum",
-   "color": "branco",
-   "intro": "Os brancos do Demônio Nulo enchem a Corrupção com críticos e aceleram o raio corrompido.",
-   "items": [
-    {"icon": "lens-makers-glasses", "pt": "Óculos do Fabricante de Lentes", "en": "Lens-Maker's Glasses", "prio": 1, "qty": "5 a 10", "effect": "Seus ataques têm 10% (+10% por acúmulo) de chance de dar Acerto Crítico, causando dano dobrado.", "why": "Cada crítico dá 2% × coeficiente de Corrupção. Com o Afogar corrompido (coeficiente 0,625, cerca de 8 acertos por segundo), críticos seguram a forma corrompida por muito mais tempo. Dez Óculos dão crítico garantido."},
-    {"icon": "soldiers-syringe", "pt": "Seringa Militar", "en": "Soldier's Syringe", "prio": 1, "qty": "3 a 6", "effect": "+15% (+15% por acúmulo) de velocidade de ataque.", "why": "O Afogar corrompido acerta mais vezes por segundo com velocidade de ataque: mais dano, mais críticos e mais Corrupção. A canalização da Supressão também fica mais rápida."},
-    {"icon": "backup-magazine", "pt": "Pente Reserva", "en": "Backup Magazine", "prio": 2, "qty": "2 a 4", "effect": "+1 (+1 por acúmulo) carga da habilidade Secundária.", "why": "Mais Inundações seguidas, e cada uma ativa os Cinturões. A wiki diz que todas as cargas voltam ao trocar de forma."},
-    {"icon": "tougher-times", "pt": "Tempos Difíceis", "en": "Tougher Times", "prio": 3, "qty": "1 a 3", "effect": "15% (+15% por acúmulo) de chance de bloquear dano recebido. Não é afetado por sorte.", "why": "Defesa que não cura, então não tira Corrupção. A wiki avisa que pode bloquear o dano da Supressão corrompida, o que salva vida mas pode atrapalhar o ganho. Espaços Seguros corrompe este item."},
-    {"icon": "pauls-goat-hoof", "pt": "Casco de Bode de Paul", "en": "Paul's Goat Hoof", "prio": 3, "qty": "1 a 3", "effect": "+14% (+14% por acúmulo) de velocidade de movimento.", "why": "O Afogar corrompido deixa você 50% mais lento enquanto atira, e o alcance é de só 40 m. Velocidade ajuda a se manter na distância certa."},
-    {"icon": "mocha", "pt": "Mocha", "en": "Mocha", "prio": 3, "qty": "1 a 3", "effect": "+7,5% (+7,5% por acúmulo) de velocidade de ataque e +7% (+7% por acúmulo) de velocidade de movimento.", "why": "Metade Seringa, metade Casco: os dois atributos que o raio corrompido mais pede."},
-    {"icon": "armor-piercing-rounds", "pt": "Projéteis Perfurantes", "en": "Armor-Piercing Rounds", "prio": 3, "qty": "1 a 3", "effect": "+20% (+20% por acúmulo) de dano contra chefes.", "why": "O raio corrompido fica colado no chefe por segundos seguidos; o bônus entra em cada acerto."},
-    {"icon": "repulsion-armor-plate", "pt": "Placa da Armadura de Repulsão", "en": "Repulsion Armor Plate", "prio": 4, "qty": "2 a 5", "effect": "Reduz todo dano recebido em 5 (+5 por acúmulo). Não pode reduzir abaixo de 1.", "why": "Defesa que não cura. A wiki cita o item nos Campos do Vazio: a névoa ainda dá Corrupção ao causar dano, e a Placa diminui o quanto você perde de vida."},
-    {"icon": "cautious-slug", "pt": "Lesma Precavida", "en": "Cautious Slug", "prio": 4, "qty": "1", "effect": "Aumenta a regeneração de vida base em +3 por segundo (+3 por acúmulo) fora de combate.", "why": "A wiki diz que essa regeneração fora de combate não reduz a Corrupção. Recupera vida entre lutas sem atrapalhar a barra."}
-   ]
-  },
-  {
-   "id": "incomum",
-   "name": "Incomum",
-   "color": "verde",
-   "intro": "Os verdes certos convertem crítico em velocidade e aproveitam os muitos acertos do raio e os 400% da Inundação.",
-   "items": [
-    {"icon": "predatory-instincts", "pt": "Instintos Predatórios", "en": "Predatory Instincts", "prio": 1, "qty": "1 a 2", "effect": "+5% de chance de crítico. Acertos Críticos aumentam a velocidade de ataque em 12%, até 36% (+24% por acúmulo).", "why": "A wiki cita este item para manter a Corrupção e o dano do Afogar corrompido: crítico gera velocidade, velocidade gera mais acertos e mais críticos."},
-    {"icon": "kjaros-band", "pt": "Cinturão de Kjaro", "en": "Kjaro's Band", "prio": 2, "qty": "1 a 2", "effect": "Golpes acima de 400% de dano também lançam um tornado de fogo rúnico que causa 300% (+300% por acúmulo) de dano TOTAL ao longo do tempo. Recarrega a cada 10 s.", "why": "A Inundação (600% ou 1.100%) e a bomba corrompida (1.100%) passam de 400%. Os acertos de 250% do Afogar corrompido não ativam."},
-    {"icon": "ukulele", "pt": "Ukulele", "en": "Ukulele", "prio": 2, "qty": "1 a 2", "effect": "25% de chance de disparar um raio em cadeia de 80% de dano TOTAL em até 3 (+2 por acúmulo) alvos a até 20 m (+2 m por acúmulo).", "why": "O Afogar corrompido acerta cerca de 8 vezes por segundo e perfura. Muitas chances de ativar, e o raio espalha dano para o grupo. Polialaúde corrompe este item."},
-    {"icon": "harvesters-scythe", "pt": "Foice do Ceifador", "en": "Harvester's Scythe", "prio": 3, "qty": "1", "effect": "+5% de chance de crítico. Acertos Críticos curam 8 (+4 por acúmulo) de vida.", "why": "A wiki diz que ajuda a encher a Corrupção nas primeiras fases, pelos críticos. A cura por crítico é pequena e fixa, então um acúmulo basta."},
-    {"icon": "runalds-band", "pt": "Cinturão de Runald", "en": "Runald's Band", "prio": 3, "qty": "1", "effect": "Golpes acima de 400% de dano também lançam uma explosão de gelo rúnica, que desacelera em 80% por 3 s (+3 s por acúmulo) e causa 250% (+250% por acúmulo) de dano TOTAL. Recarrega a cada 10 s.", "why": "Mesmo gatilho do Kjaro, com a Inundação. A lentidão segura os inimigos dentro dos 40 m do raio corrompido."},
-    {"icon": "atg-missile-mk-1", "pt": "Míssil ASM Mk. 1", "en": "AtG Missile Mk. 1", "prio": 3, "qty": "1 a 2", "effect": "10% de chance de disparar um míssil que causa 300% (+300% por acúmulo) de dano TOTAL.", "why": "Muitos acertos por segundo no raio corrompido. Camarão de Plasma corrompe este item."},
-    {"icon": "leeching-seed", "pt": "Semente Sanguessuga", "en": "Leeching Seed", "prio": 0, "qty": "0", "effect": "Causar dano cura 1 (+1 por acúmulo) de vida.", "why": "Cura a cada acerto, e o raio corrompido acerta cerca de 8 vezes por segundo. Toda cura recebida tira Corrupção (1% por 1% da vida máxima), então ela encurta a forma corrompida."}
-   ]
-  },
-  {
-   "id": "lendario",
-   "name": "Lendário",
-   "color": "vermelho",
-   "intro": "Os vermelhos que mais rendem ampliam o crítico e transformam o raio contínuo em dano de área.",
-   "items": [
-    {"icon": "laser-scope", "pt": "Mira Laser", "en": "Laser Scope", "prio": 1, "qty": "1 a 2", "effect": "Acertos Críticos causam +100% (+100% por acúmulo) de dano.", "why": "A build já empilha chance de crítico para encher a Corrupção. Com muitos críticos, cada Mira soma +100% de dano a eles."},
-    {"icon": "brilliant-behemoth", "pt": "Brutamontes Reluzente", "en": "Brilliant Behemoth", "prio": 1, "qty": "1 a 2", "effect": "Todos os ataques explodem num raio de 4 m (+2,5 m por acúmulo) causando 60% de dano TOTAL extra aos inimigos próximos.", "why": "Cada um dos cerca de 8 acertos por segundo do Afogar corrompido vira uma explosão. O raio fino passa a limpar grupos."},
-    {"icon": "alien-head", "pt": "Cabeça Alienígena", "en": "Alien Head", "prio": 2, "qty": "1 a 2", "effect": "Reduz o tempo de recarga das habilidades em 25% (+25% por acúmulo).", "why": "Inundação (4 s) e Invasão (5 s) voltam mais rápido: mais ativações dos Cinturões e mais fugas. As cargas da Supressão corrompida dependem de trocar de forma, não da recarga."},
-    {"icon": "symbiotic-scorpion", "pt": "Escorpião Simbiótico", "en": "Symbiotic Scorpion", "prio": 3, "qty": "1", "effect": "100% de chance ao acertar de reduzir a armadura em 2 (+2 por acúmulo) permanentemente.", "why": "Com cerca de 8 acertos por segundo em um chefe, a armadura dele cai rápido e não volta."},
-    {"icon": "hardlight-afterburner", "pt": "Pós-combustor de Holograma", "en": "Hardlight Afterburner", "prio": 3, "qty": "1", "effect": "+2 (+2 por acúmulo) cargas da habilidade Utilitária e −33% no tempo de recarga dela.", "why": "A Invasão passa a ter 3 cargas. Cada uma remove debuffs e dá invulnerabilidade, o que compensa a falta de cura."}
-   ]
-  },
-  {
-   "id": "chefe",
-   "name": "Chefe",
-   "color": "amarelo",
-   "intro": "Itens de chefe só caem de chefes de teleporte.",
-   "items": [
-    {"icon": "charged-perforator", "pt": "Perfurador Carregado", "en": "Charged Perforator", "prio": 2, "qty": "1 ou mais", "effect": "10% de chance ao acertar de lançar um raio, causando 500% (+500% por acúmulo) de dano.", "why": "O raio corrompido dá muitas chances por segundo, mesmo com coeficiente 0,625."},
-    {"icon": "molten-perforator", "pt": "Perfurador Fundido", "en": "Molten Perforator", "prio": 3, "qty": "1", "effect": "10% de chance ao acertar de lançar 3 bolas de magma do inimigo, causando 300% (+300% por acúmulo) de dano cada.", "why": "Mesmo motivo do Perfurador Carregado."}
-   ]
-  },
-  {
-   "id": "equipamento",
-   "name": "Equipamentos",
-   "color": "laranja",
-   "intro": "Só dá para carregar um. O melhor é o que segura a forma corrompida.",
-   "items": [
-    {"icon": "ocular-hud", "pt": "Visor Ocular", "en": "Ocular HUD", "prio": 1, "qty": "1 (recarga 60 s)", "effect": "+100% de chance de Acerto Crítico por 8 s.", "why": "A wiki chama de excelente para manter 100% de Corrupção com o Afogar corrompido: 8 s de crítico garantido em cada acerto."},
-    {"icon": "gorags-opus", "pt": "Opus de Gorag", "en": "Gorag's Opus", "prio": 2, "qty": "1 (recarga 45 s)", "effect": "Todos os aliados entram em frenesi por 7 s: +50% de movimento e +100% de velocidade de ataque.", "why": "Dobra os acertos por segundo do raio corrompido e compensa a lentidão de atirar."},
-    {"icon": "primordial-cube", "pt": "Cubo Primordial", "en": "Primordial Cube", "prio": 3, "qty": "1 (recarga 60 s)", "effect": "Dispara um buraco negro que puxa inimigos a até 30 m para o centro. Dura 10 s.", "why": "Junta o grupo num ponto: o raio perfurante e o Brutamontes pegam todos, e a bomba corrompida de 10 m também."},
-    {"icon": "royal-capacitor", "pt": "Capacitor Régio", "en": "Royal Capacitor", "prio": 3, "qty": "1 (recarga 20 s)", "effect": "Lança um raio num monstro marcado, causando 3000% de dano e atordoando os monstros próximos.", "why": "Dano extra a cada 20 s. A wiki dos Óculos diz que crítico também vale para dano de equipamento como este."}
-   ]
-  },
-  {
-   "id": "lunar",
-   "name": "Lunares",
-   "color": "azul",
-   "intro": "Itens lunares têm custo embutido. Dois deles atrapalham a Corrupção.",
-   "items": [
-    {"icon": "shaped-glass", "pt": "Vidro Configurado", "en": "Shaped Glass", "prio": 4, "qty": "1 (só se estiver confortável)", "effect": "+100% (+100% por acúmulo) de dano base. −50% (−50% por acúmulo) de vida máxima.", "why": "Dobra tudo. Os 100 de armadura da forma corrompida ajudam, mas a Supressão corrompida custa 25% da vida máxima, e a vida fica pela metade."},
-    {"icon": "purity", "pt": "Pureza", "en": "Purity", "prio": 0, "qty": "0", "effect": "Reduz todas as recargas de habilidade em 2 s (+1 s por acúmulo). Todos os efeitos aleatórios são rolados +1 (+1 por acúmulo) vez contra você.", "why": "A chance de crítico é um efeito aleatório. Rolada contra você, ela gera menos críticos e menos Corrupção, que é a base da build."},
-    {"icon": "corpsebloom", "pt": "Expansão Corporal", "en": "Corpsebloom", "prio": 0, "qty": "0", "effect": "Cura +100% (+100% por acúmulo) a mais. Toda cura é aplicada ao longo do tempo, até no máximo 10% (−50% por acúmulo) da vida por segundo.", "why": "A wiki avisa: com a cura espalhada no tempo, fica muito difícil encher a Corrupção. Só a Supressão corrompida ainda sobe a barra."}
-   ]
-  },
-  {
-   "id": "vazio",
-   "name": "Vazio",
-   "color": "roxo",
-   "intro": "Cada item do Vazio sobe o mínimo de Corrupção em 2% e faz a barra esvaziar mais devagar. Mesmo assim, veja o que cada um corrompe.",
-   "items": [
-    {"icon": "lysate-cell", "pt": "Célula Lisada", "en": "Lysate Cell", "prio": 1, "qty": "1 a 2", "effect": "+1 (+1 por acúmulo) carga da habilidade Especial e −33% no tempo de recarga dela. Corrompe todas as Células de Combustível.", "why": "Uma carga a mais de Supressão corrompida: mais 25% de Corrupção quando a barra está acabando. Se pegar já corrompido, a carga só vem na próxima vez que corromper."},
-    {"icon": "polylute", "pt": "Polialaúde", "en": "Polylute", "prio": 2, "qty": "1 a 2", "effect": "25% de chance de disparar um raio de 60% de dano TOTAL até 3 (+3 por acúmulo) vezes. Corrompe todos os Ukuleles.", "why": "Os muitos acertos do raio corrompido ativam bastante. Corrompe os Ukuleles que esta build recomenda: troque se a luta for mais contra chefes."},
-    {"icon": "safer-spaces", "pt": "Espaços Seguros", "en": "Safer Spaces", "prio": 2, "qty": "1 a 2", "effect": "Bloqueia o dano recebido uma vez. Recarrega após 13,5 s (−10% por acúmulo). Corrompe todos os Tempos Difíceis.", "why": "Bloqueio garantido que não cura, então não tira Corrupção. Corrompe os Tempos Difíceis que você tiver."},
-    {"icon": "plasma-shrimp", "pt": "Camarão de Plasma", "en": "Plasma Shrimp", "prio": 3, "qty": "1", "effect": "Ganha escudo de 10% da vida máxima. Com escudo, cada acerto dispara um míssil de 40% (+40% por acúmulo) de dano TOTAL. Corrompe todos os Mísseis ASM Mk. 1.", "why": "Com cerca de 8 acertos por segundo, é muito míssil enquanto o escudo existe. Corrompe os Mísseis ASM que você tiver."},
-    {"icon": "lost-seers-lenses", "pt": "Lentes do Profeta Perdido", "en": "Lost Seer's Lenses", "prio": 0, "qty": "0", "effect": "Seus ataques têm 0,5% (+0,5% por acúmulo) de chance de matar na hora um inimigo que não seja chefe. Corrompe todos os Óculos do Fabricante de Lentes.", "why": "Corrompe todos os Óculos, que são o que enche a Corrupção com críticos. O +2% de mínimo não compensa."}
-   ]
-  }
- ],
- "synergy": [
-  {"title": "Crítico enche a Corrupção", "text": "Cada crítico dá 2% × o coeficiente do ataque em Corrupção. O Afogar corrompido tem coeficiente 0,625, então cada crítico dá 1,25%, cerca de 8 vezes por segundo. Com crítico alto, isso empata ou supera a perda de 6,67% por segundo e a forma corrompida dura muito mais. Óculos, Instintos e Visor Ocular são a base da build por isso."},
-  {"title": "Cura tira Corrupção", "text": "Receber cura reduz a Corrupção em 1% para cada 1% da vida máxima curado. Itens de cura por acerto, como a Semente Sanguessuga, trabalham contra a forma corrompida. A Expansão Corporal deixa quase impossível corromper. Para sobreviver, prefira defesa que não cura: armadura da forma corrompida, Tempos Difíceis, Espaços Seguros e a Invasão."},
-  {"title": "Itens do Vazio sobem o mínimo", "text": "Cada item do Vazio sobe o mínimo de Corrupção em 2% e faz a barra cair mais devagar, sem encurtar a forma corrompida. Com mínimo de 25% ou mais, a Supressão normal pode ser usada sem limite. Por isso itens do Vazio rendem mais nele, desde que não corrompam algo importante, como os Óculos."},
-  {"title": "Inundação e os Cinturões", "text": "A Inundação causa 600% (1.100% com carga) e a bomba corrompida 1.100%: as duas passam de 400% e ativam Kjaro e Runald. Os acertos de 250% do Afogar corrompido não passam. Pente Reserva dá mais Inundações, e as cargas voltam ao trocar de forma."},
-  {"title": "Supressão nas duas formas", "text": "Na forma normal, a Supressão troca 25% de Corrupção por 25% de vida: é a sua cura. Na corrompida, troca 25% de vida por 25% de Corrupção, com 2 cargas que só voltam quando você corrompe de novo. A Célula Lisada soma uma carga. Trocar de forma reinicia as recargas e dá 0,5 s de invencibilidade."}
- ],
- "rotation": [
-  {"step": "Afogar de longe", "text": "Na forma normal, atire do alcance máximo enquanto a Corrupção sobe."},
-  {"step": "Supressão para curar", "text": "Se a vida estiver baixa antes de corromper, troque Corrupção por vida."},
-  {"step": "Raio corrompido no alvo", "text": "Ao corromper, chegue a 40 m e segure o Afogar; ative o Visor Ocular junto."},
-  {"step": "Inundação nos grupos", "text": "Jogue a bomba de 1.100% para ativar os Cinturões e limpar a área."},
-  {"step": "Supressão corrompida no fim", "text": "Quando a barra estiver acabando, troque vida por mais 25% de Corrupção."}
- ],
- "essentials": [
-  {"pt": "Óculos do Fabricante de Lentes", "en": "Lens-Maker's Glasses"},
-  {"pt": "Seringa Militar", "en": "Soldier's Syringe"},
-  {"pt": "Instintos Predatórios", "en": "Predatory Instincts"},
-  {"pt": "Mira Laser", "en": "Laser Scope"},
-  {"pt": "Brutamontes Reluzente", "en": "Brilliant Behemoth"},
-  {"pt": "Célula Lisada", "en": "Lysate Cell"},
-  {"pt": "Visor Ocular", "en": "Ocular HUD"}
- ],
- "situational_note": "Situacionais: Pente Reserva, Cinturões de Kjaro e Runald, Ukulele, Cabeça Alienígena, Espaços Seguros, Polialaúde, Camarão de Plasma e Vidro Configurado.",
- "fallbacks": [
-  {"pt": "Óculos do Fabricante de Lentes", "en": "Lens-Maker's Glasses", "text": "Instintos Predatórios e Foice do Ceifador para algum crítico. Sem crítico, use a Supressão corrompida para estender a forma."},
-  {"pt": "Seringa Militar", "en": "Soldier's Syringe", "text": "Mocha, Instintos Predatórios ou Opus de Gorag como equipamento."},
-  {"pt": "Instintos Predatórios", "en": "Predatory Instincts", "text": "Mais Seringas e Óculos. Foice do Ceifador ainda dá 5% de crítico."},
-  {"pt": "Mira Laser", "en": "Laser Scope", "text": "Mais Óculos e Projéteis Perfurantes para chefes."},
-  {"pt": "Brutamontes Reluzente", "en": "Brilliant Behemoth", "text": "Ukulele ou Polialaúde e os Cinturões com a Inundação. Cubo Primordial para juntar grupos."},
-  {"pt": "Célula Lisada", "en": "Lysate Cell", "text": "Qualquer item do Vazio que não corrompa algo importante, para subir o mínimo de Corrupção."},
-  {"pt": "Visor Ocular", "en": "Ocular HUD", "text": "Opus de Gorag para velocidade de ataque, ou Cubo Primordial."}
- ],
- "summary": "O Demônio Nulo não tem alternativas: Afogar, Inundação, Invasão e Supressão. Empilhe chance de crítico e velocidade de ataque para encher a Corrupção e ficar mais tempo corrompido, onde o Afogar acerta cerca de 8 vezes por segundo e você tem 100 de armadura. Use a Inundação para ativar os Cinturões, pegue itens do Vazio que não corrompam seus Óculos e fuja de itens de cura constante.",
- "checklist": [
-  {"title": "Sempre pegue", "text": "Óculos do Fabricante de Lentes, Seringa Militar, Instintos Predatórios, Mira Laser, Brutamontes, Célula Lisada."},
-  {"title": "Impressoras brancas", "text": "Transforme em Óculos até uns 8 a 10, depois Seringa Militar."},
-  {"title": "Primeiro verde", "text": "Instintos Predatórios. Depois Ukulele ou Cinturão de Kjaro."},
-  {"title": "Equipamento", "text": "Visor Ocular, ativado logo ao corromper."},
-  {"title": "Antes de pegar Vazio", "text": "Lentes do Profeta corrompem os Óculos; Polialaúde corrompe os Ukuleles; Espaços Seguros, os Tempos Difíceis."},
-  {"title": "Não pegue", "text": "Semente Sanguessuga e Expansão Corporal: cura tira Corrupção. Pureza: menos críticos."},
-  {"title": "Luta de chefe", "text": "Chegue corrompido, Visor Ocular, raio colado no chefe e Supressão corrompida para estender."}
- ],
- "sources": [
-  {"title": "Void Fiend — Risk of Rain 2 Wiki", "url": "https://riskofrain2.wiki.gg/wiki/Void_Fiend"},
-  {"title": "Lens-Maker's Glasses — Risk of Rain 2 Wiki", "url": "https://riskofrain2.wiki.gg/wiki/Lens-Maker's_Glasses"},
-  {"title": "Proc Coefficient — Risk of Rain 2 Wiki", "url": "https://riskofrain2.wiki.gg/wiki/Proc_Coefficient"},
-  {"title": "Items — Risk of Rain 2 Wiki", "url": "https://riskofrain2.wiki.gg/wiki/Items"}
- ],
- "notes": [
-  "O Demônio Nulo faz parte da DLC Survivors of the Void.",
-  "No jogo em português, os nomes do Demônio Nulo e das habilidades aparecem com caracteres embaralhados de propósito (por exemplo, 【A??foga?r」). O guia usa a forma limpa.",
-  "O texto do jogo dá 2.000% para o Afogar corrompido; a wiki explica que são cerca de 8 acertos de 250% por segundo."
- ]
+  "id": "voidfiend",
+  "name_pt": "Demônio Nulo",
+  "name_en": "Void Fiend",
+  "title": "Demônio Nulo: Build de Corrupção Crítica",
+  "tagline": "Crítico enche a Corrupção, o raio corrompido derrete",
+  "lede": "Uma build para passar o máximo de tempo na forma corrompida, onde o Afogar vira um raio contínuo de curto alcance e você ganha 100 de armadura. Críticos enchem a barra de Corrupção, itens do Vazio sobem o mínimo dela, e a Inundação ativa os Cinturões. O cuidado principal é a cura: receber cura tira Corrupção.",
+  "loadout": [
+    {
+      "slot": "Passiva",
+      "skill": "Corrupção da Nulidade (Void Corruption)"
+    },
+    {
+      "slot": "Primária",
+      "skill": "Afogar (Drown)"
+    },
+    {
+      "slot": "Secundária",
+      "skill": "Inundação (Flood)"
+    },
+    {
+      "slot": "Utilitária",
+      "skill": "Invasão (Trespass)"
+    },
+    {
+      "slot": "Especial",
+      "skill": "Supressão (Suppress)"
+    }
+  ],
+  "skills": [
+    {
+      "slot": "Passiva",
+      "pt": "Corrupção da Nulidade",
+      "en": "Void Corruption",
+      "pick": "Única opção",
+      "spec": "Barra de 0 a 100%. Normal: +3% por segundo, +2% × coeficiente por crítico, +0,5% por 1% de vida perdida. Corrompido: −6,67% por segundo (15 s) e +100 de armadura.",
+      "why": "Em 100%, todas as habilidades mudam para a forma corrompida. Receber cura tira 1% de Corrupção por 1% da vida máxima curado. Cada item do Vazio sobe o mínimo da barra em 2% e faz ela esvaziar mais devagar. Trocar de forma dá 0,5 s de invencibilidade e reinicia as recargas. O Demônio Nulo não tem habilidades alternativas."
+    },
+    {
+      "slot": "Primária",
+      "pt": "Afogar",
+      "en": "Drown",
+      "pick": "Única opção",
+      "spec": "Normal: raio de 300% com lentidão, alcance de 1000 m, 1 tiro a cada 0,6 s, coeficiente 1,0. Corrompido: raio perfurante de 40 m, cerca de 8 acertos de 250% por segundo, coeficiente 0,625.",
+      "why": "O texto do jogo diz 2.000% para a versão corrompida; a wiki esclarece que são cerca de 8 acertos de 250% por segundo. Velocidade de ataque aumenta a frequência dos acertos. É a principal fonte de dano e de acertos para itens. Atirar deixa você com 50% de lentidão (cerca de 33% na prática)."
+    },
+    {
+      "slot": "Secundária",
+      "pt": "Inundação",
+      "en": "Flood",
+      "pick": "Única opção",
+      "spec": "Normal: míssil de 600%, ou 1.100% em área de 5 m com carga total (cerca de 1 s). Corrompido: bomba em arco de 1.100%, raio de 10 m, sem carga. Recarga 4 s, coeficiente 1,0.",
+      "why": "As duas formas passam de 400%, então ativam os Cinturões de Kjaro e Runald, como a wiki confirma. Dá para carregar correndo e atirar durante a Invasão. A bomba corrompida empurra você para trás."
+    },
+    {
+      "slot": "Utilitária",
+      "pt": "Invasão",
+      "en": "Trespass",
+      "pick": "Única opção",
+      "spec": "Ágil. Some no Vazio, remove todos os efeitos negativos e danos contínuos e se move em arco para cima. Recarga 5 s. Corrompido: movimento rápido para frente, com menos tempo de invulnerabilidade.",
+      "why": "Na forma normal você fica invulnerável e sem hitbox durante o movimento. É a fuga e a limpeza de debuffs ao mesmo tempo, o que dispensa equipamentos de limpeza."
+    },
+    {
+      "slot": "Especial",
+      "pt": "Supressão",
+      "en": "Suppress",
+      "pick": "Única opção",
+      "spec": "Ágil. Normal: destrói 25% de Corrupção para curar 25% da vida máxima (canalização de cerca de 1 s). Corrompido: destrói 25% da vida máxima para ganhar 25% de Corrupção; 2 cargas.",
+      "why": "Na forma normal é a sua cura. Na corrompida, troca vida por mais tempo corrompido. As cargas corrompidas só voltam quando você sai da forma corrompida e entra de novo, e não são afetadas pela Cartucheira (Bandolier). Se o mínimo de Corrupção chegar a 25%, a Supressão normal pode ser usada sem limite."
+    }
+  ],
+  "sections": [
+    {
+      "id": "comum",
+      "name": "Comum",
+      "color": "branco",
+      "intro": "Os brancos do Demônio Nulo enchem a Corrupção com críticos e aceleram o raio corrompido.",
+      "items": [
+        {
+          "icon": "lens-makers-glasses",
+          "pt": "Óculos do Fabricante de Lentes",
+          "en": "Lens-Maker's Glasses",
+          "prio": 1,
+          "qty": "5 a 10",
+          "effect": "Seus ataques têm 10% (+10% por acúmulo) de chance de dar Acerto Crítico, causando dano dobrado.",
+          "why": "Cada crítico dá 2% × coeficiente de Corrupção. Com o Afogar corrompido (coeficiente 0,625, cerca de 8 acertos por segundo), críticos seguram a forma corrompida por muito mais tempo. Dez Óculos dão crítico garantido."
+        },
+        {
+          "icon": "soldiers-syringe",
+          "pt": "Seringa Militar",
+          "en": "Soldier's Syringe",
+          "prio": 1,
+          "qty": "3 a 6",
+          "effect": "+15% (+15% por acúmulo) de velocidade de ataque.",
+          "why": "O Afogar corrompido acerta mais vezes por segundo com velocidade de ataque: mais dano, mais críticos e mais Corrupção. A canalização da Supressão também fica mais rápida."
+        },
+        {
+          "icon": "backup-magazine",
+          "pt": "Pente Reserva",
+          "en": "Backup Magazine",
+          "prio": 2,
+          "qty": "2 a 4",
+          "effect": "+1 (+1 por acúmulo) carga da habilidade Secundária.",
+          "why": "Mais Inundações seguidas, e cada uma ativa os Cinturões. A wiki diz que todas as cargas voltam ao trocar de forma."
+        },
+        {
+          "icon": "tougher-times",
+          "pt": "Tempos Difíceis",
+          "en": "Tougher Times",
+          "prio": 3,
+          "qty": "1 a 3",
+          "effect": "15% (+15% por acúmulo) de chance de bloquear dano recebido. Não é afetado por sorte.",
+          "why": "Defesa que não cura, então não tira Corrupção. A wiki avisa que ele pode bloquear o dano que a Supressão corrompida causa em você. Espaços Seguros corrompe este item."
+        },
+        {
+          "icon": "pauls-goat-hoof",
+          "pt": "Casco de Bode de Paul",
+          "en": "Paul's Goat Hoof",
+          "prio": 3,
+          "qty": "1 a 3",
+          "effect": "+14% (+14% por acúmulo) de velocidade de movimento.",
+          "why": "O Afogar corrompido deixa você 50% mais lento enquanto atira, e o alcance é de só 40 m. Velocidade ajuda a se manter na distância certa."
+        },
+        {
+          "icon": "mocha",
+          "pt": "Mocha",
+          "en": "Mocha",
+          "prio": 3,
+          "qty": "1 a 3",
+          "effect": "+7,5% (+7,5% por acúmulo) de velocidade de ataque e +7% (+7% por acúmulo) de velocidade de movimento.",
+          "why": "Metade Seringa, metade Casco: os dois atributos que o raio corrompido mais pede."
+        },
+        {
+          "icon": "armor-piercing-rounds",
+          "pt": "Projéteis Perfurantes",
+          "en": "Armor-Piercing Rounds",
+          "prio": 3,
+          "qty": "1 a 3",
+          "effect": "+20% (+20% por acúmulo) de dano contra chefes.",
+          "why": "O raio corrompido fica colado no chefe por segundos seguidos; o bônus entra em cada acerto."
+        },
+        {
+          "icon": "repulsion-armor-plate",
+          "pt": "Placa da Armadura de Repulsão",
+          "en": "Repulsion Armor Plate",
+          "prio": 4,
+          "qty": "2 a 5",
+          "effect": "Reduz todo dano recebido em 5 (+5 por acúmulo). Não pode reduzir abaixo de 1.",
+          "why": "Defesa que não cura. A wiki cita o item: você continua levando golpes, que sobem a Corrupção, e a Supressão converte essa Corrupção em cura."
+        },
+        {
+          "icon": "cautious-slug",
+          "pt": "Lesma Precavida",
+          "en": "Cautious Slug",
+          "prio": 4,
+          "qty": "1",
+          "effect": "Aumenta a regeneração de vida base em +3 por segundo (+3 por acúmulo) fora de combate.",
+          "why": "A wiki diz que essa regeneração fora de combate não reduz a Corrupção. Recupera vida entre lutas sem atrapalhar a barra."
+        }
+      ]
+    },
+    {
+      "id": "incomum",
+      "name": "Incomum",
+      "color": "verde",
+      "intro": "Os verdes certos convertem crítico em velocidade e aproveitam os muitos acertos do raio e os 400% da Inundação.",
+      "items": [
+        {
+          "icon": "predatory-instincts",
+          "pt": "Instintos Predatórios",
+          "en": "Predatory Instincts",
+          "prio": 1,
+          "qty": "1 a 2",
+          "effect": "+5% de chance de crítico. Acertos Críticos aumentam a velocidade de ataque em 12%, até 36% (+24% por acúmulo).",
+          "why": "A wiki cita este item para manter a Corrupção e o dano do Afogar corrompido: crítico gera velocidade, velocidade gera mais acertos e mais críticos."
+        },
+        {
+          "icon": "kjaros-band",
+          "pt": "Cinturão de Kjaro",
+          "en": "Kjaro's Band",
+          "prio": 2,
+          "qty": "1 a 2",
+          "effect": "Golpes acima de 400% de dano também lançam um tornado de fogo rúnico que causa 300% (+300% por acúmulo) de dano TOTAL ao longo do tempo. Recarrega a cada 10 s.",
+          "why": "A Inundação (600% ou 1.100%) e a bomba corrompida (1.100%) passam de 400%. Os acertos de 250% do Afogar corrompido não ativam."
+        },
+        {
+          "icon": "ukulele",
+          "pt": "Ukulele",
+          "en": "Ukulele",
+          "prio": 2,
+          "qty": "1 a 2",
+          "effect": "25% de chance de disparar um raio em cadeia de 80% de dano TOTAL em até 3 (+2 por acúmulo) alvos a até 20 m (+2 m por acúmulo).",
+          "why": "O Afogar corrompido acerta cerca de 8 vezes por segundo e perfura. Muitas chances de ativar, e o raio espalha dano para o grupo. Polialaúde corrompe este item."
+        },
+        {
+          "icon": "harvesters-scythe",
+          "pt": "Foice do Ceifador",
+          "en": "Harvester's Scythe",
+          "prio": 3,
+          "qty": "1",
+          "effect": "+5% de chance de crítico. Acertos Críticos curam 8 (+4 por acúmulo) de vida.",
+          "why": "A wiki diz que ajuda a encher a Corrupção nas primeiras fases, pelos críticos. A cura por crítico é pequena e fixa, então um acúmulo basta."
+        },
+        {
+          "icon": "runalds-band",
+          "pt": "Cinturão de Runald",
+          "en": "Runald's Band",
+          "prio": 3,
+          "qty": "1",
+          "effect": "Golpes acima de 400% de dano também lançam uma explosão de gelo rúnica, que desacelera em 80% por 3 s (+3 s por acúmulo) e causa 250% (+250% por acúmulo) de dano TOTAL. Recarrega a cada 10 s.",
+          "why": "Mesmo gatilho do Kjaro, com a Inundação. A lentidão segura os inimigos dentro dos 40 m do raio corrompido."
+        },
+        {
+          "icon": "atg-missile-mk-1",
+          "pt": "Míssil ASM Mk. 1",
+          "en": "AtG Missile Mk. 1",
+          "prio": 3,
+          "qty": "1 a 2",
+          "effect": "10% de chance de disparar um míssil que causa 300% (+300% por acúmulo) de dano TOTAL.",
+          "why": "Muitos acertos por segundo no raio corrompido. Camarão de Plasma corrompe este item."
+        },
+        {
+          "icon": "leeching-seed",
+          "pt": "Semente Sanguessuga",
+          "en": "Leeching Seed",
+          "prio": 0,
+          "qty": "0",
+          "effect": "Causar dano cura 1 (+1 por acúmulo) de vida.",
+          "why": "Cura a cada acerto, e o raio corrompido acerta cerca de 8 vezes por segundo. Toda cura recebida tira Corrupção (1% por 1% da vida máxima), então ela encurta a forma corrompida."
+        }
+      ]
+    },
+    {
+      "id": "lendario",
+      "name": "Lendário",
+      "color": "vermelho",
+      "intro": "Os vermelhos que mais rendem ampliam o crítico e transformam o raio contínuo em dano de área.",
+      "items": [
+        {
+          "icon": "laser-scope",
+          "pt": "Mira Laser",
+          "en": "Laser Scope",
+          "prio": 1,
+          "qty": "1 a 2",
+          "effect": "Acertos Críticos causam +100% (+100% por acúmulo) de dano.",
+          "why": "A build já empilha chance de crítico para encher a Corrupção. Com muitos críticos, cada Mira soma +100% de dano a eles."
+        },
+        {
+          "icon": "brilliant-behemoth",
+          "pt": "Brutamontes Reluzente",
+          "en": "Brilliant Behemoth",
+          "prio": 1,
+          "qty": "1 a 2",
+          "effect": "Todos os ataques explodem num raio de 4 m (+2,5 m por acúmulo) causando 60% de dano TOTAL extra aos inimigos próximos.",
+          "why": "Cada um dos cerca de 8 acertos por segundo do Afogar corrompido vira uma explosão. O raio fino passa a limpar grupos."
+        },
+        {
+          "icon": "alien-head",
+          "pt": "Cabeça Alienígena",
+          "en": "Alien Head",
+          "prio": 2,
+          "qty": "1 a 2",
+          "effect": "Reduz o tempo de recarga das habilidades em 25% (+25% por acúmulo).",
+          "why": "Inundação (4 s) e Invasão (5 s) voltam mais rápido: mais ativações dos Cinturões e mais fugas. As cargas da Supressão corrompida dependem de trocar de forma, não da recarga."
+        },
+        {
+          "icon": "symbiotic-scorpion",
+          "pt": "Escorpião Simbiótico",
+          "en": "Symbiotic Scorpion",
+          "prio": 3,
+          "qty": "1",
+          "effect": "100% de chance ao acertar de reduzir a armadura em 2 (+2 por acúmulo) permanentemente.",
+          "why": "Com cerca de 8 acertos por segundo em um chefe, a armadura dele cai rápido e não volta."
+        },
+        {
+          "icon": "hardlight-afterburner",
+          "pt": "Pós-combustor de Holograma",
+          "en": "Hardlight Afterburner",
+          "prio": 3,
+          "qty": "1",
+          "effect": "+2 (+2 por acúmulo) cargas da habilidade Utilitária e −33% no tempo de recarga dela.",
+          "why": "A Invasão passa a ter 3 cargas. Cada uma remove debuffs e dá invulnerabilidade, o que compensa a falta de cura."
+        }
+      ]
+    },
+    {
+      "id": "chefe",
+      "name": "Chefe",
+      "color": "amarelo",
+      "intro": "Itens de chefe só caem de chefes de teleporte.",
+      "items": [
+        {
+          "icon": "charged-perforator",
+          "pt": "Perfurador Carregado",
+          "en": "Charged Perforator",
+          "prio": 2,
+          "qty": "1 ou mais",
+          "effect": "10% de chance ao acertar de lançar um raio, causando 500% (+500% por acúmulo) de dano.",
+          "why": "O raio corrompido dá muitas chances por segundo, mesmo com coeficiente 0,625."
+        },
+        {
+          "icon": "molten-perforator",
+          "pt": "Perfurador Fundido",
+          "en": "Molten Perforator",
+          "prio": 3,
+          "qty": "1",
+          "effect": "10% de chance ao acertar de lançar 3 bolas de magma do inimigo, causando 300% (+300% por acúmulo) de dano cada.",
+          "why": "Mesmo motivo do Perfurador Carregado."
+        }
+      ]
+    },
+    {
+      "id": "equipamento",
+      "name": "Equipamentos",
+      "color": "laranja",
+      "intro": "Só dá para carregar um. O melhor é o que segura a forma corrompida.",
+      "items": [
+        {
+          "icon": "ocular-hud",
+          "pt": "Visor Ocular",
+          "en": "Ocular HUD",
+          "prio": 1,
+          "qty": "1 (recarga 60 s)",
+          "effect": "+100% de chance de Acerto Crítico por 8 s.",
+          "why": "A wiki chama de excelente para manter 100% de Corrupção com o Afogar corrompido: 8 s de crítico garantido em cada acerto."
+        },
+        {
+          "icon": "gorags-opus",
+          "pt": "Opus de Gorag",
+          "en": "Gorag's Opus",
+          "prio": 2,
+          "qty": "1 (recarga 45 s)",
+          "effect": "Todos os aliados entram em frenesi por 7 s: +50% de movimento e +100% de velocidade de ataque.",
+          "why": "Dobra os acertos por segundo do raio corrompido e compensa a lentidão de atirar."
+        },
+        {
+          "icon": "primordial-cube",
+          "pt": "Cubo Primordial",
+          "en": "Primordial Cube",
+          "prio": 3,
+          "qty": "1 (recarga 60 s)",
+          "effect": "Dispara um buraco negro que puxa inimigos a até 30 m para o centro. Dura 10 s.",
+          "why": "Junta o grupo num ponto: o raio perfurante e o Brutamontes pegam todos, e a bomba corrompida de 10 m também."
+        },
+        {
+          "icon": "royal-capacitor",
+          "pt": "Capacitor Régio",
+          "en": "Royal Capacitor",
+          "prio": 3,
+          "qty": "1 (recarga 20 s)",
+          "effect": "Lança um raio num monstro marcado, causando 3000% de dano e atordoando os monstros próximos.",
+          "why": "Dano extra a cada 20 s. A wiki dos Óculos diz que crítico também vale para dano de equipamento como este."
+        }
+      ]
+    },
+    {
+      "id": "lunar",
+      "name": "Lunares",
+      "color": "azul",
+      "intro": "Itens lunares têm custo embutido. Dois deles atrapalham a Corrupção.",
+      "items": [
+        {
+          "icon": "shaped-glass",
+          "pt": "Vidro Configurado",
+          "en": "Shaped Glass",
+          "prio": 4,
+          "qty": "1 (só se estiver confortável)",
+          "effect": "+100% (+100% por acúmulo) de dano base. −50% (−50% por acúmulo) de vida máxima.",
+          "why": "Dobra tudo. Os 100 de armadura da forma corrompida ajudam, mas a Supressão corrompida custa 25% da vida máxima, e a vida fica pela metade."
+        },
+        {
+          "icon": "purity",
+          "pt": "Pureza",
+          "en": "Purity",
+          "prio": 0,
+          "qty": "0",
+          "effect": "Reduz todas as recargas de habilidade em 2 s (+1 s por acúmulo). Todos os efeitos aleatórios são rolados +1 (+1 por acúmulo) vez contra você.",
+          "why": "A chance de crítico é um efeito aleatório. Rolada contra você, ela gera menos críticos e menos Corrupção, que é a base da build."
+        },
+        {
+          "icon": "corpsebloom",
+          "pt": "Expansão Corporal",
+          "en": "Corpsebloom",
+          "prio": 0,
+          "qty": "0",
+          "effect": "Cura +100% (+100% por acúmulo) a mais. Toda cura é aplicada ao longo do tempo, até no máximo 10% (−50% por acúmulo) da vida por segundo.",
+          "why": "A wiki avisa: com a cura espalhada no tempo, fica muito difícil encher a Corrupção. A Supressão corrompida continua subindo a barra normalmente."
+        }
+      ]
+    },
+    {
+      "id": "vazio",
+      "name": "Vazio",
+      "color": "roxo",
+      "intro": "Cada item do Vazio sobe o mínimo de Corrupção em 2% e faz a barra esvaziar mais devagar. Mesmo assim, veja o que cada um corrompe.",
+      "items": [
+        {
+          "icon": "lysate-cell",
+          "pt": "Célula Lisada",
+          "en": "Lysate Cell",
+          "prio": 1,
+          "qty": "1 a 2",
+          "effect": "+1 (+1 por acúmulo) carga da habilidade Especial e −33% no tempo de recarga dela. Corrompe todas as Células de Combustível.",
+          "why": "Uma carga a mais de Supressão corrompida: mais 25% de Corrupção quando a barra está acabando. Se pegar já corrompido, a carga só vem na próxima vez que corromper."
+        },
+        {
+          "icon": "polylute",
+          "pt": "Polialaúde",
+          "en": "Polylute",
+          "prio": 2,
+          "qty": "1 a 2",
+          "effect": "25% de chance de disparar um raio de 60% de dano TOTAL até 3 (+3 por acúmulo) vezes. Corrompe todos os Ukuleles.",
+          "why": "Os muitos acertos do raio corrompido ativam bastante. Corrompe os Ukuleles que esta build recomenda: troque se a luta for mais contra chefes."
+        },
+        {
+          "icon": "safer-spaces",
+          "pt": "Espaços Seguros",
+          "en": "Safer Spaces",
+          "prio": 2,
+          "qty": "1 a 2",
+          "effect": "Bloqueia o dano recebido uma vez. Recarrega após 13,5 s (−10% por acúmulo). Corrompe todos os Tempos Difíceis.",
+          "why": "Bloqueio garantido que não cura, então não tira Corrupção. Corrompe os Tempos Difíceis que você tiver."
+        },
+        {
+          "icon": "plasma-shrimp",
+          "pt": "Camarão de Plasma",
+          "en": "Plasma Shrimp",
+          "prio": 3,
+          "qty": "1",
+          "effect": "Ganha escudo de 10% da vida máxima. Com escudo, cada acerto dispara um míssil de 40% (+40% por acúmulo) de dano TOTAL. Corrompe todos os Mísseis ASM Mk. 1.",
+          "why": "Com cerca de 8 acertos por segundo, é muito míssil enquanto o escudo existe. Corrompe os Mísseis ASM que você tiver."
+        },
+        {
+          "icon": "lost-seers-lenses",
+          "pt": "Lentes do Profeta Perdido",
+          "en": "Lost Seer's Lenses",
+          "prio": 0,
+          "qty": "0",
+          "effect": "Seus ataques têm 0,5% (+0,5% por acúmulo) de chance de matar na hora um inimigo que não seja chefe. Corrompe todos os Óculos do Fabricante de Lentes.",
+          "why": "Corrompe todos os Óculos, que são o que enche a Corrupção com críticos. O +2% de mínimo não compensa."
+        }
+      ]
+    }
+  ],
+  "synergy": [
+    {
+      "title": "Crítico enche a Corrupção",
+      "text": "Cada crítico dá 2% × o coeficiente do ataque em Corrupção. O Afogar corrompido tem coeficiente 0,625, então cada crítico dá 1,25%, cerca de 8 vezes por segundo. Com crítico alto, isso empata ou supera a perda de 6,67% por segundo e a forma corrompida dura muito mais. Óculos, Instintos e Visor Ocular são a base da build por isso."
+    },
+    {
+      "title": "Cura tira Corrupção",
+      "text": "Receber cura reduz a Corrupção em 1% para cada 1% da vida máxima curado. Itens de cura por acerto, como a Semente Sanguessuga, trabalham contra a forma corrompida. A Expansão Corporal deixa quase impossível corromper. Para sobreviver, prefira defesa que não cura: armadura da forma corrompida, Tempos Difíceis, Espaços Seguros e a Invasão."
+    },
+    {
+      "title": "Itens do Vazio sobem o mínimo",
+      "text": "Cada item do Vazio sobe o mínimo de Corrupção em 2% e faz a barra cair mais devagar, sem encurtar a forma corrompida. Com mínimo de 25% ou mais, a Supressão normal pode ser usada sem limite. Por isso itens do Vazio rendem mais nele, desde que não corrompam algo importante, como os Óculos."
+    },
+    {
+      "title": "Inundação e os Cinturões",
+      "text": "A Inundação causa 600% (1.100% com carga) e a bomba corrompida 1.100%: as duas passam de 400% e ativam Kjaro e Runald. Os acertos de 250% do Afogar corrompido não passam. Pente Reserva dá mais Inundações, e as cargas voltam ao trocar de forma."
+    },
+    {
+      "title": "Supressão nas duas formas",
+      "text": "Na forma normal, a Supressão troca 25% de Corrupção por 25% de vida: é a sua cura. Na corrompida, troca 25% de vida por 25% de Corrupção, com 2 cargas que só voltam quando você corrompe de novo. A Célula Lisada soma uma carga. Trocar de forma reinicia as recargas e dá 0,5 s de invencibilidade."
+    }
+  ],
+  "rotation": [
+    {
+      "step": "Afogar de longe",
+      "text": "Na forma normal, atire do alcance máximo enquanto a Corrupção sobe."
+    },
+    {
+      "step": "Supressão para curar",
+      "text": "Se a vida estiver baixa antes de corromper, troque Corrupção por vida."
+    },
+    {
+      "step": "Raio corrompido no alvo",
+      "text": "Ao corromper, chegue a 40 m e segure o Afogar; ative o Visor Ocular junto."
+    },
+    {
+      "step": "Inundação nos grupos",
+      "text": "Jogue a bomba de 1.100% para ativar os Cinturões e limpar a área."
+    },
+    {
+      "step": "Supressão corrompida no fim",
+      "text": "Quando a barra estiver acabando, troque vida por mais 25% de Corrupção."
+    }
+  ],
+  "essentials": [
+    {
+      "pt": "Óculos do Fabricante de Lentes",
+      "en": "Lens-Maker's Glasses"
+    },
+    {
+      "pt": "Seringa Militar",
+      "en": "Soldier's Syringe"
+    },
+    {
+      "pt": "Instintos Predatórios",
+      "en": "Predatory Instincts"
+    },
+    {
+      "pt": "Mira Laser",
+      "en": "Laser Scope"
+    },
+    {
+      "pt": "Brutamontes Reluzente",
+      "en": "Brilliant Behemoth"
+    },
+    {
+      "pt": "Célula Lisada",
+      "en": "Lysate Cell"
+    },
+    {
+      "pt": "Visor Ocular",
+      "en": "Ocular HUD"
+    }
+  ],
+  "situational_note": "Situacionais: Pente Reserva, Cinturões de Kjaro e Runald, Ukulele, Cabeça Alienígena, Espaços Seguros, Polialaúde, Camarão de Plasma e Vidro Configurado.",
+  "fallbacks": [
+    {
+      "pt": "Óculos do Fabricante de Lentes",
+      "en": "Lens-Maker's Glasses",
+      "text": "Instintos Predatórios e Foice do Ceifador para algum crítico. Sem crítico, use a Supressão corrompida para estender a forma."
+    },
+    {
+      "pt": "Seringa Militar",
+      "en": "Soldier's Syringe",
+      "text": "Mocha, Instintos Predatórios ou Opus de Gorag como equipamento."
+    },
+    {
+      "pt": "Instintos Predatórios",
+      "en": "Predatory Instincts",
+      "text": "Mais Seringas e Óculos. Foice do Ceifador ainda dá 5% de crítico."
+    },
+    {
+      "pt": "Mira Laser",
+      "en": "Laser Scope",
+      "text": "Mais Óculos e Projéteis Perfurantes para chefes."
+    },
+    {
+      "pt": "Brutamontes Reluzente",
+      "en": "Brilliant Behemoth",
+      "text": "Ukulele ou Polialaúde e os Cinturões com a Inundação. Cubo Primordial para juntar grupos."
+    },
+    {
+      "pt": "Célula Lisada",
+      "en": "Lysate Cell",
+      "text": "Qualquer item do Vazio que não corrompa algo importante, para subir o mínimo de Corrupção."
+    },
+    {
+      "pt": "Visor Ocular",
+      "en": "Ocular HUD",
+      "text": "Opus de Gorag para velocidade de ataque, ou Cubo Primordial."
+    }
+  ],
+  "summary": "O Demônio Nulo não tem alternativas: Afogar, Inundação, Invasão e Supressão. Empilhe chance de crítico e velocidade de ataque para encher a Corrupção e ficar mais tempo corrompido, onde o Afogar acerta cerca de 8 vezes por segundo e você tem 100 de armadura. Use a Inundação para ativar os Cinturões, pegue itens do Vazio que não corrompam seus Óculos e fuja de itens de cura constante.",
+  "checklist": [
+    {
+      "title": "Sempre pegue",
+      "text": "Óculos do Fabricante de Lentes, Seringa Militar, Instintos Predatórios, Mira Laser, Brutamontes Reluzente, Célula Lisada."
+    },
+    {
+      "title": "Impressoras brancas",
+      "text": "Transforme em Óculos até uns 8 a 10, depois Seringa Militar."
+    },
+    {
+      "title": "Primeiro verde",
+      "text": "Instintos Predatórios. Depois Ukulele ou Cinturão de Kjaro."
+    },
+    {
+      "title": "Equipamento",
+      "text": "Visor Ocular, ativado logo ao corromper."
+    },
+    {
+      "title": "Antes de pegar Vazio",
+      "text": "Lentes do Profeta Perdido corrompem os Óculos; Polialaúde corrompe os Ukuleles; Espaços Seguros, os Tempos Difíceis."
+    },
+    {
+      "title": "Não pegue",
+      "text": "Semente Sanguessuga e Expansão Corporal: cura tira Corrupção. Pureza: menos críticos."
+    },
+    {
+      "title": "Luta de chefe",
+      "text": "Chegue corrompido, Visor Ocular, raio colado no chefe e Supressão corrompida para estender."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Void Fiend — Risk of Rain 2 Wiki",
+      "url": "https://riskofrain2.wiki.gg/wiki/Void_Fiend"
+    },
+    {
+      "title": "Lens-Maker's Glasses — Risk of Rain 2 Wiki",
+      "url": "https://riskofrain2.wiki.gg/wiki/Lens-Maker's_Glasses"
+    },
+    {
+      "title": "Proc Coefficient — Risk of Rain 2 Wiki",
+      "url": "https://riskofrain2.wiki.gg/wiki/Proc_Coefficient"
+    },
+    {
+      "title": "Items — Risk of Rain 2 Wiki",
+      "url": "https://riskofrain2.wiki.gg/wiki/Items"
+    }
+  ],
+  "notes": [
+    "O Demônio Nulo faz parte da DLC Survivors of the Void.",
+    "No jogo em português, os nomes do Demônio Nulo e das habilidades aparecem com caracteres embaralhados de propósito (por exemplo, 【A??foga?r」). O guia usa a forma limpa.",
+    "O texto do jogo dá 2.000% para o Afogar corrompido; a wiki explica que são cerca de 8 acertos de 250% por segundo."
+  ]
 }

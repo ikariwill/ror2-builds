@@ -1,636 +1,637 @@
 {
- "id": "mercenary",
- "name_pt": "Mercenário",
- "name_en": "Mercenary",
- "title": "Mercenário: Build de Invulnerabilidade",
- "tagline": "Investidas, Revelar e golpes que não te acertam",
- "lede": "Uma build corpo a corpo que vive de não ser atingido: as investidas do Ataque Ofuscante e o Estripar dão invulnerabilidade, e o Revelar devolve tempo de recarga a cada golpe. Os itens aumentam a velocidade de ataque para o Estripar dar mais golpes, encurtam as recargas e adicionam dano em área ao corpo a corpo.",
- "loadout": [
-  {
-   "slot": "Passiva",
-   "skill": "Aprimoramentos Cibernéticos (Cybernetic Enhancements)"
-  },
-  {
-   "slot": "Primária",
-   "skill": "Espada de Laser (Laser Sword)"
-  },
-  {
-   "slot": "Secundária",
-   "skill": "Tornado (Whirlwind)"
-  },
-  {
-   "slot": "Utilitária",
-   "skill": "Ataque Ofuscante (Blinding Assault)"
-  },
-  {
-   "slot": "Especial",
-   "skill": "Estripar (Eviscerate)"
-  }
- ],
- "skills": [
-  {
-   "slot": "Passiva",
-   "pt": "Aprimoramentos Cibernéticos",
-   "en": "Cybernetic Enhancements",
-   "pick": "Fixa",
-   "spec": "Salto duplo. O segundo pulo é um pouco mais baixo.",
-   "why": "O pulo extra é a mobilidade vertical do Mercenário. A Codorna de Cera vale nos dois pulos, e os pulos da Pluma de Hopoo usam a cambalhota do segundo pulo."
-  },
-  {
-   "slot": "Primária",
-   "pt": "Espada de Laser",
-   "en": "Laser Sword",
-   "pick": "Única opção",
-   "spec": "Ágil. Sequência de 3 golpes de 130%; o terceiro acerta área maior e aplica Revelar. Coeficiente 1,0.",
-   "why": "Velocidade de ataque encurta a recuperação depois do terceiro golpe, mas não a elimina. Usar outra habilidade durante o terceiro golpe cancela essa recuperação e o golpe continua ativo."
-  },
-  {
-   "slot": "Secundária",
-   "pt": "Tornado",
-   "en": "Whirlwind",
-   "pick": "Recomendada",
-   "spec": "2 × 200% de dano. Coeficiente 1,0 × 2. Recarga 2,5 s. No ar, golpeia na vertical.",
-   "why": "Recarga curta, dois acertos e um pequeno avanço. No ar serve de pulo extra. Velocidade de ataque acelera a animação e reduz a distância percorrida."
-  },
-  {
-   "slot": "Secundária (alt.)",
-   "pt": "Trovão Emergente",
-   "en": "Rising Thunder",
-   "pick": "Variante",
-   "spec": "550% de dano em um golpe que lança você para o alto. Coeficiente 1,0. Recarga 2,5 s.",
-   "why": "Mais dano por golpe e muita altura, bom contra voadores. Velocidade de ataque reduz a altura ganha. Desbloqueio: Mercenário: Demônio Celestial (Demon of the Skies)."
-  },
-  {
-   "slot": "Utilitária",
-   "pt": "Ataque Ofuscante",
-   "en": "Blinding Assault",
-   "pick": "Recomendada",
-   "spec": "Ágil, Atordoante. Investida de 300%, até 3 seguidas se acertar inimigos. Coeficiente 1,0. Recarga 8 s. Cerca de 0,6 s de invulnerabilidade por investida.",
-   "why": "Três investidas dão cerca de 1,8 s sem levar dano e atordoam. Acertar abre uma janela de 2,66 s para a próxima. A distância cresce com a velocidade de movimento. O Ataque Concentrado (Focused Assault, 700%, aplica Revelar após 1 s) dá mais dano, mas só uma investida."
-  },
-  {
-   "slot": "Especial",
-   "pt": "Estripar",
-   "en": "Eviscerate",
-   "pick": "Recomendada",
-   "spec": "Ágil. 110% por golpe, 7 golpes na velocidade base. Coeficiente 1,0. Recarga 6 s. 1,3 s de duração e 0,6 s de invulnerabilidade depois.",
-   "why": "Você não pode ser atingido durante o Estripar. Velocidade de ataque aumenta o número de golpes sem aumentar a duração. A wiki calcula que com cerca de 4 Seringas ele empata com Rajadas Cortantes (Slicing Winds, 8 × 100% em até 3 alvos, aplica Revelar) contra um alvo."
-  }
- ],
- "sections": [
-  {
-   "id": "comum",
-   "name": "Comum",
-   "color": "branco",
-   "intro": "Os brancos dão o que o Mercenário mais usa: velocidade de ataque para o Estripar, velocidade de movimento para as investidas e dano de perto.",
-   "items": [
+  "id": "mercenary",
+  "name_pt": "Mercenário",
+  "name_en": "Mercenary",
+  "title": "Mercenário: Build de Invulnerabilidade",
+  "tagline": "Investidas, Revelar e golpes que não te acertam",
+  "lede": "Uma build corpo a corpo que vive de não ser atingido: as investidas do Ataque Ofuscante e o Estripar dão invulnerabilidade, e o Revelar devolve tempo de recarga a cada golpe. Os itens aumentam a velocidade de ataque para o Estripar dar mais golpes, encurtam as recargas e adicionam dano em área ao corpo a corpo.",
+  "loadout": [
     {
-     "icon": "soldiers-syringe",
-     "pt": "Seringa Militar",
-     "en": "Soldier's Syringe",
-     "prio": 1,
-     "qty": "4 a 8",
-     "effect": "+15% (+15% por acúmulo) de velocidade de ataque.",
-     "why": "Cada Seringa adiciona golpes ao Estripar sem aumentar a duração, e encurta a recuperação da Espada de Laser. A wiki usa a Seringa como referência para o Estripar."
+      "slot": "Passiva",
+      "skill": "Aprimoramentos Cibernéticos (Cybernetic Enhancements)"
     },
     {
-     "icon": "focus-crystal",
-     "pt": "Cristal de Foco",
-     "en": "Focus Crystal",
-     "prio": 1,
-     "qty": "3 a 5",
-     "effect": "+20% (+20% por acúmulo) de dano contra inimigos a até 13 m.",
-     "why": "Todos os golpes do Mercenário são corpo a corpo. O bônus vale sempre."
+      "slot": "Primária",
+      "skill": "Espada de Laser (Laser Sword)"
     },
     {
-     "icon": "pauls-goat-hoof",
-     "pt": "Casco de Bode de Paul",
-     "en": "Paul's Goat Hoof",
-     "prio": 2,
-     "qty": "2 a 4",
-     "effect": "+14% (+14% por acúmulo) de velocidade de movimento.",
-     "why": "A distância do Ataque Ofuscante cresce com a velocidade de movimento, assim como a do Ataque Concentrado."
+      "slot": "Secundária",
+      "skill": "Tornado (Whirlwind)"
     },
     {
-     "icon": "tougher-times",
-     "pt": "Tempos Difíceis",
-     "en": "Tougher Times",
-     "prio": 2,
-     "qty": "2 a 4",
-     "effect": "15% (+15% por acúmulo) de chance de bloquear dano recebido. Não é afetado por sorte.",
-     "why": "Fora das janelas de invulnerabilidade, o Mercenário leva golpes de perto. Golpes bloqueados também não aplicam efeitos negativos, segundo a wiki."
+      "slot": "Utilitária",
+      "skill": "Ataque Ofuscante (Blinding Assault)"
     },
     {
-     "icon": "lens-makers-glasses",
-     "pt": "Óculos do Fabricante de Lentes",
-     "en": "Lens-Maker's Glasses",
-     "prio": 2,
-     "qty": "2 a 5",
-     "effect": "10% (+10% por acúmulo) de chance de Acerto Crítico, que causa dano dobrado.",
-     "why": "Muitos golpes com coeficiente 1,0. O crítico também ativa Foice do Ceifador e Instintos Predatórios."
-    },
-    {
-     "icon": "tri-tip-dagger",
-     "pt": "Adaga Triangular",
-     "en": "Tri-Tip Dagger",
-     "prio": 3,
-     "qty": "1 a 3",
-     "effect": "10% (+10% por acúmulo) de chance de sangrar um inimigo por 240% do dano base.",
-     "why": "Os 7 ou mais golpes do Estripar rolam a chance várias vezes por uso."
-    },
-    {
-     "icon": "armor-piercing-rounds",
-     "pt": "Projéteis Perfurantes",
-     "en": "Armor-Piercing Rounds",
-     "prio": 3,
-     "qty": "1 a 3",
-     "effect": "+20% (+20% por acúmulo) de dano contra chefes.",
-     "why": "O Estripar mira o inimigo mais próximo, ótimo para ficar em cima do chefe sem ser atingido. O bônus vale em cada golpe."
-    },
-    {
-     "icon": "mocha",
-     "pt": "Mocha",
-     "en": "Mocha",
-     "prio": 3,
-     "qty": "1 a 3",
-     "effect": "+7,5% (+7,5% por acúmulo) de velocidade de ataque e +7% (+7% por acúmulo) de velocidade de movimento.",
-     "why": "Metade Seringa, metade Casco. Os dois atributos que a build usa."
+      "slot": "Especial",
+      "skill": "Estripar (Eviscerate)"
     }
-   ]
-  },
-  {
-   "id": "incomum",
-   "name": "Incomum",
-   "color": "verde",
-   "intro": "Os verdes dão cura por golpe e efeitos ao acertar, que o Mercenário ativa muito com coeficiente 1,0 em todas as habilidades.",
-   "items": [
+  ],
+  "skills": [
     {
-     "icon": "leeching-seed",
-     "pt": "Semente Sanguessuga",
-     "en": "Leeching Seed",
-     "prio": 1,
-     "qty": "1 a 3",
-     "effect": "Causar dano cura 1 (+1 por acúmulo) de vida.",
-     "why": "O Mercenário não tem cura própria. Cada golpe do Estripar, do Tornado e da Espada cura."
+      "slot": "Passiva",
+      "pt": "Aprimoramentos Cibernéticos",
+      "en": "Cybernetic Enhancements",
+      "pick": "Fixa",
+      "spec": "Salto duplo. O segundo pulo é um pouco mais baixo.",
+      "why": "O pulo extra é a mobilidade vertical do Mercenário. A Codorna de Cera vale nos dois pulos, e os pulos da Pluma de Hopoo usam a cambalhota do segundo pulo."
     },
     {
-     "icon": "ukulele",
-     "pt": "Ukulele",
-     "en": "Ukulele",
-     "prio": 2,
-     "qty": "1 a 2",
-     "effect": "25% de chance de disparar um raio em cadeia de 80% de dano TOTAL em até 3 (+2 por acúmulo) alvos a 20 m (+2 m por acúmulo).",
-     "why": "O Estripar acerta um alvo por vez. O Ukulele espalha esse dano pelo grupo ao redor."
+      "slot": "Primária",
+      "pt": "Espada de Laser",
+      "en": "Laser Sword",
+      "pick": "Única opção",
+      "spec": "Ágil. Sequência de 3 golpes de 130%; o terceiro acerta área maior e aplica Revelar. Coeficiente 1,0.",
+      "why": "Velocidade de ataque encurta a recuperação depois do terceiro golpe, mas não a elimina. Usar outra habilidade durante o terceiro golpe cancela essa recuperação e o golpe continua ativo."
     },
     {
-     "icon": "atg-missile-mk-1",
-     "pt": "Míssil ASM Mk. 1",
-     "en": "AtG Missile Mk. 1",
-     "prio": 2,
-     "qty": "1 a 3",
-     "effect": "10% de chance de disparar um míssil que causa 300% (+300% por acúmulo) de dano TOTAL.",
-     "why": "Muitos golpes por segundo lançam muitos mísseis, que alcançam os voadores que a espada não alcança."
+      "slot": "Secundária",
+      "pt": "Tornado",
+      "en": "Whirlwind",
+      "pick": "Recomendada",
+      "spec": "2 × 200% de dano. Coeficiente 1,0 × 2. Recarga 2,5 s. No ar, golpeia na vertical.",
+      "why": "Recarga curta, dois acertos e um pequeno avanço. No ar serve de pulo extra. Velocidade de ataque acelera a animação e reduz a distância percorrida."
     },
     {
-     "icon": "harvesters-scythe",
-     "pt": "Foice do Ceifador",
-     "en": "Harvester's Scythe",
-     "prio": 2,
-     "qty": "1 a 2 (com Óculos)",
-     "effect": "+5% de chance de crítico. Críticos curam 8 (+4 por acúmulo) de vida.",
-     "why": "Com golpes rápidos e alguns Óculos, cura a cada crítico."
+      "slot": "Secundária (alt.)",
+      "pt": "Trovão Emergente",
+      "en": "Rising Thunder",
+      "pick": "Variante",
+      "spec": "550% de dano em um golpe que lança você para o alto. Coeficiente 1,0. Recarga 2,5 s.",
+      "why": "Mais dano por golpe e muita altura, bom contra voadores. Velocidade de ataque reduz a altura ganha. Desbloqueio: Mercenário: Demônio Celestial (Demon of the Skies)."
     },
     {
-     "icon": "predatory-instincts",
-     "pt": "Instintos Predatórios",
-     "en": "Predatory Instincts",
-     "prio": 3,
-     "qty": "1 (com Óculos)",
-     "effect": "+5% de chance de crítico. Críticos dão +12% de velocidade de ataque, até 36% (+24% por acúmulo).",
-     "why": "Mais velocidade de ataque é mais golpes no Estripar."
+      "slot": "Utilitária",
+      "pt": "Ataque Ofuscante",
+      "en": "Blinding Assault",
+      "pick": "Recomendada",
+      "spec": "Ágil, Atordoante. Investida de 300%, até 3 seguidas se acertar inimigos. Coeficiente 1,0. Recarga 8 s. Cerca de 0,6 s de invulnerabilidade por investida.",
+      "why": "Três investidas dão cerca de 1,8 s sem levar dano e atordoam. Acertar abre uma janela de 2,66 s para a próxima. A distância cresce com a velocidade de movimento. O Ataque Concentrado (Focused Assault, 700%, aplica Revelar após 1 s) dá mais dano, mas só uma investida."
     },
     {
-     "icon": "bandolier",
-     "pt": "Cartucheira",
-     "en": "Bandolier",
-     "prio": 3,
-     "qty": "1 a 2",
-     "effect": "18% (+10% por acúmulo) de chance ao abater de deixar cair um pacote de munição que reinicia todas as recargas.",
-     "why": "Reinicia o Estripar e o Ataque Ofuscante, as duas fontes de invulnerabilidade. A wiki cita o uso para encadear Rajadas Cortantes."
-    },
-    {
-     "icon": "shuriken",
-     "pt": "Shuriken",
-     "en": "Shuriken",
-     "prio": 3,
-     "qty": "1 a 2",
-     "effect": "Usar a Primária também arremessa uma shuriken de 400% (+100% por acúmulo) do dano base. Guarda até 3 (+1 por acúmulo), que recarregam em 10 s.",
-     "why": "A Espada de Laser é usada o tempo todo, e as shurikens dão o dano à distância que falta ao Mercenário."
-    },
-    {
-     "icon": "wax-quail",
-     "pt": "Codorna de Cera",
-     "en": "Wax Quail",
-     "prio": 4,
-     "qty": "1 a 2",
-     "effect": "Pular enquanto corre impulsiona você 10 m (+10 m por acúmulo) para a frente.",
-     "why": "Segundo a wiki, o impulso vale nos dois pulos do Mercenário. Mobilidade extra entre lutas."
+      "slot": "Especial",
+      "pt": "Estripar",
+      "en": "Eviscerate",
+      "pick": "Recomendada",
+      "spec": "Ágil. 110% por golpe, 7 golpes na velocidade base. Coeficiente 1,0. Recarga 6 s. 1,3 s de duração e 0,6 s de invulnerabilidade depois.",
+      "why": "Você não pode ser atingido durante o Estripar. Velocidade de ataque aumenta o número de golpes sem aumentar a duração. A wiki calcula que com cerca de 4 Seringas ele empata com Rajadas Cortantes (Slicing Winds, 8 × 100% em até 3 alvos, aplica Revelar) contra um alvo."
     }
-   ]
-  },
-  {
-   "id": "lendario",
-   "name": "Lendário",
-   "color": "vermelho",
-   "intro": "Os vermelhos que mais mudam o Mercenário encurtam as recargas das habilidades com invulnerabilidade ou dão área ao corpo a corpo.",
-   "items": [
+  ],
+  "sections": [
     {
-     "icon": "brilliant-behemoth",
-     "pt": "Brutamontes Reluzente",
-     "en": "Brilliant Behemoth",
-     "prio": 1,
-     "qty": "1 a 2",
-     "effect": "Todos os ataques explodem em 4 m (+2,5 m por acúmulo) causando 60% de dano TOTAL extra.",
-     "why": "Cada golpe do Estripar vira dano em área. A wiki diz que, ativado por um golpe que aplica Revelar, o Brutamontes pode aplicar Revelar em inimigos próximos e até um segundo acúmulo."
+      "id": "comum",
+      "name": "Comum",
+      "color": "branco",
+      "intro": "Os brancos dão o que o Mercenário mais usa: velocidade de ataque para o Estripar, velocidade de movimento para as investidas e dano de perto.",
+      "items": [
+        {
+          "icon": "soldiers-syringe",
+          "pt": "Seringa Militar",
+          "en": "Soldier's Syringe",
+          "prio": 1,
+          "qty": "4 a 8",
+          "effect": "+15% (+15% por acúmulo) de velocidade de ataque.",
+          "why": "Cada Seringa adiciona golpes ao Estripar sem aumentar a duração, e encurta a recuperação da Espada de Laser. A wiki usa a Seringa como referência para o Estripar."
+        },
+        {
+          "icon": "focus-crystal",
+          "pt": "Cristal de Foco",
+          "en": "Focus Crystal",
+          "prio": 1,
+          "qty": "3 a 5",
+          "effect": "+20% (+20% por acúmulo) de dano contra inimigos a até 13 m.",
+          "why": "Todos os golpes do Mercenário são corpo a corpo. O bônus vale sempre."
+        },
+        {
+          "icon": "pauls-goat-hoof",
+          "pt": "Casco de Bode de Paul",
+          "en": "Paul's Goat Hoof",
+          "prio": 2,
+          "qty": "2 a 4",
+          "effect": "+14% (+14% por acúmulo) de velocidade de movimento.",
+          "why": "A distância do Ataque Ofuscante cresce com a velocidade de movimento, assim como a do Ataque Concentrado."
+        },
+        {
+          "icon": "tougher-times",
+          "pt": "Tempos Difíceis",
+          "en": "Tougher Times",
+          "prio": 2,
+          "qty": "2 a 4",
+          "effect": "15% (+15% por acúmulo) de chance de bloquear dano recebido. Não é afetado por sorte.",
+          "why": "Fora das janelas de invulnerabilidade, o Mercenário leva golpes de perto. Golpes bloqueados também não aplicam efeitos negativos, segundo a wiki."
+        },
+        {
+          "icon": "lens-makers-glasses",
+          "pt": "Óculos do Fabricante de Lentes",
+          "en": "Lens-Maker's Glasses",
+          "prio": 2,
+          "qty": "2 a 5",
+          "effect": "10% (+10% por acúmulo) de chance de Acerto Crítico, que causa dano dobrado.",
+          "why": "Muitos golpes com coeficiente 1,0. O crítico também ativa Foice do Ceifador e Instintos Predatórios."
+        },
+        {
+          "icon": "tri-tip-dagger",
+          "pt": "Adaga Triangular",
+          "en": "Tri-Tip Dagger",
+          "prio": 3,
+          "qty": "1 a 3",
+          "effect": "10% (+10% por acúmulo) de chance de sangrar um inimigo por 240% do dano base.",
+          "why": "Os 7 ou mais golpes do Estripar rolam a chance várias vezes por uso."
+        },
+        {
+          "icon": "armor-piercing-rounds",
+          "pt": "Projéteis Perfurantes",
+          "en": "Armor-Piercing Rounds",
+          "prio": 3,
+          "qty": "1 a 3",
+          "effect": "+20% (+20% por acúmulo) de dano contra chefes.",
+          "why": "O bônus vale em cada golpe do Estripar, e você não pode ser atingido enquanto ele dura. Ele mira o inimigo mais próximo, então chegue perto do chefe antes de usar."
+        },
+        {
+          "icon": "mocha",
+          "pt": "Mocha",
+          "en": "Mocha",
+          "prio": 3,
+          "qty": "1 a 3",
+          "effect": "+7,5% (+7,5% por acúmulo) de velocidade de ataque e +7% (+7% por acúmulo) de velocidade de movimento.",
+          "why": "Metade Seringa, metade Casco. Os dois atributos que a build usa."
+        }
+      ]
     },
     {
-     "icon": "alien-head",
-     "pt": "Cabeça Alienígena",
-     "en": "Alien Head",
-     "prio": 1,
-     "qty": "1 a 2",
-     "effect": "Reduz o tempo de recarga das habilidades em 25% (+25% por acúmulo).",
-     "why": "Ataque Ofuscante (8 s) e Estripar (6 s) voltam mais rápido: mais tempo invulnerável por luta."
+      "id": "incomum",
+      "name": "Incomum",
+      "color": "verde",
+      "intro": "Os verdes dão cura por golpe e efeitos ao acertar, que o Mercenário ativa muito com coeficiente 1,0 em todas as habilidades.",
+      "items": [
+        {
+          "icon": "leeching-seed",
+          "pt": "Semente Sanguessuga",
+          "en": "Leeching Seed",
+          "prio": 1,
+          "qty": "1 a 3",
+          "effect": "Causar dano cura 1 (+1 por acúmulo) de vida.",
+          "why": "O Mercenário não tem cura própria. Cada golpe do Estripar, do Tornado e da Espada cura."
+        },
+        {
+          "icon": "ukulele",
+          "pt": "Ukulele",
+          "en": "Ukulele",
+          "prio": 2,
+          "qty": "1 a 2",
+          "effect": "25% de chance de disparar um raio em cadeia de 80% de dano TOTAL em até 3 (+2 por acúmulo) alvos a 20 m (+2 m por acúmulo).",
+          "why": "O Estripar acerta um alvo por vez. O Ukulele espalha esse dano pelo grupo ao redor."
+        },
+        {
+          "icon": "atg-missile-mk-1",
+          "pt": "Míssil ASM Mk. 1",
+          "en": "AtG Missile Mk. 1",
+          "prio": 2,
+          "qty": "1 a 3",
+          "effect": "10% de chance de disparar um míssil que causa 300% (+300% por acúmulo) de dano TOTAL.",
+          "why": "Muitos golpes por segundo lançam muitos mísseis, que alcançam os voadores que a espada não alcança."
+        },
+        {
+          "icon": "harvesters-scythe",
+          "pt": "Foice do Ceifador",
+          "en": "Harvester's Scythe",
+          "prio": 2,
+          "qty": "1 a 2 (com Óculos)",
+          "effect": "+5% de chance de crítico. Críticos curam 8 (+4 por acúmulo) de vida.",
+          "why": "Com golpes rápidos e alguns Óculos, cura a cada crítico."
+        },
+        {
+          "icon": "predatory-instincts",
+          "pt": "Instintos Predatórios",
+          "en": "Predatory Instincts",
+          "prio": 3,
+          "qty": "1 (com Óculos)",
+          "effect": "+5% de chance de crítico. Críticos dão +12% de velocidade de ataque, até 36% (+24% por acúmulo).",
+          "why": "Mais velocidade de ataque é mais golpes no Estripar."
+        },
+        {
+          "icon": "bandolier",
+          "pt": "Cartucheira",
+          "en": "Bandolier",
+          "prio": 3,
+          "qty": "1 a 2",
+          "effect": "18% (+10% por acúmulo) de chance ao abater de deixar cair um pacote de munição que reinicia todas as recargas.",
+          "why": "Reinicia o Estripar e o Ataque Ofuscante, as duas fontes de invulnerabilidade. A wiki cita o uso para encadear Rajadas Cortantes."
+        },
+        {
+          "icon": "shuriken",
+          "pt": "Shuriken",
+          "en": "Shuriken",
+          "prio": 3,
+          "qty": "1 a 2",
+          "effect": "Usar a Primária também arremessa uma shuriken de 400% (+100% por acúmulo) do dano base. Guarda até 3 (+1 por acúmulo), que recarregam em 10 s.",
+          "why": "A Espada de Laser é usada o tempo todo, e as shurikens dão o dano à distância que falta ao Mercenário."
+        },
+        {
+          "icon": "wax-quail",
+          "pt": "Codorna de Cera",
+          "en": "Wax Quail",
+          "prio": 4,
+          "qty": "1 a 2",
+          "effect": "Pular enquanto corre impulsiona você 10 m (+10 m por acúmulo) para a frente.",
+          "why": "Segundo a wiki, o impulso vale nos dois pulos do Mercenário. Mobilidade extra entre lutas."
+        }
+      ]
     },
     {
-     "icon": "hardlight-afterburner",
-     "pt": "Pós-combustor de Holograma",
-     "en": "Hardlight Afterburner",
-     "prio": 2,
-     "qty": "1",
-     "effect": "+2 (+2 por acúmulo) cargas da Utilitária e −33% no tempo de recarga dela.",
-     "why": "Mais usos do Ataque Ofuscante, que atordoa e dá invulnerabilidade a cada investida."
+      "id": "lendario",
+      "name": "Lendário",
+      "color": "vermelho",
+      "intro": "Os vermelhos que mais mudam o Mercenário encurtam as recargas das habilidades com invulnerabilidade ou dão área ao corpo a corpo.",
+      "items": [
+        {
+          "icon": "brilliant-behemoth",
+          "pt": "Brutamontes Reluzente",
+          "en": "Brilliant Behemoth",
+          "prio": 1,
+          "qty": "1 a 2",
+          "effect": "Todos os ataques explodem em 4 m (+2,5 m por acúmulo) de raio, causando 60% de dano TOTAL extra aos inimigos próximos.",
+          "why": "Cada golpe do Estripar vira dano em área. A wiki diz que, ativado por um golpe que aplica Revelar, o Brutamontes pode aplicar Revelar em inimigos próximos e até um segundo acúmulo."
+        },
+        {
+          "icon": "alien-head",
+          "pt": "Cabeça Alienígena",
+          "en": "Alien Head",
+          "prio": 1,
+          "qty": "1 a 2",
+          "effect": "Reduz o tempo de recarga das habilidades em 25% (+25% por acúmulo).",
+          "why": "Ataque Ofuscante (8 s) e Estripar (6 s) voltam mais rápido: mais tempo invulnerável por luta."
+        },
+        {
+          "icon": "hardlight-afterburner",
+          "pt": "Pós-combustor de Holograma",
+          "en": "Hardlight Afterburner",
+          "prio": 2,
+          "qty": "1",
+          "effect": "+2 (+2 por acúmulo) cargas da Utilitária e −33% no tempo de recarga dela.",
+          "why": "Mais usos do Ataque Ofuscante, que atordoa e dá invulnerabilidade a cada investida."
+        },
+        {
+          "icon": "brainstalks",
+          "pt": "Genialidade",
+          "en": "Brainstalks",
+          "prio": 2,
+          "qty": "1",
+          "effect": "Ao abater um monstro de elite, entra em frenesi por 4 s (+4 s por acúmulo) em que as habilidades têm recarga de 0,5 s.",
+          "why": "Durante o frenesi as recargas caem para 0,5 s. O Estripar dura 1,3 s, então dá para emendar um no outro e passar o frenesi quase todo invulnerável."
+        },
+        {
+          "icon": "rejuvenation-rack",
+          "pt": "Suporte do Rejuvenescimento",
+          "en": "Rejuvenation Rack",
+          "prio": 3,
+          "qty": "1",
+          "effect": "Cura +100% (+100% por acúmulo) a mais.",
+          "why": "Dobra a cura da Semente, da Foice e do Fungo Choroso, as curas da build."
+        },
+        {
+          "icon": "57-leaf-clover",
+          "pt": "Trevo 57",
+          "en": "57 Leaf Clover",
+          "prio": 3,
+          "qty": "1",
+          "effect": "Todos os efeitos aleatórios são rolados +1 (+1 por acúmulo) vez a seu favor.",
+          "why": "Melhora Ukulele, Míssil, Adaga, Cartucheira e crítico, todos ativados pelos muitos golpes."
+        },
+        {
+          "icon": "h3ad-5t-v2",
+          "pt": "H3AD-5T v2",
+          "en": "H3AD-5T v2",
+          "prio": 4,
+          "qty": "1",
+          "effect": "Aumenta a altura do pulo. Cria uma explosão cinética de 5 m a 100 m de raio ao atingir o chão, causando de 1000% a 10000% do dano base conforme a altura da queda. Recarrega em 10 s (−50% por acúmulo).",
+          "why": "A wiki descreve o Tornado em rampas lançando o Mercenário alto, e a queda vira uma explosão enorme. Exige prática."
+        }
+      ]
     },
     {
-     "icon": "brainstalks",
-     "pt": "Genialidade",
-     "en": "Brainstalks",
-     "prio": 2,
-     "qty": "1",
-     "effect": "Ao abater um monstro de elite, entra em frenesi por 4 s (+4 s por acúmulo) em que as habilidades têm recarga de 0,5 s.",
-     "why": "A wiki cita o uso para repetir habilidades sem parar. Com Estripar a cada 0,5 s, você fica quase sempre invulnerável durante o frenesi."
+      "id": "chefe",
+      "name": "Chefe",
+      "color": "amarelo",
+      "intro": "Itens de chefe só caem de chefes de teleporte.",
+      "items": [
+        {
+          "icon": "irradiant-pearl",
+          "pt": "Pérola Irradiante",
+          "en": "Irradiant Pearl",
+          "prio": 2,
+          "qty": "1 ou mais",
+          "effect": "Aumenta TODOS os atributos em 10% (+10% por acúmulo).",
+          "why": "Vida, dano, velocidade de ataque e de movimento. Tudo o que o Mercenário usa."
+        },
+        {
+          "icon": "molten-perforator",
+          "pt": "Perfurador Fundido",
+          "en": "Molten Perforator",
+          "prio": 3,
+          "qty": "1",
+          "effect": "10% de chance ao acertar de lançar 3 bolas de magma do inimigo, causando 300% (+300% por acúmulo) de dano cada.",
+          "why": "Mais um efeito ao acertar para os muitos golpes do Estripar."
+        }
+      ]
     },
     {
-     "icon": "rejuvenation-rack",
-     "pt": "Suporte do Rejuvenescimento",
-     "en": "Rejuvenation Rack",
-     "prio": 3,
-     "qty": "1",
-     "effect": "Cura +100% (+100% por acúmulo) a mais.",
-     "why": "Dobra a cura da Semente e da Foice, as únicas curas da build."
+      "id": "equipamento",
+      "name": "Equipamentos",
+      "color": "laranja",
+      "intro": "Só dá para carregar um. O Mercenário precisa de algo que junte inimigos ou alcance os que estão longe.",
+      "items": [
+        {
+          "icon": "primordial-cube",
+          "pt": "Cubo Primordial",
+          "en": "Primordial Cube",
+          "prio": 1,
+          "qty": "1 (recarga 60 s)",
+          "effect": "Dispara um buraco negro que puxa inimigos a até 30 m para o centro. Dura 10 segundos.",
+          "why": "Junta o grupo num ponto: o Tornado, o Brutamontes e as investidas acertam todos de uma vez."
+        },
+        {
+          "icon": "royal-capacitor",
+          "pt": "Capacitor Régio",
+          "en": "Royal Capacitor",
+          "prio": 2,
+          "qty": "1 (recarga 20 s)",
+          "effect": "Invoca um raio sobre um monstro marcado, causando 3000% de dano e atordoando os monstros próximos.",
+          "why": "Dano à distância contra voadores e elites, o ponto fraco de um personagem corpo a corpo."
+        },
+        {
+          "icon": "gorags-opus",
+          "pt": "Opus de Gorag",
+          "en": "Gorag's Opus",
+          "prio": 3,
+          "qty": "1 (recarga 45 s)",
+          "effect": "Todos os aliados entram em frenesi por 7 segundos. Aumenta a velocidade de movimento em 50% e a de ataque em 100%.",
+          "why": "Velocidade de ataque dobrada é quase o dobro de golpes no Estripar enquanto dura."
+        },
+        {
+          "icon": "ocular-hud",
+          "pt": "Visor Ocular",
+          "en": "Ocular HUD",
+          "prio": 3,
+          "qty": "1 (recarga 60 s)",
+          "effect": "Ganha +100% de chance de Acerto Crítico por 8 segundos.",
+          "why": "Todos os golpes críticos por 8 s. Com a Foice, cada golpe também cura."
+        },
+        {
+          "icon": "blast-shower",
+          "pt": "Expurgação Explosiva",
+          "en": "Blast Shower",
+          "prio": 4,
+          "qty": "1 (recarga 20 s)",
+          "effect": "Remove todos os efeitos negativos, incluindo debuffs, dano contínuo e projéteis próximos.",
+          "why": "Defensivo contra elites cujos ataques aplicam efeitos negativos, que o Mercenário enfrenta de perto."
+        }
+      ]
     },
     {
-     "icon": "57-leaf-clover",
-     "pt": "Trevo 57",
-     "en": "57 Leaf Clover",
-     "prio": 3,
-     "qty": "1",
-     "effect": "Todos os efeitos aleatórios são rolados +1 (+1 por acúmulo) vez a seu favor.",
-     "why": "Melhora Ukulele, Míssil, Adaga, Cartucheira e crítico, todos ativados pelos muitos golpes."
+      "id": "lunar",
+      "name": "Lunares",
+      "color": "azul",
+      "intro": "Itens lunares têm custo embutido. No Mercenário, a Pureza é o mais conhecido.",
+      "items": [
+        {
+          "icon": "purity",
+          "pt": "Pureza",
+          "en": "Purity",
+          "prio": 3,
+          "qty": "1 a 2",
+          "effect": "Reduz todas as recargas de habilidade em 2 s (+1 s por acúmulo). Todos os efeitos aleatórios são rolados +1 (+1 por acúmulo) vez contra você.",
+          "why": "A wiki mostra o Estripar chegando a 1 s de recarga com acúmulos suficientes, e alternar com o Ataque Ofuscante permite subir quase sem parar. O custo é piorar Ukulele, Míssil, Adaga e crítico."
+        },
+        {
+          "icon": "shaped-glass",
+          "pt": "Vidro Configurado",
+          "en": "Shaped Glass",
+          "prio": 4,
+          "qty": "1 (só se estiver confortável)",
+          "effect": "+100% (+100% por acúmulo) de dano base. −50% (−50% por acúmulo) de vida máxima.",
+          "why": "Dobra todos os golpes. Funciona para quem já confia nas janelas de invulnerabilidade, mas cada erro custa o dobro."
+        },
+        {
+          "icon": "light-flux-pauldron",
+          "pt": "Ombreira do Fluxo Iluminado",
+          "en": "Light Flux Pauldron",
+          "prio": 0,
+          "qty": "0",
+          "effect": "−50% (−50% por acúmulo) no tempo de recarga das habilidades. −50% (−50% por acúmulo) de velocidade de ataque.",
+          "why": "O Estripar perde golpes com menos velocidade de ataque. A wiki observa que o Tornado vai mais longe, mas a área de acerto não dura mais."
+        }
+      ]
     },
     {
-     "icon": "h3ad-5t-v2",
-     "pt": "H3AD-5T v2",
-     "en": "H3AD-5T v2",
-     "prio": 4,
-     "qty": "1",
-     "effect": "Aumenta a altura do pulo. Cria uma explosão cinética de 5 m a 100 m de raio ao atingir o chão, causando de 1000% a 10000% do dano base conforme a altura da queda. Recarrega em 10 s (−50% por acúmulo).",
-     "why": "A wiki descreve o Tornado em rampas lançando o Mercenário alto, e a queda vira uma explosão enorme. Exige prática."
+      "id": "vazio",
+      "name": "Vazio",
+      "color": "roxo",
+      "intro": "Itens do Vazio (DLC Survivors of the Void) corrompem itens comuns quando pegos. Veja o que vai perder antes.",
+      "items": [
+        {
+          "icon": "lysate-cell",
+          "pt": "Célula Lisada",
+          "en": "Lysate Cell",
+          "prio": 1,
+          "qty": "1 a 2",
+          "effect": "+1 (+1 por acúmulo) carga da habilidade Especial e −33% no tempo de recarga dela. Corrompe todas as Células de Combustível.",
+          "why": "Dois Estripar seguidos e recarga menor: mais tempo sem poder ser atingido."
+        },
+        {
+          "icon": "polylute",
+          "pt": "Polialaúde",
+          "en": "Polylute",
+          "prio": 3,
+          "qty": "1",
+          "effect": "25% de chance de disparar um raio de 60% de dano TOTAL até 3 (+3 por acúmulo) vezes. Corrompe todos os Ukuleles.",
+          "why": "O Estripar já foca um alvo. O Polialaúde soma dano nele, mas corrompe os Ukuleles recomendados acima."
+        },
+        {
+          "icon": "needletick",
+          "pt": "Agulhão",
+          "en": "Needletick",
+          "prio": 3,
+          "qty": "1 a 2",
+          "effect": "10% (+10% por acúmulo) de chance de colapsar um inimigo, causando 400% do dano base. Corrompe todas as Adagas Triangulares.",
+          "why": "Muitos golpes rolam a chance muitas vezes. Corrompe as Adagas Triangulares."
+        },
+        {
+          "icon": "weeping-fungus",
+          "pt": "Fungo Choroso",
+          "en": "Weeping Fungus",
+          "prio": 3,
+          "qty": "1 a 2",
+          "effect": "Cura 2% (+2% por acúmulo) da vida por segundo enquanto corre. Corrompe todos os Fungos Vibrantes.",
+          "why": "Recupera vida entre uma luta e outra. Corrompe o Fungo Vibrante, que pede para ficar parado e não serve ao Mercenário."
+        },
+        {
+          "icon": "safer-spaces",
+          "pt": "Espaços Seguros",
+          "en": "Safer Spaces",
+          "prio": 4,
+          "qty": "1",
+          "effect": "Bloqueia dano recebido uma vez. Recarrega após 13,5 segundos (−10% por acúmulo). Corrompe todos os Tempos Difíceis.",
+          "why": "Garante um golpe bloqueado a cada 13,5 s fora das janelas de invulnerabilidade. Corrompe os Tempos Difíceis."
+        }
+      ]
     }
-   ]
-  },
-  {
-   "id": "chefe",
-   "name": "Chefe",
-   "color": "amarelo",
-   "intro": "Itens de chefe só caem de chefes de teleporte.",
-   "items": [
+  ],
+  "synergy": [
     {
-     "icon": "irradiant-pearl",
-     "pt": "Pérola Irradiante",
-     "en": "Irradiant Pearl",
-     "prio": 2,
-     "qty": "1 ou mais",
-     "effect": "Aumenta TODOS os atributos em 10% (+10% por acúmulo).",
-     "why": "Vida, dano, velocidade de ataque e de movimento. Tudo o que o Mercenário usa."
+      "title": "Revelar devolve recarga",
+      "text": "O terceiro golpe da Espada de Laser aplica Revelar. Acertar um inimigo Revelado causa +350% de dano e reduz todas as recargas em 1,0 s. Por isso a sequência é: três golpes de espada, depois Tornado, investida ou Estripar no mesmo alvo. Só o Mercenário aproveita o Revelar."
     },
     {
-     "icon": "molten-perforator",
-     "pt": "Perfurador Fundido",
-     "en": "Molten Perforator",
-     "prio": 3,
-     "qty": "1",
-     "effect": "10% de chance ao acertar de lançar 3 bolas de magma do inimigo, causando 300% (+300% por acúmulo) de dano cada.",
-     "why": "Mais um efeito ao acertar para os muitos golpes do Estripar."
+      "title": "Invulnerabilidade",
+      "text": "O Estripar impede que você seja atingido por 1,3 s, mais 0,6 s depois. Cada investida do Ataque Ofuscante dá cerca de 0,6 s, até 1,8 s com as três. Cabeça Alienígena, Célula Lisada, Pós-combustor e Cartucheira aumentam quanto tempo você passa nessas janelas."
+    },
+    {
+      "title": "Velocidade de ataque e Estripar",
+      "text": "Velocidade de ataque aumenta os golpes do Estripar sem aumentar a duração: mais dano e mais ativações de itens na mesma janela de invulnerabilidade. Pela wiki, cerca de 4 Seringas o igualam às Rajadas Cortantes contra um alvo, e cerca de 24 contra três alvos. Evite a Ombreira do Fluxo Iluminado."
+    },
+    {
+      "title": "Brutamontes e Revelar",
+      "text": "Segundo a wiki, quando o Brutamontes é ativado por um golpe que aplica Revelar, a explosão pode Revelar inimigos próximos e aplicar um segundo acúmulo. É a única forma de fazer isso. O raio é pequeno com um só Brutamontes."
+    },
+    {
+      "title": "Cancelar a recuperação",
+      "text": "Depois do terceiro golpe da Espada há 0,64 s de recuperação. Usar outra habilidade durante o terceiro golpe cancela essa espera e o golpe continua ativo. Encaixe o Tornado ou a investida logo no terceiro golpe para não perder tempo."
     }
-   ]
-  },
-  {
-   "id": "equipamento",
-   "name": "Equipamentos",
-   "color": "laranja",
-   "intro": "Só dá para carregar um. O Mercenário precisa de algo que junte inimigos ou alcance os que estão longe.",
-   "items": [
+  ],
+  "rotation": [
     {
-     "icon": "primordial-cube",
-     "pt": "Cubo Primordial",
-     "en": "Primordial Cube",
-     "prio": 1,
-     "qty": "1 (recarga 60 s)",
-     "effect": "Dispara um buraco negro que puxa inimigos a até 30 m para o centro. Dura 10 segundos.",
-     "why": "Junta o grupo num ponto: o Tornado, o Brutamontes e as investidas acertam todos de uma vez."
+      "step": "Investida para entrar",
+      "text": "Ataque Ofuscante no grupo para atordoar, sem levar dano."
     },
     {
-     "icon": "royal-capacitor",
-     "pt": "Capacitor Régio",
-     "en": "Royal Capacitor",
-     "prio": 2,
-     "qty": "1 (recarga 20 s)",
-     "effect": "Invoca um raio sobre um monstro marcado, causando 3000% de dano e atordoando os monstros próximos.",
-     "why": "Dano à distância contra voadores e elites, o ponto fraco de um personagem corpo a corpo."
+      "step": "Três golpes de espada",
+      "text": "O terceiro aplica Revelar no alvo."
     },
     {
-     "icon": "gorags-opus",
-     "pt": "Opus de Gorag",
-     "en": "Gorag's Opus",
-     "prio": 3,
-     "qty": "1 (recarga 45 s)",
-     "effect": "Todos os aliados entram em frenesi por 7 segundos. Aumenta a velocidade de movimento em 50% e a de ataque em 100%.",
-     "why": "Velocidade de ataque dobrada é quase o dobro de golpes no Estripar enquanto dura."
+      "step": "Tornado no terceiro golpe",
+      "text": "Cancela a recuperação e acerta o alvo Revelado, devolvendo 1 s de recarga."
     },
     {
-     "icon": "ocular-hud",
-     "pt": "Visor Ocular",
-     "en": "Ocular HUD",
-     "prio": 3,
-     "qty": "1 (recarga 60 s)",
-     "effect": "Ganha +100% de chance de Acerto Crítico por 8 segundos.",
-     "why": "Todos os golpes críticos por 8 s. Com a Foice, cada golpe também cura."
+      "step": "Estripar no perigo",
+      "text": "Use quando um ataque grande vier; você não pode ser atingido durante ele."
     },
     {
-     "icon": "blast-shower",
-     "pt": "Expurgação Explosiva",
-     "en": "Blast Shower",
-     "prio": 4,
-     "qty": "1 (recarga 20 s)",
-     "effect": "Remove todos os efeitos negativos, incluindo debuffs, dano contínuo e projéteis próximos.",
-     "why": "Defensivo contra elites que aplicam debuffs ao serem atingidas de perto."
+      "step": "Investidas restantes para sair",
+      "text": "Encadeie nos inimigos próximos ou use para se reposicionar."
     }
-   ]
-  },
-  {
-   "id": "lunar",
-   "name": "Lunares",
-   "color": "azul",
-   "intro": "Itens lunares têm custo embutido. No Mercenário, a Pureza é o mais conhecido.",
-   "items": [
+  ],
+  "essentials": [
     {
-     "icon": "purity",
-     "pt": "Pureza",
-     "en": "Purity",
-     "prio": 3,
-     "qty": "1 a 2",
-     "effect": "Reduz todas as recargas de habilidade em 2 s (+1 s por acúmulo). Todos os efeitos aleatórios são rolados +1 (+1 por acúmulo) vez contra você.",
-     "why": "A wiki mostra o Estripar chegando a 1 s de recarga com acúmulos suficientes, e alternar com o Ataque Ofuscante permite subir quase sem parar. O custo é piorar Ukulele, Míssil, Adaga e crítico."
+      "pt": "Seringa Militar",
+      "en": "Soldier's Syringe"
     },
     {
-     "icon": "shaped-glass",
-     "pt": "Vidro Configurado",
-     "en": "Shaped Glass",
-     "prio": 4,
-     "qty": "1 (só se estiver confortável)",
-     "effect": "+100% (+100% por acúmulo) de dano base. −50% (−50% por acúmulo) de vida máxima.",
-     "why": "Dobra todos os golpes. Funciona para quem já confia nas janelas de invulnerabilidade, mas cada erro custa o dobro."
+      "pt": "Cristal de Foco",
+      "en": "Focus Crystal"
     },
     {
-     "icon": "light-flux-pauldron",
-     "pt": "Ombreira do Fluxo Iluminado",
-     "en": "Light Flux Pauldron",
-     "prio": 0,
-     "qty": "0",
-     "effect": "−50% (−50% por acúmulo) no tempo de recarga das habilidades. −50% (−50% por acúmulo) de velocidade de ataque.",
-     "why": "O Estripar perde golpes com menos velocidade de ataque. A wiki observa que o Tornado e o Trovão vão mais longe, mas a área de acerto não dura mais."
+      "pt": "Semente Sanguessuga",
+      "en": "Leeching Seed"
+    },
+    {
+      "pt": "Brutamontes Reluzente",
+      "en": "Brilliant Behemoth"
+    },
+    {
+      "pt": "Cabeça Alienígena",
+      "en": "Alien Head"
+    },
+    {
+      "pt": "Célula Lisada",
+      "en": "Lysate Cell"
+    },
+    {
+      "pt": "Cubo Primordial",
+      "en": "Primordial Cube"
     }
-   ]
-  },
-  {
-   "id": "vazio",
-   "name": "Vazio",
-   "color": "roxo",
-   "intro": "Itens do Vazio (DLC Survivors of the Void) corrompem itens comuns quando pegos. Veja o que vai perder antes.",
-   "items": [
+  ],
+  "situational_note": "Situacionais: Cartucheira, Shuriken, Codorna de Cera, Genialidade, H3AD-5T v2, Agulhão, Pureza e Vidro Configurado.",
+  "fallbacks": [
     {
-     "icon": "lysate-cell",
-     "pt": "Célula Lisada",
-     "en": "Lysate Cell",
-     "prio": 1,
-     "qty": "1 a 2",
-     "effect": "+1 (+1 por acúmulo) carga da habilidade Especial e −33% no tempo de recarga dela. Corrompe todas as Células de Combustível.",
-     "why": "Dois Estripar seguidos e recarga menor: mais tempo sem poder ser atingido."
+      "pt": "Seringa Militar",
+      "en": "Soldier's Syringe",
+      "text": "Mocha, Instintos Predatórios (com Óculos) ou Opus de Gorag como equipamento."
     },
     {
-     "icon": "polylute",
-     "pt": "Polialaúde",
-     "en": "Polylute",
-     "prio": 3,
-     "qty": "1",
-     "effect": "25% de chance de disparar um raio de 60% de dano TOTAL até 3 (+3 por acúmulo) vezes. Corrompe todos os Ukuleles.",
-     "why": "O Estripar já foca um alvo. O Polialaúde soma dano nele, mas corrompe os Ukuleles recomendados acima."
+      "pt": "Cristal de Foco",
+      "en": "Focus Crystal",
+      "text": "Projéteis Perfurantes para chefes e Óculos para dano em todos os golpes."
     },
     {
-     "icon": "needletick",
-     "pt": "Agulhão",
-     "en": "Needletick",
-     "prio": 3,
-     "qty": "1 a 2",
-     "effect": "10% (+10% por acúmulo) de chance de colapsar um inimigo, causando 400% do dano base. Corrompe todas as Adagas Triangulares.",
-     "why": "Muitos golpes rolam a chance muitas vezes. Corrompe as Adagas Triangulares."
+      "pt": "Semente Sanguessuga",
+      "en": "Leeching Seed",
+      "text": "Foice do Ceifador com alguns Óculos, ou Fungo Choroso entre as lutas. Tempos Difíceis para levar menos dano."
     },
     {
-     "icon": "weeping-fungus",
-     "pt": "Fungo Choroso",
-     "en": "Weeping Fungus",
-     "prio": 3,
-     "qty": "1 a 2",
-     "effect": "Cura 2% (+2% por acúmulo) da vida por segundo enquanto corre.",
-     "why": "Recupera vida entre uma luta e outra. Corrompe o Fungo Vibrante, que pede para ficar parado e não serve ao Mercenário."
+      "pt": "Brutamontes Reluzente",
+      "en": "Brilliant Behemoth",
+      "text": "Ukulele e Míssil ASM para o dano em grupo, e o Cubo Primordial para juntar inimigos."
     },
     {
-     "icon": "safer-spaces",
-     "pt": "Espaços Seguros",
-     "en": "Safer Spaces",
-     "prio": 4,
-     "qty": "1",
-     "effect": "Bloqueia dano recebido uma vez. Recarrega após 13,5 segundos (−10% por acúmulo). Corrompe todos os Tempos Difíceis.",
-     "why": "Garante um golpe bloqueado a cada 13,5 s fora das janelas de invulnerabilidade. Corrompe os Tempos Difíceis."
+      "pt": "Cabeça Alienígena",
+      "en": "Alien Head",
+      "text": "Pós-combustor para o Ataque Ofuscante, Cartucheira para reiniciar recargas, ou Pureza se aceitar o custo."
+    },
+    {
+      "pt": "Célula Lisada",
+      "en": "Lysate Cell",
+      "text": "Cabeça Alienígena. Sem as duas, guarde o Estripar para os ataques perigosos."
+    },
+    {
+      "pt": "Cubo Primordial",
+      "en": "Primordial Cube",
+      "text": "Capacitor Régio para voadores ou Opus de Gorag para mais golpes no Estripar."
     }
-   ]
-  }
- ],
- "synergy": [
-  {
-   "title": "Revelar devolve recarga",
-   "text": "O terceiro golpe da Espada de Laser aplica Revelar. Acertar um inimigo Revelado causa +350% de dano e reduz todas as recargas em 1,0 s. Por isso a sequência é: três golpes de espada, depois Tornado, investida ou Estripar no mesmo alvo. Só o Mercenário aproveita o Revelar."
-  },
-  {
-   "title": "Invulnerabilidade",
-   "text": "O Estripar impede que você seja atingido por 1,3 s, mais 0,6 s depois. Cada investida do Ataque Ofuscante dá cerca de 0,6 s, até 1,8 s com as três. Cabeça Alienígena, Célula Lisada, Pós-combustor e Cartucheira aumentam quanto tempo você passa nessas janelas."
-  },
-  {
-   "title": "Velocidade de ataque e Estripar",
-   "text": "Velocidade de ataque aumenta os golpes do Estripar sem aumentar a duração: mais dano e mais ativações de itens na mesma janela de invulnerabilidade. Pela wiki, cerca de 4 Seringas o igualam às Rajadas Cortantes contra um alvo, e cerca de 24 contra três alvos. Evite a Ombreira do Fluxo Iluminado."
-  },
-  {
-   "title": "Brutamontes e Revelar",
-   "text": "Segundo a wiki, quando o Brutamontes é ativado por um golpe que aplica Revelar, a explosão pode Revelar inimigos próximos e aplicar um segundo acúmulo. É a única forma de fazer isso. O raio é pequeno com um só Brutamontes."
-  },
-  {
-   "title": "Cancelar a recuperação",
-   "text": "Depois do terceiro golpe da Espada há 0,64 s de recuperação. Usar outra habilidade durante o terceiro golpe cancela essa espera e o golpe continua ativo. Encaixe o Tornado ou a investida logo no terceiro golpe para não perder tempo."
-  }
- ],
- "rotation": [
-  {
-   "step": "Investida para entrar",
-   "text": "Ataque Ofuscante no grupo para atordoar, sem levar dano."
-  },
-  {
-   "step": "Três golpes de espada",
-   "text": "O terceiro aplica Revelar no alvo."
-  },
-  {
-   "step": "Tornado no terceiro golpe",
-   "text": "Cancela a recuperação e acerta o alvo Revelado, devolvendo 1 s de recarga."
-  },
-  {
-   "step": "Estripar no perigo",
-   "text": "Use quando um ataque grande vier; você não pode ser atingido durante ele."
-  },
-  {
-   "step": "Investidas restantes para sair",
-   "text": "Encadeie nos inimigos próximos ou use para se reposicionar."
-  }
- ],
- "essentials": [
-  {
-   "pt": "Seringa Militar",
-   "en": "Soldier's Syringe"
-  },
-  {
-   "pt": "Cristal de Foco",
-   "en": "Focus Crystal"
-  },
-  {
-   "pt": "Semente Sanguessuga",
-   "en": "Leeching Seed"
-  },
-  {
-   "pt": "Brutamontes Reluzente",
-   "en": "Brilliant Behemoth"
-  },
-  {
-   "pt": "Cabeça Alienígena",
-   "en": "Alien Head"
-  },
-  {
-   "pt": "Célula Lisada",
-   "en": "Lysate Cell"
-  },
-  {
-   "pt": "Cubo Primordial",
-   "en": "Primordial Cube"
-  }
- ],
- "situational_note": "Situacionais: Cartucheira, Shuriken, Codorna de Cera, Genialidade, H3AD-5T v2, Agulhão, Pureza e Vidro Configurado.",
- "fallbacks": [
-  {
-   "pt": "Seringa Militar",
-   "en": "Soldier's Syringe",
-   "text": "Mocha, Instintos Predatórios (com Óculos) ou Opus de Gorag como equipamento."
-  },
-  {
-   "pt": "Cristal de Foco",
-   "en": "Focus Crystal",
-   "text": "Projéteis Perfurantes para chefes e Óculos para dano em todos os golpes."
-  },
-  {
-   "pt": "Semente Sanguessuga",
-   "en": "Leeching Seed",
-   "text": "Foice do Ceifador com alguns Óculos, ou Fungo Choroso entre as lutas. Tempos Difíceis para levar menos dano."
-  },
-  {
-   "pt": "Brutamontes Reluzente",
-   "en": "Brilliant Behemoth",
-   "text": "Ukulele e Míssil ASM para o dano em grupo, e o Cubo Primordial para juntar inimigos."
-  },
-  {
-   "pt": "Cabeça Alienígena",
-   "en": "Alien Head",
-   "text": "Pós-combustor para o Ataque Ofuscante, Cartucheira para reiniciar recargas, ou Pureza se aceitar o custo."
-  },
-  {
-   "pt": "Célula Lisada",
-   "en": "Lysate Cell",
-   "text": "Cabeça Alienígena. Sem as duas, guarde o Estripar para os ataques perigosos."
-  },
-  {
-   "pt": "Cubo Primordial",
-   "en": "Primordial Cube",
-   "text": "Capacitor Régio para voadores ou Opus de Gorag para mais golpes no Estripar."
-  }
- ],
- "summary": "Espada de Laser, Tornado, Ataque Ofuscante e Estripar. Entre com as investidas, aplique Revelar com o terceiro golpe da espada e use o Tornado ou o Estripar no alvo Revelado para devolver recarga. Empilhe Seringa Militar e Cristal de Foco, cure com Semente Sanguessuga e encurte as recargas com Cabeça Alienígena e Célula Lisada para passar mais tempo invulnerável.",
- "checklist": [
-  {
-   "title": "Sempre pegue",
-   "text": "Seringa Militar, Cristal de Foco, Semente Sanguessuga, Brutamontes, Cabeça Alienígena, Célula Lisada."
-  },
-  {
-   "title": "Impressoras brancas",
-   "text": "Seringa Militar até umas 6, depois Cristal de Foco."
-  },
-  {
-   "title": "Primeiro verde",
-   "text": "Semente Sanguessuga. Depois Ukulele ou Míssil ASM."
-  },
-  {
-   "title": "Equipamento",
-   "text": "Cubo Primordial para grupos; Capacitor Régio se os voadores estiverem incomodando."
-  },
-  {
-   "title": "Antes de pegar Vazio",
-   "text": "Polialaúde corrompe Ukuleles; Agulhão corrompe Adagas; Espaços Seguros corrompe Tempos Difíceis."
-  },
-  {
-   "title": "Não pegue",
-   "text": "Ombreira do Fluxo Iluminado: corta a velocidade de ataque pela metade, e o Estripar perde golpes."
-  },
-  {
-   "title": "Luta de chefe",
-   "text": "Espada até Revelar, Estripar quando ele for atacar, investidas para desviar do resto."
-  }
- ],
- "sources": [
-  {
-   "title": "Mercenary — Risk of Rain 2 Wiki",
-   "url": "https://riskofrain2.wiki.gg/wiki/Mercenary"
-  },
-  {
-   "title": "Items — Risk of Rain 2 Wiki",
-   "url": "https://riskofrain2.wiki.gg/wiki/Items"
-  }
- ],
- "notes": [
-  "Desbloqueios das alternativas: Trovão Emergente (Mercenário: Demônio Celestial), Ataque Concentrado (Mercenário: Lampejo de Lâminas), Rajadas Cortantes (Mercenário: Etéreo)."
- ]
+  ],
+  "summary": "Espada de Laser, Tornado, Ataque Ofuscante e Estripar. Entre com as investidas, aplique Revelar com o terceiro golpe da espada e use o Tornado ou o Estripar no alvo Revelado para devolver recarga. Empilhe Seringa Militar e Cristal de Foco, cure com Semente Sanguessuga e encurte as recargas com Cabeça Alienígena e Célula Lisada para passar mais tempo invulnerável.",
+  "checklist": [
+    {
+      "title": "Sempre pegue",
+      "text": "Seringa Militar, Cristal de Foco, Semente Sanguessuga, Brutamontes, Cabeça Alienígena, Célula Lisada."
+    },
+    {
+      "title": "Impressoras brancas",
+      "text": "Seringa Militar até umas 6, depois Cristal de Foco."
+    },
+    {
+      "title": "Primeiro verde",
+      "text": "Semente Sanguessuga. Depois Ukulele ou Míssil ASM."
+    },
+    {
+      "title": "Equipamento",
+      "text": "Cubo Primordial para grupos; Capacitor Régio se os voadores estiverem incomodando."
+    },
+    {
+      "title": "Antes de pegar Vazio",
+      "text": "Polialaúde corrompe Ukuleles; Agulhão corrompe Adagas; Espaços Seguros corrompe Tempos Difíceis."
+    },
+    {
+      "title": "Não pegue",
+      "text": "Ombreira do Fluxo Iluminado: corta a velocidade de ataque pela metade, e o Estripar perde golpes."
+    },
+    {
+      "title": "Luta de chefe",
+      "text": "Espada até Revelar, Estripar quando ele for atacar, investidas para desviar do resto."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Mercenary — Risk of Rain 2 Wiki",
+      "url": "https://riskofrain2.wiki.gg/wiki/Mercenary"
+    },
+    {
+      "title": "Items — Risk of Rain 2 Wiki",
+      "url": "https://riskofrain2.wiki.gg/wiki/Items"
+    }
+  ],
+  "notes": [
+    "Desbloqueios das alternativas: Trovão Emergente (Mercenário: Demônio Celestial), Ataque Concentrado (Mercenário: Lampejo de Lâminas), Rajadas Cortantes (Mercenário: Etéreo).",
+    "Invulnerabilidade do Ataque Ofuscante: a wiki dá ~0,3 s na investida mais ~0,3 s no fim (0,6 s por investida), mas um patch note cita 0,2 s no fim. Janela para a próxima investida: 2,66 s nas notas, 3 s em patch antigo."
+  ]
 }

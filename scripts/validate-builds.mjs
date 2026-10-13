@@ -23,6 +23,8 @@ for (const file of readdirSync(DIR).filter((f) => f.endsWith('.json')).sort()) {
     failed++;
     continue;
   }
+  const raw = readFileSync(join(DIR, file), 'utf8');
+  if (raw !== JSON.stringify(d, null, 2) + '\n') errs.push('formatação fora do padrão (rode npm run format:data)');
   for (const k of TOP) if (!(k in d)) errs.push(`falta a chave "${k}"`);
   if (d.id && `${d.id}.json` !== file) errs.push(`id "${d.id}" não bate com o nome do arquivo`);
 

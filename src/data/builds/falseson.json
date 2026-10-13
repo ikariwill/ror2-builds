@@ -1,601 +1,602 @@
 {
- "id": "falseson",
- "name_pt": "Falso Filho",
- "name_en": "False Son",
- "title": "Falso Filho: Build de Crescimento",
- "tagline": "Vida máxima vira Espinhos, clava e laser",
- "lede": "Uma build de tanque para chegar longe: empilhar vida máxima bônus para ganhar Crescimento, que dá mais Espinhos Lunares e um Laser do Pai mais longo. A clava causa golpes de 450% e impactos de 1.000%, então itens que ativam em golpes grandes rendem muito. Você aguenta a briga de perto e marca os inimigos com Ruína Lunar para todo mundo bater mais.",
- "loadout": [
-  {
-   "slot": "Passiva",
-   "skill": "Adulteração Lunar (Lunar Tampering)"
-  },
-  {
-   "slot": "Primária",
-   "skill": "Clava do Esquecido (Club of the Forsaken)"
-  },
-  {
-   "slot": "Secundária",
-   "skill": "Espinhos Lunares (Lunar Spikes)"
-  },
-  {
-   "slot": "Utilitária",
-   "skill": "Passo dos Irmãos (Step of the Brothers)"
-  },
-  {
-   "slot": "Especial",
-   "skill": "Laser do Pai (Laser of the Father)"
-  }
- ],
- "skills": [
-  {
-   "slot": "Passiva",
-   "pt": "Adulteração Lunar",
-   "en": "Lunar Tampering",
-   "pick": "Fixa",
-   "spec": "Cada Espinho Lunar não usado: +5% de velocidade de ataque e +2,5 de armadura. Cada Espinho usado: +5% de velocidade de movimento e +2,5 de regeneração.",
-   "why": "Com Espinhos guardados você bate mais rápido e aguenta mais; depois de arremessá-los, corre e se cura mais. Quanto mais Espinhos o Crescimento der, maior o bônus nos dois estados. Por isso vida máxima bônus é o atributo central do personagem."
-  },
-  {
-   "slot": "Primária",
-   "pt": "Clava do Esquecido",
-   "en": "Club of the Forsaken",
-   "pick": "Única opção",
-   "spec": "Golpe de 450% (0,5 s + 0,5 s de recuperação). Segure 1,3 s para um impacto de 1.000% em 13 m. Soltar antes dá um golpe por cima de 400%. Coeficiente 1,0 (1,5 no impacto aéreo após 0,5 s de queda).",
-   "why": "Os dois golpes passam de 400% de dano, o limite do Cinturão de Kjaro e do Cinturão de Runald. O impacto carregado acerta todo mundo em 13 m. O Passo dos Irmãos não cancela a carga, então dá para avançar e soltar o impacto no meio do grupo."
-  },
-  {
-   "slot": "Secundária",
-   "pt": "Espinhos Lunares",
-   "en": "Lunar Spikes",
-   "pick": "Recomendada",
-   "spec": "Ruína Lunar, Ágil. Espinho de 200%. Começa com 4 cargas, mais com Crescimento. Recarga 4 s, coeficiente 1,0.",
-   "why": "Ruína Lunar faz o alvo levar +10% de dano de todas as fontes e acumula, por 5 s. É o que você usa contra voadores fora do alcance da clava. A alternativa Estacas Lunares (Lunar Stakes, 300% perfurante, raio de 150% em 6 m, recarga 11 s) conta como 2 Espinhos, mas ganha cargas com Crescimento na metade do ritmo."
-  },
-  {
-   "slot": "Utilitária",
-   "pt": "Passo dos Irmãos",
-   "en": "Step of the Brothers",
-   "pick": "Recomendada",
-   "spec": "Ágil. Investida curta com explosão de 200% em 10 m por inimigo atingido. 2 cargas, recarga 8 s. Coeficiente 1,0 (a wiki diz que o previsto era 0,5).",
-   "why": "O Falso Filho é lento, e esta é a forma de chegar perto. Pode ser usada durante a carga da clava e durante o Laser sem cancelar. A wiki observa que um ataque escondido de 0 de dano também tem coeficiente 1,0 e pode ativar itens como a Adaga Triangular."
-  },
-  {
-   "slot": "Utilitária (alt.)",
-   "pt": "Vontade do Meridiano",
-   "en": "Meridian's Will",
-   "pick": "Variante",
-   "spec": "Atordoante. Teleporte de 35 m com explosão de 150% em 25 m que puxa inimigos em 15 m. Triplica a passiva por 4 s (mais com Crescimento). Recarga 10 s, coeficiente 0.",
-   "why": "Triplicar a passiva com muitos Espinhos dá muita velocidade de ataque e armadura por alguns segundos. Com coeficiente 0, não ativa itens ao acertar, e cancela a carga da clava. O alcance cresce com a velocidade de movimento. Desbloqueio: desafio Family Bonding."
-  },
-  {
-   "slot": "Especial",
-   "pt": "Laser do Pai",
-   "en": "Laser of the Father",
-   "pick": "Recomendada",
-   "spec": "Carregue (2 s) um laser de 240% a 1.400% no total por até 4 s (30% a 175% por acerto). Reduz a recarga dos Espinhos. Recarga 15 s, coeficiente 0,45.",
-   "why": "Dano alto à distância para chefes e voadores, e a duração cresce com o Crescimento. Você fica quase parado enquanto atira, então use quando estiver seguro. A wiki diz que velocidade de ataque quase não afeta o laser. A alternativa Rajada de Laser (Laser Burst, 1.250% instantâneo, recarga 8 s, coeficiente 1,0) recarrega 50% dos Espinhos."
-  }
- ],
- "sections": [
-  {
-   "id": "comum",
-   "name": "Comum",
-   "color": "branco",
-   "intro": "Os brancos do Falso Filho são quase todos vida máxima bônus, que vira Crescimento.",
-   "items": [
+  "id": "falseson",
+  "name_pt": "Falso Filho",
+  "name_en": "False Son",
+  "title": "Falso Filho: Build de Crescimento",
+  "tagline": "Vida máxima vira Espinhos, clava e laser",
+  "lede": "Uma build de tanque para chegar longe: empilhar vida máxima bônus para ganhar Crescimento, que dá mais Espinhos Lunares e um Laser do Pai mais longo. A clava causa golpes de 450% e impactos de 1.000%, então itens que ativam em golpes grandes rendem muito. Você aguenta a briga de perto e marca os inimigos com Ruína Lunar para todo mundo bater mais.",
+  "loadout": [
     {
-     "icon": "bison-steak",
-     "pt": "Filé de Bisão",
-     "en": "Bison Steak",
-     "prio": 1,
-     "qty": "5 a 10",
-     "effect": "Aumenta a vida máxima em 25 (+25 por acúmulo).",
-     "why": "É o item que a wiki usa como referência para o Crescimento: 1 filé dá 1 Espinho a mais, 4 filés dão 4, 9 filés dão 7. Cada um aumenta Espinhos, passiva e duração do Laser."
+      "slot": "Passiva",
+      "skill": "Adulteração Lunar (Lunar Tampering)"
     },
     {
-     "icon": "focus-crystal",
-     "pt": "Cristal de Foco",
-     "en": "Focus Crystal",
-     "prio": 2,
-     "qty": "2 a 4",
-     "effect": "+20% (+20% por acúmulo) de dano contra inimigos a até 13 m.",
-     "why": "A clava, o impacto de 13 m e o Passo dos Irmãos acontecem todos a menos de 13 m."
+      "slot": "Primária",
+      "skill": "Clava do Esquecido (Club of the Forsaken)"
     },
     {
-     "icon": "tougher-times",
-     "pt": "Tempos Difíceis",
-     "en": "Tougher Times",
-     "prio": 2,
-     "qty": "2 a 4",
-     "effect": "15% (+15% por acúmulo) de chance de bloquear dano recebido. Não é afetado por sorte.",
-     "why": "Você fica parado carregando a clava e o Laser. Bloquear golpes nesses momentos vale muito."
+      "slot": "Secundária",
+      "skill": "Espinhos Lunares (Lunar Spikes)"
     },
     {
-     "icon": "backup-magazine",
-     "pt": "Pente Reserva",
-     "en": "Backup Magazine",
-     "prio": 3,
-     "qty": "1 a 3",
-     "effect": "+1 (+1 por acúmulo) carga da habilidade Secundária.",
-     "why": "Dá Espinhos a mais, e cada Espinho guardado conta na passiva. A wiki avisa que essas cargas extras não aumentam a duração do Laser do Pai, ao contrário das do Crescimento."
+      "slot": "Utilitária",
+      "skill": "Passo dos Irmãos (Step of the Brothers)"
     },
     {
-     "icon": "pauls-goat-hoof",
-     "pt": "Casco de Bode de Paul",
-     "en": "Paul's Goat Hoof",
-     "prio": 3,
-     "qty": "1 a 3",
-     "effect": "+14% (+14% por acúmulo) de velocidade de movimento.",
-     "why": "O Falso Filho é lento e tem aceleração baixa. Também aumenta o alcance do teleporte da Vontade do Meridiano."
-    },
-    {
-     "icon": "lens-makers-glasses",
-     "pt": "Óculos do Fabricante de Lentes",
-     "en": "Lens-Maker's Glasses",
-     "prio": 3,
-     "qty": "1 a 3",
-     "effect": "10% (+10% por acúmulo) de chance de Acerto Crítico, que causa dano dobrado.",
-     "why": "Um crítico num golpe de 450% ou num impacto de 1.000% é muito dano de uma vez."
-    },
-    {
-     "icon": "tri-tip-dagger",
-     "pt": "Adaga Triangular",
-     "en": "Tri-Tip Dagger",
-     "prio": 4,
-     "qty": "1 a 2",
-     "effect": "10% (+10% por acúmulo) de chance de sangrar um inimigo por 240% do dano base.",
-     "why": "A wiki cita a Adaga como item ativado pelo ataque escondido do Passo dos Irmãos. Dano extra em grupos."
-    },
-    {
-     "icon": "repulsion-armor-plate",
-     "pt": "Placa da Armadura de Repulsão",
-     "en": "Repulsion Armor Plate",
-     "prio": 3,
-     "qty": "2 a 5",
-     "effect": "Reduz todo dano recebido em 5 (+5 por acúmulo). Não pode reduzir abaixo de 1.",
-     "why": "Você fica muito tempo parado no meio do grupo carregando a clava ou o Laser. Golpes pequenos e frequentes viram quase nada."
+      "slot": "Especial",
+      "skill": "Laser do Pai (Laser of the Father)"
     }
-   ]
-  },
-  {
-   "id": "incomum",
-   "name": "Incomum",
-   "color": "verde",
-   "intro": "Os verdes aproveitam os golpes enormes da clava e o Crescimento.",
-   "items": [
+  ],
+  "skills": [
     {
-     "icon": "infusion",
-     "pt": "Infusão",
-     "en": "Infusion",
-     "prio": 1,
-     "qty": "1 a 2",
-     "effect": "Abater um inimigo aumenta sua vida permanentemente em 1 (+1 por acúmulo), até no máximo 100 (+100 por acúmulo).",
-     "why": "100 de vida bônus equivalem a 4 filés: segundo a tabela da wiki, 4 Espinhos a mais. A vida acumulada conta para o Crescimento."
+      "slot": "Passiva",
+      "pt": "Adulteração Lunar",
+      "en": "Lunar Tampering",
+      "pick": "Fixa",
+      "spec": "Cada Espinho Lunar não usado: +5% de velocidade de ataque e +2,5 de armadura. Cada Espinho usado: +5% de velocidade de movimento e +2,5 de regeneração.",
+      "why": "Com Espinhos guardados você bate mais rápido e aguenta mais; depois de arremessá-los, corre e se cura mais. Quanto mais Espinhos o Crescimento der, maior o bônus nos dois estados. Por isso vida máxima bônus é o atributo central do personagem."
     },
     {
-     "icon": "kjaros-band",
-     "pt": "Cinturão de Kjaro",
-     "en": "Kjaro's Band",
-     "prio": 1,
-     "qty": "1 a 2",
-     "effect": "Golpes que causam mais de 400% de dano também lançam um tornado de fogo rúnico, causando 300% (+300% por acúmulo) de dano TOTAL ao longo do tempo. Recarrega a cada 10 s.",
-     "why": "O golpe da clava causa 450% e o impacto 1.000%: quase todo golpe seu passa do limite. Escala com o dano total do golpe, então o impacto rende mais."
+      "slot": "Primária",
+      "pt": "Clava do Esquecido",
+      "en": "Club of the Forsaken",
+      "pick": "Única opção",
+      "spec": "Golpe de 450% (0,5 s + 0,5 s de recuperação). Segure 1,3 s para um impacto de 1.000% em 13 m. Soltar antes dá um golpe por cima de 400%. Coeficiente 1,0 (1,5 no impacto aéreo após 0,5 s de queda).",
+      "why": "Os dois golpes passam de 400% de dano, o limite do Cinturão de Kjaro e do Cinturão de Runald. O impacto carregado acerta todo mundo em 13 m. O Passo dos Irmãos não cancela a carga, então dá para avançar e soltar o impacto no meio do grupo."
     },
     {
-     "icon": "runalds-band",
-     "pt": "Cinturão de Runald",
-     "en": "Runald's Band",
-     "prio": 3,
-     "qty": "1",
-     "effect": "Golpes que causam mais de 400% de dano também lançam uma explosão de gelo rúnico, desacelerando em 80% por 3 s (+3 s por acúmulo) e causando 250% (+250% por acúmulo) de dano TOTAL.",
-     "why": "Mesmo motivo do Kjaro. A desaceleração segura os inimigos perto de um personagem lento."
+      "slot": "Secundária",
+      "pt": "Espinhos Lunares",
+      "en": "Lunar Spikes",
+      "pick": "Recomendada",
+      "spec": "Ruína Lunar, Ágil. Espinho de 200%. Começa com 4 cargas, mais com Crescimento. Recarga 4 s, coeficiente 1,0.",
+      "why": "Ruína Lunar faz o alvo levar +10% de dano de todas as fontes e acumula, por 5 s. É o que você usa contra voadores fora do alcance da clava. A alternativa Estacas Lunares (Lunar Stakes, 300% perfurante e relâmpago de 150% em 6 m em cada inimigo perfurado, 2 cargas, recarga 11 s) conta como 2 Espinhos, mas ganha cargas com Crescimento na metade do ritmo."
     },
     {
-     "icon": "leeching-seed",
-     "pt": "Semente Sanguessuga",
-     "en": "Leeching Seed",
-     "prio": 3,
-     "qty": "1 a 2",
-     "effect": "Causar dano cura 1 (+1 por acúmulo) de vida.",
-     "why": "O Laser do Pai acerta muitas vezes por segundo e o impacto pega o grupo inteiro: muitos acertos, muita cura."
+      "slot": "Utilitária",
+      "pt": "Passo dos Irmãos",
+      "en": "Step of the Brothers",
+      "pick": "Recomendada",
+      "spec": "Ágil. Investida curta com explosão de 200% em 10 m por inimigo atingido. 2 cargas, recarga 8 s. Coeficiente 1,0 (a wiki diz que o previsto era 0,5).",
+      "why": "O Falso Filho é lento, e esta é a forma de chegar perto. Pode ser usada durante a carga da clava e durante o Laser sem cancelar. A wiki observa que um ataque escondido de 0 de dano também tem coeficiente 1,0 e pode ativar itens como a Adaga Triangular."
     },
     {
-     "icon": "ukulele",
-     "pt": "Ukulele",
-     "en": "Ukulele",
-     "prio": 3,
-     "qty": "1 a 2",
-     "effect": "25% de chance de disparar um raio em cadeia de 80% de dano TOTAL em até 3 (+2 por acúmulo) alvos a 20 m (+2 m por acúmulo).",
-     "why": "Dano TOTAL sobre golpes de 450% e 1.000% rende bem, e espalha para inimigos fora do alcance da clava."
+      "slot": "Utilitária (alt.)",
+      "pt": "Vontade do Meridiano",
+      "en": "Meridian's Will",
+      "pick": "Variante",
+      "spec": "Atordoante. Teleporte de 35 m com explosão de 150% em 25 m que puxa inimigos em 15 m. Triplica a passiva por 4 s (mais com Crescimento). Recarga 10 s, coeficiente 0.",
+      "why": "Triplicar a passiva com muitos Espinhos dá muita velocidade de ataque e armadura por alguns segundos. Com coeficiente 0, não ativa itens ao acertar, e cancela a carga da clava. O alcance cresce com a velocidade de movimento. Desbloqueio: desafio Family Bonding."
     },
     {
-     "icon": "old-war-stealthkit",
-     "pt": "Kit Furtivo da Guerra Antiga",
-     "en": "Old War Stealthkit",
-     "prio": 4,
-     "qty": "1",
-     "effect": "Ao cair abaixo de 25% de vida, ganha 40% de velocidade e invisibilidade por 5 s. Recarrega a cada 30 s (−50% por acúmulo).",
-     "why": "Saída de emergência para um personagem lento que vive no meio da briga."
-    },
-    {
-     "icon": "prayer-beads",
-     "pt": "Rosário da Prece",
-     "en": "Prayer Beads",
-     "prio": 4,
-     "qty": "1",
-     "effect": "Cresce ao ganhar experiência, guardando 20% (+5% por acúmulo) de atributos bônus (vida, regeneração e dano). Ao ser removido, você ganha todos os atributos guardados.",
-     "why": "A wiki lista o Rosário entre os itens de Crescimento, mas avisa que ele não dá Crescimento na hora: os atributos guardados só chegam quando o item sai do inventário."
+      "slot": "Especial",
+      "pt": "Laser do Pai",
+      "en": "Laser of the Father",
+      "pick": "Recomendada",
+      "spec": "Carregue (2 s) um laser de 240% a 1.400% no total por até 4 s (30% a 175% por acerto). Reduz a recarga dos Espinhos. Recarga 15 s, coeficiente 0,45.",
+      "why": "Dano alto à distância para chefes e voadores, e a duração cresce com o Crescimento. Você fica quase parado enquanto atira, então use quando estiver seguro. A wiki diz que velocidade de ataque quase não afeta o laser. A alternativa Rajada de Laser (Laser Burst, 1.250% instantâneo, recarga 8 s, coeficiente 1,0) recarrega 50% dos Espinhos."
     }
-   ]
-  },
-  {
-   "id": "lendario",
-   "name": "Lendário",
-   "color": "vermelho",
-   "intro": "Os vermelhos encurtam recargas e espalham os golpes da clava pelo grupo.",
-   "items": [
+  ],
+  "sections": [
     {
-     "icon": "alien-head",
-     "pt": "Cabeça Alienígena",
-     "en": "Alien Head",
-     "prio": 1,
-     "qty": "1 a 2",
-     "effect": "Reduz o tempo de recarga das habilidades em 25% (+25% por acúmulo).",
-     "why": "Laser do Pai (15 s), Passo dos Irmãos (8 s) e Espinhos (4 s) voltam mais rápido. Mais Laser significa mais dano em chefes."
+      "id": "comum",
+      "name": "Comum",
+      "color": "branco",
+      "intro": "Os brancos do Falso Filho são quase todos vida máxima bônus, que vira Crescimento.",
+      "items": [
+        {
+          "icon": "bison-steak",
+          "pt": "Filé de Bisão",
+          "en": "Bison Steak",
+          "prio": 1,
+          "qty": "5 a 10",
+          "effect": "Aumenta a vida máxima em 25 (+25 por acúmulo).",
+          "why": "É o item que a wiki usa como referência para o Crescimento: 1 filé dá 1 Espinho a mais, 4 filés dão 4, 9 filés dão 7. Cada Espinho a mais aumenta a passiva e a duração do Laser."
+        },
+        {
+          "icon": "focus-crystal",
+          "pt": "Cristal de Foco",
+          "en": "Focus Crystal",
+          "prio": 2,
+          "qty": "2 a 4",
+          "effect": "+20% (+20% por acúmulo) de dano contra inimigos a até 13 m.",
+          "why": "A clava, o impacto de 13 m e o Passo dos Irmãos acontecem todos a menos de 13 m."
+        },
+        {
+          "icon": "tougher-times",
+          "pt": "Tempos Difíceis",
+          "en": "Tougher Times",
+          "prio": 2,
+          "qty": "2 a 4",
+          "effect": "15% (+15% por acúmulo) de chance de bloquear dano recebido. Não é afetado por sorte.",
+          "why": "Você fica parado carregando a clava e o Laser. Bloquear golpes nesses momentos vale muito."
+        },
+        {
+          "icon": "backup-magazine",
+          "pt": "Pente Reserva",
+          "en": "Backup Magazine",
+          "prio": 3,
+          "qty": "1 a 3",
+          "effect": "+1 (+1 por acúmulo) carga da habilidade Secundária.",
+          "why": "Dá Espinhos a mais, e cada Espinho guardado conta na passiva. A wiki avisa que essas cargas extras não aumentam a duração do Laser do Pai, ao contrário das do Crescimento."
+        },
+        {
+          "icon": "pauls-goat-hoof",
+          "pt": "Casco de Bode de Paul",
+          "en": "Paul's Goat Hoof",
+          "prio": 3,
+          "qty": "1 a 3",
+          "effect": "+14% (+14% por acúmulo) de velocidade de movimento.",
+          "why": "O Falso Filho é lento e tem aceleração baixa. Também aumenta o alcance do teleporte da Vontade do Meridiano."
+        },
+        {
+          "icon": "lens-makers-glasses",
+          "pt": "Óculos do Fabricante de Lentes",
+          "en": "Lens-Maker's Glasses",
+          "prio": 3,
+          "qty": "1 a 3",
+          "effect": "10% (+10% por acúmulo) de chance de Acerto Crítico, que causa dano dobrado.",
+          "why": "Um crítico num golpe de 450% ou num impacto de 1.000% é muito dano de uma vez."
+        },
+        {
+          "icon": "tri-tip-dagger",
+          "pt": "Adaga Triangular",
+          "en": "Tri-Tip Dagger",
+          "prio": 4,
+          "qty": "1 a 2",
+          "effect": "10% (+10% por acúmulo) de chance de sangrar um inimigo por 240% do dano base.",
+          "why": "A wiki cita a Adaga como item ativado pelo ataque escondido do Passo dos Irmãos. Dano extra em grupos."
+        },
+        {
+          "icon": "repulsion-armor-plate",
+          "pt": "Placa da Armadura de Repulsão",
+          "en": "Repulsion Armor Plate",
+          "prio": 3,
+          "qty": "2 a 5",
+          "effect": "Reduz todo dano recebido em 5 (+5 por acúmulo). Não pode reduzir abaixo de 1.",
+          "why": "Você fica muito tempo parado no meio do grupo carregando a clava ou o Laser. Golpes pequenos e frequentes viram quase nada."
+        }
+      ]
     },
     {
-     "icon": "brilliant-behemoth",
-     "pt": "Brutamontes Reluzente",
-     "en": "Brilliant Behemoth",
-     "prio": 1,
-     "qty": "1 a 2",
-     "effect": "Todos os ataques explodem em 4 m (+2,5 m por acúmulo) causando 60% de dano TOTAL extra.",
-     "why": "60% do dano TOTAL de um golpe de 450% ou de um impacto de 1.000% é uma explosão grande ao redor de cada alvo."
+      "id": "incomum",
+      "name": "Incomum",
+      "color": "verde",
+      "intro": "Os verdes aproveitam os golpes enormes da clava e o Crescimento.",
+      "items": [
+        {
+          "icon": "infusion",
+          "pt": "Infusão",
+          "en": "Infusion",
+          "prio": 1,
+          "qty": "1 a 2",
+          "effect": "Abater um inimigo aumenta sua vida permanentemente em 1 (+1 por acúmulo), até no máximo 100 (+100 por acúmulo).",
+          "why": "100 de vida bônus equivalem a 4 filés: segundo a tabela da wiki, 4 Espinhos a mais. A vida acumulada conta para o Crescimento."
+        },
+        {
+          "icon": "kjaros-band",
+          "pt": "Cinturão de Kjaro",
+          "en": "Kjaro's Band",
+          "prio": 1,
+          "qty": "1 a 2",
+          "effect": "Golpes que causam mais de 400% de dano também lançam um tornado de fogo rúnico, causando 300% (+300% por acúmulo) de dano TOTAL ao longo do tempo. Recarrega a cada 10 s.",
+          "why": "O golpe da clava causa 450% e o impacto 1.000%: quase todo golpe seu passa do limite. Escala com o dano total do golpe, então o impacto rende mais."
+        },
+        {
+          "icon": "runalds-band",
+          "pt": "Cinturão de Runald",
+          "en": "Runald's Band",
+          "prio": 3,
+          "qty": "1",
+          "effect": "Golpes que causam mais de 400% de dano também lançam uma explosão de gelo rúnico, desacelerando em 80% por 3 s (+3 s por acúmulo) e causando 250% (+250% por acúmulo) de dano TOTAL. Recarrega a cada 10 segundos.",
+          "why": "Mesmo motivo do Kjaro. A desaceleração segura os inimigos perto de um personagem lento."
+        },
+        {
+          "icon": "leeching-seed",
+          "pt": "Semente Sanguessuga",
+          "en": "Leeching Seed",
+          "prio": 3,
+          "qty": "1 a 2",
+          "effect": "Causar dano cura 1 (+1 por acúmulo) de vida.",
+          "why": "O Laser do Pai acerta muitas vezes por segundo e o impacto pega o grupo inteiro: muitos acertos, muita cura."
+        },
+        {
+          "icon": "ukulele",
+          "pt": "Ukulele",
+          "en": "Ukulele",
+          "prio": 3,
+          "qty": "1 a 2",
+          "effect": "25% de chance de disparar um raio em cadeia de 80% de dano TOTAL em até 3 (+2 por acúmulo) alvos a 20 m (+2 m por acúmulo).",
+          "why": "Dano TOTAL sobre golpes de 450% e 1.000% rende bem, e espalha para inimigos fora do alcance da clava."
+        },
+        {
+          "icon": "old-war-stealthkit",
+          "pt": "Kit Furtivo da Guerra Antiga",
+          "en": "Old War Stealthkit",
+          "prio": 4,
+          "qty": "1",
+          "effect": "Ao cair abaixo de 25% de vida, ganha 40% de velocidade e invisibilidade por 5 s. Recarrega a cada 30 s (−50% por acúmulo).",
+          "why": "Saída de emergência para um personagem lento que vive no meio da briga."
+        },
+        {
+          "icon": "prayer-beads",
+          "pt": "Rosário da Prece",
+          "en": "Prayer Beads",
+          "prio": 4,
+          "qty": "1",
+          "effect": "Cresce ao ganhar experiência, guardando 20% (+5% por acúmulo) de atributos bônus (vida, regeneração e dano). Ao ser removido, você ganha todos os atributos guardados.",
+          "why": "A wiki lista o Rosário entre os itens de Crescimento, mas avisa que ele não dá Crescimento na hora: os atributos guardados só chegam quando o item sai do inventário."
+        }
+      ]
     },
     {
-     "icon": "hardlight-afterburner",
-     "pt": "Pós-combustor de Holograma",
-     "en": "Hardlight Afterburner",
-     "prio": 2,
-     "qty": "1",
-     "effect": "+2 (+2 por acúmulo) cargas da Utilitária e −33% no tempo de recarga dela.",
-     "why": "O Passo dos Irmãos passa de 2 para 4 cargas. É mobilidade para o personagem lento e uma explosão de 200% a cada investida."
+      "id": "lendario",
+      "name": "Lendário",
+      "color": "vermelho",
+      "intro": "Os vermelhos encurtam recargas e espalham os golpes da clava pelo grupo.",
+      "items": [
+        {
+          "icon": "alien-head",
+          "pt": "Cabeça Alienígena",
+          "en": "Alien Head",
+          "prio": 1,
+          "qty": "1 a 2",
+          "effect": "Reduz o tempo de recarga das habilidades em 25% (+25% por acúmulo).",
+          "why": "Laser do Pai (15 s), Passo dos Irmãos (8 s) e Espinhos (4 s) voltam mais rápido. Mais Laser significa mais dano em chefes."
+        },
+        {
+          "icon": "brilliant-behemoth",
+          "pt": "Brutamontes Reluzente",
+          "en": "Brilliant Behemoth",
+          "prio": 1,
+          "qty": "1 a 2",
+          "effect": "Todos os ataques explodem em 4 m (+2,5 m por acúmulo) causando 60% de dano TOTAL extra.",
+          "why": "60% do dano TOTAL de um golpe de 450% ou de um impacto de 1.000% é uma explosão grande ao redor de cada alvo."
+        },
+        {
+          "icon": "hardlight-afterburner",
+          "pt": "Pós-combustor de Holograma",
+          "en": "Hardlight Afterburner",
+          "prio": 2,
+          "qty": "1",
+          "effect": "+2 (+2 por acúmulo) cargas da Utilitária e −33% no tempo de recarga dela.",
+          "why": "O Passo dos Irmãos passa de 2 para 4 cargas. É mobilidade para o personagem lento e uma explosão de 200% a cada investida."
+        },
+        {
+          "icon": "growth-nectar",
+          "pt": "Néctar de Crescimento",
+          "en": "Growth Nectar",
+          "prio": 3,
+          "qty": "1",
+          "effect": "Dá +4% em TODOS os atributos para cada buff, até no máximo 4 (+4 por acúmulo).",
+          "why": "A wiki lista o Néctar entre os itens ligados ao Crescimento, mas não diz quanto ele dá."
+        },
+        {
+          "icon": "rejuvenation-rack",
+          "pt": "Suporte do Rejuvenescimento",
+          "en": "Rejuvenation Rack",
+          "prio": 3,
+          "qty": "1",
+          "effect": "Cura +100% (+100% por acúmulo) a mais.",
+          "why": "Dobra a regeneração que a passiva dá por Espinho usado (+2,5 cada) e a cura da Semente."
+        },
+        {
+          "icon": "shattering-justice",
+          "pt": "Justiça Destruidora",
+          "en": "Shattering Justice",
+          "prio": 3,
+          "qty": "1",
+          "effect": "Depois de acertar um inimigo 5 vezes, reduz a armadura dele em 60 por 8 s (+8 s por acúmulo).",
+          "why": "O Laser do Pai acerta muitas vezes por segundo, então os 5 acertos chegam logo no começo. Depois disso o resto do Laser e o impacto da clava batem mais no chefe."
+        }
+      ]
     },
     {
-     "icon": "growth-nectar",
-     "pt": "Néctar de Crescimento",
-     "en": "Growth Nectar",
-     "prio": 3,
-     "qty": "1",
-     "effect": "Dá +4% em TODOS os atributos para cada buff, até no máximo 4 (+4 por acúmulo).",
-     "why": "A wiki lista o Néctar entre os itens que contam para o Crescimento."
+      "id": "chefe",
+      "name": "Chefe",
+      "color": "amarelo",
+      "intro": "Itens de chefe só caem de chefes de teleporte. Os dois abaixo dão Crescimento, segundo a wiki.",
+      "items": [
+        {
+          "icon": "titanic-knurl",
+          "pt": "Fragmento Titânico",
+          "en": "Titanic Knurl",
+          "prio": 1,
+          "qty": "1 ou mais",
+          "effect": "Aumenta a vida máxima em 40 (+40 por acúmulo) e a regeneração base em +1,6 de vida/s (+1,6 por acúmulo).",
+          "why": "Vale mais que um filé e meio de Crescimento, e ainda regenera."
+        },
+        {
+          "icon": "pearl",
+          "pt": "Pérola",
+          "en": "Pearl",
+          "prio": 2,
+          "qty": "1 ou mais",
+          "effect": "Aumenta a vida máxima em 10% (+10% por acúmulo).",
+          "why": "10% da vida máxima conta como vida bônus. Rende mais quanto mais vida você já tem. A Pérola Irradiante também conta para o Crescimento."
+        }
+      ]
     },
     {
-     "icon": "rejuvenation-rack",
-     "pt": "Suporte do Rejuvenescimento",
-     "en": "Rejuvenation Rack",
-     "prio": 3,
-     "qty": "1",
-     "effect": "Cura +100% (+100% por acúmulo) a mais.",
-     "why": "Dobra a regeneração que a passiva dá por Espinho usado (+2,5 cada) e a cura da Semente."
+      "id": "equipamento",
+      "name": "Equipamentos",
+      "color": "laranja",
+      "intro": "Só dá para carregar um. O Tônico é o melhor por causa da vida máxima.",
+      "items": [
+        {
+          "icon": "spinel-tonic",
+          "pt": "Tônico de Espinélia",
+          "en": "Spinel Tonic",
+          "prio": 1,
+          "qty": "1 (equipamento lunar, recarga 60 s)",
+          "effect": "Por 20 s: +100% de dano, +70% de velocidade de ataque, +20 de armadura, +50% de vida máxima, +300% de regeneração, +30% de movimento. Ao acabar, 20% de chance de Aflição do Tônico (−5% em todos os atributos, permanente).",
+          "why": "A wiki lista o Tônico entre os itens de Crescimento: +50% de vida máxima dá Espinhos a mais enquanto dura. Use nas lutas de chefe, pela chance de aflição."
+        },
+        {
+          "icon": "primordial-cube",
+          "pt": "Cubo Primordial",
+          "en": "Primordial Cube",
+          "prio": 2,
+          "qty": "1 (recarga 60 s)",
+          "effect": "Buraco negro que puxa inimigos a até 30 m para o centro por 10 s.",
+          "why": "Junta o grupo num ponto para o impacto de 13 m da clava pegar todo mundo."
+        },
+        {
+          "icon": "royal-capacitor",
+          "pt": "Capacitor Régio",
+          "en": "Royal Capacitor",
+          "prio": 3,
+          "qty": "1 (recarga 20 s)",
+          "effect": "Raio em um monstro marcado causando 3000% de dano e atordoando os monstros próximos.",
+          "why": "Dano à distância contra voadores e elites, que a clava não alcança."
+        },
+        {
+          "icon": "blast-shower",
+          "pt": "Expurgação Explosiva",
+          "en": "Blast Shower",
+          "prio": 4,
+          "qty": "1 (recarga 20 s)",
+          "effect": "Remove todos os efeitos negativos, incluindo dano contínuo e projéteis próximos.",
+          "why": "Defensivo para quem não consegue fugir rápido de debuffs de elites."
+        }
+      ]
     },
     {
-     "icon": "shattering-justice",
-     "pt": "Justiça Destruidora",
-     "en": "Shattering Justice",
-     "prio": 3,
-     "qty": "1",
-     "effect": "Depois de acertar um inimigo 5 vezes, reduz a armadura dele em 60 por 8 s (+8 s por acúmulo).",
-     "why": "O Laser do Pai acerta muitas vezes por segundo, então os 5 acertos chegam logo no começo. Depois disso o resto do Laser e o impacto da clava batem mais no chefe."
+      "id": "lunar",
+      "name": "Lunares",
+      "color": "azul",
+      "intro": "Itens lunares têm custo embutido. Nenhum é obrigatório.",
+      "items": [
+        {
+          "icon": "stone-flux-pauldron",
+          "pt": "Ombreira do Fluxo Pétreo",
+          "en": "Stone Flux Pauldron",
+          "prio": 3,
+          "qty": "1",
+          "effect": "Aumenta a vida máxima em 100% (+100% por acúmulo). Reduz a velocidade de movimento em 50% (+50% por acúmulo).",
+          "why": "A wiki lista a Ombreira entre os itens de Crescimento, e dobrar a vida dá muitos Espinhos. O custo é pesado: o Falso Filho já é lento. Só pegue com Pós-combustor ou bons itens de movimento."
+        },
+        {
+          "icon": "purity",
+          "pt": "Pureza",
+          "en": "Purity",
+          "prio": 4,
+          "qty": "1",
+          "effect": "Reduz todas as recargas de habilidade em 2 s (+1 s por acúmulo). Todos os efeitos aleatórios são rolados +1 (+1 por acúmulo) vez contra você.",
+          "why": "Os Espinhos caem de 4 s para 2 s de recarga. Piora Ukulele, Adaga e crítico."
+        },
+        {
+          "icon": "shaped-glass",
+          "pt": "Vidro Configurado",
+          "en": "Shaped Glass",
+          "prio": 0,
+          "qty": "0",
+          "effect": "+100% (+100% por acúmulo) de dano base. −50% (−50% por acúmulo) de vida máxima.",
+          "why": "A força do Falso Filho é a vida alta. Cortar a vida máxima pela metade tira a defesa de um personagem que fica parado carregando golpes."
+        }
+      ]
+    },
+    {
+      "id": "vazio",
+      "name": "Vazio",
+      "color": "roxo",
+      "intro": "Itens do Vazio (DLC Survivors of the Void) corrompem itens comuns quando pegos. Veja o que vai perder antes.",
+      "items": [
+        {
+          "icon": "lysate-cell",
+          "pt": "Célula Lisada",
+          "en": "Lysate Cell",
+          "prio": 1,
+          "qty": "1 a 2",
+          "effect": "+1 (+1 por acúmulo) carga da habilidade Especial e −33% no tempo de recarga dela. Corrompe todas as Células de Combustível.",
+          "why": "Dois Lasers do Pai seguidos e recarga menor. É o maior ganho de dano contra chefes."
+        },
+        {
+          "icon": "weeping-fungus",
+          "pt": "Fungo Choroso",
+          "en": "Weeping Fungus",
+          "prio": 3,
+          "qty": "1 a 2",
+          "effect": "Cura 2% (+2% por acúmulo) da vida por segundo enquanto corre. Corrompe todos os Fungos Vibrantes.",
+          "why": "Porcentagem da vida rende muito num personagem com vida alta. Os Espinhos Lunares e o Passo podem ser usados correndo."
+        },
+        {
+          "icon": "voidsent-flame",
+          "pt": "Chama da Nulidade",
+          "en": "Voidsent Flame",
+          "prio": 3,
+          "qty": "1 a 2",
+          "effect": "Ao acertar um inimigo com a vida cheia, cria um pilar de lava de 12 m (+2,4 m por acúmulo) causando 260% (+156% por acúmulo) do dano base. Corrompe todos os Will-o'-the-wisp.",
+          "why": "O impacto de 13 m e a explosão do Passo acertam vários inimigos de vida cheia de uma vez."
+        },
+        {
+          "icon": "singularity-band",
+          "pt": "Faixa da Singularidade",
+          "en": "Singularity Band",
+          "prio": 4,
+          "qty": "1",
+          "effect": "Golpes que causam mais de 400% de dano também lançam um buraco negro que puxa inimigos a até 15 m. Dura 5 s e colapsa causando 100% (+100% por acúmulo) de dano TOTAL. Recarrega a cada 20 s. Corrompe todos os Cinturões de Runald e de Kjaro.",
+          "why": "Junta o grupo para o impacto da clava. Cuidado: corrompe o Cinturão de Kjaro, que é um dos melhores itens da build, e o Cinturão de Runald."
+        }
+      ]
     }
-   ]
-  },
-  {
-   "id": "chefe",
-   "name": "Chefe",
-   "color": "amarelo",
-   "intro": "Itens de chefe só caem de chefes de teleporte. Os dois abaixo dão Crescimento, segundo a wiki.",
-   "items": [
+  ],
+  "synergy": [
     {
-     "icon": "titanic-knurl",
-     "pt": "Fragmento Titânico",
-     "en": "Titanic Knurl",
-     "prio": 1,
-     "qty": "1 ou mais",
-     "effect": "Aumenta a vida máxima em 40 (+40 por acúmulo) e a regeneração base em +1,6 de vida/s (+1,6 por acúmulo).",
-     "why": "Vale mais que um filé e meio de Crescimento, e ainda regenera."
+      "title": "Crescimento: vida bônus vira poder",
+      "text": "Vida máxima bônus de itens dá cargas de Espinhos Lunares. Pela tabela da wiki, 15 de vida bônus dão 1 Espinho, 90 dão 4 e 393 dão 10. Mais Espinhos aumentam a passiva e a duração do Laser do Pai, e a Vontade do Meridiano dura mais. Subir de nível não conta, só vida de itens e efeitos."
     },
     {
-     "icon": "pearl",
-     "pt": "Pérola",
-     "en": "Pearl",
-     "prio": 2,
-     "qty": "1 ou mais",
-     "effect": "Aumenta a vida máxima em 10% (+10% por acúmulo).",
-     "why": "10% da vida máxima conta como vida bônus. Rende mais quanto mais vida você já tem. A Pérola Irradiante também conta para o Crescimento."
+      "title": "O que conta para o Crescimento",
+      "text": "A wiki lista: Filé de Bisão, Infusão, Fragmento Titânico, Pérola, Pérola Irradiante, Néctar de Crescimento, Ombreira do Fluxo Pétreo, Tônico de Espinélia, Rosário da Prece e Compulsão de Colecionador (pelo bônus temporário de atributos). As refeições do Wandering CHEF (DLC Alloyed Collective) Bife Selado e Conserto Rápido também contam. O Pente Reserva dá Espinhos, mas não aumenta o Laser."
+    },
+    {
+      "title": "Golpes acima de 400%",
+      "text": "O golpe da clava causa 450% e o impacto carregado 1.000%. Os dois passam do limite do Cinturão de Kjaro e do Cinturão de Runald, que recarregam a cada 10 s. Itens de dano TOTAL, como Brutamontes e Ukulele, também rendem mais em golpes grandes."
+    },
+    {
+      "title": "Ruína Lunar",
+      "text": "Cada Espinho que acerta aplica Ruína Lunar: +10% de dano recebido de todas as fontes e −20% de cura por 5 s. Ela acumula e cada acúmulo novo renova a duração. Arremesse Espinhos no chefe antes do impacto da clava ou do Laser para aumentar tudo o que vem depois."
+    },
+    {
+      "title": "Espinhos guardados ou usados",
+      "text": "Guardados, cada Espinho dá +5% de velocidade de ataque e +2,5 de armadura. Usados, dão +5% de movimento e +2,5 de regeneração. Na briga, guarde os Espinhos para bater e aguentar; para se deslocar ou se curar, gaste. O Laser do Pai reduz a recarga deles."
     }
-   ]
-  },
-  {
-   "id": "equipamento",
-   "name": "Equipamentos",
-   "color": "laranja",
-   "intro": "Só dá para carregar um. O Tônico é o melhor por causa da vida máxima.",
-   "items": [
+  ],
+  "rotation": [
     {
-     "icon": "spinel-tonic",
-     "pt": "Tônico de Espinélia",
-     "en": "Spinel Tonic",
-     "prio": 1,
-     "qty": "1 (equipamento lunar, recarga 60 s)",
-     "effect": "Por 20 s: +100% de dano, +70% de velocidade de ataque, +20 de armadura, +50% de vida máxima, +300% de regeneração, +30% de movimento. Ao acabar, 20% de chance de Aflição do Tônico (−5% em todos os atributos, permanente).",
-     "why": "A wiki lista o Tônico entre os itens de Crescimento: +50% de vida máxima dá Espinhos a mais enquanto dura. Use nas lutas de chefe, pela chance de aflição."
+      "step": "Espinhos no alvo principal",
+      "text": "Aplique Ruína Lunar para ele levar mais dano de tudo."
     },
     {
-     "icon": "primordial-cube",
-     "pt": "Cubo Primordial",
-     "en": "Primordial Cube",
-     "prio": 2,
-     "qty": "1 (recarga 60 s)",
-     "effect": "Buraco negro que puxa inimigos a até 30 m para o centro por 10 s.",
-     "why": "Junta o grupo num ponto para o impacto de 13 m da clava pegar todo mundo."
+      "step": "Passo dos Irmãos para entrar",
+      "text": "Avance já segurando a clava; o Passo não cancela a carga."
     },
     {
-     "icon": "royal-capacitor",
-     "pt": "Capacitor Régio",
-     "en": "Royal Capacitor",
-     "prio": 3,
-     "qty": "1 (recarga 20 s)",
-     "effect": "Raio em um monstro marcado causando 3000% de dano e atordoando os monstros próximos.",
-     "why": "Dano à distância contra voadores e elites, que a clava não alcança."
+      "step": "Impacto da clava",
+      "text": "Solte o impacto de 1.000% no meio do grupo, de preferência caindo do alto."
     },
     {
-     "icon": "blast-shower",
-     "pt": "Expurgação Explosiva",
-     "en": "Blast Shower",
-     "prio": 4,
-     "qty": "1 (recarga 20 s)",
-     "effect": "Remove todos os efeitos negativos, incluindo dano contínuo e projéteis próximos.",
-     "why": "Defensivo para quem não consegue fugir rápido de debuffs de elites."
+      "step": "Golpes de 450%",
+      "text": "Continue com golpes rápidos, que ativam o Cinturão de Kjaro."
+    },
+    {
+      "step": "Laser do Pai no chefe",
+      "text": "Com o grupo limpo, carregue o Laser e use o Passo para desviar sem cancelar."
     }
-   ]
-  },
-  {
-   "id": "lunar",
-   "name": "Lunares",
-   "color": "azul",
-   "intro": "Itens lunares têm custo embutido. Nenhum é obrigatório.",
-   "items": [
+  ],
+  "essentials": [
     {
-     "icon": "stone-flux-pauldron",
-     "pt": "Ombreira do Fluxo Pétreo",
-     "en": "Stone Flux Pauldron",
-     "prio": 3,
-     "qty": "1",
-     "effect": "Aumenta a vida máxima em 100% (+100% por acúmulo). Reduz a velocidade de movimento em 50% (+50% por acúmulo).",
-     "why": "A wiki lista a Ombreira entre os itens de Crescimento, e dobrar a vida dá muitos Espinhos. O custo é pesado: o Falso Filho já é lento. Só pegue com Pós-combustor ou bons itens de movimento."
+      "pt": "Filé de Bisão",
+      "en": "Bison Steak"
     },
     {
-     "icon": "purity",
-     "pt": "Pureza",
-     "en": "Purity",
-     "prio": 4,
-     "qty": "1",
-     "effect": "Reduz todas as recargas de habilidade em 2 s (+1 s por acúmulo). Todos os efeitos aleatórios são rolados +1 (+1 por acúmulo) vez contra você.",
-     "why": "Os Espinhos caem de 4 s para 2 s de recarga. Piora Ukulele, Adaga e crítico."
+      "pt": "Infusão",
+      "en": "Infusion"
     },
     {
-     "icon": "shaped-glass",
-     "pt": "Vidro Configurado",
-     "en": "Shaped Glass",
-     "prio": 0,
-     "qty": "0",
-     "effect": "+100% (+100% por acúmulo) de dano base. −50% (−50% por acúmulo) de vida máxima.",
-     "why": "A força do Falso Filho é a vida alta. Cortar a vida máxima pela metade tira a defesa de um personagem que fica parado carregando golpes."
+      "pt": "Cinturão de Kjaro",
+      "en": "Kjaro's Band"
+    },
+    {
+      "pt": "Cabeça Alienígena",
+      "en": "Alien Head"
+    },
+    {
+      "pt": "Brutamontes Reluzente",
+      "en": "Brilliant Behemoth"
+    },
+    {
+      "pt": "Célula Lisada",
+      "en": "Lysate Cell"
+    },
+    {
+      "pt": "Tônico de Espinélia",
+      "en": "Spinel Tonic"
     }
-   ]
-  },
-  {
-   "id": "vazio",
-   "name": "Vazio",
-   "color": "roxo",
-   "intro": "Itens do Vazio (DLC Survivors of the Void) corrompem itens comuns quando pegos. Veja o que vai perder antes.",
-   "items": [
+  ],
+  "situational_note": "Situacionais: Pente Reserva, Cinturão de Runald, Adaga Triangular, Ombreira do Fluxo Pétreo, Faixa da Singularidade e Pureza.",
+  "fallbacks": [
     {
-     "icon": "lysate-cell",
-     "pt": "Célula Lisada",
-     "en": "Lysate Cell",
-     "prio": 1,
-     "qty": "1 a 2",
-     "effect": "+1 (+1 por acúmulo) carga da habilidade Especial e −33% no tempo de recarga dela. Corrompe todas as Células de Combustível.",
-     "why": "Dois Lasers do Pai seguidos e recarga menor. É o maior ganho de dano contra chefes."
+      "pt": "Filé de Bisão",
+      "en": "Bison Steak",
+      "text": "Infusão, Fragmento Titânico e Pérola. Qualquer vida máxima bônus serve para o Crescimento."
     },
     {
-     "icon": "weeping-fungus",
-     "pt": "Fungo Choroso",
-     "en": "Weeping Fungus",
-     "prio": 3,
-     "qty": "1 a 2",
-     "effect": "Cura 2% (+2% por acúmulo) da vida por segundo enquanto corre. Corrompe todos os Fungos Vibrantes.",
-     "why": "Porcentagem da vida rende muito num personagem com vida alta. Os Espinhos Lunares e o Passo podem ser usados correndo."
+      "pt": "Infusão",
+      "en": "Infusion",
+      "text": "Mais Filés de Bisão; 4 filés dão a mesma vida que uma Infusão cheia."
     },
     {
-     "icon": "voidsent-flame",
-     "pt": "Chama da Nulidade",
-     "en": "Voidsent Flame",
-     "prio": 3,
-     "qty": "1 a 2",
-     "effect": "Ao acertar um inimigo com a vida cheia, cria um pilar de lava de 12 m (+2,4 m por acúmulo) causando 260% (+156% por acúmulo) do dano base. Corrompe todos os Will-o'-the-wisp.",
-     "why": "O impacto de 13 m e a explosão do Passo acertam vários inimigos de vida cheia de uma vez."
+      "pt": "Cinturão de Kjaro",
+      "en": "Kjaro's Band",
+      "text": "Cinturão de Runald, que também ativa nos golpes acima de 400%."
     },
     {
-     "icon": "singularity-band",
-     "pt": "Faixa da Singularidade",
-     "en": "Singularity Band",
-     "prio": 4,
-     "qty": "1",
-     "effect": "Golpes que causam mais de 400% de dano também lançam um buraco negro que puxa inimigos a até 15 m. Dura 5 s e colapsa causando 100% (+100% por acúmulo) de dano TOTAL. Recarrega a cada 20 s. Corrompe todos os Cinturões de Runald e de Kjaro.",
-     "why": "Junta o grupo para o impacto da clava. Cuidado: corrompe o Cinturão de Kjaro, que é um dos melhores itens da build."
+      "pt": "Cabeça Alienígena",
+      "en": "Alien Head",
+      "text": "Célula Lisada para o Laser e Pós-combustor de Holograma para o Passo. Pureza se aceitar o custo nos efeitos de chance."
+    },
+    {
+      "pt": "Brutamontes Reluzente",
+      "en": "Brilliant Behemoth",
+      "text": "Ukulele e Cristal de Foco para aumentar o dano em grupo."
+    },
+    {
+      "pt": "Célula Lisada",
+      "en": "Lysate Cell",
+      "text": "Cabeça Alienígena. Sem as duas, use o Laser só em chefes e voadores."
+    },
+    {
+      "pt": "Tônico de Espinélia",
+      "en": "Spinel Tonic",
+      "text": "Cubo Primordial para juntar grupos ou Capacitor Régio para voadores."
     }
-   ]
-  }
- ],
- "synergy": [
-  {
-   "title": "Crescimento: vida bônus vira poder",
-   "text": "Vida máxima bônus de itens dá cargas de Espinhos Lunares. Pela tabela da wiki, 15 de vida bônus dão 1 Espinho, 90 dão 4 e 393 dão 10. Mais Espinhos aumentam a passiva e a duração do Laser do Pai, e a Vontade do Meridiano dura mais. Subir de nível não conta, só vida de itens e efeitos."
-  },
-  {
-   "title": "O que conta para o Crescimento",
-   "text": "A wiki lista: Filé de Bisão, Infusão, Fragmento Titânico, Pérola, Pérola Irradiante, Néctar de Crescimento, Ombreira do Fluxo Pétreo, Tônico de Espinélia, Rosário da Prece e Compulsão de Colecionador. As refeições do Wandering CHEF (DLC Alloyed Collective) Bife Selado e Conserto Rápido também contam. O Pente Reserva dá Espinhos, mas não aumenta o Laser."
-  },
-  {
-   "title": "Golpes acima de 400%",
-   "text": "O golpe da clava causa 450% e o impacto carregado 1.000%. Os dois passam do limite do Cinturão de Kjaro e do Cinturão de Runald, que recarregam a cada 10 s. Itens de dano TOTAL, como Brutamontes e Ukulele, também rendem mais em golpes grandes."
-  },
-  {
-   "title": "Ruína Lunar",
-   "text": "Cada Espinho que acerta aplica Ruína Lunar: +10% de dano recebido de todas as fontes e cura reduzida por 5 s. Ela acumula e cada acúmulo novo renova a duração. Arremesse Espinhos no chefe antes do impacto da clava ou do Laser para aumentar tudo o que vem depois."
-  },
-  {
-   "title": "Espinhos guardados ou usados",
-   "text": "Guardados, cada Espinho dá +5% de velocidade de ataque e +2,5 de armadura. Usados, dão +5% de movimento e +2,5 de regeneração. Na briga, guarde os Espinhos para bater e aguentar; para se deslocar ou se curar, gaste. O Laser do Pai reduz a recarga deles."
-  }
- ],
- "rotation": [
-  {
-   "step": "Espinhos no alvo principal",
-   "text": "Aplique Ruína Lunar para ele levar mais dano de tudo."
-  },
-  {
-   "step": "Passo dos Irmãos para entrar",
-   "text": "Avance já segurando a clava; o Passo não cancela a carga."
-  },
-  {
-   "step": "Impacto da clava",
-   "text": "Solte o impacto de 1.000% no meio do grupo, de preferência caindo do alto."
-  },
-  {
-   "step": "Golpes de 450%",
-   "text": "Continue com golpes rápidos, que ativam o Cinturão de Kjaro."
-  },
-  {
-   "step": "Laser do Pai no chefe",
-   "text": "Com o grupo limpo, carregue o Laser e use o Passo para desviar sem cancelar."
-  }
- ],
- "essentials": [
-  {
-   "pt": "Filé de Bisão",
-   "en": "Bison Steak"
-  },
-  {
-   "pt": "Infusão",
-   "en": "Infusion"
-  },
-  {
-   "pt": "Cinturão de Kjaro",
-   "en": "Kjaro's Band"
-  },
-  {
-   "pt": "Cabeça Alienígena",
-   "en": "Alien Head"
-  },
-  {
-   "pt": "Brutamontes Reluzente",
-   "en": "Brilliant Behemoth"
-  },
-  {
-   "pt": "Célula Lisada",
-   "en": "Lysate Cell"
-  },
-  {
-   "pt": "Tônico de Espinélia",
-   "en": "Spinel Tonic"
-  }
- ],
- "situational_note": "Situacionais: Pente Reserva, Cinturão de Runald, Adaga Triangular, Ombreira do Fluxo Pétreo, Faixa da Singularidade e Pureza.",
- "fallbacks": [
-  {
-   "pt": "Filé de Bisão",
-   "en": "Bison Steak",
-   "text": "Infusão, Fragmento Titânico e Pérola. Qualquer vida máxima bônus serve para o Crescimento."
-  },
-  {
-   "pt": "Infusão",
-   "en": "Infusion",
-   "text": "Mais Filés de Bisão; 4 filés dão a mesma vida que uma Infusão cheia."
-  },
-  {
-   "pt": "Cinturão de Kjaro",
-   "en": "Kjaro's Band",
-   "text": "Cinturão de Runald, que também ativa nos golpes acima de 400%."
-  },
-  {
-   "pt": "Cabeça Alienígena",
-   "en": "Alien Head",
-   "text": "Célula Lisada para o Laser e Pós-combustor para o Passo. Pureza se aceitar o custo nos efeitos de chance."
-  },
-  {
-   "pt": "Brutamontes Reluzente",
-   "en": "Brilliant Behemoth",
-   "text": "Ukulele e Cristal de Foco para aumentar o dano em grupo."
-  },
-  {
-   "pt": "Célula Lisada",
-   "en": "Lysate Cell",
-   "text": "Cabeça Alienígena. Sem as duas, use o Laser só em chefes e voadores."
-  },
-  {
-   "pt": "Tônico de Espinélia",
-   "en": "Spinel Tonic",
-   "text": "Cubo Primordial para juntar grupos ou Capacitor Régio para voadores."
-  }
- ],
- "summary": "Adulteração Lunar, Clava do Esquecido, Espinhos Lunares, Passo dos Irmãos e Laser do Pai. Empilhe vida máxima bônus (Filé de Bisão, Infusão, Fragmento Titânico) para ganhar Crescimento, que dá mais Espinhos e um Laser mais longo. Marque o alvo com Espinhos, entre com o Passo segurando a clava e solte o impacto no grupo. O Cinturão de Kjaro e o Brutamontes aproveitam os golpes de 450% e 1.000%.",
- "checklist": [
-  {
-   "title": "Sempre pegue",
-   "text": "Filé de Bisão, Infusão, Cinturão de Kjaro, Cabeça Alienígena, Brutamontes, Célula Lisada."
-  },
-  {
-   "title": "Impressoras brancas",
-   "text": "Transforme em Filé de Bisão até umas 10, depois Cristal de Foco e Tempos Difíceis."
-  },
-  {
-   "title": "Primeiro verde",
-   "text": "Infusão. Depois Cinturão de Kjaro."
-  },
-  {
-   "title": "Equipamento",
-   "text": "Tônico de Espinélia para chefes; dá vida máxima e Crescimento enquanto dura."
-  },
-  {
-   "title": "Antes de pegar Vazio",
-   "text": "Faixa da Singularidade corrompe os Cinturões de Kjaro e de Runald."
-  },
-  {
-   "title": "Não pegue",
-   "text": "Vidro Configurado: corta pela metade a vida, que é a defesa do personagem."
-  },
-  {
-   "title": "Luta de chefe",
-   "text": "Espinhos para Ruína Lunar, impacto da clava, Laser do Pai com Passo para desviar."
-  }
- ],
- "sources": [
-  {
-   "title": "False Son — Risk of Rain 2 Wiki",
-   "url": "https://riskofrain2.wiki.gg/wiki/False_Son"
-  },
-  {
-   "title": "Items — Risk of Rain 2 Wiki",
-   "url": "https://riskofrain2.wiki.gg/wiki/Items"
-  }
- ],
- "notes": [
-  "O Falso Filho exige a DLC Seekers of the Storm e é desbloqueado pelo desafio Purified Freedom.",
-  "Estacas Lunares, Vontade do Meridiano e Rajada de Laser são desbloqueadas pelos desafios Protein Heavy Diet, Family Bonding e Stare Them Down."
- ]
+  ],
+  "summary": "Adulteração Lunar, Clava do Esquecido, Espinhos Lunares, Passo dos Irmãos e Laser do Pai. Empilhe vida máxima bônus (Filé de Bisão, Infusão, Fragmento Titânico) para ganhar Crescimento, que dá mais Espinhos e um Laser mais longo. Marque o alvo com Espinhos, entre com o Passo segurando a clava e solte o impacto no grupo. O Cinturão de Kjaro e o Brutamontes aproveitam os golpes de 450% e 1.000%.",
+  "checklist": [
+    {
+      "title": "Sempre pegue",
+      "text": "Filé de Bisão, Infusão, Cinturão de Kjaro, Cabeça Alienígena, Brutamontes Reluzente, Célula Lisada."
+    },
+    {
+      "title": "Impressoras brancas",
+      "text": "Transforme em Filé de Bisão até umas 10, depois Cristal de Foco e Tempos Difíceis."
+    },
+    {
+      "title": "Primeiro verde",
+      "text": "Infusão. Depois Cinturão de Kjaro."
+    },
+    {
+      "title": "Equipamento",
+      "text": "Tônico de Espinélia para chefes; dá vida máxima e Crescimento enquanto dura."
+    },
+    {
+      "title": "Antes de pegar Vazio",
+      "text": "Faixa da Singularidade corrompe os Cinturões de Kjaro e de Runald."
+    },
+    {
+      "title": "Não pegue",
+      "text": "Vidro Configurado: corta pela metade a vida, que é a defesa do personagem."
+    },
+    {
+      "title": "Luta de chefe",
+      "text": "Espinhos para Ruína Lunar, impacto da clava, Laser do Pai com Passo para desviar."
+    }
+  ],
+  "sources": [
+    {
+      "title": "False Son — Risk of Rain 2 Wiki",
+      "url": "https://riskofrain2.wiki.gg/wiki/False_Son"
+    },
+    {
+      "title": "Items — Risk of Rain 2 Wiki",
+      "url": "https://riskofrain2.wiki.gg/wiki/Items"
+    }
+  ],
+  "notes": [
+    "O Falso Filho exige a DLC Seekers of the Storm e é desbloqueado pelo desafio Purified Freedom.",
+    "Estacas Lunares, Vontade do Meridiano e Rajada de Laser são desbloqueadas pelos desafios Protein Heavy Diet, Family Bonding e Stare Them Down.",
+    "A wiki lista Fragmento Titânico, Pérola, Pérola Irradiante, Néctar de Crescimento, Ombreira do Fluxo Pétreo, Tônico de Espinélia e Bife Selado entre os itens de Crescimento, mas não explica quanto cada um dá. A build assume que a vida máxima bônus deles conta como a do Filé."
+  ]
 }

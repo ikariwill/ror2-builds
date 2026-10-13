@@ -1,655 +1,655 @@
 {
- "id": "heretic",
- "name_pt": "Herege",
- "name_en": "Heretic",
- "title": "Herege: Build de Ruína e Dissipação",
- "tagline": "Vida enorme, Ruína à distância e invulnerabilidade",
- "lede": "A Herege (Heretic) não aparece na seleção de personagens. Você vira ela no meio da run ao segurar os quatro itens lunares da Heresia ao mesmo tempo: Visões Profanas, Ganchos da Heresia, Passadas Profanas e Essência da Heresia. Ela tem a maior vida e o maior dano base do jogo, mas perde vida o tempo todo; a build empilha Passadas Profanas e reduz recargas para manter a Dissipação Sombria curando, enquanto o Olhar Faminto marca tudo com Ruína para detonar de qualquer distância.",
- "loadout": [
-  {
-   "slot": "Primária",
-   "skill": "Olhar Faminto (Hungering Gaze), de Visões Profanas (Visions of Heresy)"
-  },
-  {
-   "slot": "Secundária",
-   "skill": "Redemoinho Cortante (Slicing Maelstrom), de Ganchos da Heresia (Hooks of Heresy)"
-  },
-  {
-   "slot": "Utilitária",
-   "skill": "Dissipação Sombria (Shadowfade), de Passadas Profanas (Strides of Heresy)"
-  },
-  {
-   "slot": "Especial",
-   "skill": "Ruína (Ruin), de Essência da Heresia (Essence of Heresy)"
-  }
- ],
- "skills": [
-  {
-   "slot": "Passiva",
-   "pt": "Atributos da Herege",
-   "en": "Heretic base stats",
-   "pick": "Fixa",
-   "spec": "Vida 440 (+132 por nível), dano 18 (+3,6 por nível), armadura 0, velocidade 8 m/s, pulo triplo. Regeneração negativa: −9/s no Chuvisco, −6/s na Tempestade, −3,6/s na Monção (aumenta por nível).",
-   "why": "Maior vida, maior dano e maior velocidade de todos os sobreviventes. Em troca, a vida cai sem parar. Essa perda não conta como dano: armadura e Placa da Armadura de Repulsão não a reduzem. Segundo a wiki, quedas longas sem pular ou sem a Dissipação deixam a vida em 1 e a matam."
-  },
-  {
-   "slot": "Primária",
-   "pt": "Olhar Faminto",
-   "en": "Hungering Gaze",
-   "pick": "Fixa",
-   "spec": "Fragmentos teleguiados que explodem após um tempo: 120% do dano base. 12 cargas (+12 por Visões), recarga de 2 s (+2 s por Visões) contada a partir do último disparo. Coeficiente 0,1 no acerto inicial e 1,0 na explosão.",
-   "why": "Quando a recarga termina, todas as cargas voltam de uma vez, e cada disparo reinicia o contador. Velocidade de ataque aumenta a cadência, mas não encurta a recarga; redução de recarga (Cabeça Alienígena, Cartucheira) encurta. As explosões ativam itens ao acertar e aplicam a Ruína em tudo que tocam."
-  },
-  {
-   "slot": "Secundária",
-   "pt": "Redemoinho Cortante",
-   "en": "Slicing Maelstrom",
-   "pick": "Fixa",
-   "spec": "Até 5 acertos por segundo de 175% (875% por segundo; o texto do jogo em português fala só em 175%), depois explode em 14 m por 700% e enraíza por 3 s (+3 s por Ganchos). Recarga 5 s (+5 s por Ganchos). Coeficiente 0,2 no redemoinho e 1,0 na explosão.",
-   "why": "Segurar o botão só aumenta a velocidade de lançamento, e ele dispara sozinho com a carga cheia. Contra alvos perto, use sem carregar. A explosão de 700% passa do limite de 400% dos Cinturões de Kjaro e Runald."
-  },
-  {
-   "slot": "Utilitária",
-   "pt": "Dissipação Sombria",
-   "en": "Shadowfade",
-   "pick": "Fixa",
-   "spec": "Intangível e +30% de movimento por 3 s (+3 s por Passadas). Cura 18,2% (+18,2% por Passadas) da vida máxima, em 14 pulsos de 1,3% (o texto do jogo em português diz 25%). Recarga 6 s, contada depois que o efeito acaba.",
-   "why": "É a única cura própria dela e o que compensa a regeneração negativa. Não dá para cancelar nem usar habilidades durante o efeito, mas dá para usar equipamento e interagir. Usada no ar, permite voar. Não protege de dano de queda nem remove dano contínuo já aplicado."
-  },
-  {
-   "slot": "Especial",
-   "pt": "Ruína",
-   "en": "Ruin",
-   "pick": "Fixa",
-   "spec": "Causar dano aplica 1 acúmulo de Ruína por 10 s (+10 s por Essência). Ativar detona todos os acúmulos em alcance ilimitado: 300% + 120% por acúmulo. Recarga 8 s (+8 s por Essência). Coeficiente 1,0.",
-   "why": "A chance de aplicar Ruína escala com o coeficiente do ataque; ataques com coeficiente 0, como sangramento, não aplicam. Durante a recarga, nada aplica Ruína, e drones aliados nunca aplicam. Os tiros da detonação atravessam o terreno e não erram."
-  },
-  {
-   "slot": "Qualquer",
-   "pt": "Nunca Mais",
-   "en": "Nevermore",
-   "pick": "Fixa",
-   "spec": "Recarga 1 s. Não faz nada além de um grasnido.",
-   "why": "Aparece no lugar de uma habilidade se você perder o item da Heresia correspondente, por exemplo no Templo da Ordem (Shrine of Order) ou na Fonte Purificante (Cleansing Pool). Sem os quatro itens, ela não consegue atacar diretamente. Evite essas interações."
-  }
- ],
- "sections": [
-  {
-   "id": "comum",
-   "name": "Comum",
-   "color": "branco",
-   "intro": "Os brancos da Herege aceleram o Olhar Faminto e compensam a vida que ela perde fora de combate.",
-   "items": [
+  "id": "heretic",
+  "name_pt": "Herege",
+  "name_en": "Heretic",
+  "title": "Herege: Build de Ruína e Dissipação",
+  "tagline": "Vida enorme, Ruína à distância e invulnerabilidade",
+  "lede": "A Herege (Heretic) não aparece na seleção de personagens. Você vira ela no meio da run ao segurar os quatro itens lunares da Heresia ao mesmo tempo: Visões Profanas, Ganchos da Heresia, Passadas Profanas e Essência da Heresia. Ela tem a maior vida e o maior dano base do jogo, mas perde vida o tempo todo; a build empilha Passadas Profanas e reduz recargas para manter a Dissipação Sombria curando, enquanto o Olhar Faminto marca tudo com Ruína para detonar de qualquer distância.",
+  "loadout": [
     {
-     "icon": "soldiers-syringe",
-     "pt": "Seringa Militar",
-     "en": "Soldier's Syringe",
-     "prio": 1,
-     "qty": "3 a 6",
-     "effect": "+15% (+15% por acúmulo) de velocidade de ataque.",
-     "why": "Aumenta a cadência do Olhar Faminto e a velocidade de carga do Redemoinho. Mais fragmentos por segundo aplicam Ruína mais rápido. Não encurta a recarga das cargas."
+      "slot": "Primária",
+      "skill": "Olhar Faminto (Hungering Gaze), de Visões Profanas (Visions of Heresy)"
     },
     {
-     "icon": "lens-makers-glasses",
-     "pt": "Óculos do Fabricante de Lentes",
-     "en": "Lens-Maker's Glasses",
-     "prio": 2,
-     "qty": "2 a 5",
-     "effect": "10% (+10% por acúmulo) de chance de Acerto Crítico, que causa dano dobrado.",
-     "why": "Cada fragmento do Olhar é um acerto que pode ser crítico. É a base para a Foice do Ceifador curar e para a Mira Laser."
+      "slot": "Secundária",
+      "skill": "Redemoinho Cortante (Slicing Maelstrom), de Ganchos da Heresia (Hooks of Heresy)"
     },
     {
-     "icon": "cautious-slug",
-     "pt": "Lesma Precavida",
-     "en": "Cautious Slug",
-     "prio": 2,
-     "qty": "2 a 3",
-     "effect": "+3 de vida/s (+3 por acúmulo) de regeneração base fora de combate.",
-     "why": "Segundo a wiki, duas Lesmas anulam a regeneração negativa fora de combate e a terceira faz ela voltar a se curar. A Dissipação Sombria ajuda a ficar sem levar dano para ativar."
+      "slot": "Utilitária",
+      "skill": "Dissipação Sombria (Shadowfade), de Passadas Profanas (Strides of Heresy)"
     },
     {
-     "icon": "tougher-times",
-     "pt": "Tempos Difíceis",
-     "en": "Tougher Times",
-     "prio": 3,
-     "qty": "1 a 3",
-     "effect": "15% (+15% por acúmulo) de chance de bloquear dano recebido. Não é afetado por sorte.",
-     "why": "Com armadura 0 e a vida sempre caindo, cada golpe evitado conta. Não bloqueia a regeneração negativa, que não é dano."
-    },
-    {
-     "icon": "personal-shield-generator",
-     "pt": "Gerador de Escudo Pessoal",
-     "en": "Personal Shield Generator",
-     "prio": 3,
-     "qty": "1 a 2",
-     "effect": "Ganha escudo igual a 8% (+8% por acúmulo) da vida máxima. Recarrega fora de perigo.",
-     "why": "O escudo é proporcional à vida máxima, e a dela é a maior do jogo: 8% de 440 já é mais do que muitos itens de vida fixa dão."
-    },
-    {
-     "icon": "armor-piercing-rounds",
-     "pt": "Projéteis Perfurantes",
-     "en": "Armor-Piercing Rounds",
-     "prio": 3,
-     "qty": "1 a 3",
-     "effect": "+20% (+20% por acúmulo) de dano contra chefes.",
-     "why": "Aumenta os fragmentos e a detonação da Ruína, que é a principal fonte de dano contra chefes."
-    },
-    {
-     "icon": "backup-magazine",
-     "pt": "Pente Reserva",
-     "en": "Backup Magazine",
-     "prio": 3,
-     "qty": "1 a 2",
-     "effect": "+1 (+1 por acúmulo) carga da habilidade Secundária.",
-     "why": "Dá cargas extras ao Redemoinho Cortante sem aumentar a recarga, ao contrário de um segundo Ganchos da Heresia."
-    },
-    {
-     "icon": "topaz-brooch",
-     "pt": "Broche de Topázio",
-     "en": "Topaz Brooch",
-     "prio": 4,
-     "qty": "1 a 2",
-     "effect": "Ganha barreira temporária de 15 (+15 por acúmulo) de vida ao abater.",
-     "why": "A barreira ajuda contra golpes, mas a wiki avisa que ela morre se a vida chegar a zero mesmo com barreira. Não salva da regeneração negativa."
+      "slot": "Especial",
+      "skill": "Ruína (Ruin), de Essência da Heresia (Essence of Heresy)"
     }
-   ]
-  },
-  {
-   "id": "incomum",
-   "name": "Incomum",
-   "color": "verde",
-   "intro": "Os verdes trazem cura por acerto e efeitos que aproveitam os golpes grandes da Ruína e do Redemoinho.",
-   "items": [
+  ],
+  "skills": [
     {
-     "icon": "harvesters-scythe",
-     "pt": "Foice do Ceifador",
-     "en": "Harvester's Scythe",
-     "prio": 1,
-     "qty": "1 a 3",
-     "effect": "+5% de chance de crítico. Críticos curam 8 (+4 por acúmulo) de vida.",
-     "why": "O Olhar Faminto dispara muitos fragmentos e cada um pode ser crítico. É cura constante enquanto você atira, o que segura a regeneração negativa entre as Dissipações."
+      "slot": "Passiva",
+      "pt": "Atributos da Herege",
+      "en": "Heretic base stats",
+      "pick": "Fixa",
+      "spec": "Vida 440 (+132 por nível), dano 18 (+3,6 por nível), armadura 0, velocidade 8 m/s, pulo triplo. Regeneração negativa: −9/s no Chuvisco (−1,8 por nível), −6/s na Tempestade (−1,2 por nível), −3,6/s na Monção (−0,72 por nível).",
+      "why": "Maior vida, maior dano e maior velocidade de todos os sobreviventes. Em troca, a vida cai sem parar. Essa perda não conta como dano: armadura e Placa da Armadura de Repulsão não a reduzem. Segundo a wiki, quedas longas sem pular ou sem a Dissipação deixam a vida em 1 e a matam."
     },
     {
-     "icon": "kjaros-band",
-     "pt": "Cinturão de Kjaro",
-     "en": "Kjaro's Band",
-     "prio": 2,
-     "qty": "1 a 2",
-     "effect": "Acertos de mais de 400% de dano também lançam um tornado de fogo rúnico de 300% (+300% por acúmulo) de dano TOTAL ao longo do tempo. Recarrega a cada 10 s.",
-     "why": "A detonação da Ruína com 1 acúmulo já causa 420%, e a explosão do Redemoinho causa 700%. Os dois ativam o cinturão com facilidade."
+      "slot": "Primária",
+      "pt": "Olhar Faminto",
+      "en": "Hungering Gaze",
+      "pick": "Fixa",
+      "spec": "Fragmentos teleguiados que explodem após um tempo: 120% do dano base. 12 cargas (+12 por Visões), recarga de 2 s (+2 s por Visões) contada a partir do último disparo. Coeficiente 0,1 no acerto inicial e 1,0 na explosão.",
+      "why": "Quando a recarga termina, todas as cargas voltam de uma vez, e cada disparo reinicia o contador. Velocidade de ataque aumenta a cadência, mas não encurta a recarga. A wiki cita Cartucheira e Pureza (Purity, lunar) para compensar; a Cabeça Alienígena rende pouco aqui, porque a primeira cópia tira só 0,5 s. As explosões ativam itens ao acertar e aplicam a Ruína em tudo que tocam."
     },
     {
-     "icon": "leeching-seed",
-     "pt": "Semente Sanguessuga",
-     "en": "Leeching Seed",
-     "prio": 2,
-     "qty": "1 a 3",
-     "effect": "Causar dano cura 1 (+1 por acúmulo) de vida.",
-     "why": "Cada fragmento acerta duas vezes (impacto e explosão). Com velocidade de ataque, vira cura contínua contra a perda de vida."
+      "slot": "Secundária",
+      "pt": "Redemoinho Cortante",
+      "en": "Slicing Maelstrom",
+      "pick": "Fixa",
+      "spec": "Até 5 acertos por segundo de 175% (875% por segundo; o texto do jogo em português fala só em 175%), depois explode em 14 m por 700% e enraíza por 3 s (+3 s por Ganchos). Recarga 5 s (+5 s por Ganchos). Coeficiente 0,2 no redemoinho e 1,0 na explosão.",
+      "why": "Segurar o botão só aumenta a velocidade de lançamento, e ele dispara sozinho com a carga cheia. Contra alvos perto, use sem carregar. A explosão de 700% passa do limite de 400% dos Cinturões de Kjaro e Runald."
     },
     {
-     "icon": "ukulele",
-     "pt": "Ukulele",
-     "en": "Ukulele",
-     "prio": 2,
-     "qty": "1 a 2",
-     "effect": "25% de chance de disparar um raio em cadeia de 80% de dano TOTAL em até 3 (+2 por acúmulo) alvos a 20 m (+2 m por acúmulo).",
-     "why": "As explosões dos fragmentos têm coeficiente 1,0 e saem em grande quantidade."
+      "slot": "Utilitária",
+      "pt": "Dissipação Sombria",
+      "en": "Shadowfade",
+      "pick": "Fixa",
+      "spec": "Intangível e +30% de movimento por 3 s (+3 s por Passadas). Cura 18,2% (+18,2% por Passadas) da vida máxima, em 14 pulsos de 1,3% (o texto do jogo em português diz 25%). Recarga 6 s, contada depois que o efeito acaba.",
+      "why": "É a única cura própria dela e o que compensa a regeneração negativa. Não dá para cancelar nem usar habilidades durante o efeito, mas dá para usar equipamento e interagir. Usada no ar, permite voar. Não protege de dano de queda nem remove dano contínuo já aplicado."
     },
     {
-     "icon": "runalds-band",
-     "pt": "Cinturão de Runald",
-     "en": "Runald's Band",
-     "prio": 3,
-     "qty": "1",
-     "effect": "Acertos de mais de 400% de dano também lançam uma explosão de gelo rúnica que reduz a velocidade em 80% por 3 s (+3 s por acúmulo) e causa 250% (+250% por acúmulo) de dano TOTAL. Recarrega a cada 10 s.",
-     "why": "Mesmo gatilho do Kjaro: Ruína e explosão do Redemoinho. A lentidão ajuda a manter distância."
+      "slot": "Especial",
+      "pt": "Ruína",
+      "en": "Ruin",
+      "pick": "Fixa",
+      "spec": "Causar dano aplica 1 acúmulo de Ruína por 10 s (+10 s por Essência). Ativar detona todos os acúmulos em alcance ilimitado: 300% + 120% por acúmulo. Recarga 8 s (+8 s por Essência). Coeficiente 1,0.",
+      "why": "A chance de aplicar Ruína escala com o coeficiente do ataque; ataques com coeficiente 0, como sangramento, não aplicam. Durante a recarga, nada aplica Ruína, e drones aliados nunca aplicam. Os tiros da detonação atravessam o terreno e não erram."
     },
     {
-     "icon": "atg-missile-mk-1",
-     "pt": "Míssil ASM Mk. 1",
-     "en": "AtG Missile Mk. 1",
-     "prio": 3,
-     "qty": "1 a 2",
-     "effect": "10% de chance de disparar um míssil que causa 300% (+300% por acúmulo) de dano TOTAL.",
-     "why": "Muitos acertos de coeficiente 1,0 por segundo com o Olhar Faminto."
-    },
-    {
-     "icon": "bandolier",
-     "pt": "Cartucheira",
-     "en": "Bandolier",
-     "prio": 3,
-     "qty": "1 a 2",
-     "effect": "18% (+10% por acúmulo) de chance ao abater de soltar munição que reinicia todas as recargas de habilidade.",
-     "why": "A wiki cita a Cartucheira como forma de compensar a recarga lenta do Olhar Faminto. Também pode devolver a Ruína e a Dissipação na hora."
-    },
-    {
-     "icon": "predatory-instincts",
-     "pt": "Instintos Predatórios",
-     "en": "Predatory Instincts",
-     "prio": 3,
-     "qty": "1 (com Óculos)",
-     "effect": "+5% de chance de crítico. Críticos dão +12% de velocidade de ataque, até 36% (+24% por acúmulo).",
-     "why": "Mais cadência para o Olhar quando você já tem chance de crítico."
+      "slot": "Qualquer",
+      "pt": "Nunca Mais",
+      "en": "Nevermore",
+      "pick": "Fixa",
+      "spec": "Recarga 1 s. Não faz nada além de um grasnido.",
+      "why": "Aparece no lugar de uma habilidade se você perder o item da Heresia correspondente, por exemplo no Templo da Ordem (Shrine of Order) ou na Fonte Purificante (Cleansing Pool). Sem os quatro itens, ela não consegue atacar diretamente. Evite essas interações."
     }
-   ]
-  },
-  {
-   "id": "lendario",
-   "name": "Lendário",
-   "color": "vermelho",
-   "intro": "Os vermelhos que mais mudam a Herege encurtam recargas e dão mais Dissipações.",
-   "items": [
+  ],
+  "sections": [
     {
-     "icon": "hardlight-afterburner",
-     "pt": "Pós-combustor de Holograma",
-     "en": "Hardlight Afterburner",
-     "prio": 1,
-     "qty": "1 a 2",
-     "effect": "+2 (+2 por acúmulo) cargas da habilidade Utilitária e −33% no tempo de recarga dela.",
-     "why": "Três Dissipações seguidas e recarga menor. Segundo a wiki, essas cargas não trazem o aumento de recarga que um Passadas extra traria. É mais cura e mais invulnerabilidade."
+      "id": "comum",
+      "name": "Comum",
+      "color": "branco",
+      "intro": "Os brancos da Herege aceleram o Olhar Faminto e compensam a vida que ela perde fora de combate.",
+      "items": [
+        {
+          "icon": "soldiers-syringe",
+          "pt": "Seringa Militar",
+          "en": "Soldier's Syringe",
+          "prio": 1,
+          "qty": "3 a 6",
+          "effect": "+15% (+15% por acúmulo) de velocidade de ataque.",
+          "why": "Aumenta a cadência do Olhar Faminto e a velocidade de carga do Redemoinho. Mais fragmentos por segundo aplicam Ruína mais rápido. Não encurta a recarga das cargas."
+        },
+        {
+          "icon": "lens-makers-glasses",
+          "pt": "Óculos do Fabricante de Lentes",
+          "en": "Lens-Maker's Glasses",
+          "prio": 2,
+          "qty": "2 a 5",
+          "effect": "10% (+10% por acúmulo) de chance de Acerto Crítico, que causa dano dobrado.",
+          "why": "Cada fragmento do Olhar é um acerto que pode ser crítico. É a base para a Foice do Ceifador curar e para a Mira Laser."
+        },
+        {
+          "icon": "cautious-slug",
+          "pt": "Lesma Precavida",
+          "en": "Cautious Slug",
+          "prio": 2,
+          "qty": "2 a 3",
+          "effect": "+3 de vida/s (+3 por acúmulo) de regeneração base fora de combate.",
+          "why": "Segundo a wiki, duas Lesmas anulam a regeneração negativa fora de combate e a terceira faz ela voltar a se curar. A Dissipação Sombria ajuda a ficar sem levar dano para ativar."
+        },
+        {
+          "icon": "tougher-times",
+          "pt": "Tempos Difíceis",
+          "en": "Tougher Times",
+          "prio": 3,
+          "qty": "1 a 3",
+          "effect": "15% (+15% por acúmulo) de chance de bloquear dano recebido. Não é afetado por sorte.",
+          "why": "Com armadura 0 e a vida sempre caindo, cada golpe evitado conta. Não bloqueia a regeneração negativa, que não é dano."
+        },
+        {
+          "icon": "personal-shield-generator",
+          "pt": "Gerador de Escudo Pessoal",
+          "en": "Personal Shield Generator",
+          "prio": 3,
+          "qty": "1 a 2",
+          "effect": "Ganha escudo igual a 8% (+8% por acúmulo) da vida máxima. Recarrega fora de perigo.",
+          "why": "O escudo é proporcional à vida máxima, e a dela é a maior do jogo: 8% de 440 já é mais do que muitos itens de vida fixa dão."
+        },
+        {
+          "icon": "armor-piercing-rounds",
+          "pt": "Projéteis Perfurantes",
+          "en": "Armor-Piercing Rounds",
+          "prio": 3,
+          "qty": "1 a 3",
+          "effect": "+20% (+20% por acúmulo) de dano contra chefes.",
+          "why": "Aumenta os fragmentos e a detonação da Ruína, que é a principal fonte de dano contra chefes."
+        },
+        {
+          "icon": "backup-magazine",
+          "pt": "Pente Reserva",
+          "en": "Backup Magazine",
+          "prio": 3,
+          "qty": "1 a 2",
+          "effect": "+1 (+1 por acúmulo) carga da habilidade Secundária.",
+          "why": "Dá cargas extras ao Redemoinho Cortante sem aumentar a recarga, ao contrário de um segundo Ganchos da Heresia."
+        },
+        {
+          "icon": "topaz-brooch",
+          "pt": "Broche de Topázio",
+          "en": "Topaz Brooch",
+          "prio": 4,
+          "qty": "1 a 2",
+          "effect": "Ganha barreira temporária de 15 (+15 por acúmulo) de vida ao abater.",
+          "why": "A barreira ajuda contra golpes, mas a wiki avisa que ela morre se a vida chegar a zero mesmo com barreira. Não salva da regeneração negativa."
+        }
+      ]
     },
     {
-     "icon": "alien-head",
-     "pt": "Cabeça Alienígena",
-     "en": "Alien Head",
-     "prio": 1,
-     "qty": "1 a 2",
-     "effect": "Reduz o tempo de recarga das habilidades em 25% (+25% por acúmulo).",
-     "why": "Encurta tudo o que os itens da Heresia alongam: recarga das cargas do Olhar, Redemoinho, Ruína e Dissipação. A wiki cita o item como forma de compensar a recarga do Olhar Faminto."
+      "id": "incomum",
+      "name": "Incomum",
+      "color": "verde",
+      "intro": "Os verdes trazem cura por acerto e efeitos que aproveitam os golpes grandes da Ruína e do Redemoinho.",
+      "items": [
+        {
+          "icon": "harvesters-scythe",
+          "pt": "Foice do Ceifador",
+          "en": "Harvester's Scythe",
+          "prio": 1,
+          "qty": "1 a 3",
+          "effect": "+5% de chance de crítico. Críticos curam 8 (+4 por acúmulo) de vida.",
+          "why": "O Olhar Faminto dispara muitos fragmentos e cada um pode ser crítico. É cura constante enquanto você atira, o que segura a regeneração negativa entre as Dissipações."
+        },
+        {
+          "icon": "kjaros-band",
+          "pt": "Cinturão de Kjaro",
+          "en": "Kjaro's Band",
+          "prio": 2,
+          "qty": "1 a 2",
+          "effect": "Acertos de mais de 400% de dano também lançam um tornado de fogo rúnico de 300% (+300% por acúmulo) de dano TOTAL ao longo do tempo. Recarrega a cada 10 s.",
+          "why": "A detonação da Ruína com 1 acúmulo já causa 420%, e a explosão do Redemoinho causa 700%. Os dois ativam o cinturão com facilidade."
+        },
+        {
+          "icon": "leeching-seed",
+          "pt": "Semente Sanguessuga",
+          "en": "Leeching Seed",
+          "prio": 2,
+          "qty": "1 a 3",
+          "effect": "Causar dano cura 1 (+1 por acúmulo) de vida.",
+          "why": "Cada fragmento acerta duas vezes (impacto e explosão). Com velocidade de ataque, vira cura contínua contra a perda de vida."
+        },
+        {
+          "icon": "ukulele",
+          "pt": "Ukulele",
+          "en": "Ukulele",
+          "prio": 2,
+          "qty": "1 a 2",
+          "effect": "25% de chance de disparar um raio em cadeia de 80% de dano TOTAL em até 3 (+2 por acúmulo) alvos a 20 m (+2 m por acúmulo).",
+          "why": "As explosões dos fragmentos têm coeficiente 1,0 e saem em grande quantidade."
+        },
+        {
+          "icon": "runalds-band",
+          "pt": "Cinturão de Runald",
+          "en": "Runald's Band",
+          "prio": 3,
+          "qty": "1",
+          "effect": "Acertos de mais de 400% de dano também lançam uma explosão de gelo rúnica que reduz a velocidade em 80% por 3 s (+3 s por acúmulo) e causa 250% (+250% por acúmulo) de dano TOTAL. Recarrega a cada 10 s.",
+          "why": "Mesmo gatilho do Kjaro: Ruína e explosão do Redemoinho. A lentidão ajuda a manter distância."
+        },
+        {
+          "icon": "atg-missile-mk-1",
+          "pt": "Míssil ASM Mk. 1",
+          "en": "AtG Missile Mk. 1",
+          "prio": 3,
+          "qty": "1 a 2",
+          "effect": "10% de chance de disparar um míssil que causa 300% (+300% por acúmulo) de dano TOTAL.",
+          "why": "Muitos acertos de coeficiente 1,0 por segundo com o Olhar Faminto."
+        },
+        {
+          "icon": "bandolier",
+          "pt": "Cartucheira",
+          "en": "Bandolier",
+          "prio": 3,
+          "qty": "1 a 2",
+          "effect": "18% (+10% por acúmulo) de chance ao abater de soltar munição que reinicia todas as recargas de habilidade.",
+          "why": "A wiki cita a Cartucheira como forma de compensar a recarga lenta do Olhar Faminto. Também pode devolver a Ruína e a Dissipação na hora."
+        },
+        {
+          "icon": "predatory-instincts",
+          "pt": "Instintos Predatórios",
+          "en": "Predatory Instincts",
+          "prio": 3,
+          "qty": "1 (com Óculos)",
+          "effect": "+5% de chance de crítico. Críticos dão +12% de velocidade de ataque, até 36% (+24% por acúmulo).",
+          "why": "Mais cadência para o Olhar quando você já tem chance de crítico."
+        }
+      ]
     },
     {
-     "icon": "rejuvenation-rack",
-     "pt": "Suporte do Rejuvenescimento",
-     "en": "Rejuvenation Rack",
-     "prio": 2,
-     "qty": "1",
-     "effect": "Cura +100% (+100% por acúmulo) a mais.",
-     "why": "Dobra a cura de Foice, Semente e dos outros itens de cura. O guia da Rogue Ranker o coloca em primeiro lugar por dobrar também a Dissipação; a wiki não comenta essa interação."
+      "id": "lendario",
+      "name": "Lendário",
+      "color": "vermelho",
+      "intro": "Os vermelhos que mais mudam a Herege encurtam recargas e dão mais Dissipações.",
+      "items": [
+        {
+          "icon": "hardlight-afterburner",
+          "pt": "Pós-combustor de Holograma",
+          "en": "Hardlight Afterburner",
+          "prio": 1,
+          "qty": "1 a 2",
+          "effect": "+2 (+2 por acúmulo) cargas da habilidade Utilitária e −33% no tempo de recarga dela.",
+          "why": "Três Dissipações seguidas e recarga menor. Segundo a wiki, essas cargas não trazem o aumento de recarga que um Passadas extra traria. É mais cura e mais invulnerabilidade."
+        },
+        {
+          "icon": "alien-head",
+          "pt": "Cabeça Alienígena",
+          "en": "Alien Head",
+          "prio": 1,
+          "qty": "1 a 2",
+          "effect": "Reduz o tempo de recarga das habilidades em 25% (+25% por acúmulo).",
+          "why": "Encurta as recargas do Redemoinho, da Ruína e da Dissipação, que os itens da Heresia alongam. No Olhar Faminto rende pouco: a wiki diz que a redução percentual tira só 0,5 s da recarga de 2 s na primeira cópia."
+        },
+        {
+          "icon": "rejuvenation-rack",
+          "pt": "Suporte do Rejuvenescimento",
+          "en": "Rejuvenation Rack",
+          "prio": 2,
+          "qty": "1",
+          "effect": "Cura +100% (+100% por acúmulo) a mais.",
+          "why": "Dobra a cura de Foice, Semente e dos outros itens de cura. O guia da Rogue Ranker o coloca em primeiro lugar por dobrar também a Dissipação; a wiki não comenta essa interação."
+        },
+        {
+          "icon": "brilliant-behemoth",
+          "pt": "Brutamontes Reluzente",
+          "en": "Brilliant Behemoth",
+          "prio": 2,
+          "qty": "1 a 2",
+          "effect": "Todos os ataques explodem em 4 m (+2,5 m por acúmulo) causando 60% de dano TOTAL extra.",
+          "why": "Cada fragmento vira dano em área ao redor do alvo, útil contra grupos que o Olhar acerta um por um."
+        },
+        {
+          "icon": "laser-scope",
+          "pt": "Mira Laser",
+          "en": "Laser Scope",
+          "prio": 3,
+          "qty": "1 (com crítico)",
+          "effect": "Acertos Críticos causam +100% (+100% por acúmulo) de dano adicional.",
+          "why": "Com Óculos e Foice, os críticos dos fragmentos e da detonação da Ruína ficam muito mais fortes."
+        },
+        {
+          "icon": "sentient-meat-hook",
+          "pt": "Gancho de Carnes Senciente",
+          "en": "Sentient Meat Hook",
+          "prio": 3,
+          "qty": "1",
+          "effect": "20% (+20% por acúmulo) de chance ao acertar de lançar ganchos teleguiados em até 10 (+5 por acúmulo) inimigos, causando 100% de dano TOTAL.",
+          "why": "Muitos acertos por segundo com o Olhar Faminto, e os ganchos alcançam até 10 inimigos."
+        },
+        {
+          "icon": "57-leaf-clover",
+          "pt": "Trevo 57",
+          "en": "57 Leaf Clover",
+          "prio": 3,
+          "qty": "1",
+          "effect": "Todos os efeitos aleatórios são rolados +1 (+1 por acúmulo) vez a seu favor.",
+          "why": "Melhora crítico, Ukulele, Míssil e Gancho."
+        }
+      ]
     },
     {
-     "icon": "brilliant-behemoth",
-     "pt": "Brutamontes Reluzente",
-     "en": "Brilliant Behemoth",
-     "prio": 2,
-     "qty": "1 a 2",
-     "effect": "Todos os ataques explodem em 4 m (+2,5 m por acúmulo) causando 60% de dano TOTAL extra.",
-     "why": "Cada fragmento vira dano em área ao redor do alvo, útil contra grupos que o Olhar acerta um por um."
+      "id": "chefe",
+      "name": "Chefe",
+      "color": "amarelo",
+      "intro": "Itens de chefe só caem de chefes de teleporte. Para a Herege, os dois que mexem na regeneração valem muito.",
+      "items": [
+        {
+          "icon": "titanic-knurl",
+          "pt": "Fragmento Titânico",
+          "en": "Titanic Knurl",
+          "prio": 1,
+          "qty": "1 ou mais",
+          "effect": "+40 (+40 por acúmulo) de vida máxima e +1,6 de vida/s (+1,6 por acúmulo) de regeneração base.",
+          "why": "Regeneração base fixa abate direto da perda de vida, dentro e fora de combate."
+        },
+        {
+          "icon": "irradiant-pearl",
+          "pt": "Pérola Irradiante",
+          "en": "Irradiant Pearl",
+          "prio": 2,
+          "qty": "1 ou mais",
+          "effect": "Aumenta TODOS os atributos em 10% (+10% por acúmulo).",
+          "why": "A wiki explica que, apesar do texto, a Pérola não amplifica a regeneração negativa: ela dá uma regeneração fixa por acúmulo, além de vida, dano e velocidade."
+        }
+      ]
     },
     {
-     "icon": "laser-scope",
-     "pt": "Mira Laser",
-     "en": "Laser Scope",
-     "prio": 3,
-     "qty": "1 (com crítico)",
-     "effect": "Acertos Críticos causam +100% (+100% por acúmulo) de dano adicional.",
-     "why": "Com Óculos e Foice, os críticos dos fragmentos e da detonação da Ruína ficam muito mais fortes."
+      "id": "equipamento",
+      "name": "Equipamentos",
+      "color": "laranja",
+      "intro": "Só dá para carregar um. A Herege pode usar equipamento durante a Dissipação Sombria.",
+      "items": [
+        {
+          "icon": "gnarled-woodsprite",
+          "pt": "Criatura da Floresta Deformada",
+          "en": "Gnarled Woodsprite",
+          "prio": 1,
+          "qty": "1 (recarga 15 s)",
+          "effect": "Ganha um seguidor que cura 1,5% da vida máxima por segundo. Pode ser enviado a um aliado para curar 10% da vida máxima dele.",
+          "why": "A wiki diz que, a partir do nível 6, ele anula a regeneração negativa, curando mais em níveis altos. Com 440 de vida base, 1,5% por segundo rende muito."
+        },
+        {
+          "icon": "royal-capacitor",
+          "pt": "Capacitor Régio",
+          "en": "Royal Capacitor",
+          "prio": 2,
+          "qty": "1 (recarga 20 s)",
+          "effect": "Raio em um monstro marcado causando 3000% de dano e atordoando os monstros próximos.",
+          "why": "Dano grande à distância contra elites e chefes. Dá para usar mesmo durante a Dissipação, quando você não pode atacar."
+        },
+        {
+          "icon": "primordial-cube",
+          "pt": "Cubo Primordial",
+          "en": "Primordial Cube",
+          "prio": 3,
+          "qty": "1 (recarga 60 s)",
+          "effect": "Buraco negro que puxa inimigos a até 30 m para o centro por 10 s.",
+          "why": "Junta o grupo para o Redemoinho e a explosão de 14 m pegarem todos."
+        },
+        {
+          "icon": "gorags-opus",
+          "pt": "Opus de Gorag",
+          "en": "Gorag's Opus",
+          "prio": 4,
+          "qty": "1 (recarga 45 s)",
+          "effect": "Todos os aliados entram em frenesi por 7 s: +50% de movimento e +100% de velocidade de ataque.",
+          "why": "Dobra a cadência do Olhar Faminto por alguns segundos. Bom em grupo."
+        },
+        {
+          "icon": "spinel-tonic",
+          "pt": "Tônico de Espinélia",
+          "en": "Spinel Tonic",
+          "prio": 0,
+          "qty": "0 (equipamento lunar, recarga 60 s)",
+          "effect": "Por 20 s: +100% de dano, +70% de velocidade de ataque, +20 de armadura, +50% de vida máxima, +300% de regeneração passiva, +30% de movimento. Ao acabar, 20% de chance de Aflição do Tônico, que reduz todos os atributos em 5% (−5% por acúmulo).",
+          "why": "A wiki avisa: os +300% de regeneração multiplicam a regeneração negativa dela. Você perde vida quatro vezes mais rápido durante o efeito."
+        }
+      ]
     },
     {
-     "icon": "sentient-meat-hook",
-     "pt": "Gancho de Carnes Senciente",
-     "en": "Sentient Meat Hook",
-     "prio": 3,
-     "qty": "1",
-     "effect": "20% (+20% por acúmulo) de chance ao acertar de lançar ganchos teleguiados em até 10 (+5 por acúmulo) inimigos, causando 100% de dano TOTAL.",
-     "why": "Muitos acertos por segundo com o Olhar Faminto, e os ganchos alcançam até 10 inimigos."
+      "id": "lunar",
+      "name": "Lunares",
+      "color": "azul",
+      "intro": "Os quatro itens da Heresia são a Herege. Cada cópia extra aumenta um número da habilidade e, em três deles, também a recarga.",
+      "items": [
+        {
+          "icon": "strides-of-heresy",
+          "pt": "Passadas Profanas",
+          "en": "Strides of Heresy",
+          "prio": 1,
+          "qty": "2 a 3",
+          "effect": "Substitui a habilidade Utilitária por Dissipação Sombria: some, fica intangível e ganha +30% de movimento. Cura 18,2% (+18,2% por acúmulo) da vida máxima. Dura 3 (+3 por acúmulo) segundos.",
+          "why": "A única cópia extra que vale muito. A recarga de 6 s não aumenta por acúmulo, só começa depois do efeito: com 1 cópia, 18,2% a cada 9 s; com 2, 36,4% a cada 12 s e metade do tempo invulnerável; com 3, 54,6% a cada 15 s. Acima disso você passa mais tempo sem poder atacar."
+        },
+        {
+          "icon": "visions-of-heresy",
+          "pt": "Visões Profanas",
+          "en": "Visions of Heresy",
+          "prio": 1,
+          "qty": "1 a 2",
+          "effect": "Substitui a habilidade Primária por Olhar Faminto. Dispara fragmentos teleguiados que detonam após um tempo, causando 120% do dano base. Guarda até 12 cargas (+12 por acúmulo), que recarregam após 2 s (+2 s por acúmulo).",
+          "why": "Com 2 cópias são 24 cargas, mas a recarga sobe para 4 s. Só vale se você tiver velocidade de ataque para gastar tudo rápido ou Cabeça Alienígena para encurtar a espera."
+        },
+        {
+          "icon": "essence-of-heresy",
+          "pt": "Essência da Heresia",
+          "en": "Essence of Heresy",
+          "prio": 1,
+          "qty": "1",
+          "effect": "Substitui a habilidade Especial por Ruína. Causar dano aplica um acúmulo de Ruína por 10 (+10 por acúmulo) segundos. Ativar a habilidade detona todos os acúmulos em alcance ilimitado, causando 300% de dano mais 120% por acúmulo de Ruína. Recarrega após 8 (+8 por acúmulo) segundos.",
+          "why": "Uma cópia extra dobra a duração, mas também dobra a recarga para 16 s, e durante a recarga nada aplica Ruína. Para mais detonações, prefira Célula Lisada, que dá carga sem esse custo."
+        },
+        {
+          "icon": "hooks-of-heresy",
+          "pt": "Ganchos da Heresia",
+          "en": "Hooks of Heresy",
+          "prio": 1,
+          "qty": "1",
+          "effect": "Substitui a habilidade Secundária por Redemoinho Cortante. Carrega um projétil que causa 875% de dano por segundo aos inimigos próximos e explode após 3 s causando 700% de dano e enraizando os inimigos por 3 (+3 por acúmulo) segundos. Recarrega após 5 (+5 por acúmulo) segundos.",
+          "why": "Cópias extras só alongam o enraizamento e somam 5 s à recarga. Para mais Redemoinhos, use Pente Reserva."
+        }
+      ]
     },
     {
-     "icon": "57-leaf-clover",
-     "pt": "Trevo 57",
-     "en": "57 Leaf Clover",
-     "prio": 3,
-     "qty": "1",
-     "effect": "Todos os efeitos aleatórios são rolados +1 (+1 por acúmulo) vez a seu favor.",
-     "why": "Melhora crítico, Ukulele, Míssil e Gancho."
+      "id": "vazio",
+      "name": "Vazio",
+      "color": "roxo",
+      "intro": "Itens do Vazio (DLC Survivors of the Void) corrompem itens comuns quando pegos. Dois deles tomam itens desta build.",
+      "items": [
+        {
+          "icon": "lysate-cell",
+          "pt": "Célula Lisada",
+          "en": "Lysate Cell",
+          "prio": 1,
+          "qty": "1 a 2",
+          "effect": "+1 (+1 por acúmulo) carga da habilidade Especial e −33% no tempo de recarga dela. Corrompe todas as Células de Combustível.",
+          "why": "Segundo a wiki, com pelo menos uma carga sobrando você continua aplicando Ruína, e os próprios tiros da detonação aplicam Ruína. Resolve o maior ponto fraco da Ruína."
+        },
+        {
+          "icon": "weeping-fungus",
+          "pt": "Fungo Choroso",
+          "en": "Weeping Fungus",
+          "prio": 2,
+          "qty": "1 a 2",
+          "effect": "Cura 2% (+2% por acúmulo) da vida por segundo enquanto corre. Corrompe todos os Fungos Vibrantes.",
+          "why": "A Herege é a sobrevivente mais rápida e a Dissipação pode ser usada correndo. Cura proporcional à vida máxima, que é enorme. Corrompe o Fungo Vibrante, que pede para ficar parada."
+        },
+        {
+          "icon": "polylute",
+          "pt": "Polialaúde",
+          "en": "Polylute",
+          "prio": 3,
+          "qty": "1",
+          "effect": "25% de chance de disparar um raio de 60% de dano TOTAL até 3 (+3 por acúmulo) vezes. Corrompe todos os Ukuleles.",
+          "why": "Mais forte em alvo único, como chefes. Corrompe os Ukuleles que esta build recomenda: pegue só se preferir dano no chefe."
+        },
+        {
+          "icon": "singularity-band",
+          "pt": "Faixa da Singularidade",
+          "en": "Singularity Band",
+          "prio": 4,
+          "qty": "1",
+          "effect": "Acertos de mais de 400% de dano também lançam um buraco negro que puxa inimigos a até 15 m para o centro. Dura 5 s e colapsa causando 100% (+100% por acúmulo) de dano TOTAL. Recarrega a cada 20 s. Corrompe todos os Cinturões de Runald e de Kjaro.",
+          "why": "Junta grupos com a Ruína e o Redemoinho, mas corrompe os dois Cinturões recomendados. A wiki avisa que, com vários inimigos marcados, a detonação da Ruína só ativa a Faixa em um deles."
+        }
+      ]
     }
-   ]
-  },
-  {
-   "id": "chefe",
-   "name": "Chefe",
-   "color": "amarelo",
-   "intro": "Itens de chefe só caem de chefes de teleporte. Para a Herege, os dois que mexem na regeneração valem muito.",
-   "items": [
+  ],
+  "synergy": [
     {
-     "icon": "titanic-knurl",
-     "pt": "Fragmento Titânico",
-     "en": "Titanic Knurl",
-     "prio": 1,
-     "qty": "1 ou mais",
-     "effect": "+40 (+40 por acúmulo) de vida máxima e +1,6 de vida/s (+1,6 por acúmulo) de regeneração base.",
-     "why": "Regeneração base fixa abate direto da perda de vida, dentro e fora de combate."
+      "title": "Como virar a Herege",
+      "text": "Os itens da Heresia são desbloqueados pelo desafio Destruidor de Barreiras (Blockade Breaker): abater 15 monstros chefes em uma só run. A wiki confirma Visões e Ganchos; para Passadas e Essência ela se contradiz (veja as notas). Depois disso eles aparecem nas Cápsulas Lunares (1 Moeda Lunar) e nos Brotos Lunares do Bazar (2 Moedas Lunares). Ao segurar os quatro ao mesmo tempo você vira a Herege e troca os atributos base pelos dela. O guia da Rogue Ranker sugere começar de Capitão (Captain), porque segundo a wiki os Microrrobôs Defensivos dele continuam depois da transformação."
     },
     {
-     "icon": "irradiant-pearl",
-     "pt": "Pérola Irradiante",
-     "en": "Irradiant Pearl",
-     "prio": 2,
-     "qty": "1 ou mais",
-     "effect": "Aumenta TODOS os atributos em 10% (+10% por acúmulo).",
-     "why": "A wiki explica que, apesar do texto, a Pérola não amplifica a regeneração negativa: ela dá uma regeneração fixa por acúmulo, além de vida, dano e velocidade."
+      "title": "Empilhar a Heresia",
+      "text": "Cada cópia extra mantém a habilidade e muda os números. Visões soma 12 cargas e 2 s de recarga; Ganchos soma 3 s de enraizamento e 5 s de recarga; Essência soma 10 s de duração e 8 s de recarga. Passadas é diferente: soma 18,2% de cura e 3 s de duração sem aumentar a recarga de 6 s, por isso é a cópia que mais vale. Itens de carga (Pente Reserva, Pós-combustor, Célula Lisada) dão cargas sem aumentar a recarga."
+    },
+    {
+      "title": "Vida que só cai",
+      "text": "A regeneração dela é negativa e cresce por nível. Não conta como dano, então armadura, Tempos Difíceis e Placa de Repulsão não ajudam contra ela. O que ajuda é regeneração fixa (Fragmento Titânico, Pérola Irradiante, Lesma Precavida fora de combate), cura percentual (Dissipação, Criatura da Floresta, Fungo Choroso) e cura por acerto (Foice, Semente). Vidro Configurado corta a vida máxima pela metade e a perda fixa passa a ganhar da cura percentual."
+    },
+    {
+      "title": "Ruína e acertos grandes",
+      "text": "Todo dano aplica Ruína, com chance proporcional ao coeficiente. As explosões do Olhar (1,0) aplicam bem; o redemoinho (0,2) e o impacto inicial dos fragmentos (0,1) aplicam pouco. A detonação causa 300% + 120% por acúmulo em todos os marcados, em qualquer distância, e passa dos 400% que ativam os Cinturões de Kjaro e Runald. Durante a recarga da Ruína nada é marcado; a Célula Lisada evita esse buraco."
+    },
+    {
+      "title": "Cargas e recarga do Olhar",
+      "text": "O Olhar Faminto recarrega todas as cargas de uma vez, 2 s depois do último disparo. Velocidade de ataque faz você esvaziar as 12 cargas mais rápido e entrar mais cedo na recarga. A Cartucheira pode zerar essa espera; a Cabeça Alienígena tira só 0,5 s dela na primeira cópia, segundo a wiki. Use a Dissipação justamente nesse intervalo, já que durante ela você não ataca."
     }
-   ]
-  },
-  {
-   "id": "equipamento",
-   "name": "Equipamentos",
-   "color": "laranja",
-   "intro": "Só dá para carregar um. A Herege pode usar equipamento durante a Dissipação Sombria.",
-   "items": [
+  ],
+  "rotation": [
     {
-     "icon": "gnarled-woodsprite",
-     "pt": "Criatura da Floresta Deformada",
-     "en": "Gnarled Woodsprite",
-     "prio": 1,
-     "qty": "1 (recarga 15 s)",
-     "effect": "Ganha um seguidor que cura 1,5% da vida máxima por segundo. Pode ser enviado a um aliado para curar 10% da vida máxima dele.",
-     "why": "A wiki diz que, a partir do nível 6, ele anula a regeneração negativa, curando mais em níveis altos. Com 440 de vida base, 1,5% por segundo rende muito."
+      "step": "Olhar Faminto até esvaziar",
+      "text": "Espalhe os fragmentos pelo grupo para aplicar Ruína no máximo de inimigos."
     },
     {
-     "icon": "royal-capacitor",
-     "pt": "Capacitor Régio",
-     "en": "Royal Capacitor",
-     "prio": 2,
-     "qty": "1 (recarga 20 s)",
-     "effect": "Raio em um monstro marcado causando 3000% de dano e atordoando os monstros próximos.",
-     "why": "Dano grande à distância contra elites e chefes. Dá para usar mesmo durante a Dissipação, quando você não pode atacar."
+      "step": "Redemoinho no grupo",
+      "text": "Sem carregar quando estão perto; a explosão de 700% enraíza todos em 14 m."
     },
     {
-     "icon": "primordial-cube",
-     "pt": "Cubo Primordial",
-     "en": "Primordial Cube",
-     "prio": 3,
-     "qty": "1 (recarga 60 s)",
-     "effect": "Buraco negro que puxa inimigos a até 30 m para o centro por 10 s.",
-     "why": "Junta o grupo para o Redemoinho e a explosão de 14 m pegarem todos."
+      "step": "Detonar a Ruína",
+      "text": "Com vários acúmulos aplicados, ative para acertar todos os marcados, em qualquer distância."
     },
     {
-     "icon": "gorags-opus",
-     "pt": "Opus de Gorag",
-     "en": "Gorag's Opus",
-     "prio": 4,
-     "qty": "1 (recarga 45 s)",
-     "effect": "Todos os aliados entram em frenesi por 7 s: +50% de movimento e +100% de velocidade de ataque.",
-     "why": "Dobra a cadência do Olhar Faminto por alguns segundos. Bom em grupo."
+      "step": "Dissipação Sombria na recarga",
+      "text": "Use enquanto o Olhar recarrega: cura, fica intangível e reposiciona."
     },
     {
-     "icon": "spinel-tonic",
-     "pt": "Tônico de Espinélia",
-     "en": "Spinel Tonic",
-     "prio": 0,
-     "qty": "0 (equipamento lunar, recarga 60 s)",
-     "effect": "Por 20 s: +100% de dano, +70% de velocidade de ataque, +20 de armadura, +50% de vida máxima, +300% de regeneração passiva, +30% de movimento. Ao acabar, 20% de chance de Aflição do Tônico (−5% em todos os atributos, permanente).",
-     "why": "A wiki avisa: os +300% de regeneração multiplicam a regeneração negativa dela. Você perde vida quatro vezes mais rápido durante o efeito."
+      "step": "Pule antes de cair",
+      "text": "Em quedas longas, pule ou use a Dissipação antes do chão para não morrer com a queda."
     }
-   ]
-  },
-  {
-   "id": "lunar",
-   "name": "Lunares",
-   "color": "azul",
-   "intro": "Os quatro itens da Heresia são a Herege. Cada cópia extra aumenta um número da habilidade e, em três deles, também a recarga.",
-   "items": [
+  ],
+  "essentials": [
     {
-     "icon": "strides-of-heresy",
-     "pt": "Passadas Profanas",
-     "en": "Strides of Heresy",
-     "prio": 1,
-     "qty": "2 a 3",
-     "effect": "Substitui a habilidade Utilitária por Dissipação Sombria: some, fica intangível e ganha +30% de movimento. Cura 18,2% (+18,2% por acúmulo) da vida máxima. Dura 3 (+3 por acúmulo) segundos.",
-     "why": "A única cópia extra que vale muito. A recarga de 6 s não aumenta por acúmulo, só começa depois do efeito: com 1 cópia, 18,2% a cada 9 s; com 2, 36,4% a cada 12 s e metade do tempo invulnerável; com 3, 54,6% a cada 15 s. Acima disso você passa mais tempo sem poder atacar."
+      "pt": "Passadas Profanas (2 a 3)",
+      "en": "Strides of Heresy"
     },
     {
-     "icon": "visions-of-heresy",
-     "pt": "Visões Profanas",
-     "en": "Visions of Heresy",
-     "prio": 1,
-     "qty": "1 a 2",
-     "effect": "Substitui a habilidade Primária por Olhar Faminto. Dispara fragmentos teleguiados que detonam após um tempo, causando 120% do dano base. Guarda até 12 cargas (+12 por acúmulo), que recarregam após 2 s (+2 s por acúmulo).",
-     "why": "Com 2 cópias são 24 cargas, mas a recarga sobe para 4 s. Só vale se você tiver velocidade de ataque para gastar tudo rápido ou Cabeça Alienígena para encurtar a espera."
+      "pt": "Seringa Militar",
+      "en": "Soldier's Syringe"
     },
     {
-     "icon": "essence-of-heresy",
-     "pt": "Essência da Heresia",
-     "en": "Essence of Heresy",
-     "prio": 1,
-     "qty": "1",
-     "effect": "Substitui a habilidade Especial por Ruína. Causar dano aplica um acúmulo de Ruína por 10 (+10 por acúmulo) segundos. Ativar a habilidade detona todos os acúmulos em alcance ilimitado, causando 300% de dano mais 120% por acúmulo de Ruína. Recarrega após 8 (+8 por acúmulo) segundos.",
-     "why": "Uma cópia extra dobra a duração, mas também dobra a recarga para 16 s, e durante a recarga nada aplica Ruína. Para mais detonações, prefira Célula Lisada, que dá carga sem esse custo."
+      "pt": "Foice do Ceifador",
+      "en": "Harvester's Scythe"
     },
     {
-     "icon": "hooks-of-heresy",
-     "pt": "Ganchos da Heresia",
-     "en": "Hooks of Heresy",
-     "prio": 1,
-     "qty": "1",
-     "effect": "Substitui a habilidade Secundária por Redemoinho Cortante. Carrega um projétil que causa 875% de dano por segundo aos inimigos próximos e explode após 3 s causando 700% de dano e enraizando os inimigos por 3 (+3 por acúmulo) segundos. Recarrega após 5 (+5 por acúmulo) segundos.",
-     "why": "Cópias extras só alongam o enraizamento e somam 5 s à recarga. Para mais Redemoinhos, use Pente Reserva."
+      "pt": "Pós-combustor de Holograma",
+      "en": "Hardlight Afterburner"
+    },
+    {
+      "pt": "Cabeça Alienígena",
+      "en": "Alien Head"
+    },
+    {
+      "pt": "Célula Lisada",
+      "en": "Lysate Cell"
+    },
+    {
+      "pt": "Criatura da Floresta Deformada",
+      "en": "Gnarled Woodsprite"
     }
-   ]
-  },
-  {
-   "id": "vazio",
-   "name": "Vazio",
-   "color": "roxo",
-   "intro": "Itens do Vazio (DLC Survivors of the Void) corrompem itens comuns quando pegos. Dois deles tomam itens desta build.",
-   "items": [
+  ],
+  "situational_note": "Situacionais: Pente Reserva, Broche de Topázio, Cartucheira, Gancho de Carnes Senciente, Trevo 57, Polialaúde, Faixa da Singularidade e uma segunda Visões Profanas.",
+  "fallbacks": [
     {
-     "icon": "lysate-cell",
-     "pt": "Célula Lisada",
-     "en": "Lysate Cell",
-     "prio": 1,
-     "qty": "1 a 2",
-     "effect": "+1 (+1 por acúmulo) carga da habilidade Especial e −33% no tempo de recarga dela. Corrompe todas as Células de Combustível.",
-     "why": "Segundo a wiki, com pelo menos uma carga sobrando você continua aplicando Ruína, e os próprios tiros da detonação aplicam Ruína. Resolve o maior ponto fraco da Ruína."
+      "pt": "Passadas Profanas extras",
+      "en": "Strides of Heresy",
+      "text": "Pós-combustor de Holograma e Cabeça Alienígena para mais Dissipações; Fungo Choroso e Fragmento Titânico para cura constante."
     },
     {
-     "icon": "weeping-fungus",
-     "pt": "Fungo Choroso",
-     "en": "Weeping Fungus",
-     "prio": 2,
-     "qty": "1 a 2",
-     "effect": "Cura 2% (+2% por acúmulo) da vida por segundo enquanto corre.",
-     "why": "A Herege é a sobrevivente mais rápida e a Dissipação pode ser usada correndo. Cura proporcional à vida máxima, que é enorme. Corrompe o Fungo Vibrante, que pede para ficar parada."
+      "pt": "Seringa Militar",
+      "en": "Soldier's Syringe",
+      "text": "Instintos Predatórios com Óculos, ou Opus de Gorag como equipamento."
     },
     {
-     "icon": "polylute",
-     "pt": "Polialaúde",
-     "en": "Polylute",
-     "prio": 3,
-     "qty": "1",
-     "effect": "25% de chance de disparar um raio de 60% de dano TOTAL até 3 (+3 por acúmulo) vezes. Corrompe todos os Ukuleles.",
-     "why": "Mais forte em alvo único, como chefes. Corrompe os Ukuleles que esta build recomenda: pegue só se preferir dano no chefe."
+      "pt": "Foice do Ceifador",
+      "en": "Harvester's Scythe",
+      "text": "Semente Sanguessuga, que cura a cada acerto dos fragmentos. Lesma Precavida para fora de combate."
     },
     {
-     "icon": "singularity-band",
-     "pt": "Faixa da Singularidade",
-     "en": "Singularity Band",
-     "prio": 4,
-     "qty": "1",
-     "effect": "Acertos de mais de 400% de dano também lançam um buraco negro que puxa inimigos a até 15 m para o centro. Dura 5 s e colapsa causando 100% (+100% por acúmulo) de dano TOTAL. Recarrega a cada 20 s. Corrompe todos os Cinturões de Runald e de Kjaro.",
-     "why": "Junta grupos com a Ruína e o Redemoinho, mas corrompe os dois Cinturões recomendados. A wiki avisa que, com vários inimigos marcados, a detonação da Ruína só ativa a Faixa em um deles."
+      "pt": "Pós-combustor de Holograma",
+      "en": "Hardlight Afterburner",
+      "text": "Cabeça Alienígena e mais Passadas Profanas. Sem nenhum dos três, jogue mais à distância."
+    },
+    {
+      "pt": "Cabeça Alienígena",
+      "en": "Alien Head",
+      "text": "Cartucheira para reiniciar recargas ao abater e Célula Lisada para a Ruína."
+    },
+    {
+      "pt": "Célula Lisada",
+      "en": "Lysate Cell",
+      "text": "Cabeça Alienígena. Sem as duas, segure a Ruína até haver muitos acúmulos em vários inimigos."
+    },
+    {
+      "pt": "Criatura da Floresta Deformada",
+      "en": "Gnarled Woodsprite",
+      "text": "Capacitor Régio para dano; a cura vem de Fragmento Titânico, Pérola Irradiante e Fungo Choroso."
     }
-   ]
-  }
- ],
- "synergy": [
-  {
-   "title": "Como virar a Herege",
-   "text": "Os itens da Heresia são desbloqueados pelo desafio Destruidor de Barreiras (Blockade Breaker): matar 15 chefes em uma só run. Depois disso eles aparecem nas Cápsulas Lunares (1 Moeda Lunar) e nos Brotos Lunares do Bazar (2 Moedas Lunares). Ao segurar os quatro ao mesmo tempo você vira a Herege e troca os atributos base pelos dela. O guia da Rogue Ranker sugere começar de Capitão (Captain), porque segundo a wiki os Microrrobôs Defensivos dele continuam depois da transformação."
-  },
-  {
-   "title": "Empilhar a Heresia",
-   "text": "Cada cópia extra mantém a habilidade e muda os números. Visões soma 12 cargas e 2 s de recarga; Ganchos soma 3 s de enraizamento e 5 s de recarga; Essência soma 10 s de duração e 8 s de recarga. Passadas é diferente: soma 18,2% de cura e 3 s de duração sem aumentar a recarga de 6 s, por isso é a cópia que mais vale. Itens de carga (Pente Reserva, Pós-combustor, Célula Lisada) dão cargas sem aumentar a recarga."
-  },
-  {
-   "title": "Vida que só cai",
-   "text": "A regeneração dela é negativa e cresce por nível. Não conta como dano, então armadura, Tempos Difíceis e Placa de Repulsão não ajudam contra ela. O que ajuda é regeneração fixa (Fragmento Titânico, Pérola Irradiante, Lesma Precavida fora de combate), cura percentual (Dissipação, Criatura da Floresta, Fungo Choroso) e cura por acerto (Foice, Semente). Vidro Configurado corta a vida máxima pela metade e a perda fixa passa a ganhar da cura percentual."
-  },
-  {
-   "title": "Ruína e acertos grandes",
-   "text": "Todo dano aplica Ruína, com chance proporcional ao coeficiente. As explosões do Olhar (1,0) aplicam bem; o redemoinho (0,2) e o impacto inicial dos fragmentos (0,1) aplicam pouco. A detonação causa 300% + 120% por acúmulo em todos os marcados, em qualquer distância, e passa dos 400% que ativam os Cinturões de Kjaro e Runald. Durante a recarga da Ruína nada é marcado; a Célula Lisada evita esse buraco."
-  },
-  {
-   "title": "Cargas e recarga do Olhar",
-   "text": "O Olhar Faminto recarrega todas as cargas de uma vez, 2 s depois do último disparo. Velocidade de ataque faz você esvaziar as 12 cargas mais rápido e entrar mais cedo na recarga. A Cabeça Alienígena e a Cartucheira encurtam essa espera; use a Dissipação justamente nesse intervalo, já que durante ela você não ataca."
-  }
- ],
- "rotation": [
-  {
-   "step": "Olhar Faminto até esvaziar",
-   "text": "Espalhe os fragmentos pelo grupo para aplicar Ruína no máximo de inimigos."
-  },
-  {
-   "step": "Redemoinho no grupo",
-   "text": "Sem carregar quando estão perto; a explosão de 700% enraíza todos em 14 m."
-  },
-  {
-   "step": "Detonar a Ruína",
-   "text": "Com vários acúmulos aplicados, ative para acertar todos os marcados, em qualquer distância."
-  },
-  {
-   "step": "Dissipação Sombria na recarga",
-   "text": "Use enquanto o Olhar recarrega: cura, fica intangível e reposiciona."
-  },
-  {
-   "step": "Pule antes de cair",
-   "text": "Em quedas longas, pule ou use a Dissipação antes do chão para não morrer com a queda."
-  }
- ],
- "essentials": [
-  {
-   "pt": "Passadas Profanas (2 a 3)",
-   "en": "Strides of Heresy"
-  },
-  {
-   "pt": "Seringa Militar",
-   "en": "Soldier's Syringe"
-  },
-  {
-   "pt": "Foice do Ceifador",
-   "en": "Harvester's Scythe"
-  },
-  {
-   "pt": "Pós-combustor de Holograma",
-   "en": "Hardlight Afterburner"
-  },
-  {
-   "pt": "Cabeça Alienígena",
-   "en": "Alien Head"
-  },
-  {
-   "pt": "Célula Lisada",
-   "en": "Lysate Cell"
-  },
-  {
-   "pt": "Criatura da Floresta Deformada",
-   "en": "Gnarled Woodsprite"
-  }
- ],
- "situational_note": "Situacionais: Pente Reserva, Broche de Topázio, Cartucheira, Gancho de Carnes Senciente, Trevo 57, Polialaúde, Faixa da Singularidade e uma segunda Visões Profanas.",
- "fallbacks": [
-  {
-   "pt": "Passadas Profanas extras",
-   "en": "Strides of Heresy",
-   "text": "Pós-combustor de Holograma e Cabeça Alienígena para mais Dissipações; Fungo Choroso e Fragmento Titânico para cura constante."
-  },
-  {
-   "pt": "Seringa Militar",
-   "en": "Soldier's Syringe",
-   "text": "Instintos Predatórios com Óculos, ou Opus de Gorag como equipamento."
-  },
-  {
-   "pt": "Foice do Ceifador",
-   "en": "Harvester's Scythe",
-   "text": "Semente Sanguessuga, que cura a cada acerto dos fragmentos. Lesma Precavida para fora de combate."
-  },
-  {
-   "pt": "Pós-combustor de Holograma",
-   "en": "Hardlight Afterburner",
-   "text": "Cabeça Alienígena e mais Passadas Profanas. Sem nenhum dos três, jogue mais à distância."
-  },
-  {
-   "pt": "Cabeça Alienígena",
-   "en": "Alien Head",
-   "text": "Cartucheira para reiniciar recargas ao abater e Célula Lisada para a Ruína."
-  },
-  {
-   "pt": "Célula Lisada",
-   "en": "Lysate Cell",
-   "text": "Cabeça Alienígena. Sem as duas, segure a Ruína até haver muitos acúmulos em vários inimigos."
-  },
-  {
-   "pt": "Criatura da Floresta Deformada",
-   "en": "Gnarled Woodsprite",
-   "text": "Capacitor Régio para dano; a cura vem de Fragmento Titânico, Pérola Irradiante e Fungo Choroso."
-  }
- ],
- "summary": "Junte os quatro itens da Heresia para virar a Herege e empilhe Passadas Profanas até 2 ou 3: é o que mantém a Dissipação Sombria curando mais do que a vida cai. Atire o Olhar Faminto para espalhar Ruína, enraíze grupos com o Redemoinho e detone a Ruína em todos os marcados. Reduza recargas com Cabeça Alienígena, Pós-combustor e Célula Lisada, e some cura com Foice, Fragmento Titânico e Criatura da Floresta Deformada.",
- "checklist": [
-  {
-   "title": "Sempre pegue",
-   "text": "Passadas Profanas extras, Seringa Militar, Foice do Ceifador, Pós-combustor, Cabeça Alienígena, Célula Lisada."
-  },
-  {
-   "title": "Impressoras brancas",
-   "text": "Seringa Militar até umas 5, depois Óculos e duas ou três Lesmas Precavidas."
-  },
-  {
-   "title": "Primeiro verde",
-   "text": "Foice do Ceifador. Depois Cinturão de Kjaro e Semente Sanguessuga."
-  },
-  {
-   "title": "Equipamento",
-   "text": "Criatura da Floresta Deformada. Capacitor Régio se ainda estiver em nível baixo."
-  },
-  {
-   "title": "Antes de pegar Vazio",
-   "text": "Polialaúde corrompe os Ukuleles; Faixa da Singularidade corrompe os Cinturões de Kjaro e Runald."
-  },
-  {
-   "title": "Não pegue",
-   "text": "Tônico de Espinélia, Vidro Configurado e Egocentrismo (a wiki diz que ele faz a Herege perder itens da Heresia). Não use Templo da Ordem nem Fonte Purificante com itens da Heresia."
-  },
-  {
-   "title": "Luta de chefe",
-   "text": "Olhar Faminto sem parar, Ruína a cada recarga e Dissipação quando as cargas acabarem. O Mithrix não rouba os itens da Heresia na fase 4."
-  }
- ],
- "sources": [
-  {
-   "title": "Heretic — Risk of Rain 2 Wiki",
-   "url": "https://riskofrain2.wiki.gg/wiki/Heretic"
-  },
-  {
-   "title": "Visions of Heresy — Risk of Rain 2 Wiki",
-   "url": "https://riskofrain2.wiki.gg/wiki/Visions_of_Heresy"
-  },
-  {
-   "title": "Hooks of Heresy — Risk of Rain 2 Wiki",
-   "url": "https://riskofrain2.wiki.gg/wiki/Hooks_of_Heresy"
-  },
-  {
-   "title": "Strides of Heresy — Risk of Rain 2 Wiki",
-   "url": "https://riskofrain2.wiki.gg/wiki/Strides_of_Heresy"
-  },
-  {
-   "title": "Essence of Heresy — Risk of Rain 2 Wiki",
-   "url": "https://riskofrain2.wiki.gg/wiki/Essence_of_Heresy"
-  },
-  {
-   "title": "Challenges — Risk of Rain 2 Wiki",
-   "url": "https://riskofrain2.wiki.gg/wiki/Challenges"
-  },
-  {
-   "title": "Heretic — Rogue Ranker",
-   "url": "https://rogueranker.com/?p=1614"
-  }
- ],
- "notes": [
-  "A Herege não pode ser escolhida na tela de seleção. Na consulta à wiki em outubro de 2026 não existe versão selecionável: você vira ela no meio da run ao segurar os quatro itens da Heresia ao mesmo tempo, mantendo os outros itens.",
-  "Os itens da Heresia são desbloqueados pelo desafio Destruidor de Barreiras (Blockade Breaker): matar 15 chefes em uma só run. Depois aparecem nas Cápsulas Lunares e no Bazar. O Artefato da Autoridade (Artifact of Command) deixa escolher os itens diretamente.",
-  "O texto do jogo em português difere da wiki em dois números: a Dissipação Sombria cura 18,2% por Passadas (o jogo diz 25%) e o Redemoinho Cortante causa 175% até 5 vezes por segundo (o jogo só menciona 175%). O guia usa os números da wiki.",
-  "Na dificuldade Chuvisco (Drizzle) a perda de vida é maior (−9/s) e na Monção (Monsoon) é menor (−3,6/s)."
- ]
+  ],
+  "summary": "Junte os quatro itens da Heresia para virar a Herege e empilhe Passadas Profanas até 2 ou 3: é o que mantém a Dissipação Sombria curando mais do que a vida cai. Atire o Olhar Faminto para espalhar Ruína, enraíze grupos com o Redemoinho e detone a Ruína em todos os marcados. Reduza recargas com Cabeça Alienígena, Pós-combustor e Célula Lisada, e some cura com Foice, Fragmento Titânico e Criatura da Floresta Deformada.",
+  "checklist": [
+    {
+      "title": "Sempre pegue",
+      "text": "Passadas Profanas extras, Seringa Militar, Foice do Ceifador, Pós-combustor, Cabeça Alienígena, Célula Lisada."
+    },
+    {
+      "title": "Impressoras brancas",
+      "text": "Seringa Militar até umas 5, depois Óculos e duas ou três Lesmas Precavidas."
+    },
+    {
+      "title": "Primeiro verde",
+      "text": "Foice do Ceifador. Depois Cinturão de Kjaro e Semente Sanguessuga."
+    },
+    {
+      "title": "Equipamento",
+      "text": "Criatura da Floresta Deformada. Capacitor Régio se ainda estiver em nível baixo."
+    },
+    {
+      "title": "Antes de pegar Vazio",
+      "text": "Polialaúde corrompe os Ukuleles; Faixa da Singularidade corrompe os Cinturões de Kjaro e Runald."
+    },
+    {
+      "title": "Não pegue",
+      "text": "Tônico de Espinélia, Vidro Configurado e Egocentrismo (a wiki diz que ele faz a Herege perder itens da Heresia). Não use Templo da Ordem nem Fonte Purificante com itens da Heresia."
+    },
+    {
+      "title": "Luta de chefe",
+      "text": "Olhar Faminto sem parar, Ruína a cada recarga e Dissipação quando as cargas acabarem. O Mithrix não rouba os itens da Heresia na fase 4."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Heretic — Risk of Rain 2 Wiki",
+      "url": "https://riskofrain2.wiki.gg/wiki/Heretic"
+    },
+    {
+      "title": "Visions of Heresy — Risk of Rain 2 Wiki",
+      "url": "https://riskofrain2.wiki.gg/wiki/Visions_of_Heresy"
+    },
+    {
+      "title": "Hooks of Heresy — Risk of Rain 2 Wiki",
+      "url": "https://riskofrain2.wiki.gg/wiki/Hooks_of_Heresy"
+    },
+    {
+      "title": "Strides of Heresy — Risk of Rain 2 Wiki",
+      "url": "https://riskofrain2.wiki.gg/wiki/Strides_of_Heresy"
+    },
+    {
+      "title": "Essence of Heresy — Risk of Rain 2 Wiki",
+      "url": "https://riskofrain2.wiki.gg/wiki/Essence_of_Heresy"
+    },
+    {
+      "title": "Challenges — Risk of Rain 2 Wiki",
+      "url": "https://riskofrain2.wiki.gg/wiki/Challenges"
+    },
+    {
+      "title": "Heretic — Rogue Ranker",
+      "url": "https://rogueranker.com/?p=1614"
+    }
+  ],
+  "notes": [
+    "A Herege não pode ser escolhida na tela de seleção. Na consulta à wiki em outubro de 2026 não existe versão selecionável: você vira ela no meio da run ao segurar os quatro itens da Heresia ao mesmo tempo, mantendo os outros itens.",
+    "Os itens da Heresia são desbloqueados pelo desafio Destruidor de Barreiras (Blockade Breaker): abater 15 monstros chefes em uma só run. A wiki diverge sobre Passadas Profanas e Essência da Heresia: as páginas dos itens e o texto do desafio dizem que ele libera os quatro, mas o quadro de recompensa do desafio e a lista de Desafios citam só Visões e Ganchos. Nenhuma página da wiki diz de onde os itens saem na run; Cápsulas Lunares e Bazar vêm do funcionamento geral dos itens lunares. O Artefato da Autoridade (Artifact of Command) deixa escolher os itens diretamente.",
+    "O texto do jogo em português difere da wiki em dois números: a Dissipação Sombria cura 18,2% por Passadas (o jogo diz 25%) e o Redemoinho Cortante causa 175% até 5 vezes por segundo (o jogo só menciona 175%). O guia usa os números da wiki.",
+    "Na dificuldade Chuvisco (Drizzle) a perda de vida é maior (−9/s) e na Monção (Monsoon) é menor (−3,6/s)."
+  ]
 }

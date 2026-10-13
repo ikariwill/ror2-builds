@@ -1,670 +1,672 @@
 {
- "id": "acrid",
- "name_pt": "Acrid",
- "name_en": "Acrid",
- "title": "Acrid: Build de Veneno",
- "tagline": "Veneno em área, corpo a corpo e cura por golpe",
- "lede": "Uma build de brigão para jogar normalmente e chegar longe: espalhar Veneno com a Epidemia e o Salto Cáustico, ficar colado nos inimigos com muita velocidade de ataque e se curar a cada golpe. O Veneno tira até 10% da vida máxima do alvo, o que derrete chefes e inimigos grandes; os itens servem para matar o que o Veneno não mata e para manter você de pé.",
- "loadout": [
-  {
-   "slot": "Passiva",
-   "skill": "Veneno (Poison)"
-  },
-  {
-   "slot": "Primária",
-   "skill": "Dilacerações Hediondas (Vicious Wounds)"
-  },
-  {
-   "slot": "Secundária",
-   "skill": "Mordida Voraz (Ravenous Bite)"
-  },
-  {
-   "slot": "Utilitária",
-   "skill": "Salto Cáustico (Caustic Leap)"
-  },
-  {
-   "slot": "Especial",
-   "skill": "Epidemia (Epidemic)"
-  }
- ],
- "skills": [
-  {
-   "slot": "Passiva",
-   "pt": "Veneno",
-   "en": "Poison",
-   "pick": "Recomendada",
-   "spec": "Causa 1% da vida máxima do alvo por segundo (ou o dano do Acrid, o que for maior) por 10 s. Não acumula e não mata.",
-   "why": "Tira cerca de 10% da vida máxima de qualquer coisa, o que é enorme contra chefes e inimigos grandes. O Veneno deixa o inimigo com 1 de vida; o abate tem de vir de um golpe seu. A wiki considera o Veneno a melhor escolha na maioria das runs, principalmente ao dar loop."
-  },
-  {
-   "slot": "Passiva (alt.)",
-   "pt": "Praga",
-   "en": "Blight",
-   "pick": "Variante",
-   "spec": "Ataques que envenenam aplicam Praga: 60% de dano por segundo, 5 s, acumula e pode matar.",
-   "why": "Escala com o seu dano, não com a vida do alvo, e recompensa usar habilidades sem parar. É melhor contra inimigos pequenos e pior contra os grandes. Vale para quem joga muito agressivo."
-  },
-  {
-   "slot": "Primária",
-   "pt": "Dilacerações Hediondas",
-   "en": "Vicious Wounds",
-   "pick": "Recomendada",
-   "spec": "Golpes de 200%; o terceiro é Regenerativo e causa 400%. Coeficiente 1,0.",
-   "why": "O terceiro golpe cura 5% da vida máxima em 0,5 s. Velocidade de ataque faz a sequência girar mais rápido, e correr inicia o próximo golpe da sequência em vez de cancelar."
-  },
-  {
-   "slot": "Secundária",
-   "pt": "Mordida Voraz",
-   "en": "Ravenous Bite",
-   "pick": "Recomendada",
-   "spec": "Venenosa, Assassino, Regenerativa. Mordida de 320% de dano (o texto do jogo em português mostra 310%). Recarga 2 s.",
-   "why": "Assassino causa até 3× de dano em alvos com pouca vida, e é exatamente aí que o Veneno os deixa. A mordida finaliza o que o Veneno não mata e ainda cura. A alternativa Neurotoxina (Neurotoxin, 240%, à distância) é melhor contra voadores e pode ser usada no meio das Dilacerações."
-  },
-  {
-   "slot": "Utilitária",
-   "pt": "Salto Cáustico",
-   "en": "Caustic Leap",
-   "pick": "Recomendada",
-   "spec": "Venenoso, Atordoante. Salto de 320% que deixa uma poça de ácido de 25%. 2 cargas, recarga 6 s.",
-   "why": "A poça dura 10 s e causa até 500% de dano a cada inimigo que fica nela. A distância do salto cresce com a velocidade de movimento, e você não leva dano de queda durante o salto. O Salto Frenético (Frenzied Leap, 550%, −2 s de recarga por inimigo atingido) não envenena."
-  },
-  {
-   "slot": "Especial",
-   "pt": "Epidemia",
-   "en": "Epidemic",
-   "pick": "Recomendada",
-   "spec": "Venenosa. Doença de 100% de dano que se espalha para até 20 alvos. Recarga 10 s.",
-   "why": "Cada alvo atingido passa a doença para até 2 inimigos a 30 m, envenenando todos. É o que envenena a tela inteira, e cada salto ativa itens ao acertar. Atirar no chão ou na parede acerta voadores próximos."
-  }
- ],
- "sections": [
-  {
-   "id": "comum",
-   "name": "Comum",
-   "color": "branco",
-   "intro": "O Acrid luta colado no inimigo. Os brancos dão o que ele mais usa: velocidade de ataque, dano de perto e defesa.",
-   "items": [
+  "id": "acrid",
+  "name_pt": "Acrid",
+  "name_en": "Acrid",
+  "title": "Acrid: Build de Veneno",
+  "tagline": "Veneno em área, corpo a corpo e cura por golpe",
+  "lede": "Uma build de brigão para jogar normalmente e chegar longe: espalhar Veneno com a Epidemia e o Salto Cáustico, ficar colado nos inimigos com muita velocidade de ataque e se curar a cada golpe. O Veneno tira até 10% da vida máxima do alvo, o que derrete chefes e inimigos grandes; os itens servem para matar o que o Veneno não mata e para manter você de pé.",
+  "loadout": [
     {
-     "icon": "soldiers-syringe",
-     "pt": "Seringa Militar",
-     "en": "Soldier's Syringe",
-     "prio": 1,
-     "qty": "4 a 8",
-     "effect": "+15% (+15% por acúmulo) de velocidade de ataque.",
-     "why": "As Dilacerações Hediondas saem mais rápido: mais golpes por segundo, mais ativações de itens ao acertar e o terceiro golpe Regenerativo (que cura 5% da vida máxima) chega com mais frequência."
+      "slot": "Passiva",
+      "skill": "Veneno (Poison)"
     },
     {
-     "icon": "focus-crystal",
-     "pt": "Cristal de Foco",
-     "en": "Focus Crystal",
-     "prio": 1,
-     "qty": "3 a 5",
-     "effect": "+20% (+20% por acúmulo) de dano contra inimigos a até 13 m.",
-     "why": "O Acrid passa quase toda a luta a menos de 13 m. Segundo a wiki, o bônus também aumenta o dano do Veneno e da Praga."
+      "slot": "Primária",
+      "skill": "Dilacerações Hediondas (Vicious Wounds)"
     },
     {
-     "icon": "tougher-times",
-     "pt": "Tempos Difíceis",
-     "en": "Tougher Times",
-     "prio": 2,
-     "qty": "2 a 4",
-     "effect": "15% (+15% por acúmulo) de chance de bloquear dano recebido. Não é afetado por sorte.",
-     "why": "Lutar no meio do grupo significa levar muitos golpes. Cada bloqueio é um golpe inteiro evitado."
+      "slot": "Secundária",
+      "skill": "Mordida Voraz (Ravenous Bite)"
     },
     {
-     "icon": "lens-makers-glasses",
-     "pt": "Óculos do Fabricante de Lentes",
-     "en": "Lens-Maker's Glasses",
-     "prio": 2,
-     "qty": "2 a 5",
-     "effect": "10% (+10% por acúmulo) de chance de Acerto Crítico, que causa dano dobrado.",
-     "why": "Aumenta o dano dos golpes diretos e ativa Foice do Ceifador e Instintos Predatórios. Não afeta o Veneno, que é dano contínuo."
+      "slot": "Utilitária",
+      "skill": "Salto Cáustico (Caustic Leap)"
     },
     {
-     "icon": "tri-tip-dagger",
-     "pt": "Adaga Triangular",
-     "en": "Tri-Tip Dagger",
-     "prio": 3,
-     "qty": "1 a 3",
-     "effect": "10% (+10% por acúmulo) de chance de sangrar um inimigo por 240% do dano base.",
-     "why": "Sangramento é um debuff a mais além do Veneno, útil para a Marca Fatal, e ativa muito com os golpes rápidos das Dilacerações."
-    },
-    {
-     "icon": "armor-piercing-rounds",
-     "pt": "Projéteis Perfurantes",
-     "en": "Armor-Piercing Rounds",
-     "prio": 3,
-     "qty": "1 a 3",
-     "effect": "+20% (+20% por acúmulo) de dano contra chefes.",
-     "why": "A wiki lista este item entre os que aumentam o Veneno. Contra chefes, onde o Veneno já é forte, o ganho é direto."
-    },
-    {
-     "icon": "pauls-goat-hoof",
-     "pt": "Casco de Bode de Paul",
-     "en": "Paul's Goat Hoof",
-     "prio": 3,
-     "qty": "1 a 3",
-     "effect": "+14% (+14% por acúmulo) de velocidade de movimento.",
-     "why": "A distância dos saltos cresce com a velocidade de movimento. Também ajuda a alcançar inimigos que fogem do corpo a corpo."
-    },
-    {
-     "icon": "mocha",
-     "pt": "Mocha",
-     "en": "Mocha",
-     "prio": 3,
-     "qty": "1 a 3",
-     "effect": "+7,5% (+7,5% por acúmulo) de velocidade de ataque e +7% (+7% por acúmulo) de velocidade de movimento.",
-     "why": "Metade Seringa, metade Casco. Bom em qualquer quantidade."
-    },
-    {
-     "icon": "delicate-watch",
-     "pt": "Relógio Delicado",
-     "en": "Delicate Watch",
-     "prio": 4,
-     "qty": "1 a 2",
-     "effect": "+20% (+20% por acúmulo) de dano. Quebra ao levar dano que deixe você abaixo de 25% de vida.",
-     "why": "Aumenta o dano do Veneno também, segundo a wiki. Arriscado para um personagem que vive tomando dano de perto."
+      "slot": "Especial",
+      "skill": "Epidemia (Epidemic)"
     }
-   ]
-  },
-  {
-   "id": "incomum",
-   "name": "Incomum",
-   "color": "verde",
-   "intro": "Os verdes dão a cura por golpe e os efeitos ao acertar que a Epidemia espalha pelo grupo.",
-   "items": [
+  ],
+  "skills": [
     {
-     "icon": "leeching-seed",
-     "pt": "Semente Sanguessuga",
-     "en": "Leeching Seed",
-     "prio": 1,
-     "qty": "1 a 3",
-     "effect": "Causar dano cura 1 (+1 por acúmulo) de vida.",
-     "why": "Cada golpe das Dilacerações, cada alvo da Epidemia e cada acerto do salto cura. Com muita velocidade de ataque vira a cura principal fora do Regenerativo."
+      "slot": "Passiva",
+      "pt": "Veneno",
+      "en": "Poison",
+      "pick": "Recomendada",
+      "spec": "Causa 1% da vida máxima do alvo por segundo ou 100% do dano base do Acrid por segundo, o que for maior, por 10 s. Limite de 5000% do dano base por segundo. Não acumula e não mata.",
+      "why": "Tira cerca de 10% da vida máxima de qualquer coisa, o que é enorme contra chefes e inimigos grandes. O Veneno deixa o inimigo com 1 de vida; o abate tem de vir de um golpe seu. A wiki considera o Veneno a melhor escolha na maioria das runs, principalmente ao dar loop."
     },
     {
-     "icon": "ukulele",
-     "pt": "Ukulele",
-     "en": "Ukulele",
-     "prio": 2,
-     "qty": "1 a 2",
-     "effect": "25% de chance de disparar um raio em cadeia de 80% de dano TOTAL em até 3 (+2 por acúmulo) alvos a 20 m (+2 m por acúmulo).",
-     "why": "A Epidemia atinge até 20 alvos e cada acerto pode ativar o Ukulele. A wiki cita essa combinação como uma das que mantêm a Epidemia útil no fim do jogo."
+      "slot": "Passiva (alt.)",
+      "pt": "Praga",
+      "en": "Blight",
+      "pick": "Variante",
+      "spec": "Ataques que envenenam aplicam Praga: 60% de dano por segundo, 5 s, acumula e pode matar.",
+      "why": "Escala com o seu dano, não com a vida do alvo, e recompensa usar habilidades sem parar. É melhor contra inimigos pequenos e pior contra os grandes. Vale para quem joga muito agressivo."
     },
     {
-     "icon": "atg-missile-mk-1",
-     "pt": "Míssil ASM Mk. 1",
-     "en": "AtG Missile Mk. 1",
-     "prio": 2,
-     "qty": "1 a 3",
-     "effect": "10% de chance de disparar um míssil que causa 300% (+300% por acúmulo) de dano TOTAL.",
-     "why": "Mesmo motivo do Ukulele: muitos acertos por segundo e muitos alvos com a Epidemia. Também cobre inimigos voadores que as Dilacerações não alcançam."
+      "slot": "Primária",
+      "pt": "Dilacerações Hediondas",
+      "en": "Vicious Wounds",
+      "pick": "Recomendada",
+      "spec": "Golpes de 200%; o terceiro é Regenerativo e causa 400%. Coeficiente 1,0.",
+      "why": "O terceiro golpe cura 5% da vida máxima em 0,5 s. Velocidade de ataque faz a sequência girar mais rápido, e correr inicia o próximo golpe da sequência em vez de cancelar."
     },
     {
-     "icon": "death-mark",
-     "pt": "Marca Fatal",
-     "en": "Death Mark",
-     "prio": 3,
-     "qty": "1",
-     "effect": "Inimigos com 4 ou mais debuffs ficam marcados e recebem 50% a mais de dano de todas as fontes por 7 s (+7 s por acúmulo).",
-     "why": "O Veneno já conta como um debuff. Com sangramento (Adaga Triangular), redução de armadura (Justiça Destruidora) e outros, chegar a 4 fica fácil. Se chegar, é +50% em tudo, inclusive no Veneno."
+      "slot": "Secundária",
+      "pt": "Mordida Voraz",
+      "en": "Ravenous Bite",
+      "pick": "Recomendada",
+      "spec": "Venenosa, Assassino, Regenerativa. Mordida de 320% de dano (o texto do jogo em português mostra 310%). Recarga 2 s.",
+      "why": "Assassino causa até 3× de dano em alvos com pouca vida, e é exatamente aí que o Veneno os deixa. A mordida finaliza o que o Veneno não mata e ainda cura. A alternativa Neurotoxina (Neurotoxin, 240%, à distância) é melhor contra voadores e pode ser usada no meio das Dilacerações."
     },
     {
-     "icon": "shuriken",
-     "pt": "Shuriken",
-     "en": "Shuriken",
-     "prio": 3,
-     "qty": "1 a 2",
-     "effect": "Usar a Primária também arremessa uma shuriken de 400% (+100% por acúmulo) do dano base. Guarda até 3 (+1 por acúmulo), que recarregam em 10 s.",
-     "why": "Você ativa as Dilacerações o tempo todo, então as shurikens nunca ficam paradas. Também dão dano à distância contra voadores."
+      "slot": "Utilitária",
+      "pt": "Salto Cáustico",
+      "en": "Caustic Leap",
+      "pick": "Recomendada",
+      "spec": "Venenoso, Atordoante. Salto de 320% que deixa uma poça de ácido de 25%. 2 cargas, recarga 6 s.",
+      "why": "A poça dura 10 s e causa até 500% de dano a cada inimigo que fica nela. A distância do salto cresce com a velocidade de movimento, e você não leva dano de queda durante o salto. O Salto Frenético (Frenzied Leap, 550%, recarga 10 s, −2 s de recarga por inimigo atingido) não envenena."
     },
     {
-     "icon": "harvesters-scythe",
-     "pt": "Foice do Ceifador",
-     "en": "Harvester's Scythe",
-     "prio": 3,
-     "qty": "1 (com Óculos)",
-     "effect": "+5% de chance de crítico. Críticos curam 8 (+4 por acúmulo) de vida.",
-     "why": "Com golpes rápidos e alguns Óculos, cura a cada crítico. Sem chance de crítico, prefira a Semente Sanguessuga."
-    },
-    {
-     "icon": "predatory-instincts",
-     "pt": "Instintos Predatórios",
-     "en": "Predatory Instincts",
-     "prio": 3,
-     "qty": "1 (com Óculos)",
-     "effect": "+5% de chance de crítico. Críticos dão +12% de velocidade de ataque, até 36% (+24% por acúmulo).",
-     "why": "Mais velocidade para as Dilacerações quando você já tem chance de crítico."
-    },
-    {
-     "icon": "noxious-thorn",
-     "pt": "Espinho Nocivo",
-     "en": "Noxious Thorn",
-     "prio": 4,
-     "qty": "1 (melhor com Praga)",
-     "effect": "+10% de chance de sangramento. Ao abater, transfere 33% de cada acúmulo de debuff para 1 (+1 por acúmulo) inimigo a até 20 m (+5 m por acúmulo).",
-     "why": "A Praga acumula, então o Espinho passa parte dos acúmulos para o vizinho. O Veneno normal não acumula, então rende menos."
-    },
-    {
-     "icon": "old-war-stealthkit",
-     "pt": "Kit Furtivo da Guerra Antiga",
-     "en": "Old War Stealthkit",
-     "prio": 4,
-     "qty": "1",
-     "effect": "Ao cair abaixo de 25% de vida, ganha 40% de velocidade e invisibilidade por 5 s. Recarrega a cada 30 s (-50% por acúmulo).",
-     "why": "Saída de emergência para quem entrou fundo demais no grupo."
+      "slot": "Especial",
+      "pt": "Epidemia",
+      "en": "Epidemic",
+      "pick": "Recomendada",
+      "spec": "Venenosa. Doença de 100% de dano que se espalha para até 20 alvos. Recarga 10 s.",
+      "why": "Cada alvo atingido passa a doença para até 2 inimigos a 30 m, envenenando todos. É o que envenena a tela inteira, e cada salto ativa itens ao acertar. Atirar no chão ou na parede acerta voadores próximos."
     }
-   ]
-  },
-  {
-   "id": "lendario",
-   "name": "Lendário",
-   "color": "vermelho",
-   "intro": "Os vermelhos que mais mudam o Acrid encurtam as recargas e amplificam o corpo a corpo.",
-   "items": [
+  ],
+  "sections": [
     {
-     "icon": "alien-head",
-     "pt": "Cabeça Alienígena",
-     "en": "Alien Head",
-     "prio": 1,
-     "qty": "1 a 2",
-     "effect": "Reduz o tempo de recarga das habilidades em 25% (+25% por acúmulo).",
-     "why": "Epidemia (10 s), Salto Cáustico (6 s) e Mordida (2 s) voltam mais rápido. A Epidemia é a principal fonte de Veneno em grupo, então este item quase dobra quantas vezes você envenena a tela."
+      "id": "comum",
+      "name": "Comum",
+      "color": "branco",
+      "intro": "O Acrid luta colado no inimigo. Os brancos dão o que ele mais usa: velocidade de ataque, dano de perto e defesa.",
+      "items": [
+        {
+          "icon": "soldiers-syringe",
+          "pt": "Seringa Militar",
+          "en": "Soldier's Syringe",
+          "prio": 1,
+          "qty": "4 a 8",
+          "effect": "+15% (+15% por acúmulo) de velocidade de ataque.",
+          "why": "As Dilacerações Hediondas saem mais rápido: mais golpes por segundo, mais ativações de itens ao acertar e o terceiro golpe Regenerativo (que cura 5% da vida máxima) chega com mais frequência."
+        },
+        {
+          "icon": "focus-crystal",
+          "pt": "Cristal de Foco",
+          "en": "Focus Crystal",
+          "prio": 1,
+          "qty": "3 a 5",
+          "effect": "+20% (+20% por acúmulo) de dano contra inimigos a até 13 m.",
+          "why": "O Acrid passa quase toda a luta a menos de 13 m. Segundo a wiki, o bônus também aumenta o dano do Veneno e da Praga."
+        },
+        {
+          "icon": "tougher-times",
+          "pt": "Tempos Difíceis",
+          "en": "Tougher Times",
+          "prio": 2,
+          "qty": "2 a 4",
+          "effect": "15% (+15% por acúmulo) de chance de bloquear dano recebido. Não é afetado por sorte.",
+          "why": "Lutar no meio do grupo significa levar muitos golpes. Cada bloqueio é um golpe inteiro evitado."
+        },
+        {
+          "icon": "lens-makers-glasses",
+          "pt": "Óculos do Fabricante de Lentes",
+          "en": "Lens-Maker's Glasses",
+          "prio": 2,
+          "qty": "2 a 5",
+          "effect": "10% (+10% por acúmulo) de chance de Acerto Crítico, que causa dano dobrado.",
+          "why": "Aumenta o dano dos golpes diretos e ativa Foice do Ceifador e Instintos Predatórios. A wiki não lista crítico entre o que aumenta o Veneno."
+        },
+        {
+          "icon": "tri-tip-dagger",
+          "pt": "Adaga Triangular",
+          "en": "Tri-Tip Dagger",
+          "prio": 3,
+          "qty": "1 a 3",
+          "effect": "10% (+10% por acúmulo) de chance de sangrar um inimigo por 240% do dano base.",
+          "why": "Sangramento é um debuff a mais além do Veneno, útil para a Marca Fatal, e ativa muito com os golpes rápidos das Dilacerações."
+        },
+        {
+          "icon": "armor-piercing-rounds",
+          "pt": "Projéteis Perfurantes",
+          "en": "Armor-Piercing Rounds",
+          "prio": 3,
+          "qty": "1 a 3",
+          "effect": "+20% (+20% por acúmulo) de dano contra chefes.",
+          "why": "A wiki lista este item entre os que aumentam o Veneno. Contra chefes, onde o Veneno já é forte, o ganho é direto."
+        },
+        {
+          "icon": "pauls-goat-hoof",
+          "pt": "Casco de Bode de Paul",
+          "en": "Paul's Goat Hoof",
+          "prio": 3,
+          "qty": "1 a 3",
+          "effect": "+14% (+14% por acúmulo) de velocidade de movimento.",
+          "why": "A distância dos saltos cresce com a velocidade de movimento. Também ajuda a alcançar inimigos que fogem do corpo a corpo."
+        },
+        {
+          "icon": "mocha",
+          "pt": "Mocha",
+          "en": "Mocha",
+          "prio": 3,
+          "qty": "1 a 3",
+          "effect": "+7,5% (+7,5% por acúmulo) de velocidade de ataque e +7% (+7% por acúmulo) de velocidade de movimento.",
+          "why": "Metade Seringa, metade Casco. Bom em qualquer quantidade."
+        },
+        {
+          "icon": "delicate-watch",
+          "pt": "Relógio Delicado",
+          "en": "Delicate Watch",
+          "prio": 4,
+          "qty": "1 a 2",
+          "effect": "+20% (+20% por acúmulo) de dano. Quebra ao levar dano que deixe você abaixo de 25% de vida.",
+          "why": "Aumenta o dano do Veneno também, segundo a wiki. Arriscado para um personagem que vive tomando dano de perto."
+        }
+      ]
     },
     {
-     "icon": "brilliant-behemoth",
-     "pt": "Brutamontes Reluzente",
-     "en": "Brilliant Behemoth",
-     "prio": 1,
-     "qty": "1 a 2",
-     "effect": "Todos os ataques explodem em 4 m (+2,5 m por acúmulo) causando 60% de dano TOTAL extra.",
-     "why": "As Dilacerações batem rápido e no meio do grupo: cada golpe vira dano em área ao redor do alvo."
+      "id": "incomum",
+      "name": "Incomum",
+      "color": "verde",
+      "intro": "Os verdes dão a cura por golpe e os efeitos ao acertar que a Epidemia espalha pelo grupo.",
+      "items": [
+        {
+          "icon": "leeching-seed",
+          "pt": "Semente Sanguessuga",
+          "en": "Leeching Seed",
+          "prio": 1,
+          "qty": "1 a 3",
+          "effect": "Causar dano cura 1 (+1 por acúmulo) de vida.",
+          "why": "Cada golpe das Dilacerações, cada alvo da Epidemia e cada acerto do salto cura. Com muita velocidade de ataque vira a cura principal fora do Regenerativo."
+        },
+        {
+          "icon": "ukulele",
+          "pt": "Ukulele",
+          "en": "Ukulele",
+          "prio": 2,
+          "qty": "1 a 2",
+          "effect": "25% de chance de disparar um raio em cadeia de 80% de dano TOTAL em até 3 (+2 por acúmulo) alvos a 20 m (+2 m por acúmulo).",
+          "why": "A Epidemia atinge até 20 alvos e cada acerto pode ativar o Ukulele. A wiki cita essa combinação como uma das que mantêm a Epidemia útil no fim do jogo. O Polialaúde (Polylute) corrompe todos os Ukuleles."
+        },
+        {
+          "icon": "atg-missile-mk-1",
+          "pt": "Míssil ASM Mk. 1",
+          "en": "AtG Missile Mk. 1",
+          "prio": 2,
+          "qty": "1 a 3",
+          "effect": "10% de chance de disparar um míssil que causa 300% (+300% por acúmulo) de dano TOTAL.",
+          "why": "Mesmo motivo do Ukulele: muitos acertos por segundo e muitos alvos com a Epidemia. O Camarão de Plasma (Plasma Shrimp) corrompe todos os Mísseis."
+        },
+        {
+          "icon": "death-mark",
+          "pt": "Marca Fatal",
+          "en": "Death Mark",
+          "prio": 3,
+          "qty": "1",
+          "effect": "Inimigos com 4 ou mais debuffs ficam marcados e recebem 50% a mais de dano de todas as fontes por 7 s (+7 s por acúmulo).",
+          "why": "O Veneno já conta como um debuff. Com sangramento (Adaga Triangular), redução de armadura (Justiça Destruidora) e outros, chegar a 4 fica fácil. Se chegar, é +50% em tudo, inclusive no Veneno."
+        },
+        {
+          "icon": "shuriken",
+          "pt": "Shuriken",
+          "en": "Shuriken",
+          "prio": 3,
+          "qty": "1 a 2",
+          "effect": "Usar a Primária também arremessa uma shuriken de 400% (+100% por acúmulo) do dano base. Guarda até 3 (+1 por acúmulo), que recarregam em 10 s.",
+          "why": "Você ativa as Dilacerações o tempo todo, então as shurikens nunca ficam paradas. Também dão dano à distância contra voadores."
+        },
+        {
+          "icon": "harvesters-scythe",
+          "pt": "Foice do Ceifador",
+          "en": "Harvester's Scythe",
+          "prio": 3,
+          "qty": "1 (com Óculos)",
+          "effect": "+5% de chance de crítico. Críticos curam 8 (+4 por acúmulo) de vida.",
+          "why": "Com golpes rápidos e alguns Óculos, cura a cada crítico. Sem chance de crítico, prefira a Semente Sanguessuga."
+        },
+        {
+          "icon": "predatory-instincts",
+          "pt": "Instintos Predatórios",
+          "en": "Predatory Instincts",
+          "prio": 3,
+          "qty": "1 (com Óculos)",
+          "effect": "+5% de chance de crítico. Críticos dão +12% de velocidade de ataque, até 36% (+24% por acúmulo).",
+          "why": "Mais velocidade para as Dilacerações quando você já tem chance de crítico."
+        },
+        {
+          "icon": "noxious-thorn",
+          "pt": "Espinho Nocivo",
+          "en": "Noxious Thorn",
+          "prio": 4,
+          "qty": "1 (melhor com Praga)",
+          "effect": "+10% de chance de sangramento. Ao abater, transfere 33% de cada acúmulo de debuff para 1 (+1 por acúmulo) inimigo a até 20 m (+5 m por acúmulo).",
+          "why": "A Praga acumula, então o Espinho passa parte dos acúmulos para o vizinho. O Veneno normal não acumula, então rende menos."
+        },
+        {
+          "icon": "old-war-stealthkit",
+          "pt": "Kit Furtivo da Guerra Antiga",
+          "en": "Old War Stealthkit",
+          "prio": 4,
+          "qty": "1",
+          "effect": "Ao cair abaixo de 25% de vida, ganha 40% de velocidade e invisibilidade por 5 s. Recarrega a cada 30 s (-50% por acúmulo).",
+          "why": "Saída de emergência para quem entrou fundo demais no grupo."
+        }
+      ]
     },
     {
-     "icon": "hardlight-afterburner",
-     "pt": "Pós-combustor de Holograma",
-     "en": "Hardlight Afterburner",
-     "prio": 2,
-     "qty": "1",
-     "effect": "+2 (+2 por acúmulo) cargas da Utilitária e −33% no tempo de recarga dela.",
-     "why": "O Salto Cáustico já tem 2 cargas; com o item são 4. Cada salto atordoa, envenena e deixa uma poça de ácido que causa até 500% de dano por alvo."
+      "id": "lendario",
+      "name": "Lendário",
+      "color": "vermelho",
+      "intro": "Os vermelhos que mais mudam o Acrid encurtam as recargas e amplificam o corpo a corpo.",
+      "items": [
+        {
+          "icon": "alien-head",
+          "pt": "Cabeça Alienígena",
+          "en": "Alien Head",
+          "prio": 1,
+          "qty": "1 a 2",
+          "effect": "Reduz o tempo de recarga das habilidades em 25% (+25% por acúmulo).",
+          "why": "Epidemia (10 s), Salto Cáustico (6 s) e Mordida (2 s) voltam mais rápido. Com um acúmulo, a Epidemia volta em 7,5 s em vez de 10 s. Ela é a principal fonte de Veneno em grupo."
+        },
+        {
+          "icon": "brilliant-behemoth",
+          "pt": "Brutamontes Reluzente",
+          "en": "Brilliant Behemoth",
+          "prio": 1,
+          "qty": "1 a 2",
+          "effect": "Todos os ataques explodem em 4 m (+2,5 m por acúmulo) causando 60% de dano TOTAL extra.",
+          "why": "As Dilacerações batem rápido e no meio do grupo: cada golpe vira dano em área ao redor do alvo."
+        },
+        {
+          "icon": "hardlight-afterburner",
+          "pt": "Pós-combustor de Holograma",
+          "en": "Hardlight Afterburner",
+          "prio": 2,
+          "qty": "1",
+          "effect": "+2 (+2 por acúmulo) cargas da Utilitária e −33% no tempo de recarga dela.",
+          "why": "O Salto Cáustico já tem 2 cargas; com o item são 4. Cada salto atordoa, envenena e deixa uma poça de ácido que causa até 500% de dano por alvo."
+        },
+        {
+          "icon": "rejuvenation-rack",
+          "pt": "Suporte do Rejuvenescimento",
+          "en": "Rejuvenation Rack",
+          "prio": 2,
+          "qty": "1",
+          "effect": "Cura +100% (+100% por acúmulo) a mais.",
+          "why": "Dobra a cura de Semente Sanguessuga, Foice e dos outros itens de cura. Para um personagem que vive de se curar no meio da briga, é sobrevivência pura."
+        },
+        {
+          "icon": "shattering-justice",
+          "pt": "Justiça Destruidora",
+          "en": "Shattering Justice",
+          "prio": 3,
+          "qty": "1",
+          "effect": "Depois de acertar um inimigo 5 vezes, reduz a armadura dele em 60 por 8 s (+8 s por acúmulo).",
+          "why": "O Veneno é afetado pela armadura. Cinco golpes das Dilacerações saem rápido, e a partir daí tanto os golpes quanto o Veneno batem mais. Também conta como debuff para a Marca Fatal."
+        },
+        {
+          "icon": "symbiotic-scorpion",
+          "pt": "Escorpião Simbiótico",
+          "en": "Symbiotic Scorpion",
+          "prio": 3,
+          "qty": "1 a 2",
+          "effect": "100% de chance ao acertar de reduzir a armadura em 2 (+2 por acúmulo) permanentemente.",
+          "why": "Com golpes rápidos em chefes, a armadura deles cai sem parar. Citado pela wiki entre os itens que aumentam o Veneno."
+        },
+        {
+          "icon": "57-leaf-clover",
+          "pt": "Trevo 57",
+          "en": "57 Leaf Clover",
+          "prio": 3,
+          "qty": "1",
+          "effect": "Todos os efeitos aleatórios são rolados +1 (+1 por acúmulo) vez a seu favor.",
+          "why": "Melhora Ukulele, Míssil, Adaga Triangular e crítico, que são a base do dano em área junto com a Epidemia."
+        },
+        {
+          "icon": "aegis",
+          "pt": "Égide",
+          "en": "Aegis",
+          "prio": 4,
+          "qty": "1",
+          "effect": "Cura além da vida máxima vira barreira temporária de 50% (+50% por acúmulo) do valor curado.",
+          "why": "Funciona com a Semente e os outros itens de cura, mas a wiki avisa que não interage com a cura Regenerativa do Acrid."
+        }
+      ]
     },
     {
-     "icon": "rejuvenation-rack",
-     "pt": "Suporte do Rejuvenescimento",
-     "en": "Rejuvenation Rack",
-     "prio": 2,
-     "qty": "1",
-     "effect": "Cura +100% (+100% por acúmulo) a mais.",
-     "why": "Dobra a cura de Semente Sanguessuga, Foice e dos outros itens de cura. Para um personagem que vive de se curar no meio da briga, é sobrevivência pura."
+      "id": "chefe",
+      "name": "Chefe",
+      "color": "amarelo",
+      "intro": "Itens de chefe só caem de chefes de teleporte.",
+      "items": [
+        {
+          "icon": "irradiant-pearl",
+          "pt": "Pérola Irradiante",
+          "en": "Irradiant Pearl",
+          "prio": 2,
+          "qty": "1 ou mais",
+          "effect": "Aumenta TODOS os atributos em 10% (+10% por acúmulo).",
+          "why": "Vida, regeneração, dano, velocidade de ataque e armadura de uma vez. Tudo o que o Acrid usa."
+        },
+        {
+          "icon": "molten-perforator",
+          "pt": "Perfurador Fundido",
+          "en": "Molten Perforator",
+          "prio": 3,
+          "qty": "1",
+          "effect": "10% de chance ao acertar de lançar 3 bolas de magma do inimigo, causando 300% (+300% por acúmulo) de dano cada.",
+          "why": "Mais um efeito ao acertar para os golpes rápidos e para os alvos da Epidemia."
+        }
+      ]
     },
     {
-     "icon": "shattering-justice",
-     "pt": "Justiça Destruidora",
-     "en": "Shattering Justice",
-     "prio": 3,
-     "qty": "1",
-     "effect": "Depois de acertar um inimigo 5 vezes, reduz a armadura dele em 60 por 8 s (+8 s por acúmulo).",
-     "why": "O Veneno é afetado pela armadura. Cinco golpes das Dilacerações saem rápido, e a partir daí tanto os golpes quanto o Veneno batem mais. Também conta como debuff para a Marca Fatal."
+      "id": "equipamento",
+      "name": "Equipamentos",
+      "color": "laranja",
+      "intro": "Só dá para carregar um. Escolha pelo momento da run.",
+      "items": [
+        {
+          "icon": "spinel-tonic",
+          "pt": "Tônico de Espinélia",
+          "en": "Spinel Tonic",
+          "prio": 1,
+          "qty": "1 (equipamento lunar, recarga 60 s)",
+          "effect": "Por 20 s: +100% de dano, +70% de velocidade de ataque, +20 de armadura, +50% de vida máxima, +300% de regeneração, +30% de movimento. Ao acabar, 20% de chance de Aflição do Tônico (−5% em todos os atributos, permanente).",
+          "why": "A wiki destaca este item para o Acrid: a cura Regenerativa conta como regeneração e fica muito mais forte, e os 70% de velocidade de ataque aceleram as Dilacerações. Use nas lutas que importam, pela chance de aflição."
+        },
+        {
+          "icon": "primordial-cube",
+          "pt": "Cubo Primordial",
+          "en": "Primordial Cube",
+          "prio": 2,
+          "qty": "1 (recarga 60 s)",
+          "effect": "Buraco negro que puxa inimigos a até 30 m para o centro por 10 s.",
+          "why": "Junta o grupo num ponto só: as Dilacerações e o Brutamontes acertam todo mundo, e a poça do Salto Cáustico pega todos."
+        },
+        {
+          "icon": "royal-capacitor",
+          "pt": "Capacitor Régio",
+          "en": "Royal Capacitor",
+          "prio": 2,
+          "qty": "1 (recarga 20 s)",
+          "effect": "Raio em um monstro marcado causando 3000% de dano e atordoando os monstros próximos.",
+          "why": "Dano à distância para voadores e elites, o ponto fraco de um personagem corpo a corpo."
+        },
+        {
+          "icon": "gorags-opus",
+          "pt": "Opus de Gorag",
+          "en": "Gorag's Opus",
+          "prio": 3,
+          "qty": "1 (recarga 45 s)",
+          "effect": "Todos os aliados entram em frenesi por 7 s: +50% de movimento e +100% de velocidade de ataque.",
+          "why": "Dobra a velocidade das Dilacerações por alguns segundos. Bom em grupo."
+        },
+        {
+          "icon": "blast-shower",
+          "pt": "Expurgação Explosiva",
+          "en": "Blast Shower",
+          "prio": 4,
+          "qty": "1 (recarga 20 s)",
+          "effect": "Remove todos os efeitos negativos, incluindo dano contínuo e projéteis próximos.",
+          "why": "Defensivo contra elites que aplicam debuffs. Não ajuda a matar."
+        }
+      ]
     },
     {
-     "icon": "symbiotic-scorpion",
-     "pt": "Escorpião Simbiótico",
-     "en": "Symbiotic Scorpion",
-     "prio": 3,
-     "qty": "1 a 2",
-     "effect": "100% de chance ao acertar de reduzir a armadura em 2 (+2 por acúmulo) permanentemente.",
-     "why": "Com golpes rápidos em chefes, a armadura deles cai sem parar. Citado pela wiki entre os itens que aumentam o Veneno."
+      "id": "lunar",
+      "name": "Lunares",
+      "color": "azul",
+      "intro": "Itens lunares têm custo embutido. Nenhum é obrigatório.",
+      "items": [
+        {
+          "icon": "purity",
+          "pt": "Pureza",
+          "en": "Purity",
+          "prio": 3,
+          "qty": "1",
+          "effect": "Reduz todas as recargas de habilidade em 2 s (+1 s por acúmulo). Todos os efeitos aleatórios são rolados +1 (+1 por acúmulo) vez contra você.",
+          "why": "A wiki aponta que a Mordida e a Neurotoxina caem para a recarga mínima de 0,5 s: dá para morder sem parar, curando com o Regenerativo. O custo é piorar Ukulele, Míssil, Adaga e crítico."
+        },
+        {
+          "icon": "corpsebloom",
+          "pt": "Expansão Corporal",
+          "en": "Corpsebloom",
+          "prio": 4,
+          "qty": "1",
+          "effect": "Cura +100% (+100% por acúmulo) a mais. Toda cura é aplicada ao longo do tempo, até no máximo 10% (−50% por acúmulo) da vida por segundo.",
+          "why": "Dobra a cura, mas espalha no tempo. A wiki observa que não é afetada pelos modificadores de regeneração de dificuldade."
+        },
+        {
+          "icon": "shaped-glass",
+          "pt": "Vidro Configurado",
+          "en": "Shaped Glass",
+          "prio": 4,
+          "qty": "1 (só se estiver confortável)",
+          "effect": "+100% (+100% por acúmulo) de dano base. −50% (−50% por acúmulo) de vida máxima.",
+          "why": "Dobra os golpes, mas não a parte do Veneno que vem da vida máxima do inimigo. Corta pela metade a vida de quem precisa dela para lutar de perto."
+        },
+        {
+          "icon": "light-flux-pauldron",
+          "pt": "Ombreira do Fluxo Iluminado",
+          "en": "Light Flux Pauldron",
+          "prio": 0,
+          "qty": "0",
+          "effect": "−50% (−50% por acúmulo) no tempo de recarga das habilidades. −50% (−50% por acúmulo) de velocidade de ataque.",
+          "why": "As Dilacerações são a base do dano e da cura do Acrid. Cortar a velocidade de ataque pela metade custa mais do que as recargas menores devolvem."
+        }
+      ]
     },
     {
-     "icon": "57-leaf-clover",
-     "pt": "Trevo 57",
-     "en": "57 Leaf Clover",
-     "prio": 3,
-     "qty": "1",
-     "effect": "Todos os efeitos aleatórios são rolados +1 (+1 por acúmulo) vez a seu favor.",
-     "why": "Melhora Ukulele, Míssil, Adaga Triangular e crítico, que são a base do dano em área junto com a Epidemia."
-    },
-    {
-     "icon": "aegis",
-     "pt": "Égide",
-     "en": "Aegis",
-     "prio": 4,
-     "qty": "1",
-     "effect": "Cura além da vida máxima vira barreira temporária de 50% (+50% por acúmulo) do valor curado.",
-     "why": "Funciona com a Semente e os outros itens de cura, mas a wiki avisa que não interage com a cura Regenerativa do Acrid."
+      "id": "vazio",
+      "name": "Vazio",
+      "color": "roxo",
+      "intro": "Itens do Vazio (DLC Survivors of the Void) corrompem itens comuns quando pegos. Veja o que vai perder antes.",
+      "items": [
+        {
+          "icon": "lysate-cell",
+          "pt": "Célula Lisada",
+          "en": "Lysate Cell",
+          "prio": 1,
+          "qty": "1 a 2",
+          "effect": "+1 (+1 por acúmulo) carga da habilidade Especial e −33% no tempo de recarga dela. Corrompe todas as Células de Combustível.",
+          "why": "Duas Epidemias seguidas e recarga menor. Mais Veneno espalhado e mais acertos para os itens de efeito ao acertar."
+        },
+        {
+          "icon": "voidsent-flame",
+          "pt": "Chama da Nulidade",
+          "en": "Voidsent Flame",
+          "prio": 2,
+          "qty": "1 a 2",
+          "effect": "Ao acertar um inimigo com a vida cheia, cria um pilar de lava de 12 m (+2,4 m por acúmulo) causando 260% (+156% por acúmulo) do dano base. Corrompe todos os Fogos Fátuos (Will-o'-the-wisp).",
+          "why": "A Epidemia salta para até 20 inimigos. Cada um que ela atinge com a vida cheia pode gerar um pilar."
+        },
+        {
+          "icon": "polylute",
+          "pt": "Polialaúde",
+          "en": "Polylute",
+          "prio": 3,
+          "qty": "1 a 2",
+          "effect": "25% de chance de disparar um raio de 60% de dano TOTAL até 3 (+3 por acúmulo) vezes. Corrompe todos os Ukuleles.",
+          "why": "Corrompe todos os seus Ukuleles. Você troca o raio em cadeia, que a Epidemia espalha pelo grupo, por raios repetidos num alvo só. Vale mais quando a luta é contra chefes. Se já tem Ukuleles, pense antes de pegar."
+        },
+        {
+          "icon": "weeping-fungus",
+          "pt": "Fungo Choroso",
+          "en": "Weeping Fungus",
+          "prio": 3,
+          "qty": "1 a 2",
+          "effect": "Cura 2% (+2% por acúmulo) da vida por segundo enquanto corre. Corrompe todos os Fungos Vibrantes.",
+          "why": "Recupera vida entre uma briga e outra sem parar. Corrompe o Fungo Vibrante, que pede para ficar parado."
+        },
+        {
+          "icon": "plasma-shrimp",
+          "pt": "Camarão de Plasma",
+          "en": "Plasma Shrimp",
+          "prio": 4,
+          "qty": "1",
+          "effect": "Ganha escudo de 10% da vida máxima. Com escudo, cada acerto dispara um míssil de 40% (+40% por acúmulo) de dano TOTAL. Corrompe todos os Mísseis ASM Mk. 1.",
+          "why": "Corrompe todos os seus Mísseis ASM, que são recomendados acima. Você troca 10% de chance de um míssil de 300% por um míssil de 40% a cada acerto, mas só enquanto há escudo. O Acrid leva dano o tempo todo, então o escudo cai com frequência. Com Mísseis, não pegue."
+        }
+      ]
     }
-   ]
-  },
-  {
-   "id": "chefe",
-   "name": "Chefe",
-   "color": "amarelo",
-   "intro": "Itens de chefe só caem de chefes de teleporte.",
-   "items": [
+  ],
+  "synergy": [
     {
-     "icon": "irradiant-pearl",
-     "pt": "Pérola Irradiante",
-     "en": "Irradiant Pearl",
-     "prio": 2,
-     "qty": "1 ou mais",
-     "effect": "Aumenta TODOS os atributos em 10% (+10% por acúmulo).",
-     "why": "Vida, regeneração, dano, velocidade de ataque e armadura de uma vez. Tudo o que o Acrid usa."
+      "title": "O Veneno não mata",
+      "text": "O Veneno tira até 10% da vida máxima do alvo, mas para em 1 de vida. Por isso a build precisa de algo que finalize: a Mordida Voraz (Assassino), os golpes das Dilacerações e os itens ao acertar (Ukulele, Míssil, Brutamontes). Itens de abate só funcionam quando um golpe seu ou de um item termina o serviço."
     },
     {
-     "icon": "molten-perforator",
-     "pt": "Perfurador Fundido",
-     "en": "Molten Perforator",
-     "prio": 3,
-     "qty": "1",
-     "effect": "10% de chance ao acertar de lançar 3 bolas de magma do inimigo, causando 300% (+300% por acúmulo) de dano cada.",
-     "why": "Mais um efeito ao acertar para os golpes rápidos e para os alvos da Epidemia."
+      "title": "O que aumenta o Veneno",
+      "text": "O Veneno é dano contínuo baseado na vida do inimigo. A wiki lista o que aumenta o Veneno e a Praga: Cristal de Foco, Projéteis Perfurantes (chefes), Relógio Delicado, Marca Fatal, Tônico de Espinélia e redução de armadura (Justiça Destruidora, Escorpião Simbiótico), porque o Veneno é afetado pela armadura. Vidro Configurado só aumenta o valor mínimo, não a parte baseada em vida."
+    },
+    {
+      "title": "Cura e regeneração",
+      "text": "O terceiro golpe das Dilacerações e a Mordida Voraz dão o efeito Regenerativo: 5% da vida máxima em 0,5 s. Como conta como regeneração, o Tônico de Espinélia (+300% de regeneração) o multiplica. A Semente Sanguessuga cura a cada golpe e a Foice a cada crítico; o Suporte do Rejuvenescimento dobra essas curas."
+    },
+    {
+      "title": "Epidemia e efeitos ao acertar",
+      "text": "Cada salto da Epidemia é um acerto: Ukulele, Míssil, Chama da Nulidade e Perfurador Fundido podem ativar em até 20 alvos de uma vez. Por isso esses itens rendem mais no Acrid do que em personagens de alvo único. Célula Lisada e Cabeça Alienígena aumentam quantas vezes isso acontece."
+    },
+    {
+      "title": "Velocidade de ataque",
+      "text": "As Dilacerações são a fonte de dano direto, de cura Regenerativa e da maioria das ativações de itens. Velocidade de ataque melhora as três coisas ao mesmo tempo; é o atributo mais valioso para o Acrid depois de sobreviver. Evite o que corta velocidade de ataque, como a Ombreira do Fluxo Iluminado."
     }
-   ]
-  },
-  {
-   "id": "equipamento",
-   "name": "Equipamentos",
-   "color": "laranja",
-   "intro": "Só dá para carregar um. Escolha pelo momento da run.",
-   "items": [
+  ],
+  "rotation": [
     {
-     "icon": "spinel-tonic",
-     "pt": "Tônico de Espinélia",
-     "en": "Spinel Tonic",
-     "prio": 1,
-     "qty": "1 (equipamento lunar, recarga 60 s)",
-     "effect": "Por 20 s: +100% de dano, +70% de velocidade de ataque, +20 de armadura, +50% de vida máxima, +300% de regeneração, +30% de movimento. Ao acabar, 20% de chance de Aflição do Tônico (−5% em todos os atributos, permanente).",
-     "why": "A wiki destaca este item para o Acrid: a cura Regenerativa conta como regeneração e fica muito mais forte, e os 70% de velocidade de ataque aceleram as Dilacerações. Use nas lutas que importam, pela chance de aflição."
+      "step": "Epidemia no grupo",
+      "text": "Envenena até 20 inimigos de uma vez. Mire no chão para pegar voadores."
     },
     {
-     "icon": "primordial-cube",
-     "pt": "Cubo Primordial",
-     "en": "Primordial Cube",
-     "prio": 2,
-     "qty": "1 (recarga 60 s)",
-     "effect": "Buraco negro que puxa inimigos a até 30 m para o centro por 10 s.",
-     "why": "Junta o grupo num ponto só: as Dilacerações e o Brutamontes acertam todo mundo, e a poça do Salto Cáustico pega todos."
+      "step": "Salto Cáustico para entrar",
+      "text": "Atordoa, envenena e deixa a poça de ácido onde o grupo está."
     },
     {
-     "icon": "royal-capacitor",
-     "pt": "Capacitor Régio",
-     "en": "Royal Capacitor",
-     "prio": 2,
-     "qty": "1 (recarga 20 s)",
-     "effect": "Raio em um monstro marcado causando 3000% de dano e atordoando os monstros próximos.",
-     "why": "Dano à distância para voadores e elites, o ponto fraco de um personagem corpo a corpo."
+      "step": "Dilacerações Hediondas",
+      "text": "Bata no alvo mais perigoso. A cada três golpes, cura Regenerativa."
     },
     {
-     "icon": "gorags-opus",
-     "pt": "Opus de Gorag",
-     "en": "Gorag's Opus",
-     "prio": 3,
-     "qty": "1 (recarga 45 s)",
-     "effect": "Todos os aliados entram em frenesi por 7 s: +50% de movimento e +100% de velocidade de ataque.",
-     "why": "Dobra a velocidade das Dilacerações por alguns segundos. Bom em grupo."
+      "step": "Mordida Voraz nos machucados",
+      "text": "Assassino causa até o triplo de dano em quem o Veneno já deixou com pouca vida."
     },
     {
-     "icon": "blast-shower",
-     "pt": "Expurgação Explosiva",
-     "en": "Blast Shower",
-     "prio": 4,
-     "qty": "1 (recarga 20 s)",
-     "effect": "Remove todos os efeitos negativos, incluindo dano contínuo e projéteis próximos.",
-     "why": "Defensivo contra elites que aplicam debuffs. Não ajuda a matar."
+      "step": "Segundo salto para sair",
+      "text": "Use a carga restante para escapar ou reposicionar enquanto o Veneno trabalha."
     }
-   ]
-  },
-  {
-   "id": "lunar",
-   "name": "Lunares",
-   "color": "azul",
-   "intro": "Itens lunares têm custo embutido. Nenhum é obrigatório.",
-   "items": [
+  ],
+  "essentials": [
     {
-     "icon": "purity",
-     "pt": "Pureza",
-     "en": "Purity",
-     "prio": 3,
-     "qty": "1",
-     "effect": "Reduz todas as recargas de habilidade em 2 s (+1 s por acúmulo). Todos os efeitos aleatórios são rolados +1 (+1 por acúmulo) vez contra você.",
-     "why": "A wiki aponta que a Mordida e a Neurotoxina caem para a recarga mínima de 0,5 s: dá para morder sem parar, curando com o Regenerativo. O custo é piorar Ukulele, Míssil, Adaga e crítico."
+      "pt": "Seringa Militar",
+      "en": "Soldier's Syringe"
     },
     {
-     "icon": "corpsebloom",
-     "pt": "Expansão Corporal",
-     "en": "Corpsebloom",
-     "prio": 4,
-     "qty": "1",
-     "effect": "Cura +100% (+100% por acúmulo) a mais. Toda cura é aplicada ao longo do tempo, até no máximo 10% (−50% por acúmulo) da vida por segundo.",
-     "why": "Dobra a cura, mas espalha no tempo. A wiki observa que não é afetada pelos modificadores de regeneração de dificuldade."
+      "pt": "Cristal de Foco",
+      "en": "Focus Crystal"
     },
     {
-     "icon": "shaped-glass",
-     "pt": "Vidro Configurado",
-     "en": "Shaped Glass",
-     "prio": 4,
-     "qty": "1 (só se estiver confortável)",
-     "effect": "+100% (+100% por acúmulo) de dano base. −50% (−50% por acúmulo) de vida máxima.",
-     "why": "Dobra os golpes, mas não a parte do Veneno que vem da vida máxima do inimigo. Corta pela metade a vida de quem precisa dela para lutar de perto."
+      "pt": "Semente Sanguessuga",
+      "en": "Leeching Seed"
     },
     {
-     "icon": "light-flux-pauldron",
-     "pt": "Ombreira do Fluxo Iluminado",
-     "en": "Light Flux Pauldron",
-     "prio": 0,
-     "qty": "0",
-     "effect": "−50% (−50% por acúmulo) no tempo de recarga das habilidades. −50% (−50% por acúmulo) de velocidade de ataque.",
-     "why": "As Dilacerações são a base do dano e da cura do Acrid. Cortar a velocidade de ataque pela metade custa mais do que as recargas menores devolvem."
+      "pt": "Cabeça Alienígena",
+      "en": "Alien Head"
+    },
+    {
+      "pt": "Brutamontes Reluzente",
+      "en": "Brilliant Behemoth"
+    },
+    {
+      "pt": "Célula Lisada",
+      "en": "Lysate Cell"
+    },
+    {
+      "pt": "Tônico de Espinélia",
+      "en": "Spinel Tonic"
     }
-   ]
-  },
-  {
-   "id": "vazio",
-   "name": "Vazio",
-   "color": "roxo",
-   "intro": "Itens do Vazio (DLC Survivors of the Void) corrompem itens comuns quando pegos. Veja o que vai perder antes.",
-   "items": [
+  ],
+  "situational_note": "Situacionais: Marca Fatal, Shuriken, Justiça Destruidora, Escorpião Simbiótico, Chama da Nulidade, Pureza e os demais lunares.",
+  "fallbacks": [
     {
-     "icon": "lysate-cell",
-     "pt": "Célula Lisada",
-     "en": "Lysate Cell",
-     "prio": 1,
-     "qty": "1 a 2",
-     "effect": "+1 (+1 por acúmulo) carga da habilidade Especial e −33% no tempo de recarga dela. Corrompe todas as Células de Combustível.",
-     "why": "Duas Epidemias seguidas e recarga menor. Mais Veneno espalhado e mais acertos para os itens de efeito ao acertar."
+      "pt": "Seringa Militar",
+      "en": "Soldier's Syringe",
+      "text": "Mocha, Instintos Predatórios (com Óculos) ou Opus de Gorag como equipamento."
     },
     {
-     "icon": "voidsent-flame",
-     "pt": "Chama da Nulidade",
-     "en": "Voidsent Flame",
-     "prio": 2,
-     "qty": "1 a 2",
-     "effect": "Ao acertar um inimigo com a vida cheia, cria um pilar de lava de 12 m (+2,4 m por acúmulo) causando 260% (+156% por acúmulo) do dano base. Corrompe todos os Fogos Fátuos (Will-o'-the-wisp).",
-     "why": "A Epidemia salta para até 20 inimigos que ainda não levaram dano: cada um pode gerar um pilar."
+      "pt": "Cristal de Foco",
+      "en": "Focus Crystal",
+      "text": "Projéteis Perfurantes para chefes e Justiça Destruidora para aumentar golpes e Veneno pela armadura."
     },
     {
-     "icon": "polylute",
-     "pt": "Polialaúde",
-     "en": "Polylute",
-     "prio": 3,
-     "qty": "1 a 2",
-     "effect": "25% de chance de disparar um raio de 60% de dano TOTAL até 3 (+3 por acúmulo) vezes. Corrompe todos os Ukuleles.",
-     "why": "Mais forte que o Ukulele contra um alvo, mais fraco em grupo. Bom quando a luta é contra chefes."
+      "pt": "Semente Sanguessuga",
+      "en": "Leeching Seed",
+      "text": "Foice do Ceifador com alguns Óculos, ou Fungo Choroso entre as lutas. Tempos Difíceis para levar menos dano."
     },
     {
-     "icon": "weeping-fungus",
-     "pt": "Fungo Choroso",
-     "en": "Weeping Fungus",
-     "prio": 3,
-     "qty": "1 a 2",
-     "effect": "Cura 2% (+2% por acúmulo) da vida por segundo enquanto corre.",
-     "why": "Recupera vida entre uma briga e outra sem parar. Corrompe o Fungo Vibrante, que pede para ficar parado."
+      "pt": "Cabeça Alienígena",
+      "en": "Alien Head",
+      "text": "Célula Lisada para a Epidemia e Pós-combustor para os saltos. Pureza se aceitar o custo nos efeitos de chance."
     },
     {
-     "icon": "plasma-shrimp",
-     "pt": "Camarão de Plasma",
-     "en": "Plasma Shrimp",
-     "prio": 4,
-     "qty": "1",
-     "effect": "Ganha escudo de 10% da vida máxima. Com escudo, cada acerto dispara um míssil de 40% (+40% por acúmulo) de dano TOTAL. Corrompe todos os Mísseis ASM Mk. 1.",
-     "why": "Funciona bem com os golpes rápidos, mas só enquanto o escudo existe, e o Acrid leva dano o tempo todo. Pense antes de trocar seus Mísseis."
+      "pt": "Brutamontes Reluzente",
+      "en": "Brilliant Behemoth",
+      "text": "Ukulele e Míssil ASM, que a Epidemia espalha pelo grupo."
+    },
+    {
+      "pt": "Célula Lisada",
+      "en": "Lysate Cell",
+      "text": "Cabeça Alienígena. Sem as duas, use a Epidemia só em grupos e o Salto Cáustico como fonte de Veneno."
+    },
+    {
+      "pt": "Tônico de Espinélia",
+      "en": "Spinel Tonic",
+      "text": "Cubo Primordial para juntar grupos ou Capacitor Régio para voadores."
     }
-   ]
-  }
- ],
- "synergy": [
-  {
-   "title": "O Veneno não mata",
-   "text": "O Veneno tira até 10% da vida máxima do alvo, mas para em 1 de vida. Por isso a build precisa de algo que finalize: a Mordida Voraz (Assassino), os golpes das Dilacerações e os itens ao acertar (Ukulele, Míssil, Brutamontes). Itens de abate só funcionam quando um golpe seu ou de um item termina o serviço."
-  },
-  {
-   "title": "O que aumenta o Veneno",
-   "text": "O Veneno é dano contínuo baseado na vida do inimigo: não é afetado por crítico nem ativa itens ao acertar. A wiki lista o que o aumenta: Cristal de Foco, Projéteis Perfurantes (chefes), Relógio Delicado, Marca Fatal e redução de armadura (Justiça Destruidora, Escorpião Simbiótico), porque o Veneno é afetado pela armadura. Vidro Configurado só aumenta o valor mínimo, não a parte baseada em vida."
-  },
-  {
-   "title": "Cura e regeneração",
-   "text": "O terceiro golpe das Dilacerações e a Mordida Voraz dão o efeito Regenerativo: 5% da vida máxima em 0,5 s. Como conta como regeneração, o Tônico de Espinélia (+300% de regeneração) o multiplica. A Semente Sanguessuga cura a cada golpe e a Foice a cada crítico; o Suporte do Rejuvenescimento dobra essas curas."
-  },
-  {
-   "title": "Epidemia e efeitos ao acertar",
-   "text": "Cada salto da Epidemia é um acerto: Ukulele, Míssil, Chama da Nulidade e Perfurador Fundido podem ativar em até 20 alvos de uma vez. Por isso esses itens rendem mais no Acrid do que em personagens de alvo único. Célula Lisada e Cabeça Alienígena aumentam quantas vezes isso acontece."
-  },
-  {
-   "title": "Velocidade de ataque",
-   "text": "As Dilacerações são a fonte de dano direto, de cura Regenerativa e da maioria das ativações de itens. Velocidade de ataque melhora as três coisas ao mesmo tempo; é o atributo mais valioso para o Acrid depois de sobreviver. Evite o que corta velocidade de ataque, como a Ombreira do Fluxo Iluminado."
-  }
- ],
- "rotation": [
-  {
-   "step": "Epidemia no grupo",
-   "text": "Envenena até 20 inimigos de uma vez. Mire no chão para pegar voadores."
-  },
-  {
-   "step": "Salto Cáustico para entrar",
-   "text": "Atordoa, envenena e deixa a poça de ácido onde o grupo está."
-  },
-  {
-   "step": "Dilacerações Hediondas",
-   "text": "Bata no alvo mais perigoso. A cada três golpes, cura Regenerativa."
-  },
-  {
-   "step": "Mordida Voraz nos machucados",
-   "text": "Assassino triplica o dano em quem o Veneno já deixou com pouca vida."
-  },
-  {
-   "step": "Segundo salto para sair",
-   "text": "Use a carga restante para escapar ou reposicionar enquanto o Veneno trabalha."
-  }
- ],
- "essentials": [
-  {
-   "pt": "Seringa Militar",
-   "en": "Soldier's Syringe"
-  },
-  {
-   "pt": "Cristal de Foco",
-   "en": "Focus Crystal"
-  },
-  {
-   "pt": "Semente Sanguessuga",
-   "en": "Leeching Seed"
-  },
-  {
-   "pt": "Cabeça Alienígena",
-   "en": "Alien Head"
-  },
-  {
-   "pt": "Brutamontes Reluzente",
-   "en": "Brilliant Behemoth"
-  },
-  {
-   "pt": "Célula Lisada",
-   "en": "Lysate Cell"
-  },
-  {
-   "pt": "Tônico de Espinélia",
-   "en": "Spinel Tonic"
-  }
- ],
- "situational_note": "Situacionais: Marca Fatal, Shuriken, Justiça Destruidora, Escorpião Simbiótico, Chama da Nulidade, Pureza e os demais lunares.",
- "fallbacks": [
-  {
-   "pt": "Seringa Militar",
-   "en": "Soldier's Syringe",
-   "text": "Mocha, Instintos Predatórios (com Óculos) ou Opus de Gorag como equipamento."
-  },
-  {
-   "pt": "Cristal de Foco",
-   "en": "Focus Crystal",
-   "text": "Projéteis Perfurantes para chefes e Justiça Destruidora para aumentar golpes e Veneno pela armadura."
-  },
-  {
-   "pt": "Semente Sanguessuga",
-   "en": "Leeching Seed",
-   "text": "Foice do Ceifador com alguns Óculos, ou Fungo Choroso entre as lutas. Tempos Difíceis para levar menos dano."
-  },
-  {
-   "pt": "Cabeça Alienígena",
-   "en": "Alien Head",
-   "text": "Célula Lisada para a Epidemia e Pós-combustor para os saltos. Pureza se aceitar o custo nos efeitos de chance."
-  },
-  {
-   "pt": "Brutamontes Reluzente",
-   "en": "Brilliant Behemoth",
-   "text": "Ukulele e Míssil ASM, que a Epidemia espalha pelo grupo."
-  },
-  {
-   "pt": "Célula Lisada",
-   "en": "Lysate Cell",
-   "text": "Cabeça Alienígena. Sem as duas, use a Epidemia só em grupos e o Salto Cáustico como fonte de Veneno."
-  },
-  {
-   "pt": "Tônico de Espinélia",
-   "en": "Spinel Tonic",
-   "text": "Cubo Primordial para juntar grupos ou Capacitor Régio para voadores."
-  }
- ],
- "summary": "Veneno, Dilacerações Hediondas, Mordida Voraz, Salto Cáustico e Epidemia. Abra cada luta com Epidemia e Salto Cáustico para envenenar o grupo, entre no meio com as Dilacerações e finalize com a Mordida os inimigos que o Veneno deixou com pouca vida. Empilhe velocidade de ataque (Seringa) e dano de perto (Cristal de Foco), cure com Semente Sanguessuga e encurte as recargas com Cabeça Alienígena e Célula Lisada.",
- "checklist": [
-  {
-   "title": "Sempre pegue",
-   "text": "Seringa Militar, Cristal de Foco, Semente Sanguessuga, Cabeça Alienígena, Brutamontes, Célula Lisada."
-  },
-  {
-   "title": "Impressoras brancas",
-   "text": "Transforme em Seringa Militar até umas 6, depois Cristal de Foco."
-  },
-  {
-   "title": "Primeiro verde",
-   "text": "Semente Sanguessuga. Depois Ukulele ou Míssil ASM."
-  },
-  {
-   "title": "Equipamento",
-   "text": "Tônico de Espinélia para chefes; Capacitor Régio se os voadores estiverem incomodando."
-  },
-  {
-   "title": "Antes de pegar Vazio",
-   "text": "Polialaúde corrompe os Ukuleles; Camarão de Plasma corrompe os Mísseis ASM."
-  },
-  {
-   "title": "Não pegue",
-   "text": "Ombreira do Fluxo Iluminado: corta a velocidade de ataque pela metade."
-  },
-  {
-   "title": "Luta de chefe",
-   "text": "Epidemia e Salto Cáustico para envenenar, Dilacerações sem parar, Mordida quando a vida dele estiver baixa."
-  }
- ],
- "sources": [
-  {
-   "title": "Acrid — Risk of Rain 2 Wiki",
-   "url": "https://riskofrain2.wiki.gg/wiki/Acrid"
-  },
-  {
-   "title": "Items — Risk of Rain 2 Wiki",
-   "url": "https://riskofrain2.wiki.gg/wiki/Items"
-  }
- ],
- "notes": []
+  ],
+  "summary": "Veneno, Dilacerações Hediondas, Mordida Voraz, Salto Cáustico e Epidemia. Abra cada luta com Epidemia e Salto Cáustico para envenenar o grupo, entre no meio com as Dilacerações e finalize com a Mordida os inimigos que o Veneno deixou com pouca vida. Empilhe velocidade de ataque (Seringa) e dano de perto (Cristal de Foco), cure com Semente Sanguessuga e encurte as recargas com Cabeça Alienígena e Célula Lisada.",
+  "checklist": [
+    {
+      "title": "Sempre pegue",
+      "text": "Seringa Militar, Cristal de Foco, Semente Sanguessuga, Cabeça Alienígena, Brutamontes, Célula Lisada."
+    },
+    {
+      "title": "Impressoras brancas",
+      "text": "Transforme em Seringa Militar até umas 6, depois Cristal de Foco."
+    },
+    {
+      "title": "Primeiro verde",
+      "text": "Semente Sanguessuga. Depois Ukulele ou Míssil ASM."
+    },
+    {
+      "title": "Equipamento",
+      "text": "Tônico de Espinélia para chefes; Capacitor Régio se os voadores estiverem incomodando."
+    },
+    {
+      "title": "Antes de pegar Vazio",
+      "text": "Polialaúde corrompe os Ukuleles; Camarão de Plasma corrompe os Mísseis ASM."
+    },
+    {
+      "title": "Não pegue",
+      "text": "Ombreira do Fluxo Iluminado: corta a velocidade de ataque pela metade."
+    },
+    {
+      "title": "Luta de chefe",
+      "text": "Epidemia e Salto Cáustico para envenenar, Dilacerações sem parar, Mordida quando a vida dele estiver baixa."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Acrid — Risk of Rain 2 Wiki",
+      "url": "https://riskofrain2.wiki.gg/wiki/Acrid"
+    },
+    {
+      "title": "Items — Risk of Rain 2 Wiki",
+      "url": "https://riskofrain2.wiki.gg/wiki/Items"
+    }
+  ],
+  "notes": [
+    "A wiki não diz se o Veneno pode ser crítico ou se ativa itens ao acertar; a build não conta com isso."
+  ]
 }
