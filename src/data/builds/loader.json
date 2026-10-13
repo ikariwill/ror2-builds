@@ -347,7 +347,7 @@
           "prio": 2,
           "qty": "1 ou mais",
           "effect": "Aumenta TODOS os atributos em 10% (+10% por acúmulo).",
-          "why": "Vida (e por isso barreira), dano, velocidade de ataque e de movimento de uma vez."
+          "why": "Vida (e por isso barreira), dano, velocidade de ataque e de movimento de uma vez. Com o Artefato da Autoridade (Artifact of Command) não sai: as Poças de Purificação não aparecem e a essência amarela não oferece pérolas."
         },
         {
           "icon": "pearl",
@@ -356,7 +356,7 @@
           "prio": 3,
           "qty": "1 ou mais",
           "effect": "Aumenta a vida máxima em 10% (+10% por acúmulo).",
-          "why": "Vida máxima em porcentagem aumenta a barreira de cada golpe."
+          "why": "Vida máxima em porcentagem aumenta a barreira de cada golpe. Com o Artefato da Autoridade (Artifact of Command) não sai: as Poças de Purificação não aparecem e a essência amarela não oferece pérolas."
         }
       ]
     },
@@ -652,6 +652,213 @@
   ],
   "notes": [
     "No jogo em português a Loader se chama Carregadeira.",
-    "Garra Perfurante, Garra do Trovão e Golpe Trovejante precisam ser desbloqueadas por desafios."
-  ]
+    "Garra Perfurante, Garra do Trovão e Golpe Trovejante precisam ser desbloqueadas por desafios.",
+    "Com o Artefato da Autoridade, Pérola e Pérola Irradiante não podem ser obtidas: segundo a wiki, as Poças de Purificação não aparecem e as pérolas não estão na essência amarela. Por isso a ordem da Autoridade não tem passo de chefe."
+  ],
+  "command": {
+    "intro": "Com a Autoridade, a Carregadeira começa por Seringa Militar e Cristal de Foco: a carga do soco fica mais rápida e todo golpe de perto bate mais forte. Pérola e Pérola Irradiante não saem com a Autoridade, então a vida extra para a barreira vem do Filé de Bisão.",
+    "tiers": [
+      {
+        "tier": "comum",
+        "steps": [
+          {
+            "en": "Soldier's Syringe",
+            "n": 2,
+            "why": "O Braço Articulado enche a barreira mais rápido e o soco carrega antes."
+          },
+          {
+            "en": "Focus Crystal",
+            "n": 3,
+            "why": "Todo o dano das garras acontece colado no inimigo."
+          },
+          {
+            "en": "Bison Steak",
+            "n": 2,
+            "why": "Mais vida máxima é mais barreira em cada golpe."
+          },
+          {
+            "en": "Soldier's Syringe",
+            "n": 2,
+            "why": "Quatro Seringas: o ciclo de golpes e cargas gira bem mais rápido."
+          },
+          {
+            "en": "Crowbar",
+            "n": 2,
+            "why": "O soco perfurante abre a luta contra inimigos de vida cheia."
+          },
+          {
+            "en": "Backup Magazine",
+            "n": 1,
+            "why": "Segunda Agarradeira em sequência para ganhar velocidade sem esperar."
+          },
+          {
+            "en": "Tougher Times",
+            "n": 2,
+            "why": "Cada bloqueio no meio do grupo poupa barreira."
+          },
+          {
+            "en": "Focus Crystal",
+            "n": 2,
+            "why": "Cinco Cristais: +100% de dano de perto."
+          },
+          {
+            "en": "Armor-Piercing Rounds",
+            "n": 2,
+            "why": "Bônus direto no soco, que é o golpe principal contra chefes."
+          },
+          {
+            "en": "Lens-Maker's Glasses",
+            "n": 2,
+            "why": "Um soco carregado crítico pode passar de 5000%."
+          },
+          {
+            "en": "Bison Steak",
+            "n": 1,
+            "why": "Terceiro Filé para engrossar a barreira."
+          }
+        ],
+        "then": "Depois: Seringa até 6, Pente Reserva até 3 e Gerador de Escudo Pessoal, que soma o escudo à barreira de cada golpe."
+      },
+      {
+        "tier": "incomum",
+        "steps": [
+          {
+            "en": "Ukulele",
+            "n": 1,
+            "why": "O raio usa o dano TOTAL do soco carregado."
+          },
+          {
+            "en": "Kjaro's Band",
+            "n": 1,
+            "why": "A Garra Carregada sempre passa de 400% e liga o tornado."
+          },
+          {
+            "en": "Ukulele",
+            "n": 1,
+            "why": "Dois Ukuleles: o raio pula para mais alvos."
+          },
+          {
+            "en": "Bandolier",
+            "n": 1,
+            "why": "O soco perfurante mata vários de uma vez, e cada pacote devolve soco e gancho."
+          },
+          {
+            "en": "AtG Missile Mk. 1",
+            "n": 1,
+            "why": "Um míssil saído do soco causa três vezes o dano dele."
+          },
+          {
+            "en": "Kjaro's Band",
+            "n": 1,
+            "why": "O segundo Cinturão dobra o dano do tornado."
+          },
+          {
+            "en": "Runald's Band",
+            "n": 1,
+            "why": "Mesmo gatilho. A lentidão segura o alvo para o próximo soco."
+          },
+          {
+            "en": "Ukulele",
+            "n": 1,
+            "why": "Terceiro Ukulele: mais alvos e mais alcance."
+          },
+          {
+            "en": "Hopoo Feather",
+            "n": 1,
+            "why": "Mais controle no ar entre um gancho e outro."
+          },
+          {
+            "en": "AtG Missile Mk. 1",
+            "n": 1,
+            "why": "O segundo Míssil dobra o dano de cada míssil."
+          }
+        ],
+        "then": "Depois: Ukulele até 4, Kjaro até 3 e Cartucheira até 2."
+      },
+      {
+        "tier": "lendario",
+        "steps": [
+          {
+            "en": "Hardlight Afterburner",
+            "n": 1,
+            "why": "Três Garras Carregadas seguidas, e cada uma também desloca."
+          },
+          {
+            "en": "Alien Head",
+            "n": 1,
+            "why": "Gancho e soco, o ciclo inteiro de dano e movimento, voltam mais rápido."
+          },
+          {
+            "en": "Brilliant Behemoth",
+            "n": 1,
+            "why": "Cada inimigo atravessado pelo soco explode com o dano TOTAL."
+          },
+          {
+            "en": "Alien Head",
+            "n": 1,
+            "why": "A segunda Cabeça corta ainda mais as recargas."
+          },
+          {
+            "en": "57 Leaf Clover",
+            "n": 1,
+            "why": "Mais Ukulele, Míssil e crítico em cada soco."
+          }
+        ],
+        "then": "Depois: o segundo Brutamontes, Justiça Destruidora para chefes ou H3AD-5T v2."
+      },
+      {
+        "tier": "equipamento",
+        "steps": [
+          {
+            "en": "Primordial Cube",
+            "n": 1,
+            "why": "Escolha este no primeiro barril: junta o grupo na linha do soco."
+          },
+          {
+            "en": "Royal Capacitor",
+            "n": 1,
+            "why": "Se ainda não desbloqueou o Cubo: dano à distância contra voadores."
+          },
+          {
+            "en": "Gorag's Opus",
+            "n": 1,
+            "why": "Segunda reserva: dobra a velocidade do Braço Articulado e da carga do soco por alguns segundos."
+          }
+        ],
+        "then": "Equipamento é um só: troque apenas se achar a primeira opção. O Tônico de Espinélia é equipamento lunar e fica fora desta ordem."
+      },
+      {
+        "tier": "lunar",
+        "steps": [
+          {
+            "en": "Purity",
+            "n": 1,
+            "why": "Se a cápsula der escolha: gancho e soco caem de 5 s para 3 s. Piora Ukulele, Míssil e crítico."
+          }
+        ],
+        "then": "A wiki não confirma se as cápsulas lunares dão escolha com a Autoridade. Se derem, Pureza ou Tônico de Espinélia. Nunca a Ombreira do Fluxo Iluminado: a carga do soco fica muito mais lenta."
+      },
+      {
+        "tier": "vazio",
+        "steps": [
+          {
+            "en": "Lysate Cell",
+            "n": 1,
+            "why": "Em um berço verde: dois Pilões seguidos e recarga menor."
+          },
+          {
+            "en": "Needletick",
+            "n": 1,
+            "why": "Em um berço branco: os golpes do Braço Articulado ativam bastante. Corrompe a Adaga Triangular, que a build não usa."
+          },
+          {
+            "en": "Needletick",
+            "n": 1,
+            "why": "Segundo Agulhão, também em berço branco: mais chance de colapso."
+          }
+        ],
+        "then": "O berço define a raridade da escolha. Em berço verde, nunca escolha Polialaúde nem Faixa da Singularidade: corrompem os Ukuleles e os Cinturões, que são essenciais aqui."
+      }
+    ]
+  }
 }

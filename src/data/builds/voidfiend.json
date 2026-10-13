@@ -607,5 +607,227 @@
     "O Demônio Nulo faz parte da DLC Survivors of the Void.",
     "No jogo em português, os nomes do Demônio Nulo e das habilidades aparecem com caracteres embaralhados de propósito (por exemplo, 【A??foga?r」). O guia usa a forma limpa.",
     "O texto do jogo dá 2.000% para o Afogar corrompido; a wiki explica que são cerca de 8 acertos de 250% por segundo."
-  ]
+  ],
+  "command": {
+    "intro": "Com a Autoridade, o Demônio Nulo começa por Óculos e Seringas: crítico enche a Corrupção e velocidade dá mais acertos ao raio corrompido. Itens do Vazio sobem o mínimo da barra, então os berços valem a pena, desde que não corrompam os Óculos.",
+    "tiers": [
+      {
+        "tier": "comum",
+        "steps": [
+          {
+            "en": "Lens-Maker's Glasses",
+            "n": 3,
+            "why": "Cada crítico dá Corrupção: a forma corrompida chega mais cedo e dura mais."
+          },
+          {
+            "en": "Soldier's Syringe",
+            "n": 2,
+            "why": "Mais acertos por segundo no Afogar corrompido."
+          },
+          {
+            "en": "Lens-Maker's Glasses",
+            "n": 2,
+            "why": "Cinco Óculos: o mínimo da build."
+          },
+          {
+            "en": "Mocha",
+            "n": 1,
+            "why": "Velocidade de ataque e de movimento, os dois atributos que o raio corrompido pede."
+          },
+          {
+            "en": "Soldier's Syringe",
+            "n": 1,
+            "why": "Três Seringas: o mínimo da build."
+          },
+          {
+            "en": "Tougher Times",
+            "n": 1,
+            "why": "Defesa que não cura, então não tira Corrupção."
+          },
+          {
+            "en": "Backup Magazine",
+            "n": 2,
+            "why": "Mais Inundações seguidas, e cada uma passa de 400%."
+          },
+          {
+            "en": "Lens-Maker's Glasses",
+            "n": 3,
+            "why": "Oito Óculos."
+          },
+          {
+            "en": "Paul's Goat Hoof",
+            "n": 1,
+            "why": "Compensa a lentidão de atirar e mantém você nos 40 m do raio."
+          },
+          {
+            "en": "Armor-Piercing Rounds",
+            "n": 1,
+            "why": "O raio corrompido fica colado no chefe."
+          },
+          {
+            "en": "Soldier's Syringe",
+            "n": 2,
+            "why": "Cinco Seringas."
+          },
+          {
+            "en": "Lens-Maker's Glasses",
+            "n": 2,
+            "why": "Dez Óculos: crítico garantido."
+          }
+        ],
+        "then": "Depois: Seringa até 6 e Mocha até 3. Pare os Óculos em 10. Placa da Armadura de Repulsão é a defesa de reserva que também não cura."
+      },
+      {
+        "tier": "incomum",
+        "steps": [
+          {
+            "en": "Predatory Instincts",
+            "n": 1,
+            "why": "Crítico gera velocidade, e velocidade gera mais acertos e mais críticos."
+          },
+          {
+            "en": "Harvester's Scythe",
+            "n": 1,
+            "why": "A wiki diz que ajuda a encher a Corrupção nas primeiras fases."
+          },
+          {
+            "en": "Kjaro's Band",
+            "n": 1,
+            "why": "A Inundação e a bomba corrompida passam de 400%."
+          },
+          {
+            "en": "Ukulele",
+            "n": 1,
+            "why": "O raio corrompido acerta cerca de 8 vezes por segundo e perfura."
+          },
+          {
+            "en": "Predatory Instincts",
+            "n": 1,
+            "why": "Segundo Instintos, o máximo da build."
+          },
+          {
+            "en": "Runald's Band",
+            "n": 1,
+            "why": "A lentidão segura os inimigos dentro dos 40 m do raio."
+          },
+          {
+            "en": "AtG Missile Mk. 1",
+            "n": 1,
+            "why": "Muitos acertos por segundo, muitas chances."
+          },
+          {
+            "en": "Ukulele",
+            "n": 1,
+            "why": "Segundo Ukulele."
+          },
+          {
+            "en": "Kjaro's Band",
+            "n": 1,
+            "why": "Segundo Kjaro."
+          }
+        ],
+        "then": "Depois: segundo Míssil. Nunca escolha Semente Sanguessuga: a cura em cada acerto tira Corrupção."
+      },
+      {
+        "tier": "lendario",
+        "steps": [
+          {
+            "en": "Brilliant Behemoth",
+            "n": 1,
+            "why": "Cada acerto do raio corrompido vira uma explosão em área."
+          },
+          {
+            "en": "Laser Scope",
+            "n": 1,
+            "why": "Com os Óculos já pegos, quase todo acerto é crítico e ganha +100% de dano."
+          },
+          {
+            "en": "Alien Head",
+            "n": 1,
+            "why": "Inundação e Invasão voltam mais rápido."
+          },
+          {
+            "en": "Laser Scope",
+            "n": 1,
+            "why": "Segunda Mira."
+          },
+          {
+            "en": "Hardlight Afterburner",
+            "n": 1,
+            "why": "Três cargas de Invasão para limpar debuffs e fugir."
+          }
+        ],
+        "then": "Depois: o segundo Brutamontes. Escorpião Simbiótico se as lutas forem contra chefes."
+      },
+      {
+        "tier": "chefe",
+        "steps": [
+          {
+            "en": "Charged Perforator",
+            "n": 1,
+            "why": "O raio corrompido dá muitas chances por segundo."
+          }
+        ],
+        "then": "Depois: mais Perfurador Carregado, ou um Perfurador Fundido."
+      },
+      {
+        "tier": "equipamento",
+        "steps": [
+          {
+            "en": "Ocular HUD",
+            "n": 1,
+            "why": "Escolha este no primeiro barril: 8 s de crítico em cada acerto seguram a Corrupção em 100%."
+          },
+          {
+            "en": "Gorag's Opus",
+            "n": 1,
+            "why": "Dobra os acertos por segundo do raio corrompido."
+          },
+          {
+            "en": "Primordial Cube",
+            "n": 1,
+            "why": "Junta o grupo para o raio perfurante e a bomba de 10 m."
+          },
+          {
+            "en": "Royal Capacitor",
+            "n": 1,
+            "why": "Última opção: dano extra a cada 20 s."
+          }
+        ],
+        "then": "Equipamento é um só: troque apenas se achar um barril com uma opção acima da sua."
+      },
+      {
+        "tier": "lunar",
+        "steps": [
+          {
+            "en": "Shaped Glass",
+            "n": 1,
+            "why": "Só se estiver confortável: dobra tudo, mas a Supressão corrompida custa vida e a vida fica pela metade."
+          }
+        ],
+        "then": "A wiki não confirma se a cápsula lunar dá escolha com a Autoridade. Se der, nunca escolha Pureza nem Expansão Corporal: as duas atrapalham a Corrupção."
+      },
+      {
+        "tier": "vazio",
+        "steps": [
+          {
+            "en": "Lysate Cell",
+            "n": 1,
+            "why": "Em um berço verde: uma carga a mais de Supressão corrompida."
+          },
+          {
+            "en": "Safer Spaces",
+            "n": 1,
+            "why": "Em um berço branco: bloqueio que não cura. Corrompe os Tempos Difíceis da ordem branca."
+          },
+          {
+            "en": "Lysate Cell",
+            "n": 1,
+            "why": "Segunda Célula."
+          }
+        ],
+        "then": "Nunca escolha Lentes do Profeta Perdido (berço branco): corrompe todos os Óculos. Polialaúde (berço verde) corrompe os Ukuleles e Camarão de Plasma (berço verde) corrompe os Mísseis: só contra chefes."
+      }
+    ]
+  }
 }

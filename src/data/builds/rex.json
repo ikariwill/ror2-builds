@@ -684,5 +684,227 @@
     "Proliferation veio com o DLC Hallowed Concepts (8 de outubro de 2026) e ainda não tem nome em português no jogo.",
     "Não confirmado na wiki: se os aliados podem pegar as frutas da DIRETRIZ: Colher.",
     "A wiki desaconselha as habilidades que custam vida no Eclipse 8, onde o dano recebido reduz a vida máxima de forma permanente. Em runs normais, o custo de vida não tem esse efeito."
-  ]
+  ],
+  "command": {
+    "intro": "Com a Autoridade, o REX começa pela Placa da Armadura de Repulsão e pela Seringa Militar: uma barateia o custo da Barragem e da Rajada, a outra acelera a cura da Injetar. Depois vêm os itens que curam a partir do custo de vida e os que aproveitam o grupo preso pelo Emaranhado.",
+    "tiers": [
+      {
+        "tier": "comum",
+        "steps": [
+          {
+            "en": "Repulsion Armor Plate",
+            "n": 2,
+            "why": "Reduz o custo de vida da Barragem e da Rajada desde a primeira fase."
+          },
+          {
+            "en": "Soldier's Syringe",
+            "n": 3,
+            "why": "Mais rajadas da Injetar por segundo: a cura da última seringa chega mais rápido."
+          },
+          {
+            "en": "Medkit",
+            "n": 1,
+            "why": "O custo da Barragem ativa o Kit, que devolve parte da vida 2 s depois."
+          },
+          {
+            "en": "Lens-Maker's Glasses",
+            "n": 2,
+            "why": "Cada seringa rola crítico, e a última seringa crítica cura o dobro."
+          },
+          {
+            "en": "Gasoline",
+            "n": 1,
+            "why": "Com o grupo preso pelo Emaranhado, cada abate incendeia os vizinhos."
+          },
+          {
+            "en": "Repulsion Armor Plate",
+            "n": 2,
+            "why": "Quatro Placas: Barragem e Rajada ficam bem mais baratas."
+          },
+          {
+            "en": "Soldier's Syringe",
+            "n": 2,
+            "why": "Cinco Seringas mantêm a Injetar curando entre as Barragens."
+          },
+          {
+            "en": "Bison Steak",
+            "n": 2,
+            "why": "Mais vida máxima aumenta a cura da Rajada e do Emaranhado."
+          },
+          {
+            "en": "Tougher Times",
+            "n": 2,
+            "why": "Bloqueia golpes inimigos quando os custos deixam a vida baixa."
+          },
+          {
+            "en": "Lens-Maker's Glasses",
+            "n": 2,
+            "why": "Quatro Óculos: mais seringas e Barragens críticas."
+          },
+          {
+            "en": "Crowbar",
+            "n": 1,
+            "why": "A primeira Barragem num inimigo novo bate mais forte."
+          }
+        ],
+        "then": "Depois: Seringa até 6, Placa até 5 e Filé de Bisão até 4. Casco de Bode de Paul se sentir falta de mobilidade."
+      },
+      {
+        "tier": "incomum",
+        "steps": [
+          {
+            "en": "Kjaro's Band",
+            "n": 1,
+            "why": "A Barragem passa de 400% e ativa o tornado sempre que ele volta."
+          },
+          {
+            "en": "Runald's Band",
+            "n": 1,
+            "why": "Mesmo gatilho. A lentidão mantém o alvo longe, onde o REX quer ele."
+          },
+          {
+            "en": "Will-o'-the-wisp",
+            "n": 1,
+            "why": "Um abate no grupo preso pelo Emaranhado atinge todos com o pilar."
+          },
+          {
+            "en": "Infusion",
+            "n": 1,
+            "why": "Vida máxima que cresce sozinha, para as curas percentuais."
+          },
+          {
+            "en": "Kjaro's Band",
+            "n": 1,
+            "why": "O segundo Cinturão dobra o dano do tornado."
+          },
+          {
+            "en": "Death Mark",
+            "n": 1,
+            "why": "Enfraquecer, Emaranhado e a queima da Gasolina levam o grupo preso a 4 debuffs."
+          },
+          {
+            "en": "Razorwire",
+            "n": 1,
+            "why": "O custo de cada Barragem ativa a explosão de lâminas em volta do REX."
+          },
+          {
+            "en": "Ukulele",
+            "n": 1,
+            "why": "A Barragem sai a cada 0,5 s e o raio pula entre os inimigos presos."
+          },
+          {
+            "en": "Harvester's Scythe",
+            "n": 1,
+            "why": "Com quatro Óculos, cada seringa crítica cura a mais."
+          },
+          {
+            "en": "Will-o'-the-wisp",
+            "n": 1,
+            "why": "Pilar maior e mais forte nos grupos presos."
+          }
+        ],
+        "then": "Depois: Kjaro até 3, Infusão até 2 e Will-o'-the-wisp até 3. Kit Furtivo ou Transmissor Instável só se estiver morrendo com a vida baixa."
+      },
+      {
+        "tier": "lendario",
+        "steps": [
+          {
+            "en": "Rejuvenation Rack",
+            "n": 1,
+            "why": "Dobra toda a cura do REX: Injetar, Rajada e Emaranhado."
+          },
+          {
+            "en": "Hardlight Afterburner",
+            "n": 1,
+            "why": "Três Rajadas seguidas, três curas por alvo."
+          },
+          {
+            "en": "Alien Head",
+            "n": 1,
+            "why": "Emaranhado e Rajada, as curas em grupo, voltam mais rápido."
+          },
+          {
+            "en": "N'kuhana's Opinion",
+            "n": 1,
+            "why": "Com a cura constante da Injetar, as caveiras saem sem parar."
+          },
+          {
+            "en": "Rejuvenation Rack",
+            "n": 1,
+            "why": "O segundo Suporte soma mais 100% de cura."
+          }
+        ],
+        "then": "Depois: Brutamontes Reluzente para os grupos presos, Égide ou o segundo Juízo de N'kuhana."
+      },
+      {
+        "tier": "chefe",
+        "steps": [
+          {
+            "en": "Planula",
+            "n": 1,
+            "why": "O custo da Barragem ativa a Plânula, que devolve vida na hora."
+          },
+          {
+            "en": "Titanic Knurl",
+            "n": 1,
+            "why": "Vida máxima e regeneração para recuperar o custo entre as lutas."
+          }
+        ],
+        "then": "Itens de chefe vêm do chefe do teleporte. Depois: a segunda Plânula, e então Fragmento Titânico."
+      },
+      {
+        "tier": "equipamento",
+        "steps": [
+          {
+            "en": "Primordial Cube",
+            "n": 1,
+            "why": "Escolha este no primeiro barril: junta o grupo para a flor e a Rajada."
+          },
+          {
+            "en": "Jade Elephant",
+            "n": 1,
+            "why": "Se ainda não desbloqueou o Cubo: 5 s de Barragem quase de graça."
+          },
+          {
+            "en": "Royal Capacitor",
+            "n": 1,
+            "why": "Segunda reserva: dano alto sem gastar vida, para elites e voadores."
+          }
+        ],
+        "then": "Equipamento é um só: troque apenas se achar a primeira opção. O Tônico de Espinélia é equipamento lunar e fica fora desta ordem."
+      },
+      {
+        "tier": "lunar",
+        "steps": [
+          {
+            "en": "Purity",
+            "n": 1,
+            "why": "Se a cápsula der escolha: Emaranhado e Rajada voltam 2 s mais rápido. Piora crítico, Ukulele e Foice."
+          }
+        ],
+        "then": "A wiki não confirma se as cápsulas lunares dão escolha com a Autoridade. Se derem, Pureza ou Tônico de Espinélia. Nunca Transcendência: o custo das habilidades gasta o escudo, e a cura só recupera vida."
+      },
+      {
+        "tier": "vazio",
+        "steps": [
+          {
+            "en": "Lysate Cell",
+            "n": 1,
+            "why": "Em um berço verde: dois Emaranhados e recarga 33% menor."
+          },
+          {
+            "en": "Lysate Cell",
+            "n": 1,
+            "why": "Segunda Célula: mais uma flor por ciclo."
+          },
+          {
+            "en": "Weeping Fungus",
+            "n": 1,
+            "why": "Também em berço verde: recupera o custo das habilidades enquanto corre."
+          }
+        ],
+        "then": "O berço define a raridade da escolha. Em berço verde, evite a Faixa da Singularidade, que corrompe todos os Cinturões de Kjaro e de Runald, e o Polialaúde, que corrompe os Ukuleles."
+      }
+    ]
+  }
 }

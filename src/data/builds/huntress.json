@@ -343,7 +343,7 @@
           "prio": 3,
           "qty": "1 ou mais",
           "effect": "Aumenta TODOS os atributos em 10% (+10% por acúmulo).",
-          "why": "Vida, dano, crítico e velocidade de uma vez. Tudo ajuda uma personagem frágil."
+          "why": "Vida, dano, crítico e velocidade de uma vez. Tudo ajuda uma personagem frágil. Com o Artefato da Autoridade (Artifact of Command) não sai: as Poças de Purificação não aparecem e a essência amarela não oferece pérolas."
         }
       ]
     },
@@ -636,5 +636,232 @@
   "notes": [
     "Turbilhão, Teleporte Fásico e Balista precisam ser desbloqueados por desafios. A wiki troca os nomes dos desafios do Teleporte Fásico e da Balista entre a tabela de habilidades e o histórico de versões.",
     "O Ciclone de Laser (Laser Cyclone) aparece na wiki ligado à atualização Hallowed Concepts e não tem nome no arquivo de tradução pt-BR usado aqui."
-  ]
+  ],
+  "command": {
+    "intro": "Com a Autoridade, o crítico vem primeiro: Óculos nos brancos e Foice e Instintos nos verdes, porque no Turbilhão cada crítico dobra as flechas. Ela tem só 90 de vida, então Tempos Difíceis e a Foice entram cedo.",
+    "tiers": [
+      {
+        "tier": "comum",
+        "steps": [
+          {
+            "en": "Lens-Maker's Glasses",
+            "n": 3,
+            "why": "Com uns 20% de crítico, troque o Disparo pelo Turbilhão; antes disso, fique no Disparo."
+          },
+          {
+            "en": "Tougher Times",
+            "n": 1,
+            "why": "Com 90 de vida, um golpe bloqueado pode salvar a run."
+          },
+          {
+            "en": "Soldier's Syringe",
+            "n": 2,
+            "why": "Encurta o intervalo do Turbilhão: mais rajadas e mais críticos."
+          },
+          {
+            "en": "Lens-Maker's Glasses",
+            "n": 2,
+            "why": "Cinco Óculos: quase metade das rajadas sai com 6 flechas."
+          },
+          {
+            "en": "Paul's Goat Hoof",
+            "n": 1,
+            "why": "Correr é a principal defesa dela."
+          },
+          {
+            "en": "Tougher Times",
+            "n": 1,
+            "why": "Segundo bloqueio antes dos estágios mais difíceis."
+          },
+          {
+            "en": "Soldier's Syringe",
+            "n": 2,
+            "why": "Quatro Seringas para mais rajadas por segundo."
+          },
+          {
+            "en": "Lens-Maker's Glasses",
+            "n": 2,
+            "why": "Sete Óculos: o crítico fica quase constante com Foice e Instintos."
+          },
+          {
+            "en": "Armor-Piercing Rounds",
+            "n": 2,
+            "why": "Mais dano da Balista contra chefes."
+          },
+          {
+            "en": "Backup Magazine",
+            "n": 1,
+            "why": "Uma Alabarda extra para controlar grupos em sequência."
+          },
+          {
+            "en": "Soldier's Syringe",
+            "n": 1,
+            "why": "Quinta Seringa."
+          },
+          {
+            "en": "Paul's Goat Hoof",
+            "n": 1,
+            "why": "Mais distância para manter longe os inimigos corpo a corpo."
+          },
+          {
+            "en": "Lens-Maker's Glasses",
+            "n": 1,
+            "why": "Oitavo Óculos, o limite da build."
+          }
+        ],
+        "then": "Depois: Seringa até 6, Tempos Difíceis até 4 e Bebida Energética. Se ficar no Disparo, a ordem dos brancos é a mesma."
+      },
+      {
+        "tier": "incomum",
+        "steps": [
+          {
+            "en": "Harvester's Scythe",
+            "n": 1,
+            "why": "A cura da build, e cada flecha crítica do Turbilhão cura."
+          },
+          {
+            "en": "Predatory Instincts",
+            "n": 1,
+            "why": "Cada flecha pode ser crítica, então o bônus fica no máximo quase sempre."
+          },
+          {
+            "en": "Rose Buckler",
+            "n": 1,
+            "why": "Armadura ativa enquanto ela corre, que é quase o tempo todo."
+          },
+          {
+            "en": "AtG Missile Mk. 1",
+            "n": 1,
+            "why": "Funciona de longe, e seis flechas por crítico são seis rolagens."
+          },
+          {
+            "en": "Ukulele",
+            "n": 1,
+            "why": "Dano em grupo sem perder o foco no alvo."
+          },
+          {
+            "en": "Harvester's Scythe",
+            "n": 1,
+            "why": "A segunda Foice aumenta a cura por crítico."
+          },
+          {
+            "en": "Predatory Instincts",
+            "n": 1,
+            "why": "Sobe o limite de velocidade de ataque do bônus."
+          },
+          {
+            "en": "Rose Buckler",
+            "n": 1,
+            "why": "Mais armadura em corrida para uma personagem frágil."
+          },
+          {
+            "en": "AtG Missile Mk. 1",
+            "n": 1,
+            "why": "Mais dano por míssil."
+          },
+          {
+            "en": "Kjaro's Band",
+            "n": 1,
+            "why": "Os raios de 900% da Balista ativam o Cinturão contra chefes."
+          }
+        ],
+        "then": "Depois: Broquel e Míssil até 3, Ukulele até 2, Cinturão de Runald e Kit Furtivo da Guerra Antiga para fugas."
+      },
+      {
+        "tier": "lendario",
+        "steps": [
+          {
+            "en": "Laser Scope",
+            "n": 1,
+            "why": "Com muitos Óculos, quase toda flecha passa de 2× para 3× o dano."
+          },
+          {
+            "en": "Brilliant Behemoth",
+            "n": 1,
+            "why": "Transforma as flechas teleguiadas em dano em área."
+          },
+          {
+            "en": "Hardlight Afterburner",
+            "n": 1,
+            "why": "O Teleporte Fásico passa de 3 para 5 cargas."
+          },
+          {
+            "en": "Laser Scope",
+            "n": 1,
+            "why": "A segunda Mira soma mais dano crítico."
+          },
+          {
+            "en": "Sentient Meat Hook",
+            "n": 1,
+            "why": "Cada flecha rola a chance e limpa grupos enquanto você corre."
+          }
+        ],
+        "then": "Depois: Cabeça Alienígena para mais Balistas, Trevo 57 e Melhor Amigo de Dio como seguro."
+      },
+      {
+        "tier": "chefe",
+        "steps": [
+          {
+            "en": "Shatterspleen",
+            "n": 1,
+            "why": "Com crítico alto, quase todo inimigo sangra e explode ao morrer."
+          }
+        ],
+        "then": "Itens de chefe vêm do chefe do teleporte. A Pérola Irradiante não entra: com a Autoridade ela só sairia da poça de purificação, que não aparece."
+      },
+      {
+        "tier": "equipamento",
+        "steps": [
+          {
+            "en": "Ocular HUD",
+            "n": 1,
+            "why": "Escolha este primeiro: toda rajada do Turbilhão sai com 6 flechas por 8 s."
+          },
+          {
+            "en": "Royal Capacitor",
+            "n": 1,
+            "why": "Recarga curta e muito dano à distância."
+          },
+          {
+            "en": "Gorag's Opus",
+            "n": 1,
+            "why": "Dobra a cadência das flechas e ajuda a manter distância."
+          },
+          {
+            "en": "Jade Elephant",
+            "n": 1,
+            "why": "Botão de pânico contra golpes grandes de chefe."
+          }
+        ],
+        "then": "Equipamento é um só: troque apenas se achar um barril com uma opção acima da sua."
+      },
+      {
+        "tier": "lunar",
+        "steps": [
+          {
+            "en": "Purity",
+            "n": 1,
+            "why": "Só se a cápsula der escolha e você já tiver o Trevo 57: recargas menores sem perder o crítico."
+          }
+        ],
+        "then": "A wiki não confirma escolha nas cápsulas lunares com a Autoridade. Nunca pegue Vidro Configurado: com 90 de vida, metade disso deixa qualquer elite letal."
+      },
+      {
+        "tier": "vazio",
+        "steps": [
+          {
+            "en": "Lysate Cell",
+            "n": 1,
+            "why": "Em um berço verde: duas Balistas seguidas e recarga menor. Não corrompe nada desta build."
+          },
+          {
+            "en": "Plasma Shrimp",
+            "n": 1,
+            "why": "Também em berço verde, só se aceitar a troca: corrompe todos os seus Mísseis ASM."
+          }
+        ],
+        "then": "O berço do Vazio define a raridade da escolha. Nunca escolha Lentes do Profeta Perdido em berço branco: corrompe todos os Óculos. Polialaúde corrompe os Ukuleles."
+      }
+    ]
+  }
 }

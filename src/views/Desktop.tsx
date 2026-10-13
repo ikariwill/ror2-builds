@@ -5,12 +5,14 @@ import { Heading, ItemIcon, Label, PrioTag, QtyBadge, SearchField, cx, icon } fr
 import {
   Checklist, Fallbacks, ItemDetail, Notes, PrioChips, Rotation, SiteFooter, Skills, Sources, Summary, Synergy, SurvivorSelect, TierTabs,
 } from '../components/build-parts.tsx';
+import { CommandSection } from '../components/command-order.tsx';
 
 const tileBase = 'flex min-w-0 cursor-pointer flex-col items-center gap-2 rounded-card px-1.5 pt-3 pb-2.5 text-center transition-colors hover:bg-raised';
 const tileSel = 'bg-raised ring-2 ring-accent';
 
 const SECTIONS: [string, string][] = [
   ['nucleo', 'Núcleo'],
+  ['ordem', 'Ordem de compra'],
   ['itens', 'Itens'],
   ['habilidades', 'Habilidades'],
   ['sinergia', 'Sinergia'],
@@ -90,7 +92,7 @@ export function Desktop(s: BuildState) {
           </section>
 
           <nav aria-label="Seções da build" className="sticky top-0 z-10 flex items-center gap-1 overflow-x-auto border-y border-line-soft bg-surface/95 px-6 py-1.5">
-            {SECTIONS.map(([id, label]) => (
+            {SECTIONS.filter(([id]) => id !== 'ordem' || build.command).map(([id, label]) => (
               <a key={id} href={`#${id}`} onClick={(e) => { e.preventDefault(); document.getElementById(id)?.scrollIntoView(); }} className="flex min-h-9 flex-none items-center rounded-control px-2.5 text-meta font-medium text-ink-3 no-underline hover:bg-panel hover:text-ink">
                 {label}
               </a>
@@ -123,6 +125,8 @@ export function Desktop(s: BuildState) {
                 ))}
               </div>
             </section>
+
+            <CommandSection build={build} idPrefix="d" />
 
             <section id="itens" aria-labelledby="itens-h" className="flex scroll-mt-16 flex-col gap-4">
               <div className="flex flex-wrap items-baseline justify-between gap-3">

@@ -331,7 +331,7 @@
           "prio": 2,
           "qty": "1 ou mais",
           "effect": "Aumenta TODOS os atributos em 10% (+10% por acúmulo).",
-          "why": "Vida, dano, velocidade de ataque e de movimento de uma vez. Tudo o que falta para a Artífice."
+          "why": "Vida, dano, velocidade de ataque e de movimento de uma vez. Tudo o que falta para a Artífice. Com o Artefato da Autoridade (Artifact of Command) não sai: as Poças de Purificação não aparecem e a essência amarela não oferece pérolas."
         },
         {
           "icon": "molten-perforator",
@@ -641,5 +641,232 @@
   "notes": [
     "Tectonic Blast veio com a DLC Hallowed Concepts (lançada em 8 out. 2026) e ainda não tem nome no arquivo pt-BR do jogo, por isso aparece em inglês. A wiki cita o desafio Artificer: One Giant Leap sem o texto do requisito; segundo a Destructoid, é chegar ao chefe final da Lua sem ativar nenhum pilar.",
     "O desbloqueio do Conjurar Nanoprojétil é o desafio Artificer: Chunked!."
-  ]
+  ],
+  "command": {
+    "intro": "A Artífice precisa primeiro de velocidade de ataque e Pente Reserva para girar Nanobomba e Lança-chamas, e de velocidade de movimento por não ter fuga horizontal. Nos verdes, o Cinturão de Kjaro e o Tanque de Ignição vêm antes de tudo, porque a Nanobomba e o fogo ativam os dois sozinhos.",
+    "tiers": [
+      {
+        "tier": "comum",
+        "steps": [
+          {
+            "en": "Soldier's Syringe",
+            "n": 2,
+            "why": "Recarga do Raio Flamejante, carga da Nanobomba e mais acertos do Lança-chamas."
+          },
+          {
+            "en": "Backup Magazine",
+            "n": 2,
+            "why": "Duas Nanobombas extras por ciclo, cada uma acima de 400%."
+          },
+          {
+            "en": "Paul's Goat Hoof",
+            "n": 2,
+            "why": "Sem fuga horizontal, velocidade de movimento é a sua defesa."
+          },
+          {
+            "en": "Soldier's Syringe",
+            "n": 2,
+            "why": "Quatro Seringas: Lança-chamas com mais acertos."
+          },
+          {
+            "en": "Gasoline",
+            "n": 1,
+            "why": "Limpa voadores, e a queimadura aproveita o Tanque de Ignição."
+          },
+          {
+            "en": "Lens-Maker's Glasses",
+            "n": 2,
+            "why": "Uma Nanobomba crítica dobra um golpe de até 2000%."
+          },
+          {
+            "en": "Tougher Times",
+            "n": 2,
+            "why": "Pouca vida e Lança-chamas parado: cada bloqueio conta."
+          },
+          {
+            "en": "Backup Magazine",
+            "n": 1,
+            "why": "Terceira carga. Acima disso, o limite vira a recarga de 10 s dos Cinturões."
+          },
+          {
+            "en": "Tri-Tip Dagger",
+            "n": 2,
+            "why": "Os 22 acertos do Lança-chamas rolam a chance muitas vezes."
+          },
+          {
+            "en": "Crowbar",
+            "n": 1,
+            "why": "A Nanobomba abre a luta e garante abates de um golpe nos Espíritos Inferiores."
+          },
+          {
+            "en": "Soldier's Syringe",
+            "n": 2,
+            "why": "Seis Seringas, limite da build."
+          },
+          {
+            "en": "Lens-Maker's Glasses",
+            "n": 2,
+            "why": "Quatro Óculos, limite da build."
+          }
+        ],
+        "then": "Depois: Casco até 4 e Tempos Difíceis até 3. Com Surto de Íon na utilitária, troque os Cascos por Bebida Energética."
+      },
+      {
+        "tier": "incomum",
+        "steps": [
+          {
+            "en": "Kjaro's Band",
+            "n": 1,
+            "why": "Toda Nanobomba passa dos 400% e ativa o tornado de fogo."
+          },
+          {
+            "en": "Ignition Tank",
+            "n": 1,
+            "why": "Raio Flamejante e Lança-chamas aplicam Incendiário, que o Tanque fortalece."
+          },
+          {
+            "en": "Runald's Band",
+            "n": 1,
+            "why": "Mesmo gatilho do Kjaro, e a lentidão segura o alvo no alcance do Lança-chamas."
+          },
+          {
+            "en": "Ignition Tank",
+            "n": 1,
+            "why": "Segundo Tanque: mais dano em tudo que queima."
+          },
+          {
+            "en": "AtG Missile Mk. 1",
+            "n": 1,
+            "why": "Os acertos do Lança-chamas lançam mísseis que perseguem voadores."
+          },
+          {
+            "en": "Kjaro's Band",
+            "n": 1,
+            "why": "Segundo Kjaro: tornado mais forte em cada Nanobomba."
+          },
+          {
+            "en": "Leeching Seed",
+            "n": 1,
+            "why": "Cada acerto do Lança-chamas cura, uma das poucas curas da build."
+          },
+          {
+            "en": "AtG Missile Mk. 1",
+            "n": 1,
+            "why": "Mais mísseis por uso do Lança-chamas."
+          },
+          {
+            "en": "Ukulele",
+            "n": 1,
+            "why": "O raio alcança inimigos fora do cone do Lança-chamas."
+          },
+          {
+            "en": "Ignition Tank",
+            "n": 1,
+            "why": "Terceiro Tanque, limite da build."
+          }
+        ],
+        "then": "Depois: Kjaro e Míssil até 3. Will-o'-the-wisp ajuda contra voadores. A Pluma de Hopoo gasta pulos de um jeito que atrapalha a Roupa AMB."
+      },
+      {
+        "tier": "lendario",
+        "steps": [
+          {
+            "en": "Alien Head",
+            "n": 1,
+            "why": "Lança-chamas, Nanobomba e Congelar Abrupto voltam mais rápido."
+          },
+          {
+            "en": "Brilliant Behemoth",
+            "n": 1,
+            "why": "Cada acerto do Lança-chamas e cada Raio Flamejante vira dano em área."
+          },
+          {
+            "en": "Hardlight Afterburner",
+            "n": 1,
+            "why": "Três muros do Congelar Abrupto: mais congelamentos e execuções."
+          },
+          {
+            "en": "Alien Head",
+            "n": 1,
+            "why": "Segunda Cabeça: mais Lança-chamas por luta."
+          },
+          {
+            "en": "Ceremonial Dagger",
+            "n": 1,
+            "why": "As adagas teleguiadas caçam os voadores que sobram."
+          }
+        ],
+        "then": "Depois: Trevo 57 ou Gancho de Carnes Senciente. Suporte do Rejuvenescimento só se já tiver Semente Sanguessuga."
+      },
+      {
+        "tier": "chefe",
+        "steps": [
+          {
+            "en": "Irradiant Pearl",
+            "n": 1,
+            "why": "Vida, dano, velocidade de ataque e de movimento de uma vez."
+          },
+          {
+            "en": "Molten Perforator",
+            "n": 1,
+            "why": "Mais um efeito ao acertar para os muitos acertos do Lança-chamas."
+          }
+        ],
+        "then": "Depois do primeiro Perfurador, pegue mais Pérolas."
+      },
+      {
+        "tier": "equipamento",
+        "steps": [
+          {
+            "en": "Primordial Cube",
+            "n": 1,
+            "why": "Escolha este no primeiro barril: o Lança-chamas e a Nanobomba pegam o grupo inteiro."
+          },
+          {
+            "en": "Ocular HUD",
+            "n": 1,
+            "why": "Se ainda não desbloqueou o Cubo: Lança-chamas e Nanobomba críticos garantidos."
+          },
+          {
+            "en": "Milky Chrysalis",
+            "n": 1,
+            "why": "Segunda opção de reserva: a mobilidade que a Artífice não tem."
+          }
+        ],
+        "then": "Sem nenhum dos três: Capacitor Régio contra voadores ou Opus de Gorag para mais acertos."
+      },
+      {
+        "tier": "lunar",
+        "steps": [
+          {
+            "en": "Purity",
+            "n": 1,
+            "why": "Lança-chamas e Nanobomba caem de 5 s para 3 s, mas Míssil, Ukulele e crítico pioram."
+          }
+        ],
+        "then": "A wiki não confirma se a cápsula lunar dá escolha com a Autoridade. Se der, Pureza é a única opção que vale. Nunca a Ombreira do Fluxo Iluminado, que corta a velocidade de ataque."
+      },
+      {
+        "tier": "vazio",
+        "steps": [
+          {
+            "en": "Lysate Cell",
+            "n": 1,
+            "why": "Em um berço verde: dois Lança-chamas seguidos e recarga 33% menor."
+          },
+          {
+            "en": "Lysate Cell",
+            "n": 1,
+            "why": "Segunda Célula, também de berço verde: mais um Lança-chamas por ciclo."
+          },
+          {
+            "en": "Voidsent Flame",
+            "n": 1,
+            "why": "Em berço verde: o Lança-chamas toca vários inimigos de vida cheia. Corrompe Will-o'-the-wisp, que não está na ordem."
+          }
+        ],
+        "then": "Nunca escolha Faixa da Singularidade: corrompe todos os Cinturões de Kjaro e Runald. Polialaúde corrompe o seu Ukulele."
+      }
+    ]
+  }
 }

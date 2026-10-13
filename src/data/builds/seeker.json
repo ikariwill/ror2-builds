@@ -634,5 +634,247 @@
     "A wiki atual não lista recarga nem coeficiente da Explosão de Palma e do Adiamento.",
     "Salvação (Saving Grace): a wiki atual não descreve o efeito. O texto do jogo (pt-BR, dez/2025) diz +7% em todos os atributos e revive ao morrer; a wiki antiga descreve uma versão anterior (cura com vida baixa). O revive só na passagem do 6º para o 7º acúmulo vem da wiki antiga.",
     "O arquivo de idioma do jogo tem um primário alternativo, Busca de Alma (Soul Search), que a wiki atual não lista. Ficou fora da build até a wiki confirmar se ele está disponível."
-  ]
+  ],
+  "command": {
+    "intro": "Com a Autoridade, comece pelo que aumenta o dano da Mão Invisível, porque o dano dela também é a sua cura: Cristal de Foco, Cinturão de Kjaro e Cabeça Alienígena. Depois venha a vida e a defesa para pagar o custo da Estadia.",
+    "tiers": [
+      {
+        "tier": "comum",
+        "steps": [
+          {
+            "en": "Focus Crystal",
+            "n": 2,
+            "why": "A Mão Invisível, o terceiro soco e a Estadia acontecem a menos de 13 m."
+          },
+          {
+            "en": "Soldier's Syringe",
+            "n": 2,
+            "why": "A sequência de socos fica mais curta e o terceiro golpe chega mais vezes."
+          },
+          {
+            "en": "Bison Steak",
+            "n": 2,
+            "why": "Mais vida máxima deixa você voar mais tempo na Estadia."
+          },
+          {
+            "en": "Focus Crystal",
+            "n": 1,
+            "why": "Três Cristais: mais dano na Mão Invisível é mais cura."
+          },
+          {
+            "en": "Tougher Times",
+            "n": 2,
+            "why": "Bloqueia o que bate em você fora da Estadia."
+          },
+          {
+            "en": "Backup Magazine",
+            "n": 1,
+            "why": "Duas Mãos Invisíveis seguidas: mais dano em área e mais cura."
+          },
+          {
+            "en": "Soldier's Syringe",
+            "n": 1,
+            "why": "Três Seringas para os punhos girarem mais rápido."
+          },
+          {
+            "en": "Focus Crystal",
+            "n": 2,
+            "why": "Chega a 5 Cristais, o máximo da build."
+          },
+          {
+            "en": "Repulsion Armor Plate",
+            "n": 2,
+            "why": "Corta os golpes pequenos que se acumulam entre as Estadias."
+          },
+          {
+            "en": "Bison Steak",
+            "n": 1,
+            "why": "Mais vida para gastar no voo."
+          },
+          {
+            "en": "Armor-Piercing Rounds",
+            "n": 1,
+            "why": "Mais dano e mais cura da Mão Invisível na luta do chefe."
+          },
+          {
+            "en": "Soldier's Syringe",
+            "n": 1,
+            "why": "Quatro Seringas."
+          },
+          {
+            "en": "Crowbar",
+            "n": 1,
+            "why": "A Mão Invisível e a Estadia abrem a luta em inimigos de vida cheia."
+          },
+          {
+            "en": "Tougher Times",
+            "n": 1,
+            "why": "Terceiro Tempos Difíceis para o fim da run."
+          }
+        ],
+        "then": "Depois: Seringa até 6, Placa até 5 e Pente Reserva até 3. Com a Espiral de Alma, o Pente Reserva sobe na ordem."
+      },
+      {
+        "tier": "incomum",
+        "steps": [
+          {
+            "en": "Kjaro's Band",
+            "n": 1,
+            "why": "Mão Invisível (600%) e Estadia passam de 400% e ativam o tornado."
+          },
+          {
+            "en": "Rose Buckler",
+            "n": 1,
+            "why": "A Estadia conta como correr, então a armadura vale durante o voo."
+          },
+          {
+            "en": "Runald's Band",
+            "n": 1,
+            "why": "Mesmo gatilho do Kjaro, e a lentidão segura o grupo para a Estadia."
+          },
+          {
+            "en": "Kjaro's Band",
+            "n": 1,
+            "why": "O segundo Cinturão aumenta o dano do tornado."
+          },
+          {
+            "en": "Luminous Shot",
+            "n": 1,
+            "why": "A Mão Invisível volta 20% mais rápido: mais cura."
+          },
+          {
+            "en": "Ukulele",
+            "n": 1,
+            "why": "Socos perfurantes e explosão em área acertam muito, e o raio espalha."
+          },
+          {
+            "en": "Rose Buckler",
+            "n": 1,
+            "why": "Mais armadura no voo e correndo entre as lutas."
+          },
+          {
+            "en": "AtG Missile Mk. 1",
+            "n": 1,
+            "why": "O míssil acompanha os golpes grandes de 500% a 600%."
+          },
+          {
+            "en": "Kjaro's Band",
+            "n": 1,
+            "why": "Terceiro Cinturão, o máximo da build."
+          },
+          {
+            "en": "Ukulele",
+            "n": 1,
+            "why": "Mais alvos no raio em cadeia."
+          }
+        ],
+        "then": "Depois: Broquel até 3 e Míssil até 2. A Foice do Ceifador fica fora: sem Óculos nesta build, ela quase não ativa."
+      },
+      {
+        "tier": "lendario",
+        "steps": [
+          {
+            "en": "Alien Head",
+            "n": 1,
+            "why": "Mais Meditar chega antes à Tranquilidade máxima, e a Mão e a Estadia voltam mais rápido."
+          },
+          {
+            "en": "Rejuvenation Rack",
+            "n": 1,
+            "why": "Dobra a cura da Mão Invisível e do Meditar."
+          },
+          {
+            "en": "Alien Head",
+            "n": 1,
+            "why": "A segunda Cabeça corta mais 25% das recargas."
+          },
+          {
+            "en": "Brilliant Behemoth",
+            "n": 1,
+            "why": "Cada acerto dos socos perfurantes vira explosão."
+          },
+          {
+            "en": "Frost Relic",
+            "n": 1,
+            "why": "Os abates da explosão do terceiro soco mantêm a tempestade ligada."
+          }
+        ],
+        "then": "Depois: o segundo Brutamontes. Pós-combustor só se a vida aguentar mais Estadias seguidas."
+      },
+      {
+        "tier": "chefe",
+        "steps": [
+          {
+            "en": "Little Disciple",
+            "n": 1,
+            "why": "Os fogos-fátuos atiram durante a Estadia, quando você não usa habilidades."
+          },
+          {
+            "en": "Planula",
+            "n": 1,
+            "why": "Cura a cada dano recebido fora do voo."
+          }
+        ],
+        "then": "Itens de chefe vêm do chefe do teleporte. Depois da Plânula, mais Pequenos Discípulos."
+      },
+      {
+        "tier": "equipamento",
+        "steps": [
+          {
+            "en": "Primordial Cube",
+            "n": 1,
+            "why": "Escolha este primeiro: o grupo junto leva a Mão Invisível inteira, e mais alvos é mais cura."
+          },
+          {
+            "en": "Royal Capacitor",
+            "n": 1,
+            "why": "Se ainda não tem o Cubo: dano à distância contra voadores e elites."
+          },
+          {
+            "en": "Gorag's Opus",
+            "n": 1,
+            "why": "Terceira opção: dobra a velocidade dos socos por 7 s."
+          }
+        ],
+        "then": "Equipamento é um só. Lembre que não dá para usar equipamento durante a Estadia."
+      },
+      {
+        "tier": "lunar",
+        "steps": [
+          {
+            "en": "Purity",
+            "n": 1,
+            "why": "Se a cápsula der escolha: Mão de 6 s para 4 s e Estadia de 8 s para 6 s, pior para Ukulele e Míssil."
+          }
+        ],
+        "then": "A wiki não confirma se a cápsula lunar dá escolha com a Autoridade. Nunca pegue Vidro Configurado: menos vida encurta a Estadia."
+      },
+      {
+        "tier": "vazio",
+        "steps": [
+          {
+            "en": "Lysate Cell",
+            "n": 1,
+            "why": "Em um berço verde: dois Meditar seguidos e recarga menor, a Tranquilidade sobe rápido."
+          },
+          {
+            "en": "Lysate Cell",
+            "n": 1,
+            "why": "Segunda Célula: mais uma carga do Meditar."
+          },
+          {
+            "en": "Voidsent Flame",
+            "n": 1,
+            "why": "Também em berço verde: socos e Mão perfuram vários inimigos de vida cheia."
+          },
+          {
+            "en": "Weeping Fungus",
+            "n": 1,
+            "why": "Em um berço branco: cura enquanto você corre entre as lutas."
+          }
+        ],
+        "then": "O berço define a raridade da escolha. Espaços Seguros corrompe seus Tempos Difíceis e Polialaúde corrompe os Ukuleles: pegue só se aceitar a troca."
+      }
+    ]
+  }
 }

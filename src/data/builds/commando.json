@@ -645,5 +645,222 @@
   ],
   "notes": [
     "Deslize Tático, Explosão Fásica e Granada de Fragmentação precisam ser desbloqueados pelos desafios Commando: Godspeed, Rolling Thunder e Incorruptible. Sem o Deslize, use a Esquiva Tática."
-  ]
+  ],
+  "command": {
+    "intro": "Com a Autoridade, comece pelo motor: Seringas e Óculos nos brancos, Míssil e Ukulele nos verdes. Cada tiro do Tiro Duplo rola os itens ao acertar com coeficiente 1,0, então velocidade de ataque e itens de chance rendem desde o primeiro estágio.",
+    "tiers": [
+      {
+        "tier": "comum",
+        "steps": [
+          {
+            "en": "Soldier's Syringe",
+            "n": 2,
+            "why": "Mais tiros do Tiro Duplo e mais disparos do Fogo de Supressão logo no primeiro baú."
+          },
+          {
+            "en": "Lens-Maker's Glasses",
+            "n": 3,
+            "why": "Crítico para o dano constante e para a Foice que vem nos verdes."
+          },
+          {
+            "en": "Tougher Times",
+            "n": 2,
+            "why": "O Comando tem 110 de vida e nenhuma armadura: cada bloqueio é um golpe evitado."
+          },
+          {
+            "en": "Tri-Tip Dagger",
+            "n": 2,
+            "why": "Rola a cada tiro com coeficiente cheio e deixa o alvo sangrando."
+          },
+          {
+            "en": "Soldier's Syringe",
+            "n": 2,
+            "why": "Quatro Seringas: o mínimo da build e mais rolagens por segundo."
+          },
+          {
+            "en": "Lens-Maker's Glasses",
+            "n": 2,
+            "why": "Cinco Óculos deixam a Foice e os Instintos ativando quase sempre."
+          },
+          {
+            "en": "Armor-Piercing Rounds",
+            "n": 2,
+            "why": "Mais dano direto do Tiro Duplo nas lutas de teleporte."
+          },
+          {
+            "en": "Tri-Tip Dagger",
+            "n": 2,
+            "why": "Quatro Adagas: o alvo sangra quase sem parar."
+          },
+          {
+            "en": "Soldier's Syringe",
+            "n": 2,
+            "why": "Seis Seringas para o Míssil e o Ukulele rolarem ainda mais."
+          },
+          {
+            "en": "Lens-Maker's Glasses",
+            "n": 1,
+            "why": "Sexto Óculos, o limite da build."
+          }
+        ],
+        "then": "Depois: Seringa até 8, Pente Reserva para emendar Projéteis Fásicos após o Fogo de Supressão e Tempos Difíceis até 4. Bomba Aderente só se os outros já estiverem no limite."
+      },
+      {
+        "tier": "incomum",
+        "steps": [
+          {
+            "en": "AtG Missile Mk. 1",
+            "n": 1,
+            "why": "Com 6 tiros por segundo, o míssil sai a todo momento desde o primeiro."
+          },
+          {
+            "en": "Harvester's Scythe",
+            "n": 1,
+            "why": "A cura da build: o Comando não tem cura própria."
+          },
+          {
+            "en": "Ukulele",
+            "n": 1,
+            "why": "Espalha o dano do Tiro Duplo, que é de alvo único, para o grupo."
+          },
+          {
+            "en": "AtG Missile Mk. 1",
+            "n": 1,
+            "why": "O segundo acúmulo aumenta o dano de cada míssil."
+          },
+          {
+            "en": "Predatory Instincts",
+            "n": 1,
+            "why": "Com os Óculos, o bônus de velocidade fica no máximo quase o tempo todo."
+          },
+          {
+            "en": "Ukulele",
+            "n": 1,
+            "why": "Mais alcance e alvos para o raio contra grupos."
+          },
+          {
+            "en": "AtG Missile Mk. 1",
+            "n": 1,
+            "why": "Terceiro Míssil: mais dano por ativação."
+          },
+          {
+            "en": "Harvester's Scythe",
+            "n": 1,
+            "why": "A segunda Foice aumenta a cura por crítico."
+          },
+          {
+            "en": "Predatory Instincts",
+            "n": 1,
+            "why": "Mais velocidade de ataque, que já é a base da build."
+          },
+          {
+            "en": "Ukulele",
+            "n": 1,
+            "why": "Terceiro Ukulele, o limite da build."
+          }
+        ],
+        "then": "Depois: o quarto Míssil. Semente Sanguessuga se a cura ainda faltar. Na variante com Granada de Fragmentação, um Cinturão de Kjaro."
+      },
+      {
+        "tier": "lendario",
+        "steps": [
+          {
+            "en": "Brilliant Behemoth",
+            "n": 1,
+            "why": "Cada tiro vira dano em área, com o raio cheio do coeficiente 1,0."
+          },
+          {
+            "en": "Sentient Meat Hook",
+            "n": 1,
+            "why": "Rola em cada tiro e acerta até 10 inimigos."
+          },
+          {
+            "en": "Laser Scope",
+            "n": 1,
+            "why": "Com os Óculos, os críticos passam a causar o triplo de dano."
+          },
+          {
+            "en": "Brilliant Behemoth",
+            "n": 1,
+            "why": "O segundo aumenta o raio das explosões."
+          },
+          {
+            "en": "Sentient Meat Hook",
+            "n": 1,
+            "why": "Mais chance e mais alvos para o Gancho."
+          }
+        ],
+        "then": "Depois: Justiça Destruidora para chefes, Trevo 57 e Escorpião Simbiótico. A Cabeça Alienígena rende pouco: o Tiro Duplo não tem recarga."
+      },
+      {
+        "tier": "chefe",
+        "steps": [
+          {
+            "en": "Charged Perforator",
+            "n": 1,
+            "why": "Mais um efeito de chance para o Tiro Duplo rolar várias vezes por segundo."
+          },
+          {
+            "en": "Shatterspleen",
+            "n": 1,
+            "why": "Com crítico alto, quase todo inimigo sangra e explode ao morrer."
+          }
+        ],
+        "then": "Itens de chefe vêm do chefe do teleporte. Com os dois, a escolha amarela importa pouco para esta build."
+      },
+      {
+        "tier": "equipamento",
+        "steps": [
+          {
+            "en": "Gorag's Opus",
+            "n": 1,
+            "why": "Escolha este primeiro: dobra a velocidade de ataque e as ativações de itens."
+          },
+          {
+            "en": "Royal Capacitor",
+            "n": 1,
+            "why": "Recarga curta e muito dano num alvo para derrubar elites."
+          },
+          {
+            "en": "Primordial Cube",
+            "n": 1,
+            "why": "Junta o grupo para o Brutamontes, o Ukulele e o Projétil Fásico."
+          },
+          {
+            "en": "Ocular HUD",
+            "n": 1,
+            "why": "Oito segundos de crítico garantido, bom com Foice e Mira Laser."
+          }
+        ],
+        "then": "Equipamento é um só: troque apenas se achar um barril com uma opção acima da sua."
+      },
+      {
+        "tier": "lunar",
+        "steps": [
+          {
+            "en": "Shaped Glass",
+            "n": 1,
+            "why": "Só se a cápsula der escolha e você já tiver Tempos Difíceis e Foice: dobra o dano, mas a vida cai pela metade."
+          }
+        ],
+        "then": "A wiki não confirma escolha nas cápsulas lunares com a Autoridade. Nunca pegue Ombreira do Fluxo Iluminado nem Visões Profanas: cortam ou tiram o Tiro Duplo."
+      },
+      {
+        "tier": "vazio",
+        "steps": [
+          {
+            "en": "Lysate Cell",
+            "n": 1,
+            "why": "Em um berço verde: dois Fogos de Supressão seguidos. Não corrompe nada desta build."
+          },
+          {
+            "en": "Needletick",
+            "n": 1,
+            "why": "Em um berço branco, só se aceitar a troca: corrompe todas as suas Adagas Triangulares."
+          }
+        ],
+        "then": "O berço do Vazio define a raridade da escolha. Nunca escolha Lentes do Profeta Perdido, que corrompe todos os Óculos, nem Polialaúde, que corrompe os Ukuleles. Faixa da Singularidade só na variante com Granada, e ela corrompe os Cinturões de Kjaro."
+      }
+    ]
+  }
 }

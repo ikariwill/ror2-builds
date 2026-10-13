@@ -612,5 +612,242 @@
     "A wiki não lista a recarga nem o desafio de desbloqueio de Sim, CHEF! (Yes, CHEF!). Um guia da comunidade cita 10 s de recarga, sem confirmação na wiki.",
     "A wiki não diz se o Óleo também quadruplica a Queimadura de itens como Gasolina e Molotov.",
     "A wiki diz que habilidades que aplicam Óleo criam poças, mas a parte do Cristalizar está incompleta; não confirmamos se as bolas que erram viram poças."
-  ]
+  ],
+  "command": {
+    "intro": "Com a Autoridade, ligue o combo de fogo primeiro: Cristal de Foco e Gasolina nos brancos, Tanque de Ignição no primeiro verde. Depois venha a vida máxima, que também aumenta a cura das refeições do Beijo do CHEF.",
+    "tiers": [
+      {
+        "tier": "comum",
+        "steps": [
+          {
+            "en": "Focus Crystal",
+            "n": 2,
+            "why": "O Chamuscar e o Rolar acontecem de perto."
+          },
+          {
+            "en": "Gasoline",
+            "n": 1,
+            "why": "Cada abate espalha fogo para o grupo ao redor."
+          },
+          {
+            "en": "Bison Steak",
+            "n": 2,
+            "why": "O CHEF tem 110 de vida, e a refeição cura uma porcentagem da vida máxima."
+          },
+          {
+            "en": "Tougher Times",
+            "n": 2,
+            "why": "Fora do Rolar o CHEF não tem armadura."
+          },
+          {
+            "en": "Focus Crystal",
+            "n": 1,
+            "why": "Três Cristais."
+          },
+          {
+            "en": "Soldier's Syringe",
+            "n": 2,
+            "why": "O Picar é Rápido: mais arremessos e mais ativações de itens."
+          },
+          {
+            "en": "Lens-Maker's Glasses",
+            "n": 2,
+            "why": "Crítico dobra os golpes diretos do Chamuscar e do Cristalizar."
+          },
+          {
+            "en": "Gasoline",
+            "n": 1,
+            "why": "A segunda aumenta o raio e a queimadura."
+          },
+          {
+            "en": "Backup Magazine",
+            "n": 1,
+            "why": "Dois Chamuscar seguidos depois do Cristalizar."
+          },
+          {
+            "en": "Focus Crystal",
+            "n": 2,
+            "why": "Chega a 5 Cristais, o máximo da build."
+          },
+          {
+            "en": "Bison Steak",
+            "n": 1,
+            "why": "Mais vida e refeições maiores."
+          },
+          {
+            "en": "Soldier's Syringe",
+            "n": 1,
+            "why": "Três Seringas."
+          },
+          {
+            "en": "Lens-Maker's Glasses",
+            "n": 1,
+            "why": "Três Óculos para a Foice do Ceifador render."
+          },
+          {
+            "en": "Tougher Times",
+            "n": 1,
+            "why": "Terceiro Tempos Difíceis."
+          }
+        ],
+        "then": "Depois: Kit de Cura até 2, Gasolina até 3 e Óculos até 4."
+      },
+      {
+        "tier": "incomum",
+        "steps": [
+          {
+            "en": "Ignition Tank",
+            "n": 1,
+            "why": "O Óleo quadruplica a Queimadura do Chamuscar, e o Tanque soma +300% a ela e à Gasolina."
+          },
+          {
+            "en": "AtG Missile Mk. 1",
+            "n": 1,
+            "why": "Cutelos na ida e na volta e 7 bolas do Cristalizar: muitas chances de míssil."
+          },
+          {
+            "en": "Ignition Tank",
+            "n": 1,
+            "why": "O segundo Tanque soma mais 300% ao fogo."
+          },
+          {
+            "en": "Ukulele",
+            "n": 1,
+            "why": "Cutelos perfurantes acertam vários inimigos, e cada acerto pode soltar raio."
+          },
+          {
+            "en": "Kjaro's Band",
+            "n": 1,
+            "why": "O Chamuscar causa 600%, acima do limite de 400%."
+          },
+          {
+            "en": "AtG Missile Mk. 1",
+            "n": 1,
+            "why": "Segundo Míssil."
+          },
+          {
+            "en": "Will-o'-the-wisp",
+            "n": 1,
+            "why": "A Queimadura mata grupos, e cada abate vira um pilar de lava."
+          },
+          {
+            "en": "Harvester's Scythe",
+            "n": 1,
+            "why": "Com os Óculos dos brancos, cura a cada crítico dos cutelos."
+          },
+          {
+            "en": "Ignition Tank",
+            "n": 1,
+            "why": "Terceiro Tanque, o máximo da build."
+          },
+          {
+            "en": "Ukulele",
+            "n": 1,
+            "why": "Mais alvos no raio em cadeia."
+          }
+        ],
+        "then": "Depois: Míssil até 3 e Will-o'-the-wisp até 2. Marca Fatal parece ideal, mas os buffs de cozinha do CHEF não contam para ela."
+      },
+      {
+        "tier": "lendario",
+        "steps": [
+          {
+            "en": "Brilliant Behemoth",
+            "n": 1,
+            "why": "Cada cutelo, bola de óleo e feixe do Chamuscar explode."
+          },
+          {
+            "en": "Alien Head",
+            "n": 1,
+            "why": "Cristalizar, Rolar e Chamuscar voltam 25% mais rápido: mais combos."
+          },
+          {
+            "en": "Sentient Meat Hook",
+            "n": 1,
+            "why": "Os cutelos atravessam o grupo na ida e na volta e ativam o Gancho várias vezes."
+          },
+          {
+            "en": "Alien Head",
+            "n": 1,
+            "why": "A segunda Cabeça: mais Óleo e mais fogo por minuto."
+          },
+          {
+            "en": "Brilliant Behemoth",
+            "n": 1,
+            "why": "O segundo aumenta o raio da explosão."
+          }
+        ],
+        "then": "Depois: Gancho até 2, Suporte do Rejuvenescimento para as refeições ou Relíquia Congelada."
+      },
+      {
+        "tier": "chefe",
+        "steps": [
+          {
+            "en": "Titanic Knurl",
+            "n": 1,
+            "why": "Vida e regeneração para um personagem frágil que luta de perto."
+          },
+          {
+            "en": "Molten Perforator",
+            "n": 1,
+            "why": "Mais um efeito ao acertar para os cutelos e as 7 bolas do Cristalizar."
+          }
+        ],
+        "then": "Itens de chefe vêm do chefe do teleporte. Depois do Perfurador, mais Fragmentos."
+      },
+      {
+        "tier": "equipamento",
+        "steps": [
+          {
+            "en": "Primordial Cube",
+            "n": 1,
+            "why": "Escolha este primeiro: junta o grupo para o Cristalizar e o Chamuscar pegarem todos."
+          },
+          {
+            "en": "Molotov (6-Pack)",
+            "n": 1,
+            "why": "Se ainda não tem o Cubo: mais fogo em área, que o Tanque de Ignição aumenta."
+          },
+          {
+            "en": "Royal Capacitor",
+            "n": 1,
+            "why": "Terceira opção: dano contra voadores e elites fora do alcance do Chamuscar."
+          }
+        ],
+        "then": "Equipamento é um só: troque apenas se achar um barril com uma opção acima da sua."
+      },
+      {
+        "tier": "lunar",
+        "steps": [
+          {
+            "en": "Purity",
+            "n": 1,
+            "why": "Se a cápsula der escolha: Chamuscar de 6 s para 4 s e Cristalizar de 12 s para 10 s, pior para Ukulele, Míssil e crítico."
+          }
+        ],
+        "then": "A wiki não confirma se a cápsula lunar dá escolha com a Autoridade. Expansão Corporal só se aceitar a cura lenta. Nunca pegue Vidro Configurado."
+      },
+      {
+        "tier": "vazio",
+        "steps": [
+          {
+            "en": "Lysate Cell",
+            "n": 1,
+            "why": "Em um berço verde: duas cargas de Cristalizar e recarga menor, mais grupos com Óleo."
+          },
+          {
+            "en": "Lysate Cell",
+            "n": 1,
+            "why": "Segunda Célula: mais um Cristalizar por ciclo."
+          },
+          {
+            "en": "Weeping Fungus",
+            "n": 1,
+            "why": "Em um berço branco: cura entre combos, e o Chamuscar e o Rolar podem ser usados correndo."
+          }
+        ],
+        "then": "O berço define a raridade da escolha. Chama da Nulidade corrompe seus Will-o'-the-wisp e Polialaúde corrompe seus Ukuleles: pegue só se aceitar perder esses itens."
+      }
+    ]
+  }
 }

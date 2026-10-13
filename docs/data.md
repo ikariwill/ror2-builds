@@ -40,14 +40,18 @@ Um arquivo por sobrevivente: `src/data/builds/<id>.json`. Tipos em `src/types.ts
   "summary": "3–4 frases",
   "checklist": [{ "title", "text" }],
   "sources": [{ "title", "url" }],
-  "notes": ["ressalvas: DLC, dados não confirmados, divergências"]
+  "notes": ["ressalvas: DLC, dados não confirmados, divergências"],
+  "command": {                     // opcional: ordem de compra para o Artefato da Autoridade (Artifact of Command)
+    "intro": "2 frases",
+    "tiers": [{ "tier": "comum", "steps": [{ "en": "Backup Magazine", "n": 2, "why": "1 frase" }], "then": "Depois: …" }]
+  }
 }
 ```
 
 Prioridade (`prio`): `1` Essencial · `2` Alta · `3` Média · `4` Situacional · `0` Evitar/cuidado.
 
-`npm run validate` confere: chaves obrigatórias, ordem e nomes das seções, prioridade válida, existência de cada
-ícone em `public/icons/` e se todo essencial aparece numa seção.
+`npm run validate` confere a formatação (2 espaços),  chaves obrigatórias, ordem e nomes das seções, prioridade válida, existência de cada
+ícone em `public/icons/` se todo essencial aparece numa seção e, na ordem de compra, se cada item existe nos cards da mesma raridade.
 
 ## Como criar ou corrigir uma build
 
@@ -57,6 +61,13 @@ Prioridade (`prio`): `1` Essencial · `2` Alta · `3` Média · `4` Situacional 
 4. Item novo precisa do ícone em `public/icons/<slug>.webp` (slug em minúsculas com hífens, como os existentes).
 5. `npm run format:data && npm run validate && npm run build`.
 6. Divergência entre wiki e texto do jogo: use o número da wiki e cite a diferença no `spec` da habilidade.
+
+## Artefato da Autoridade (Artifact of Command)
+
+Nome oficial em pt-BR: **Artefato da Autoridade**. A ordem de compra (`command`) segue o que a wiki confirma:
+cada essência deixa escolher qualquer item desbloqueado da raridade; não aparecem impressoras, sucateiros,
+terminais múltiplos nem Poças de Purificação; **Pérola e Pérola Irradiante não podem ser obtidas** (página
+Irradiant Pearl); berços do Vazio limitam a escolha a uma raridade. Equipamentos lunares ficam fora da ordem laranja.
 
 ## Pendências de verificação conhecidas
 
@@ -81,4 +92,6 @@ suas em `notes`.
 - **Acrid**: se o Veneno pode ser crítico ou ativar itens ao acertar (a wiki não diz).
 - **Mercenário**: 0,6 s de invulnerabilidade por investida (wiki atual) vs. 0,2 s no fim da investida (patch antigo).
 - **Bandido**: duração da invisibilidade da Bomba de Fumaça; se a Lente Rúnica é reduzida pelo coeficiente da Rajada.
+- **Cápsulas lunares com a Autoridade**: a wiki não confirma se dão escolha. O arquivo de idioma do jogo tem a
+  string "Essência da Autoridade Azul", o que sugere que sim. As ordens tratam o lunar como condicional.
 - **Nomes de desafios** estão em inglês nas builds, embora o arquivo pt-BR tenha tradução. Decidir e padronizar.

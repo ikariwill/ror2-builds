@@ -327,7 +327,7 @@
           "prio": 2,
           "qty": "1 ou mais",
           "effect": "Aumenta TODOS os atributos em 10% (+10% por acúmulo).",
-          "why": "A wiki explica que, apesar do texto, a Pérola não amplifica a regeneração negativa: ela dá uma regeneração fixa por acúmulo, além de vida, dano e velocidade."
+          "why": "A wiki explica que, apesar do texto, a Pérola não amplifica a regeneração negativa: ela dá uma regeneração fixa por acúmulo, além de vida, dano e velocidade. Com o Artefato da Autoridade (Artifact of Command) não sai: as Poças de Purificação não aparecem e a essência amarela não oferece pérolas."
         }
       ]
     },
@@ -651,5 +651,277 @@
     "Os itens da Heresia são desbloqueados pelo desafio Destruidor de Barreiras (Blockade Breaker): abater 15 monstros chefes em uma só run. A wiki diverge sobre Passadas Profanas e Essência da Heresia: as páginas dos itens e o texto do desafio dizem que ele libera os quatro, mas o quadro de recompensa do desafio e a lista de Desafios citam só Visões e Ganchos. Nenhuma página da wiki diz de onde os itens saem na run; Cápsulas Lunares e Bazar vêm do funcionamento geral dos itens lunares. O Artefato da Autoridade (Artifact of Command) deixa escolher os itens diretamente.",
     "O texto do jogo em português difere da wiki em dois números: a Dissipação Sombria cura 18,2% por Passadas (o jogo diz 25%) e o Redemoinho Cortante causa 175% até 5 vezes por segundo (o jogo só menciona 175%). O guia usa os números da wiki.",
     "Na dificuldade Chuvisco (Drizzle) a perda de vida é maior (−9/s) e na Monção (Monsoon) é menor (−3,6/s)."
-  ]
+  ],
+  "command": {
+    "intro": "Você começa com outro sobrevivente e só vira a Herege ao segurar os quatro itens da Heresia, que são lunares. Por isso os primeiros itens da ordem servem a qualquer personagem, e os que seguram a regeneração negativa (Lesma, Fragmento Titânico, Criatura da Floresta) vêm em seguida para quando a transformação acontecer.",
+    "tiers": [
+      {
+        "tier": "comum",
+        "steps": [
+          {
+            "en": "Soldier's Syringe",
+            "n": 2,
+            "why": "Serve ao sobrevivente inicial e depois aumenta a cadência do Olhar Faminto."
+          },
+          {
+            "en": "Lens-Maker's Glasses",
+            "n": 2,
+            "why": "Crítico para qualquer personagem e a base para a Foice curar."
+          },
+          {
+            "en": "Tougher Times",
+            "n": 1,
+            "why": "Bloqueio que ajuda antes e depois da transformação."
+          },
+          {
+            "en": "Soldier's Syringe",
+            "n": 1,
+            "why": "Três Seringas, o mínimo da build."
+          },
+          {
+            "en": "Cautious Slug",
+            "n": 2,
+            "why": "Perto da transformação: duas anulam a regeneração negativa fora de combate."
+          },
+          {
+            "en": "Lens-Maker's Glasses",
+            "n": 1,
+            "why": "Mais crítico para os fragmentos do Olhar."
+          },
+          {
+            "en": "Armor-Piercing Rounds",
+            "n": 2,
+            "why": "Aumenta os fragmentos e a detonação da Ruína contra chefes."
+          },
+          {
+            "en": "Backup Magazine",
+            "n": 1,
+            "why": "Carga extra do Redemoinho sem aumentar a recarga."
+          },
+          {
+            "en": "Personal Shield Generator",
+            "n": 1,
+            "why": "Escala com a vida máxima: 8% de 440 já rende muito."
+          },
+          {
+            "en": "Soldier's Syringe",
+            "n": 2,
+            "why": "Cinco Seringas: as 12 cargas do Olhar saem bem mais rápido."
+          },
+          {
+            "en": "Lens-Maker's Glasses",
+            "n": 2,
+            "why": "Cinco Óculos, o máximo da build."
+          },
+          {
+            "en": "Cautious Slug",
+            "n": 1,
+            "why": "A terceira faz ela voltar a se curar fora de combate."
+          },
+          {
+            "en": "Tougher Times",
+            "n": 1,
+            "why": "Segundo Tempos Difíceis contra os golpes dos grupos."
+          },
+          {
+            "en": "Armor-Piercing Rounds",
+            "n": 1,
+            "why": "Terceiro, o máximo da build."
+          }
+        ],
+        "then": "Depois: Seringa até 6, Tempos Difíceis até 3 e um segundo Gerador de Escudo. O Broche de Topázio não salva da regeneração negativa."
+      },
+      {
+        "tier": "incomum",
+        "steps": [
+          {
+            "en": "Harvester's Scythe",
+            "n": 1,
+            "why": "Cura em cada crítico; na Herege segura a perda de vida entre as Dissipações."
+          },
+          {
+            "en": "Leeching Seed",
+            "n": 1,
+            "why": "Cura por acerto para qualquer personagem; os fragmentos acertam duas vezes."
+          },
+          {
+            "en": "Kjaro's Band",
+            "n": 1,
+            "why": "A detonação da Ruína e a explosão do Redemoinho passam de 400% com facilidade."
+          },
+          {
+            "en": "Ukulele",
+            "n": 1,
+            "why": "As explosões dos fragmentos têm coeficiente 1,0 e saem em quantidade."
+          },
+          {
+            "en": "Harvester's Scythe",
+            "n": 1,
+            "why": "Segunda Foice, mais cura por crítico."
+          },
+          {
+            "en": "Bandolier",
+            "n": 1,
+            "why": "Pode zerar a espera do Olhar e devolver a Ruína e a Dissipação."
+          },
+          {
+            "en": "Leeching Seed",
+            "n": 1,
+            "why": "Segunda Semente para a cura contínua com velocidade de ataque."
+          },
+          {
+            "en": "AtG Missile Mk. 1",
+            "n": 1,
+            "why": "Muitos acertos de coeficiente 1,0 por segundo com o Olhar."
+          },
+          {
+            "en": "Runald's Band",
+            "n": 1,
+            "why": "Mesmo gatilho do Kjaro, e a lentidão ajuda a manter distância."
+          },
+          {
+            "en": "Harvester's Scythe",
+            "n": 1,
+            "why": "Terceira Foice, o máximo da build."
+          }
+        ],
+        "then": "Depois: Ukulele, Míssil e Cartucheira até 2, mais Semente até 3. Instintos Predatórios só com Óculos."
+      },
+      {
+        "tier": "lendario",
+        "steps": [
+          {
+            "en": "Alien Head",
+            "n": 1,
+            "why": "Encurta as recargas do sobrevivente inicial e, depois, as que a Heresia alonga."
+          },
+          {
+            "en": "Hardlight Afterburner",
+            "n": 1,
+            "why": "Três Dissipações seguidas sem o aumento de recarga de um Passadas extra."
+          },
+          {
+            "en": "Rejuvenation Rack",
+            "n": 1,
+            "why": "Dobra a cura da Foice, da Semente e dos outros itens de cura."
+          },
+          {
+            "en": "Hardlight Afterburner",
+            "n": 1,
+            "why": "Segundo Pós-combustor: mais cargas e recarga menor na Dissipação."
+          },
+          {
+            "en": "Brilliant Behemoth",
+            "n": 1,
+            "why": "Dano em área ao redor de cada fragmento, contra grupos."
+          },
+          {
+            "en": "Alien Head",
+            "n": 1,
+            "why": "Segunda Cabeça, o máximo da build."
+          }
+        ],
+        "then": "Depois: Mira Laser se já tiver crítico, Gancho de Carnes Senciente ou Trevo 57."
+      },
+      {
+        "tier": "chefe",
+        "steps": [
+          {
+            "en": "Titanic Knurl",
+            "n": 1,
+            "why": "Regeneração fixa que abate direto da perda de vida, dentro e fora de combate."
+          },
+          {
+            "en": "Titanic Knurl",
+            "n": 1,
+            "why": "Cada cópia soma mais 1,6 de vida por segundo."
+          }
+        ],
+        "then": "Itens de chefe vêm do chefe do teleporte. A página do Artefato da Autoridade diz que a Pérola Irradiante tem essência própria, que só cai da fonte original do item. Não conte com ela na essência amarela do teleporte."
+      },
+      {
+        "tier": "equipamento",
+        "steps": [
+          {
+            "en": "Gnarled Woodsprite",
+            "n": 1,
+            "why": "Escolha este no primeiro barril: cura qualquer sobrevivente e, na Herege, anula a regeneração negativa a partir do nível 6."
+          },
+          {
+            "en": "Royal Capacitor",
+            "n": 1,
+            "why": "Se ainda não desbloqueou a Criatura: dano grande à distância, mesmo durante a Dissipação."
+          },
+          {
+            "en": "Primordial Cube",
+            "n": 1,
+            "why": "Reserva: junta o grupo para o Redemoinho."
+          },
+          {
+            "en": "Gorag's Opus",
+            "n": 1,
+            "why": "Segunda reserva: dobra a cadência do Olhar por alguns segundos."
+          }
+        ],
+        "then": "Equipamento é um só: troque apenas se achar um barril com uma opção acima da sua. O Tônico de Espinélia é equipamento lunar e fica de fora: multiplica a regeneração negativa."
+      },
+      {
+        "tier": "lunar",
+        "steps": [
+          {
+            "en": "Strides of Heresy",
+            "n": 1,
+            "why": "Se a cápsula der escolha: Dissipação Sombria no lugar da utilitária do sobrevivente atual, com cura de 18,2%."
+          },
+          {
+            "en": "Visions of Heresy",
+            "n": 1,
+            "why": "Segunda peça: Olhar Faminto no lugar da primária."
+          },
+          {
+            "en": "Hooks of Heresy",
+            "n": 1,
+            "why": "Terceira peça: Redemoinho Cortante no lugar da secundária."
+          },
+          {
+            "en": "Essence of Heresy",
+            "n": 1,
+            "why": "A quarta peça transforma você na Herege, mantendo os outros itens."
+          },
+          {
+            "en": "Strides of Heresy",
+            "n": 1,
+            "why": "Segunda Passadas: 36,4% de cura sem aumentar a recarga."
+          },
+          {
+            "en": "Strides of Heresy",
+            "n": 1,
+            "why": "Terceira Passadas, o máximo da build."
+          }
+        ],
+        "then": "A página do Artefato da Autoridade não diz se a Cápsula Lunar solta uma essência com escolha. Sem o artefato, a cápsula dá um item ou equipamento lunar aleatório entre os desbloqueados. Se der escolha, siga esta ordem. Se não der, cada moeda é um sorteio, e você pode receber lunares fora da build. Não pegue cópias extras de Visões, Ganchos ou Essência: elas alongam as recargas."
+      },
+      {
+        "tier": "vazio",
+        "steps": [
+          {
+            "en": "Lysate Cell",
+            "n": 1,
+            "why": "Em um berço verde: com uma carga sobrando, você continua aplicando Ruína. Não corrompe nada desta build."
+          },
+          {
+            "en": "Lysate Cell",
+            "n": 1,
+            "why": "Segunda Célula, também em berço verde: mais uma detonação por ciclo."
+          },
+          {
+            "en": "Weeping Fungus",
+            "n": 1,
+            "why": "Em um berço branco: cura de 2% da vida máxima por segundo enquanto corre."
+          }
+        ],
+        "then": "O berço do Vazio define a raridade da escolha. Polialaúde corrompe os Ukuleles e Faixa da Singularidade corrompe os dois Cinturões: pegue só se abriu mão deles."
+      }
+    ]
+  }
 }

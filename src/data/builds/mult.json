@@ -355,7 +355,7 @@
           "prio": 3,
           "qty": "1 ou mais",
           "effect": "Aumenta TODOS os atributos em 10% (+10% por acúmulo).",
-          "why": "Inclui velocidade de movimento, que ajuda a compensar a lentidão do Modo de Força."
+          "why": "Inclui velocidade de movimento, que ajuda a compensar a lentidão do Modo de Força. Com o Artefato da Autoridade (Artifact of Command) não sai: as Poças de Purificação não aparecem e a essência amarela não oferece pérolas."
         }
       ]
     },
@@ -658,5 +658,227 @@
     "A wiki não diz se a velocidade de ataque muda a rajada final da Pistola de Pregos nem se o Modo de Força altera o uso de equipamentos; o guia não afirma nada sobre isso.",
     "A wiki trata a segunda primária do Modo de Força como habilidade Secundária, o que sugere que o Filtro Explosivo fica indisponível nesse modo. Não está confirmado.",
     "O nome em inglês da passiva (Multifunctional) vem das notas de atualização citadas pela wiki."
-  ]
+  ],
+  "command": {
+    "intro": "Com a Autoridade, comece por Seringas e Óculos nos brancos e Míssil, Semente e Ukulele nos verdes. No Modo de Força são 24 pregos por segundo rolando itens ao acertar, então cada item de chance compensa o coeficiente 0,6 pelo volume.",
+    "tiers": [
+      {
+        "tier": "comum",
+        "steps": [
+          {
+            "en": "Soldier's Syringe",
+            "n": 2,
+            "why": "Mais pregos por segundo nas duas pistolas logo no primeiro baú."
+          },
+          {
+            "en": "Lens-Maker's Glasses",
+            "n": 2,
+            "why": "Dano extra constante e base para a Foice e os Instintos."
+          },
+          {
+            "en": "Tri-Tip Dagger",
+            "n": 2,
+            "why": "Muitos pregos compensam a chance reduzida pelo coeficiente."
+          },
+          {
+            "en": "Repulsion Armor Plate",
+            "n": 2,
+            "why": "Você luta colado e leva muitos golpes pequenos."
+          },
+          {
+            "en": "Soldier's Syringe",
+            "n": 2,
+            "why": "Quatro Seringas: o mínimo da build."
+          },
+          {
+            "en": "Lens-Maker's Glasses",
+            "n": 2,
+            "why": "Quatro Óculos para os críticos virarem cura com a Foice."
+          },
+          {
+            "en": "Focus Crystal",
+            "n": 2,
+            "why": "Os pregos já pedem distância curta, e o Cristal recompensa isso."
+          },
+          {
+            "en": "Soldier's Syringe",
+            "n": 2,
+            "why": "Seis Seringas: ainda mais rolagens por segundo."
+          },
+          {
+            "en": "Lens-Maker's Glasses",
+            "n": 2,
+            "why": "Sexto Óculos, o limite da build."
+          },
+          {
+            "en": "Armor-Piercing Rounds",
+            "n": 2,
+            "why": "Mais dano por prego colado no chefe."
+          },
+          {
+            "en": "Tri-Tip Dagger",
+            "n": 1,
+            "why": "Terceira Adaga."
+          },
+          {
+            "en": "Repulsion Armor Plate",
+            "n": 1,
+            "why": "Terceira Placa contra golpes pequenos."
+          }
+        ],
+        "then": "Depois: Seringa até 8 e Adaga e Cristal até 4. Pente Reserva rende pouco no Modo de Força. Pé de Cabra só na variante com Perfurador de Barra."
+      },
+      {
+        "tier": "incomum",
+        "steps": [
+          {
+            "en": "AtG Missile Mk. 1",
+            "n": 1,
+            "why": "Com 24 pregos por segundo, os mísseis saem o tempo todo."
+          },
+          {
+            "en": "Leeching Seed",
+            "n": 1,
+            "why": "Cura a cada prego, sem depender de crítico."
+          },
+          {
+            "en": "Ukulele",
+            "n": 1,
+            "why": "Espalha o dano dos pregos para os inimigos em volta."
+          },
+          {
+            "en": "AtG Missile Mk. 1",
+            "n": 1,
+            "why": "O segundo acúmulo aumenta o dano de cada míssil."
+          },
+          {
+            "en": "Harvester's Scythe",
+            "n": 1,
+            "why": "Com os Óculos, os críticos dos pregos viram mais cura."
+          },
+          {
+            "en": "Ukulele",
+            "n": 1,
+            "why": "Mais alcance e alvos para o raio."
+          },
+          {
+            "en": "AtG Missile Mk. 1",
+            "n": 1,
+            "why": "Terceiro Míssil: mais dano por ativação."
+          },
+          {
+            "en": "Leeching Seed",
+            "n": 1,
+            "why": "A segunda Semente dobra a cura por prego."
+          },
+          {
+            "en": "Predatory Instincts",
+            "n": 1,
+            "why": "Mais velocidade para as pistolas, já com crítico."
+          },
+          {
+            "en": "Harvester's Scythe",
+            "n": 1,
+            "why": "A segunda Foice aumenta a cura por crítico."
+          }
+        ],
+        "then": "Depois: o quarto Míssil e o terceiro Ukulele. Com Reequipar no lugar do Modo de Força, Chifre da Guerra e Célula de Combustível sobem na ordem."
+      },
+      {
+        "tier": "lendario",
+        "steps": [
+          {
+            "en": "Sentient Meat Hook",
+            "n": 1,
+            "why": "Rola em cada prego e acerta até 10 inimigos: o dano em grupo que falta."
+          },
+          {
+            "en": "Brilliant Behemoth",
+            "n": 1,
+            "why": "Cada prego explode, mesmo com o raio menor pelo coeficiente 0,6."
+          },
+          {
+            "en": "Shattering Justice",
+            "n": 1,
+            "why": "Cinco acertos saem em menos de meio segundo e o efeito dura a luta de chefe."
+          },
+          {
+            "en": "Sentient Meat Hook",
+            "n": 1,
+            "why": "Mais chance e mais alvos para o Gancho."
+          },
+          {
+            "en": "57 Leaf Clover",
+            "n": 1,
+            "why": "Compensa o coeficiente baixo em todos os itens de chance."
+          }
+        ],
+        "then": "Depois: o segundo Brutamontes, Suporte do Rejuvenescimento com Semente e Foice, e Escorpião Simbiótico."
+      },
+      {
+        "tier": "chefe",
+        "steps": [
+          {
+            "en": "Charged Perforator",
+            "n": 1,
+            "why": "Mais um efeito de chance para os pregos rolarem várias vezes por segundo."
+          }
+        ],
+        "then": "Itens de chefe vêm do chefe do teleporte. A Pérola Irradiante não entra: com a Autoridade ela só sairia da poça de purificação, que não aparece."
+      },
+      {
+        "tier": "equipamento",
+        "steps": [
+          {
+            "en": "Gorag's Opus",
+            "n": 1,
+            "why": "Escolha este primeiro: dobra a cadência das duas pistolas."
+          },
+          {
+            "en": "Primordial Cube",
+            "n": 1,
+            "why": "Junta o grupo dentro do alcance curto dos pregos."
+          },
+          {
+            "en": "Royal Capacitor",
+            "n": 1,
+            "why": "Alcance que os pregos não têm, contra voadores e elites longe."
+          },
+          {
+            "en": "Jade Elephant",
+            "n": 1,
+            "why": "Armadura para os golpes que a lentidão do Modo de Força não deixa desviar."
+          }
+        ],
+        "then": "No Modo de Força, conte com um equipamento só. Ovo Vulcânico só com a Serra Elétrica."
+      },
+      {
+        "tier": "lunar",
+        "steps": [
+          {
+            "en": "Shaped Glass",
+            "n": 1,
+            "why": "Se a cápsula der escolha: dobra todos os pregos, e o MUL-T tem vida e armadura para pagar a metade."
+          }
+        ],
+        "then": "A wiki não confirma escolha nas cápsulas lunares com a Autoridade. Nunca pegue Ombreira do Fluxo Iluminado: corta metade dos pregos. Pureza só com o Lançador de Sucata."
+      },
+      {
+        "tier": "vazio",
+        "steps": [
+          {
+            "en": "Needletick",
+            "n": 1,
+            "why": "Em um berço branco, só se aceitar a troca: rola em cada prego, mas corrompe todas as suas Adagas Triangulares."
+          },
+          {
+            "en": "Plasma Shrimp",
+            "n": 1,
+            "why": "Em um berço verde, só se aceitar a troca: corrompe todos os seus Mísseis ASM."
+          }
+        ],
+        "then": "Todo item do Vazio desta build corrompe uma peça dela, então o berço é opcional. Nunca escolha Lentes do Profeta Perdido, que corrompe todos os Óculos, nem Polialaúde, que corrompe os Ukuleles."
+      }
+    ]
+  }
 }
