@@ -123,6 +123,8 @@ Primitivas em `src/components/ui.tsx`:
 | `QtyBadge` | selo dourado de quantidade sobre o ícone |
 | `SearchField` | busca com rótulo acessível |
 
+Em `command-order.tsx`: `CommandOrder` (ordem de compra por raridade com contador "peguei o próximo", salvo no navegador) e `CommandSection`.
+
 Em `build-parts.tsx` também: `SurvivorSelect` (seletor nativo agrupado por DLC, usado no celular e no desktop estreito).
 
 Blocos em `src/components/build-parts.tsx`: `TierTabs`, `PrioChips`, `ItemDetail`, `Checklist`, `Rotation`,

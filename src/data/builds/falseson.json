@@ -313,7 +313,7 @@
           "prio": 2,
           "qty": "1 ou mais",
           "effect": "Aumenta a vida máxima em 10% (+10% por acúmulo).",
-          "why": "10% da vida máxima conta como vida bônus. Rende mais quanto mais vida você já tem. A Pérola Irradiante também conta para o Crescimento."
+          "why": "10% da vida máxima conta como vida bônus. Rende mais quanto mais vida você já tem. A Pérola Irradiante também conta para o Crescimento. Com o Artefato da Autoridade (Artifact of Command) não sai: as Poças de Purificação não aparecem e a essência amarela não oferece pérolas."
         }
       ]
     },
@@ -598,5 +598,237 @@
     "O Falso Filho exige a DLC Seekers of the Storm e é desbloqueado pelo desafio Purified Freedom.",
     "Estacas Lunares, Vontade do Meridiano e Rajada de Laser são desbloqueadas pelos desafios Protein Heavy Diet, Family Bonding e Stare Them Down.",
     "A wiki lista Fragmento Titânico, Pérola, Pérola Irradiante, Néctar de Crescimento, Ombreira do Fluxo Pétreo, Tônico de Espinélia e Bife Selado entre os itens de Crescimento, mas não explica quanto cada um dá. A build assume que a vida máxima bônus deles conta como a do Filé."
-  ]
+  ],
+  "command": {
+    "intro": "Com a Autoridade, comece por vida máxima bônus: Filé de Bisão e Infusão viram Espinhos pelo Crescimento desde a primeira fase. Depois venham Cinturão de Kjaro e Brutamontes, que aproveitam os golpes de 450% e 1.000% da clava.",
+    "tiers": [
+      {
+        "tier": "comum",
+        "steps": [
+          {
+            "en": "Bison Steak",
+            "n": 3,
+            "why": "Pela tabela da wiki, os primeiros filés dão um Espinho a mais cada."
+          },
+          {
+            "en": "Focus Crystal",
+            "n": 2,
+            "why": "A clava, o impacto e o Passo acontecem a menos de 13 m."
+          },
+          {
+            "en": "Tougher Times",
+            "n": 2,
+            "why": "Bloqueia golpes enquanto você fica parado carregando a clava."
+          },
+          {
+            "en": "Bison Steak",
+            "n": 2,
+            "why": "Cinco filés: mais Espinhos, passiva maior e Laser mais longo."
+          },
+          {
+            "en": "Paul's Goat Hoof",
+            "n": 1,
+            "why": "O Falso Filho é lento e acelera devagar."
+          },
+          {
+            "en": "Repulsion Armor Plate",
+            "n": 2,
+            "why": "Golpes pequenos no meio do grupo viram quase nada."
+          },
+          {
+            "en": "Bison Steak",
+            "n": 2,
+            "why": "Sete filés."
+          },
+          {
+            "en": "Lens-Maker's Glasses",
+            "n": 2,
+            "why": "Crítico num golpe de 450% ou num impacto de 1.000% é muito dano."
+          },
+          {
+            "en": "Focus Crystal",
+            "n": 1,
+            "why": "Três Cristais."
+          },
+          {
+            "en": "Backup Magazine",
+            "n": 1,
+            "why": "Um Espinho a mais para a passiva. Não aumenta o Laser."
+          },
+          {
+            "en": "Bison Steak",
+            "n": 2,
+            "why": "Nove filés: 7 Espinhos a mais, segundo a wiki."
+          },
+          {
+            "en": "Tougher Times",
+            "n": 1,
+            "why": "Terceiro Tempos Difíceis."
+          }
+        ],
+        "then": "Depois: Filé até 10, Placa até 5 e Casco até 3. Com a Vontade do Meridiano, o Casco sobe na ordem, porque aumenta o alcance do teleporte. A Adaga Triangular só se sobrar escolha."
+      },
+      {
+        "tier": "incomum",
+        "steps": [
+          {
+            "en": "Kjaro's Band",
+            "n": 1,
+            "why": "Quase todo golpe da clava passa de 400%, e o impacto de 1.000% rende mais."
+          },
+          {
+            "en": "Infusion",
+            "n": 1,
+            "why": "Pegue cedo: cada abate soma vida bônus até 100, que conta para o Crescimento."
+          },
+          {
+            "en": "Infusion",
+            "n": 1,
+            "why": "A segunda Infusão sobe o limite para 200 de vida bônus."
+          },
+          {
+            "en": "Kjaro's Band",
+            "n": 1,
+            "why": "O segundo Cinturão aumenta o dano do tornado."
+          },
+          {
+            "en": "Leeching Seed",
+            "n": 1,
+            "why": "O Laser e o impacto acertam muitas vezes: muita cura."
+          },
+          {
+            "en": "Runald's Band",
+            "n": 1,
+            "why": "Mesmo gatilho do Kjaro; a lentidão segura os inimigos perto."
+          },
+          {
+            "en": "Ukulele",
+            "n": 1,
+            "why": "O raio espalha os golpes grandes para quem está fora do alcance da clava."
+          },
+          {
+            "en": "Old War Stealthkit",
+            "n": 1,
+            "why": "Saída de emergência para um personagem lento no meio da briga."
+          },
+          {
+            "en": "Leeching Seed",
+            "n": 1,
+            "why": "Segunda Semente."
+          },
+          {
+            "en": "Ukulele",
+            "n": 1,
+            "why": "Mais alvos no raio em cadeia."
+          }
+        ],
+        "then": "O Rosário da Prece fica fora: ele só entrega os atributos guardados quando sai do inventário."
+      },
+      {
+        "tier": "lendario",
+        "steps": [
+          {
+            "en": "Brilliant Behemoth",
+            "n": 1,
+            "why": "Cada golpe de 450% e cada impacto de 1.000% explode no grupo."
+          },
+          {
+            "en": "Alien Head",
+            "n": 1,
+            "why": "Laser do Pai, Passo e Espinhos voltam 25% mais rápido."
+          },
+          {
+            "en": "Hardlight Afterburner",
+            "n": 1,
+            "why": "Passo dos Irmãos com 4 cargas: mobilidade para um personagem lento."
+          },
+          {
+            "en": "Alien Head",
+            "n": 1,
+            "why": "A segunda Cabeça: mais Lasers nos chefes."
+          },
+          {
+            "en": "Brilliant Behemoth",
+            "n": 1,
+            "why": "O segundo aumenta o raio da explosão."
+          }
+        ],
+        "then": "Depois: Justiça Destruidora para chefes ou Suporte do Rejuvenescimento. O Néctar de Crescimento por último: a wiki não diz quanto Crescimento ele dá."
+      },
+      {
+        "tier": "chefe",
+        "steps": [
+          {
+            "en": "Titanic Knurl",
+            "n": 1,
+            "why": "40 de vida bônus e regeneração: vale mais que um filé e meio de Crescimento."
+          },
+          {
+            "en": "Titanic Knurl",
+            "n": 1,
+            "why": "Mais vida bônus e mais regeneração."
+          }
+        ],
+        "then": "Itens de chefe vêm do chefe do teleporte. A Pérola fica fora: segundo a wiki, a essência dela só sai da Poça de Purificação, que não aparece com a Autoridade."
+      },
+      {
+        "tier": "equipamento",
+        "steps": [
+          {
+            "en": "Primordial Cube",
+            "n": 1,
+            "why": "Escolha este no barril: junta o grupo para o impacto de 13 m da clava."
+          },
+          {
+            "en": "Royal Capacitor",
+            "n": 1,
+            "why": "Se ainda não desbloqueou o Cubo: dano contra voadores que a clava não alcança."
+          },
+          {
+            "en": "Blast Shower",
+            "n": 1,
+            "why": "Terceira opção: limpa debuffs de quem não consegue fugir rápido."
+          }
+        ],
+        "then": "O Tônico de Espinélia, o melhor equipamento da build, é lunar e não sai do barril laranja. Se a cápsula lunar der escolha com a Autoridade, troque o equipamento laranja por ele."
+      },
+      {
+        "tier": "lunar",
+        "steps": [
+          {
+            "en": "Stone Flux Pauldron",
+            "n": 1,
+            "why": "Se a cápsula der escolha: dobra a vida e os Espinhos. Só com Pós-combustor ou Cascos."
+          }
+        ],
+        "then": "A wiki não confirma se a cápsula lunar dá escolha com a Autoridade. Se der, o Tônico de Espinélia vem antes da Ombreira. Nunca pegue Vidro Configurado."
+      },
+      {
+        "tier": "vazio",
+        "steps": [
+          {
+            "en": "Lysate Cell",
+            "n": 1,
+            "why": "Em um berço verde: dois Lasers do Pai seguidos e recarga menor."
+          },
+          {
+            "en": "Lysate Cell",
+            "n": 1,
+            "why": "Segunda Célula: mais um Laser por ciclo."
+          },
+          {
+            "en": "Weeping Fungus",
+            "n": 1,
+            "why": "Em um berço branco: 2% da vida por segundo correndo, ótimo com vida alta."
+          },
+          {
+            "en": "Voidsent Flame",
+            "n": 1,
+            "why": "Em berço verde: o impacto e o Passo acertam vários inimigos de vida cheia."
+          }
+        ],
+        "then": "O berço define a raridade da escolha. Evite a Faixa da Singularidade: corrompe seus Cinturões de Kjaro e de Runald."
+      }
+    ]
+  }
 }

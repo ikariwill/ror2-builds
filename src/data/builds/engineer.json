@@ -345,7 +345,7 @@
           "prio": 2,
           "qty": "1 ou mais",
           "effect": "Aumenta TODOS os atributos em 10% (+10% por acúmulo).",
-          "why": "Vida, dano, velocidade de ataque e regeneração para você e cada torreta."
+          "why": "Vida, dano, velocidade de ataque e regeneração para você e cada torreta. Com o Artefato da Autoridade (Artifact of Command) não sai: as Poças de Purificação não aparecem e a essência amarela não oferece pérolas."
         },
         {
           "icon": "molten-perforator",
@@ -668,5 +668,221 @@
   "notes": [
     "O Laser Cutter veio com a DLC Hallowed Concepts (lançada em 8 out. 2026) e ainda não tem nome no arquivo pt-BR do jogo, por isso aparece em inglês. A wiki cita o desafio Engineer: Mad Scientist sem o texto do requisito; segundo a Destructoid, ele se desbloqueia consertando um Drone de Equipamento com a Matriz de Combustível da cápsula de fuga.",
     "A lista de itens que as torretas não herdam vem da categoria TurretBlacklist da wiki (16 itens). A wiki não detalha a interação das torretas com Infusão, Formulário de Envio, Elixir de Força ou Relógio Delicado."
-  ]
+  ],
+  "command": {
+    "intro": "As torretas herdam quase todos os seus itens, então cada escolha vale duas ou três vezes: comece pelo que mantém as torretas vivas e pelo que ativa com o tiro rápido delas. Elas só recebem o que você já tinha ao serem posicionadas, então reposicione depois de cada leva de escolhas.",
+    "tiers": [
+      {
+        "tier": "comum",
+        "steps": [
+          {
+            "en": "Bustling Fungus",
+            "n": 2,
+            "why": "A TR12 nunca se mexe, então o Fungo cura as torretas o tempo todo desde o primeiro estágio."
+          },
+          {
+            "en": "Soldier's Syringe",
+            "n": 2,
+            "why": "Mais tiros por torreta: mais dano e mais ativações de tudo que vier depois."
+          },
+          {
+            "en": "Repulsion Armor Plate",
+            "n": 2,
+            "why": "As torretas começam com 0 de armadura e levam muitos golpes pequenos."
+          },
+          {
+            "en": "Lens-Maker's Glasses",
+            "n": 2,
+            "why": "Crítico nos tiros das torretas e base para a Foice nos verdes."
+          },
+          {
+            "en": "Bustling Fungus",
+            "n": 1,
+            "why": "Terceiro Fungo: mais cura e raio maior para as torretas encostadas."
+          },
+          {
+            "en": "Soldier's Syringe",
+            "n": 2,
+            "why": "Quatro Seringas aceleram Míssil e Ukulele em cada torreta."
+          },
+          {
+            "en": "Tougher Times",
+            "n": 2,
+            "why": "Bloqueio que vale para você e para cada torreta, alvo de quase todo o grupo."
+          },
+          {
+            "en": "Repulsion Armor Plate",
+            "n": 2,
+            "why": "Quatro Placas: inimigos fracos quase não arranham as torretas."
+          },
+          {
+            "en": "Tri-Tip Dagger",
+            "n": 1,
+            "why": "Com cerca de três tiros por segundo, o sangramento sai com frequência."
+          },
+          {
+            "en": "Armor-Piercing Rounds",
+            "n": 2,
+            "why": "As torretas atiram no chefe do teleporte a luta inteira."
+          },
+          {
+            "en": "Lens-Maker's Glasses",
+            "n": 2,
+            "why": "Quatro Óculos deixam a Foice e os Instintos confiáveis."
+          },
+          {
+            "en": "Monster Tooth",
+            "n": 1,
+            "why": "Cura nos muitos abates que as torretas fazem."
+          }
+        ],
+        "then": "Depois: Placas até 8 e Seringas até 6. O Estandarte de Guerra não passa para as torretas, então só vale se você plantar perto delas."
+      },
+      {
+        "tier": "incomum",
+        "steps": [
+          {
+            "en": "AtG Missile Mk. 1",
+            "n": 1,
+            "why": "Cada torreta lança mísseis o tempo todo e alcança voadores longe."
+          },
+          {
+            "en": "Ukulele",
+            "n": 1,
+            "why": "Espalha pelo grupo o dano do tiro de alvo único da TR12."
+          },
+          {
+            "en": "Leeching Seed",
+            "n": 1,
+            "why": "Tiro rápido vira cura constante em cada torreta, somada ao Fungo."
+          },
+          {
+            "en": "AtG Missile Mk. 1",
+            "n": 1,
+            "why": "Segundo Míssil: mais dano a cada tiro de cada torreta."
+          },
+          {
+            "en": "Ukulele",
+            "n": 1,
+            "why": "Segundo Ukulele: raio maior e mais alvos."
+          },
+          {
+            "en": "Harvester's Scythe",
+            "n": 1,
+            "why": "Com os Óculos dos brancos, cada crítico de torreta cura."
+          },
+          {
+            "en": "Leeching Seed",
+            "n": 1,
+            "why": "Mais cura por tiro para as torretas aguentarem o teleporte."
+          },
+          {
+            "en": "AtG Missile Mk. 1",
+            "n": 1,
+            "why": "Terceiro Míssil, limite da build."
+          },
+          {
+            "en": "Predatory Instincts",
+            "n": 1,
+            "why": "Mais tiros por segundo quando as torretas já têm crítico."
+          },
+          {
+            "en": "Ukulele",
+            "n": 1,
+            "why": "Terceiro Ukulele, limite da build."
+          }
+        ],
+        "then": "Depois: Semente até 3 e Foice até 2. A Margarida de Lépton não passa para as torretas. Marca Fatal só se os tiros já aplicam sangramento, lentidão e redução de armadura."
+      },
+      {
+        "tier": "lendario",
+        "steps": [
+          {
+            "en": "Brilliant Behemoth",
+            "n": 1,
+            "why": "Transforma o tiro de alvo único da TR12 em dano em área, em cada torreta."
+          },
+          {
+            "en": "Rejuvenation Rack",
+            "n": 1,
+            "why": "Dobra a cura do Fungo, da Semente e da Foice em você e em cada torreta."
+          },
+          {
+            "en": "Sentient Meat Hook",
+            "n": 1,
+            "why": "Tiro rápido com coeficiente 1,0: o gancho dispara o tempo todo."
+          },
+          {
+            "en": "Dio's Best Friend",
+            "n": 1,
+            "why": "Cada torreta recebe o item de novo a cada posicionamento, desde que você não morra."
+          },
+          {
+            "en": "Brilliant Behemoth",
+            "n": 1,
+            "why": "Segundo Brutamontes: explosão maior em cada torreta."
+          }
+        ],
+        "then": "Depois: Gancho até 2, Peças de Drone Avulsas (DLC: as torretas não copiam, mas a sua cópia vale para elas) ou Trevo 57."
+      },
+      {
+        "tier": "chefe",
+        "steps": [
+          {
+            "en": "Irradiant Pearl",
+            "n": 1,
+            "why": "Vida, dano, velocidade de ataque e regeneração para você e cada torreta."
+          },
+          {
+            "en": "Molten Perforator",
+            "n": 1,
+            "why": "Mais um efeito ao acertar para o tiro rápido das torretas."
+          }
+        ],
+        "then": "Depois, mais Pérolas. Glândula da Rainha, Núcleos Empáticos e Semente Intocada não passam para as torretas."
+      },
+      {
+        "tier": "equipamento",
+        "steps": [
+          {
+            "en": "Primordial Cube",
+            "n": 1,
+            "why": "Escolha este no primeiro barril: prende o grupo na frente das torretas e das Minas."
+          },
+          {
+            "en": "Royal Capacitor",
+            "n": 1,
+            "why": "Se ainda não desbloqueou o Cubo: dano alto na elite que ameaça as torretas."
+          },
+          {
+            "en": "Gnarled Woodsprite",
+            "n": 1,
+            "why": "Segunda opção de reserva: cura uma torreta ferida a cada 15 s."
+          }
+        ],
+        "then": "As torretas herdam o equipamento, mas não o ativam. Nunca use o Tônico de Espinélia: elas herdam as Aflições e não ganham o bônus."
+      },
+      {
+        "tier": "vazio",
+        "steps": [
+          {
+            "en": "Lysate Cell",
+            "n": 1,
+            "why": "Em um berço verde: três torretas ao mesmo tempo. A mais forte desta lista."
+          },
+          {
+            "en": "Needletick",
+            "n": 1,
+            "why": "Em um berço branco: ativa muito com o tiro rápido. Corrompe a sua Adaga Triangular."
+          },
+          {
+            "en": "Needletick",
+            "n": 1,
+            "why": "Segundo Agulhão, também de berço branco."
+          }
+        ],
+        "then": "Uma Célula basta: as seguintes não aumentam o limite de torretas. Nunca escolha Fungo Choroso, que apaga os Fungos Vibrantes, nem Polialaúde, que corrompe os Ukuleles. Espaços Seguros só se aceitar perder os Tempos Difíceis."
+      }
+    ]
+  }
 }

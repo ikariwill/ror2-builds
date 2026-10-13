@@ -66,7 +66,7 @@ export function PrioChips({ prio, setPrio }: { prio: PrioFilter; setPrio: (p: Pr
   );
 }
 
-export function ItemDetail({ it, build }: { it: FlatItem | undefined; build: Build }) {
+export function ItemDetail({ it }: { it: FlatItem | undefined; build?: Build }) {
   if (!it) return null;
   const t = TIER[it.tier];
   const prioColor = it.prio === 1 ? 'text-accent' : it.prio === 0 ? 'text-prio-avoid-ink' : 'text-ink';
@@ -97,7 +97,7 @@ export function ItemDetail({ it, build }: { it: FlatItem | undefined; build: Bui
           <p className="m-0 text-sm text-ink-2">{it.effect}</p>
         </div>
         <div className="flex flex-col gap-1">
-          <Label className="text-accent">Por que no {build.name_pt}</Label>
+          <Label className="text-accent">Por que nesta build</Label>
           <p className="m-0 text-sm text-ink-2">{it.why}</p>
         </div>
       </div>

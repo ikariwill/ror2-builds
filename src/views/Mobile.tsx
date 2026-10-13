@@ -6,6 +6,7 @@ import { Heading, Label, PrioTag, QtyBadge, SearchField, cx, icon } from '../com
 import {
   Checklist, Fallbacks, ItemDetail, Notes, Rotation, SiteFooter, Skills, Sources, Summary, Synergy, SurvivorSelect, TierTabs,
 } from '../components/build-parts.tsx';
+import { CommandOrder } from '../components/command-order.tsx';
 
 type Tab = 'build' | 'itens' | 'partida';
 const TABS: [Tab, string][] = [
@@ -134,7 +135,16 @@ export function Mobile(s: BuildState) {
         )}
 
         {tab === 'partida' && (
-          <div className="flex flex-col gap-4">
+          <div className="flex flex-col gap-6">
+            {build.command && (
+              <section aria-labelledby="m-ordem-h" className="flex flex-col gap-3">
+                <div className="flex items-baseline justify-between gap-3">
+                  <Heading id="m-ordem-h" size="md">Ordem de compra</Heading>
+                  <Label>Artefato da Autoridade (Artifact of Command)</Label>
+                </div>
+                <CommandOrder build={build} idPrefix="m" compact />
+              </section>
+            )}
             <Checklist build={build} done={s.done} toggle={s.toggle} resetChecks={s.resetChecks} idPrefix="m" />
             <Rotation build={build} idPrefix="m2" />
           </div>

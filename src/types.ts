@@ -34,6 +34,26 @@ export interface Skill {
   why: string;
 }
 
+/** Um passo da ordem de compra: pegue `n` cópias deste item (nome exato em inglês, da mesma raridade). */
+export interface CommandStep {
+  en: string;
+  n: number;
+  why: string;
+}
+
+export interface CommandTier {
+  tier: TierId;
+  steps: CommandStep[];
+  /** o que fazer depois do último passo */
+  then: string;
+}
+
+/** Ordem de compra para o Artefato da Autoridade (Artifact of Command) (escolher o item de cada essência). */
+export interface CommandOrder {
+  intro: string;
+  tiers: CommandTier[];
+}
+
 export interface Build {
   id: string;
   name_pt: string;
@@ -53,6 +73,7 @@ export interface Build {
   checklist: { title: string; text: string }[];
   sources: { title: string; url: string }[];
   notes: string[];
+  command?: CommandOrder;
 }
 
 /** Item achatado para a UI: inclui a raridade e se faz parte do núcleo. */

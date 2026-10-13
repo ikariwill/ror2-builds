@@ -365,7 +365,7 @@
           "prio": 3,
           "qty": "1 ou mais",
           "effect": "Aumenta TODOS os atributos em 10% (+10% por acúmulo).",
-          "why": "Vida, dano, velocidade de ataque e regeneração de uma vez. A Modificar não funciona em Pérolas."
+          "why": "Vida, dano, velocidade de ataque e regeneração de uma vez. A Modificar não funciona em Pérolas. Com o Artefato da Autoridade (Artifact of Command) não sai: as Poças de Purificação não aparecem e a essência amarela não oferece pérolas."
         }
       ]
     },
@@ -678,5 +678,226 @@
     "A wiki não diz de quais raridades são os itens gerados pelo Sucatear nem se o Duplicador Fajuto copia itens temporários.",
     "A seção de Dicas (Tips) da wiki não pôde ser lida; a build se apoia nas notas de cada habilidade.",
     "Cubo de Tralha, Tornado Furioso e Modificar são desbloqueados por desafios (Trash Compactor, In The Bag e Leave No Trace)."
-  ]
+  ],
+  "command": {
+    "intro": "Com a Autoridade, a ordem abaixo vale para os itens permanentes das essências. O Sucatear continua gerando 4 itens temporários de 80 s que somam com eles, mas a wiki não diz de quais raridades saem nem se a Autoridade muda o Sucatear, então trate-os como bônus e priorize velocidade de ataque, que gera a Tralha.",
+    "tiers": [
+      {
+        "tier": "comum",
+        "steps": [
+          {
+            "en": "Soldier's Syringe",
+            "n": 2,
+            "why": "Mais golpes da Força Bruta por segundo, cada um com 40% de chance de Tralha."
+          },
+          {
+            "en": "Focus Crystal",
+            "n": 2,
+            "why": "Quase todo o seu dano acontece dentro dos 13 m."
+          },
+          {
+            "en": "Soldier's Syringe",
+            "n": 2,
+            "why": "Quatro Seringas: Sucatear disponível com mais frequência."
+          },
+          {
+            "en": "Tougher Times",
+            "n": 2,
+            "why": "Você luta colada no grupo e às vezes com um elite na bolsa."
+          },
+          {
+            "en": "Mocha",
+            "n": 1,
+            "why": "Velocidade de ataque e movimento numa escolha só."
+          },
+          {
+            "en": "Focus Crystal",
+            "n": 1,
+            "why": "Terceiro Cristal, o mínimo da build."
+          },
+          {
+            "en": "Soldier's Syringe",
+            "n": 2,
+            "why": "Seis Seringas."
+          },
+          {
+            "en": "Backup Magazine",
+            "n": 1,
+            "why": "Uma carga extra de Limpeza sem gastar Tralha."
+          },
+          {
+            "en": "Tougher Times",
+            "n": 1,
+            "why": "Terceiro bloqueio."
+          },
+          {
+            "en": "Mocha",
+            "n": 1,
+            "why": "Segunda Mocha."
+          },
+          {
+            "en": "Focus Crystal",
+            "n": 1,
+            "why": "Quarto Cristal."
+          },
+          {
+            "en": "Paul's Goat Hoof",
+            "n": 1,
+            "why": "Compensa a lentidão de carregar objetos pesados na bolsa."
+          },
+          {
+            "en": "Crowbar",
+            "n": 1,
+            "why": "O arremesso do Descartar e a Limpeza pegam inimigos de vida cheia."
+          },
+          {
+            "en": "Soldier's Syringe",
+            "n": 1,
+            "why": "Sétima Seringa."
+          }
+        ],
+        "then": "Depois: Seringa até 8 e Cristal até 5. Pacote de Fogos só se o objeto da bolsa for o Barril incomum."
+      },
+      {
+        "tier": "incomum",
+        "steps": [
+          {
+            "en": "Leeching Seed",
+            "n": 1,
+            "why": "A Força Bruta bate muitas vezes por segundo e cada golpe cura."
+          },
+          {
+            "en": "Ukulele",
+            "n": 1,
+            "why": "O raio alcança voadores e inimigos espalhados a partir dos golpes rápidos."
+          },
+          {
+            "en": "AtG Missile Mk. 1",
+            "n": 1,
+            "why": "Dano à distância contra chefes, que a Reapropriação não captura."
+          },
+          {
+            "en": "Leeching Seed",
+            "n": 1,
+            "why": "Segunda Semente."
+          },
+          {
+            "en": "Regenerating Scrap",
+            "n": 1,
+            "why": "Conta para a passiva: +3 de regeneração enquanto você carrega. Sem impressoras na Autoridade, ela só fica guardada."
+          },
+          {
+            "en": "AtG Missile Mk. 1",
+            "n": 1,
+            "why": "Segundo Míssil."
+          },
+          {
+            "en": "Shuriken",
+            "n": 1,
+            "why": "Você usa a Força Bruta o tempo todo, então as shurikens nunca ficam paradas."
+          },
+          {
+            "en": "Ukulele",
+            "n": 1,
+            "why": "Mais alvos e mais alcance no raio."
+          },
+          {
+            "en": "Leeching Seed",
+            "n": 1,
+            "why": "Terceira Semente."
+          }
+        ],
+        "then": "Depois: mais Míssil ou uma segunda Sucata Regeneradora. Cartucheira pode reiniciar o Sucatear, mas você ainda precisa de 8 Tralhas."
+      },
+      {
+        "tier": "lendario",
+        "steps": [
+          {
+            "en": "Alien Head",
+            "n": 1,
+            "why": "O Sucatear tem 30 s de recarga, e com Tralha sobrando a recarga é o limite."
+          },
+          {
+            "en": "Brilliant Behemoth",
+            "n": 1,
+            "why": "Cada golpe da Força Bruta vira dano em área no meio do grupo."
+          },
+          {
+            "en": "Alien Head",
+            "n": 1,
+            "why": "Segunda Cabeça: Sucatear, Limpeza e Reapropriação voltam ainda antes."
+          },
+          {
+            "en": "Brilliant Behemoth",
+            "n": 1,
+            "why": "Raio maior da explosão."
+          },
+          {
+            "en": "Substandard Duplicator",
+            "n": 1,
+            "why": "Cada escolha vem em dobro por um tempo, e os itens do Sucatear duram 10 s a mais."
+          },
+          {
+            "en": "Rejuvenation Rack",
+            "n": 1,
+            "why": "Dobra a cura da Semente e a regeneração da Sucata."
+          }
+        ],
+        "then": "Depois: Trevo 57 ou mais Duplicador. A Sucata vermelha fica fora: com a Autoridade não há sucateiro, e a wiki não diz se a Modificar transforma uma essência em Sucata. Na variante Modificar, as impressoras e terminais que ela rerrola também não aparecem."
+      },
+      {
+        "tier": "equipamento",
+        "steps": [
+          {
+            "en": "Gorag's Opus",
+            "n": 1,
+            "why": "Escolha este no primeiro barril: o dobro de golpes por 7 s é muita Tralha de uma vez."
+          },
+          {
+            "en": "Royal Capacitor",
+            "n": 1,
+            "why": "Dano à distância contra voadores e chefes, que a Reapropriação não resolve."
+          },
+          {
+            "en": "Primordial Cube",
+            "n": 1,
+            "why": "Junta o grupo para a Força Bruta e o Brutamontes acertarem todos."
+          }
+        ],
+        "then": "Equipamento é um só. O Tônico de Espinélia é equipamento lunar e não sai de barril."
+      },
+      {
+        "tier": "lunar",
+        "steps": [
+          {
+            "en": "Purity",
+            "n": 1,
+            "why": "Limpeza cai de 6 para 4 s. Piora Ukulele, Míssil e crítico."
+          }
+        ],
+        "then": "A wiki não confirma se a cápsula lunar dá escolha com a Autoridade. Se der, nenhum lunar é necessário. Nunca Visões Profanas nem Ombreira do Fluxo Iluminado: as duas cortam a geração de Tralha."
+      },
+      {
+        "tier": "vazio",
+        "steps": [
+          {
+            "en": "Lysate Cell",
+            "n": 1,
+            "why": "Em um berço verde: o Sucatear ganha segunda carga e recarga 33% menor. Corrompe a Célula de Combustível, que a build não usa."
+          },
+          {
+            "en": "Lysate Cell",
+            "n": 1,
+            "why": "Segunda Célula: mais uma carga de Sucatear."
+          },
+          {
+            "en": "Weeping Fungus",
+            "n": 1,
+            "why": "Em um berço branco: cura enquanto corre entre uma briga e outra. Corrompe o Fungo Vibrante, que a build não usa."
+          }
+        ],
+        "then": "O berço do Vazio define a raridade da escolha. Evite Polialaúde e Camarão de Plasma: corrompem os Ukuleles e os Mísseis da ordem. Os itens amarelos desta build (Pérola Irradiante e Sucata amarela) não vêm do chefe do teleporte, por isso a ordem não tem chefe."
+      }
+    ]
+  }
 }

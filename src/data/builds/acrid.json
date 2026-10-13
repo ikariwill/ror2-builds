@@ -349,7 +349,7 @@
           "prio": 2,
           "qty": "1 ou mais",
           "effect": "Aumenta TODOS os atributos em 10% (+10% por acúmulo).",
-          "why": "Vida, regeneração, dano, velocidade de ataque e armadura de uma vez. Tudo o que o Acrid usa."
+          "why": "Vida, regeneração, dano, velocidade de ataque e armadura de uma vez. Tudo o que o Acrid usa. Com o Artefato da Autoridade (Artifact of Command) não sai: as Poças de Purificação não aparecem e a essência amarela não oferece pérolas."
         },
         {
           "icon": "molten-perforator",
@@ -668,5 +668,237 @@
   ],
   "notes": [
     "A wiki não diz se o Veneno pode ser crítico ou se ativa itens ao acertar; a build não conta com isso."
-  ]
+  ],
+  "command": {
+    "intro": "Com a Autoridade, o Acrid começa por Seringa Militar e Cristal de Foco, que aceleram as Dilacerações e aumentam golpes e Veneno de perto. No verde, a Semente Sanguessuga vem primeiro, porque é a cura de cada golpe.",
+    "tiers": [
+      {
+        "tier": "comum",
+        "steps": [
+          {
+            "en": "Soldier's Syringe",
+            "n": 3,
+            "why": "Mais golpes por segundo, e o golpe Regenerativo chega mais vezes."
+          },
+          {
+            "en": "Focus Crystal",
+            "n": 3,
+            "why": "Quase toda a luta é a menos de 13 m, e o bônus vale também para o Veneno."
+          },
+          {
+            "en": "Tougher Times",
+            "n": 2,
+            "why": "Cada bloqueio é um golpe inteiro evitado no meio do grupo."
+          },
+          {
+            "en": "Soldier's Syringe",
+            "n": 2,
+            "why": "Cinco Seringas: mais ativações de itens ao acertar."
+          },
+          {
+            "en": "Lens-Maker's Glasses",
+            "n": 2,
+            "why": "Crítico nos golpes diretos, base para a Foice e os Instintos."
+          },
+          {
+            "en": "Mocha",
+            "n": 1,
+            "why": "Velocidade de ataque e de movimento no mesmo item."
+          },
+          {
+            "en": "Focus Crystal",
+            "n": 2,
+            "why": "Cinco Cristais: +100% de dano de perto, Veneno incluído."
+          },
+          {
+            "en": "Armor-Piercing Rounds",
+            "n": 2,
+            "why": "A wiki lista este item entre os que aumentam o Veneno contra chefes."
+          },
+          {
+            "en": "Tri-Tip Dagger",
+            "n": 1,
+            "why": "Sangramento é um debuff a mais para a Marca Fatal."
+          },
+          {
+            "en": "Soldier's Syringe",
+            "n": 2,
+            "why": "Sete Seringas mantêm as Dilacerações girando."
+          },
+          {
+            "en": "Paul's Goat Hoof",
+            "n": 1,
+            "why": "A distância do Salto Cáustico cresce com a velocidade de movimento."
+          },
+          {
+            "en": "Lens-Maker's Glasses",
+            "n": 1,
+            "why": "Três Óculos para a Foice curar com frequência."
+          }
+        ],
+        "then": "Depois: Seringa até 8, Tempos Difíceis até 4 e Mocha até 3. O Relógio Delicado quebra fácil em quem luta de perto."
+      },
+      {
+        "tier": "incomum",
+        "steps": [
+          {
+            "en": "Leeching Seed",
+            "n": 1,
+            "why": "Cada golpe das Dilacerações e cada alvo da Epidemia cura."
+          },
+          {
+            "en": "Ukulele",
+            "n": 1,
+            "why": "Cada salto da Epidemia pode ativar o raio em cadeia."
+          },
+          {
+            "en": "AtG Missile Mk. 1",
+            "n": 1,
+            "why": "Muitos acertos por segundo e muitos alvos com a Epidemia."
+          },
+          {
+            "en": "Leeching Seed",
+            "n": 1,
+            "why": "A segunda Semente dobra a cura por golpe."
+          },
+          {
+            "en": "Harvester's Scythe",
+            "n": 1,
+            "why": "Com os Óculos, cada crítico das Dilacerações cura."
+          },
+          {
+            "en": "Predatory Instincts",
+            "n": 1,
+            "why": "Críticos dão mais velocidade às Dilacerações."
+          },
+          {
+            "en": "Ukulele",
+            "n": 1,
+            "why": "O segundo Ukulele faz o raio pular para mais alvos."
+          },
+          {
+            "en": "AtG Missile Mk. 1",
+            "n": 1,
+            "why": "O segundo Míssil dobra o dano de cada míssil."
+          },
+          {
+            "en": "Death Mark",
+            "n": 1,
+            "why": "Veneno e sangramento já são dois debuffs; com mais dois, +50% de dano em tudo."
+          },
+          {
+            "en": "Leeching Seed",
+            "n": 1,
+            "why": "Terceira Semente: a cura principal fora do Regenerativo."
+          },
+          {
+            "en": "Shuriken",
+            "n": 1,
+            "why": "As Dilacerações nunca param, então as shurikens nunca ficam guardadas."
+          }
+        ],
+        "then": "Depois: Míssil até 3 e Shuriken até 2. Espinho Nocivo só na variante com Praga, que acumula."
+      },
+      {
+        "tier": "lendario",
+        "steps": [
+          {
+            "en": "Alien Head",
+            "n": 1,
+            "why": "A Epidemia, principal fonte de Veneno em grupo, volta em 7,5 s."
+          },
+          {
+            "en": "Brilliant Behemoth",
+            "n": 1,
+            "why": "Cada golpe das Dilacerações vira dano em área no meio do grupo."
+          },
+          {
+            "en": "Rejuvenation Rack",
+            "n": 1,
+            "why": "Dobra a cura da Semente Sanguessuga e da Foice."
+          },
+          {
+            "en": "Hardlight Afterburner",
+            "n": 1,
+            "why": "Quatro Saltos Cáusticos, cada um com sua poça de ácido."
+          },
+          {
+            "en": "Alien Head",
+            "n": 1,
+            "why": "A segunda Cabeça encurta ainda mais Epidemia, Salto e Mordida."
+          }
+        ],
+        "then": "Depois: o segundo Brutamontes, Justiça Destruidora e Escorpião Simbiótico, que reduzem a armadura e aumentam o Veneno."
+      },
+      {
+        "tier": "chefe",
+        "steps": [
+          {
+            "en": "Molten Perforator",
+            "n": 1,
+            "why": "Mais um efeito ao acertar para os golpes rápidos e os alvos da Epidemia."
+          }
+        ],
+        "then": "Itens de chefe vêm do chefe do teleporte. A Pérola Irradiante não sai com a Autoridade: a wiki diz que as pérolas não aparecem na essência amarela."
+      },
+      {
+        "tier": "equipamento",
+        "steps": [
+          {
+            "en": "Primordial Cube",
+            "n": 1,
+            "why": "Escolha este no primeiro barril: junta o grupo para as Dilacerações, o Brutamontes e a poça do salto."
+          },
+          {
+            "en": "Royal Capacitor",
+            "n": 1,
+            "why": "Se ainda não desbloqueou o Cubo: dano à distância contra voadores e elites."
+          },
+          {
+            "en": "Gorag's Opus",
+            "n": 1,
+            "why": "Segunda reserva: dobra a velocidade das Dilacerações por alguns segundos."
+          }
+        ],
+        "then": "Equipamento é um só. O Tônico de Espinélia, o melhor equipamento do Acrid, é lunar e fica fora desta ordem. Se conseguir um, troque por ele."
+      },
+      {
+        "tier": "lunar",
+        "steps": [
+          {
+            "en": "Purity",
+            "n": 1,
+            "why": "Se a cápsula der escolha: a Mordida cai para 0,5 s e cura sem parar com o Regenerativo. Piora Ukulele, Míssil, Adaga e crítico."
+          }
+        ],
+        "then": "A wiki não confirma se as cápsulas lunares dão escolha com a Autoridade. Se derem, Tônico de Espinélia ou Pureza. Nunca a Ombreira do Fluxo Iluminado: corta pela metade a velocidade das Dilacerações."
+      },
+      {
+        "tier": "vazio",
+        "steps": [
+          {
+            "en": "Lysate Cell",
+            "n": 1,
+            "why": "Em um berço verde: duas Epidemias seguidas e recarga 33% menor."
+          },
+          {
+            "en": "Voidsent Flame",
+            "n": 1,
+            "why": "Também em berço verde: cada alvo de vida cheia que a Epidemia atinge pode gerar um pilar."
+          },
+          {
+            "en": "Lysate Cell",
+            "n": 1,
+            "why": "Segunda Célula: mais uma Epidemia por ciclo."
+          },
+          {
+            "en": "Weeping Fungus",
+            "n": 1,
+            "why": "Berço verde: recupera vida entre as brigas enquanto corre."
+          }
+        ],
+        "then": "O berço define a raridade da escolha. Polialaúde corrompe todos os seus Ukuleles e Camarão de Plasma corrompe todos os Mísseis ASM. Com esses itens na mão, não escolha."
+      }
+    ]
+  }
 }

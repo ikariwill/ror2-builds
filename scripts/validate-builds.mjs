@@ -46,6 +46,25 @@ for (const file of readdirSync(DIR).filter((f) => f.endsWith('.json')).sort()) {
   for (const s of d.skills ?? []) for (const k of SKILL) if (!(k in s)) errs.push(`habilidade ${s.en ?? '?'}: falta "${k}"`);
   for (const e of d.essentials ?? []) if (!names.has(e.en)) errs.push(`essencial "${e.en}" não está em nenhuma seção (o núcleo fica sem ele)`);
 
+  // Ordem de compra (Artefato da Autoridade): opcional, mas se existir precisa bater com os cards.
+  if (d.command) {
+    const byTier = Object.fromEntries((d.sections ?? []).map((s) => [s.id, new Set(s.items.map((i) => i.en))]));
+    if (typeof d.command.intro !== 'string') errs.push('command: falta "intro"');
+    const seen = new Set();
+    for (const t of d.command.tiers ?? []) {
+      if (!TIERS.includes(t.tier)) errs.push(`command: raridade desconhecida "${t.tier}"`);
+      if (seen.has(t.tier)) errs.push(`command: raridade "${t.tier}" repetida`);
+      seen.add(t.tier);
+      if (!t.steps?.length) errs.push(`command.${t.tier}: sem passos`);
+      if (typeof t.then !== 'string') errs.push(`command.${t.tier}: falta "then"`);
+      for (const st of t.steps ?? []) {
+        if (!byTier[t.tier]?.has(st.en)) errs.push(`command.${t.tier}: "${st.en}" não está nos cards dessa raridade`);
+        if (!Number.isInteger(st.n) || st.n < 1) errs.push(`command.${t.tier}: "${st.en}" com n inválido (${st.n})`);
+        if (!st.why) errs.push(`command.${t.tier}: "${st.en}" sem "why"`);
+      }
+    }
+  }
+
   const n = (d.sections ?? []).reduce((a, s) => a + (s.items?.length ?? 0), 0);
   if (errs.length) {
     failed++;

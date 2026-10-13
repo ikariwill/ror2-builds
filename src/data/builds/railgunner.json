@@ -330,7 +330,7 @@
           "prio": 3,
           "qty": "1 ou mais",
           "effect": "Aumenta TODOS os atributos em 10% (+10% por acúmulo).",
-          "why": "Dano, velocidade de ataque para a recarga e vida, tudo de uma vez."
+          "why": "Dano, velocidade de ataque para a recarga e vida, tudo de uma vez. Com o Artefato da Autoridade (Artifact of Command) não sai: as Poças de Purificação não aparecem e a essência amarela não oferece pérolas."
         }
       ]
     },
@@ -645,5 +645,232 @@
     "A Canhoneira faz parte da DLC Survivors of the Void.",
     "A wiki não diz explicitamente se a XQR pode acertar Ponto Fraco; ela diz apenas que a Canhoneira não tem críticos aleatórios e que o Ponto Fraco é destacado pela mira.",
     "Limite dos Cinturões: a página do Cinturão de Kjaro diz ora mais de 400%, ora 400% ou mais. Não está confirmado se a HH44 (400%) ativa os Cinturões."
-  ]
+  ],
+  "command": {
+    "intro": "Com a Autoridade, a Canhoneira começa por Pé de Cabra e Óculos, que aumentam direto o tiro de M99 e o Supercarregado. Depois vêm os Cinturões e a Mira Laser, que transformam cada acerto em Ponto Fraco num tiro de chefe.",
+    "tiers": [
+      {
+        "tier": "comum",
+        "steps": [
+          {
+            "en": "Crowbar",
+            "n": 2,
+            "why": "O primeiro tiro de M99 ou Supercarregado pega o inimigo de vida cheia."
+          },
+          {
+            "en": "Lens-Maker's Glasses",
+            "n": 3,
+            "why": "Cada Óculos vira +10% de dano de crítico nos acertos em Ponto Fraco."
+          },
+          {
+            "en": "Backup Magazine",
+            "n": 2,
+            "why": "Mais tiros de M99 antes de recarregar."
+          },
+          {
+            "en": "Crowbar",
+            "n": 1,
+            "why": "Três Pés de Cabra: o mínimo da build."
+          },
+          {
+            "en": "Lens-Maker's Glasses",
+            "n": 2,
+            "why": "Cinco Óculos: o mínimo da build."
+          },
+          {
+            "en": "Tougher Times",
+            "n": 1,
+            "why": "Ela fica parada mirando e tem pouca defesa."
+          },
+          {
+            "en": "Armor-Piercing Rounds",
+            "n": 2,
+            "why": "Multiplica o tiro grande contra chefes."
+          },
+          {
+            "en": "Soldier's Syringe",
+            "n": 2,
+            "why": "Barra de recarga mais rápida e faixa perfeita mais larga."
+          },
+          {
+            "en": "Lens-Maker's Glasses",
+            "n": 3,
+            "why": "Oito Óculos. Nela não há teto de 100%."
+          },
+          {
+            "en": "Crowbar",
+            "n": 1,
+            "why": "Quatro Pés de Cabra."
+          },
+          {
+            "en": "Delicate Watch",
+            "n": 1,
+            "why": "Ela luta de longe e leva pouco dano, então o bônus dura."
+          },
+          {
+            "en": "Lens-Maker's Glasses",
+            "n": 2,
+            "why": "Dez Óculos, e ainda dá para continuar."
+          }
+        ],
+        "then": "Depois: Óculos até 15 e Pé de Cabra até 6. Com a HH44, o Pente Reserva é inútil: troque os dois passos de Pente por Seringas."
+      },
+      {
+        "tier": "incomum",
+        "steps": [
+          {
+            "en": "Kjaro's Band",
+            "n": 1,
+            "why": "Todo tiro de M99 e Supercarregado passa de 400%, e o tornado acompanha o tamanho do tiro."
+          },
+          {
+            "en": "Predatory Instincts",
+            "n": 1,
+            "why": "Acerto em Ponto Fraco é crítico e acelera a recarga da M99."
+          },
+          {
+            "en": "Kjaro's Band",
+            "n": 1,
+            "why": "Segundo Cinturão de Kjaro."
+          },
+          {
+            "en": "AtG Missile Mk. 1",
+            "n": 1,
+            "why": "O coeficiente 3,0 do Supercarregado triplica a chance."
+          },
+          {
+            "en": "Runald's Band",
+            "n": 1,
+            "why": "Mesmo gatilho do Kjaro, e a lentidão segura quem chega perto."
+          },
+          {
+            "en": "Ukulele",
+            "n": 1,
+            "why": "Leva parte do tiro grande para o grupo."
+          },
+          {
+            "en": "Predatory Instincts",
+            "n": 1,
+            "why": "Segundo Instintos."
+          },
+          {
+            "en": "AtG Missile Mk. 1",
+            "n": 1,
+            "why": "Segundo Míssil."
+          },
+          {
+            "en": "Kjaro's Band",
+            "n": 1,
+            "why": "Terceiro Kjaro, o máximo da build."
+          },
+          {
+            "en": "Harvester's Scythe",
+            "n": 1,
+            "why": "Pouca cura nos acertos em Ponto Fraco, mas é cura."
+          }
+        ],
+        "then": "Depois: Míssil até 3 ou Shuriken para limpar os pequenos com a XQR. Com a HH44, a wiki não confirma se 400% exatos ativam os Cinturões: troque os Cinturões por Mísseis e Ukulele."
+      },
+      {
+        "tier": "lendario",
+        "steps": [
+          {
+            "en": "Laser Scope",
+            "n": 1,
+            "why": "+100% de dano de crítico, o mesmo que dez Óculos, e mais ainda no Supercarregado."
+          },
+          {
+            "en": "Brilliant Behemoth",
+            "n": 1,
+            "why": "A explosão usa o dano total do tiro e cobre a fraqueza contra grupos."
+          },
+          {
+            "en": "Laser Scope",
+            "n": 1,
+            "why": "Segunda Mira."
+          },
+          {
+            "en": "Alien Head",
+            "n": 1,
+            "why": "Supercarregado e Concussão voltam mais rápido."
+          },
+          {
+            "en": "Shattering Justice",
+            "n": 1,
+            "why": "A XQR tira a armadura do chefe antes do Supercarregado."
+          }
+        ],
+        "then": "Depois: terceira Mira Laser. M.B.I.C. Compacto só se já tiver Mísseis ASM. Pós-combustor se quiser mais cargas de Concussão."
+      },
+      {
+        "tier": "chefe",
+        "steps": [
+          {
+            "en": "Charged Perforator",
+            "n": 1,
+            "why": "O coeficiente 3,0 do Supercarregado aumenta muito a chance de ativar."
+          }
+        ],
+        "then": "Depois: mais Perfurador Carregado. A Pérola Irradiante não sai da essência do teleporte: segundo a wiki, a essência dela vem só das Poças de Purificação, que não aparecem com a Autoridade."
+      },
+      {
+        "tier": "equipamento",
+        "steps": [
+          {
+            "en": "Ocular HUD",
+            "n": 1,
+            "why": "Escolha este no primeiro barril: ative antes do Supercarregado no chefe."
+          },
+          {
+            "en": "Primordial Cube",
+            "n": 1,
+            "why": "Junta o grupo para o tiro perfurante e o Brutamontes."
+          },
+          {
+            "en": "Royal Capacitor",
+            "n": 1,
+            "why": "Dano garantido nos 5 s sem armas depois do Supercarregado."
+          },
+          {
+            "en": "Preon Accumulator",
+            "n": 1,
+            "why": "Última opção: dano de área de vez em quando."
+          }
+        ],
+        "then": "Equipamento é um só. O Tônico de Espinélia é equipamento lunar e não vem da essência laranja."
+      },
+      {
+        "tier": "lunar",
+        "steps": [
+          {
+            "en": "Shaped Glass",
+            "n": 1,
+            "why": "Dobra todo tiro, e ela luta de longe."
+          }
+        ],
+        "then": "A wiki não confirma se a cápsula lunar dá escolha com a Autoridade. Se der, Pureza só como situacional: piora Míssil, Ukulele e Perfurador. Nunca a Ombreira do Fluxo Iluminado."
+      },
+      {
+        "tier": "vazio",
+        "steps": [
+          {
+            "en": "Lysate Cell",
+            "n": 1,
+            "why": "Em um berço verde: Supercarregado volta mais rápido e guarda uma carga extra."
+          },
+          {
+            "en": "Voidsent Flame",
+            "n": 1,
+            "why": "Também em berço verde: o tiro perfurante gera pilares nos inimigos de vida cheia."
+          },
+          {
+            "en": "Lysate Cell",
+            "n": 1,
+            "why": "Segunda Célula."
+          }
+        ],
+        "then": "Nunca escolha Lentes do Profeta Perdido (berço branco): corrompe todos os Óculos. Faixa da Singularidade corrompe os Cinturões e Camarão de Plasma corrompe os Mísseis ASM desta ordem."
+      }
+    ]
+  }
 }
