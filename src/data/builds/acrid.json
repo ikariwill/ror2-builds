@@ -33,7 +33,7 @@
       "pt": "Veneno",
       "en": "Poison",
       "pick": "Recomendada",
-      "spec": "Causa 1% da vida máxima do alvo por segundo (ou o dano do Acrid, o que for maior) por 10 s. Não acumula e não mata.",
+      "spec": "Causa 1% da vida máxima do alvo por segundo ou 100% do dano base do Acrid por segundo, o que for maior, por 10 s. Limite de 5000% do dano base por segundo. Não acumula e não mata.",
       "why": "Tira cerca de 10% da vida máxima de qualquer coisa, o que é enorme contra chefes e inimigos grandes. O Veneno deixa o inimigo com 1 de vida; o abate tem de vir de um golpe seu. A wiki considera o Veneno a melhor escolha na maioria das runs, principalmente ao dar loop."
     },
     {
@@ -66,7 +66,7 @@
       "en": "Caustic Leap",
       "pick": "Recomendada",
       "spec": "Venenoso, Atordoante. Salto de 320% que deixa uma poça de ácido de 25%. 2 cargas, recarga 6 s.",
-      "why": "A poça dura 10 s e causa até 500% de dano a cada inimigo que fica nela. A distância do salto cresce com a velocidade de movimento, e você não leva dano de queda durante o salto. O Salto Frenético (Frenzied Leap, 550%, −2 s de recarga por inimigo atingido) não envenena."
+      "why": "A poça dura 10 s e causa até 500% de dano a cada inimigo que fica nela. A distância do salto cresce com a velocidade de movimento, e você não leva dano de queda durante o salto. O Salto Frenético (Frenzied Leap, 550%, recarga 10 s, −2 s de recarga por inimigo atingido) não envenena."
     },
     {
       "slot": "Especial",
@@ -118,7 +118,7 @@
           "prio": 2,
           "qty": "2 a 5",
           "effect": "10% (+10% por acúmulo) de chance de Acerto Crítico, que causa dano dobrado.",
-          "why": "Aumenta o dano dos golpes diretos e ativa Foice do Ceifador e Instintos Predatórios. Não afeta o Veneno, que é dano contínuo."
+          "why": "Aumenta o dano dos golpes diretos e ativa Foice do Ceifador e Instintos Predatórios. A wiki não lista crítico entre o que aumenta o Veneno."
         },
         {
           "icon": "tri-tip-dagger",
@@ -189,7 +189,7 @@
           "prio": 2,
           "qty": "1 a 2",
           "effect": "25% de chance de disparar um raio em cadeia de 80% de dano TOTAL em até 3 (+2 por acúmulo) alvos a 20 m (+2 m por acúmulo).",
-          "why": "A Epidemia atinge até 20 alvos e cada acerto pode ativar o Ukulele. A wiki cita essa combinação como uma das que mantêm a Epidemia útil no fim do jogo."
+          "why": "A Epidemia atinge até 20 alvos e cada acerto pode ativar o Ukulele. A wiki cita essa combinação como uma das que mantêm a Epidemia útil no fim do jogo. O Polialaúde (Polylute) corrompe todos os Ukuleles."
         },
         {
           "icon": "atg-missile-mk-1",
@@ -198,7 +198,7 @@
           "prio": 2,
           "qty": "1 a 3",
           "effect": "10% de chance de disparar um míssil que causa 300% (+300% por acúmulo) de dano TOTAL.",
-          "why": "Mesmo motivo do Ukulele: muitos acertos por segundo e muitos alvos com a Epidemia. Também cobre inimigos voadores que as Dilacerações não alcançam."
+          "why": "Mesmo motivo do Ukulele: muitos acertos por segundo e muitos alvos com a Epidemia. O Camarão de Plasma (Plasma Shrimp) corrompe todos os Mísseis."
         },
         {
           "icon": "death-mark",
@@ -269,7 +269,7 @@
           "prio": 1,
           "qty": "1 a 2",
           "effect": "Reduz o tempo de recarga das habilidades em 25% (+25% por acúmulo).",
-          "why": "Epidemia (10 s), Salto Cáustico (6 s) e Mordida (2 s) voltam mais rápido. A Epidemia é a principal fonte de Veneno em grupo, então este item quase dobra quantas vezes você envenena a tela."
+          "why": "Epidemia (10 s), Salto Cáustico (6 s) e Mordida (2 s) voltam mais rápido. Com um acúmulo, a Epidemia volta em 7,5 s em vez de 10 s. Ela é a principal fonte de Veneno em grupo."
         },
         {
           "icon": "brilliant-behemoth",
@@ -481,7 +481,7 @@
           "prio": 2,
           "qty": "1 a 2",
           "effect": "Ao acertar um inimigo com a vida cheia, cria um pilar de lava de 12 m (+2,4 m por acúmulo) causando 260% (+156% por acúmulo) do dano base. Corrompe todos os Fogos Fátuos (Will-o'-the-wisp).",
-          "why": "A Epidemia salta para até 20 inimigos que ainda não levaram dano: cada um pode gerar um pilar."
+          "why": "A Epidemia salta para até 20 inimigos. Cada um que ela atinge com a vida cheia pode gerar um pilar."
         },
         {
           "icon": "polylute",
@@ -490,7 +490,7 @@
           "prio": 3,
           "qty": "1 a 2",
           "effect": "25% de chance de disparar um raio de 60% de dano TOTAL até 3 (+3 por acúmulo) vezes. Corrompe todos os Ukuleles.",
-          "why": "Mais forte que o Ukulele contra um alvo, mais fraco em grupo. Bom quando a luta é contra chefes."
+          "why": "Corrompe todos os seus Ukuleles. Você troca o raio em cadeia, que a Epidemia espalha pelo grupo, por raios repetidos num alvo só. Vale mais quando a luta é contra chefes. Se já tem Ukuleles, pense antes de pegar."
         },
         {
           "icon": "weeping-fungus",
@@ -498,7 +498,7 @@
           "en": "Weeping Fungus",
           "prio": 3,
           "qty": "1 a 2",
-          "effect": "Cura 2% (+2% por acúmulo) da vida por segundo enquanto corre.",
+          "effect": "Cura 2% (+2% por acúmulo) da vida por segundo enquanto corre. Corrompe todos os Fungos Vibrantes.",
           "why": "Recupera vida entre uma briga e outra sem parar. Corrompe o Fungo Vibrante, que pede para ficar parado."
         },
         {
@@ -508,7 +508,7 @@
           "prio": 4,
           "qty": "1",
           "effect": "Ganha escudo de 10% da vida máxima. Com escudo, cada acerto dispara um míssil de 40% (+40% por acúmulo) de dano TOTAL. Corrompe todos os Mísseis ASM Mk. 1.",
-          "why": "Funciona bem com os golpes rápidos, mas só enquanto o escudo existe, e o Acrid leva dano o tempo todo. Pense antes de trocar seus Mísseis."
+          "why": "Corrompe todos os seus Mísseis ASM, que são recomendados acima. Você troca 10% de chance de um míssil de 300% por um míssil de 40% a cada acerto, mas só enquanto há escudo. O Acrid leva dano o tempo todo, então o escudo cai com frequência. Com Mísseis, não pegue."
         }
       ]
     }
@@ -520,7 +520,7 @@
     },
     {
       "title": "O que aumenta o Veneno",
-      "text": "O Veneno é dano contínuo baseado na vida do inimigo: não é afetado por crítico nem ativa itens ao acertar. A wiki lista o que o aumenta: Cristal de Foco, Projéteis Perfurantes (chefes), Relógio Delicado, Marca Fatal e redução de armadura (Justiça Destruidora, Escorpião Simbiótico), porque o Veneno é afetado pela armadura. Vidro Configurado só aumenta o valor mínimo, não a parte baseada em vida."
+      "text": "O Veneno é dano contínuo baseado na vida do inimigo. A wiki lista o que aumenta o Veneno e a Praga: Cristal de Foco, Projéteis Perfurantes (chefes), Relógio Delicado, Marca Fatal, Tônico de Espinélia e redução de armadura (Justiça Destruidora, Escorpião Simbiótico), porque o Veneno é afetado pela armadura. Vidro Configurado só aumenta o valor mínimo, não a parte baseada em vida."
     },
     {
       "title": "Cura e regeneração",
@@ -550,7 +550,7 @@
     },
     {
       "step": "Mordida Voraz nos machucados",
-      "text": "Assassino triplica o dano em quem o Veneno já deixou com pouca vida."
+      "text": "Assassino causa até o triplo de dano em quem o Veneno já deixou com pouca vida."
     },
     {
       "step": "Segundo salto para sair",
@@ -666,5 +666,7 @@
       "url": "https://riskofrain2.wiki.gg/wiki/Items"
     }
   ],
-  "notes": []
+  "notes": [
+    "A wiki não diz se o Veneno pode ser crítico ou se ativa itens ao acertar; a build não conta com isso."
+  ]
 }

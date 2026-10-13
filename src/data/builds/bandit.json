@@ -37,23 +37,39 @@
       "pt": "Rajada",
       "en": "Burst",
       "pick": "Recomendada",
-      "spec": "5 × 100% de dano, 4 cartuchos. Coeficiente 0,5 por projétil.",
-      "why": "Cinco golpes separados por disparo: cinco chances de crítico, cinco curas da Foice, cinco acúmulos de Instintos, cinco explosões do Brutamontes. Perde dano com a distância, então lute perto. A alternativa Tiro (Blast, 330%, sem perda por distância) é melhor só se você prefere ficar longe."
+      "spec": "5 × 100% de dano, 4 cartuchos. Recarrega os 4 em 1,2 s, começando 0,25 s após o último tiro. Coeficiente 0,5 por projétil. Perde dano com a distância.",
+      "why": "Cinco golpes separados por disparo: cinco chances de crítico, cinco curas da Foice, cinco acúmulos de Instintos, cinco explosões do Brutamontes. O coeficiente 0,5 reduz a cura da Foice e o raio do Brutamontes em cada projétil. Perde dano com a distância, então lute perto."
+    },
+    {
+      "slot": "Primária (alt.)",
+      "pt": "Tiro",
+      "en": "Blast",
+      "pick": "Variante",
+      "spec": "Tiro de fuzil de 330%, 4 projéteis. Coeficiente 1,0. Sem perda de dano com a distância. Desbloqueio: Bandit: Classic Man.",
+      "why": "Melhor se você prefere ficar longe. Um golpe só por disparo: menos curas da Foice e menos acúmulos de Instintos que a Rajada, mas cada um com coeficiente cheio."
     },
     {
       "slot": "Secundária",
+      "pt": "Adaga Serrilhada",
+      "en": "Serrated Dagger",
+      "pick": "Variante",
+      "spec": "Ágil. Investida com corte de 360%. Críticos aplicam Hemorragia. Recarga 4 s. Coeficiente 1,0.",
+      "why": "A opção padrão. Mais dano no golpe inicial, mas exige ficar colado. Vale se você gosta de jogar perto ou ainda não desbloqueou a Faca."
+    },
+    {
+      "slot": "Secundária (alt.)",
       "pt": "Faca Serrilhada",
       "en": "Serrated Shiv",
       "pick": "Recomendada",
-      "spec": "Arremessa uma lâmina de 240%. Críticos aplicam Hemorragia. Recarga 4 s.",
-      "why": "A Hemorragia (2000% do dano base em 15 s) é igual na Faca e na Adaga; o que muda é o golpe inicial. A Faca aplica Hemorragia de longe, sem se expor. A Adaga Serrilhada (Serrated Dagger, 360%, com investida) vale se você gosta de jogar colado."
+      "spec": "Ágil. Arremessa uma lâmina de 240%. Críticos aplicam Hemorragia. Recarga 4 s. Coeficiente 1,0. Desbloqueio: Bandit: Sadist.",
+      "why": "A Hemorragia (2000% do dano base em 15 s) é igual na Faca e na Adaga; o que muda é o golpe inicial. A Faca aplica Hemorragia de longe, sem se expor."
     },
     {
       "slot": "Utilitária",
       "pt": "Bomba de Fumaça",
       "en": "Smoke Bomb",
       "pick": "Única opção",
-      "spec": "Atordoa, 200% de dano, invisibilidade, mais 200% ao sair. Recarga 6 s.",
+      "spec": "Atordoante. Ágil. 200% de dano, invisibilidade, mais 200% ao sair. Recarga 6 s. Coeficiente 1,0.",
       "why": "Os inimigos continuam mirando onde você estava, o que libera as costas deles. A recarga começa ao usar, então ficando invisível o tempo todo ela volta em cerca de 3 s. Usar habilidade encerra a invisibilidade; usar equipamento não. A arma recarrega enquanto você está invisível."
     },
     {
@@ -61,7 +77,7 @@
       "pt": "Luzes Apagadas",
       "en": "Lights Out",
       "pick": "Recomendada",
-      "spec": "Tiro de revólver de 600%. Assassino (Slayer). Abates reiniciam todas as recargas. Recarga 4 s.",
+      "spec": "Tiro de revólver de 600%. Assassino (Slayer). Abates reiniciam todas as recargas. Recarga 4 s. Coeficiente 1,0.",
       "why": "Um abate devolve tudo: Faca, Bomba de Fumaça, o próprio especial e até os cartuchos da Rajada, com todas as cargas extras. É o que permite encadear inimigo após inimigo. Use como finalizador."
     },
     {
@@ -69,7 +85,7 @@
       "pt": "Bandoleiro",
       "en": "Desperado",
       "pick": "Variante",
-      "spec": "Tiro de 600%. Assassino (Slayer). Abates dão fichas de +10% de dano para a própria habilidade. Recarga 4 s.",
+      "spec": "Tiro de 600%. Assassino (Slayer). Abates dão fichas de +10% de dano para a própria habilidade. Recarga 4 s. Coeficiente 1,0. Desbloqueio: Bandit: B&E.",
       "why": "Cada ficha soma 60% do dano base ao tiro, mas todas somem ao trocar de fase e nada é reiniciado. Por isso pede Cartucheira, Pureza e Cabeça Alienígena para compensar. No jogo em português esta habilidade se chama Bandoleiro."
     }
   ],
@@ -105,7 +121,7 @@
           "prio": 2,
           "qty": "3 a 5",
           "effect": "+15% (+15% por acúmulo) de velocidade de ataque.",
-          "why": "A cadência da Rajada depende só do seu clique; a velocidade de ataque acelera a recarga dos cartuchos e faz Luzes Apagadas e a Faca saírem mais rápido. É o que mantém o ciclo girando."
+          "why": "Acelera a Rajada, a recarga dos cartuchos e o tiro de Luzes Apagadas. É o que mantém o ciclo girando."
         },
         {
           "icon": "crowbar",
@@ -176,7 +192,7 @@
           "prio": 1,
           "qty": "1 a 2",
           "effect": "+5% de chance de crítico. Acertos Críticos curam 8 (+4 por acúmulo) de vida.",
-          "why": "Cada um dos 5 projéteis da Rajada é um golpe separado, então um disparo crítico pelas costas pode curar até 5 vezes. É a principal fonte de cura da build."
+          "why": "Cada um dos 5 projéteis da Rajada é um golpe separado, então um disparo crítico pelas costas pode curar até 5 vezes. A cura escala com o coeficiente: 0,5 por projétil dá 4 de vida em vez de 8 com um acúmulo. É a principal fonte de cura da build."
         },
         {
           "icon": "predatory-instincts",
@@ -203,7 +219,7 @@
           "prio": 2,
           "qty": "1 a 2",
           "effect": "+10% de chance de sangramento. Ao abater, transfere 33% de cada acúmulo de debuff para 1 (+1 por acúmulo) inimigo a até 20 m (+5 m por acúmulo).",
-          "why": "Inimigos carregados de Hemorragia passam parte dos acúmulos para o vizinho quando morrem. Dano de Hemorragia se espalha pelo grupo sem você gastar outra Faca."
+          "why": "A wiki confirma que o Espinho transfere acúmulos de Hemorragia. Inimigos carregados de Hemorragia passam um terço dos acúmulos para o vizinho quando morrem, sem você gastar outra Faca."
         },
         {
           "icon": "luminous-shot",
@@ -274,7 +290,7 @@
           "prio": 1,
           "qty": "1 a 2",
           "effect": "Todos os ataques explodem em 4 m (+2,5 m por acúmulo) causando 60% de dano TOTAL extra.",
-          "why": "Cada projétil da Rajada explode. E um inimigo morto pela explosão de Luzes Apagadas também conta como abate da habilidade: reinicia as recargas ou dá fichas ao Bandoleiro."
+          "why": "Cada projétil da Rajada explode, com raio menor pelo coeficiente 0,5. E um inimigo morto pela explosão de Luzes Apagadas também conta como abate da habilidade: reinicia as recargas ou dá fichas ao Bandoleiro."
         },
         {
           "icon": "alien-head",
@@ -333,10 +349,10 @@
           "icon": "shatterspleen",
           "pt": "Baço Desfigurado",
           "en": "Shatterspleen",
-          "prio": 2,
-          "qty": "1 a 2",
+          "prio": 3,
+          "qty": "1",
           "effect": "+5% de chance de crítico. Críticos causam sangramento de 240% do dano base. Inimigos sangrando explodem ao morrer causando 400% (+400% por acúmulo) de dano mais 15% (+15% por acúmulo) da vida máxima deles.",
-          "why": "Cada projétil crítico da Rajada aplica um sangramento. Num grupo, as mortes viram explosões que matam os vizinhos. Mantenha a velocidade de ataque alta para continuar reaplicando."
+          "why": "Cada projétil crítico da Rajada aplica um sangramento e, num grupo, as mortes viram explosões. A wiki avisa que a Rajada não combina bem com o Baço. Com o Tiro (Blast) ele rende mais."
         }
       ]
     },
@@ -379,7 +395,7 @@
           "en": "Spinel Tonic",
           "prio": 3,
           "qty": "1 (equipamento lunar, recarga 60 s)",
-          "effect": "Por 20 s: +100% de dano, +70% de velocidade de ataque, +20 de armadura, +50% de vida máxima, +300% de regeneração, +30% de movimento. Ao acabar, 20% de chance de Aflição do Tônico (−5% em todos os atributos, permanente).",
+          "effect": "Por 20 s: +100% de dano, +70% de velocidade de ataque, +20 de armadura, +50% de vida máxima, +300% de regeneração, +30% de movimento. Ao acabar, 20% de chance de Aflição do Tônico: −5% (−5% por acúmulo) em todos os atributos.",
           "why": "Poder bruto para chefes, com um custo que se acumula. Use só nas lutas que importam."
         },
         {
@@ -397,7 +413,7 @@
           "en": "Blast Shower",
           "prio": 4,
           "qty": "1 (recarga 20 s)",
-          "effect": "Remove todos os efeitos negativos, incluindo dano contínuo e projéteis próximos.",
+          "effect": "Remove todos os efeitos negativos, incluindo debuffs, dano contínuo e projéteis próximos.",
           "why": "Defensivo contra elites que aplicam debuffs. Não ajuda a matar."
         }
       ]
@@ -477,7 +493,7 @@
           "prio": 3,
           "qty": "1 a 3",
           "effect": "10% (+10% por acúmulo) de chance de colapsar um inimigo, causando 400% de dano base. Corrompe todas as Adagas Triangulares.",
-          "why": "O colapso é atrasado, então raramente rouba o abate de Luzes Apagadas. Prefira a uma Adaga Triangular."
+          "why": "O colapso é atrasado, então raramente rouba o abate de Luzes Apagadas. Esta build não usa Adaga Triangular, então não há perda."
         },
         {
           "icon": "lost-seers-lenses",
@@ -486,7 +502,7 @@
           "prio": 0,
           "qty": "0 se você depende de Óculos",
           "effect": "0,5% (+0,5% por acúmulo) de chance de matar instantaneamente um inimigo que não seja chefe. Corrompe todos os Óculos do Fabricante de Lentes.",
-          "why": "Pegar uma transforma todos os seus Óculos. A wiki lembra que o Bandido aguenta isso melhor que outros, porque as costas ainda dão crítico, mas você perde o crítico de frente. Só pegue com poucos Óculos e com Visor Ocular."
+          "why": "Corrompe todos os Óculos do Fabricante de Lentes, que esta build empilha como prioridade 1. Você troca 10% de crítico por acúmulo por 0,5% de chance de abate. As costas continuam dando crítico, então a Foice ainda cura, mas você perde o crítico de frente que aplica Hemorragia em chefes. Só pegue com poucos Óculos e com Visor Ocular."
         }
       ]
     }
@@ -652,5 +668,8 @@
       "url": "https://rogueranker.com/risk-of-rain-2-bandit/"
     }
   ],
-  "notes": []
+  "notes": [
+    "Sem números da wiki para a duração da invisibilidade da Bomba de Fumaça; os 3 s de recarga efetiva vêm das dicas.",
+    "Não confirmado na wiki: se a chance da Lente Rúnica é reduzida pelo coeficiente da habilidade, e como a duração dos acúmulos de Hemorragia transferidos pelo Espinho Nocivo funciona."
+  ]
 }

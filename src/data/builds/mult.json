@@ -4,7 +4,7 @@
   "name_en": "MUL-T",
   "title": "MUL-T: Build de Pregos em Dobro",
   "tagline": "Duas pistolas de pregos e muita armadura",
-  "lede": "O MUL-T tem 200 de vida e 12 de armadura, o mais resistente dos sobreviventes iniciais. No Modo de Força ele usa as duas primárias ao mesmo tempo e ganha 100 de armadura; com duas Pistolas de Pregos, são 24 pregos por segundo rolando itens ao acertar. A build empilha velocidade de ataque e itens de chance e luta de perto.",
+  "lede": "O MUL-T tem 200 de vida e 12 de armadura de base. No Modo de Força ele usa as duas primárias ao mesmo tempo e ganha 100 de armadura; com duas Pistolas de Pregos, são 24 pregos por segundo rolando itens ao acertar. A build empilha velocidade de ataque e itens de chance e luta de perto.",
   "loadout": [
     {
       "slot": "Primária 1",
@@ -29,6 +29,14 @@
   ],
   "skills": [
     {
+      "slot": "Passiva",
+      "pt": "Multitarefa",
+      "en": "Multifunctional",
+      "pick": "Fixa",
+      "spec": "Carrega dois equipamentos ao mesmo tempo. O equipamento ativo é alternado ao usar Reequipar.",
+      "why": "Só rende com o Reequipar. Com o Modo de Força, conte com o equipamento ativo."
+    },
+    {
       "slot": "Primária",
       "pt": "Pistola de Pregos Automática",
       "en": "Auto-Nailgun",
@@ -42,7 +50,7 @@
       "en": "Rebar Puncher",
       "pick": "Variante",
       "spec": "Perfurante. Barra de 600%, 1,8 s entre tiros na velocidade base (333% de dano por segundo). Coeficiente 1,0.",
-      "why": "Bom como segunda primária para derrubar elites de longe e atravessar filas. Passa de 400%, então ativa os Cinturões. A wiki cita a combinação com Pé de Cabra, mas outras fontes de dano tiram o alvo de cima de 90% de vida antes."
+      "why": "Bom como segunda primária para derrubar elites de longe e atravessar filas. Passa de 400%, então ativa o Cinturão de Kjaro (Kjaro's Band) e o Cinturão de Runald (Runald's Band), que esta build não usa. A wiki cita a combinação com Pé de Cabra, mas outras fontes de dano tiram o alvo de cima de 90% de vida antes."
     },
     {
       "slot": "Primária (alt.)",
@@ -89,8 +97,8 @@
       "pt": "Modo de Força",
       "en": "Power Mode",
       "pick": "Recomendada",
-      "spec": "Usa as duas primárias ao mesmo tempo. +100 de armadura e −60% de velocidade de movimento. Recarga 5 s. Desbloqueio: MUL-T: Seventh Day.",
-      "why": "Segundo a wiki, pode quase dobrar o dano. Com duas Pistolas de Pregos, dobra as ativações ao acertar, o que compensa o coeficiente 0,6. A lentidão é o custo: entre e saia conforme a luta."
+      "spec": "Usa as duas primárias ao mesmo tempo. +100 de armadura. O texto do jogo diz −60% de velocidade de movimento; a wiki corrige: o multiplicador real é 1/1,5, cerca de 66% da velocidade. Recarga 5 s. Desbloqueio: MUL-T: Seventh Day.",
+      "why": "Segundo a wiki, dobra o dano na prática. Com duas Pistolas de Pregos, dobra as ativações ao acertar, o que compensa o coeficiente 0,6. A lentidão é o custo: entre e saia conforme a luta."
     }
   ],
   "sections": [
@@ -161,7 +169,7 @@
           "prio": 3,
           "qty": "1 a 3",
           "effect": "+1 (+1 por acúmulo) carga da habilidade Secundária.",
-          "why": "Mais Filtros Explosivos para atordoar. A wiki observa que sair do Modo de Força restaura todas as cargas."
+          "why": "Mais Filtros Explosivos para atordoar. A wiki observa que sair do Modo de Força restaura todas as cargas. No Modo de Força o Pente afeta a segunda primária, e a wiki diz que isso só rende algo com o Lançador de Sucata."
         },
         {
           "icon": "crowbar",
@@ -170,7 +178,7 @@
           "prio": 4,
           "qty": "1 a 2 (com Perfurador de Barra)",
           "effect": "+75% (+75% por acúmulo) de dano contra inimigos acima de 90% de vida.",
-          "why": "Só faz sentido com o Perfurador de Barra, que tira muito de uma vez. Com duas Pistolas de Pregos, o primeiro prego já tira o alvo da faixa."
+          "why": "Só faz sentido com o Perfurador de Barra, que tira muito de uma vez. Com duas Pistolas de Pregos, os primeiros pregos já tiram o alvo de cima de 90% de vida."
         }
       ]
     },
@@ -276,7 +284,7 @@
           "prio": 1,
           "qty": "1 a 2",
           "effect": "Todos os ataques explodem em 4 m (+2,5 m por acúmulo) causando 60% de dano TOTAL extra.",
-          "why": "Cada prego explode. A wiki observa, na página da Caçadora, que o raio escala com o coeficiente, então fica menor nos pregos (0,6). Com o Lançador de Sucata ativa pelo menos duas vezes por acerto direto."
+          "why": "Cada prego explode. A wiki diz que o raio é multiplicado pelo coeficiente do ataque, então fica menor nos pregos (0,6). Com o Lançador de Sucata ativa pelo menos duas vezes por acerto direto."
         },
         {
           "icon": "shattering-justice",
@@ -479,7 +487,7 @@
           "prio": 0,
           "qty": "0",
           "effect": "0,5% (+0,5% por acúmulo) de chance de matar instantaneamente um inimigo que não seja chefe. Corrompe todos os Óculos do Fabricante de Lentes.",
-          "why": "Troca o crítico de todos os pregos por uma chance minúscula de abate, e a Foice para de curar."
+          "why": "Corrompe todos os Óculos do Fabricante de Lentes, que esta build recomenda. Você troca o crítico de todos os pregos por uma chance minúscula de abate, e a Foice e os Instintos ficam só com os 5% de crítico deles."
         }
       ]
     }
@@ -495,7 +503,7 @@
     },
     {
       "title": "Entrar e sair do Modo de Força",
-      "text": "O Modo de Força tira 60% da velocidade de movimento e tem 5 s de recarga. Saia para atravessar o mapa ou fugir com o Modo de Transporte. A wiki observa que sair restaura todas as cargas do Filtro Explosivo, o que rende mais com o Pente Reserva."
+      "text": "O Modo de Força deixa você com cerca de 66% da velocidade de movimento, segundo a wiki, e tem 5 s de recarga. Saia para atravessar o mapa ou fugir com o Modo de Transporte. A wiki observa que sair restaura todas as cargas do Filtro Explosivo, o que rende mais com o Pente Reserva."
     },
     {
       "title": "Filtro e Transporte para controlar",
@@ -503,7 +511,7 @@
     },
     {
       "title": "Reequipar e dois equipamentos",
-      "text": "Antes de desbloquear o Modo de Força, use o Reequipar. Ele alterna a primária e o equipamento ativo, então você leva dois equipamentos. Célula de Combustível e Chifre da Guerra rendem mais assim. Ao trocar para o Modo de Força, você perde a alternância de equipamentos."
+      "text": "Antes de desbloquear o Modo de Força, use o Reequipar. O MUL-T sempre carrega dois equipamentos, e o Reequipar alterna a primária e o equipamento ativo. Célula de Combustível e Chifre da Guerra rendem mais assim. Pelo texto do jogo, só o Reequipar troca o equipamento ativo, então no Modo de Força conte com um só."
     }
   ],
   "rotation": [
@@ -573,7 +581,7 @@
     {
       "pt": "Míssil ASM Mk. 1",
       "en": "AtG Missile Mk. 1",
-      "text": "Perfurador Carregado e Bomba Aderente, que também rolam em cada prego."
+      "text": "Perfurador Carregado e Bomba Aderente (Sticky Bomb), que também rolam em cada prego."
     },
     {
       "pt": "Ukulele",
@@ -624,7 +632,7 @@
     },
     {
       "title": "Luta de chefe",
-      "text": "Opus, Modo de Força colado no chefe, Filtro na recarga, Transporte para sair dos golpes grandes."
+      "text": "Opus e Filtro, depois Modo de Força colado no chefe. Saia para recuperar as cargas do Filtro e use o Transporte para sair dos golpes grandes."
     }
   ],
   "sources": [
@@ -633,8 +641,8 @@
       "url": "https://riskofrain2.wiki.gg/wiki/MUL-T"
     },
     {
-      "title": "Huntress — Risk of Rain 2 Wiki (raio do Brutamontes e coeficiente)",
-      "url": "https://riskofrain2.wiki.gg/wiki/Huntress"
+      "title": "Brilliant Behemoth — Risk of Rain 2 Wiki (raio e coeficiente)",
+      "url": "https://riskofrain2.wiki.gg/wiki/Brilliant_Behemoth"
     },
     {
       "title": "Items — Risk of Rain 2 Wiki",
@@ -647,6 +655,8 @@
   ],
   "notes": [
     "Modo de Força, Lançador de Sucata e Serra Elétrica precisam ser desbloqueados pelos desafios MUL-T: Seventh Day, Pest Control e Gotcha!. Sem o Modo de Força, use Reequipar com Pistola de Pregos e Perfurador de Barra.",
-    "A wiki não diz se a velocidade de ataque muda a rajada final da Pistola de Pregos nem se o Modo de Força altera o uso de equipamentos; o guia não afirma nada sobre isso."
+    "A wiki não diz se a velocidade de ataque muda a rajada final da Pistola de Pregos nem se o Modo de Força altera o uso de equipamentos; o guia não afirma nada sobre isso.",
+    "A wiki trata a segunda primária do Modo de Força como habilidade Secundária, o que sugere que o Filtro Explosivo fica indisponível nesse modo. Não está confirmado.",
+    "O nome em inglês da passiva (Multifunctional) vem das notas de atualização citadas pela wiki."
   ]
 }

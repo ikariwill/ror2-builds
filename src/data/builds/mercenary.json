@@ -145,7 +145,7 @@
           "prio": 3,
           "qty": "1 a 3",
           "effect": "+20% (+20% por acúmulo) de dano contra chefes.",
-          "why": "O Estripar mira o inimigo mais próximo, ótimo para ficar em cima do chefe sem ser atingido. O bônus vale em cada golpe."
+          "why": "O bônus vale em cada golpe do Estripar, e você não pode ser atingido enquanto ele dura. Ele mira o inimigo mais próximo, então chegue perto do chefe antes de usar."
         },
         {
           "icon": "mocha",
@@ -250,7 +250,7 @@
           "en": "Brilliant Behemoth",
           "prio": 1,
           "qty": "1 a 2",
-          "effect": "Todos os ataques explodem em 4 m (+2,5 m por acúmulo) causando 60% de dano TOTAL extra.",
+          "effect": "Todos os ataques explodem em 4 m (+2,5 m por acúmulo) de raio, causando 60% de dano TOTAL extra aos inimigos próximos.",
           "why": "Cada golpe do Estripar vira dano em área. A wiki diz que, ativado por um golpe que aplica Revelar, o Brutamontes pode aplicar Revelar em inimigos próximos e até um segundo acúmulo."
         },
         {
@@ -278,7 +278,7 @@
           "prio": 2,
           "qty": "1",
           "effect": "Ao abater um monstro de elite, entra em frenesi por 4 s (+4 s por acúmulo) em que as habilidades têm recarga de 0,5 s.",
-          "why": "A wiki cita o uso para repetir habilidades sem parar. Com Estripar a cada 0,5 s, você fica quase sempre invulnerável durante o frenesi."
+          "why": "Durante o frenesi as recargas caem para 0,5 s. O Estripar dura 1,3 s, então dá para emendar um no outro e passar o frenesi quase todo invulnerável."
         },
         {
           "icon": "rejuvenation-rack",
@@ -287,7 +287,7 @@
           "prio": 3,
           "qty": "1",
           "effect": "Cura +100% (+100% por acúmulo) a mais.",
-          "why": "Dobra a cura da Semente e da Foice, as únicas curas da build."
+          "why": "Dobra a cura da Semente, da Foice e do Fungo Choroso, as curas da build."
         },
         {
           "icon": "57-leaf-clover",
@@ -384,7 +384,7 @@
           "prio": 4,
           "qty": "1 (recarga 20 s)",
           "effect": "Remove todos os efeitos negativos, incluindo debuffs, dano contínuo e projéteis próximos.",
-          "why": "Defensivo contra elites que aplicam debuffs ao serem atingidas de perto."
+          "why": "Defensivo contra elites cujos ataques aplicam efeitos negativos, que o Mercenário enfrenta de perto."
         }
       ]
     },
@@ -419,7 +419,7 @@
           "prio": 0,
           "qty": "0",
           "effect": "−50% (−50% por acúmulo) no tempo de recarga das habilidades. −50% (−50% por acúmulo) de velocidade de ataque.",
-          "why": "O Estripar perde golpes com menos velocidade de ataque. A wiki observa que o Tornado e o Trovão vão mais longe, mas a área de acerto não dura mais."
+          "why": "O Estripar perde golpes com menos velocidade de ataque. A wiki observa que o Tornado vai mais longe, mas a área de acerto não dura mais."
         }
       ]
     },
@@ -462,7 +462,7 @@
           "en": "Weeping Fungus",
           "prio": 3,
           "qty": "1 a 2",
-          "effect": "Cura 2% (+2% por acúmulo) da vida por segundo enquanto corre.",
+          "effect": "Cura 2% (+2% por acúmulo) da vida por segundo enquanto corre. Corrompe todos os Fungos Vibrantes.",
           "why": "Recupera vida entre uma luta e outra. Corrompe o Fungo Vibrante, que pede para ficar parado e não serve ao Mercenário."
         },
         {
@@ -631,6 +631,7 @@
     }
   ],
   "notes": [
-    "Desbloqueios das alternativas: Trovão Emergente (Mercenário: Demônio Celestial), Ataque Concentrado (Mercenário: Lampejo de Lâminas), Rajadas Cortantes (Mercenário: Etéreo)."
+    "Desbloqueios das alternativas: Trovão Emergente (Mercenário: Demônio Celestial), Ataque Concentrado (Mercenário: Lampejo de Lâminas), Rajadas Cortantes (Mercenário: Etéreo).",
+    "Invulnerabilidade do Ataque Ofuscante: a wiki dá ~0,3 s na investida mais ~0,3 s no fim (0,6 s por investida), mas um patch note cita 0,2 s no fim. Janela para a próxima investida: 2,66 s nas notas, 3 s em patch antigo."
   ]
 }

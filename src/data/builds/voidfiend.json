@@ -42,7 +42,7 @@
       "en": "Drown",
       "pick": "Única opção",
       "spec": "Normal: raio de 300% com lentidão, alcance de 1000 m, 1 tiro a cada 0,6 s, coeficiente 1,0. Corrompido: raio perfurante de 40 m, cerca de 8 acertos de 250% por segundo, coeficiente 0,625.",
-      "why": "O texto do jogo diz 2.000% para a versão corrompida; a wiki esclarece que são cerca de 8 acertos de 250% por segundo. Velocidade de ataque aumenta a frequência dos acertos. É a principal fonte de dano e de acertos para itens. Você fica 50% mais lento enquanto atira."
+      "why": "O texto do jogo diz 2.000% para a versão corrompida; a wiki esclarece que são cerca de 8 acertos de 250% por segundo. Velocidade de ataque aumenta a frequência dos acertos. É a principal fonte de dano e de acertos para itens. Atirar deixa você com 50% de lentidão (cerca de 33% na prática)."
     },
     {
       "slot": "Secundária",
@@ -57,7 +57,7 @@
       "pt": "Invasão",
       "en": "Trespass",
       "pick": "Única opção",
-      "spec": "Ágil. Some no Vazio, remove todos os efeitos negativos e danos contínuos e se move em arco para cima. Recarga 5 s. Corrompido: arco para frente, mais longo e rápido, com menos invulnerabilidade.",
+      "spec": "Ágil. Some no Vazio, remove todos os efeitos negativos e danos contínuos e se move em arco para cima. Recarga 5 s. Corrompido: movimento rápido para frente, com menos tempo de invulnerabilidade.",
       "why": "Na forma normal você fica invulnerável e sem hitbox durante o movimento. É a fuga e a limpeza de debuffs ao mesmo tempo, o que dispensa equipamentos de limpeza."
     },
     {
@@ -110,7 +110,7 @@
           "prio": 3,
           "qty": "1 a 3",
           "effect": "15% (+15% por acúmulo) de chance de bloquear dano recebido. Não é afetado por sorte.",
-          "why": "Defesa que não cura, então não tira Corrupção. A wiki avisa que pode bloquear o dano da Supressão corrompida, o que salva vida mas pode atrapalhar o ganho. Espaços Seguros corrompe este item."
+          "why": "Defesa que não cura, então não tira Corrupção. A wiki avisa que ele pode bloquear o dano que a Supressão corrompida causa em você. Espaços Seguros corrompe este item."
         },
         {
           "icon": "pauls-goat-hoof",
@@ -146,7 +146,7 @@
           "prio": 4,
           "qty": "2 a 5",
           "effect": "Reduz todo dano recebido em 5 (+5 por acúmulo). Não pode reduzir abaixo de 1.",
-          "why": "Defesa que não cura. A wiki cita o item nos Campos do Vazio: a névoa ainda dá Corrupção ao causar dano, e a Placa diminui o quanto você perde de vida."
+          "why": "Defesa que não cura. A wiki cita o item: você continua levando golpes, que sobem a Corrupção, e a Supressão converte essa Corrupção em cura."
         },
         {
           "icon": "cautious-slug",
@@ -384,7 +384,7 @@
           "prio": 0,
           "qty": "0",
           "effect": "Cura +100% (+100% por acúmulo) a mais. Toda cura é aplicada ao longo do tempo, até no máximo 10% (−50% por acúmulo) da vida por segundo.",
-          "why": "A wiki avisa: com a cura espalhada no tempo, fica muito difícil encher a Corrupção. Só a Supressão corrompida ainda sobe a barra."
+          "why": "A wiki avisa: com a cura espalhada no tempo, fica muito difícil encher a Corrupção. A Supressão corrompida continua subindo a barra normalmente."
         }
       ]
     },
@@ -558,7 +558,7 @@
   "checklist": [
     {
       "title": "Sempre pegue",
-      "text": "Óculos do Fabricante de Lentes, Seringa Militar, Instintos Predatórios, Mira Laser, Brutamontes, Célula Lisada."
+      "text": "Óculos do Fabricante de Lentes, Seringa Militar, Instintos Predatórios, Mira Laser, Brutamontes Reluzente, Célula Lisada."
     },
     {
       "title": "Impressoras brancas",
@@ -574,7 +574,7 @@
     },
     {
       "title": "Antes de pegar Vazio",
-      "text": "Lentes do Profeta corrompem os Óculos; Polialaúde corrompe os Ukuleles; Espaços Seguros, os Tempos Difíceis."
+      "text": "Lentes do Profeta Perdido corrompem os Óculos; Polialaúde corrompe os Ukuleles; Espaços Seguros, os Tempos Difíceis."
     },
     {
       "title": "Não pegue",

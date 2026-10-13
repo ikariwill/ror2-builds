@@ -29,7 +29,7 @@
       "pt": "Atributos da Herege",
       "en": "Heretic base stats",
       "pick": "Fixa",
-      "spec": "Vida 440 (+132 por nível), dano 18 (+3,6 por nível), armadura 0, velocidade 8 m/s, pulo triplo. Regeneração negativa: −9/s no Chuvisco, −6/s na Tempestade, −3,6/s na Monção (aumenta por nível).",
+      "spec": "Vida 440 (+132 por nível), dano 18 (+3,6 por nível), armadura 0, velocidade 8 m/s, pulo triplo. Regeneração negativa: −9/s no Chuvisco (−1,8 por nível), −6/s na Tempestade (−1,2 por nível), −3,6/s na Monção (−0,72 por nível).",
       "why": "Maior vida, maior dano e maior velocidade de todos os sobreviventes. Em troca, a vida cai sem parar. Essa perda não conta como dano: armadura e Placa da Armadura de Repulsão não a reduzem. Segundo a wiki, quedas longas sem pular ou sem a Dissipação deixam a vida em 1 e a matam."
     },
     {
@@ -38,7 +38,7 @@
       "en": "Hungering Gaze",
       "pick": "Fixa",
       "spec": "Fragmentos teleguiados que explodem após um tempo: 120% do dano base. 12 cargas (+12 por Visões), recarga de 2 s (+2 s por Visões) contada a partir do último disparo. Coeficiente 0,1 no acerto inicial e 1,0 na explosão.",
-      "why": "Quando a recarga termina, todas as cargas voltam de uma vez, e cada disparo reinicia o contador. Velocidade de ataque aumenta a cadência, mas não encurta a recarga; redução de recarga (Cabeça Alienígena, Cartucheira) encurta. As explosões ativam itens ao acertar e aplicam a Ruína em tudo que tocam."
+      "why": "Quando a recarga termina, todas as cargas voltam de uma vez, e cada disparo reinicia o contador. Velocidade de ataque aumenta a cadência, mas não encurta a recarga. A wiki cita Cartucheira e Pureza (Purity, lunar) para compensar; a Cabeça Alienígena rende pouco aqui, porque a primeira cópia tira só 0,5 s. As explosões ativam itens ao acertar e aplicam a Ruína em tudo que tocam."
     },
     {
       "slot": "Secundária",
@@ -256,7 +256,7 @@
           "prio": 1,
           "qty": "1 a 2",
           "effect": "Reduz o tempo de recarga das habilidades em 25% (+25% por acúmulo).",
-          "why": "Encurta tudo o que os itens da Heresia alongam: recarga das cargas do Olhar, Redemoinho, Ruína e Dissipação. A wiki cita o item como forma de compensar a recarga do Olhar Faminto."
+          "why": "Encurta as recargas do Redemoinho, da Ruína e da Dissipação, que os itens da Heresia alongam. No Olhar Faminto rende pouco: a wiki diz que a redução percentual tira só 0,5 s da recarga de 2 s na primeira cópia."
         },
         {
           "icon": "rejuvenation-rack",
@@ -379,7 +379,7 @@
           "en": "Spinel Tonic",
           "prio": 0,
           "qty": "0 (equipamento lunar, recarga 60 s)",
-          "effect": "Por 20 s: +100% de dano, +70% de velocidade de ataque, +20 de armadura, +50% de vida máxima, +300% de regeneração passiva, +30% de movimento. Ao acabar, 20% de chance de Aflição do Tônico (−5% em todos os atributos, permanente).",
+          "effect": "Por 20 s: +100% de dano, +70% de velocidade de ataque, +20 de armadura, +50% de vida máxima, +300% de regeneração passiva, +30% de movimento. Ao acabar, 20% de chance de Aflição do Tônico, que reduz todos os atributos em 5% (−5% por acúmulo).",
           "why": "A wiki avisa: os +300% de regeneração multiplicam a regeneração negativa dela. Você perde vida quatro vezes mais rápido durante o efeito."
         }
       ]
@@ -449,7 +449,7 @@
           "en": "Weeping Fungus",
           "prio": 2,
           "qty": "1 a 2",
-          "effect": "Cura 2% (+2% por acúmulo) da vida por segundo enquanto corre.",
+          "effect": "Cura 2% (+2% por acúmulo) da vida por segundo enquanto corre. Corrompe todos os Fungos Vibrantes.",
           "why": "A Herege é a sobrevivente mais rápida e a Dissipação pode ser usada correndo. Cura proporcional à vida máxima, que é enorme. Corrompe o Fungo Vibrante, que pede para ficar parada."
         },
         {
@@ -476,7 +476,7 @@
   "synergy": [
     {
       "title": "Como virar a Herege",
-      "text": "Os itens da Heresia são desbloqueados pelo desafio Destruidor de Barreiras (Blockade Breaker): matar 15 chefes em uma só run. Depois disso eles aparecem nas Cápsulas Lunares (1 Moeda Lunar) e nos Brotos Lunares do Bazar (2 Moedas Lunares). Ao segurar os quatro ao mesmo tempo você vira a Herege e troca os atributos base pelos dela. O guia da Rogue Ranker sugere começar de Capitão (Captain), porque segundo a wiki os Microrrobôs Defensivos dele continuam depois da transformação."
+      "text": "Os itens da Heresia são desbloqueados pelo desafio Destruidor de Barreiras (Blockade Breaker): abater 15 monstros chefes em uma só run. A wiki confirma Visões e Ganchos; para Passadas e Essência ela se contradiz (veja as notas). Depois disso eles aparecem nas Cápsulas Lunares (1 Moeda Lunar) e nos Brotos Lunares do Bazar (2 Moedas Lunares). Ao segurar os quatro ao mesmo tempo você vira a Herege e troca os atributos base pelos dela. O guia da Rogue Ranker sugere começar de Capitão (Captain), porque segundo a wiki os Microrrobôs Defensivos dele continuam depois da transformação."
     },
     {
       "title": "Empilhar a Heresia",
@@ -492,7 +492,7 @@
     },
     {
       "title": "Cargas e recarga do Olhar",
-      "text": "O Olhar Faminto recarrega todas as cargas de uma vez, 2 s depois do último disparo. Velocidade de ataque faz você esvaziar as 12 cargas mais rápido e entrar mais cedo na recarga. A Cabeça Alienígena e a Cartucheira encurtam essa espera; use a Dissipação justamente nesse intervalo, já que durante ela você não ataca."
+      "text": "O Olhar Faminto recarrega todas as cargas de uma vez, 2 s depois do último disparo. Velocidade de ataque faz você esvaziar as 12 cargas mais rápido e entrar mais cedo na recarga. A Cartucheira pode zerar essa espera; a Cabeça Alienígena tira só 0,5 s dela na primeira cópia, segundo a wiki. Use a Dissipação justamente nesse intervalo, já que durante ela você não ataca."
     }
   ],
   "rotation": [
@@ -648,7 +648,7 @@
   ],
   "notes": [
     "A Herege não pode ser escolhida na tela de seleção. Na consulta à wiki em outubro de 2026 não existe versão selecionável: você vira ela no meio da run ao segurar os quatro itens da Heresia ao mesmo tempo, mantendo os outros itens.",
-    "Os itens da Heresia são desbloqueados pelo desafio Destruidor de Barreiras (Blockade Breaker): matar 15 chefes em uma só run. Depois aparecem nas Cápsulas Lunares e no Bazar. O Artefato da Autoridade (Artifact of Command) deixa escolher os itens diretamente.",
+    "Os itens da Heresia são desbloqueados pelo desafio Destruidor de Barreiras (Blockade Breaker): abater 15 monstros chefes em uma só run. A wiki diverge sobre Passadas Profanas e Essência da Heresia: as páginas dos itens e o texto do desafio dizem que ele libera os quatro, mas o quadro de recompensa do desafio e a lista de Desafios citam só Visões e Ganchos. Nenhuma página da wiki diz de onde os itens saem na run; Cápsulas Lunares e Bazar vêm do funcionamento geral dos itens lunares. O Artefato da Autoridade (Artifact of Command) deixa escolher os itens diretamente.",
     "O texto do jogo em português difere da wiki em dois números: a Dissipação Sombria cura 18,2% por Passadas (o jogo diz 25%) e o Redemoinho Cortante causa 175% até 5 vezes por segundo (o jogo só menciona 175%). O guia usa os números da wiki.",
     "Na dificuldade Chuvisco (Drizzle) a perda de vida é maior (−9/s) e na Monção (Monsoon) é menor (−3,6/s)."
   ]

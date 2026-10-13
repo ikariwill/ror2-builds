@@ -34,7 +34,7 @@
       "en": "N'kuhana's Grace",
       "pick": "Recomendada",
       "spec": "Não se cura. Toda cura e 40% do dano recebido viram vida recuperável. Dano de habilidade envia orbes de cura de 6,5% do dano (vezes o coeficiente). +1% de velocidade de ataque por 1% da vida máxima em vida recuperável. Decai 1% da vida máxima por segundo.",
-      "why": "Você recupera vida batendo: os orbes gastam a vida recuperável e devolvem vida de verdade. A vida recuperável não passa da vida que está faltando. A alternativa N'kuhana's Favor transforma toda cura em acúmulos de velocidade de ataque que expiram em 6 a 12 s, sem nenhuma forma de recuperar vida."
+      "why": "Você recupera vida batendo: os orbes gastam a vida recuperável e devolvem vida de verdade. A vida recuperável não passa da vida que está faltando. A alternativa N'kuhana's Favor transforma toda cura em acúmulos de velocidade de ataque que expiram em 6 a 12 s, e a regeneração em acúmulos permanentes. Fora da Litania, ela não recupera vida."
     },
     {
       "slot": "Primária",
@@ -49,7 +49,7 @@
       "pt": "Bola Throw",
       "en": "Bola Throw",
       "pick": "Recomendada",
-      "spec": "Ágil, Atordoante, Extração. Bola de 200% que junta até 5 inimigos e puxa suas almas. Coeficiente 1,0. Recarga 7 s.",
+      "spec": "Ágil, Atordoante, Extração. Bola de 200% que junta até 5 inimigos a até 18 m, atordoa por 1 s e puxa suas almas. Coeficiente 1,0. Recarga 7 s.",
       "why": "A wiki diz que acertar o inimigo e a alma dele ao mesmo tempo dobra o dano, e recomenda seguir com a Blade Sling. Chefes ficam no lugar, e a alma deles sai mesmo assim. A alternativa Soul Jar (150% e Assombração de 400% em 8 s) tem 6 s de recarga e é desbloqueada pelo desafio Bloodbath."
     },
     {
@@ -58,7 +58,7 @@
       "en": "Blade Sling",
       "pick": "Recomendada",
       "spec": "Ágil. Lâmina giratória de 200% de dano por segundo por cerca de 8 s. Reative para avançar até ela com 300%. Coeficiente 1,0. Recarga 7,5 s.",
-      "why": "Dano contínuo de habilidade, que envia orbes de cura, e um avanço de mobilidade. A wiki diz que a lâmina não atordoa, apesar do texto do jogo. A tabela da wiki dá 400% para o avanço e as notas dizem 300%. A alternativa Javelin (400% perfurante, explode em inimigos grandes) é desbloqueada pelo desafio Not Even Close."
+      "why": "Dano contínuo de habilidade, que envia orbes de cura, e um avanço de mobilidade. A wiki diz que a lâmina não atordoa, apesar do texto do jogo. A tabela da Blade Dash na wiki diz 400% para o avanço, mas as notas dela corrigem para 300%, como diz o texto do jogo. A alternativa Javelin (400% perfurante, explode em inimigos grandes) é desbloqueada pelo desafio Not Even Close."
     },
     {
       "slot": "Especial",
@@ -189,7 +189,7 @@
           "prio": 2,
           "qty": "1 a 3",
           "effect": "10% de chance de disparar um míssil que causa 300% (+300% por acúmulo) de dano TOTAL.",
-          "why": "Ativa com os vários acertos do golpe rápido e alcança voadores. Os cortes normais têm coeficiente 0,7, o resto do kit 1,0."
+          "why": "Ativa com os vários acertos do golpe rápido e alcança voadores. A Blade Slice inteira tem coeficiente 0,7; as outras habilidades, 1,0."
         },
         {
           "icon": "kjaros-band",
@@ -269,7 +269,7 @@
           "prio": 2,
           "qty": "1",
           "effect": "Depois de acertar um inimigo 5 vezes, reduz a armadura dele em 60 por 8 s (+8 s por acúmulo).",
-          "why": "Um golpe rápido com velocidade de ataque suficiente passa de 5 acertos de uma vez. O Sacrifice seguinte bate num alvo sem armadura."
+          "why": "Um golpe rápido com velocidade de ataque suficiente passa de 5 acertos de uma vez. O Sacrifice seguinte bate num alvo com 60 de armadura a menos."
         },
         {
           "icon": "laser-scope",
@@ -313,7 +313,7 @@
           "prio": 2,
           "qty": "1 ou mais",
           "effect": "Aumenta TODOS os atributos em 10% (+10% por acúmulo).",
-          "why": "Vida, armadura, dano e velocidade de ataque de uma vez. A armadura é o que mais falta à Acolyte."
+          "why": "Vida, dano e velocidade de ataque de uma vez, os três atributos que a Acolyte mais usa."
         },
         {
           "icon": "molten-perforator",
@@ -374,7 +374,7 @@
           "en": "Blast Shower",
           "prio": 4,
           "qty": "1 (recarga 20 s)",
-          "effect": "Remove todos os efeitos negativos, incluindo dano contínuo e projéteis próximos.",
+          "effect": "Remove todos os efeitos negativos, incluindo debuffs, dano contínuo e projéteis próximos.",
           "why": "Remove dano contínuo de elites. Sem cura direta, esse dano custa caro."
         }
       ]
@@ -470,7 +470,7 @@
     },
     {
       "title": "Convicções e Litania",
-      "text": "O Sacrifice dá 2 Convicções e mais 1 se matar, até 7. Com 7, vira a Litania, que dura cerca de 9 s. Pé de Cabra e Cinturão de Kjaro ajudam o Sacrifice a matar. A wiki cita que a Bola Throw pode dar Convicção extra quando a alma e o inimigo morrem do mesmo golpe, mas não sabe se é intencional."
+      "text": "O Sacrifice dá 2 Convicções e mais 1 se matar, até 7. Com 7, vira a Litania, que dura cerca de 9 s. Pé de Cabra e Cinturão de Kjaro ajudam o Sacrifice a matar. A wiki cita que um Sacrifice que mata o inimigo e a alma dele juntos dá 1 Convicção extra, mas não sabe se é intencional."
     },
     {
       "title": "Bola e alma",
@@ -617,6 +617,6 @@
     "A Acolyte e suas habilidades ainda não estão no arquivo de textos em português, por isso os nomes aparecem em inglês.",
     "Requer a DLC Hallowed Concepts. É desbloqueada pelo desafio A Broken Ritual; Soul Jar e Javelin têm desafios próprios (Bloodbath e Not Even Close).",
     "A wiki não diz como itens específicos de cura, barreira e escudo interagem com N'kuhana's Grace. O guia supõe só o que a passiva afirma: toda cura vira vida recuperável.",
-    "A wiki não explica como escolher entre as Litanias Dark Summons e Anima Echo. O dano do avanço da Blade Sling aparece como 400% na tabela e 300% nas notas."
+    "A wiki não explica como escolher entre as Litanias Dark Summons e Anima Echo. O dano do avanço (Blade Dash) aparece como 400% na tabela da wiki, mas as notas e o texto do jogo dizem 300%; o guia usa 300%."
   ]
 }

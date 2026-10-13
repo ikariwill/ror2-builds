@@ -9,6 +9,8 @@
 - [ ] Incluir itens da DLC Hallowed Concepts quando os dados da wiki estiverem completos.
 - [ ] Revisar Enforcer e Acolyte quando a wiki e a tradução pt-BR saírem.
 - [ ] Resolver as pendências de `data.md › Pendências de verificação`.
+- [ ] Decidir se os nomes de desafios usam a tradução pt-BR do jogo e padronizar.
+- [ ] Trazer para o repositório um script que confira efeitos de itens contra os dados da wiki (hoje roda fora).
 - [ ] Marcar "já peguei" por item, ligado ao modo partida.
 - [ ] Carregar cada build sob demanda (hoje o bundle tem ~170 KB gzip com as 21 builds).
 

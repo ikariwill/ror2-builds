@@ -38,7 +38,7 @@
       "en": "Laser Cutter",
       "pick": "Variante",
       "spec": "Laser de 50 m, 9 acertos por segundo, 270% a 630% de dano por segundo em 3 estágios. Coeficiente 0,7. Cura torretas e drones aliados em vez de causar dano.",
-      "why": "Cada acerto em uma torreta cura 15% a 35% do seu dano, conforme o estágio. A velocidade de ataque acelera o início e a taxa de acertos. O laser para no primeiro personagem que atinge e reduz sua movimentação para 70% e depois 40%. É da DLC Hallowed Concepts (veja as notas)."
+      "why": "Cada acerto em uma torreta cura 15% a 35% do seu atributo de dano, conforme o estágio. A velocidade de ataque acelera o início e a taxa de acertos. O laser para no primeiro personagem que atinge e reduz sua movimentação para 70% e depois 40%. É da DLC Hallowed Concepts (veja as notas)."
     },
     {
       "slot": "Secundária",
@@ -286,6 +286,15 @@
           "why": "Segundo a wiki, as torretas recebem o item de novo a cada vez que são posicionadas, desde que você não morra. Na prática, cada torreta ganha uma vida extra por posicionamento."
         },
         {
+          "icon": "spare-drone-parts",
+          "pt": "Peças de Drone Avulsas",
+          "en": "Spare Drone Parts",
+          "prio": 2,
+          "qty": "1",
+          "effect": "Ganha o Col. Droneman. Drones ganham +25% (+25% por acúmulo) de velocidade de ataque e redução de recarga. Drones ganham 10% de chance de disparar um míssil ao acertar, causando 150% de dano TOTAL. Drones ganham uma metralhadora automática que causa 6×50% de dano, ricocheteando em 2 inimigos.",
+          "why": "As torretas não copiam este item, mas a sua cópia vale para elas: a wiki diz que afeta todos os lacaios mecânicos, incluindo as torretas. Como elas têm os seus itens, a metralhadora e o míssil também ativam os efeitos ao acertar delas. DLC Survivors of the Void."
+        },
+        {
           "icon": "hardlight-afterburner",
           "pt": "Pós-combustor de Holograma",
           "en": "Hardlight Afterburner",
@@ -412,10 +421,10 @@
           "icon": "transcendence",
           "pt": "Transcendência",
           "en": "Transcendence",
-          "prio": 3,
-          "qty": "1 (com curas fixas)",
+          "prio": 4,
+          "qty": "1 (com Égide e curas fixas)",
           "effect": "Converte toda a vida, menos 1, em escudo regenerável. Ganha 50% (+25% por acúmulo) de vida máxima.",
-          "why": "A wiki permite combinar com a Égide, mas recomenda curas de valor fixo (como Semente e Placa) junto com a Transcendência. A cura em porcentagem do Fungo perde força."
+          "why": "A wiki desaconselha para torretas: o Fungo Vibrante cura por porcentagem da vida máxima, que vira 1. Se usar com a Égide (Aegis), a wiki pede curas de valor fixo, como Semente Sanguessuga e Foice do Ceifador."
         },
         {
           "icon": "visions-of-heresy",
@@ -494,7 +503,7 @@
   "synergy": [
     {
       "title": "O que as torretas herdam",
-      "text": "As torretas herdam todos os seus itens e o equipamento, menos os da lista TurretBlacklist da wiki. Nessa lista estão Estandarte de Guerra, Margarida de Lépton, Peças de Drone Avulsas (que só afeta drones), Glândula da Rainha, Núcleos Empáticos, Semente Intocada, Zoea recém-nascida e Convergência Concentrada, além de itens da DLC Alloyed Collective como Caixa de Dinamites, Núcleo Órfão, Matriz Prisional, Chave Sentinela, Massa do Neutrônio, Conserto Rápido e os Cerebelos. Elas herdam o equipamento, mas não o ativam."
+      "text": "As torretas herdam todos os seus itens e o equipamento, menos os da lista TurretBlacklist da wiki. Nessa lista estão Estandarte de Guerra, Margarida de Lépton, Peças de Drone Avulsas (a sua cópia já fortalece as torretas), Glândula da Rainha, Núcleos Empáticos, Semente Intocada, Zoea recém-nascida e Convergência Concentrada, além de itens da DLC Alloyed Collective como Caixa de Dinamites, Núcleo Órfão, Matriz Prisional, Chave Sentinela, Massa do Neutrônio, Conserto Rápido e os Cerebelos. Elas herdam o equipamento, mas não o ativam."
     },
     {
       "title": "Itens novos só depois de reposicionar",
@@ -506,7 +515,7 @@
     },
     {
       "title": "Tiro rápido e coeficiente 1,0",
-      "text": "Cada torreta dispara a cada 0,35 s com coeficiente 1,0. Míssil, Ukulele, Gancho, Adaga e Perfurador ativam com muita frequência, e cada torreta tem as próprias cópias. Com a Célula Lisada são três torretas. Velocidade de ataque melhora tudo isso, então evite a Ombreira do Fluxo Iluminado."
+      "text": "Cada torreta dispara a cada 0,35 s com coeficiente 1,0. Míssil, Ukulele, Gancho, Adaga e Perfurador ativam com muita frequência, e cada torreta tem as próprias cópias. Com a Célula Lisada são três torretas. Velocidade de ataque melhora tudo isso, então evite a Ombreira do Fluxo Iluminado (Light Flux Pauldron)."
     },
     {
       "title": "Itens com regra própria nas torretas",
@@ -657,7 +666,7 @@
     }
   ],
   "notes": [
-    "O Laser Cutter veio com a DLC Hallowed Concepts (lançada em 8 out. 2026) e ainda não tem nome no arquivo pt-BR do jogo, por isso aparece em inglês. Ele se desbloqueia consertando um Drone de Equipamento com a Matriz de Combustível da cápsula de fuga.",
+    "O Laser Cutter veio com a DLC Hallowed Concepts (lançada em 8 out. 2026) e ainda não tem nome no arquivo pt-BR do jogo, por isso aparece em inglês. A wiki cita o desafio Engineer: Mad Scientist sem o texto do requisito; segundo a Destructoid, ele se desbloqueia consertando um Drone de Equipamento com a Matriz de Combustível da cápsula de fuga.",
     "A lista de itens que as torretas não herdam vem da categoria TurretBlacklist da wiki (16 itens). A wiki não detalha a interação das torretas com Infusão, Formulário de Envio, Elixir de Força ou Relógio Delicado."
   ]
 }

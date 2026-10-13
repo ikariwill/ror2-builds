@@ -41,7 +41,7 @@
       "pt": "Picar",
       "en": "Dice",
       "pick": "Única opção",
-      "spec": "Perfurante. Cutelo de 200% até 55 m. 3 cargas, que voltam quando o cutelo retorna. Segurar deixa os cutelos parados no ar (40% a cada 0,4 s); 0,5 s de carga dobra o dano da volta. Coeficiente 1,0 (1,5 carregado).",
+      "spec": "Perfurante, Rápido (recarrega mais rápido com velocidade de ataque). Cutelo de 200% até 55 m. 3 cargas, que voltam quando o cutelo retorna. Segurar deixa os cutelos parados no ar (40% a cada 0,4 s); 0,5 s de carga dobra o dano da volta. Coeficiente 1,0 (1,5 carregado).",
       "why": "Acerta na ida e na volta e atravessa todos os inimigos no caminho, então ativa muitos itens ao acertar em grupos alinhados. Com Sim, CHEF! (Yes, CHEF!) o próximo Picar arremessa 16 cutelos de 400% em todas as direções, coeficiente 2,25."
     },
     {
@@ -74,7 +74,7 @@
       "en": "Glaze",
       "pick": "Recomendada",
       "spec": "7 bolas de óleo de 250%. Aplicam Óleo e Fraqueza (−30 de armadura, −40% de movimento e de dano). Recarga 12 s, coeficiente 1,0 cada.",
-      "why": "Sete acertos que deixam o grupo com Óleo, prontos para o Chamuscar quadruplicar a Queimadura. As bolas que erram viram poças de óleo, que o Chamuscar acende. A alternativa Sim, CHEF! (400%, Incendiário ou Gelo) reforça a próxima habilidade; a wiki não lista a recarga dela."
+      "why": "Sete acertos que deixam o grupo com Óleo, prontos para o Chamuscar quadruplicar a Queimadura. A alternativa Sim, CHEF! (400%, Incendiário ou Gelo) reforça a próxima habilidade; a wiki não lista a recarga dela."
     }
   ],
   "sections": [
@@ -136,7 +136,7 @@
           "prio": 3,
           "qty": "2 a 4",
           "effect": "+15% (+15% por acúmulo) de velocidade de ataque.",
-          "why": "O Picar não tem recarga. Arremessos mais rápidos dão mais acertos e mais ativações de itens."
+          "why": "O Picar é Rápido: recarrega mais rápido com velocidade de ataque. Mais arremessos, mais acertos e mais ativações de itens."
         },
         {
           "icon": "backup-magazine",
@@ -427,7 +427,7 @@
           "prio": 2,
           "qty": "1 a 2",
           "effect": "Ao acertar um inimigo com a vida cheia, cria um pilar de lava de 12 m (+2,4 m por acúmulo) causando 260% (+156% por acúmulo) do dano base. Corrompe todos os Will-o'-the-wisp.",
-          "why": "Um cutelo perfurante ou o Cristalizar acertam vários inimigos de vida cheia de uma vez. Cuidado: corrompe o Will-o'-the-wisp."
+          "why": "Um cutelo perfurante ou o Cristalizar acertam vários inimigos de vida cheia de uma vez. Corrompe o Will-o'-the-wisp recomendado: você perde o pilar de lava ao abater e passa a ter o pilar ao acertar inimigo de vida cheia."
         },
         {
           "icon": "polylute",
@@ -436,7 +436,7 @@
           "prio": 3,
           "qty": "1 a 2",
           "effect": "25% de chance de disparar um raio de 60% de dano TOTAL até 3 (+3 por acúmulo) vezes. Corrompe todos os Ukuleles.",
-          "why": "Mais forte que o Ukulele contra um alvo, mais fraco em grupo. Bom quando a luta é contra chefes."
+          "why": "Corrompe o Ukulele recomendado: você perde o raio em cadeia que salta entre os inimigos. Em troca, o raio acerta o mesmo alvo até 3 vezes. Mais forte contra um alvo, mais fraco em grupo. Só vale se a run está focada em chefes."
         },
         {
           "icon": "weeping-fungus",
@@ -457,7 +457,7 @@
     },
     {
       "title": "Poças de óleo",
-      "text": "As bolas do Cristalizar que erram viram poças de óleo no chão. O Chamuscar acende a poça e quem estiver nela queima. As poças sozinhas não cobrem os inimigos de Óleo, então mire o Cristalizar nos inimigos e use as poças como zona de fogo."
+      "text": "Pela wiki, habilidades que aplicam Óleo criam poças de óleo, e as poças podem ser incendiadas ou congeladas. Elas não cobrem os inimigos de Óleo, então mire o Cristalizar nos inimigos e use as poças como zona de fogo. A wiki não detalha quando o Cristalizar cria poças."
     },
     {
       "title": "Beijo do CHEF: cura pela rotação",
@@ -610,6 +610,7 @@
   "notes": [
     "O CHEF exige a DLC Seekers of the Storm e é desbloqueado pelo desafio Order Up!.",
     "A wiki não lista a recarga nem o desafio de desbloqueio de Sim, CHEF! (Yes, CHEF!). Um guia da comunidade cita 10 s de recarga, sem confirmação na wiki.",
-    "A wiki não diz se o Óleo também quadruplica a Queimadura de itens como Gasolina e Molotov."
+    "A wiki não diz se o Óleo também quadruplica a Queimadura de itens como Gasolina e Molotov.",
+    "A wiki diz que habilidades que aplicam Óleo criam poças, mas a parte do Cristalizar está incompleta; não confirmamos se as bolas que erram viram poças."
   ]
 }

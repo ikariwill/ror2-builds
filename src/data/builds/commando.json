@@ -70,7 +70,7 @@
       "en": "Suppressive Fire",
       "pick": "Recomendada",
       "spec": "Atordoante. 100% por disparo, 6 disparos × velocidade de ataque. Recarga 9 s. Coeficiente 1,0 por disparo.",
-      "why": "Cada ponto de velocidade de ataque é mais disparos e mais ativações de itens. Atordoa e interrompe ataques. A animação final bloqueia o Tiro Duplo, mas qualquer outra habilidade a cancela, então emende com o Projétil Fásico."
+      "why": "Cada ponto de velocidade de ataque é mais disparos e mais ativações de itens. Atordoa e interrompe ataques. A animação final bloqueia o Tiro Duplo. O Projétil Fásico ou a Explosão Fásica cancelam essa animação, então emende com a Secundária."
     },
     {
       "slot": "Especial (alt.)",
@@ -78,7 +78,7 @@
       "en": "Frag Grenade",
       "pick": "Variante",
       "spec": "700% no centro, 175% na borda, raio de 11 m. Até 2 cargas, recarga 5 s. Coeficiente 1,0. Desbloqueio: Commando: Incorruptible.",
-      "why": "Único ataque em área do Comando. Acertos no centro ativam os Cinturões de Runald e Kjaro com facilidade. Atordoa menos: empurra, mas não atordoa. Prefira se tiver Cinturões ou Brutamontes."
+      "why": "Único ataque em área do Comando. Acertos no centro ativam os Cinturões de Runald e Kjaro com facilidade. Não atordoa, só desequilibra o inimigo por um instante. Prefira se tiver Cinturões ou Faixa da Singularidade."
     }
   ],
   "sections": [
@@ -199,7 +199,7 @@
           "icon": "harvesters-scythe",
           "pt": "Foice do Ceifador",
           "en": "Harvester's Scythe",
-          "prio": 2,
+          "prio": 1,
           "qty": "1 a 2 (com Óculos)",
           "effect": "+5% de chance de crítico. Críticos curam 8 (+4 por acúmulo) de vida.",
           "why": "É a cura principal da build. Muitos tiros com chance de crítico viram cura constante."
@@ -220,7 +220,7 @@
           "prio": 3,
           "qty": "1",
           "effect": "Inimigos com 4 ou mais debuffs ficam marcados e recebem 50% a mais de dano de todas as fontes por 7 s (+7 s por acúmulo).",
-          "why": "Sangramento, lentidão e redução de armadura de itens ao acertar se somam rápido com tiros contínuos. Só vale se você já tiver várias fontes de debuff."
+          "why": "Sangramento e redução de armadura de itens ao acertar se somam rápido com tiros contínuos. Só vale se você já tiver várias fontes de debuff."
         },
         {
           "icon": "kjaros-band",
@@ -309,7 +309,7 @@
           "prio": 4,
           "qty": "1",
           "effect": "Reduz o tempo de recarga das habilidades em 25% (+25% por acúmulo).",
-          "why": "O dano do Comando vem da Primária, que não tem recarga. Ajuda no Fogo de Supressão (9 s) e só."
+          "why": "O dano do Comando vem do Tiro Duplo, que não tem recarga. Só encurta o Projétil Fásico, o Deslize e o Fogo de Supressão."
         }
       ]
     },
@@ -449,7 +449,7 @@
           "prio": 2,
           "qty": "1",
           "effect": "+1 (+1 por acúmulo) carga da habilidade Especial e −33% no tempo de recarga dela. Corrompe todas as Células de Combustível.",
-          "why": "Dois Fogos de Supressão seguidos para atordoar e ativar itens, ou duas Granadas a mais se usar a variante."
+          "why": "Dois Fogos de Supressão seguidos para atordoar e ativar itens, ou uma terceira carga de Granada se usar a variante."
         },
         {
           "icon": "needletick",
@@ -476,7 +476,7 @@
           "prio": 4,
           "qty": "1 (com Granada)",
           "effect": "Golpes que causam mais de 400% de dano também disparam um buraco negro que puxa inimigos a até 15 m para o centro. Dura 5 s e depois colapsa, causando 100% (+100% por acúmulo) de dano TOTAL. Recarrega a cada 20 s. Corrompe todos os Cinturões de Runald e Kjaro.",
-          "why": "Ativado pela Granada de Fragmentação ou pelo Projétil Fásico perfurando. Junta o grupo para o Brutamontes."
+          "why": "Ativado pela Granada de Fragmentação ou pelo Projétil Fásico perfurando. Junta o grupo para o Brutamontes. Corrompe todos os Cinturões de Kjaro: você troca o tornado de 300% a cada 10 s por um buraco negro de 100% a cada 20 s."
         },
         {
           "icon": "lost-seers-lenses",
@@ -485,7 +485,7 @@
           "prio": 0,
           "qty": "0",
           "effect": "0,5% (+0,5% por acúmulo) de chance de matar instantaneamente um inimigo que não seja chefe. Corrompe todos os Óculos do Fabricante de Lentes.",
-          "why": "Troca todos os seus Óculos por uma chance minúscula de abate. Você perde o crítico que alimenta Foice, Instintos e Mira Laser."
+          "why": "Corrompe todos os Óculos do Fabricante de Lentes, que esta build empilha. Você troca 10% de crítico por acúmulo por 0,5% de chance de abate e perde o crítico que alimenta Foice, Instintos e Mira Laser."
         }
       ]
     }
@@ -509,7 +509,7 @@
     },
     {
       "title": "Cancelar o Fogo de Supressão",
-      "text": "O Fogo de Supressão termina com uma animação que impede o Tiro Duplo. Qualquer outra habilidade cancela essa animação. Emende com o Projétil Fásico para não ficar parado."
+      "text": "O Fogo de Supressão termina com uma animação que impede o Tiro Duplo. O Projétil Fásico ou a Explosão Fásica cancelam essa animação. Emende com a Secundária para não ficar parado."
     }
   ],
   "rotation": [
@@ -622,7 +622,7 @@
     },
     {
       "title": "Antes de pegar Vazio",
-      "text": "Lentes do Profeta corrompe os Óculos, Polialaúde os Ukuleles, Agulhão as Adagas Triangulares."
+      "text": "Lentes do Profeta corrompe os Óculos, Polialaúde os Ukuleles, Agulhão as Adagas Triangulares, Faixa da Singularidade os Cinturões de Kjaro."
     },
     {
       "title": "Não pegue",

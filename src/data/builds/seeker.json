@@ -65,8 +65,8 @@
       "pt": "Estadia",
       "en": "Sojourn",
       "pick": "Recomendada",
-      "spec": "Atordoante, Ágil. Voa e explode causando 500% (+500% por segundo após o primeiro). Recarga 8 s. Coeficiente 1,0. Raio 5,5 m (+0,6325 m por Tranquilidade).",
-      "why": "Você fica imune a todo outro dano enquanto voa, o que faz da Estadia uma esquiva e um golpe enorme. O custo: depois de 1,4 s você perde 5% da vida base a cada 0,2 s, cada vez mais, e a cura recebida cai 10% por segundo. Não dá para usar habilidades nem equipamento durante o voo. Conta como correr, então Broquel da Rosa e Pequeno Discípulo funcionam."
+      "spec": "Atordoante, Ágil. Voa e explode causando 500% (+500% por segundo após o primeiro). Recarga 8 s. Coeficiente 1,0. Raio 5,5 m (+0,6325 m por Tranquilidade; o texto do jogo diz +0,5 m).",
+      "why": "Você fica imune a todo outro dano enquanto voa (exceto o buraco negro do Voidling), o que faz da Estadia uma esquiva e um golpe enorme. O custo: depois de 1,4 s você perde 5% da vida base a cada 0,2 s, cada vez mais, e a cura recebida cai 10% por segundo. Não dá para usar habilidades nem equipamento durante o voo. Conta como correr, então Broquel da Rosa e Pequeno Discípulo funcionam."
     },
     {
       "slot": "Utilitária (alt.)",
@@ -81,8 +81,8 @@
       "pt": "Meditar",
       "en": "Meditate",
       "pick": "Recomendada",
-      "spec": "Foco. Explosão de 300% (+200% por Tranquilidade), cura aliados próximos (+4% da vida máxima por Tranquilidade) e dá 1 Tranquilidade. Na Tranquilidade máxima, revive aliados e concede Salvação (Saving Grace).",
-      "why": "Foco significa uma sequência de teclas cronometrada; se você errar, a recarga aumenta. É o único jeito de ganhar Tranquilidade além da Explosão de Palma. A wiki antiga explica que o revive só acontece ao passar do 6º para o 7º acúmulo e que a Exploradora não revive a si mesma; no solo, a Salvação é o que importa."
+      "spec": "Foco. Explosão de 300% (+200% e +100% de raio por Tranquilidade), cura aliados próximos (+4% da vida máxima por Tranquilidade) e dá 1 Tranquilidade. Na Tranquilidade máxima, revive aliados e concede Salvação (Saving Grace). A wiki não lista recarga nem coeficiente.",
+      "why": "Foco significa uma sequência de teclas cronometrada; se você errar, a recarga aumenta. É o único jeito de ganhar Tranquilidade além da Explosão de Palma. A wiki antiga explica que o revive só acontece ao passar do 6º para o 7º acúmulo e que a Exploradora não revive a si mesma. No solo, a Salvação é o que importa: pelo texto do jogo, dá +7% em todos os atributos e é consumida para reviver você quando morre."
     },
     {
       "slot": "Especial (alt.)",
@@ -187,7 +187,7 @@
           "prio": 1,
           "qty": "1 a 3",
           "effect": "Golpes acima de 400% de dano também lançam um tornado de fogo rúnico que causa 300% (+300% por acúmulo) de dano TOTAL ao longo do tempo. Recarrega a cada 10 s.",
-          "why": "Mão Invisível (600%), Estadia (500% ou mais) e o terceiro soco com 2 ou mais Tranquilidades passam de 400%. A wiki antiga confirma que a Mão Invisível ativa o Kjaro."
+          "why": "Mão Invisível (600%), Estadia (500% ou mais) e o terceiro soco com 2 ou mais Tranquilidades passam de 400%."
         },
         {
           "icon": "runalds-band",
@@ -276,7 +276,7 @@
           "prio": 2,
           "qty": "1 a 2",
           "effect": "Todos os ataques explodem num raio de 4 m (+2,5 m por acúmulo) causando 60% de dano TOTAL extra aos inimigos próximos.",
-          "why": "Os socos perfurantes acertam vários inimigos, e cada acerto vira explosão. Mais acertos da Mão Invisível em grupo, mais cura."
+          "why": "Os socos perfurantes acertam vários inimigos, e cada acerto vira explosão. A wiki não diz se o dano da explosão conta para a cura da Mão Invisível."
         },
         {
           "icon": "hardlight-afterburner",
@@ -442,7 +442,7 @@
           "en": "Voidsent Flame",
           "prio": 3,
           "qty": "1 a 2",
-          "effect": "Ao acertar um inimigo com a vida cheia, cria um pilar de lava num raio de 12 m (+2,4 m por acúmulo) causando 260% (+156% por acúmulo) do dano base. Corrompe todos os Fogos Fátuos (Will-o'-the-wisp).",
+          "effect": "Ao acertar um inimigo com a vida cheia, cria um pilar de lava num raio de 12 m (+2,4 m por acúmulo) causando 260% (+156% por acúmulo) do dano base. Corrompe todos os Will-o'-the-wisp.",
           "why": "Os socos e a Mão Invisível perfuram e acertam vários inimigos de vida cheia de uma vez, e cada um pode gerar um pilar."
         },
         {
@@ -485,7 +485,7 @@
     },
     {
       "title": "Salvação e o revive",
-      "text": "Ao chegar à Tranquilidade máxima, o Meditar revive aliados caídos e concede Salvação (Saving Grace) a todos os sobreviventes vivos. A wiki antiga diz que o revive só acontece na passagem do 6º para o 7º acúmulo e que ela não revive a si mesma. Em grupo, segure o 7º Meditar até alguém precisar."
+      "text": "Ao chegar à Tranquilidade máxima, o Meditar revive aliados caídos e concede Salvação (Saving Grace) a todos os sobreviventes vivos. Pelo texto do jogo, a Salvação dá +7% em todos os atributos e é consumida para reviver quem morrer. A wiki antiga diz que o revive só acontece na passagem do 6º para o 7º acúmulo e que ela não revive a si mesma. Em grupo, segure o 7º Meditar até alguém precisar."
     }
   ],
   "rotation": [
@@ -540,7 +540,7 @@
       "en": "Primordial Cube"
     }
   ],
-  "situational_note": "Situacionais: Pente Reserva, Broquel da Rosa, Disparo Luminoso, Pós-combustor, Relíquia Congelada, Espaços Seguros, Pureza e Ombreira do Fluxo Iluminado.",
+  "situational_note": "Situacionais: Pente Reserva, Broquel da Rosa, Disparo Luminoso, Pós-combustor de Holograma, Relíquia Congelada, Espaços Seguros, Pureza e Ombreira do Fluxo Iluminado.",
   "fallbacks": [
     {
       "pt": "Cristal de Foco",
@@ -629,6 +629,10 @@
   ],
   "notes": [
     "A Exploradora faz parte da DLC Seekers of the Storm.",
-    "A wiki atual não lista recarga nem coeficiente do Meditar, da Explosão de Palma e do Adiamento. Detalhes do revive e da Salvação vêm da wiki antiga (Fandom) e podem estar desatualizados."
+    "Mão Invisível: a wiki atual confirma 6 s de recarga (a wiki antiga diz 7 s e um guia diz 5 s; vale a wiki atual).",
+    "Meditar: a wiki atual e o texto do jogo confirmam 300% (+200% por Tranquilidade) e cura de +4% da vida máxima por Tranquilidade. Recarga e coeficiente não aparecem na wiki atual; os 15 s e 450% da wiki antiga são de uma versão anterior e não foram usados.",
+    "A wiki atual não lista recarga nem coeficiente da Explosão de Palma e do Adiamento.",
+    "Salvação (Saving Grace): a wiki atual não descreve o efeito. O texto do jogo (pt-BR, dez/2025) diz +7% em todos os atributos e revive ao morrer; a wiki antiga descreve uma versão anterior (cura com vida baixa). O revive só na passagem do 6º para o 7º acúmulo vem da wiki antiga.",
+    "O arquivo de idioma do jogo tem um primário alternativo, Busca de Alma (Soul Search), que a wiki atual não lista. Ficou fora da build até a wiki confirmar se ele está disponível."
   ]
 }

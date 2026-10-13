@@ -42,7 +42,7 @@
       "en": "XQR Smart Round System",
       "pick": "Recomendada",
       "spec": "Projéteis teleguiados de 100%. 4 tiros por segundo na velocidade base. Coeficiente 1,0.",
-      "why": "Os projéteis fazem curva, acertam atrás de cobertura e até 30 graus atrás dela. É o dano contra inimigos pequenos e o que ativa itens ao acertar entre um tiro de mira e outro. Como ela não tem críticos aleatórios, não conte com crítico aqui."
+      "why": "Os projéteis fazem curva, acertam alvos atrás de cobertura e até 30 graus atrás de você. É o dano contra inimigos pequenos e o que ativa itens ao acertar entre um tiro de mira e outro. Como ela não tem críticos aleatórios, não conte com crítico aqui."
     },
     {
       "slot": "Secundária",
@@ -58,7 +58,7 @@
       "en": "HH44 Marksman",
       "pick": "Variante",
       "spec": "Mira de curto alcance; a Primária vira a HH44: 400% de dano, 2 tiros por segundo segurando o botão. Coeficiente 1,0.",
-      "why": "Não tem recarga, então não usa Recarga Ativa nem Pente Reserva. Também garante crítico em Ponto Fraco. É mais fácil de usar e cada tiro ainda passa de 400%, o que ativa os Cinturões. Desbloqueio pelo desafio Railgunner: Marksman."
+      "why": "Não tem recarga, então não usa Recarga Ativa nem Pente Reserva. Também garante crítico em Ponto Fraco. É mais fácil de usar. Cada tiro tem exatamente 400%, e a wiki não deixa claro se 400% exatos ativam os Cinturões. Crítico não conta para esse limite. Desbloqueio pelo desafio Railgunner: Marksman."
     },
     {
       "slot": "Utilitária",
@@ -66,7 +66,7 @@
       "en": "Concussion Device",
       "pick": "Recomendada",
       "spec": "Ágil. Empurra você e os inimigos próximos. 2 cargas, recarga 6 s. Coeficiente 0.",
-      "why": "É a fuga e a mobilidade dela. A força do empurrão cresce com a sua velocidade, então pular antes de detonar lança mais longe. O Dispositivo de Campo Polar (Polar Field Device, recarga 12 s) desacelera inimigos e projéteis por 12 s; é mais defensivo e tira a mobilidade."
+      "why": "É a fuga e a mobilidade dela. A força do empurrão cresce com a sua velocidade, então pular antes de detonar lança mais longe. O Dispositivo de Campo Polar (Polar Field Device, recarga 12 s, desbloqueio pelo desafio Railgunner: Annihilator) desacelera inimigos e projéteis num campo que dura 12 s; é mais defensivo e tira a mobilidade."
     },
     {
       "slot": "Especial",
@@ -74,7 +74,7 @@
       "en": "Supercharge",
       "pick": "Recomendada",
       "spec": "Tiro perfurante de 4.000% de dano e 150% de dano de Ponto Fraco. Dano de crítico ×1,5. Coeficiente 3,0. Recarga 15 s. Depois, armas desligadas por 5 s.",
-      "why": "É o maior tiro do jogo e o coração da build: o crítico já ampliado pela passiva ainda é multiplicado por 1,5, e a perfuração não perde dano. O coeficiente 3,0 faz itens de chance ao acertar ativarem quase sempre. A Utilitária continua funcionando nos 5 s sem armas."
+      "why": "É o maior tiro dela e o coração da build: o crítico já ampliado pela passiva ainda é multiplicado por 1,5, e a perfuração não perde dano. O coeficiente 3,0 triplica a chance dos itens ao acertar. A Utilitária continua funcionando nos 5 s sem armas."
     },
     {
       "slot": "Especial (alt.)",
@@ -82,7 +82,7 @@
       "en": "Cryocharge",
       "pick": "Variante",
       "spec": "Congelante. Tiro perfurante de 2.000% de dano. Coeficiente 1,5. Recarga 15 s. (O texto em português do tiro diz 350%; a wiki corrige para 2.000%.)",
-      "why": "Congela, e inimigos congelados abaixo de 30% de vida morrem na hora. Não desliga as armas. Não congela chefes (exceto o Devastador do Vazio). Melhor contra grupos; o Supercarregado é melhor contra chefes. Desbloqueio pelo desafio Railgunner: Trickshot."
+      "why": "Congela, e inimigos congelados abaixo de 30% de vida morrem na hora. Não desliga as armas. Não congela chefes (exceto o Devastador Nulo, Void Devastator). Melhor contra grupos; o Supercarregado é melhor contra chefes. Desbloqueio pelo desafio Railgunner: Trickshot."
     }
   ],
   "sections": [
@@ -188,7 +188,7 @@
           "prio": 1,
           "qty": "1 a 2",
           "effect": "+5% de chance de crítico. Acertos Críticos aumentam a velocidade de ataque em 12%, até 36% (+24% por acúmulo).",
-          "why": "A wiki confirma que acertar Ponto Fraco ativa o bônus. Com a M99, isso acelera a recarga; com a HH44, os tiros. Os 5% de chance viram +5% de dano de crítico."
+          "why": "Acerto em Ponto Fraco é crítico, então ativa o bônus. Segundo a wiki, com a M99 isso acelera a recarga; com a HH44, os tiros. Os 5% de chance viram +5% de dano de crítico."
         },
         {
           "icon": "kjaros-band",
@@ -197,7 +197,7 @@
           "prio": 1,
           "qty": "1 a 3",
           "effect": "Golpes acima de 400% de dano também lançam um tornado de fogo rúnico que causa 300% (+300% por acúmulo) de dano TOTAL ao longo do tempo. Recarrega a cada 10 s.",
-          "why": "Todo tiro da M99, da HH44 e do Supercarregado passa de 400%. Como o dano é TOTAL, o tornado acompanha o tamanho do tiro."
+          "why": "Todo tiro da M99 e do Supercarregado passa de 400%. Como o dano é TOTAL, o tornado acompanha o tamanho do tiro."
         },
         {
           "icon": "runalds-band",
@@ -215,7 +215,7 @@
           "prio": 2,
           "qty": "1 a 3",
           "effect": "10% de chance de disparar um míssil que causa 300% (+300% por acúmulo) de dano TOTAL.",
-          "why": "A wiki cita o coeficiente 3,0 do Supercarregado: a chance de ativar sobe muito, e o dano TOTAL vem de um tiro de 4.000%. A XQR também ativa sem parar."
+          "why": "O Supercarregado tem coeficiente 3,0: a chance de ativar triplica (10% vira 30%), e o dano TOTAL vem de um tiro de 4.000%. A XQR também ativa sem parar."
         },
         {
           "icon": "ukulele",
@@ -268,7 +268,7 @@
           "prio": 1,
           "qty": "1 a 2",
           "effect": "Todos os ataques explodem num raio de 4 m (+2,5 m por acúmulo) causando 60% de dano TOTAL extra aos inimigos próximos.",
-          "why": "A explosão usa o dano TOTAL do tiro, então 60% de um tiro de M99 crítico já limpa o grupo. A wiki diz que o Supercarregado triplica o raio, de 4 m para 12 m."
+          "why": "A explosão usa o dano TOTAL do tiro, então 60% de um tiro de M99 crítico já é muito dano em área. A wiki diz que o Supercarregado triplica o raio, de 4 m para 12 m."
         },
         {
           "icon": "alien-head",
@@ -356,7 +356,7 @@
           "prio": 2,
           "qty": "1 (recarga 60 s)",
           "effect": "Dispara um buraco negro que puxa inimigos a até 30 m para o centro. Dura 10 s.",
-          "why": "Junta o grupo em fila para o tiro perfurante. O Supercarregado não perde dano ao perfurar, e o Brutamontes explode no meio de todos."
+          "why": "Junta o grupo num ponto para o tiro perfurante. O Supercarregado não perde dano ao perfurar, e o Brutamontes explode no meio de todos."
         },
         {
           "icon": "royal-capacitor",
@@ -487,7 +487,7 @@
     },
     {
       "title": "Golpes acima de 400%",
-      "text": "Todo tiro de M99 (1.000%), HH44 (400% base, mais com itens) e Supercarregado (4.000%) passa do limite dos Cinturões. Kjaro e Runald ativam a cada 10 s, e o dano TOTAL deles cresce com o tamanho do tiro. Pé de Cabra entra no primeiro tiro em quem está de vida cheia."
+      "text": "Todo tiro de M99 (1.000%) e Supercarregado (4.000%) passa do limite dos Cinturões. A HH44 (400%) fica no limite exato, e crítico ou itens de dano não contam para ele. Kjaro e Runald ativam a cada 10 s, e o dano TOTAL deles cresce com o tamanho do tiro. Pé de Cabra entra no primeiro tiro em quem está de vida cheia."
     },
     {
       "title": "Coeficiente 3,0 do Supercarregado",
@@ -643,6 +643,7 @@
   ],
   "notes": [
     "A Canhoneira faz parte da DLC Survivors of the Void.",
-    "A wiki não diz explicitamente se a XQR pode acertar Ponto Fraco; ela diz apenas que a Canhoneira não tem críticos aleatórios e que o Ponto Fraco é destacado pela mira."
+    "A wiki não diz explicitamente se a XQR pode acertar Ponto Fraco; ela diz apenas que a Canhoneira não tem críticos aleatórios e que o Ponto Fraco é destacado pela mira.",
+    "Limite dos Cinturões: a página do Cinturão de Kjaro diz ora mais de 400%, ora 400% ou mais. Não está confirmado se a HH44 (400%) ativa os Cinturões."
   ]
 }

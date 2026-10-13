@@ -409,7 +409,7 @@
           "prio": 3,
           "qty": "1 a 2",
           "effect": "25% de chance de disparar um raio de 60% de dano TOTAL até 3 (+3 por acúmulo) vezes. Corrompe todos os Ukuleles.",
-          "why": "Mais forte que o Ukulele contra um alvo, mais fraco em grupo. Cuidado: corrompe os Ukuleles que você também usa."
+          "why": "Corrompe o Ukulele, que é essencial nesta build: você perde o raio em cadeia que espalha dano pelo grupo. Em troca, o raio acerta o mesmo alvo até 3 vezes. Mais forte contra um alvo, mais fraco em grupo. Só vale se a run está focada em chefes."
         },
         {
           "icon": "voidsent-flame",

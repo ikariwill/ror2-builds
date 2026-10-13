@@ -42,7 +42,7 @@
       "en": "DIRECTIVE: Inject",
       "pick": "Única opção",
       "spec": "3 seringas de 80%. Coeficiente 0,5 cada. A última Enfraquece e cura 60% do dano causado.",
-      "why": "É a cura constante do REX. Como a cura é uma fração do dano, todo item que aumenta dano aumenta a cura. Cada seringa rola crítico separadamente. A wiki avisa que itens ao acertar, como a Bomba Aderente, não aumentam essa cura."
+      "why": "É a cura constante do REX. Como a cura é uma fração do dano, todo item que aumenta dano aumenta a cura. Cada seringa rola crítico separadamente. A wiki avisa que itens ao acertar, como a Bomba Aderente (Sticky Bomb), não aumentam essa cura."
     },
     {
       "slot": "Secundária",
@@ -58,7 +58,7 @@
       "en": "DIRECTIVE: Drill",
       "pick": "Variante",
       "spec": "Chuva de sementes: 16 golpes de 90% (1440% no total em 3,2 s). Coeficiente 0,5 por golpe. Recarga 6 s. Não custa vida.",
-      "why": "Mais segura porque não gasta vida. Precisa que o alvo fique parado na área para acertar tudo, e o Aprimoramento Emaranhado faz isso. A wiki cita o Pente Reserva com essa combinação."
+      "why": "Mais segura porque não gasta vida. Precisa que o alvo fique parado na área para acertar tudo, e o Aprimoramento Emaranhado faz isso. A wiki cita o Pente Reserva (Backup Magazine) como forte com a Perfurar e quase redundante com a Barragem."
     },
     {
       "slot": "Utilitária",
@@ -82,7 +82,7 @@
       "en": "Proliferation",
       "pick": "Variante",
       "spec": "Lança uma flor-torre (Offshoot) que atira 1 vez por segundo por 200% do dano dela. Coeficiente 1,0. Recarga 5,5 s. Custa 20% da vida atual. Até 2 ao mesmo tempo.",
-      "why": "Vem com o DLC Hallowed Concepts e o desafio REX: Invasive Growth. Usar a Utilitária mirando uma torre a até 80 m teletransporta o REX até ela e cura 20% da vida máxima, sem gastar carga. Cada carga extra de Utilitária permite mais uma torre. Ainda não tem nome em português no jogo."
+      "why": "Vem com o DLC Hallowed Concepts e o desafio REX: Invasive Growth. Usar a Utilitária mirando uma torre a até 80 m teletransporta o REX até ela, destrói a torre e cura 20% da vida máxima, sem gastar carga. Cada carga extra de Utilitária permite mais uma torre. Ainda não tem nome em português no jogo."
     },
     {
       "slot": "Especial",
@@ -98,7 +98,7 @@
       "en": "DIRECTIVE: Harvest",
       "pick": "Variante",
       "spec": "Raio de 330%. Coeficiente 1,0. Recarga 6 s. Não custa vida. O alvo, ao morrer, solta 2 a 8 frutas que curam 25% da vida cada.",
-      "why": "Melhor contra alvos únicos e para quem joga em grupo, porque as frutas curam aliados. Trava as habilidades do REX por 1 s ao usar. Perde o controle de grupo do Emaranhado."
+      "why": "Melhor contra alvos únicos. Trava as habilidades do REX por 1 s ao usar. Perde o controle de grupo do Emaranhado."
     }
   ],
   "sections": [
@@ -130,7 +130,7 @@
           "icon": "repulsion-armor-plate",
           "pt": "Placa da Armadura de Repulsão",
           "en": "Repulsion Armor Plate",
-          "prio": 2,
+          "prio": 1,
           "qty": "2 a 5",
           "effect": "Reduz todo o dano recebido em 5 (+5 por acúmulo). Não pode ser reduzido abaixo de 1.",
           "why": "Segundo a wiki, reduz também o custo de vida da Barragem e da Rajada. Não reduz o custo do Aprimoramento Emaranhado."
@@ -276,7 +276,7 @@
           "prio": 4,
           "qty": "1",
           "effect": "Cair abaixo de 25% de vida faz você ganhar 40% de velocidade de movimento e invisibilidade por 5 s. Recarrega a cada 30 segundos (−50% por acúmulo).",
-          "why": "A wiki cita este item porque o REX cai abaixo de 25% com frequência. Dá tempo de curar com a Injetar sem ser atacado."
+          "why": "A wiki diz que o custo das habilidades pode ativar o Kit Furtivo, porque leva o REX abaixo de 25%. Dá tempo de curar com a Injetar sem ser atacado."
         },
         {
           "icon": "unstable-transmitter",
@@ -285,7 +285,7 @@
           "prio": 4,
           "qty": "1",
           "effect": "Cair abaixo de 25% de vida dá 60% da sua vida máxima como barreira temporária. Ganha uma aura dimensional por 8 s que faz os inimigos sangrarem e os teletransporta para longe. Inimigos mortos pela aura estendem a duração em 1 s. Regenera no início de cada fase.",
-          "why": "Também citado pela wiki para vida baixa. Atenção: o custo das habilidades gasta a barreira primeiro."
+          "why": "Segundo a wiki, o custo das habilidades também pode ativar o Transmissor. Atenção: o custo das habilidades gasta a barreira primeiro."
         }
       ]
     },
@@ -311,7 +311,7 @@
           "prio": 1,
           "qty": "1",
           "effect": "Adiciona +2 (+2 por acúmulo) cargas da habilidade Utilitária. Reduz a recarga da Utilitária em 33%.",
-          "why": "Três Rajadas seguidas: três curas por alvo em sequência. A wiki nota que, com o Pós-combustor, o REX pode ficar no ar indefinidamente usando a Utilitária."
+          "why": "Três Rajadas seguidas: três curas por alvo em sequência. A wiki nota que, com o Pós-combustor, a Utilitária usada no ar deixa o REX voar para qualquer lugar, mas é difícil de controlar."
         },
         {
           "icon": "alien-head",
@@ -373,7 +373,7 @@
           "prio": 2,
           "qty": "1 a 2",
           "effect": "Cura a partir do dano recebido em 15 (+15 por acúmulo).",
-          "why": "A wiki confirma que o custo de vida das habilidades ativa a Plânula. Cada Barragem devolve um pouco de vida na hora."
+          "why": "Segundo a wiki, dano causado a si mesmo ativa a Plânula. Cada Barragem devolve um pouco de vida na hora. O custo do Emaranhado não ativa."
         },
         {
           "icon": "titanic-knurl",
@@ -522,11 +522,11 @@
   "synergy": [
     {
       "title": "A cura vem do dano",
-      "text": "A última seringa da Injetar cura 60% do dano que causou. Por isso itens que aumentam dano (Óculos, Seringa, Tônico) aumentam a cura. A wiki avisa que efeitos ao acertar, como a Bomba Aderente ou o Ukulele, não entram nessa conta: o dano deles não é da seringa."
+      "text": "A última seringa da Injetar cura 60% do dano que causou. Por isso itens que aumentam dano (Óculos, Seringa, Tônico) aumentam a cura. A wiki avisa que efeitos ao acertar, como a Bomba Aderente, não entram nessa conta. O mesmo vale para o Ukulele: o dano deles não é da seringa."
     },
     {
       "title": "Como funciona o custo de vida",
-      "text": "Barragem, Rajada e Emaranhado custam uma porcentagem da vida atual, contando escudo e barreira. A barreira é gasta primeiro, depois o escudo, depois a vida. A armadura reduz o custo da Barragem e da Rajada, mas não o do Emaranhado. Esses custos contam como dano recebido e ativam Kit de Cura, Plânula e Arame Farpado."
+      "text": "Barragem, Rajada e Emaranhado custam uma porcentagem da vida atual, contando escudo e barreira. A barreira é gasta primeiro, depois o escudo, depois a vida. A armadura reduz o custo da Barragem e da Rajada, mas não o do Emaranhado. Esses custos contam como dano recebido e ativam Kit de Cura, Plânula e Arame Farpado. A exceção é a Plânula no Emaranhado: a wiki diz que esse custo não a ativa."
     },
     {
       "title": "Prender e curar",
@@ -538,7 +538,7 @@
     },
     {
       "title": "Grupos presos e efeitos de abate",
-      "text": "A wiki cita Gasolina, Will-o'-the-wisp e Espinho Nocivo com o Emaranhado. Com todos presos no mesmo lugar, um abate espalha fogo ou lava para os vizinhos. Enfraquecer e Emaranhado contam como debuffs, o que ajuda a Marca Fatal."
+      "text": "A wiki cita Gasolina e Will-o'-the-wisp com o Emaranhado. Com todos presos no mesmo lugar, um abate espalha fogo ou lava para os vizinhos. Enfraquecer e Emaranhado contam como debuffs, o que ajuda a Marca Fatal."
     }
   ],
   "rotation": [
@@ -682,6 +682,7 @@
   ],
   "notes": [
     "Proliferation veio com o DLC Hallowed Concepts (8 de outubro de 2026) e ainda não tem nome em português no jogo.",
-    "A wiki desaconselha as habilidades que custam vida no Eclipse 8, onde o dano recebido reduz a vida máxima de forma permanente. Para runs normais, esta build é a mais forte."
+    "Não confirmado na wiki: se os aliados podem pegar as frutas da DIRETRIZ: Colher.",
+    "A wiki desaconselha as habilidades que custam vida no Eclipse 8, onde o dano recebido reduz a vida máxima de forma permanente. Em runs normais, o custo de vida não tem esse efeito."
   ]
 }

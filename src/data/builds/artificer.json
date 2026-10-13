@@ -34,7 +34,7 @@
       "en": "ENV Suit",
       "pick": "Fixa",
       "spec": "Segure o botão de pulo para pairar no ar. Pode virar alternância nas opções desde Seekers of the Storm.",
-      "why": "Pairar é a principal defesa contra inimigos de chão. Com a Pluma de Hopoo, os pulos extras são gastos antes de a roupa ativar."
+      "why": "A wiki recomenda passar a maior parte da luta no chão, onde há cobertura e é mais fácil acertar. Pairar serve para sair do alcance de inimigos de chão por um momento. Com a Pluma de Hopoo, segurar o pulo gasta um pulo extra antes de a roupa ativar."
     },
     {
       "slot": "Primária",
@@ -50,14 +50,14 @@
       "en": "Plasma Bolt",
       "pick": "Variante",
       "spec": "280% de dano e explosão de 6 m sem perda nas bordas. Até 4 cargas, recarga 1,3 s com velocidade de ataque. Coeficiente 1,0.",
-      "why": "Mais preciso e melhor em área, segundo a wiki, e mais fácil contra voadores. Perde a sinergia com o Tanque de Ignição. Desbloqueio: Artífice: Massacre (Massacre)."
+      "why": "Perdoa mais erros de mira e é melhor em área, segundo a wiki, e mais fácil contra voadores. Perde a sinergia com o Tanque de Ignição. Desbloqueio: Artífice: Massacre (Massacre)."
     },
     {
       "slot": "Secundária",
       "pt": "Nanobomba Carregada",
       "en": "Charged Nano-Bomb",
       "pick": "Recomendada",
-      "spec": "Atordoante. 400% a 2000% de dano conforme a carga (2 s para carga total). Explosão de 14 m. Coeficiente 1,0 (faíscas 0,3). Recarga 5 s.",
+      "spec": "Atordoante. 400% a 2000% de dano conforme a carga (2 s para carga total). A wiki nota que carrega um pouco na animação inicial, então o mínimo real é 600%. Explosão de 14 m. Coeficiente 1,0 (faíscas 0,3). Recarga 5 s.",
       "why": "Passa com folga dos 400% que ativam os Cinturões de Kjaro e Runald. Velocidade de ataque carrega mais rápido e o Pente Reserva dá cargas extras. A alternativa Conjurar Nanoprojétil (Cast Nano-Spear, 400% a 1200%, perfurante, Congelante) é forte contra chefes com muitos Pentes, segundo a wiki."
     },
     {
@@ -66,7 +66,7 @@
       "en": "Snapfreeze",
       "pick": "Recomendada",
       "spec": "Congelante. Barreira de pilares de 100% de dano cada. Coeficiente 1,0 × 12. Recarga 12 s.",
-      "why": "Congela e bloqueia o caminho dos inimigos de chão. Inimigos congelados abaixo de 30% de vida morrem na hora. Não congela a maioria dos chefes. A alternativa Tectonic Blast (8 × 100%, Óleo, 2 cargas, recarga 7 s) é da DLC Hallowed Concepts (veja as notas)."
+      "why": "Congela e bloqueia o caminho dos inimigos de chão. Inimigos congelados abaixo de 30% de vida morrem na hora. Não congela a maioria dos chefes. A alternativa Tectonic Blast (8 × 100%, coeficiente 0,5, Óleo, 2 cargas, recarga 7 s) é da DLC Hallowed Concepts (veja as notas). Troca o muro defensivo por dano. Segundo a wiki, inimigos com Óleo levam o quádruplo de dano de queimadura."
     },
     {
       "slot": "Especial",
@@ -127,7 +127,7 @@
           "prio": 3,
           "qty": "1 a 3",
           "effect": "+75% (+75% por acúmulo) de dano contra inimigos acima de 90% de vida.",
-          "why": "A Nanobomba abre a luta em inimigos de vida cheia. A wiki cita Pé de Cabra com Fogo-fátuo para matar Lesser Wisps de uma vez."
+          "why": "A Nanobomba abre a luta em inimigos de vida cheia. A wiki diz que o Pé de Cabra ajuda a garantir abates de um golpe nos Espíritos Inferiores (Lesser Wisp), voadores que incomodam a Artífice."
         },
         {
           "icon": "tri-tip-dagger",
@@ -216,7 +216,7 @@
           "prio": 3,
           "qty": "1 a 2",
           "effect": "Ao abater um inimigo, cria um pilar de lava num raio de 12 m (+2,4 m por acúmulo) causando 350% (+280% por acúmulo) do dano base.",
-          "why": "A wiki indica para limpar voadores e para combinar com o Pé de Cabra."
+          "why": "A wiki indica para limpar os voadores, ponto fraco da Artífice."
         },
         {
           "icon": "ukulele",
@@ -243,7 +243,7 @@
           "prio": 4,
           "qty": "1",
           "effect": "+1 (+1 por acúmulo) pulo máximo.",
-          "why": "Mais altura para fugir. A wiki avisa: a Roupa AMB só ativa depois de gastar os pulos extras, e segurar o pulo gasta um pulo primeiro."
+          "why": "Mais altura para fugir. A wiki avisa: apertar o pulo no ar gasta um pulo extra, e segurar o pulo gasta um pulo antes de a Roupa AMB ativar."
         }
       ]
     },
@@ -445,7 +445,7 @@
           "prio": 1,
           "qty": "1 a 2",
           "effect": "+1 (+1 por acúmulo) carga da habilidade Especial e −33% no tempo de recarga dela. Corrompe todas as Células de Combustível.",
-          "why": "Dois Lança-chamas seguidos e recarga menor. É o maior ganho de dano possível para esta build."
+          "why": "Dois Lança-chamas seguidos e recarga 33% menor. O Lança-chamas é a maior fonte de dano da build."
         },
         {
           "icon": "polylute",
@@ -472,7 +472,7 @@
           "prio": 0,
           "qty": "0 (se tiver Cinturões)",
           "effect": "Golpes que causam mais de 400% de dano também disparam um buraco negro que puxa inimigos a até 15 m para o centro. Dura 5 segundos antes de colapsar, causando 100% (+100% por acúmulo) de dano TOTAL. Recarrega a cada 20 segundos. Corrompe todos os Cinturões de Runald e de Kjaro.",
-          "why": "Armadilha: apaga todos os seus Cinturões de Kjaro e de Runald, os verdes centrais da Nanobomba, em troca de um efeito com recarga de 20 s."
+          "why": "Corrompe todos os Cinturões de Kjaro e de Runald, e o Cinturão de Kjaro é essencial nesta build. Você perde o tornado e o gelo da Nanobomba, com recarga de 10 s, em troca de um buraco negro de 100% com recarga de 20 s."
         }
       ]
     }
@@ -488,7 +488,7 @@
     },
     {
       "title": "Velocidade de ataque",
-      "text": "Velocidade de ataque reduz a recarga do Raio Flamejante, carrega a Nanobomba mais rápido e adiciona acertos ao Lança-chamas sem aumentar a duração. Mais acertos significam mais ativações de Míssil, Ukulele, Adaga e Semente. Evite a Ombreira do Fluxo Iluminado."
+      "text": "Velocidade de ataque reduz a recarga do Raio Flamejante, carrega a Nanobomba mais rápido e adiciona acertos ao Lança-chamas. Mais acertos significam mais ativações de Míssil, Ukulele, Adaga e Semente. Evite a Ombreira do Fluxo Iluminado (Light Flux Pauldron)."
     },
     {
       "title": "Crítico rolado uma vez",
@@ -517,8 +517,8 @@
       "text": "Gaste as 4 cargas no alvo mais perigoso e deixe recarregar."
     },
     {
-      "step": "Paire e se mova",
-      "text": "Segure o pulo para sair do alcance de inimigos de chão enquanto as recargas voltam."
+      "step": "Mova-se pelo chão",
+      "text": "Use a cobertura enquanto as recargas voltam. Paire só para sair do alcance de inimigos de chão."
     }
   ],
   "essentials": [
@@ -639,7 +639,7 @@
     }
   ],
   "notes": [
-    "Tectonic Blast veio com a DLC Hallowed Concepts (lançada em 8 out. 2026) e ainda não tem nome no arquivo pt-BR do jogo, por isso aparece em inglês. Desbloqueio: chegar ao chefe final da Lua sem ativar nenhum pilar.",
+    "Tectonic Blast veio com a DLC Hallowed Concepts (lançada em 8 out. 2026) e ainda não tem nome no arquivo pt-BR do jogo, por isso aparece em inglês. A wiki cita o desafio Artificer: One Giant Leap sem o texto do requisito; segundo a Destructoid, é chegar ao chefe final da Lua sem ativar nenhum pilar.",
     "O desbloqueio do Conjurar Nanoprojétil é o desafio Artificer: Chunked!."
   ]
 }

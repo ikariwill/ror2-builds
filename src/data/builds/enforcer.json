@@ -50,7 +50,7 @@
       "en": "Steel Protection",
       "pick": "Recomendada",
       "spec": "Postura defensiva: bloqueia dano frontal, troca a Primária, 32% da velocidade de caminhada. Ao sair: golpe de escudo de 300% com 1 s de atordoamento. Recarga 4 s, começa ao sair.",
-      "why": "Aparar golpes logo antes do golpe de escudo reflete o dano: projéteis voltam ao atacante e outros golpes viram um raio de 6× o dano bloqueado, que pode ser crítico. O primeiro aparo dá +200 de armadura até o fim do golpe. Sair da postura recarrega o pente e prepara o tiro Traçante. A alternativa Surge Protection dura até 5 s, transforma 50% do dano bloqueado em barreira e depois explode consumindo barreira e escudo."
+      "why": "Aparar golpes logo antes do golpe de escudo reflete o dano: projéteis voltam ao atacante e outros golpes viram um raio de 6× o dano bloqueado, que pode ser crítico. O primeiro aparo dá +200 de armadura até o fim do golpe. Sair da postura recarrega o pente e prepara o tiro Traçante. A alternativa Surge Protection (recarga 6 s) dura até 5 s, transforma 50% do dano bloqueado em barreira e depois explode consumindo barreira e escudo, com 250% de dano mais o valor consumido."
     },
     {
       "slot": "Utilitária",
@@ -58,7 +58,7 @@
       "en": "Shield Tackle",
       "pick": "Recomendada",
       "spec": "Investida de 600% de dano por segundo (150% por acerto, 1 s de atordoamento). 2 cargas que recarregam juntas. Recarga 6 s. Coeficiente 1,0.",
-      "why": "Toque para uma investida curta ou segure para gastar outra carga e ir mais longe. O escudo bloqueia ataques frontais durante a investida. A wiki confirma que o Pós-combustor de Holograma adiciona cargas que podem ser gastas segurando. A alternativa Ripcord (300% em 20 m, puxa inimigos e aplica Provocação com −10 de armadura) não faz os inimigos mirarem no Enforcer, apesar do texto do jogo."
+      "why": "Toque para uma investida curta ou segure para gastar outra carga e ir mais longe. O escudo bloqueia ataques frontais durante a investida. A wiki confirma que o Pós-combustor de Holograma adiciona cargas que podem ser gastas segurando. A alternativa Ripcord (2 cargas, recarga 8 s; 300% em 20 m, puxa inimigos e aplica Provocação com −10 de armadura) não faz os inimigos mirarem no Enforcer, apesar do texto do jogo."
     },
     {
       "slot": "Especial",
@@ -171,7 +171,7 @@
           "prio": 1,
           "qty": "1 a 3",
           "effect": "+5% de chance de crítico. Críticos curam 8 (+4 por acúmulo) de vida.",
-          "why": "O tiro Traçante garante pelo menos um crítico por pente, então a cura sempre acontece. Com Óculos, cura em quase todo tiro."
+          "why": "O tiro Traçante garante pelo menos um crítico por pente, então a cura sempre acontece. Com Óculos, cura com mais frequência."
         },
         {
           "icon": "predatory-instincts",
@@ -234,7 +234,7 @@
           "prio": 4,
           "qty": "1 (com Shrapnel Grenade)",
           "effect": "Golpes que causam mais de 400% de dano também lançam um tornado de chamas rúnicas, causando 300% (+300% por acúmulo) de dano TOTAL ao longo do tempo. Recarrega a cada 10 s.",
-          "why": "A granada da Shrapnel Grenade causa 500% e passa do limite de 400%. A bala de 350% da Trenchbroom não passa."
+          "why": "A granada da Shrapnel Grenade causa 500% e passa do limite de 400%. Na metade externa do raio ela causa 75% do dano (375%) e não passa. A bala de 350% da Trenchbroom também não passa."
         }
       ]
     },
@@ -625,7 +625,7 @@
     "A DLC Hallowed Concepts é muito nova (lançada em 8 de outubro de 2026). Este guia usa só itens do jogo base e das três DLCs anteriores, então pode mudar conforme a comunidade testar o personagem.",
     "O Enforcer e suas habilidades ainda não estão no arquivo de textos em português, por isso os nomes aparecem em inglês.",
     "Requer a DLC Hallowed Concepts ativa ao começar a run. A wiki diz que ele vem desbloqueado.",
-    "As seções de Dicas e Comportamento da wiki ainda estão vazias. Shrapnel Grenade, Ripcord, Surge Protection e Crash Point têm desafios de desbloqueio cujos requisitos a wiki não descreve.",
+    "A seção de Dicas da wiki ainda está vazia. As alternativas vêm de desafios: Burning Lead (Shrapnel Grenade), +PARRY (Surge Protection), Safe and Sound (Ripcord) e Indomitable (Crash Point). A wiki só descreve o +PARRY: aparar a supernova de uma Peregrina Errante (Wandering Vagrant).",
     "A wiki aponta diferenças com o texto do jogo: a Surge Protection não tem o limite de 1800% citado no jogo, a Provocação do Ripcord não faz os inimigos mirarem no Enforcer e o Rally Point dá uma barreira de 20% que o texto não menciona."
   ]
 }

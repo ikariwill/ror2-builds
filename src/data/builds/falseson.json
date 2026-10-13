@@ -50,7 +50,7 @@
       "en": "Lunar Spikes",
       "pick": "Recomendada",
       "spec": "Ruína Lunar, Ágil. Espinho de 200%. Começa com 4 cargas, mais com Crescimento. Recarga 4 s, coeficiente 1,0.",
-      "why": "Ruína Lunar faz o alvo levar +10% de dano de todas as fontes e acumula, por 5 s. É o que você usa contra voadores fora do alcance da clava. A alternativa Estacas Lunares (Lunar Stakes, 300% perfurante, raio de 150% em 6 m, recarga 11 s) conta como 2 Espinhos, mas ganha cargas com Crescimento na metade do ritmo."
+      "why": "Ruína Lunar faz o alvo levar +10% de dano de todas as fontes e acumula, por 5 s. É o que você usa contra voadores fora do alcance da clava. A alternativa Estacas Lunares (Lunar Stakes, 300% perfurante e relâmpago de 150% em 6 m em cada inimigo perfurado, 2 cargas, recarga 11 s) conta como 2 Espinhos, mas ganha cargas com Crescimento na metade do ritmo."
     },
     {
       "slot": "Utilitária",
@@ -91,7 +91,7 @@
           "prio": 1,
           "qty": "5 a 10",
           "effect": "Aumenta a vida máxima em 25 (+25 por acúmulo).",
-          "why": "É o item que a wiki usa como referência para o Crescimento: 1 filé dá 1 Espinho a mais, 4 filés dão 4, 9 filés dão 7. Cada um aumenta Espinhos, passiva e duração do Laser."
+          "why": "É o item que a wiki usa como referência para o Crescimento: 1 filé dá 1 Espinho a mais, 4 filés dão 4, 9 filés dão 7. Cada Espinho a mais aumenta a passiva e a duração do Laser."
         },
         {
           "icon": "focus-crystal",
@@ -188,7 +188,7 @@
           "en": "Runald's Band",
           "prio": 3,
           "qty": "1",
-          "effect": "Golpes que causam mais de 400% de dano também lançam uma explosão de gelo rúnico, desacelerando em 80% por 3 s (+3 s por acúmulo) e causando 250% (+250% por acúmulo) de dano TOTAL.",
+          "effect": "Golpes que causam mais de 400% de dano também lançam uma explosão de gelo rúnico, desacelerando em 80% por 3 s (+3 s por acúmulo) e causando 250% (+250% por acúmulo) de dano TOTAL. Recarrega a cada 10 segundos.",
           "why": "Mesmo motivo do Kjaro. A desaceleração segura os inimigos perto de um personagem lento."
         },
         {
@@ -269,7 +269,7 @@
           "prio": 3,
           "qty": "1",
           "effect": "Dá +4% em TODOS os atributos para cada buff, até no máximo 4 (+4 por acúmulo).",
-          "why": "A wiki lista o Néctar entre os itens que contam para o Crescimento."
+          "why": "A wiki lista o Néctar entre os itens ligados ao Crescimento, mas não diz quanto ele dá."
         },
         {
           "icon": "rejuvenation-rack",
@@ -436,7 +436,7 @@
           "prio": 4,
           "qty": "1",
           "effect": "Golpes que causam mais de 400% de dano também lançam um buraco negro que puxa inimigos a até 15 m. Dura 5 s e colapsa causando 100% (+100% por acúmulo) de dano TOTAL. Recarrega a cada 20 s. Corrompe todos os Cinturões de Runald e de Kjaro.",
-          "why": "Junta o grupo para o impacto da clava. Cuidado: corrompe o Cinturão de Kjaro, que é um dos melhores itens da build."
+          "why": "Junta o grupo para o impacto da clava. Cuidado: corrompe o Cinturão de Kjaro, que é um dos melhores itens da build, e o Cinturão de Runald."
         }
       ]
     }
@@ -448,7 +448,7 @@
     },
     {
       "title": "O que conta para o Crescimento",
-      "text": "A wiki lista: Filé de Bisão, Infusão, Fragmento Titânico, Pérola, Pérola Irradiante, Néctar de Crescimento, Ombreira do Fluxo Pétreo, Tônico de Espinélia, Rosário da Prece e Compulsão de Colecionador. As refeições do Wandering CHEF (DLC Alloyed Collective) Bife Selado e Conserto Rápido também contam. O Pente Reserva dá Espinhos, mas não aumenta o Laser."
+      "text": "A wiki lista: Filé de Bisão, Infusão, Fragmento Titânico, Pérola, Pérola Irradiante, Néctar de Crescimento, Ombreira do Fluxo Pétreo, Tônico de Espinélia, Rosário da Prece e Compulsão de Colecionador (pelo bônus temporário de atributos). As refeições do Wandering CHEF (DLC Alloyed Collective) Bife Selado e Conserto Rápido também contam. O Pente Reserva dá Espinhos, mas não aumenta o Laser."
     },
     {
       "title": "Golpes acima de 400%",
@@ -456,7 +456,7 @@
     },
     {
       "title": "Ruína Lunar",
-      "text": "Cada Espinho que acerta aplica Ruína Lunar: +10% de dano recebido de todas as fontes e cura reduzida por 5 s. Ela acumula e cada acúmulo novo renova a duração. Arremesse Espinhos no chefe antes do impacto da clava ou do Laser para aumentar tudo o que vem depois."
+      "text": "Cada Espinho que acerta aplica Ruína Lunar: +10% de dano recebido de todas as fontes e −20% de cura por 5 s. Ela acumula e cada acúmulo novo renova a duração. Arremesse Espinhos no chefe antes do impacto da clava ou do Laser para aumentar tudo o que vem depois."
     },
     {
       "title": "Espinhos guardados ou usados",
@@ -535,7 +535,7 @@
     {
       "pt": "Cabeça Alienígena",
       "en": "Alien Head",
-      "text": "Célula Lisada para o Laser e Pós-combustor para o Passo. Pureza se aceitar o custo nos efeitos de chance."
+      "text": "Célula Lisada para o Laser e Pós-combustor de Holograma para o Passo. Pureza se aceitar o custo nos efeitos de chance."
     },
     {
       "pt": "Brutamontes Reluzente",
@@ -557,7 +557,7 @@
   "checklist": [
     {
       "title": "Sempre pegue",
-      "text": "Filé de Bisão, Infusão, Cinturão de Kjaro, Cabeça Alienígena, Brutamontes, Célula Lisada."
+      "text": "Filé de Bisão, Infusão, Cinturão de Kjaro, Cabeça Alienígena, Brutamontes Reluzente, Célula Lisada."
     },
     {
       "title": "Impressoras brancas",
@@ -596,6 +596,7 @@
   ],
   "notes": [
     "O Falso Filho exige a DLC Seekers of the Storm e é desbloqueado pelo desafio Purified Freedom.",
-    "Estacas Lunares, Vontade do Meridiano e Rajada de Laser são desbloqueadas pelos desafios Protein Heavy Diet, Family Bonding e Stare Them Down."
+    "Estacas Lunares, Vontade do Meridiano e Rajada de Laser são desbloqueadas pelos desafios Protein Heavy Diet, Family Bonding e Stare Them Down.",
+    "A wiki lista Fragmento Titânico, Pérola, Pérola Irradiante, Néctar de Crescimento, Ombreira do Fluxo Pétreo, Tônico de Espinélia e Bife Selado entre os itens de Crescimento, mas não explica quanto cada um dá. A build assume que a vida máxima bônus deles conta como a do Filé."
   ]
 }

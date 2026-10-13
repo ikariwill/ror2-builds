@@ -98,7 +98,7 @@
       "id": "comum",
       "name": "Comum",
       "color": "branco",
-      "intro": "A Carregadeira bate de perto e vive de barreira. Os brancos dão dano de perto, vida e golpes mais frequentes.",
+      "intro": "A Carregadeira bate de perto e vive de barreira. Os brancos dão dano de perto, vida, golpes mais frequentes e mais cargas do gancho.",
       "items": [
         {
           "icon": "soldiers-syringe",
@@ -144,6 +144,15 @@
           "qty": "2 a 4",
           "effect": "15% (+15% por acúmulo) de chance de bloquear o dano recebido. Não é afetado por sorte.",
           "why": "Lutar no meio do grupo é tomar muitos golpes. Cada bloqueio poupa barreira."
+        },
+        {
+          "icon": "backup-magazine",
+          "pt": "Pente Reserva",
+          "en": "Backup Magazine",
+          "prio": 2,
+          "qty": "1 a 3",
+          "effect": "Adiciona +1 (+1 por acúmulo) carga da habilidade Secundária.",
+          "why": "Mais de uma Agarradeira em sequência: dá para pendurar, soltar e pendurar de novo sem esperar 5 s. Mais velocidade, mais dano no soco."
         },
         {
           "icon": "personal-shield-generator",
@@ -206,15 +215,6 @@
           "qty": "1 a 3",
           "effect": "Golpes que causam mais de 400% de dano também atingem os inimigos com um tornado de chamas rúnicas, causando 300% (+300% por acúmulo) de dano TOTAL ao longo do tempo. Recarrega a cada 10 segundos.",
           "why": "Também citado pela wiki. A Garra Carregada sempre passa de 400%, e o tornado escala com o dano TOTAL do soco. O Braço Articulado (320%) não ativa."
-        },
-        {
-          "icon": "backup-magazine",
-          "pt": "Pente Reserva",
-          "en": "Backup Magazine",
-          "prio": 2,
-          "qty": "1 a 3",
-          "effect": "Adiciona +1 (+1 por acúmulo) carga da habilidade Secundária.",
-          "why": "Mais de uma Agarradeira em sequência: dá para pendurar, soltar e pendurar de novo sem esperar 5 s. Mais velocidade, mais dano no soco."
         },
         {
           "icon": "bandolier",
@@ -312,7 +312,7 @@
           "prio": 3,
           "qty": "1",
           "effect": "Aumenta a altura do pulo. Cria uma explosão cinética de 5 m a 100 m de raio ao tocar o chão, causando de 1000% a 10000% do dano base conforme a altura da queda. Recarrega em 10 (−50% por acúmulo) segundos.",
-          "why": "A wiki cita a combinação com a imunidade a queda: a velocidade de queda extra também aumenta a velocidade das garras. A wiki registra que um bug impedia o item na Carregadeira, corrigido na versão 1.1.1.2."
+          "why": "Segundo a wiki, a Carregadeira alcança com facilidade a altura do dano máximo, e a queda mais rápida aumenta a velocidade das garras. A wiki registra que um bug impedia o item na Carregadeira, corrigido na versão 1.1.1.2."
         },
         {
           "icon": "57-leaf-clover",
@@ -617,7 +617,7 @@
     },
     {
       "title": "Primeiro verde",
-      "text": "Ukulele ou Cinturão de Kjaro. Depois Pente Reserva."
+      "text": "Ukulele ou Cinturão de Kjaro. Depois Cartucheira."
     },
     {
       "title": "Equipamento",

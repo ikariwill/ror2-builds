@@ -55,24 +55,30 @@ Prioridade (`prio`): `1` Essencial · `2` Alta · `3` Média · `4` Situacional 
 2. Para cada item, use o texto exato do item e traduza mantendo números e empilhamento.
 3. Explique o `why` pelo kit do personagem. Se uma interação não está na wiki, não afirme.
 4. Item novo precisa do ícone em `public/icons/<slug>.webp` (slug em minúsculas com hífens, como os existentes).
-5. `npm run validate && npm run build`.
+5. `npm run format:data && npm run validate && npm run build`.
 6. Divergência entre wiki e texto do jogo: use o número da wiki e cite a diferença no `spec` da habilidade.
 
 ## Pendências de verificação conhecidas
 
-Levantadas na pesquisa de out/2026. Cada build também lista as suas em `notes`.
+Atualizadas na revisão de 13/10/2026 (`docs/revisoes/2026-10-13-revisao-das-builds.md`). Cada build também lista as
+suas em `notes`.
 
-- **Enforcer e Acolyte** (Hallowed Concepts): wiki incompleta; habilidades sem nome pt-BR; builds usam só itens das
-  DLCs anteriores. Revisar quando a wiki e a tradução saírem.
-- **Itens da Hallowed Concepts**: ainda fora do conjunto de dados. Atualizar o Petrichor Index (ou os módulos da
-  wiki) e reavaliar as builds.
-- **Caçadora**: Chuva de Flechas tem números conflitantes na wiki (330%/s na tabela, 2090% total nas notas).
-- **REX**: recarga de Rajada de Espinhos 5,5 s (tabela) vs. 5 s (patch note).
-- **Exploradora (Seeker)**: recarga de Mão Invisível (6 s na wiki atual, 5 s em guia); números de Meditar e
-  Salvação (Saving Grace) só confirmados parcialmente.
+- **Enforcer e Acolyte** (Hallowed Concepts): números das habilidades conferidos com a wiki de 13/10; requisitos de
+  vários desafios ainda não estão na wiki; habilidades sem nome pt-BR. Revisar quando a wiki e a tradução saírem.
+- **Itens da Hallowed Concepts**: ainda fora do conjunto de dados. Atualizar e reavaliar as builds.
+- **Caçadora**: Chuva de Flechas com números conflitantes na própria wiki (330%/s na tabela, 2090% total nas notas).
+- **REX**: recarga de Rajada de Espinhos 5,5 s (tabela) vs. 5 s (patch note); se aliados pegam as frutas da Colher.
+- **Exploradora (Seeker)**: Mão Invisível 6 s e dano/cura do Meditar confirmados. Sem confirmação na wiki atual:
+  recarga e coeficiente do Meditar, da Explosão de Palma e do Adiamento; efeito da Salvação (Saving Grace), descrito
+  pelo texto do jogo. O arquivo de idioma tem um primário alternativo, Busca de Alma (Soul Search), que a wiki não lista.
 - **CHEF**: recarga de Sim, CHEF! (Yes, CHEF!) não está na wiki (guia diz 10 s); se o Óleo quadruplica queimaduras de
-  itens não está confirmado.
-- **Operador**: o primário alternativo não está na wiki; descrito pelo texto do jogo.
-- **Herege**: como Essence of Heresy é desbloqueada diverge entre wiki e guia; tempos de ciclo de Dissipação Sombria
-  foram calculados, não lidos.
-- **Acrid**: dano da Mordida Voraz diverge (wiki 320%, jogo pt-BR 310%) — já citado no `spec`.
+  itens não está confirmado; seção do Cristalizar incompleta na wiki.
+- **Operador**: o primário alternativo Nanorrecipiente não está na wiki; descrito pelo texto do jogo.
+- **Andarilho**: raridade dos itens do Sucatear, Duplicador com itens temporários e efeito do Trevo 57 na Tralha.
+- **Herege**: a própria wiki se contradiz sobre o que o desafio Destruidor de Barreiras (Blockade Breaker) libera
+  (os quatro itens de Heresia ou só Visões e Ganchos).
+- **Canhoneira**: se a HH44, com exatamente 400%, ativa os Cinturões (a wiki diz ora "mais de", ora "400% ou mais").
+- **Acrid**: se o Veneno pode ser crítico ou ativar itens ao acertar (a wiki não diz).
+- **Mercenário**: 0,6 s de invulnerabilidade por investida (wiki atual) vs. 0,2 s no fim da investida (patch antigo).
+- **Bandido**: duração da invisibilidade da Bomba de Fumaça; se a Lente Rúnica é reduzida pelo coeficiente da Rajada.
+- **Nomes de desafios** estão em inglês nas builds, embora o arquivo pt-BR tenha tradução. Decidir e padronizar.
