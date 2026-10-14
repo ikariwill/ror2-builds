@@ -2,8 +2,9 @@
 // Uso: npm run validate
 import { readdirSync, readFileSync, existsSync } from 'node:fs';
 import { join } from 'node:path';
+import { fileURLToPath } from 'node:url';
 
-const ROOT = new URL('..', import.meta.url).pathname;
+const ROOT = fileURLToPath(new URL('..', import.meta.url));
 const DIR = join(ROOT, 'src/data/builds');
 const ICONS = join(ROOT, 'public/icons');
 

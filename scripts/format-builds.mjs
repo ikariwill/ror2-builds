@@ -2,8 +2,9 @@
 // Uso: npm run format:data
 import { readdirSync, readFileSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
+import { fileURLToPath } from 'node:url';
 
-const DIR = join(new URL('..', import.meta.url).pathname, 'src/data/builds');
+const DIR = join(fileURLToPath(new URL('..', import.meta.url)), 'src/data/builds');
 let changed = 0;
 for (const f of readdirSync(DIR).filter((x) => x.endsWith('.json'))) {
   const p = join(DIR, f);
