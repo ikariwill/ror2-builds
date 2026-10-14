@@ -2,9 +2,9 @@
   "id": "acolyte",
   "name_pt": "Acolyte",
   "name_en": "Acolyte",
-  "title": "Acolyte: Build de Golpes Rápidos",
-  "tagline": "Velocidade de ataque, golpes rápidos e Litania",
-  "lede": "Uma build corpo a corpo para jogar normalmente e chegar longe: empilhar velocidade de ataque para que cada golpe rápido da Blade Slice acerte mais vezes, juntar Convicções com o Sacrifice e invocar a Litania. A Acolyte não se cura diretamente: a cura vira vida recuperável, que volta por orbes ao causar dano com habilidades. Por isso os itens servem para bater muito e para não levar dano.",
+  "title": "Acolyte: Build de Sacrifice e Litania",
+  "tagline": "Velocidade de ataque, Cinturões e Litanias curtas",
+  "lede": "Build preliminar, montada com as impressões dos jogadores nos primeiros dias depois do lançamento (8 de outubro de 2026), e que será revista quando saírem guias completos. A Acolyte não se cura diretamente: a cura vira vida recuperável, que dá velocidade de ataque e volta por orbes quando você causa dano. A ideia é empilhar velocidade de ataque, usar o Sacrifice de 1.000% com os Cinturões para chegar logo à Litania e se proteger com itens que não dependem de cura.",
   "loadout": [
     {
       "slot": "Passiva",
@@ -20,11 +20,15 @@
     },
     {
       "slot": "Utilitária",
-      "skill": "Blade Sling"
+      "skill": "Javelin"
     },
     {
       "slot": "Especial",
       "skill": "Sacrifice"
+    },
+    {
+      "slot": "Litania",
+      "skill": "Dark Summons"
     }
   ],
   "skills": [
@@ -34,7 +38,15 @@
       "en": "N'kuhana's Grace",
       "pick": "Recomendada",
       "spec": "Não se cura. Toda cura e 40% do dano recebido viram vida recuperável. Dano de habilidade envia orbes de cura de 6,5% do dano (vezes o coeficiente). +1% de velocidade de ataque por 1% da vida máxima em vida recuperável. Decai 1% da vida máxima por segundo.",
-      "why": "Você recupera vida batendo: os orbes gastam a vida recuperável e devolvem vida de verdade. A vida recuperável não passa da vida que está faltando. A alternativa N'kuhana's Favor transforma toda cura em acúmulos de velocidade de ataque que expiram em 6 a 12 s, e a regeneração em acúmulos permanentes. Fora da Litania, ela não recupera vida."
+      "why": "É a escolha da maioria dos jogadores, por ser mais segura no começo da run. Você recupera vida batendo: os orbes gastam a vida recuperável e devolvem vida de verdade. A vida recuperável não passa da vida que está faltando, e a wiki diz que a conversão do dano recebido e os orbes normais ficam pausados durante a Litania."
+    },
+    {
+      "slot": "Passiva",
+      "pt": "N'kuhana's Favor",
+      "en": "N'kuhana's Favor",
+      "pick": "Variante",
+      "spec": "A cura nunca restaura vida, exceto a vida recuperável durante a Litania. Cada cura dá 1 acúmulo de velocidade de ataque, mais 1,5 por 1% da vida máxima base curada (arredondado para baixo), com ganho menor quanto mais acúmulos. Cada acúmulo expira entre 6 e 12 s. A regeneração não dá acúmulos temporários: 2,5 × a regeneração por segundo vira acúmulos permanentes.",
+      "why": "Divide opiniões. Alguns jogadores acham mais forte depois que a run engrena, mas perigosa no começo; outros não veem motivo para trocar. Fora da Litania você não recupera vida. A wiki diz que o bônus continua valendo quando toda a vida dela é escudo da Transcendência (Transcendence)."
     },
     {
       "slot": "Primária",
@@ -50,31 +62,55 @@
       "en": "Bola Throw",
       "pick": "Recomendada",
       "spec": "Ágil, Atordoante, Extração. Bola de 200% que junta até 5 inimigos a até 18 m, atordoa por 1 s e puxa suas almas. Coeficiente 1,0. Recarga 7 s.",
-      "why": "A wiki diz que acertar o inimigo e a alma dele ao mesmo tempo dobra o dano, e recomenda seguir com a Blade Sling. Chefes ficam no lugar, e a alma deles sai mesmo assim. A alternativa Soul Jar (150% e Assombração de 400% em 8 s) tem 6 s de recarga e é desbloqueada pelo desafio Bloodbath."
+      "why": "Os jogadores estão divididos entre a Bola e a Soul Jar, e a build fica com a Bola, que é a padrão. A wiki diz que acertar o inimigo e a alma dele ao mesmo tempo dobra o dano. Chefes ficam no lugar, e a alma deles sai mesmo assim. Na forma do Anima Harvester, a Secundária vira Harrowing Chains com qualquer uma das duas."
+    },
+    {
+      "slot": "Secundária",
+      "pt": "Soul Jar",
+      "en": "Soul Jar",
+      "pick": "Variante",
+      "spec": "Ágil. Jarro lançado a até 36 m que explode em 12 m com 150% de dano e assombra os atingidos: 50% de dano por segundo por 8 s (400% no total). A Assombração acumula, mas não mata. Quando um inimigo assombrado morre, solta um espectro por acúmulo (mais um se o golpe final aplicou Assombração); cada espectro causa 50% e aplica Assombração. Coeficiente 1,0. Recarga 6 s.",
+      "why": "Opção equivalente à Bola. Parte dos jogadores, incluindo um criador experiente, prefere o jarro, mas ninguém afirma ainda que ele seja melhor. Rende mais com sangramento e dano contínuo, e a wiki diz que o Espinho Nocivo (Noxious Thorn) espalha a Assombração. É desbloqueada pelo desafio Bloodbath."
+    },
+    {
+      "slot": "Utilitária",
+      "pt": "Javelin",
+      "en": "Javelin",
+      "pick": "Recomendada",
+      "spec": "Ágil. Lâmina perfurante a 100 m/s com 400% de dano, que atordoa por 1 s e arrasta inimigos com menos de 300 de massa. Crava no terreno ou em inimigos pesados e explode com 400% em 11 m, atordoando por 1 s; se não cravar em 5 s, some sem explodir. Reative para avançar até ela (Blade Dash). Coeficiente 1,0. Recarga 7,5 s.",
+      "why": "A maioria dos jogadores que comentou a prefere, incluindo um criador experiente, pelo dano e pelo alcance do avanço. São impressões da primeira semana, então pode mudar. É desbloqueada pelo desafio Not Even Close."
     },
     {
       "slot": "Utilitária",
       "pt": "Blade Sling",
       "en": "Blade Sling",
-      "pick": "Recomendada",
+      "pick": "Variante",
       "spec": "Ágil. Lâmina giratória de 200% de dano por segundo por cerca de 8 s. Reative para avançar até ela com 300%. Coeficiente 1,0. Recarga 7,5 s.",
-      "why": "Dano contínuo de habilidade, que envia orbes de cura, e um avanço de mobilidade. A wiki diz que a lâmina não atordoa, apesar do texto do jogo. A tabela da Blade Dash na wiki diz 400% para o avanço, mas as notas dela corrigem para 300%, como diz o texto do jogo. A alternativa Javelin (400% perfurante, explode em inimigos grandes) é desbloqueada pelo desafio Not Even Close."
+      "why": "Igualmente válida. É a padrão, usada por quem joga Monção com o kit inicial, e um jogador a acha melhor para curar, porque o dano contínuo de habilidade envia orbes. A wiki recomenda Bola e depois Blade Sling para acertar inimigo e alma juntos e dobrar o dano. A wiki diz que a lâmina não atordoa, apesar do texto do jogo, e que o avanço causa 300%."
     },
     {
       "slot": "Especial",
       "pt": "Sacrifice",
       "en": "Sacrifice",
       "pick": "Única opção",
-      "spec": "Rápida. Golpe de 1000% que dá 2 Convicções, mais 1 se matar. Coeficiente 1,0. Recarga 10 s. Com 7 Convicções vira a Litania.",
-      "why": "É o golpe mais forte do kit e a fonte das Convicções. Se não houver alvo, a carga é devolvida. A Litania dura cerca de 9 s com 7 Convicções. Dark Summons transforma você no Anima Harvester, cuja vida não cai abaixo de 1; Anima Echo cria um Eco que repete seus golpes corpo a corpo."
+      "spec": "Rápida. Golpe de 1.000% que dá 2 Convicções, mais 1 se matar. Coeficiente 1,0. Recarga 10 s. Com 7 Convicções vira a Litania.",
+      "why": "É o golpe mais forte do kit e a fonte das Convicções. Os jogadores recomendam usá-lo em inimigos que ele vai matar, para ganhar 3 Convicções. Se não houver alvo, a carga é devolvida."
     },
     {
-      "slot": "Litania (forma)",
-      "pt": "Anima Harvester",
-      "en": "Anima Harvester",
+      "slot": "Litania",
+      "pt": "Dark Summons",
+      "en": "Dark Summons",
+      "pick": "Recomendada",
+      "spec": "Vira o Anima Harvester: 400 de vida base, 100 de armadura, 12 m/s, a vida não cai abaixo de 1. Perde 1 Convicção a cada ~1,29 s (cerca de 9 s com 7). Orbes de cura de ~38,5% do dano causado. Torrential Slash 300% com execução abaixo de 25%; Harrowing Chains 250% + 250%; Soul Storm 200% e tempestade de ~300% por segundo, reativável; Banish (2,5 s) encerra antes.",
+      "why": "Os jogadores, incluindo o criador mais experiente que já a testou, a chamam de mais forte. Ao começar, reinicia todas as recargas e converte a vida que falta em vida recuperável. A wiki diz que ela é melhor contra grupos grandes e que a Soul Storm gera muita cura mesmo em um único inimigo resistente."
+    },
+    {
+      "slot": "Litania",
+      "pt": "Anima Echo",
+      "en": "Anima Echo",
       "pick": "Variante",
-      "spec": "Dark Summons: 400 de vida, 100 de armadura, 12 m/s. Torrential Slash 300% com execução abaixo de 25%; Harrowing Chains 250% + 250%; Soul Storm; Banish encerra antes.",
-      "why": "Reinicia todas as recargas ao começar e converte a vida que falta em vida recuperável. A wiki diz que a Dark Summons é melhor contra grupos grandes e que a Soul Storm gera muita cura mesmo em um único inimigo resistente. A Torrential Slash executa até chefes, mas não inimigos imunes a execução."
+      "spec": "Cria um Eco que repete cada habilidade corpo a corpo logo depois: cortes da Blade Slice a 75% (o terceiro a 150%), golpes rápidos a 100% por acerto e Blade Dash a 150%. Os atributos não mudam. Mesma duração (cerca de 9 s com 7 Convicções). Orbes de cura de 15% do dano causado.",
+      "why": "Mais fluida: você segue com o kit normal, sem a pausa da transformação, e vários jogadores dizem que ela cura melhor. É mais fraca que a Dark Summons. Pela wiki, os orbes da Dark Summons são maiores (38,5% contra 15%), então essa impressão de cura ainda não tem explicação."
     }
   ],
   "sections": [
@@ -82,7 +118,7 @@
       "id": "common",
       "name": "Comum",
       "color": "white",
-      "intro": "A Acolyte tem 0 de armadura e 0 de regeneração base, e o golpe rápido acerta mais vezes com velocidade de ataque. Os brancos cuidam das duas coisas.",
+      "intro": "A Acolyte tem 0 de armadura e 0 de regeneração base. Os brancos dão velocidade de ataque, dano no primeiro golpe e defesa que não depende de cura.",
       "items": [
         {
           "icon": "soldiers-syringe",
@@ -91,13 +127,13 @@
           "prio": 1,
           "qty": "4 a 8",
           "effect": "+15% (+15% por acúmulo) de velocidade de ataque.",
-          "why": "Cada golpe rápido acerta 3 × velocidade de ataque vezes, até 9. As cargas de golpe rápido e o Sacrifice são Rápidos e recarregam mais rápido com velocidade de ataque."
+          "why": "Velocidade de ataque é o que os jogadores mais pedem para ela. Cada golpe rápido acerta 3 × velocidade de ataque vezes, até 9, e as cargas de golpe rápido e o Sacrifice são Rápidos: recarregam mais rápido com velocidade de ataque."
         },
         {
           "icon": "focus-crystal",
           "pt": "Cristal de Foco",
           "en": "Focus Crystal",
-          "prio": 1,
+          "prio": 2,
           "qty": "3 a 5",
           "effect": "+20% (+20% por acúmulo) de dano contra inimigos a até 13 m.",
           "why": "Blade Slice, golpes rápidos e Sacrifice são corpo a corpo. Mais dano de habilidade também significa orbes de cura maiores."
@@ -106,7 +142,7 @@
           "icon": "tougher-times",
           "pt": "Tempos Difíceis",
           "en": "Tougher Times",
-          "prio": 1,
+          "prio": 3,
           "qty": "2 a 4",
           "effect": "15% (+15% por acúmulo) de chance de bloquear dano recebido. Não é afetado por sorte.",
           "why": "Sem cura direta e com 0 de armadura, todo golpe evitado vale muito. Funciona sem depender de cura."
@@ -118,43 +154,61 @@
           "prio": 2,
           "qty": "2 a 5",
           "effect": "Reduz todo dano recebido em 5 (+5 por acúmulo). Não pode reduzir abaixo de 1.",
-          "why": "Com 0 de armadura base, os golpes pequenos dos grupos pesam. Reduz cada um sem depender de cura."
-        },
-        {
-          "icon": "lens-makers-glasses",
-          "pt": "Óculos do Fabricante de Lentes",
-          "en": "Lens-Maker's Glasses",
-          "prio": 2,
-          "qty": "2 a 4",
-          "effect": "10% (+10% por acúmulo) de chance de Acerto Crítico, que causa dano dobrado.",
-          "why": "Até 9 acertos por golpe rápido são até 9 chances de crítico. Mais dano de habilidade também aumenta os orbes."
-        },
-        {
-          "icon": "crowbar",
-          "pt": "Pé de Cabra",
-          "en": "Crowbar",
-          "prio": 3,
-          "qty": "1 a 3",
-          "effect": "+75% (+75% por acúmulo) de dano contra inimigos acima de 90% de vida.",
-          "why": "Abrir com o Sacrifice de 1000% num inimigo com a vida cheia aumenta a chance de matar e ganhar a Convicção extra."
-        },
-        {
-          "icon": "mocha",
-          "pt": "Mocha",
-          "en": "Mocha",
-          "prio": 3,
-          "qty": "1 a 3",
-          "effect": "+7,5% (+7,5% por acúmulo) de velocidade de ataque e +7% (+7% por acúmulo) de velocidade de movimento.",
-          "why": "Velocidade de ataque para os golpes rápidos e movimento para chegar perto."
+          "why": "Um dos itens que os jogadores mais citam para ela: um criador experiente a aponta como a melhor escolha aqui, e outro empilha várias. Com 0 de armadura base, reduz cada golpe pequeno dos grupos sem depender de cura."
         },
         {
           "icon": "topaz-brooch",
           "pt": "Broche de Topázio",
           "en": "Topaz Brooch",
-          "prio": 4,
+          "prio": 1,
           "qty": "1 a 2",
           "effect": "Ganha barreira temporária de 15 (+15 por acúmulo) de vida ao abater.",
-          "why": "O texto do item fala em barreira, e não em cura. A wiki da Acolyte não diz se a passiva afeta barreira, então teste antes de investir."
+          "why": "O item defensivo mais citado pelos jogadores. Pela wiki, a passiva só converte cura (inclusive regeneração) e parte do dano recebido em vida recuperável; barreira não aparece na descrição. Bola, Sacrifice e Litania matam com frequência, então a barreira se renova com frequência."
+        },
+        {
+          "icon": "crowbar",
+          "pt": "Pé de Cabra",
+          "en": "Crowbar",
+          "prio": 1,
+          "qty": "1 a 3",
+          "effect": "+75% (+75% por acúmulo) de dano contra inimigos acima de 90% de vida.",
+          "why": "Vários jogadores pegam para o Sacrifice de 1.000%: no primeiro golpe num inimigo com a vida cheia, ele mata mais vezes e rende a Convicção extra."
+        },
+        {
+          "icon": "cautious-slug",
+          "pt": "Lesma Precavida",
+          "en": "Cautious Slug",
+          "prio": 1,
+          "qty": "1 a 2",
+          "effect": "Aumenta a regeneração de vida base em +3 PV/s (+3 PV/s por acúmulo) fora de combate.",
+          "why": "Pela wiki, a regeneração também vira vida recuperável, que dá velocidade de ataque e alimenta os orbes. Vários jogadores a recomendam, um a chama de vital e outro diz que uma só já segura o decaimento da reserva; a wiki não confirma isso. Só funciona fora de combate."
+        },
+        {
+          "icon": "mocha",
+          "pt": "Mocha",
+          "en": "Mocha",
+          "prio": 2,
+          "qty": "1 a 3",
+          "effect": "+7,5% (+7,5% por acúmulo) de velocidade de ataque e +7% (+7% por acúmulo) de velocidade de movimento.",
+          "why": "Movimento é uma das coisas que os jogadores mais pedem para ela, e a Mocha ainda dá velocidade de ataque para os golpes rápidos e as habilidades Rápidas."
+        },
+        {
+          "icon": "pauls-goat-hoof",
+          "pt": "Casco de Bode de Paul",
+          "en": "Paul's Goat Hoof",
+          "prio": 3,
+          "qty": "1 a 3",
+          "effect": "Aumenta a velocidade de movimento em 14% (+14% por acúmulo).",
+          "why": "Os jogadores insistem que ela não aguenta trocar golpes parada no meio do grupo na forma normal. Movimento ajuda a kitar e a escolher a hora de entrar."
+        },
+        {
+          "icon": "lens-makers-glasses",
+          "pt": "Óculos do Fabricante de Lentes",
+          "en": "Lens-Maker's Glasses",
+          "prio": 3,
+          "qty": "2 a 4",
+          "effect": "10% (+10% por acúmulo) de chance de Acerto Crítico, que causa dano dobrado.",
+          "why": "Até 9 acertos por golpe rápido são até 9 chances de crítico. Os jogadores quase não citam crítico para ela até agora."
         }
       ]
     },
@@ -162,16 +216,25 @@
       "id": "uncommon",
       "name": "Incomum",
       "color": "green",
-      "intro": "Os golpes rápidos acertam até 9 vezes, então os verdes de efeito ao acertar rendem bem. A cura dos verdes vira vida recuperável.",
+      "intro": "Os Cinturões aproveitam o golpe de 1.000% do Sacrifice, e os golpes rápidos acertam várias vezes para os itens de efeito ao acertar.",
       "items": [
         {
-          "icon": "predatory-instincts",
-          "pt": "Instintos Predatórios",
-          "en": "Predatory Instincts",
+          "icon": "kjaros-band",
+          "pt": "Cinturão de Kjaro",
+          "en": "Kjaro's Band",
           "prio": 1,
+          "qty": "2 a 4",
+          "effect": "Golpes que causam mais de 400% de dano também lançam um tornado de chamas rúnicas, causando 300% (+300% por acúmulo) de dano TOTAL ao longo do tempo. Recarrega a cada 10 s.",
+          "why": "Os jogadores tratam os Cinturões como peça central: o Sacrifice causa 1.000% e ativa o tornado quando você quiser. O Sacrifice tem 10 s de recarga, o mesmo tempo do Cinturão, e cada cópia soma 300%: com 3, cada Sacrifice lança um tornado de 900%. Faixa da Singularidade (Vazio) corrompe todos os Cinturões de Kjaro e de Runald."
+        },
+        {
+          "icon": "runalds-band",
+          "pt": "Cinturão de Runald",
+          "en": "Runald's Band",
+          "prio": 2,
           "qty": "1 a 2",
-          "effect": "+5% de chance de crítico. Críticos dão +12% de velocidade de ataque, até 36% (+24% por acúmulo).",
-          "why": "Velocidade de ataque aumenta os acertos do golpe rápido e acelera as habilidades Rápidas. Com muitos acertos, o bônus fica ativo quase o tempo todo."
+          "effect": "Golpes que causam mais de 400% de dano também atingem os inimigos com uma explosão de gelo rúnico, desacelerando-os em 80% por 3 s (+3 s por acúmulo) e causando 250% (+250% por acúmulo) de dano TOTAL. Recarrega a cada 10 s.",
+          "why": "Os jogadores falam nos Cinturões, no plural. Pela wiki, ativa junto com o de Kjaro no mesmo Sacrifice e divide a recarga de 10 s com ele. A desaceleração ajuda a manter os inimigos longe. Faixa da Singularidade (Vazio) corrompe todos."
         },
         {
           "icon": "ukulele",
@@ -189,16 +252,43 @@
           "prio": 2,
           "qty": "1 a 2",
           "effect": "10% de chance de disparar um míssil que causa 300% (+300% por acúmulo) de dano TOTAL.",
-          "why": "Ativa com os vários acertos do golpe rápido e alcança voadores. A Blade Slice inteira tem coeficiente 0,7; as outras habilidades, 1,0."
+          "why": "Um jogador o cita junto com os Cinturões para os golpes grandes. Também ativa com os vários acertos do golpe rápido e alcança voadores. A Blade Slice inteira tem coeficiente 0,7; as outras habilidades, 1,0."
         },
         {
-          "icon": "kjaros-band",
-          "pt": "Cinturão de Kjaro",
-          "en": "Kjaro's Band",
-          "prio": 2,
-          "qty": "2 a 4",
-          "effect": "Golpes que causam mais de 400% de dano também lançam um tornado de chamas rúnicas, causando 300% (+300% por acúmulo) de dano TOTAL ao longo do tempo. Recarrega a cada 10 s.",
-          "why": "O Sacrifice causa 1000% e tem 10 s de recarga, quase o mesmo tempo do Cinturão. Cada Sacrifice ativa o tornado. Cada cópia soma 300% ao tornado: com 3, cada Sacrifice lança um tornado de 900% do golpe de 1000%. Faixa da Singularidade (Vazio) corrompe todos."
+          "icon": "predatory-instincts",
+          "pt": "Instintos Predatórios",
+          "en": "Predatory Instincts",
+          "prio": 3,
+          "qty": "1 a 2",
+          "effect": "+5% de chance de crítico. Críticos dão +12% de velocidade de ataque, até 36% (+24% por acúmulo).",
+          "why": "Velocidade de ataque nos críticos ajuda os golpes rápidos e as habilidades Rápidas. Nenhum jogador o citou para ela até agora, por isso saiu do núcleo."
+        },
+        {
+          "icon": "bandolier",
+          "pt": "Cartucheira",
+          "en": "Bandolier",
+          "prio": 3,
+          "qty": "1 a 2",
+          "effect": "18% (+10% por acúmulo) de chance de, ao abater, soltar um pacote de munição que reinicia as recargas de todas as habilidades.",
+          "why": "Um jogador a chama de muito forte nela, e outro também a pega: cada pacote reinicia o Sacrifice, que dá Convicções. Bola, Sacrifice e Litania matam com frequência."
+        },
+        {
+          "icon": "hopoo-feather",
+          "pt": "Pluma de Hopoo",
+          "en": "Hopoo Feather",
+          "prio": 3,
+          "qty": "1 a 2",
+          "effect": "+1 (+1 por acúmulo) na quantidade máxima de pulos.",
+          "why": "Movimento no ar para desviar, que os jogadores pedem para ela. Um jogador a empilha nas runs de Eclipse."
+        },
+        {
+          "icon": "faraday-spur",
+          "pt": "Espora de Faraday",
+          "en": "Faraday Spur",
+          "prio": 3,
+          "qty": "1",
+          "effect": "Mover-se gera carga, que dá até +160% de velocidade de movimento e +200% de altura do pulo com 100%. Com 25% de carga ou mais, pular libera uma descarga explosiva de 400% (+280% por acúmulo) de dano numa área de 5 m a 32,3 m (+7,5 m por acúmulo).",
+          "why": "Um criador a chama de perfeita para ela, pelo movimento. Segundo ele, o golpe rápido para cima não gasta pulo; a wiki não confirma isso. Item da DLC Alloyed Collective."
         },
         {
           "icon": "leeching-seed",
@@ -207,7 +297,7 @@
           "prio": 3,
           "qty": "1 a 2",
           "effect": "Causar dano cura 1 (+1 por acúmulo) de vida.",
-          "why": "Pela passiva, a cura vira vida recuperável em vez de vida. Ela só volta pelos orbes e não passa da vida que falta. Ainda ajuda a manter vida recuperável, que também dá velocidade de ataque."
+          "why": "Vários jogadores recomendam ter pelo menos dois tipos de item de cura. Pela passiva, a cura vira vida recuperável, que dá velocidade de ataque e volta pelos orbes, sem passar da vida que falta."
         },
         {
           "icon": "shuriken",
@@ -228,13 +318,22 @@
           "why": "Sem cura direta, sair da briga com pouca vida é a única saída. A invisibilidade dá tempo para os orbes devolverem vida."
         },
         {
+          "icon": "kinetic-dampener",
+          "pt": "Amortecimento Cinético",
+          "en": "Kinetic Dampener",
+          "prio": 4,
+          "qty": "1 a 2",
+          "effect": "+30 (+30 por acúmulo) de armadura enquanto houver escudo. Quando o escudo quebra, libera um pulso atordoante de 100% de dano mais 100% (+10% por acúmulo) do escudo máximo. Concede escudo de 4% da vida máxima.",
+          "why": "Escudo e armadura que não dependem de cura. Dois jogadores combinam com escudos e com o Broche de Topázio. A wiki da Acolyte não diz como escudo interage com a passiva. Item da DLC Alloyed Collective."
+        },
+        {
           "icon": "harvesters-scythe",
           "pt": "Foice do Ceifador",
           "en": "Harvester's Scythe",
           "prio": 4,
           "qty": "1 (com Óculos)",
           "effect": "+5% de chance de crítico. Críticos curam 8 (+4 por acúmulo) de vida.",
-          "why": "O crítico ajuda. A cura vira vida recuperável, com o mesmo limite da Semente."
+          "why": "Um guia sugere a Foice para quem joga com N'kuhana's Favor. O crítico ajuda, e a cura vira vida recuperável, com o mesmo limite da Semente."
         }
       ]
     },
@@ -242,25 +341,25 @@
       "id": "legendary",
       "name": "Lendário",
       "color": "red",
-      "intro": "Os vermelhos que mais mudam a Acolyte aumentam o dano em área dos golpes rápidos e encurtam as recargas.",
+      "intro": "Os vermelhos que mais ajudam a Acolyte encurtam as recargas e aumentam o dano em área dos golpes rápidos.",
       "items": [
-        {
-          "icon": "brilliant-behemoth",
-          "pt": "Brutamontes Reluzente",
-          "en": "Brilliant Behemoth",
-          "prio": 1,
-          "qty": "1 a 2",
-          "effect": "Todos os ataques explodem em 4 m (+2,5 m por acúmulo) causando 60% de dano TOTAL extra.",
-          "why": "Até 9 acertos por golpe rápido viram até 9 explosões em área no meio do grupo."
-        },
         {
           "icon": "alien-head",
           "pt": "Cabeça Alienígena",
           "en": "Alien Head",
-          "prio": 1,
+          "prio": 2,
           "qty": "1 a 2",
           "effect": "Reduz o tempo de recarga das habilidades em 25% (+25% por acúmulo).",
-          "why": "Bola Throw (7 s), Blade Sling (7,5 s) e Sacrifice (10 s) voltam mais rápido. Mais Sacrifices significam Litania mais cedo."
+          "why": "Bola Throw (7 s), Javelin (7,5 s) e Sacrifice (10 s) voltam mais rápido, e mais Sacrifices trazem a Litania mais cedo. Os jogadores ainda não a citam; fica alta pelo kit."
+        },
+        {
+          "icon": "brilliant-behemoth",
+          "pt": "Brutamontes Reluzente",
+          "en": "Brilliant Behemoth",
+          "prio": 2,
+          "qty": "1 a 2",
+          "effect": "Todos os ataques explodem em 4 m (+2,5 m por acúmulo) causando 60% de dano TOTAL extra.",
+          "why": "Até 9 acertos por golpe rápido viram até 9 explosões em área no meio do grupo. Nenhum jogador o citou para ela até agora, por isso saiu do núcleo."
         },
         {
           "icon": "shattering-justice",
@@ -278,7 +377,7 @@
           "prio": 3,
           "qty": "1 (com Óculos)",
           "effect": "Acertos Críticos causam 100% (+100% por acúmulo) de dano extra.",
-          "why": "Bom quando você já tem crítico dos Óculos e dos Instintos. Sem crítico, não faz nada."
+          "why": "Bom quando você já tem crítico dos Óculos. Sem crítico, não faz nada."
         },
         {
           "icon": "57-leaf-clover",
@@ -290,13 +389,22 @@
           "why": "Melhora crítico, Ukulele e Míssil, que ativam muito com os golpes rápidos. Não afeta os Tempos Difíceis, que não dependem de sorte."
         },
         {
+          "icon": "aegis",
+          "pt": "Égide",
+          "en": "Aegis",
+          "prio": 4,
+          "qty": "1",
+          "effect": "Curar além do máximo concede uma barreira temporária de 50% (+50% por acúmulo) do total curado.",
+          "why": "Divide opiniões: dois jogadores a recomendam pela barreira, e um criador experiente a chama de item ruim. A Acolyte não se cura diretamente, e a wiki não diz se a cura que vira vida recuperável conta como curar além do máximo."
+        },
+        {
           "icon": "rejuvenation-rack",
           "pt": "Suporte do Rejuvenescimento",
           "en": "Rejuvenation Rack",
           "prio": 4,
           "qty": "1 (só se sobrar)",
           "effect": "Cura +100% (+100% por acúmulo) a mais.",
-          "why": "A Acolyte não se cura: toda cura vira vida recuperável, limitada à vida que falta. A wiki não diz se este item aumenta o que entra na reserva ou o que os orbes devolvem. Não troque um vermelho de dano por ele."
+          "why": "Um guia sugere porque mais cura vira mais vida recuperável e mais velocidade de ataque. A wiki não diz se o item aumenta o que entra na reserva ou o que os orbes devolvem. Não troque um vermelho de dano por ele."
         }
       ]
     },
@@ -330,16 +438,16 @@
       "id": "equipment",
       "name": "Equipamentos",
       "color": "orange",
-      "intro": "Só dá para carregar um. Escolha entre mais velocidade de ataque e proteção, que a Acolyte não tem.",
+      "intro": "Só dá para carregar um. Os jogadores quase não falam de equipamento nela, então a ordem segue o kit.",
       "items": [
         {
           "icon": "gorags-opus",
           "pt": "Opus de Gorag",
           "en": "Gorag's Opus",
-          "prio": 1,
+          "prio": 2,
           "qty": "1 (recarga 45 s)",
           "effect": "Todos os aliados entram em frenesi por 7 s: +50% de movimento e +100% de velocidade de ataque.",
-          "why": "+100% de velocidade de ataque dobra os acertos do golpe rápido (até o máximo de 9) e acelera as habilidades Rápidas."
+          "why": "+100% de velocidade de ataque dobra os acertos do golpe rápido (até o máximo de 9) e acelera as habilidades Rápidas. Nenhum jogador o citou para ela até agora, por isso saiu do núcleo."
         },
         {
           "icon": "jade-elephant",
@@ -356,7 +464,7 @@
           "en": "Royal Capacitor",
           "prio": 2,
           "qty": "1 (recarga 20 s)",
-          "effect": "Raio em um monstro marcado causando 3000% de dano e atordoando os monstros próximos.",
+          "effect": "Raio em um monstro marcado causando 3.000% de dano e atordoando os monstros próximos.",
           "why": "Dano à distância para voadores e elites, o ponto fraco de quem luta de perto."
         },
         {
@@ -366,7 +474,7 @@
           "prio": 3,
           "qty": "1 (recarga 60 s)",
           "effect": "Buraco negro que puxa inimigos a até 30 m para o centro por 10 s.",
-          "why": "Junta o grupo para os golpes rápidos, o Brutamontes e a Dark Summons, que a wiki indica contra grupos grandes."
+          "why": "Junta o grupo para os golpes rápidos e para a Dark Summons, que a wiki indica contra grupos grandes."
         },
         {
           "icon": "blast-shower",
@@ -424,10 +532,10 @@
           "icon": "lysate-cell",
           "pt": "Célula Lisada",
           "en": "Lysate Cell",
-          "prio": 1,
+          "prio": 3,
           "qty": "1 a 2",
           "effect": "+1 (+1 por acúmulo) carga da habilidade Especial e −33% no tempo de recarga dela. Corrompe todas as Células de Combustível.",
-          "why": "Dois Sacrifices seguidos são 4 a 6 Convicções de uma vez. A Litania chega muito mais rápido."
+          "why": "Dois Sacrifices seguidos são 4 a 6 Convicções de uma vez, e a Litania chega muito mais rápido. Jogadores pedem uma segunda carga de Sacrifice por isso. Corrompe as Células de Combustível, que esta build não usa."
         },
         {
           "icon": "safer-spaces",
@@ -445,7 +553,7 @@
           "prio": 3,
           "qty": "1 a 2",
           "effect": "25% de chance de disparar um raio de 60% de dano TOTAL até 3 (+3 por acúmulo) vezes. Corrompe todos os Ukuleles.",
-          "why": "Melhor contra chefes, pior em grupo. Corrompe os seus Ukuleles."
+          "why": "Um criador experiente a pega nela. Melhor contra chefes, pior em grupo. Corrompe os seus Ukuleles."
         },
         {
           "icon": "plasma-shrimp",
@@ -454,7 +562,16 @@
           "prio": 4,
           "qty": "1",
           "effect": "Ganha escudo de 10% da vida máxima. Com escudo, cada acerto dispara um míssil de 40% (+40% por acúmulo) de dano TOTAL. Corrompe todos os Mísseis ASM Mk. 1.",
-          "why": "Os muitos acertos do golpe rápido disparam muitos mísseis. A wiki não diz como o escudo interage com a passiva. Corrompe os seus Mísseis ASM."
+          "why": "Os muitos acertos do golpe rápido disparam muitos mísseis. Um criador experiente só a pega quando já tem escudo de outros itens. A wiki não diz como o escudo interage com a passiva. Corrompe os seus Mísseis ASM."
+        },
+        {
+          "icon": "weeping-fungus",
+          "pt": "Fungo Choroso",
+          "en": "Weeping Fungus",
+          "prio": 4,
+          "qty": "1",
+          "effect": "Cura 2% (+2% por acúmulo) da vida por segundo enquanto corre. Corrompe todos os Fungos Vibrantes.",
+          "why": "Um jogador diz que ele resolve a falta de cura dela. Pela passiva, essa cura vira vida recuperável e dá velocidade de ataque, e você corre muito para kitar. Corrompe os seus Fungos Vibrantes (Bustling Fungus)."
         }
       ]
     }
@@ -462,23 +579,23 @@
   "synergy": [
     {
       "title": "Cura vira vida recuperável",
-      "text": "Toda cura, inclusive regeneração, e 40% do dano recebido viram vida recuperável, que não passa da vida que falta. Dano de habilidade envia orbes de 6,5% do dano, multiplicados pelo coeficiente, e eles devolvem vida gastando essa reserva. A reserva decai 1% da vida máxima por segundo. Por isso a Acolyte se recupera batendo, e itens de cura só alimentam a reserva."
+      "text": "Toda cura, inclusive regeneração, e 40% do dano recebido viram vida recuperável, que não passa da vida que falta. Dano de habilidade envia orbes de 6,5% do dano, multiplicados pelo coeficiente, e eles devolvem vida gastando essa reserva. A reserva decai 1% da vida máxima por segundo. A descrição da passiva não cita barreira nem escudo."
     },
     {
       "title": "Velocidade de ataque em três lugares",
-      "text": "O golpe rápido acerta 3 × velocidade de ataque vezes, até 9, e sempre leva 0,85 s. As cargas de golpe rápido e o Sacrifice são Rápidos e recarregam mais rápido com velocidade de ataque. A passiva ainda dá +1% de velocidade de ataque por 1% da vida máxima em vida recuperável. Seringa, Instintos e Opus de Gorag rendem mais aqui do que em quase qualquer outro personagem."
+      "text": "O golpe rápido acerta 3 × velocidade de ataque vezes, até 9, e sempre leva 0,85 s. As cargas de golpe rápido e o Sacrifice são Rápidos e recarregam mais rápido com velocidade de ataque. A passiva ainda dá +1% de velocidade de ataque por 1% da vida máxima em vida recuperável. Por isso os jogadores pedem itens de cura além da Seringa: menos cura significa menos velocidade de ataque."
     },
     {
-      "title": "Convicções e Litania",
-      "text": "O Sacrifice dá 2 Convicções e mais 1 se matar, até 7. Com 7, vira a Litania, que dura cerca de 9 s. Pé de Cabra e Cinturão de Kjaro ajudam o Sacrifice a matar. A wiki cita que um Sacrifice que mata o inimigo e a alma dele juntos dá 1 Convicção extra, mas não sabe se é intencional."
+      "title": "Sacrifice e Cinturões",
+      "text": "O Sacrifice causa 1.000% e tem 10 s de recarga, o mesmo tempo dos Cinturões de Kjaro e de Runald, que ativam juntos em golpes acima de 400%. O Pé de Cabra aumenta o golpe num alvo com a vida cheia, e matar com o Sacrifice dá a terceira Convicção."
     },
     {
-      "title": "Bola e alma",
-      "text": "A Bola Throw junta até 5 inimigos e puxa as almas deles, que ficam 12 s. Acertar o inimigo e a alma ao mesmo tempo dobra o dano. A wiki recomenda Bola e depois Blade Sling a curta ou média distância, com um pequeno atraso para a alma aparecer."
+      "title": "Litanias curtas",
+      "text": "Jogadores descrevem ciclos curtos de Dark Summons: entrar, usar Soul Storm e Harrowing Chains, cortar e sair cedo com Banish, guardando cerca de 4 das 7 Convicções. A wiki não confirma se as Convicções sobram. No começo da run, a Litania é a principal fonte de cura, então vale usá-la com frequência."
     },
     {
       "title": "Defesa sem cura",
-      "text": "A Acolyte tem 130 de vida, 0 de armadura e 0 de regeneração base. Bloqueio e redução de dano (Tempos Difíceis, Placa da Armadura de Repulsão, Elefante de Jade) funcionam sem depender de cura. Os golpes rápidos também servem para desviar. Durante a Dark Summons a vida não cai abaixo de 1."
+      "text": "A Acolyte tem 130 de vida, 0 de armadura e 0 de regeneração base. Bloqueio, redução de dano e barreira (Tempos Difíceis, Placa da Armadura de Repulsão, Broche de Topázio) funcionam sem depender de cura. Os golpes rápidos também servem para desviar, e durante a Dark Summons a vida não cai abaixo de 1."
     }
   ],
   "rotation": [
@@ -487,20 +604,24 @@
       "text": "Atordoe até 5 inimigos e puxe as almas deles para perto."
     },
     {
-      "step": "Blade Sling no grupo",
-      "text": "Acerte inimigo e alma juntos para dano dobrado, e avance até a lâmina."
+      "step": "Javelin ou Blade Sling",
+      "text": "A Javelin perfura e explode em inimigos grandes. A Blade Sling acerta inimigo e alma juntos para dano dobrado. Reative para avançar."
     },
     {
       "step": "Golpes rápidos",
-      "text": "Pule ou corra segurando a Primária para gastar as 3 cargas."
+      "text": "Pule ou corra segurando a Primária. Guarde 1 ou 2 cargas para desviar."
     },
     {
-      "step": "Sacrifice no alvo forte",
-      "text": "1000% de dano e 2 Convicções, 3 se matar."
+      "step": "Sacrifice para matar",
+      "text": "Use em quem ele vai matar: 3 Convicções em vez de 2. Num alvo com a vida cheia, Pé de Cabra e Cinturões ajudam."
     },
     {
-      "step": "Litania com 7 Convicções",
-      "text": "Dark Summons contra grupos grandes; Banish para sair antes."
+      "step": "Litania curta",
+      "text": "Com 7 Convicções, entre na Dark Summons, use Soul Storm e Harrowing Chains e saia cedo com Banish. Jogadores dizem que sobram cerca de 4 Convicções."
+    },
+    {
+      "step": "Kite na forma normal",
+      "text": "Não troque golpes parada no meio do grupo. Mova-se e espere o próximo Sacrifice."
     }
   ],
   "essentials": [
@@ -509,93 +630,79 @@
       "en": "Soldier's Syringe"
     },
     {
-      "pt": "Cristal de Foco",
-      "en": "Focus Crystal"
+      "pt": "Broche de Topázio",
+      "en": "Topaz Brooch"
     },
     {
-      "pt": "Tempos Difíceis",
-      "en": "Tougher Times"
+      "pt": "Pé de Cabra",
+      "en": "Crowbar"
     },
     {
-      "pt": "Instintos Predatórios",
-      "en": "Predatory Instincts"
+      "pt": "Cinturão de Kjaro",
+      "en": "Kjaro's Band"
     },
     {
-      "pt": "Brutamontes Reluzente",
-      "en": "Brilliant Behemoth"
-    },
-    {
-      "pt": "Célula Lisada",
-      "en": "Lysate Cell"
-    },
-    {
-      "pt": "Opus de Gorag",
-      "en": "Gorag's Opus"
+      "pt": "Lesma Precavida",
+      "en": "Cautious Slug"
     }
   ],
-  "situational_note": "Situacionais: Shuriken, Justiça Destruidora, Mira Laser, Kit Furtivo, Espaços Seguros, Semente Sanguessuga (só alimenta a vida recuperável), Pureza.",
+  "situational_note": "Situacionais: Amortecimento Cinético e Camarão de Plasma (com escudo), Égide (divide opiniões), Foice do Ceifador, Suporte do Rejuvenescimento, Expurgação Explosiva, Fungo Choroso.",
   "fallbacks": [
     {
       "pt": "Seringa Militar",
       "en": "Soldier's Syringe",
-      "text": "Mocha, Instintos Predatórios ou Opus de Gorag como equipamento."
+      "text": "Mocha e itens de cura, que viram velocidade de ataque pela passiva; Opus de Gorag como equipamento."
     },
     {
-      "pt": "Cristal de Foco",
-      "en": "Focus Crystal",
-      "text": "Pé de Cabra para o Sacrifice e Justiça Destruidora para os golpes rápidos."
+      "pt": "Broche de Topázio",
+      "en": "Topaz Brooch",
+      "text": "Placa da Armadura de Repulsão e Tempos Difíceis reduzem o dano até aparecer um Broche."
     },
     {
-      "pt": "Tempos Difíceis",
-      "en": "Tougher Times",
-      "text": "Placa da Armadura de Repulsão, Espaços Seguros ou Elefante de Jade como equipamento."
+      "pt": "Pé de Cabra",
+      "en": "Crowbar",
+      "text": "Cinturões de Kjaro e de Runald também aproveitam o golpe de 1.000% do Sacrifice."
     },
     {
-      "pt": "Instintos Predatórios",
-      "en": "Predatory Instincts",
-      "text": "Mais Seringas e Óculos para crítico."
+      "pt": "Cinturão de Kjaro",
+      "en": "Kjaro's Band",
+      "text": "Cinturão de Runald, que ativa no mesmo golpe, e Pé de Cabra para o Sacrifice."
     },
     {
-      "pt": "Brutamontes Reluzente",
-      "en": "Brilliant Behemoth",
-      "text": "Ukulele e Míssil ASM, que ativam com os muitos acertos do golpe rápido."
-    },
-    {
-      "pt": "Célula Lisada",
-      "en": "Lysate Cell",
-      "text": "Cabeça Alienígena e velocidade de ataque, que acelera o Sacrifice por ser Rápido."
-    },
-    {
-      "pt": "Opus de Gorag",
-      "en": "Gorag's Opus",
-      "text": "Elefante de Jade para sobreviver ou Capacitor Régio para voadores."
+      "pt": "Lesma Precavida",
+      "en": "Cautious Slug",
+      "text": "Outra cura constante, como a Semente Sanguessuga, também alimenta a reserva. Tenha pelo menos dois tipos de cura."
     }
   ],
-  "summary": "N'kuhana's Grace, Blade Slice, Bola Throw, Blade Sling e Sacrifice. Junte o grupo com a Bola, acerte inimigo e alma com a Blade Sling, gaste os golpes rápidos e use o Sacrifice para chegar a 7 Convicções e invocar a Litania. Empilhe velocidade de ataque (Seringa, Instintos) para mais acertos por golpe rápido, dano de perto (Cristal de Foco) e defesa que não depende de cura (Tempos Difíceis).",
+  "summary": "N'kuhana's Grace, Blade Slice, Bola Throw, Javelin, Sacrifice e Dark Summons. Junte o grupo com a Bola, gaste os golpes rápidos e use o Sacrifice para matar e chegar a 7 Convicções; faça Litanias curtas e saia cedo com Banish. Empilhe velocidade de ataque (Seringa), Cinturões para o Sacrifice de 1.000% e defesa que não depende de cura (Tempos Difíceis, Placa, Broche de Topázio). É uma build preliminar, da primeira semana após o lançamento.",
   "checklist": [
     {
       "title": "Sempre pegue",
-      "text": "Seringa Militar, Cristal de Foco, Tempos Difíceis, Instintos Predatórios, Brutamontes, Célula Lisada."
+      "text": "Seringa Militar, Broche de Topázio, Pé de Cabra, Cinturão de Kjaro e Lesma Precavida."
     },
     {
       "title": "Impressoras brancas",
-      "text": "Transforme em Seringa Militar até umas 6, depois Cristal de Foco e Tempos Difíceis."
+      "text": "Seringa Militar até umas 6; depois Placa, Broche de Topázio e Pé de Cabra."
     },
     {
       "title": "Primeiro verde",
-      "text": "Instintos Predatórios. Depois acumule Ukulele e Cinturão de Kjaro."
+      "text": "Cinturão de Kjaro. Depois Cinturão de Runald, Ukulele ou Míssil ASM."
     },
     {
-      "title": "Equipamento",
-      "text": "Opus de Gorag; Elefante de Jade se estiver morrendo muito."
+      "title": "Itens de cura",
+      "text": "Não descarte a Lesma Precavida. Tenha pelo menos dois tipos de cura: ela vira velocidade de ataque."
+    },
+    {
+      "title": "Litania",
+      "text": "Ciclos curtos de Dark Summons, saindo cedo com Banish. No começo ela é sua principal cura."
     },
     {
       "title": "Antes de pegar Vazio",
-      "text": "Espaços Seguros corrompe Tempos Difíceis; Polialaúde corrompe Ukuleles; Camarão de Plasma corrompe Mísseis ASM."
+      "text": "Espaços Seguros corrompe Tempos Difíceis; Polialaúde corrompe Ukuleles; Camarão de Plasma corrompe Mísseis ASM; Faixa da Singularidade corrompe os Cinturões."
     },
     {
       "title": "Não pegue",
-      "text": "Vidro Configurado e Ombreira do Fluxo Iluminado. Itens de cura rendem pouco."
+      "text": "Vidro Configurado e Ombreira do Fluxo Iluminado."
     },
     {
       "title": "Luta de chefe",
@@ -603,6 +710,72 @@
     }
   ],
   "sources": [
+    {
+      "title": "How Strong is Acolyte in Hallowed Concepts? · rndThursday",
+      "url": "https://www.youtube.com/watch?v=sWk9js2PGzg",
+      "kind": "video",
+      "date": "2026-10-11"
+    },
+    {
+      "title": "Is Hallowed Concepts WORTH It? · rndThursday",
+      "url": "https://www.youtube.com/watch?v=aMtk1n4EzV0",
+      "kind": "video",
+      "date": "2026-10-11"
+    },
+    {
+      "title": "Acolyte is...something · Syntho",
+      "url": "https://www.youtube.com/watch?v=nzBTaAF83M8",
+      "kind": "video",
+      "date": "2026-10-10"
+    },
+    {
+      "title": "Is The Hallowed Concepts DLC Worth It? · TrentoMento",
+      "url": "https://www.youtube.com/watch?v=15Ln8NTf_cc",
+      "kind": "video",
+      "date": "2026-10-08"
+    },
+    {
+      "title": "Hallowed Concepts: Eclipse with Acolyte · Redlink",
+      "url": "https://www.youtube.com/watch?v=nPCJj-jFKDk",
+      "kind": "video",
+      "date": "2026-10-09"
+    },
+    {
+      "title": "Acolyte bad · Steam Community",
+      "url": "https://steamcommunity.com/app/632360/discussions/0/588440207635928723/",
+      "kind": "forum",
+      "date": "2026-10-11"
+    },
+    {
+      "title": "I think Acolyte is poorly designed. · Steam Community",
+      "url": "https://steamcommunity.com/app/632360/discussions/0/588440207635893000/",
+      "kind": "forum",
+      "date": "2026-10-11"
+    },
+    {
+      "title": "Character With No Healing? · Steam Community",
+      "url": "https://steamcommunity.com/app/632360/discussions/0/588440207635974954/",
+      "kind": "forum",
+      "date": "2026-10-12"
+    },
+    {
+      "title": "Acolyte talk · Steam Community",
+      "url": "https://steamcommunity.com/app/632360/discussions/0/588440207636049213/",
+      "kind": "forum",
+      "date": "2026-10-12"
+    },
+    {
+      "title": "I don't really like Acolyte. · Steam Community",
+      "url": "https://steamcommunity.com/app/632360/discussions/0/588440207636050861/",
+      "kind": "forum",
+      "date": "2026-10-12"
+    },
+    {
+      "title": "Acolyte QoL stuff · Steam Community",
+      "url": "https://steamcommunity.com/app/632360/discussions/0/588440207636041747/",
+      "kind": "forum",
+      "date": "2026-10-12"
+    },
     {
       "title": "Acolyte · Risk of Rain 2 Wiki",
       "url": "https://riskofrain2.wiki.gg/wiki/Acolyte",
@@ -612,17 +785,32 @@
       "title": "Items · Risk of Rain 2 Wiki",
       "url": "https://riskofrain2.wiki.gg/wiki/Items",
       "kind": "wiki"
+    },
+    {
+      "title": "Kjaro's Band · Risk of Rain 2 Wiki",
+      "url": "https://riskofrain2.wiki.gg/wiki/Kjaro's_Band",
+      "kind": "wiki"
     }
   ],
+  "reviewed": "2026-10-13",
   "notes": [
-    "A DLC Hallowed Concepts é muito nova (lançada em 8 de outubro de 2026). Este guia usa só itens do jogo base e das três DLCs anteriores, então pode mudar conforme a comunidade testar o personagem.",
+    "Build preliminar. A Acolyte saiu com a DLC Hallowed Concepts em 8 de outubro de 2026, e esta revisão usa só impressões dos primeiros dias: ainda não há guia de jogador experiente, run de Eclipse 8 com ela nem patch de balanceamento. Ela será revista quando esses guias saírem.",
+    "Este guia usa só itens do jogo base e das três DLCs anteriores. Os itens da Hallowed Concepts ainda não estão nos dados do site.",
     "A Acolyte e suas habilidades ainda não estão no arquivo de textos em português, por isso os nomes aparecem em inglês.",
-    "Requer a DLC Hallowed Concepts. É desbloqueada pelo desafio A Broken Ritual; Soul Jar e Javelin têm desafios próprios (Bloodbath e Not Even Close).",
-    "A wiki não diz como itens específicos de cura, barreira e escudo interagem com N'kuhana's Grace. O guia supõe só o que a passiva afirma: toda cura vira vida recuperável.",
-    "A wiki não explica como escolher entre as Litanias Dark Summons e Anima Echo. O dano do avanço (Blade Dash) aparece como 400% na tabela da wiki, mas as notas e o texto do jogo dizem 300%; o guia usa 300%."
+    "Requer a DLC Hallowed Concepts. É desbloqueada pelo desafio A Broken Ritual; Soul Jar e Javelin têm desafios próprios (Bloodbath e Not Even Close). A wiki ainda não diz como desbloquear a Anima Echo.",
+    "Utilitária: a maioria dos jogadores que comentou prefere a Javelin, incluindo um criador experiente. A Blade Sling continua como opção igual: é a padrão, um jogador a acha melhor para curar e a wiki recomenda Bola e depois Blade Sling para acertar inimigo e alma juntos.",
+    "Secundária: os jogadores estão divididos entre Bola Throw e Soul Jar, sem consenso. A build mantém a Bola, que é a padrão.",
+    "Passiva: N'kuhana's Favor divide opiniões. Um jogador a acha bem melhor quando a run engrena, mas perigosa no começo; outro não vê motivo para usá-la.",
+    "Litania: o criador mais experiente que testou acha a Dark Summons claramente mais forte. Outros preferem a Anima Echo por ser mais fluida e dizem que ela cura melhor. Pela wiki, os orbes da Dark Summons valem ~38,5% do dano e os da Anima Echo, 15%. A wiki não diz como encerrar a Anima Echo antes da hora.",
+    "Ciclos curtos: jogadores dizem que sair cedo da Dark Summons com Banish guarda cerca de 4 das 7 Convicções, e que um Sacrifice depois já prepara a próxima Litania. A wiki só diz que a Litania termina quando as Convicções acabam e não confirma se as que sobram ficam.",
+    "A descrição da passiva na wiki fala de cura (inclusive regeneração) e de dano recebido, e não cita barreira nem escudo. Broche de Topázio, Égide e escudos entram pelo que os jogadores relatam. Um jogador diz que uma Lesma Precavida segura o decaimento da vida recuperável; a wiki não confirma.",
+    "Instintos Predatórios, Brutamontes Reluzente e Opus de Gorag saíram do núcleo porque nenhum jogador os citou. Ukulele, Justiça Destruidora, Pérola Irradiante, Elefante de Jade e Capacitor Régio também não foram citados e ficam pelo kit.",
+    "Citados por um ou dois jogadores e fora da lista: Opala de Formato Estranho, Gasolina, Chama da Nulidade (Voidsent Flame), Sanguine Chalice, Pente Reserva (Backup Magazine, com a Soul Jar) e Transcendência (Transcendence), que um jogador chama de quebrada com muitas Seringas. A Fruta Estrangeira (Foreign Fruit) é citada como ruim nela, porque ela não se cura diretamente.",
+    "Eclipse 8: criadores lembram que o Mithrix com Karma é obrigatório no E8 desde a Hallowed Concepts, e ninguém publicou ainda uma run de E8 com a Acolyte.",
+    "A tabela da Blade Dash na wiki diz 400% para o avanço, mas as notas e o texto do jogo dizem 300%; o guia usa 300%."
   ],
   "command": {
-    "intro": "Com a Autoridade, comece por velocidade de ataque e defesa: a Seringa aumenta os acertos de cada golpe rápido e os Tempos Difíceis seguram uma personagem sem cura direta. Depois venham o Brutamontes para os grupos e as recargas (Cabeça Alienígena, Célula Lisada) que trazem a Litania mais cedo.",
+    "intro": "Com a Autoridade, comece por velocidade de ataque e defesa que não depende de cura: Seringa, Placa e Tempos Difíceis. Nos verdes, empilhe o Cinturão de Kjaro para o Sacrifice de 1.000%, e use Cabeça Alienígena e Célula Lisada para chegar à Litania mais cedo.",
     "tiers": [
       {
         "tier": "common",
@@ -630,27 +818,7 @@
           {
             "en": "Soldier's Syringe",
             "n": 2,
-            "why": "Mais acertos por golpe rápido e cargas de golpe rápido que voltam mais cedo."
-          },
-          {
-            "en": "Focus Crystal",
-            "n": 2,
-            "why": "Tudo o que ela usa é corpo a corpo, e mais dano de habilidade dá orbes de cura maiores."
-          },
-          {
-            "en": "Tougher Times",
-            "n": 2,
-            "why": "Com 130 de vida, 0 de armadura e sem cura direta, cada golpe bloqueado conta."
-          },
-          {
-            "en": "Soldier's Syringe",
-            "n": 2,
-            "why": "Quatro Seringas: chega ao mínimo da build e acelera o Sacrifice."
-          },
-          {
-            "en": "Focus Crystal",
-            "n": 1,
-            "why": "Três Cristais, o mínimo da build."
+            "why": "Mais acertos por golpe rápido e cargas de golpe rápido e Sacrifice que voltam mais cedo."
           },
           {
             "en": "Repulsion Armor Plate",
@@ -658,9 +826,44 @@
             "why": "Reduz os golpes pequenos dos grupos, que pesam com 0 de armadura."
           },
           {
-            "en": "Lens-Maker's Glasses",
+            "en": "Tougher Times",
             "n": 2,
-            "why": "Cada um dos até 9 acertos do golpe rápido pode ser crítico."
+            "why": "Com 130 de vida, 0 de armadura e sem cura direta, cada golpe bloqueado conta."
+          },
+          {
+            "en": "Focus Crystal",
+            "n": 2,
+            "why": "Tudo o que ela usa é corpo a corpo, e mais dano de habilidade dá orbes de cura maiores."
+          },
+          {
+            "en": "Topaz Brooch",
+            "n": 1,
+            "why": "Barreira a cada abate; a descrição da passiva não cita barreira."
+          },
+          {
+            "en": "Crowbar",
+            "n": 1,
+            "why": "O Sacrifice de 1.000% num alvo com a vida cheia mata mais e rende a Convicção extra."
+          },
+          {
+            "en": "Soldier's Syringe",
+            "n": 2,
+            "why": "Quatro Seringas: chega ao mínimo da build."
+          },
+          {
+            "en": "Cautious Slug",
+            "n": 1,
+            "why": "Regeneração fora de combate vira vida recuperável e velocidade de ataque."
+          },
+          {
+            "en": "Focus Crystal",
+            "n": 1,
+            "why": "Três Cristais, o mínimo da build."
+          },
+          {
+            "en": "Mocha",
+            "n": 1,
+            "why": "Movimento para kitar e mais velocidade de ataque."
           },
           {
             "en": "Soldier's Syringe",
@@ -668,55 +871,35 @@
             "why": "Seis Seringas: o golpe rápido se aproxima do limite de 9 acertos."
           },
           {
-            "en": "Tougher Times",
+            "en": "Topaz Brooch",
             "n": 1,
-            "why": "Terceiro Tempos Difíceis para as fases mais longas."
-          },
-          {
-            "en": "Crowbar",
-            "n": 1,
-            "why": "O Sacrifice de 1000% num alvo com a vida cheia mata mais e rende a Convicção extra."
-          },
-          {
-            "en": "Focus Crystal",
-            "n": 2,
-            "why": "Cinco Cristais, o máximo da build."
-          },
-          {
-            "en": "Lens-Maker's Glasses",
-            "n": 2,
-            "why": "Quatro Óculos, o máximo da build."
+            "why": "Segundo Broche, mais barreira por abate."
           },
           {
             "en": "Repulsion Armor Plate",
             "n": 1,
             "why": "Terceira Placa para os grupos grandes do fim da run."
+          },
+          {
+            "en": "Tougher Times",
+            "n": 1,
+            "why": "Terceiro Tempos Difíceis para as fases mais longas."
           }
         ],
-        "then": "Depois: Seringa até 8 e Placa até 5. Mocha se faltar movimento para chegar perto. O Broche de Topázio fica de fora até você testar como a barreira funciona com a passiva."
+        "then": "Depois: Seringa até 8, Placa até 5 e Cristal até 5. Pé de Cabra e Mocha até 3, ou Casco de Bode de Paul, se faltar dano no primeiro golpe ou movimento."
       },
       {
         "tier": "uncommon",
         "steps": [
           {
-            "en": "Predatory Instincts",
-            "n": 1,
-            "why": "Velocidade de ataque nos críticos: mais acertos por golpe rápido e habilidades Rápidas mais curtas."
-          },
-          {
             "en": "Kjaro's Band",
             "n": 1,
-            "why": "Cada Sacrifice de 1000% ativa o tornado, com recarga parecida com a do Cinturão."
+            "why": "Cada Sacrifice de 1.000% ativa o tornado, com a mesma recarga de 10 s."
           },
           {
-            "en": "Ukulele",
-            "n": 2,
-            "why": "Dois Ukuleles: muitos acertos por golpe rápido são muitas chances de raio em até 5 alvos."
-          },
-          {
-            "en": "Old War Stealthkit",
+            "en": "Runald's Band",
             "n": 1,
-            "why": "Sem cura direta, a invisibilidade dá tempo para os orbes devolverem vida."
+            "why": "Ativa junto com o de Kjaro no mesmo Sacrifice e desacelera os inimigos."
           },
           {
             "en": "Kjaro's Band",
@@ -724,36 +907,51 @@
             "why": "Segundo Cinturão: tornado de 600% do Sacrifice."
           },
           {
-            "en": "Ukulele",
-            "n": 2,
-            "why": "Quatro Ukuleles: o raio pega até 9 alvos a 26 m."
-          },
-          {
-            "en": "Predatory Instincts",
-            "n": 1,
-            "why": "O segundo sobe o limite de velocidade de ataque de 36% para 60%."
-          },
-          {
             "en": "AtG Missile Mk. 1",
             "n": 1,
-            "why": "Um Míssil para alcançar voadores e elites."
+            "why": "Um Míssil para os golpes grandes e para alcançar voadores."
           },
           {
             "en": "Ukulele",
-            "n": 1,
-            "why": "Quinto Ukulele: até 11 alvos a 28 m."
+            "n": 2,
+            "why": "Dois Ukuleles: muitos acertos por golpe rápido são muitas chances de raio em até 5 alvos."
           },
           {
             "en": "Kjaro's Band",
             "n": 1,
             "why": "Terceiro Cinturão: tornado de 900% do Sacrifice."
+          },
+          {
+            "en": "Bandolier",
+            "n": 1,
+            "why": "Pacotes de munição reiniciam o Sacrifice e trazem a Litania mais cedo."
+          },
+          {
+            "en": "Ukulele",
+            "n": 2,
+            "why": "Quatro Ukuleles: o raio pega até 9 alvos a 26 m."
+          },
+          {
+            "en": "Leeching Seed",
+            "n": 1,
+            "why": "Um segundo tipo de cura, que vira vida recuperável e velocidade de ataque."
+          },
+          {
+            "en": "Kjaro's Band",
+            "n": 1,
+            "why": "Quarto Cinturão: tornado de 1.200% do Sacrifice."
           }
         ],
-        "then": "Depois: continue acumulando Ukulele e leve o Cinturão até 4. Semente ou Shuriken só depois disso. Foice do Ceifador só se já tiver Óculos; a cura dela também vira vida recuperável."
+        "then": "Depois: continue acumulando Ukulele e leve o Cinturão de Runald até 2. Pluma de Hopoo, Espora de Faraday ou Kit Furtivo se faltar movimento ou fuga."
       },
       {
         "tier": "legendary",
         "steps": [
+          {
+            "en": "Alien Head",
+            "n": 1,
+            "why": "Bola, Javelin e Sacrifice voltam mais rápido, e a Litania chega mais cedo."
+          },
           {
             "en": "Brilliant Behemoth",
             "n": 1,
@@ -762,7 +960,7 @@
           {
             "en": "Alien Head",
             "n": 1,
-            "why": "Bola, Blade Sling e Sacrifice voltam mais rápido, e a Litania chega mais cedo."
+            "why": "Segunda Cabeça, o máximo da build."
           },
           {
             "en": "Shattering Justice",
@@ -775,17 +973,12 @@
             "why": "O segundo aumenta o raio das explosões."
           },
           {
-            "en": "Alien Head",
-            "n": 1,
-            "why": "Segunda Cabeça, o máximo da build."
-          },
-          {
             "en": "57 Leaf Clover",
             "n": 1,
             "why": "Melhora crítico, Ukulele e Míssil, que ativam muito com os golpes rápidos."
           }
         ],
-        "then": "Depois: Mira Laser, só se o crítico dos Óculos e dos Instintos já for alto. Não troque um vermelho de dano pelo Suporte do Rejuvenescimento."
+        "then": "Depois: Mira Laser só com crítico alto. Égide e Suporte do Rejuvenescimento dividem opiniões; não troque um vermelho de dano por eles."
       },
       {
         "tier": "boss",
@@ -804,7 +997,7 @@
           {
             "en": "Gorag's Opus",
             "n": 1,
-            "why": "Escolha este no primeiro barril: +100% de velocidade de ataque dobra os acertos do golpe rápido."
+            "why": "Sem indicação dos jogadores ainda: +100% de velocidade de ataque dobra os acertos do golpe rápido."
           },
           {
             "en": "Jade Elephant",
@@ -819,7 +1012,7 @@
           {
             "en": "Primordial Cube",
             "n": 1,
-            "why": "Segunda reserva: junta o grupo para os golpes rápidos e o Brutamontes."
+            "why": "Segunda reserva: junta o grupo para os golpes rápidos e a Dark Summons."
           }
         ],
         "then": "Equipamento é um só: troque apenas se achar um barril com uma opção acima da sua. A Expurgação Explosiva entra no lugar se o dano contínuo das elites estiver matando você."
@@ -849,7 +1042,7 @@
             "why": "Segunda Célula, também em berço verde: recarga ainda menor no Sacrifice."
           }
         ],
-        "then": "O berço do Vazio define a raridade da escolha. Espaços Seguros (berço branco) corrompe todos os Tempos Difíceis: só vale se você tiver poucos. Polialaúde corrompe os Ukuleles e Camarão de Plasma corrompe os Mísseis."
+        "then": "O berço do Vazio define a raridade da escolha. Espaços Seguros (berço branco) corrompe todos os Tempos Difíceis: só vale se você tiver poucos. Polialaúde corrompe os Ukuleles, Camarão de Plasma corrompe os Mísseis e Faixa da Singularidade corrompe os Cinturões."
       }
     ]
   }
