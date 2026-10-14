@@ -2,9 +2,9 @@
   "id": "acrid",
   "name_pt": "Acrid",
   "name_en": "Acrid",
-  "title": "Acrid: Build de Veneno",
-  "tagline": "Veneno em área, corpo a corpo e cura por golpe",
-  "lede": "Uma build de brigão para jogar normalmente e chegar longe: espalhar Veneno com a Epidemia e o Salto Cáustico, ficar colado nos inimigos com muita velocidade de ataque e se curar a cada golpe. O Veneno tira até 10% da vida máxima do alvo, o que derrete chefes e inimigos grandes; os itens servem para matar o que o Veneno não mata e para manter você de pé.",
+  "title": "Acrid: Build de Veneno e Mobilidade",
+  "tagline": "Envenena de longe, corre e deixa o Veneno trabalhar",
+  "lede": "O Veneno tira 1% da vida máxima do alvo por segundo (ou 100% do dano base, o que for maior), mas nunca mata. A build espalha Veneno com Neurotoxina, Salto Cáustico e Epidemia, continua correndo e usa Gasolina, Velha Guilhotina e Fogo Fátuo para terminar o que o Veneno deixa com 1 de vida. É a escolha da maioria dos jogadores de Eclipse: Pente Reserva para mais Neurotoxinas, velocidade de corrida e itens que multiplicam o Veneno.",
   "loadout": [
     {
       "slot": "Passiva",
@@ -16,7 +16,7 @@
     },
     {
       "slot": "Secundária",
-      "skill": "Mordida Voraz (Ravenous Bite)"
+      "skill": "Neurotoxina (Neurotoxin)"
     },
     {
       "slot": "Utilitária",
@@ -33,48 +33,64 @@
       "pt": "Veneno",
       "en": "Poison",
       "pick": "Recomendada",
-      "spec": "Causa 1% da vida máxima do alvo por segundo ou 100% do dano base do Acrid por segundo, o que for maior, por 10 s. Limite de 5000% do dano base por segundo. Não acumula e não mata.",
-      "why": "Tira cerca de 10% da vida máxima de qualquer coisa, o que é enorme contra chefes e inimigos grandes. O Veneno deixa o inimigo com 1 de vida; o abate tem de vir de um golpe seu. A wiki considera o Veneno a melhor escolha na maioria das runs, principalmente ao dar loop."
+      "spec": "Causa 1% da vida máxima do alvo por segundo ou 100% do dano base do Acrid por segundo, o que for maior, por 10 s (3 ticks por segundo). Limite de 5.000% do dano base por segundo. Reduzido pela armadura. Não acumula e não mata.",
+      "why": "A escolha de quase todos os guias e jogadores de Eclipse. Em testes controlados, o Veneno venceu a Praga em 15 de 24 cenários, e a parte baseada na vida do alvo fica mais forte no fim da run. O inimigo para em 1 de vida: o abate precisa vir de outro lugar (Gasolina, Guilhotina, um golpe ou outra Epidemia)."
     },
     {
       "slot": "Passiva (alt.)",
       "pt": "Praga",
       "en": "Blight",
       "pick": "Variante",
-      "spec": "Ataques que envenenam aplicam Praga: 60% de dano por segundo, 5 s, acumula e pode matar.",
-      "why": "Escala com o seu dano, não com a vida do alvo, e recompensa usar habilidades sem parar. É melhor contra inimigos pequenos e pior contra os grandes. Vale para quem joga muito agressivo."
+      "spec": "Ataques que envenenam aplicam Praga: 20% do dano base por tick, 3 ticks por segundo (60% por segundo), por 5 s. Cada acúmulo aumenta o dano de cada tick. A duração não renova a cada acúmulo. Pode matar.",
+      "why": "Escala com o seu dano, não com a vida do alvo. Jogadores a usam só no estágio 1 e 2, em runs com redução de recarga máxima (Pureza, Cabeça Alienígena, Ombreira) ou junto com o Espinho Nocivo, que passa os acúmulos adiante. Fora disso, quem testou diz que perde para o Veneno quase sempre."
     },
     {
       "slot": "Primária",
       "pt": "Dilacerações Hediondas",
       "en": "Vicious Wounds",
-      "pick": "Recomendada",
-      "spec": "Golpes de 200%; o terceiro é Regenerativo e causa 400%. Coeficiente 1,0.",
-      "why": "O terceiro golpe cura 5% da vida máxima em 0,5 s. Velocidade de ataque faz a sequência girar mais rápido, e correr inicia o próximo golpe da sequência em vez de cancelar."
+      "pick": "Única opção",
+      "spec": "Golpes de 200%; o terceiro é Regenerativo e causa 400%. Coeficiente 1,0. Não envenena.",
+      "why": "O terceiro golpe cura 5% da vida máxima em 0,5 s. Correr inicia o próximo golpe da sequência sem zerar o combo, e jogadores usam isso para bater mais rápido. Use de perto para finalizar quem o Veneno deixou com 1 de vida."
     },
     {
       "slot": "Secundária",
+      "pt": "Neurotoxina",
+      "en": "Neurotoxin",
+      "pick": "Recomendada",
+      "spec": "Venenosa, Ágil. Cospe bile tóxica causando 240% de dano. Recarga 2 s. Coeficiente 1,0. Pode ser usada durante as Dilacerações sem cancelá-las.",
+      "why": "A escolha da maioria dos guias: envenena de longe, acerta voadores e funciona correndo. Cada Pente Reserva (Backup Magazine) soma uma carga, o que torna o Pente um item central nesta build. Com 240%, não ativa os Cinturões."
+    },
+    {
+      "slot": "Secundária (alt.)",
       "pt": "Mordida Voraz",
       "en": "Ravenous Bite",
-      "pick": "Recomendada",
-      "spec": "Venenosa, Assassino, Regenerativa. Mordida de 320% de dano (o texto do jogo em português mostra 310%). Recarga 2 s.",
-      "why": "Assassino causa até 3× de dano em alvos com pouca vida, e é exatamente aí que o Veneno os deixa. A mordida finaliza o que o Veneno não mata e ainda cura. A alternativa Neurotoxina (Neurotoxin, 240%, à distância) é melhor contra voadores e pode ser usada no meio das Dilacerações."
+      "pick": "Variante",
+      "spec": "Venenosa, Assassino, Regenerativa. Mordida de 320% de dano (o texto do jogo em português mostra 310%). Recarga 2 s. Coeficiente 1,0. Desafio: Acrid: Bad Medicine.",
+      "why": "Para quem quer jogar de perto: Assassino aumenta o dano em quem está com pouca vida, e o Regenerativo cura. Os guias de Eclipse a chamam de mais fraca que a Neurotoxina e dizem que a usam por diversão. Contra Fogos Fátuos e voadores, sofre."
     },
     {
       "slot": "Utilitária",
       "pt": "Salto Cáustico",
       "en": "Caustic Leap",
       "pick": "Recomendada",
-      "spec": "Venenoso, Atordoante. Salto de 320% que deixa uma poça de ácido de 25%. 2 cargas, recarga 6 s.",
-      "why": "A poça dura 10 s e causa até 500% de dano a cada inimigo que fica nela. A distância do salto cresce com a velocidade de movimento, e você não leva dano de queda durante o salto. O Salto Frenético (Frenzied Leap, 550%, recarga 10 s, −2 s de recarga por inimigo atingido) não envenena."
+      "spec": "Venenoso, Atordoante, Ágil. Salto de 320% (coeficiente 1,0) que deixa uma poça de ácido de 25% (coeficiente 0,1). 2 cargas, recarga 6 s.",
+      "why": "A escolha da maioria. A poça dura 10 s e causa cerca de 500% de dano a cada inimigo que fica nela. A distância cresce com a velocidade de movimento, e o salto evita dano de queda. Jogadores de Eclipse o usam com velocidade para pular os pilares da Lua."
+    },
+    {
+      "slot": "Utilitária (alt.)",
+      "pt": "Salto Frenético",
+      "en": "Frenzied Leap",
+      "pick": "Variante",
+      "spec": "Salto de 550% de dano. Cada inimigo atingido reduz a recarga em 2 s. 2 cargas, recarga 10 s. Coeficiente 1,0. Não envenena. Desafio: Acrid: Pandemic.",
+      "why": "Escolha se a run tiver Cinturões de Kjaro e Runald: com 550%, todo pouso passa do limite dos dois, que recarregam a cada 10 s. Fora disso, a maioria fica com o Salto Cáustico, que envenena e deixa a poça."
     },
     {
       "slot": "Especial",
       "pt": "Epidemia",
       "en": "Epidemic",
       "pick": "Recomendada",
-      "spec": "Venenosa. Doença de 100% de dano que se espalha para até 20 alvos. Recarga 10 s.",
-      "why": "Cada alvo atingido passa a doença para até 2 inimigos a 30 m, envenenando todos. É o que envenena a tela inteira, e cada salto ativa itens ao acertar. Atirar no chão ou na parede acerta voadores próximos."
+      "spec": "Venenosa, Ágil. Doença de 100% de dano que salta para até 2 inimigos a 30 m, até 20 vezes. Recarga 10 s. Coeficiente 1,0 por acerto.",
+      "why": "Envenena a tela inteira, e cada salto é um acerto com coeficiente cheio para os itens ao acertar. Lance de novo para finalizar os inimigos que o Veneno deixou com 1 de vida: o impacto de 100% mata. Atirar no chão ou na parede acerta voadores próximos."
     }
   ],
   "sections": [
@@ -82,25 +98,61 @@
       "id": "common",
       "name": "Comum",
       "color": "white",
-      "intro": "O Acrid luta colado no inimigo. Os brancos dão o que ele mais usa: velocidade de ataque, dano de perto e defesa.",
+      "intro": "Os brancos dão o que a build pede: algo que finalize, mais cargas de Neurotoxina, velocidade de corrida e multiplicadores do Veneno.",
       "items": [
         {
-          "icon": "soldiers-syringe",
-          "pt": "Seringa Militar",
-          "en": "Soldier's Syringe",
+          "icon": "gasoline",
+          "pt": "Gasolina",
+          "en": "Gasoline",
           "prio": 1,
-          "qty": "4 a 8",
-          "effect": "+15% (+15% por acúmulo) de velocidade de ataque.",
-          "why": "As Dilacerações Hediondas saem mais rápido: mais golpes por segundo, mais ativações de itens ao acertar e o terceiro golpe Regenerativo (que cura 5% da vida máxima) chega com mais frequência."
+          "qty": "1 a 2",
+          "effect": "Abater um inimigo incendeia todos os inimigos num raio de 12 m (+4 m por acúmulo) com 150% do dano base. Além disso, os inimigos queimam por 150% (+75% por acúmulo) do dano base.",
+          "why": "A correção que os jogadores apontam para o Veneno que não mata: um abate incendeia os vizinhos que o Veneno deixou com 1 de vida, e o fogo segue em cadeia. Vários guias dizem que uma só já resolve."
+        },
+        {
+          "icon": "backup-magazine",
+          "pt": "Pente Reserva",
+          "en": "Backup Magazine",
+          "prio": 1,
+          "qty": "2 a 4",
+          "effect": "+1 (+1 por acúmulo) carga da habilidade Secundária.",
+          "why": "Cada Pente é mais uma Neurotoxina antes da recarga de 2 s: mais Veneno espalhado de longe e mais acertos com coeficiente 1,0. No Acrid é item de verdade, citado por quase todos os guias."
+        },
+        {
+          "icon": "energy-drink",
+          "pt": "Bebida Energética",
+          "en": "Energy Drink",
+          "prio": 1,
+          "qty": "2 a 4",
+          "effect": "A velocidade de corrida aumenta em 25% (+25% por acúmulo).",
+          "why": "O conselho que mais se repete: aplique Veneno e não pare de correr. Neurotoxina, Salto Cáustico e Epidemia são Ágeis e saem correndo. Velocidade demais deixa os saltos difíceis de controlar."
+        },
+        {
+          "icon": "armor-piercing-rounds",
+          "pt": "Projéteis Perfurantes",
+          "en": "Armor-Piercing Rounds",
+          "prio": 1,
+          "qty": "2 a 5",
+          "effect": "+20% (+20% por acúmulo) de dano contra chefes.",
+          "why": "A wiki confirma que aumenta o Veneno e a Praga. Contra chefes, onde o Veneno faz a maior parte do dano, jogadores de Eclipse empilham e citam os Projéteis como o que escalou o dano no fim da run."
         },
         {
           "icon": "focus-crystal",
           "pt": "Cristal de Foco",
           "en": "Focus Crystal",
-          "prio": 1,
-          "qty": "3 a 5",
+          "prio": 2,
+          "qty": "2 a 4",
           "effect": "+20% (+20% por acúmulo) de dano contra inimigos a até 13 m.",
-          "why": "O Acrid passa quase toda a luta a menos de 13 m. Segundo a wiki, o bônus também aumenta o dano do Veneno e da Praga."
+          "why": "A wiki confirma que o bônus vale para o Veneno e a Praga. Pede ficar a até 13 m, o que nem sempre acontece jogando de longe com a Neurotoxina."
+        },
+        {
+          "icon": "pauls-goat-hoof",
+          "pt": "Casco de Bode de Paul",
+          "en": "Paul's Goat Hoof",
+          "prio": 2,
+          "qty": "2 a 5",
+          "effect": "+14% (+14% por acúmulo) de velocidade de movimento.",
+          "why": "A distância do Salto Cáustico cresce com a velocidade de movimento. Um jogador de Eclipse prefere o Casco à Bebida justamente pelo controle do salto."
         },
         {
           "icon": "tougher-times",
@@ -109,16 +161,25 @@
           "prio": 2,
           "qty": "2 a 4",
           "effect": "15% (+15% por acúmulo) de chance de bloquear dano recebido. Não é afetado por sorte.",
-          "why": "Lutar no meio do grupo significa levar muitos golpes. Cada bloqueio é um golpe inteiro evitado."
+          "why": "Jogadores de Eclipse pedem um pouco de defesa ao lado de dano e velocidade. Cada bloqueio é um golpe inteiro evitado."
         },
         {
-          "icon": "lens-makers-glasses",
-          "pt": "Óculos do Fabricante de Lentes",
-          "en": "Lens-Maker's Glasses",
-          "prio": 2,
-          "qty": "2 a 5",
-          "effect": "10% (+10% por acúmulo) de chance de Acerto Crítico, que causa dano dobrado.",
-          "why": "Aumenta o dano dos golpes diretos e ativa Foice do Ceifador e Instintos Predatórios. A wiki não lista crítico entre o que aumenta o Veneno."
+          "icon": "delicate-watch",
+          "pt": "Relógio Delicado",
+          "en": "Delicate Watch",
+          "prio": 3,
+          "qty": "1 a 3",
+          "effect": "+20% (+20% por acúmulo) de dano. Quebra ao levar dano que deixe você abaixo de 25% de vida.",
+          "why": "Aumentos de dano que não mexem no dano base valem depois do cálculo do Veneno, então o Relógio multiplica o Veneno. Jogando de longe, quebra menos do que no corpo a corpo."
+        },
+        {
+          "icon": "repulsion-armor-plate",
+          "pt": "Placa da Armadura de Repulsão",
+          "en": "Repulsion Armor Plate",
+          "prio": 3,
+          "qty": "2 a 4",
+          "effect": "Reduz todo o dano recebido em 5 (+5 por acúmulo). O dano não pode ficar abaixo de 1.",
+          "why": "Resposta de jogadores de Eclipse ao dano constante dos inimigos pequenos, junto com velocidade e o Broquel da Rosa."
         },
         {
           "icon": "tri-tip-dagger",
@@ -127,25 +188,7 @@
           "prio": 3,
           "qty": "1 a 3",
           "effect": "10% (+10% por acúmulo) de chance de sangrar um inimigo por 240% do dano base.",
-          "why": "Sangramento é um debuff a mais além do Veneno, útil para a Marca Fatal, e ativa muito com os golpes rápidos das Dilacerações."
-        },
-        {
-          "icon": "armor-piercing-rounds",
-          "pt": "Projéteis Perfurantes",
-          "en": "Armor-Piercing Rounds",
-          "prio": 3,
-          "qty": "1 a 3",
-          "effect": "+20% (+20% por acúmulo) de dano contra chefes.",
-          "why": "A wiki lista este item entre os que aumentam o Veneno. Contra chefes, onde o Veneno já é forte, o ganho é direto."
-        },
-        {
-          "icon": "pauls-goat-hoof",
-          "pt": "Casco de Bode de Paul",
-          "en": "Paul's Goat Hoof",
-          "prio": 3,
-          "qty": "1 a 3",
-          "effect": "+14% (+14% por acúmulo) de velocidade de movimento.",
-          "why": "A distância dos saltos cresce com a velocidade de movimento. Também ajuda a alcançar inimigos que fogem do corpo a corpo."
+          "why": "O sangramento pode matar, então finaliza inimigos envenenados. Também é mais um debuff para a Marca Fatal. Rola em cada acerto da Epidemia e da Neurotoxina."
         },
         {
           "icon": "mocha",
@@ -154,16 +197,25 @@
           "prio": 3,
           "qty": "1 a 3",
           "effect": "+7,5% (+7,5% por acúmulo) de velocidade de ataque e +7% (+7% por acúmulo) de velocidade de movimento.",
-          "why": "Metade Seringa, metade Casco. Bom em qualquer quantidade."
+          "why": "Velocidade de movimento para o salto e velocidade de ataque para as Dilacerações no mesmo item."
         },
         {
-          "icon": "delicate-watch",
-          "pt": "Relógio Delicado",
-          "en": "Delicate Watch",
+          "icon": "soldiers-syringe",
+          "pt": "Seringa Militar",
+          "en": "Soldier's Syringe",
+          "prio": 3,
+          "qty": "1 a 3",
+          "effect": "+15% (+15% por acúmulo) de velocidade de ataque.",
+          "why": "Acelera as Dilacerações e o golpe Regenerativo. Útil no começo, quando o Acrid ainda bate de perto; um guia de Eclipse a lista entre os itens que rendem pouco para quem envenena e foge."
+        },
+        {
+          "icon": "lens-makers-glasses",
+          "pt": "Óculos do Fabricante de Lentes",
+          "en": "Lens-Maker's Glasses",
           "prio": 4,
-          "qty": "1 a 2",
-          "effect": "+20% (+20% por acúmulo) de dano. Quebra ao levar dano que deixe você abaixo de 25% de vida.",
-          "why": "Aumenta o dano do Veneno também, segundo a wiki. Arriscado para um personagem que vive tomando dano de perto."
+          "qty": "1 a 3",
+          "effect": "10% (+10% por acúmulo) de chance de Acerto Crítico, que causa dano dobrado.",
+          "why": "O crítico vale só para o golpe inicial; jogadores apontam que os ticks do Veneno não são críticos, e a wiki não lista crítico entre o que aumenta o Veneno. Só no fim da run, se a build virar de itens ao acertar."
         }
       ]
     },
@@ -171,43 +223,97 @@
       "id": "uncommon",
       "name": "Incomum",
       "color": "green",
-      "intro": "Os verdes dão a cura por golpe e os efeitos ao acertar que a Epidemia espalha pelo grupo.",
+      "intro": "Os verdes terminam o que o Veneno deixa com 1 de vida e transformam cada abate em dano em área.",
       "items": [
         {
-          "icon": "leeching-seed",
-          "pt": "Semente Sanguessuga",
-          "en": "Leeching Seed",
+          "icon": "old-guillotine",
+          "pt": "Velha Guilhotina",
+          "en": "Old Guillotine",
           "prio": 1,
-          "qty": "3 a 6",
-          "effect": "Causar dano cura 1 (+1 por acúmulo) de vida.",
-          "why": "Cada golpe das Dilacerações, cada alvo da Epidemia e cada acerto do salto cura. Com muita velocidade de ataque vira a cura principal fora do Regenerativo. Vale acumular: cada cópia soma +1 de cura em cada acerto, e o Acrid acerta muito."
+          "qty": "1 a 3",
+          "effect": "Abate instantaneamente monstros de Elite com menos de 13% (+13% por acúmulo) de vida.",
+          "why": "A wiki do Acrid diz que a Guilhotina deixa o Veneno matar Elites sozinho, e os jogadores concordam: o Veneno leva a Elite até o limite e ela morre. Acumula de forma hiperbólica (a wiki mostra 11,5% com 1 e 20,6% com 2)."
         },
         {
-          "icon": "ukulele",
-          "pt": "Ukulele",
-          "en": "Ukulele",
+          "icon": "will-o-the-wisp",
+          "pt": "Fogo Fátuo",
+          "en": "Will-o'-the-wisp",
+          "prio": 1,
+          "qty": "1 a 3",
+          "effect": "Ao abater um inimigo, cria um pilar de lava num raio de 12 m (+2,4 m por acúmulo) que causa 350% (+280% por acúmulo) do dano base.",
+          "why": "Cada abate de Gasolina, Guilhotina ou Epidemia vira uma explosão no meio do grupo envenenado, que finaliza mais inimigos com 1 de vida. A Chama da Nulidade (Voidsent Flame) corrompe todos os Fogos Fátuos: escolha um dos dois."
+        },
+        {
+          "icon": "hopoo-feather",
+          "pt": "Pluma de Hopoo",
+          "en": "Hopoo Feather",
           "prio": 2,
           "qty": "1 a 2",
-          "effect": "25% de chance de disparar um raio em cadeia de 80% de dano TOTAL em até 3 (+2 por acúmulo) alvos a 20 m (+2 m por acúmulo).",
-          "why": "A Epidemia atinge até 20 alvos e cada acerto pode ativar o Ukulele. A wiki cita essa combinação como uma das que mantêm a Epidemia útil no fim do jogo. O Polialaúde (Polylute) corrompe todos os Ukuleles."
+          "effect": "Ganha +1 (+1 por acúmulo) no número máximo de saltos.",
+          "why": "Jogadores de Eclipse pedem uma Pluma para corrigir o salto quando há velocidade demais e para fugir na vertical."
+        },
+        {
+          "icon": "death-mark",
+          "pt": "Marca Fatal",
+          "en": "Death Mark",
+          "prio": 2,
+          "qty": "1",
+          "effect": "Inimigos com 4 ou mais debuffs ficam marcados e recebem 50% a mais de dano de todas as fontes por 7 s (+7 s por acúmulo).",
+          "why": "O Acrid aplica debuffs com facilidade: Veneno, queimadura da Gasolina, sangramento e a redução de armadura da Justiça Destruidora. Os +50% valem também para o Veneno. Mais cópias só aumentam a duração."
         },
         {
           "icon": "atg-missile-mk-1",
           "pt": "Míssil ASM Mk. 1",
           "en": "AtG Missile Mk. 1",
           "prio": 2,
-          "qty": "4 a 6",
+          "qty": "1 a 3",
           "effect": "10% de chance de disparar um míssil que causa 300% (+300% por acúmulo) de dano TOTAL.",
-          "why": "Mesmo motivo do Ukulele: muitos acertos por segundo e muitos alvos com a Epidemia. O Camarão de Plasma (Plasma Shrimp) corrompe todos os Mísseis. É o verde de dano para acumular: cada cópia soma +300% ao dano de cada míssil."
+          "why": "Cada salto da Epidemia é um acerto com coeficiente 1,0, e a wiki cita o Míssil como bom parceiro dela. O Camarão de Plasma (Plasma Shrimp) corrompe todos os Mísseis ASM."
         },
         {
-          "icon": "death-mark",
-          "pt": "Marca Fatal",
-          "en": "Death Mark",
+          "icon": "rose-buckler",
+          "pt": "Broquel da Rosa",
+          "en": "Rose Buckler",
           "prio": 3,
-          "qty": "1",
-          "effect": "Inimigos com 4 ou mais debuffs ficam marcados e recebem 50% a mais de dano de todas as fontes por 7 s (+7 s por acúmulo).",
-          "why": "O Veneno já conta como um debuff. Com sangramento (Adaga Triangular), redução de armadura (Justiça Destruidora) e outros, chegar a 4 fica fácil. Se chegar, é +50% em tudo, inclusive no Veneno."
+          "qty": "1 a 3",
+          "effect": "+30 (+30 por acúmulo) de armadura enquanto corre.",
+          "why": "Neurotoxina, Salto Cáustico e Epidemia são Ágeis e saem correndo, então a armadura fica ativa quase o tempo todo."
+        },
+        {
+          "icon": "red-whip",
+          "pt": "Chicote Vermelho",
+          "en": "Red Whip",
+          "prio": 3,
+          "qty": "1 a 2",
+          "effect": "Sair de combate aumenta a velocidade de movimento em 30% (+30% por acúmulo).",
+          "why": "Jogadores de Eclipse o valorizam para entrar, envenenar e sair. Rende entre as lutas e para fugir."
+        },
+        {
+          "icon": "ukulele",
+          "pt": "Ukulele",
+          "en": "Ukulele",
+          "prio": 3,
+          "qty": "1 a 2",
+          "effect": "25% de chance de disparar um raio em cadeia de 80% de dano TOTAL em até 3 (+2 por acúmulo) alvos a 20 m (+2 m por acúmulo).",
+          "why": "Cada acerto da Epidemia pode disparar o raio em cadeia, e a wiki cita a dupla. O Polialaúde (Polylute) corrompe todos os Ukuleles: fique com um dos dois."
+        },
+        {
+          "icon": "kjaros-band",
+          "pt": "Cinturão de Kjaro",
+          "en": "Kjaro's Band",
+          "prio": 3,
+          "qty": "1 a 2",
+          "effect": "Golpes que causam mais de 400% de dano também atingem os inimigos com um tornado de chamas rúnico, causando 300% (+300% por acúmulo) de dano TOTAL ao longo do tempo. Recarrega a cada 10 segundos.",
+          "why": "Ativa junto com o Cinturão de Runald. Neste kit, quem passa do limite é o Salto Frenético (550%) e o terceiro golpe das Dilacerações (400%, no limite exato). Neurotoxina (240%), Salto Cáustico (320%) e Epidemia (100%) não ativam."
+        },
+        {
+          "icon": "runalds-band",
+          "pt": "Cinturão de Runald",
+          "en": "Runald's Band",
+          "prio": 3,
+          "qty": "1 a 2",
+          "effect": "Golpes que causam mais de 400% de dano também atingem os inimigos com uma explosão de gelo rúnico, desacelerando-os em 80% por 3 s (+3 s por acúmulo) e causando 250% (+250% por acúmulo) de dano TOTAL. Recarrega a cada 10 segundos.",
+          "why": "Mesmos golpes do Cinturão de Kjaro, e os dois ativam juntos. Vale mais se você trocar para o Salto Frenético."
         },
         {
           "icon": "shuriken",
@@ -216,25 +322,16 @@
           "prio": 3,
           "qty": "1 a 2",
           "effect": "Usar a Primária também arremessa uma shuriken de 400% (+100% por acúmulo) do dano base. Guarda até 3 (+1 por acúmulo), que recarregam em 10 s.",
-          "why": "Você ativa as Dilacerações o tempo todo, então as shurikens nunca ficam paradas. Também dão dano à distância contra voadores."
+          "why": "Dano à distância contra voadores a cada uso das Dilacerações. Jogadores que jogam de longe com o Acrid empilham."
         },
         {
-          "icon": "harvesters-scythe",
-          "pt": "Foice do Ceifador",
-          "en": "Harvester's Scythe",
-          "prio": 3,
-          "qty": "1 (com Óculos)",
-          "effect": "+5% de chance de crítico. Críticos curam 8 (+4 por acúmulo) de vida.",
-          "why": "Com golpes rápidos e alguns Óculos, cura a cada crítico. Sem chance de crítico, prefira a Semente Sanguessuga."
-        },
-        {
-          "icon": "predatory-instincts",
-          "pt": "Instintos Predatórios",
-          "en": "Predatory Instincts",
-          "prio": 3,
-          "qty": "1 (com Óculos)",
-          "effect": "+5% de chance de crítico. Críticos dão +12% de velocidade de ataque, até 36% (+24% por acúmulo).",
-          "why": "Mais velocidade para as Dilacerações quando você já tem chance de crítico."
+          "icon": "leeching-seed",
+          "pt": "Semente Sanguessuga",
+          "en": "Leeching Seed",
+          "prio": 4,
+          "qty": "1",
+          "effect": "Causar dano cura 1 (+1 por acúmulo) de vida.",
+          "why": "Jogadores apontam que os ticks do Veneno não curam: só os golpes diretos acionam a Semente. Jogadores de Eclipse a trocam por outro item."
         },
         {
           "icon": "noxious-thorn",
@@ -244,15 +341,6 @@
           "qty": "1 (melhor com Praga)",
           "effect": "+10% de chance de sangramento. Ao abater, transfere 33% de cada acúmulo de debuff para 1 (+1 por acúmulo) inimigo a até 20 m (+5 m por acúmulo).",
           "why": "A Praga acumula, então o Espinho passa parte dos acúmulos para o vizinho. O Veneno normal não acumula, então rende menos."
-        },
-        {
-          "icon": "old-war-stealthkit",
-          "pt": "Kit Furtivo da Guerra Antiga",
-          "en": "Old War Stealthkit",
-          "prio": 4,
-          "qty": "1",
-          "effect": "Ao cair abaixo de 25% de vida, ganha 40% de velocidade e invisibilidade por 5 s. Recarrega a cada 30 s (-50% por acúmulo).",
-          "why": "Saída de emergência para quem entrou fundo demais no grupo."
         }
       ]
     },
@@ -260,25 +348,16 @@
       "id": "legendary",
       "name": "Lendário",
       "color": "red",
-      "intro": "Os vermelhos que mais mudam o Acrid encurtam as recargas e amplificam o corpo a corpo.",
+      "intro": "Nenhum vermelho é obrigatório: os melhores dão mais saltos, recargas menores e mais formas de aplicar debuffs.",
       "items": [
         {
           "icon": "alien-head",
           "pt": "Cabeça Alienígena",
           "en": "Alien Head",
-          "prio": 1,
+          "prio": 2,
           "qty": "1 a 2",
           "effect": "Reduz o tempo de recarga das habilidades em 25% (+25% por acúmulo).",
-          "why": "Epidemia (10 s), Salto Cáustico (6 s) e Mordida (2 s) voltam mais rápido. Com um acúmulo, a Epidemia volta em 7,5 s em vez de 10 s. Ela é a principal fonte de Veneno em grupo."
-        },
-        {
-          "icon": "brilliant-behemoth",
-          "pt": "Brutamontes Reluzente",
-          "en": "Brilliant Behemoth",
-          "prio": 1,
-          "qty": "1 a 2",
-          "effect": "Todos os ataques explodem em 4 m (+2,5 m por acúmulo) causando 60% de dano TOTAL extra.",
-          "why": "As Dilacerações batem rápido e no meio do grupo: cada golpe vira dano em área ao redor do alvo."
+          "why": "Neurotoxina (2 s), Salto Cáustico (6 s) e Epidemia (10 s) voltam mais rápido. Jogadores dizem que ajuda na mobilidade mas não é necessária com Veneno; é central só na Praga com recarga máxima."
         },
         {
           "icon": "hardlight-afterburner",
@@ -287,16 +366,7 @@
           "prio": 2,
           "qty": "1",
           "effect": "+2 (+2 por acúmulo) cargas da Utilitária e −33% no tempo de recarga dela.",
-          "why": "O Salto Cáustico já tem 2 cargas; com o item são 4. Cada salto atordoa, envenena e deixa uma poça de ácido que causa até 500% de dano por alvo."
-        },
-        {
-          "icon": "rejuvenation-rack",
-          "pt": "Suporte do Rejuvenescimento",
-          "en": "Rejuvenation Rack",
-          "prio": 2,
-          "qty": "1",
-          "effect": "Cura +100% (+100% por acúmulo) a mais.",
-          "why": "Dobra a cura de Semente Sanguessuga, Foice e dos outros itens de cura. Para um personagem que vive de se curar no meio da briga, é sobrevivência pura."
+          "why": "O Salto Cáustico passa de 2 para 4 cargas: mais poças, mais Veneno e mais mobilidade para continuar correndo."
         },
         {
           "icon": "shattering-justice",
@@ -305,16 +375,16 @@
           "prio": 3,
           "qty": "1",
           "effect": "Depois de acertar um inimigo 5 vezes, reduz a armadura dele em 60 por 8 s (+8 s por acúmulo).",
-          "why": "O Veneno é afetado pela armadura. Cinco golpes das Dilacerações saem rápido, e a partir daí tanto os golpes quanto o Veneno batem mais. Também conta como debuff para a Marca Fatal."
+          "why": "O Veneno é reduzido pela armadura, então a redução aumenta o Veneno. Também é mais um debuff para a Marca Fatal; um jogador de Eclipse o prefere ao Trevo por isso."
         },
         {
-          "icon": "symbiotic-scorpion",
-          "pt": "Escorpião Simbiótico",
-          "en": "Symbiotic Scorpion",
+          "icon": "brilliant-behemoth",
+          "pt": "Brutamontes Reluzente",
+          "en": "Brilliant Behemoth",
           "prio": 3,
-          "qty": "1 a 2",
-          "effect": "100% de chance ao acertar de reduzir a armadura em 2 (+2 por acúmulo) permanentemente.",
-          "why": "Com golpes rápidos em chefes, a armadura deles cai sem parar. Citado pela wiki entre os itens que aumentam o Veneno."
+          "qty": "1",
+          "effect": "Todos os ataques explodem em 4 m (+2,5 m por acúmulo) causando 60% de dano TOTAL extra.",
+          "why": "Cada acerto da Epidemia e da Neurotoxina explode em volta do alvo. Bom quando aparece, mas nenhum guia o trata como central no Acrid."
         },
         {
           "icon": "57-leaf-clover",
@@ -323,16 +393,16 @@
           "prio": 3,
           "qty": "1",
           "effect": "Todos os efeitos aleatórios são rolados +1 (+1 por acúmulo) vez a seu favor.",
-          "why": "Melhora Ukulele, Míssil, Adaga Triangular e crítico, que são a base do dano em área junto com a Epidemia."
+          "why": "Melhora Míssil, Ukulele e Adaga Triangular nos acertos da Epidemia."
         },
         {
-          "icon": "aegis",
-          "pt": "Égide",
-          "en": "Aegis",
+          "icon": "symbiotic-scorpion",
+          "pt": "Escorpião Simbiótico",
+          "en": "Symbiotic Scorpion",
           "prio": 4,
-          "qty": "1",
-          "effect": "Cura além da vida máxima vira barreira temporária de 50% (+50% por acúmulo) do valor curado.",
-          "why": "Funciona com a Semente e os outros itens de cura, mas a wiki avisa que não interage com a cura Regenerativa do Acrid."
+          "qty": "1 a 2",
+          "effect": "100% de chance ao acertar de reduzir a armadura em 2 (+2 por acúmulo) permanentemente.",
+          "why": "Cada acerto tira armadura do chefe para sempre, e o Veneno é reduzido pela armadura. A wiki o cita nas dicas do Acrid, mas os jogadores não o mencionam."
         }
       ]
     },
@@ -349,7 +419,7 @@
           "prio": 2,
           "qty": "1 ou mais",
           "effect": "Aumenta TODOS os atributos em 10% (+10% por acúmulo).",
-          "why": "Vida, regeneração, dano, velocidade de ataque e armadura de uma vez. Tudo o que o Acrid usa. Com o Artefato da Autoridade (Artifact of Command) não sai: as Poças de Purificação não aparecem e a essência amarela não oferece pérolas."
+          "why": "Vida, regeneração, dano, velocidade e armadura de uma vez. Com o Artefato da Autoridade (Artifact of Command) não sai: as Poças de Purificação não aparecem e a essência amarela não oferece pérolas."
         },
         {
           "icon": "molten-perforator",
@@ -358,7 +428,7 @@
           "prio": 3,
           "qty": "1",
           "effect": "10% de chance ao acertar de lançar 3 bolas de magma do inimigo, causando 300% (+300% por acúmulo) de dano cada.",
-          "why": "Mais um efeito ao acertar para os golpes rápidos e para os alvos da Epidemia."
+          "why": "Mais um efeito ao acertar que a Epidemia ativa em vários alvos de uma vez."
         }
       ]
     },
@@ -366,16 +436,16 @@
       "id": "equipment",
       "name": "Equipamentos",
       "color": "orange",
-      "intro": "Só dá para carregar um. Escolha pelo momento da run.",
+      "intro": "Só dá para carregar um. Os jogadores preferem dano à distância ou juntar o grupo.",
       "items": [
         {
-          "icon": "spinel-tonic",
-          "pt": "Tônico de Espinélia",
-          "en": "Spinel Tonic",
-          "prio": 1,
-          "qty": "1 (equipamento lunar, recarga 60 s)",
-          "effect": "Por 20 s: +100% de dano, +70% de velocidade de ataque, +20 de armadura, +50% de vida máxima, +300% de regeneração, +30% de movimento. Ao acabar, 20% de chance de Aflição do Tônico (−5% em todos os atributos, permanente).",
-          "why": "A wiki destaca este item para o Acrid: a cura Regenerativa conta como regeneração e fica muito mais forte, e os 70% de velocidade de ataque aceleram as Dilacerações. Use nas lutas que importam, pela chance de aflição."
+          "icon": "royal-capacitor",
+          "pt": "Capacitor Régio",
+          "en": "Royal Capacitor",
+          "prio": 2,
+          "qty": "1 (recarga 20 s)",
+          "effect": "Raio em um monstro marcado causando 3.000% de dano e atordoando os monstros próximos.",
+          "why": "Dano à distância contra voadores e Elites, que o Veneno não termina sozinho. Guias de jogadores dizem que também ativa os Cinturões; a wiki não confirma."
         },
         {
           "icon": "primordial-cube",
@@ -384,25 +454,7 @@
           "prio": 2,
           "qty": "1 (recarga 60 s)",
           "effect": "Buraco negro que puxa inimigos a até 30 m para o centro por 10 s.",
-          "why": "Junta o grupo num ponto só: as Dilacerações e o Brutamontes acertam todo mundo, e a poça do Salto Cáustico pega todos."
-        },
-        {
-          "icon": "royal-capacitor",
-          "pt": "Capacitor Régio",
-          "en": "Royal Capacitor",
-          "prio": 2,
-          "qty": "1 (recarga 20 s)",
-          "effect": "Raio em um monstro marcado causando 3000% de dano e atordoando os monstros próximos.",
-          "why": "Dano à distância para voadores e elites, o ponto fraco de um personagem corpo a corpo."
-        },
-        {
-          "icon": "gorags-opus",
-          "pt": "Opus de Gorag",
-          "en": "Gorag's Opus",
-          "prio": 3,
-          "qty": "1 (recarga 45 s)",
-          "effect": "Todos os aliados entram em frenesi por 7 s: +50% de movimento e +100% de velocidade de ataque.",
-          "why": "Dobra a velocidade das Dilacerações por alguns segundos. Bom em grupo."
+          "why": "Junta o grupo num ponto: a poça do Salto Cáustico pega todos e o fogo da Gasolina (12 m) se espalha por todo mundo."
         },
         {
           "icon": "blast-shower",
@@ -411,7 +463,16 @@
           "prio": 4,
           "qty": "1 (recarga 20 s)",
           "effect": "Remove todos os efeitos negativos, incluindo dano contínuo e projéteis próximos.",
-          "why": "Defensivo contra elites que aplicam debuffs. Não ajuda a matar."
+          "why": "Defensivo contra Elites que aplicam debuffs. Não ajuda a matar."
+        },
+        {
+          "icon": "spinel-tonic",
+          "pt": "Tônico de Espinélia",
+          "en": "Spinel Tonic",
+          "prio": 4,
+          "qty": "1 (equipamento lunar, recarga 60 s)",
+          "effect": "Por 20 s: +100% de dano, +70% de velocidade de ataque, +20 de armadura, +50% de vida máxima, +300% de regeneração, +30% de movimento. Ao acabar, 20% de chance de Aflição do Tônico (−5% em todos os atributos, permanente).",
+          "why": "A wiki destaca que amplifica muito o Regenerativo, mas os +100% de dano só aumentam o mínimo do Veneno, não a parte baseada na vida do alvo. Nenhum jogador o usa como equipamento do Acrid, e a aflição é permanente."
         }
       ]
     },
@@ -419,8 +480,26 @@
       "id": "lunar",
       "name": "Lunares",
       "color": "blue",
-      "intro": "Itens lunares têm custo embutido. Nenhum é obrigatório.",
+      "intro": "Itens lunares têm custo embutido. Transcendência e Visões Profanas são as escolhas dos jogadores para runs longas.",
       "items": [
+        {
+          "icon": "transcendence",
+          "pt": "Transcendência",
+          "en": "Transcendence",
+          "prio": 3,
+          "qty": "1",
+          "effect": "Converte toda a vida, menos 1, em escudo que se regenera. +50% (+25% por acúmulo) de vida máxima.",
+          "why": "Um guia de Eclipse a coloca como prioridade alta no Acrid, que envenena e foge sem precisar levar golpes. A wiki diz que ela zera a regeneração e deixa os itens de cura quase sem uso, então o Regenerativo e a Semente deixam de contar."
+        },
+        {
+          "icon": "visions-of-heresy",
+          "pt": "Visões Profanas",
+          "en": "Visions of Heresy",
+          "prio": 3,
+          "qty": "1 a 2",
+          "effect": "Substitui a habilidade Primária por Olhar Faminto (Hungering Gaze): dispara uma rajada de fragmentos teleguiados que explodem após um tempo, causando 120% do dano base. Guarda até 12 cargas (+12 por acúmulo), que recarregam após 2 segundos (+2 por acúmulo).",
+          "why": "Vários jogadores trocam as Dilacerações por ela para jogar de longe e acertar voadores. A explosão tem coeficiente 1,0. A wiki diz que rende em runs longas para quem tem primária corpo a corpo, como o Acrid, e é pior em runs normais. Você perde o golpe Regenerativo."
+        },
         {
           "icon": "purity",
           "pt": "Pureza",
@@ -428,16 +507,16 @@
           "prio": 3,
           "qty": "1",
           "effect": "Reduz todas as recargas de habilidade em 2 s (+1 s por acúmulo). Todos os efeitos aleatórios são rolados +1 (+1 por acúmulo) vez contra você.",
-          "why": "A wiki aponta que a Mordida e a Neurotoxina caem para a recarga mínima de 0,5 s: dá para morder sem parar, curando com o Regenerativo. O custo é piorar Ukulele, Míssil, Adaga e crítico."
+          "why": "A wiki aponta que a Neurotoxina e a Mordida caem para a recarga mínima de 0,5 s. É uma das peças da Praga com recarga máxima. O custo é piorar Míssil, Ukulele e Adaga."
         },
         {
-          "icon": "corpsebloom",
-          "pt": "Expansão Corporal",
-          "en": "Corpsebloom",
+          "icon": "light-flux-pauldron",
+          "pt": "Ombreira do Fluxo Iluminado",
+          "en": "Light Flux Pauldron",
           "prio": 4,
           "qty": "1",
-          "effect": "Cura +100% (+100% por acúmulo) a mais. Toda cura é aplicada ao longo do tempo, até no máximo 10% (−50% por acúmulo) da vida por segundo.",
-          "why": "Dobra a cura, mas espalha no tempo. A wiki observa que não é afetada pelos modificadores de regeneração de dificuldade."
+          "effect": "−50% (−50% por acúmulo) no tempo de recarga das habilidades. −50% (−50% por acúmulo) de velocidade de ataque.",
+          "why": "Um guia de Eclipse a usa para pular os pilares da Lua com saltos mais frequentes, e testes mostram que é um caminho para a Praga com recarga máxima. Corta pela metade a velocidade das Dilacerações, que nesta build importam menos."
         },
         {
           "icon": "shaped-glass",
@@ -446,16 +525,7 @@
           "prio": 4,
           "qty": "1 (só se estiver confortável)",
           "effect": "+100% (+100% por acúmulo) de dano base. −50% (−50% por acúmulo) de vida máxima.",
-          "why": "Dobra os golpes, mas não a parte do Veneno que vem da vida máxima do inimigo. Corta pela metade a vida de quem precisa dela para lutar de perto."
-        },
-        {
-          "icon": "light-flux-pauldron",
-          "pt": "Ombreira do Fluxo Iluminado",
-          "en": "Light Flux Pauldron",
-          "prio": 0,
-          "qty": "0",
-          "effect": "−50% (−50% por acúmulo) no tempo de recarga das habilidades. −50% (−50% por acúmulo) de velocidade de ataque.",
-          "why": "As Dilacerações são a base do dano e da cura do Acrid. Cortar a velocidade de ataque pela metade custa mais do que as recargas menores devolvem."
+          "why": "Dobra os golpes, mas no Veneno só aumenta o valor mínimo, não a parte que vem da vida máxima do inimigo. E corta sua vida pela metade."
         }
       ]
     },
@@ -463,7 +533,7 @@
       "id": "void",
       "name": "Vazio",
       "color": "purple",
-      "intro": "Itens do Vazio (DLC Survivors of the Void) corrompem itens comuns quando pegos. Veja o que vai perder antes.",
+      "intro": "Itens do Vazio (DLC Survivors of the Void) corrompem todas as cópias de um item comum. Veja o que vai perder antes.",
       "items": [
         {
           "icon": "lysate-cell",
@@ -472,7 +542,7 @@
           "prio": 1,
           "qty": "1 a 2",
           "effect": "+1 (+1 por acúmulo) carga da habilidade Especial e −33% no tempo de recarga dela. Corrompe todas as Células de Combustível.",
-          "why": "Duas Epidemias seguidas e recarga menor. Mais Veneno espalhado e mais acertos para os itens de efeito ao acertar."
+          "why": "Duas Epidemias seguidas e recarga menor: mais Veneno na tela e uma segunda Epidemia para finalizar quem ficou com 1 de vida. Guias do Acrid e rankings de itens do Vazio concordam."
         },
         {
           "icon": "voidsent-flame",
@@ -481,16 +551,7 @@
           "prio": 2,
           "qty": "1 a 2",
           "effect": "Ao acertar um inimigo com a vida cheia, cria um pilar de lava de 12 m (+2,4 m por acúmulo) causando 260% (+156% por acúmulo) do dano base. Corrompe todos os Fogos Fátuos (Will-o'-the-wisp).",
-          "why": "A Epidemia salta para até 20 inimigos. Cada um que ela atinge com a vida cheia pode gerar um pilar."
-        },
-        {
-          "icon": "polylute",
-          "pt": "Polialaúde",
-          "en": "Polylute",
-          "prio": 3,
-          "qty": "1 a 2",
-          "effect": "25% de chance de disparar um raio de 60% de dano TOTAL até 3 (+3 por acúmulo) vezes. Corrompe todos os Ukuleles.",
-          "why": "Corrompe todos os seus Ukuleles. Você troca o raio em cadeia, que a Epidemia espalha pelo grupo, por raios repetidos num alvo só. Vale mais quando a luta é contra chefes. Se já tem Ukuleles, pense antes de pegar."
+          "why": "A Epidemia atinge até 20 inimigos, e cada um com a vida cheia pode gerar um pilar, sem precisar de abate. Corrompe todos os Fogos Fátuos: troque só se ainda não tiver Fogos."
         },
         {
           "icon": "weeping-fungus",
@@ -499,16 +560,25 @@
           "prio": 3,
           "qty": "1 a 2",
           "effect": "Cura 2% (+2% por acúmulo) da vida por segundo enquanto corre. Corrompe todos os Fungos Vibrantes.",
-          "why": "Recupera vida entre uma briga e outra sem parar. Corrompe o Fungo Vibrante, que pede para ficar parado."
+          "why": "O Acrid passa a run correndo e solta Neurotoxina, Salto e Epidemia sem parar de correr. Corrompe o Fungo Vibrante, que pede para ficar parado."
+        },
+        {
+          "icon": "polylute",
+          "pt": "Polialaúde",
+          "en": "Polylute",
+          "prio": 3,
+          "qty": "1 a 2",
+          "effect": "25% de chance de disparar um raio de 60% de dano TOTAL até 3 (+3 por acúmulo) vezes. Corrompe todos os Ukuleles.",
+          "why": "Corrompe todos os Ukuleles: fique com um dos dois. Rankings de itens o colocam acima do Ukulele, e ele é melhor contra chefes; o Ukulele espalha mais pelo grupo com a Epidemia."
         },
         {
           "icon": "plasma-shrimp",
           "pt": "Camarão de Plasma",
           "en": "Plasma Shrimp",
           "prio": 4,
-          "qty": "1",
+          "qty": "1 (com Transcendência)",
           "effect": "Ganha escudo de 10% da vida máxima. Com escudo, cada acerto dispara um míssil de 40% (+40% por acúmulo) de dano TOTAL. Corrompe todos os Mísseis ASM Mk. 1.",
-          "why": "Corrompe todos os seus Mísseis ASM, que são recomendados acima. Você troca 10% de chance de um míssil de 300% por um míssil de 40% a cada acerto, mas só enquanto há escudo. O Acrid leva dano o tempo todo, então o escudo cai com frequência. Com Mísseis, não pegue."
+          "why": "Corrompe todos os Mísseis ASM. Só com Transcendência: o escudo fica grande e, segundo a wiki, a dupla continua disparando mísseis mesmo levando dano. Um guia de Eclipse o prefere ao Míssil nesse caso."
         }
       ]
     }
@@ -516,150 +586,230 @@
   "synergy": [
     {
       "title": "O Veneno não mata",
-      "text": "O Veneno tira até 10% da vida máxima do alvo, mas para em 1 de vida. Por isso a build precisa de algo que finalize: a Mordida Voraz (Assassino), os golpes das Dilacerações e os itens ao acertar (Ukulele, Míssil, Brutamontes). Itens de abate só funcionam quando um golpe seu ou de um item termina o serviço."
+      "text": "O Veneno para o inimigo em 1 de vida. A build resolve isso de quatro formas: Gasolina (um abate incendeia os vizinhos), Velha Guilhotina (a wiki diz que o Veneno passa a matar Elites sozinho), uma segunda Epidemia (o impacto de 100% mata) e golpes diretos. Cada abate ativa o Fogo Fátuo, que finaliza mais gente."
     },
     {
       "title": "O que aumenta o Veneno",
-      "text": "O Veneno é dano contínuo baseado na vida do inimigo. A wiki lista o que aumenta o Veneno e a Praga: Cristal de Foco, Projéteis Perfurantes (chefes), Relógio Delicado, Marca Fatal, Tônico de Espinélia e redução de armadura (Justiça Destruidora, Escorpião Simbiótico), porque o Veneno é afetado pela armadura. Vidro Configurado só aumenta o valor mínimo, não a parte baseada em vida."
+      "text": "Pela wiki, Cristal de Foco e Projéteis Perfurantes aumentam o Veneno, e os aumentos de dano que não mexem no dano base valem depois do cálculo dele: Relógio Delicado e Marca Fatal. Vidro Configurado e Tônico de Espinélia só aumentam o mínimo. Redução de armadura ajuda, porque o Veneno é reduzido pela armadura."
     },
     {
-      "title": "Cura e regeneração",
-      "text": "O terceiro golpe das Dilacerações e a Mordida Voraz dão o efeito Regenerativo: 5% da vida máxima em 0,5 s. Como conta como regeneração, o Tônico de Espinélia (+300% de regeneração) o multiplica. A Semente Sanguessuga cura a cada golpe e a Foice a cada crítico; o Suporte do Rejuvenescimento dobra essas curas."
+      "title": "Epidemia e itens ao acertar",
+      "text": "Cada salto da Epidemia é um acerto com coeficiente 1,0, assim como a Neurotoxina e o pouso do salto. A poça do Salto Cáustico tem só 0,1. Jogadores apontam que os ticks do Veneno não ativam itens. Por isso Míssil, Ukulele, Chama da Nulidade e Perfurador rendem na Epidemia, e a Célula Lisada dobra quantas vezes isso acontece."
     },
     {
-      "title": "Epidemia e efeitos ao acertar",
-      "text": "Cada salto da Epidemia é um acerto: Ukulele, Míssil, Chama da Nulidade e Perfurador Fundido podem ativar em até 20 alvos de uma vez. Por isso esses itens rendem mais no Acrid do que em personagens de alvo único. Célula Lisada e Cabeça Alienígena aumentam quantas vezes isso acontece."
+      "title": "Correr sem parar",
+      "text": "Neurotoxina, Salto Cáustico e Epidemia são Ágeis: saem enquanto você corre. Bebida Energética e Casco aumentam a distância do salto, o Broquel da Rosa dá armadura correndo e o Fungo Choroso cura correndo. Velocidade demais deixa o salto difícil de controlar; a Pluma de Hopoo ajuda a corrigir."
     },
     {
-      "title": "Velocidade de ataque",
-      "text": "As Dilacerações são a fonte de dano direto, de cura Regenerativa e da maioria das ativações de itens. Velocidade de ataque melhora as três coisas ao mesmo tempo; é o atributo mais valioso para o Acrid depois de sobreviver. Evite o que corta velocidade de ataque, como a Ombreira do Fluxo Iluminado."
+      "title": "Quem ativa os Cinturões",
+      "text": "Os Cinturões pedem golpes acima de 400% e ativam juntos. Neste kit, só o Salto Frenético (550%) passa com folga. O terceiro golpe das Dilacerações tem exatamente 400%. Neurotoxina, Salto Cáustico e Epidemia ficam abaixo. Crítico e Projéteis Perfurantes não ajudam a passar do limite."
     }
   ],
   "rotation": [
     {
+      "step": "Neurotoxina de longe",
+      "text": "Envenene os alvos perigosos e os voadores sem chegar perto. Gaste todas as cargas do Pente Reserva."
+    },
+    {
       "step": "Epidemia no grupo",
-      "text": "Envenena até 20 inimigos de uma vez. Mire no chão para pegar voadores."
+      "text": "Envenena até 20 inimigos. Mire no chão ou na parede para pegar voadores."
     },
     {
-      "step": "Salto Cáustico para entrar",
-      "text": "Atordoa, envenena e deixa a poça de ácido onde o grupo está."
+      "step": "Salto Cáustico",
+      "text": "Pouse no grupo para atordoar e deixar a poça, ou use para sair. O salto evita dano de queda."
     },
     {
-      "step": "Dilacerações Hediondas",
-      "text": "Bata no alvo mais perigoso. A cada três golpes, cura Regenerativa."
+      "step": "Continue correndo",
+      "text": "Deixe o Veneno trabalhar enquanto você se mantém em movimento. Não fique trocando golpes de perto."
     },
     {
-      "step": "Mordida Voraz nos machucados",
-      "text": "Assassino causa até o triplo de dano em quem o Veneno já deixou com pouca vida."
-    },
-    {
-      "step": "Segundo salto para sair",
-      "text": "Use a carga restante para escapar ou reposicionar enquanto o Veneno trabalha."
+      "step": "Finalize",
+      "text": "Lance outra Epidemia ou bata com as Dilacerações em quem ficou com 1 de vida. A Gasolina espalha o fogo a partir do primeiro abate."
     }
   ],
   "essentials": [
     {
-      "pt": "Seringa Militar",
-      "en": "Soldier's Syringe"
+      "pt": "Gasolina",
+      "en": "Gasoline"
     },
     {
-      "pt": "Cristal de Foco",
-      "en": "Focus Crystal"
+      "pt": "Pente Reserva",
+      "en": "Backup Magazine"
     },
     {
-      "pt": "Semente Sanguessuga",
-      "en": "Leeching Seed"
+      "pt": "Bebida Energética",
+      "en": "Energy Drink"
     },
     {
-      "pt": "Cabeça Alienígena",
-      "en": "Alien Head"
+      "pt": "Projéteis Perfurantes",
+      "en": "Armor-Piercing Rounds"
     },
     {
-      "pt": "Brutamontes Reluzente",
-      "en": "Brilliant Behemoth"
+      "pt": "Velha Guilhotina",
+      "en": "Old Guillotine"
+    },
+    {
+      "pt": "Fogo Fátuo",
+      "en": "Will-o'-the-wisp"
     },
     {
       "pt": "Célula Lisada",
       "en": "Lysate Cell"
-    },
-    {
-      "pt": "Tônico de Espinélia",
-      "en": "Spinel Tonic"
     }
   ],
-  "situational_note": "Situacionais: Marca Fatal, Shuriken, Justiça Destruidora, Escorpião Simbiótico, Chama da Nulidade, Pureza e os demais lunares.",
+  "situational_note": "Situacionais: Óculos, Semente Sanguessuga, Espinho Nocivo (com Praga), Escorpião Simbiótico, Expurgação Explosiva, Tônico de Espinélia, Ombreira do Fluxo Iluminado, Vidro Configurado e Camarão de Plasma (com Transcendência).",
   "fallbacks": [
     {
-      "pt": "Seringa Militar",
-      "en": "Soldier's Syringe",
-      "text": "Mocha, Instintos Predatórios (com Óculos) ou Opus de Gorag como equipamento."
+      "pt": "Gasolina",
+      "en": "Gasoline",
+      "text": "Lance outra Epidemia nos inimigos com 1 de vida e use as Dilacerações. A Adaga Triangular também finaliza."
     },
     {
-      "pt": "Cristal de Foco",
-      "en": "Focus Crystal",
-      "text": "Projéteis Perfurantes para chefes e Justiça Destruidora para aumentar golpes e Veneno pela armadura."
+      "pt": "Pente Reserva",
+      "en": "Backup Magazine",
+      "text": "Cabeça Alienígena para a Neurotoxina voltar mais rápido. Sem os dois, alterne Neurotoxina e Salto Cáustico."
     },
     {
-      "pt": "Semente Sanguessuga",
-      "en": "Leeching Seed",
-      "text": "Foice do Ceifador com alguns Óculos, ou Fungo Choroso entre as lutas. Tempos Difíceis para levar menos dano."
+      "pt": "Bebida Energética",
+      "en": "Energy Drink",
+      "text": "Casco de Bode de Paul, Mocha ou Chicote Vermelho. Pluma de Hopoo para fugir na vertical."
     },
     {
-      "pt": "Cabeça Alienígena",
-      "en": "Alien Head",
-      "text": "Célula Lisada para a Epidemia e Pós-combustor para os saltos. Pureza se aceitar o custo nos efeitos de chance."
+      "pt": "Projéteis Perfurantes",
+      "en": "Armor-Piercing Rounds",
+      "text": "Cristal de Foco, Relógio Delicado ou Marca Fatal: todos aumentam o Veneno."
     },
     {
-      "pt": "Brutamontes Reluzente",
-      "en": "Brilliant Behemoth",
-      "text": "Ukulele e Míssil ASM, que a Epidemia espalha pelo grupo."
+      "pt": "Velha Guilhotina",
+      "en": "Old Guillotine",
+      "text": "Gasolina e Fogo Fátuo terminam os inimigos comuns. Contra Elites, Capacitor Régio ou uma segunda Epidemia."
+    },
+    {
+      "pt": "Fogo Fátuo",
+      "en": "Will-o'-the-wisp",
+      "text": "Chama da Nulidade, que não precisa de abate. Ou mais Gasolina para espalhar o fogo."
     },
     {
       "pt": "Célula Lisada",
       "en": "Lysate Cell",
-      "text": "Cabeça Alienígena. Sem as duas, use a Epidemia só em grupos e o Salto Cáustico como fonte de Veneno."
-    },
-    {
-      "pt": "Tônico de Espinélia",
-      "en": "Spinel Tonic",
-      "text": "Cubo Primordial para juntar grupos ou Capacitor Régio para voadores."
+      "text": "Cabeça Alienígena. Sem as duas, guarde a Epidemia para grupos e para finalizar."
     }
   ],
-  "summary": "Veneno, Dilacerações Hediondas, Mordida Voraz, Salto Cáustico e Epidemia. Abra cada luta com Epidemia e Salto Cáustico para envenenar o grupo, entre no meio com as Dilacerações e finalize com a Mordida os inimigos que o Veneno deixou com pouca vida. Empilhe velocidade de ataque (Seringa) e dano de perto (Cristal de Foco), acumule Semente Sanguessuga e Míssil ASM nos verdes e encurte as recargas com Cabeça Alienígena e Célula Lisada.",
+  "summary": "Veneno, Dilacerações Hediondas, Neurotoxina, Salto Cáustico e Epidemia. Envenene de longe com a Neurotoxina e a Epidemia, entre e saia com o Salto Cáustico e continue correndo enquanto o Veneno trabalha. Gasolina, Velha Guilhotina e Fogo Fátuo terminam o que o Veneno deixa com 1 de vida. Empilhe Pente Reserva, Bebida Energética e Projéteis Perfurantes nos brancos, e pegue a Célula Lisada no Vazio.",
   "checklist": [
     {
       "title": "Sempre pegue",
-      "text": "Seringa Militar, Cristal de Foco, Semente Sanguessuga, Cabeça Alienígena, Brutamontes, Célula Lisada."
+      "text": "Gasolina, Pente Reserva, Bebida Energética, Projéteis Perfurantes, Velha Guilhotina, Fogo Fátuo, Célula Lisada."
     },
     {
       "title": "Impressoras brancas",
-      "text": "Transforme em Seringa Militar até umas 6, depois Cristal de Foco."
+      "text": "Pente Reserva e Bebida Energética primeiro, depois Projéteis Perfurantes. Uma Gasolina basta no começo."
     },
     {
-      "title": "Primeiro verde",
-      "text": "Semente Sanguessuga. Depois empilhe Míssil ASM e mais Sementes; Ukulele só 1 ou 2."
+      "title": "Não pare de correr",
+      "text": "Neurotoxina, Salto e Epidemia saem correndo. Envenene e saia de perto."
+    },
+    {
+      "title": "Inimigo com 1 de vida",
+      "text": "Outra Epidemia ou um golpe das Dilacerações. O Veneno não termina sozinho."
     },
     {
       "title": "Equipamento",
-      "text": "Tônico de Espinélia para chefes; Capacitor Régio se os voadores estiverem incomodando."
+      "text": "Capacitor Régio ou Cubo Primordial."
     },
     {
       "title": "Antes de pegar Vazio",
-      "text": "Polialaúde corrompe os Ukuleles; Camarão de Plasma corrompe os Mísseis ASM."
+      "text": "Chama da Nulidade corrompe os Fogos Fátuos, Polialaúde os Ukuleles, Camarão de Plasma os Mísseis ASM."
     },
     {
-      "title": "Não pegue",
-      "text": "Ombreira do Fluxo Iluminado: corta a velocidade de ataque pela metade."
-    },
-    {
-      "title": "Luta de chefe",
-      "text": "Epidemia e Salto Cáustico para envenenar, Dilacerações sem parar, Mordida quando a vida dele estiver baixa."
+      "title": "Velocidade demais",
+      "text": "Se o salto ficar difícil de controlar, pegue a Pluma de Hopoo e pare de empilhar velocidade."
     }
   ],
   "sources": [
     {
+      "title": "rndThursday: Best Loadouts for Every Survivor",
+      "url": "https://www.youtube.com/watch?v=c7yq7nPgKXA",
+      "kind": "video",
+      "date": "2024-12-09"
+    },
+    {
+      "title": "EchoTM: The Definitive RoR2 Survivor Tier List (2026)",
+      "url": "https://www.youtube.com/watch?v=JJNOXNWky6U",
+      "kind": "video",
+      "date": "2026-02-27"
+    },
+    {
+      "title": "Eclipse Guide [Updated for SotS DLC], Cecil188 (Steam)",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2590199556",
+      "kind": "guide",
+      "date": "2025-06-08"
+    },
+    {
+      "title": "QuattroTheHuman: How To Play Acrid",
+      "url": "https://www.youtube.com/watch?v=1lDC4TJErm8",
+      "kind": "video",
+      "date": "2024-11-05"
+    },
+    {
+      "title": "Cap_: The Poison and Blight Comparison",
+      "url": "https://www.youtube.com/watch?v=_peYoNB--OM",
+      "kind": "video",
+      "date": "2022-10-22"
+    },
+    {
+      "title": "RaydansRoR: You're Playing Acrid Wrong!",
+      "url": "https://www.youtube.com/watch?v=khlJp2SN9ew",
+      "kind": "video",
+      "date": "2024-04-17"
+    },
+    {
+      "title": "Deltsong: The Coziest Damage Plan? Drones and Poison (E8 Acrid)",
+      "url": "https://www.youtube.com/watch?v=dhWC1gBhijo",
+      "kind": "video",
+      "date": "2025-08-04"
+    },
+    {
+      "title": "Deltsong: Poison Doggo Makes Everything Explode (E8)",
+      "url": "https://www.youtube.com/watch?v=cG9oObu6qBM",
+      "kind": "video",
+      "date": "2025-10-08"
+    },
+    {
+      "title": "Rybread Gaming: Acrid Is The Best \"Melee\" Survivor",
+      "url": "https://www.youtube.com/watch?v=C1gd3H74MPg",
+      "kind": "video",
+      "date": "2025-07-23"
+    },
+    {
+      "title": "EchoTM: Ranking Every Void Item (2026)",
+      "url": "https://www.youtube.com/watch?v=EUxt9IVzemE",
+      "kind": "video",
+      "date": "2026-09-17"
+    },
+    {
       "title": "Acrid · Risk of Rain 2 Wiki",
       "url": "https://riskofrain2.wiki.gg/wiki/Acrid",
+      "kind": "wiki"
+    },
+    {
+      "title": "Old Guillotine · Risk of Rain 2 Wiki",
+      "url": "https://riskofrain2.wiki.gg/wiki/Old_Guillotine",
+      "kind": "wiki"
+    },
+    {
+      "title": "Kjaro's Band · Risk of Rain 2 Wiki",
+      "url": "https://riskofrain2.wiki.gg/wiki/Kjaro%27s_Band",
+      "kind": "wiki"
+    },
+    {
+      "title": "Visions of Heresy · Risk of Rain 2 Wiki",
+      "url": "https://riskofrain2.wiki.gg/wiki/Visions_of_Heresy",
+      "kind": "wiki"
+    },
+    {
+      "title": "Transcendence · Risk of Rain 2 Wiki",
+      "url": "https://riskofrain2.wiki.gg/wiki/Transcendence",
       "kind": "wiki"
     },
     {
@@ -668,128 +818,149 @@
       "kind": "wiki"
     }
   ],
+  "reviewed": "2026-10-13",
   "notes": [
-    "A wiki não diz se o Veneno pode ser crítico ou se ativa itens ao acertar; a build não conta com isso."
+    "Cloying Breath, nova Especial do Hallowed Concepts (desafio Acrid: Miracle): nova, ainda sem avaliação dos jogadores. Pela wiki, é uma nuvem de 240% de dano por segundo que dura 6,5 s (cerca de 1.560% no total), coeficiente 0,4, recarga 12 s que começa quando a habilidade termina. Ainda sem nome oficial em português.",
+    "Que uma Gasolina resolva o Veneno que não mata vem de vários jogadores. A wiki da Gasolina não diz se o fogo pode matar nem se os abates dele ativam outros itens de abate.",
+    "Velha Guilhotina: o texto do item diz 13% por acúmulo, mas a wiki mostra acúmulo hiperbólico (11,5% com 1, 20,6% com 2, 39,4% com 5) sem explicar a diferença.",
+    "Cinturões: o texto do item diz \"mais de 400%\", e as notas da wiki dizem \"pelo menos 400%\". Não está claro se o terceiro golpe das Dilacerações (exatamente 400%) ativa. Também não está confirmado se o bônus do Assassino na Mordida conta para o limite, nem se o Capacitor Régio ativa os Cinturões (afirmação de guias).",
+    "A wiki não diz se o Veneno pode ser crítico ou ativar itens ao acertar. Jogadores e testes dizem que não; a build não conta com isso.",
+    "Núcleo dividido entre Projéteis Perfurantes e Cristal de Foco: os dois aumentam o Veneno pela wiki. Ficamos com os Projéteis porque jogam bem de longe e mais jogadores os empilham; quem joga mais de perto pode inverter.",
+    "Praga contra Veneno: dois guias de baixa qualidade preferem a Praga para runs longas. Os testes controlados e os jogadores de Eclipse dizem o contrário.",
+    "Um guia de Eclipse diz que, a partir do Eclipse 3, bater numa parede em ângulo descendente durante o salto cancela a proteção contra dano de queda. A wiki só diz que os saltos evitam dano de queda.",
+    "Desde o Survivors of the Void, correr inicia o próximo golpe das Dilacerações em vez de cancelar a animação (wiki). Jogadores ainda usam a corrida para bater mais rápido.",
+    "Textos oficiais em pt-BR divergem da wiki: Brutamontes Reluzente diz +1,5 m por acúmulo (wiki: +2,5 m) e Camarão de Plasma diz +50% por acúmulo (wiki: +40%). Usamos a wiki.",
+    "Reddit não estava acessível durante a pesquisa."
   ],
   "command": {
-    "intro": "Com a Autoridade, o Acrid começa por Seringa Militar e Cristal de Foco, que aceleram as Dilacerações e aumentam golpes e Veneno de perto. No verde, a Semente Sanguessuga vem primeiro, porque é a cura de cada golpe. Depois, acumule Mísseis ASM e Sementes, que crescem a cada cópia.",
+    "intro": "Com a Autoridade, comece pelo que resolve o Veneno que não mata: uma Gasolina nos brancos e Velha Guilhotina e Fogo Fátuo nos verdes. Depois empilhe o que cresce a cada cópia: Pente Reserva, Bebida Energética e Projéteis Perfurantes.",
     "tiers": [
       {
         "tier": "common",
         "steps": [
           {
-            "en": "Soldier's Syringe",
-            "n": 3,
-            "why": "Mais golpes por segundo, e o golpe Regenerativo chega mais vezes."
-          },
-          {
-            "en": "Focus Crystal",
-            "n": 3,
-            "why": "Quase toda a luta é a menos de 13 m, e o bônus vale também para o Veneno."
-          },
-          {
-            "en": "Tougher Times",
-            "n": 2,
-            "why": "Cada bloqueio é um golpe inteiro evitado no meio do grupo."
-          },
-          {
-            "en": "Soldier's Syringe",
-            "n": 2,
-            "why": "Cinco Seringas: mais ativações de itens ao acertar."
-          },
-          {
-            "en": "Lens-Maker's Glasses",
-            "n": 2,
-            "why": "Crítico nos golpes diretos, base para a Foice e os Instintos."
-          },
-          {
-            "en": "Mocha",
+            "en": "Gasoline",
             "n": 1,
-            "why": "Velocidade de ataque e de movimento no mesmo item."
+            "why": "Desde o primeiro estágio, um abate incendeia os inimigos que o Veneno deixou com 1 de vida."
           },
           {
-            "en": "Focus Crystal",
+            "en": "Backup Magazine",
             "n": 2,
-            "why": "Cinco Cristais: +100% de dano de perto, Veneno incluído."
+            "why": "Duas cargas a mais de Neurotoxina."
+          },
+          {
+            "en": "Energy Drink",
+            "n": 2,
+            "why": "Correr é a defesa principal do Acrid."
           },
           {
             "en": "Armor-Piercing Rounds",
             "n": 2,
-            "why": "A wiki lista este item entre os que aumentam o Veneno contra chefes."
+            "why": "Aumentam o Veneno contra chefes."
           },
           {
-            "en": "Tri-Tip Dagger",
-            "n": 1,
-            "why": "Sangramento é um debuff a mais para a Marca Fatal."
-          },
-          {
-            "en": "Soldier's Syringe",
+            "en": "Tougher Times",
             "n": 2,
-            "why": "Sete Seringas mantêm as Dilacerações girando."
+            "why": "Um pouco de defesa para os golpes que escapam."
+          },
+          {
+            "en": "Backup Magazine",
+            "n": 2,
+            "why": "Quatro Pentes: quatro cargas a mais de Neurotoxina."
+          },
+          {
+            "en": "Armor-Piercing Rounds",
+            "n": 2,
+            "why": "Quatro Projéteis: +80% contra chefes, Veneno incluído."
+          },
+          {
+            "en": "Focus Crystal",
+            "n": 2,
+            "why": "Aumenta o Veneno quando você está a até 13 m."
           },
           {
             "en": "Paul's Goat Hoof",
-            "n": 1,
-            "why": "A distância do Salto Cáustico cresce com a velocidade de movimento."
+            "n": 2,
+            "why": "Saltos mais longos sem a velocidade descontrolada da corrida."
           },
           {
-            "en": "Lens-Maker's Glasses",
+            "en": "Gasoline",
             "n": 1,
-            "why": "Três Óculos para a Foice curar com frequência."
+            "why": "A segunda aumenta o raio do fogo para 16 m."
+          },
+          {
+            "en": "Delicate Watch",
+            "n": 1,
+            "why": "Multiplica o Veneno; jogando de longe, quebra pouco."
+          },
+          {
+            "en": "Energy Drink",
+            "n": 1,
+            "why": "Terceira Bebida. Pare aqui se o salto ficar difícil de controlar."
           }
         ],
-        "then": "Depois: Seringa até 8, Tempos Difíceis até 4 e Mocha até 3. O Relógio Delicado quebra fácil em quem luta de perto."
+        "then": "Depois: Projéteis até 5, Tempos Difíceis até 4 e Placa da Armadura de Repulsão. Óculos só se a run virar de itens ao acertar."
       },
       {
         "tier": "uncommon",
         "steps": [
           {
-            "en": "Leeching Seed",
+            "en": "Old Guillotine",
             "n": 1,
-            "why": "Cada golpe das Dilacerações e cada alvo da Epidemia cura."
+            "why": "O Veneno passa a matar Elites sozinho."
           },
           {
-            "en": "Ukulele",
+            "en": "Will-o'-the-wisp",
             "n": 1,
-            "why": "Cada salto da Epidemia pode ativar o raio em cadeia."
+            "why": "Cada abate explode no meio do grupo envenenado."
           },
           {
-            "en": "AtG Missile Mk. 1",
-            "n": 2,
-            "why": "Dois Mísseis: 600% por míssil, com muitos acertos por segundo."
+            "en": "Hopoo Feather",
+            "n": 1,
+            "why": "Corrige o salto e ajuda a fugir."
           },
           {
-            "en": "Leeching Seed",
+            "en": "Old Guillotine",
             "n": 1,
-            "why": "Segunda Semente: 2 de cura por acerto."
+            "why": "Segunda Guilhotina: limite maior para as Elites."
           },
           {
             "en": "Death Mark",
             "n": 1,
-            "why": "Veneno e sangramento já são dois debuffs; com mais dois, +50% de dano em tudo."
+            "why": "O Veneno já é um debuff; somando o fogo da Gasolina e outros até chegar a 4, é +50% de dano em tudo."
+          },
+          {
+            "en": "Will-o'-the-wisp",
+            "n": 1,
+            "why": "Pilar maior e mais forte a cada abate."
           },
           {
             "en": "AtG Missile Mk. 1",
             "n": 2,
-            "why": "Quatro Mísseis: 1200% por míssil."
+            "why": "Cada salto da Epidemia pode disparar um míssil de 600%."
           },
           {
-            "en": "Leeching Seed",
-            "n": 2,
-            "why": "Quatro Sementes: 4 de cura em cada golpe e em cada alvo da Epidemia."
-          },
-          {
-            "en": "Ukulele",
+            "en": "Rose Buckler",
             "n": 1,
-            "why": "Segundo Ukulele: o raio pula para 5 alvos."
+            "why": "Armadura enquanto corre, quase o tempo todo nesta build."
+          },
+          {
+            "en": "Old Guillotine",
+            "n": 1,
+            "why": "Terceira Guilhotina."
           },
           {
             "en": "AtG Missile Mk. 1",
             "n": 1,
-            "why": "Cinco Mísseis: 1500% por míssil."
+            "why": "Três Mísseis: 900% por míssil."
+          },
+          {
+            "en": "Will-o'-the-wisp",
+            "n": 1,
+            "why": "Terceiro Fogo Fátuo."
           }
         ],
-        "then": "Depois: Míssil até 6, depois mais Sementes. Shuriken ou Foice (com Óculos) só se faltar opção. Espinho Nocivo só na variante com Praga, que acumula."
+        "then": "Depois: Ukulele (1 a 2) se não for pegar Polialaúde, Shuriken e Chicote Vermelho. Cinturões de Kjaro e Runald só com o Salto Frenético. Espinho Nocivo só na variante com Praga."
       },
       {
         "tier": "legendary",
@@ -797,30 +968,30 @@
           {
             "en": "Alien Head",
             "n": 1,
-            "why": "A Epidemia, principal fonte de Veneno em grupo, volta em 7,5 s."
-          },
-          {
-            "en": "Brilliant Behemoth",
-            "n": 1,
-            "why": "Cada golpe das Dilacerações vira dano em área no meio do grupo."
-          },
-          {
-            "en": "Rejuvenation Rack",
-            "n": 1,
-            "why": "Dobra a cura da Semente Sanguessuga e da Foice."
+            "why": "Recarga 25% menor para Neurotoxina, Salto e Epidemia."
           },
           {
             "en": "Hardlight Afterburner",
             "n": 1,
-            "why": "Quatro Saltos Cáusticos, cada um com sua poça de ácido."
+            "why": "Quatro Saltos Cáusticos, cada um com sua poça."
+          },
+          {
+            "en": "Shattering Justice",
+            "n": 1,
+            "why": "Menos armadura aumenta o Veneno e soma um debuff para a Marca Fatal."
           },
           {
             "en": "Alien Head",
             "n": 1,
-            "why": "A segunda Cabeça encurta ainda mais Epidemia, Salto e Mordida."
+            "why": "A segunda Cabeça encurta ainda mais as recargas."
+          },
+          {
+            "en": "Brilliant Behemoth",
+            "n": 1,
+            "why": "Cada acerto da Epidemia explode em área."
           }
         ],
-        "then": "Depois: o segundo Brutamontes, Justiça Destruidora e Escorpião Simbiótico, que reduzem a armadura e aumentam o Veneno."
+        "then": "Depois: Trevo 57 e Escorpião Simbiótico."
       },
       {
         "tier": "boss",
@@ -828,7 +999,7 @@
           {
             "en": "Molten Perforator",
             "n": 1,
-            "why": "Mais um efeito ao acertar para os golpes rápidos e os alvos da Epidemia."
+            "why": "Mais um efeito ao acertar que a Epidemia ativa em vários alvos."
           }
         ],
         "then": "Itens de chefe vêm do chefe do teleporte. A Pérola Irradiante não sai com a Autoridade: a wiki diz que as pérolas não aparecem na essência amarela."
@@ -837,33 +1008,28 @@
         "tier": "equipment",
         "steps": [
           {
-            "en": "Primordial Cube",
-            "n": 1,
-            "why": "Escolha este no primeiro barril: junta o grupo para as Dilacerações, o Brutamontes e a poça do salto."
-          },
-          {
             "en": "Royal Capacitor",
             "n": 1,
-            "why": "Se ainda não desbloqueou o Cubo: dano à distância contra voadores e elites."
+            "why": "Escolha este no primeiro barril: dano à distância contra voadores e Elites."
           },
           {
-            "en": "Gorag's Opus",
+            "en": "Primordial Cube",
             "n": 1,
-            "why": "Segunda reserva: dobra a velocidade das Dilacerações por alguns segundos."
+            "why": "Alternativa: junta o grupo na poça e no raio da Gasolina."
           }
         ],
-        "then": "Equipamento é um só. O Tônico de Espinélia, o melhor equipamento do Acrid, é lunar e fica fora desta ordem. Se conseguir um, troque por ele."
+        "then": "Equipamento é um só. O Tônico de Espinélia é lunar e fica fora desta ordem."
       },
       {
         "tier": "lunar",
         "steps": [
           {
-            "en": "Purity",
+            "en": "Transcendence",
             "n": 1,
-            "why": "Se a cápsula der escolha: a Mordida cai para 0,5 s e cura sem parar com o Regenerativo. Piora Ukulele, Míssil, Adaga e crítico."
+            "why": "Se a cápsula der escolha: escudo grande para quem envenena e foge. Os itens de cura deixam de contar."
           }
         ],
-        "then": "A wiki não confirma se as cápsulas lunares dão escolha com a Autoridade. Se derem, Tônico de Espinélia ou Pureza. Nunca a Ombreira do Fluxo Iluminado: corta pela metade a velocidade das Dilacerações."
+        "then": "A wiki não confirma se as cápsulas lunares dão escolha com a Autoridade. Se derem, Visões Profanas em runs longas, ou Pureza na variante com Praga."
       },
       {
         "tier": "void",
@@ -874,11 +1040,6 @@
             "why": "Em um berço verde: duas Epidemias seguidas e recarga 33% menor."
           },
           {
-            "en": "Voidsent Flame",
-            "n": 1,
-            "why": "Também em berço verde: cada alvo de vida cheia que a Epidemia atinge pode gerar um pilar."
-          },
-          {
             "en": "Lysate Cell",
             "n": 1,
             "why": "Segunda Célula: mais uma Epidemia por ciclo."
@@ -886,10 +1047,10 @@
           {
             "en": "Weeping Fungus",
             "n": 1,
-            "why": "Berço verde: recupera vida entre as brigas enquanto corre."
+            "why": "Berço verde: cura enquanto corre."
           }
         ],
-        "then": "O berço define a raridade da escolha. Polialaúde corrompe todos os seus Ukuleles e Camarão de Plasma corrompe todos os Mísseis ASM. Com esses itens na mão, não escolha."
+        "then": "O berço define a raridade da escolha. Chama da Nulidade corrompe todos os Fogos Fátuos, Polialaúde todos os Ukuleles e Camarão de Plasma todos os Mísseis ASM. Com esses itens na mão, não escolha."
       }
     ]
   }
