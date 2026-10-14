@@ -2,17 +2,17 @@
   "id": "mult",
   "name_pt": "MUL-T",
   "name_en": "MUL-T",
-  "title": "MUL-T: Build de Pregos em Dobro",
-  "tagline": "Duas pistolas de pregos e muita armadura",
-  "lede": "O MUL-T tem 200 de vida e 12 de armadura de base. No Modo de Força ele usa as duas primárias ao mesmo tempo e ganha 100 de armadura; com duas Pistolas de Pregos, são 24 pregos por segundo rolando itens ao acertar. A build empilha velocidade de ataque e itens de chance e luta de perto.",
+  "title": "MUL-T: Build de Barras com Reequipar",
+  "tagline": "Dois Perfuradores de Barra, Cinturões e dois equipamentos",
+  "lede": "O MUL-T tem 200 de vida e 12 de armadura de base. Com dois Perfuradores de Barra e o Reequipar, cada barra de 600% passa dos 400% que ativam os Cinturões, o Pé de Cabra aumenta a primeira barra em cada inimigo e o MUL-T leva dois equipamentos; a maioria dos guias de Eclipse aponta esta como a build mais forte dele. Prefira a variante com duas Pistolas de Pregos e o Modo de Força se já desbloqueou o Modo de Força e gosta de lutar colado no grupo, atirando sem parar.",
   "loadout": [
     {
       "slot": "Primária 1",
-      "skill": "Pistola de Pregos Automática (Auto-Nailgun)"
+      "skill": "Perfurador de Barra (Rebar Puncher)"
     },
     {
       "slot": "Primária 2",
-      "skill": "Pistola de Pregos Automática (Auto-Nailgun)"
+      "skill": "Perfurador de Barra (Rebar Puncher)"
     },
     {
       "slot": "Secundária",
@@ -24,33 +24,25 @@
     },
     {
       "slot": "Especial",
-      "skill": "Modo de Força (Power Mode)"
+      "skill": "Reequipar (Retool)"
     }
   ],
   "skills": [
     {
-      "slot": "Passiva",
-      "pt": "Multitarefa",
-      "en": "Multifunctional",
-      "pick": "Fixa",
-      "spec": "Carrega dois equipamentos ao mesmo tempo. O equipamento ativo é alternado ao usar Reequipar.",
-      "why": "Só rende com o Reequipar. Com o Modo de Força, conte com o equipamento ativo."
-    },
-    {
       "slot": "Primária",
-      "pt": "Pistola de Pregos Automática",
-      "en": "Auto-Nailgun",
+      "pt": "Perfurador de Barra",
+      "en": "Rebar Puncher",
       "pick": "Recomendada",
-      "spec": "70% por prego, 12 pregos por segundo (840% de dano por segundo). Termina com uma rajada de 12 pregos. Coeficiente 0,6.",
-      "why": "Dano contínuo alto e muitos acertos por segundo. Os pregos perdem dano com a distância e somem depois de 40 m, então lute perto. Depois de soltar o botão há 1,152 s de desaceleração."
+      "spec": "Perfurante. Barra de 600%, 1,8 s entre tiros na velocidade base (333% de dano por segundo). Coeficiente 1,0. Carrega depois de disparar.",
+      "why": "Coloque nas duas primárias. A barra de 600% passa dos 400% que ativam o Cinturão de Kjaro (Kjaro's Band) e o Cinturão de Runald (Runald's Band), e a wiki aponta a sinergia com o Pé de Cabra. Atravessa a fila de inimigos e acerta de longe."
     },
     {
       "slot": "Primária (alt.)",
-      "pt": "Perfurador de Barra",
-      "en": "Rebar Puncher",
+      "pt": "Pistola de Pregos Automática",
+      "en": "Auto-Nailgun",
       "pick": "Variante",
-      "spec": "Perfurante. Barra de 600%, 1,8 s entre tiros na velocidade base (333% de dano por segundo). Coeficiente 1,0.",
-      "why": "Bom como segunda primária para derrubar elites de longe e atravessar filas. Passa de 400%, então ativa o Cinturão de Kjaro (Kjaro's Band) e o Cinturão de Runald (Runald's Band), que esta build não usa. A wiki cita a combinação com Pé de Cabra, mas outras fontes de dano tiram o alvo de cima de 90% de vida antes."
+      "spec": "70% por prego, 12 pregos por segundo (840% de dano por segundo). Termina com uma rajada de 12 pregos. Coeficiente 0,6.",
+      "why": "Base da variante com Modo de Força, a outra build que os jogadores aceitam: duas pistolas e muitos acertos por segundo, o que compensa o coeficiente 0,6 nos itens ao acertar. Os pregos perdem dano com a distância e somem depois de 40 m. Depois de soltar o botão há 1,152 s até atirar de novo; o recuo da rajada final segura o MUL-T no ar com velocidade de ataque alta."
     },
     {
       "slot": "Primária (alt.)",
@@ -58,15 +50,15 @@
       "en": "Scrap Launcher",
       "pick": "Variante",
       "spec": "Foguete de 360% com explosão de 7 m. 4 cargas que recarregam juntas em 1,5 s (600% de dano por segundo). Coeficiente 1,0. Desbloqueio: MUL-T: Pest Control.",
-      "why": "Dano em área próprio. A wiki diz que ativa o Brutamontes pelo menos duas vezes por acerto direto e que a Pureza leva a recarga ao mínimo de 0,5 s. Perde dano fora do centro da explosão."
+      "why": "Os guias consideram fraco perto das duas builds principais. A wiki diz que ativa o Brutamontes pelo menos duas vezes por acerto direto. Perde dano fora do centro da explosão."
     },
     {
       "slot": "Primária (alt.)",
       "pt": "Serra Elétrica",
       "en": "Power-Saw",
       "pick": "Variante",
-      "spec": "100% por golpe, 10 golpes por segundo na velocidade base (1000% de dano por segundo). Coeficiente 1,0. Desbloqueio: MUL-T: Gotcha!.",
-      "why": "Mais dano e coeficiente cheio, mas só alcança quem está colado. Puxa o MUL-T para o alvo e funciona correndo ou no Modo de Transporte. Como Primária 1 ao lado da Pistola, tira toda a dispersão dos pregos."
+      "spec": "100% por golpe, 10 golpes por segundo na velocidade base (1.000% de dano por segundo). Coeficiente 1,0. Desbloqueio: MUL-T: Gotcha!.",
+      "why": "Divertida, mas os guias a chamam de pouco prática. Só alcança quem está colado. Puxa o MUL-T para o alvo e funciona correndo ou no Modo de Transporte."
     },
     {
       "slot": "Secundária",
@@ -74,7 +66,7 @@
       "en": "Blast Canister",
       "pick": "Única opção",
       "spec": "Atordoante. Filtro de 220% que solta bombinhas atordoantes de 5 × 44%. Recarga 6 s. Coeficiente 1,0 no filtro, 0,3 nas bombinhas.",
-      "why": "Atordoa o grupo para os pregos acertarem com segurança. O Pente Reserva dá cargas extras, e sair do Modo de Força restaura todas as cargas."
+      "why": "Atordoa o grupo e solta bombinhas que atordoam de novo, o que dá tempo para as barras. O Pente Reserva dá cargas extras. No Modo de Força, sair do modo restaura todas as cargas."
     },
     {
       "slot": "Utilitária",
@@ -82,23 +74,23 @@
       "en": "Transport Mode",
       "pick": "Única opção",
       "spec": "Pesado, Ágil. Investida com 200 de armadura e 220% de velocidade de movimento; atropelo de 250%. Recarga 6 s, que só começa quando a habilidade termina.",
-      "why": "Fuga e reposicionamento. O dano cresce com o atributo de velocidade de movimento. Atropelar um inimigo grande encerra a investida, causa 4× de dano e atordoa. Ativar antes de cair reduz o dano de queda."
+      "why": "Fuga, reposicionamento e defesa contra queda: a armadura vale para o dano de queda, então ative antes de pousar. Atropelar um inimigo grande encerra a investida, causa 4× de dano e atordoa; os guias usam isso para ativar os Cinturões. O dano cresce com o atributo de velocidade de movimento."
     },
     {
       "slot": "Especial",
       "pt": "Reequipar",
       "en": "Retool",
-      "pick": "Variante",
-      "spec": "Ágil. Alterna a primária e o equipamento ativo. Recarga 0,5 s; a troca leva 0,4 s.",
-      "why": "Permite carregar dois equipamentos. Use enquanto o Modo de Força não estiver desbloqueado. A Célula de Combustível rende mais aqui, com dois equipamentos para recarregar."
+      "pick": "Recomendada",
+      "spec": "Ágil. Passiva: carrega dois equipamentos ao mesmo tempo. Ativar alterna a primária e o equipamento ativo. Recarga 0,5 s; a troca leva 0,4 s.",
+      "why": "Segure o botão da primária e aperte Reequipar logo depois de cada barra: a outra barra dispara sem esperar a recarga (dica da wiki). O segundo espaço leva um equipamento utilitário ao lado do Capacitor Régio. Cada Reequipar também troca o equipamento ativo, então confira qual está ativo antes de usar."
     },
     {
       "slot": "Especial (alt.)",
       "pt": "Modo de Força",
       "en": "Power Mode",
-      "pick": "Recomendada",
+      "pick": "Variante",
       "spec": "Usa as duas primárias ao mesmo tempo. +100 de armadura. O texto do jogo diz −60% de velocidade de movimento; a wiki corrige: o multiplicador real é 1/1,5, cerca de 66% da velocidade. Recarga 5 s. Desbloqueio: MUL-T: Seventh Day.",
-      "why": "Segundo a wiki, dobra o dano na prática. Com duas Pistolas de Pregos, dobra as ativações ao acertar, o que compensa o coeficiente 0,6. A lentidão é o custo: entre e saia conforme a luta."
+      "why": "Para a variante com duas Pistolas de Pregos: usa as duas ao mesmo tempo e soma 100 de armadura. Escolha se já desbloqueou e quer lutar colado no grupo. Você perde o segundo equipamento do Reequipar e fica lento: entre e saia conforme a luta."
     }
   ],
   "sections": [
@@ -106,52 +98,70 @@
       "id": "common",
       "name": "Comum",
       "color": "white",
-      "intro": "O MUL-T luta de perto e dispara pregos sem parar. Os brancos dão velocidade de ataque, crítico e dano a curta distância.",
+      "intro": "Os brancos das barras são Pé de Cabra, velocidade de movimento e um pouco de defesa; os itens da variante com Pregos estão marcados.",
       "items": [
+        {
+          "icon": "crowbar",
+          "pt": "Pé de Cabra",
+          "en": "Crowbar",
+          "prio": 1,
+          "qty": "1 ou mais (empilhe)",
+          "effect": "+75% (+75% por acúmulo) de dano contra inimigos acima de 90% de vida.",
+          "why": "A barra tira muito de uma vez e atravessa a fila, então cada inimigo acima de 90% de vida leva o bônus na primeira barra. A wiki aponta a sinergia com o Perfurador. Evite sangramento: a wiki diz que ele tira o alvo de cima de 90% e reduz o Pé de Cabra."
+        },
+        {
+          "icon": "mocha",
+          "pt": "Mocha",
+          "en": "Mocha",
+          "prio": 1,
+          "qty": "1 ou mais",
+          "effect": "+7,5% (+7,5% por acúmulo) de velocidade de ataque e +7% (+7% por acúmulo) de velocidade de movimento.",
+          "why": "O item de movimento que os guias põem primeiro, nas duas builds. O MUL-T acelera devagar, e o dano do Modo de Transporte cresce com o atributo de velocidade de movimento."
+        },
         {
           "icon": "soldiers-syringe",
           "pt": "Seringa Militar",
           "en": "Soldier's Syringe",
-          "prio": 1,
-          "qty": "4 a 8",
+          "prio": 2,
+          "qty": "1 a 2 (mais com Pregos)",
           "effect": "+15% (+15% por acúmulo) de velocidade de ataque.",
-          "why": "Mais pregos por segundo nas duas pistolas. Cada prego extra é mais uma rolagem para os itens ao acertar."
+          "why": "Um guia de Eclipse com as barras chama de prioridade número um, e os jogadores dizem que 1 ou 2 já aceleram o truque do Reequipar. A wiki diz o contrário: o truque ignora a recarga e não escala com velocidade de ataque (veja as notas). Na variante com Pregos, empilhe: cada prego extra rola os itens ao acertar."
+        },
+        {
+          "icon": "pauls-goat-hoof",
+          "pt": "Casco de Bode de Paul",
+          "en": "Paul's Goat Hoof",
+          "prio": 2,
+          "qty": "1 ou mais",
+          "effect": "+14% (+14% por acúmulo) de velocidade de movimento.",
+          "why": "Jogadores de Eclipse preferem o Casco à Bebida Energética porque ele vale o tempo todo, inclusive no Modo de Força. Também aumenta o dano do Modo de Transporte."
+        },
+        {
+          "icon": "backup-magazine",
+          "pt": "Pente Reserva",
+          "en": "Backup Magazine",
+          "prio": 2,
+          "qty": "1 a 3",
+          "effect": "+1 (+1 por acúmulo) carga da habilidade Secundária.",
+          "why": "Mais Filtros Explosivos para atordoar entre as barras. Na variante, sair do Modo de Força restaura todas as cargas, e o Pente rende ainda mais. Dentro do Modo de Força o Pente afeta a segunda primária, e a wiki diz que isso só ajuda o Lançador de Sucata."
         },
         {
           "icon": "lens-makers-glasses",
           "pt": "Óculos do Fabricante de Lentes",
           "en": "Lens-Maker's Glasses",
-          "prio": 1,
-          "qty": "3 a 6",
-          "effect": "10% (+10% por acúmulo) de chance de Acerto Crítico, que causa dano dobrado.",
-          "why": "Dano extra constante em 24 pregos por segundo, e base para Foice e Instintos."
-        },
-        {
-          "icon": "focus-crystal",
-          "pt": "Cristal de Foco",
-          "en": "Focus Crystal",
-          "prio": 2,
-          "qty": "2 a 4",
-          "effect": "+20% (+20% por acúmulo) de dano contra inimigos a até 13 m.",
-          "why": "Os pregos perdem dano com a distância, então você já luta perto. O Cristal recompensa isso."
-        },
-        {
-          "icon": "tri-tip-dagger",
-          "pt": "Adaga Triangular",
-          "en": "Tri-Tip Dagger",
-          "prio": 2,
-          "qty": "2 a 4",
-          "effect": "10% (+10% por acúmulo) de chance de sangrar um inimigo por 240% do dano base.",
-          "why": "Muitos pregos compensam a chance reduzida pelo coeficiente 0,6."
-        },
-        {
-          "icon": "armor-piercing-rounds",
-          "pt": "Projéteis Perfurantes",
-          "en": "Armor-Piercing Rounds",
           "prio": 3,
-          "qty": "1 a 3",
-          "effect": "+20% (+20% por acúmulo) de dano contra chefes.",
-          "why": "O MUL-T aguenta ficar colado no chefe; cada prego bate mais."
+          "qty": "1 ou mais (contestado)",
+          "effect": "10% (+10% por acúmulo) de chance de Acerto Crítico, que causa dano dobrado.",
+          "why": "Contestado. Um jogador de Eclipse empilha até uns 90% de crítico nas barras e um guia pega na variante com Pregos; outro jogador de Eclipse põe velocidade acima do crítico. Os Cinturões não dependem dele: a barra já passa dos 400%."
+        },
+        {
+          "icon": "oddly-shaped-opal",
+          "pt": "Opala de Formato Estranho",
+          "en": "Oddly-shaped Opal",
+          "prio": 3,
+          "qty": "1 a 2",
+          "effect": "+100 (+100 por acúmulo) de armadura enquanto fora de perigo.",
+          "why": "Dois guias citam, um deles como bom primeiro item. Pela wiki, a armadura volta depois de 7 s sem levar dano, e Tempos Difíceis e Espaços Seguros não a quebram quando bloqueiam um golpe."
         },
         {
           "icon": "repulsion-armor-plate",
@@ -160,25 +170,88 @@
           "prio": 3,
           "qty": "2 a 5",
           "effect": "Reduz todo dano recebido em 5 (+5 por acúmulo). Não pode reduzir abaixo de 1.",
-          "why": "Lutando de perto você leva muitos golpes pequenos. A redução fixa corta cada um deles."
+          "why": "Dois guias a põem entre os itens de defesa, um deles como a primeira armadura da variante com Modo de Força. A redução fixa corta cada golpe pequeno de quem luta perto."
         },
         {
-          "icon": "backup-magazine",
-          "pt": "Pente Reserva",
-          "en": "Backup Magazine",
+          "icon": "focus-crystal",
+          "pt": "Cristal de Foco",
+          "en": "Focus Crystal",
           "prio": 3,
           "qty": "1 a 3",
-          "effect": "+1 (+1 por acúmulo) carga da habilidade Secundária.",
-          "why": "Mais Filtros Explosivos para atordoar. A wiki observa que sair do Modo de Força restaura todas as cargas. No Modo de Força o Pente afeta a segunda primária, e a wiki diz que isso só rende algo com o Lançador de Sucata."
+          "effect": "+20% (+20% por acúmulo) de dano contra inimigos a até 13 m.",
+          "why": "Na variante com Pregos, um guia chama de muito importante: os pregos perdem dano com a distância e você já luta perto. Um jogador de Eclipse também usa com as barras."
         },
         {
-          "icon": "crowbar",
-          "pt": "Pé de Cabra",
-          "en": "Crowbar",
+          "icon": "tri-tip-dagger",
+          "pt": "Adaga Triangular",
+          "en": "Tri-Tip Dagger",
           "prio": 4,
-          "qty": "1 a 2 (com Perfurador de Barra)",
-          "effect": "+75% (+75% por acúmulo) de dano contra inimigos acima de 90% de vida.",
-          "why": "Só faz sentido com o Perfurador de Barra, que tira muito de uma vez. Com duas Pistolas de Pregos, os primeiros pregos já tiram o alvo de cima de 90% de vida."
+          "qty": "2 a 4 (com Pregos)",
+          "effect": "10% (+10% por acúmulo) de chance de sangrar um inimigo por 240% do dano base.",
+          "why": "Item central da variante com Pregos: muitos pregos compensam a chance reduzida pelo coeficiente 0,6. Com as barras, deixe de lado: o sangramento tira o alvo de cima de 90% e corta o Pé de Cabra."
+        },
+        {
+          "icon": "tougher-times",
+          "pt": "Tempos Difíceis",
+          "en": "Tougher Times",
+          "prio": 4,
+          "qty": "1",
+          "effect": "15% (+15% por acúmulo) de chance de bloquear o dano recebido. Não é afetado pela sorte.",
+          "why": "Um guia põe entre os itens de defesa. Os Espaços Seguros (Safer Spaces) corrompem todos os Tempos Difíceis."
+        },
+        {
+          "icon": "warped-echo",
+          "pt": "Eco Distorcido",
+          "en": "Warped Echo",
+          "prio": 4,
+          "qty": "1",
+          "effect": "O próximo dano recebido é reduzido em 10% e dividido em 3 (+1 por acúmulo) golpes. Todo o dano ecoado não é letal, exceto o último golpe. Recarrega a cada 15 s.",
+          "why": "Um guia o põe junto da Placa e da Opala na defesa. Divide um golpe grande em vários menores."
+        },
+        {
+          "icon": "medkit",
+          "pt": "Kit de Cura",
+          "en": "Medkit",
+          "prio": 4,
+          "qty": "1",
+          "effect": "2 s depois de levar dano, cura 20 de vida mais 5% (+5% por acúmulo) da vida máxima.",
+          "why": "Um guia indica o Kit de Cura para recuperar vida, no lugar da cura por acerto."
+        },
+        {
+          "icon": "warbanner",
+          "pt": "Estandarte de Guerra",
+          "en": "Warbanner",
+          "prio": 4,
+          "qty": "1",
+          "effect": "Ao subir de nível ou iniciar o evento do Teleportador, solta um estandarte que fortalece todos os aliados a até 16 m (+8 m por acúmulo). Aumenta a velocidade de ataque e de movimento em 30%.",
+          "why": "Um guia de Eclipse chama de ótimo quando a Seringa não aparece. Dá velocidade de ataque e de movimento juntas na luta do teleporte."
+        },
+        {
+          "icon": "armor-piercing-rounds",
+          "pt": "Projéteis Perfurantes",
+          "en": "Armor-Piercing Rounds",
+          "prio": 4,
+          "qty": "1 a 3",
+          "effect": "+20% (+20% por acúmulo) de dano contra chefes.",
+          "why": "Um jogador de Eclipse usa com as barras para os chefes."
+        },
+        {
+          "icon": "gasoline",
+          "pt": "Gasolina",
+          "en": "Gasoline",
+          "prio": 4,
+          "qty": "1",
+          "effect": "Abater um inimigo incendeia todos os inimigos a até 12 m (+4 m por acúmulo), causando 150% de dano base. Além disso, os inimigos queimam por 150% (+75% por acúmulo) de dano base.",
+          "why": "Um jogador de Eclipse usa com as barras para ter dano em área ao abater."
+        },
+        {
+          "icon": "energy-drink",
+          "pt": "Bebida Energética",
+          "en": "Energy Drink",
+          "prio": 4,
+          "qty": "1",
+          "effect": "+25% (+25% por acúmulo) de velocidade ao correr.",
+          "why": "Só vale correndo. Um guia a põe por último na variante com Pregos porque correr tira você do Modo de Força (a wiki não confirma). Prefira Mocha e Casco."
         }
       ]
     },
@@ -186,79 +259,88 @@
       "id": "uncommon",
       "name": "Incomum",
       "color": "green",
-      "intro": "Os verdes ao acertar rendem pelo volume de pregos, mesmo com o coeficiente 0,6.",
+      "intro": "Os dois Cinturões são o centro da build, porque cada barra passa dos 400%.",
       "items": [
         {
-          "icon": "atg-missile-mk-1",
-          "pt": "Míssil ASM Mk. 1",
-          "en": "AtG Missile Mk. 1",
+          "icon": "kjaros-band",
+          "pt": "Cinturão de Kjaro",
+          "en": "Kjaro's Band",
           "prio": 1,
-          "qty": "4 ou mais (empilhe)",
-          "effect": "10% de chance de disparar um míssil que causa 300% (+300% por acúmulo) de dano TOTAL.",
-          "why": "Com 24 pregos por segundo no Modo de Força, os mísseis saem o tempo todo, mesmo com a chance reduzida pelo coeficiente. Acumule: cada cópia soma +300% ao dano de cada míssil, sem mudar a chance, então o dano cresce em linha reta."
+          "qty": "1 ou mais (empilhe)",
+          "effect": "Golpes que causam mais de 400% de dano também atingem os inimigos com um tornado de fogo rúnico, causando 300% (+300% por acúmulo) de dano TOTAL ao longo do tempo. Recarrega a cada 10 s.",
+          "why": "Núcleo das barras: cada barra de 600% passa dos 400%. Os dois Cinturões disparam juntos e dividem a recarga de 10 s. Os guias também os ativam atropelando inimigos grandes com o Transporte. A Faixa da Singularidade corrompe todos os Cinturões."
         },
         {
-          "icon": "ukulele",
-          "pt": "Ukulele",
-          "en": "Ukulele",
+          "icon": "runalds-band",
+          "pt": "Cinturão de Runald",
+          "en": "Runald's Band",
           "prio": 1,
-          "qty": "2 a 4",
-          "effect": "25% de chance de disparar um raio em cadeia de 80% de dano TOTAL em até 3 (+2 por acúmulo) alvos a 20 m (+2 m por acúmulo).",
-          "why": "Espalha o dano dos pregos para os inimigos em volta, que é o que falta à Pistola. Cada cópia soma 2 alvos e 2 m de alcance. O dano por alvo não sobe, então ele é o segundo verde a acumular, atrás do Míssil."
+          "qty": "1 ou mais (empilhe)",
+          "effect": "Golpes que causam mais de 400% de dano também atingem os inimigos com uma explosão de gelo rúnico, deixando-os 80% mais lentos por 3 s (+3 s por acúmulo) e causando 250% (+250% por acúmulo) de dano TOTAL. Recarrega a cada 10 s.",
+          "why": "Par do Cinturão de Kjaro, citado pelos mesmos guias: a barra ativa os dois juntos. A lentidão de 80% ajuda o MUL-T, que acelera devagar, a manter distância. A Faixa da Singularidade corrompe todos os Cinturões."
         },
         {
-          "icon": "harvesters-scythe",
-          "pt": "Foice do Ceifador",
-          "en": "Harvester's Scythe",
-          "prio": 2,
-          "qty": "1 a 2 (com Óculos)",
-          "effect": "+5% de chance de crítico. Críticos curam 8 (+4 por acúmulo) de vida.",
-          "why": "Com tantos pregos, os críticos viram cura constante para quem luta colado."
-        },
-        {
-          "icon": "leeching-seed",
-          "pt": "Semente Sanguessuga",
-          "en": "Leeching Seed",
-          "prio": 2,
-          "qty": "1 a 2",
-          "effect": "Causar dano cura 1 (+1 por acúmulo) de vida.",
-          "why": "Cura a cada prego. No Modo de Força são 24 acertos por segundo."
-        },
-        {
-          "icon": "predatory-instincts",
-          "pt": "Instintos Predatórios",
-          "en": "Predatory Instincts",
-          "prio": 3,
-          "qty": "1 (com Óculos)",
-          "effect": "+5% de chance de crítico. Críticos dão +12% de velocidade de ataque, até 36% (+24% por acúmulo).",
-          "why": "Mais velocidade para as pistolas quando você já tem crítico."
-        },
-        {
-          "icon": "war-horn",
-          "pt": "Chifre da Guerra",
-          "en": "War Horn",
-          "prio": 3,
-          "qty": "1",
-          "effect": "Ativar o Equipamento dá +70% de velocidade de ataque por 8 s (+4 s por acúmulo).",
-          "why": "Cada uso de equipamento acelera as duas pistolas. Com Reequipar, dois equipamentos dão duas ativações."
+          "icon": "hopoo-feather",
+          "pt": "Pluma de Hopoo",
+          "en": "Hopoo Feather",
+          "prio": 1,
+          "qty": "1 a 3",
+          "effect": "+1 (+1 por acúmulo) no número máximo de saltos.",
+          "why": "O MUL-T tem pouca mobilidade vertical, e a maioria dos guias pega a Pluma assim que aparece. Um guia de Eclipse a escolhe nos terminais multiloja até antes dos Cinturões. Na variante com Modo de Força, um guia a chama de ainda mais importante."
         },
         {
           "icon": "fuel-cell",
           "pt": "Célula de Combustível",
           "en": "Fuel Cell",
-          "prio": 4,
-          "qty": "1 a 2 (com Reequipar)",
+          "prio": 3,
+          "qty": "1 ou mais (com Reequipar)",
           "effect": "Uma carga extra de equipamento (+1 por acúmulo). Reduz a recarga do equipamento em 15% (+15% por acúmulo).",
-          "why": "Mais forte com o Reequipar, que carrega dois equipamentos. No Modo de Força você usa só um."
+          "why": "Com o Reequipar você carrega dois equipamentos, e os guias dizem que a Célula rende mais assim. No Modo de Força você leva um só. A Célula Lisada (Lysate Cell) corrompe todas as Células de Combustível."
         },
         {
-          "icon": "death-mark",
-          "pt": "Marca Fatal",
-          "en": "Death Mark",
+          "icon": "atg-missile-mk-1",
+          "pt": "Míssil ASM Mk. 1",
+          "en": "AtG Missile Mk. 1",
+          "prio": 3,
+          "qty": "1 ou mais",
+          "effect": "10% de chance de disparar um míssil que causa 300% (+300% por acúmulo) de dano TOTAL.",
+          "why": "Um jogador de Eclipse pega com as barras: o míssil causa 300% do dano do golpe, e cada barra bate forte. Os guias da variante com Pregos não o colocam no núcleo. O Camarão de Plasma corrompe todos os Mísseis."
+        },
+        {
+          "icon": "war-horn",
+          "pt": "Chifre da Guerra",
+          "en": "War Horn",
           "prio": 4,
           "qty": "1",
-          "effect": "Inimigos com 4 ou mais debuffs ficam marcados e recebem 50% a mais de dano de todas as fontes por 7 s (+7 s por acúmulo).",
-          "why": "Atordoamento do Filtro, sangramento e redução de armadura somam debuffs. Só com várias fontes."
+          "effect": "Ativar o Equipamento dá +70% de velocidade de ataque por 8 s (+4 s por acúmulo).",
+          "why": "Cada uso de equipamento dá +70% de velocidade de ataque, e com dois equipamentos no Reequipar há mais ativações. Um guia de Eclipse o junta à Opus de Gorag."
+        },
+        {
+          "icon": "ukulele",
+          "pt": "Ukulele",
+          "en": "Ukulele",
+          "prio": 4,
+          "qty": "1 a 2",
+          "effect": "25% de chance de disparar um raio em cadeia de 80% de dano TOTAL em até 3 (+2 por acúmulo) alvos a 20 m (+2 m por acúmulo).",
+          "why": "Nenhum guia de MUL-T cita. Espalha dano para os inimigos em volta. Um ranking de itens do Vazio prefere sempre a Polialaúde, que corrompe todos os Ukuleles."
+        },
+        {
+          "icon": "leeching-seed",
+          "pt": "Semente Sanguessuga",
+          "en": "Leeching Seed",
+          "prio": 4,
+          "qty": "1 a 2 (com Pregos)",
+          "effect": "Causar dano cura 1 (+1 por acúmulo) de vida.",
+          "why": "Só um comentário casual a chama de melhor item; um jogador de Eclipse diz que cura quase não importa e um guia prefere Kit de Cura. Com as barras cura quase nada: 1 de vida por acerto."
+        },
+        {
+          "icon": "harvesters-scythe",
+          "pt": "Foice do Ceifador",
+          "en": "Harvester's Scythe",
+          "prio": 4,
+          "qty": "1 (com Óculos)",
+          "effect": "+5% de chance de crítico. Críticos curam 8 (+4 por acúmulo) de vida.",
+          "why": "Nenhum guia cita. Só vale com muito crítico, de preferência na variante com Pregos, em que os críticos saem o tempo todo."
         }
       ]
     },
@@ -266,70 +348,34 @@
       "id": "legendary",
       "name": "Lendário",
       "color": "red",
-      "intro": "Os vermelhos ao acertar escalam com o volume de pregos do MUL-T.",
+      "intro": "Nenhum vermelho é consenso entre os jogadores; pegue o que ajuda a build que você está jogando.",
       "items": [
-        {
-          "icon": "sentient-meat-hook",
-          "pt": "Gancho de Carnes Senciente",
-          "en": "Sentient Meat Hook",
-          "prio": 1,
-          "qty": "1 a 2",
-          "effect": "20% (+20% por acúmulo) de chance ao acertar de disparar ganchos teleguiados em até 10 (+5 por acúmulo) inimigos, causando 100% de dano TOTAL.",
-          "why": "Rola em cada prego e acerta até 10 inimigos. Dá à Pistola o dano em grupo que ela não tem."
-        },
         {
           "icon": "brilliant-behemoth",
           "pt": "Brutamontes Reluzente",
           "en": "Brilliant Behemoth",
-          "prio": 1,
+          "prio": 4,
           "qty": "1 a 2",
           "effect": "Todos os ataques explodem em 4 m (+2,5 m por acúmulo) causando 60% de dano TOTAL extra.",
-          "why": "Cada prego explode. A wiki diz que o raio é multiplicado pelo coeficiente do ataque, então fica menor nos pregos (0,6). Com o Lançador de Sucata ativa pelo menos duas vezes por acerto direto."
+          "why": "Um jogador de Eclipse pega com as barras. A wiki diz que o raio é multiplicado pelo coeficiente do ataque: a barra (1,0) explode com raio cheio, os pregos (0,6) com raio menor."
         },
         {
-          "icon": "shattering-justice",
-          "pt": "Justiça Destruidora",
-          "en": "Shattering Justice",
-          "prio": 2,
-          "qty": "1",
-          "effect": "Depois de acertar um inimigo 5 vezes, reduz a armadura dele em 60 por 8 s (+8 s por acúmulo).",
-          "why": "Cinco acertos saem em menos de meio segundo com 12 pregos por segundo. Fica ativo a luta toda contra chefes."
-        },
-        {
-          "icon": "57-leaf-clover",
-          "pt": "Trevo 57",
-          "en": "57 Leaf Clover",
-          "prio": 2,
-          "qty": "1",
-          "effect": "Todos os efeitos aleatórios são rolados +1 (+1 por acúmulo) vez a seu favor.",
-          "why": "Compensa o coeficiente baixo dos pregos em todos os itens de chance."
-        },
-        {
-          "icon": "symbiotic-scorpion",
-          "pt": "Escorpião Simbiótico",
-          "en": "Symbiotic Scorpion",
-          "prio": 3,
-          "qty": "1",
-          "effect": "100% de chance ao acertar de reduzir a armadura em 2 (+2 por acúmulo) permanentemente.",
-          "why": "Com dezenas de pregos por segundo, a armadura de um chefe cai muito rápido."
-        },
-        {
-          "icon": "rejuvenation-rack",
-          "pt": "Suporte do Rejuvenescimento",
-          "en": "Rejuvenation Rack",
-          "prio": 3,
-          "qty": "1",
-          "effect": "Cura +100% (+100% por acúmulo) a mais.",
-          "why": "Dobra a cura da Semente e da Foice, que já curam a cada prego."
-        },
-        {
-          "icon": "alien-head",
-          "pt": "Cabeça Alienígena",
-          "en": "Alien Head",
+          "icon": "h3ad-5t-v2",
+          "pt": "H3AD-5T v2",
+          "en": "H3AD-5T v2",
           "prio": 4,
           "qty": "1",
-          "effect": "Reduz o tempo de recarga das habilidades em 25% (+25% por acúmulo).",
-          "why": "A wiki diz que ajuda todas as habilidades, mas o efeito é menor no MUL-T: o dano vem das primárias, que não têm recarga."
+          "effect": "Aumenta a altura do salto. Ao tocar o chão, cria uma explosão cinética de 5 m a 100 m de raio, causando de 1.000% a 10.000% de dano base, que cresce com a altura da queda. Recarrega em 10 s (−50% por acúmulo).",
+          "why": "Um guia de Eclipse o cita para o MUL-T. A wiki diz que anula todo o dano de queda, a fraqueza do MUL-T a partir do Eclipse 3."
+        },
+        {
+          "icon": "sentient-meat-hook",
+          "pt": "Gancho de Carnes Senciente",
+          "en": "Sentient Meat Hook",
+          "prio": 4,
+          "qty": "1 a 2 (com Pregos)",
+          "effect": "20% (+20% por acúmulo) de chance ao acertar de disparar ganchos teleguiados em até 10 (+5 por acúmulo) inimigos, causando 100% de dano TOTAL.",
+          "why": "Nenhum guia o põe no núcleo. Rola em cada prego e acerta até 10 inimigos, então só rende na variante com Pregos."
         }
       ]
     },
@@ -340,22 +386,13 @@
       "intro": "Itens de chefe só caem de chefes de teleporte.",
       "items": [
         {
-          "icon": "charged-perforator",
-          "pt": "Perfurador Carregado",
-          "en": "Charged Perforator",
-          "prio": 2,
-          "qty": "1",
-          "effect": "10% de chance ao acertar de lançar um raio que causa 500% (+500% por acúmulo) de dano.",
-          "why": "Mais um efeito de chance para os pregos rolarem várias vezes por segundo."
-        },
-        {
           "icon": "irradiant-pearl",
           "pt": "Pérola Irradiante",
           "en": "Irradiant Pearl",
-          "prio": 3,
+          "prio": 4,
           "qty": "1 ou mais",
           "effect": "Aumenta TODOS os atributos em 10% (+10% por acúmulo).",
-          "why": "Inclui velocidade de movimento, que ajuda a compensar a lentidão do Modo de Força. Com o Artefato da Autoridade (Artifact of Command) não sai: as Poças de Purificação não aparecem e a essência amarela não oferece pérolas."
+          "why": "Nenhum guia cita, mas inclui velocidade de movimento, que o MUL-T sempre quer. Com o Artefato da Autoridade (Artifact of Command) não sai: as Poças de Purificação não aparecem e a essência amarela não oferece pérolas."
         }
       ]
     },
@@ -363,52 +400,43 @@
       "id": "equipment",
       "name": "Equipamentos",
       "color": "orange",
-      "intro": "Com o Reequipar você leva dois; no Modo de Força, conte com o equipamento ativo.",
+      "intro": "O Reequipar carrega dois: Capacitor Régio em um espaço e um utilitário no outro.",
       "items": [
-        {
-          "icon": "gorags-opus",
-          "pt": "Opus de Gorag",
-          "en": "Gorag's Opus",
-          "prio": 1,
-          "qty": "1 (recarga 45 s)",
-          "effect": "Todos os aliados entram em frenesi por 7 s: +50% de movimento e +100% de velocidade de ataque.",
-          "why": "Dobra a cadência das duas pistolas e devolve parte da velocidade que o Modo de Força tira."
-        },
         {
           "icon": "royal-capacitor",
           "pt": "Capacitor Régio",
           "en": "Royal Capacitor",
-          "prio": 2,
+          "prio": 1,
           "qty": "1 (recarga 20 s)",
-          "effect": "Raio em um monstro marcado causando 3000% de dano e atordoando os monstros próximos.",
-          "why": "Alcance que os pregos não têm. Bom contra voadores e elites longe."
+          "effect": "Raio em um monstro marcado causando 3.000% de dano e atordoando os monstros próximos.",
+          "why": "O equipamento que os jogadores de Reequipar priorizam: 3.000% de dano em um alvo de longe e atordoa quem está perto. Fica em um espaço; o outro leva um utilitário."
         },
         {
-          "icon": "primordial-cube",
-          "pt": "Cubo Primordial",
-          "en": "Primordial Cube",
+          "icon": "executive-card",
+          "pt": "Cartão Executivo",
+          "en": "Executive Card",
           "prio": 2,
-          "qty": "1 (recarga 60 s)",
-          "effect": "Buraco negro que puxa inimigos a até 30 m para o centro por 10 s.",
-          "why": "Junta o grupo na frente das pistolas, dentro do alcance curto e do raio do Brutamontes."
+          "qty": "1 (segundo espaço)",
+          "effect": "Toda compra com ouro devolve 10% do ouro gasto. Se a compra for em um terminal multiloja, os outros terminais continuam abertos.",
+          "why": "Um dos utilitários que os guias põem no segundo espaço do Reequipar, ao lado do Capacitor Régio."
         },
         {
-          "icon": "jade-elephant",
-          "pt": "Elefante de Jade",
-          "en": "Jade Elephant",
+          "icon": "recycler",
+          "pt": "Reciclador",
+          "en": "Recycler",
+          "prio": 2,
+          "qty": "1 (segundo espaço)",
+          "effect": "Transforma um item ou equipamento em outro da mesma raridade. Cada um só pode ser convertido uma vez.",
+          "why": "A outra opção dos guias para o segundo espaço. Troca o que não serve às barras, como Adagas Triangulares."
+        },
+        {
+          "icon": "gorags-opus",
+          "pt": "Opus de Gorag",
+          "en": "Gorag's Opus",
           "prio": 3,
           "qty": "1 (recarga 45 s)",
-          "effect": "Ganha 500 de armadura por 5 s.",
-          "why": "No Modo de Força você fica lento. A armadura cobre os golpes que não dá para desviar."
-        },
-        {
-          "icon": "volcanic-egg",
-          "pt": "Ovo Vulcânico",
-          "en": "Volcanic Egg",
-          "prio": 4,
-          "qty": "1 (recarga 30 s, com Serra)",
-          "effect": "Vira uma bola de fogo dracônica por 5 s. Causa 500% de dano ao impacto e explode no final causando 800%.",
-          "why": "A wiki diz que a Serra Elétrica continua funcionando durante o Ovo. Mobilidade e dano juntos se você usar a Serra."
+          "effect": "Todos os aliados entram em frenesi por 7 s: +50% de movimento e +100% de velocidade de ataque.",
+          "why": "Equipamento de dano para a variante com Pregos: dobra a cadência das duas pistolas. Um guia de Eclipse o junta ao Chifre da Guerra; nenhum o trata como núcleo."
         }
       ]
     },
@@ -416,25 +444,16 @@
       "id": "lunar",
       "name": "Lunares",
       "color": "blue",
-      "intro": "Itens lunares têm custo embutido. Os 200 de vida do MUL-T aguentam alguns deles.",
+      "intro": "Itens lunares têm custo embutido; os jogadores citam pouco deles no MUL-T.",
       "items": [
         {
-          "icon": "shaped-glass",
-          "pt": "Vidro Configurado",
-          "en": "Shaped Glass",
-          "prio": 3,
-          "qty": "1 (com armadura)",
-          "effect": "+100% (+100% por acúmulo) de dano base. −50% (−50% por acúmulo) de vida máxima.",
-          "why": "Dobra todos os pregos. O MUL-T tem vida e armadura de sobra para pagar metade, ao contrário dos sobreviventes frágeis."
-        },
-        {
-          "icon": "purity",
-          "pt": "Pureza",
-          "en": "Purity",
+          "icon": "transcendence",
+          "pt": "Transcendência",
+          "en": "Transcendence",
           "prio": 4,
-          "qty": "1 (só com Lançador de Sucata)",
-          "effect": "Reduz todas as recargas de habilidade em 2 s (+1 s por acúmulo). Todos os efeitos aleatórios são rolados +1 (+1 por acúmulo) vez contra você.",
-          "why": "A wiki diz que leva o Lançador de Sucata ao mínimo de 0,5 s. Com Pistolas de Pregos, só piora os itens de chance."
+          "qty": "1",
+          "effect": "Converte toda a vida, menos 1, em escudo que se regenera. Ganha +50% (+25% por acúmulo) de vida máxima.",
+          "why": "Dois guias de Eclipse citam. A vida alta do MUL-T vira um escudo grande, e um deles a usa como resposta ao Eclipse 8."
         },
         {
           "icon": "light-flux-pauldron",
@@ -443,7 +462,7 @@
           "prio": 0,
           "qty": "0",
           "effect": "−50% (−50% por acúmulo) no tempo de recarga das habilidades. −50% (−50% por acúmulo) de velocidade de ataque.",
-          "why": "As primárias não têm recarga. Você perde metade dos pregos e não ganha quase nada."
+          "why": "Corta metade da velocidade de ataque. Na variante com Pregos, você perde metade dos pregos, e as primárias não têm recarga para compensar."
         }
       ]
     },
@@ -454,31 +473,49 @@
       "intro": "Itens do Vazio (DLC Survivors of the Void) corrompem itens comuns. Veja o que vai perder antes.",
       "items": [
         {
-          "icon": "plasma-shrimp",
-          "pt": "Camarão de Plasma",
-          "en": "Plasma Shrimp",
-          "prio": 3,
-          "qty": "1",
-          "effect": "Ganha escudo de 10% da vida máxima. Com escudo, cada acerto dispara um míssil de 40% (+40% por acúmulo) de dano TOTAL. Corrompe todos os Mísseis ASM Mk. 1.",
-          "why": "Dispara em todo acerto enquanto houver escudo, e o MUL-T acerta muito. Corrompe os Mísseis ASM que esta build recomenda."
-        },
-        {
           "icon": "polylute",
           "pt": "Polialaúde",
           "en": "Polylute",
           "prio": 3,
-          "qty": "1",
+          "qty": "1 ou mais",
           "effect": "25% de chance de disparar um raio de 60% de dano TOTAL até 3 (+3 por acúmulo) vezes. Corrompe todos os Ukuleles.",
-          "why": "Melhor em chefes, pior em grupos. Corrompe os Ukuleles."
+          "why": "Corrompe todos os Ukuleles. Um ranking de itens do Vazio a prefere ao Ukulele em toda partida, e um jogador a usa no MUL-T. Melhor em alvo único que em grupos."
+        },
+        {
+          "icon": "plasma-shrimp",
+          "pt": "Camarão de Plasma",
+          "en": "Plasma Shrimp",
+          "prio": 3,
+          "qty": "1 ou mais (com Pregos)",
+          "effect": "Ganha escudo de 10% da vida máxima. Com escudo, cada acerto dispara um míssil de 40% (+40% por acúmulo) de dano TOTAL. Corrompe todos os Mísseis ASM Mk. 1.",
+          "why": "Os guias o valorizam no MUL-T de cadência alta: dispara em todo acerto enquanto houver escudo. Rende na variante com Pregos; com as barras são poucos acertos. Corrompe todos os Mísseis ASM."
+        },
+        {
+          "icon": "safer-spaces",
+          "pt": "Espaços Seguros",
+          "en": "Safer Spaces",
+          "prio": 3,
+          "qty": "1",
+          "effect": "Bloqueia o dano recebido uma vez. Recarrega após 13,5 s (−10% por acúmulo). Corrompe todos os Tempos Difíceis.",
+          "why": "Dois guias de Eclipse citam; um diz que Opala e Espaços Seguros são toda a defesa de que o MUL-T precisa. Corrompe todos os Tempos Difíceis."
         },
         {
           "icon": "needletick",
           "pt": "Agulhão",
           "en": "Needletick",
-          "prio": 3,
-          "qty": "1 a 2",
+          "prio": 4,
+          "qty": "1 a 2 (com Pregos)",
           "effect": "10% (+10% por acúmulo) de chance de colapsar um inimigo por 400% do dano base. Corrompe todas as Adagas Triangulares.",
-          "why": "Rola em cada prego. Corrompe as Adagas Triangulares que esta build recomenda."
+          "why": "Só um jogador usa. Rola em cada prego, então só na variante com Pregos. Corrompe todas as Adagas Triangulares."
+        },
+        {
+          "icon": "singularity-band",
+          "pt": "Faixa da Singularidade",
+          "en": "Singularity Band",
+          "prio": 0,
+          "qty": "0",
+          "effect": "Golpes que causam mais de 400% de dano também disparam um buraco negro que puxa os inimigos a até 15 m para o centro. Dura 5 s e depois colapsa, causando 100% (+100% por acúmulo) de dano TOTAL. Recarrega a cada 20 s. Corrompe todos os Cinturões de Kjaro e de Runald.",
+          "why": "Corrompe todos os Cinturões de Kjaro e de Runald, o núcleo desta build. Recarrega a cada 20 s, o dobro dos Cinturões."
         },
         {
           "icon": "lost-seers-lenses",
@@ -487,158 +524,222 @@
           "prio": 0,
           "qty": "0",
           "effect": "0,5% (+0,5% por acúmulo) de chance de matar instantaneamente um inimigo que não seja chefe. Corrompe todos os Óculos do Fabricante de Lentes.",
-          "why": "Corrompe todos os Óculos do Fabricante de Lentes, que esta build recomenda. Você troca o crítico de todos os pregos por uma chance minúscula de abate, e a Foice e os Instintos ficam só com os 5% de crítico deles."
+          "why": "Corrompe todos os Óculos do Fabricante de Lentes. Um ranking de itens do Vazio manda manter os Óculos, mesmo no MUL-T; um guia discorda e pega as Lentes em partidas longas com a Opus de Gorag."
         }
       ]
     }
   ],
   "synergy": [
     {
-      "title": "Duas pistolas, o dobro de rolagens",
-      "text": "A Pistola de Pregos tem coeficiente 0,6, o que reduz a chance de cada item ao acertar. No Modo de Força as duas pistolas atiram juntas, 24 pregos por segundo na velocidade base. A wiki diz que isso compensa o coeficiente baixo com mais ativações. Míssil, Ukulele, Gancho e Adaga rolam em cada prego."
+      "title": "Barra de 600% e os Cinturões",
+      "text": "Os Cinturões de Kjaro e de Runald ativam em golpes acima de 400%, e cada barra causa 600%. Os dois disparam juntos e dividem a recarga de 10 s, então empilhe os dois. Atropelar um inimigo grande com o Transporte causa 4× de dano, e os guias usam isso para ativá-los também."
     },
     {
-      "title": "Dano a curta distância",
-      "text": "Os pregos perdem dano com a distância e somem depois de 40 m. Por isso a build é de perto: Cristal de Foco, Placa da Armadura e cura por acerto. Os 100 de armadura do Modo de Força somados aos 12 de base deixam o MUL-T aguentar ficar colado."
+      "title": "Pé de Cabra na fila",
+      "text": "A barra atravessa os inimigos, e o Pé de Cabra soma +75% por cópia contra quem está acima de 90% de vida. A primeira barra em cada inimigo leva o bônus. Sangramento e drones tiram o alvo de cima de 90% antes, por isso a Adaga Triangular fica para a variante com Pregos."
     },
     {
-      "title": "Entrar e sair do Modo de Força",
-      "text": "O Modo de Força deixa você com cerca de 66% da velocidade de movimento, segundo a wiki, e tem 5 s de recarga. Saia para atravessar o mapa ou fugir com o Modo de Transporte. A wiki observa que sair restaura todas as cargas do Filtro Explosivo, o que rende mais com o Pente Reserva."
+      "title": "Reequipar: tiro rápido e dois equipamentos",
+      "text": "Segure a primária e aperte Reequipar depois de cada barra para disparar a outra sem esperar. O Reequipar também carrega dois equipamentos: Capacitor Régio e um utilitário (Cartão Executivo ou Reciclador). A Célula de Combustível e o Chifre da Guerra aproveitam os dois."
     },
     {
-      "title": "Filtro e Transporte para controlar",
-      "text": "O Filtro Explosivo atordoa o grupo e solta bombinhas que atordoam de novo, segurando os inimigos na frente das pistolas. O Modo de Transporte dá 200 de armadura, atordoa inimigos grandes no atropelo e causa 4× de dano neles. O dano do atropelo cresce com o atributo de velocidade de movimento."
+      "title": "Movimento",
+      "text": "O MUL-T acelera devagar e tem pouca mobilidade vertical. Mocha, Casco de Bode de Paul e Pluma de Hopoo resolvem isso, e o dano do Transporte cresce com o atributo de velocidade de movimento. Ative o Transporte antes de pousar: a armadura dele vale contra o dano de queda."
     },
     {
-      "title": "Reequipar e dois equipamentos",
-      "text": "Antes de desbloquear o Modo de Força, use o Reequipar. O MUL-T sempre carrega dois equipamentos, e o Reequipar alterna a primária e o equipamento ativo. Célula de Combustível e Chifre da Guerra rendem mais assim. Pelo texto do jogo, só o Reequipar troca o equipamento ativo, então no Modo de Força conte com um só."
+      "title": "Variante: Pregos e Modo de Força",
+      "text": "Com duas Pistolas de Pregos e o Modo de Força, são 24 pregos por segundo e +100 de armadura. A build muda para Seringa, Mocha, Adaga Triangular, Camarão de Plasma e Cristal de Foco, com Placa e Opala na defesa. Sair do Modo de Força restaura as cargas do Filtro, o que rende com o Pente Reserva."
     }
   ],
   "rotation": [
     {
-      "step": "Modo de Transporte para entrar",
-      "text": "Chegue rápido ao grupo com 200 de armadura e atropele no caminho."
+      "step": "Transporte para entrar",
+      "text": "Chegue ao grupo e atropele um inimigo grande: 4× de dano, atordoamento e, segundo os guias, os Cinturões."
     },
     {
       "step": "Filtro Explosivo no grupo",
-      "text": "Atordoa todos para os pregos acertarem sem resposta."
+      "text": "Atordoa todos e solta bombinhas que atordoam de novo."
     },
     {
-      "step": "Ative o Modo de Força",
-      "text": "Liga as duas pistolas e dá +100 de armadura."
+      "step": "Barra na fila cheia",
+      "text": "Mire para atravessar vários inimigos acima de 90% de vida; o Pé de Cabra e os Cinturões entram juntos."
     },
     {
-      "step": "Pregos sem parar",
-      "text": "Fique perto do alvo e deixe os itens ao acertar limparem o resto."
+      "step": "Segure o tiro e Reequipar",
+      "text": "Aperte Reequipar logo depois de cada barra para disparar a outra sem esperar a recarga."
     },
     {
-      "step": "Saia para se mover",
-      "text": "Desligue o Modo de Força para fugir ou avançar e recuperar as cargas do Filtro."
+      "step": "Capacitor nos alvos grandes",
+      "text": "Use o Capacitor Régio em elites e chefes. Cada Reequipar troca o equipamento ativo, então confira qual está ativo."
+    },
+    {
+      "step": "Transporte antes de cair",
+      "text": "Ative antes de pousar de uma queda alta ou para fugir de um golpe grande."
     }
   ],
   "essentials": [
     {
-      "pt": "Seringa Militar",
-      "en": "Soldier's Syringe"
+      "pt": "Cinturão de Kjaro",
+      "en": "Kjaro's Band"
     },
     {
-      "pt": "Óculos do Fabricante de Lentes",
-      "en": "Lens-Maker's Glasses"
+      "pt": "Cinturão de Runald",
+      "en": "Runald's Band"
     },
     {
-      "pt": "Míssil ASM Mk. 1",
-      "en": "AtG Missile Mk. 1"
+      "pt": "Pé de Cabra",
+      "en": "Crowbar"
     },
     {
-      "pt": "Ukulele",
-      "en": "Ukulele"
+      "pt": "Mocha",
+      "en": "Mocha"
     },
     {
-      "pt": "Semente Sanguessuga",
-      "en": "Leeching Seed"
+      "pt": "Pluma de Hopoo",
+      "en": "Hopoo Feather"
     },
     {
-      "pt": "Gancho de Carnes Senciente",
-      "en": "Sentient Meat Hook"
-    },
-    {
-      "pt": "Opus de Gorag",
-      "en": "Gorag's Opus"
+      "pt": "Capacitor Régio",
+      "en": "Royal Capacitor"
     }
   ],
-  "situational_note": "Situacionais: Pé de Cabra (com Perfurador de Barra), Célula de Combustível e Chifre da Guerra (com Reequipar), Ovo Vulcânico (com Serra), Pureza (com Lançador de Sucata), Vidro Configurado e os itens do Vazio.",
+  "situational_note": "Situacionais: Adaga Triangular, Semente Sanguessuga, Gancho de Carnes Senciente e Agulhão (só com Pregos), Tempos Difíceis, Eco Distorcido e Kit de Cura (defesa), Estandarte de Guerra (sem Seringa), Chifre da Guerra (com dois equipamentos), Projéteis Perfurantes, Gasolina, Ukulele, Brutamontes Reluzente, H3AD-5T v2 (dano de queda) e Transcendência.",
   "fallbacks": [
     {
-      "pt": "Seringa Militar",
-      "en": "Soldier's Syringe",
-      "text": "Mocha, Instintos Predatórios com Óculos, ou Chifre da Guerra com equipamento de recarga curta."
+      "pt": "Cinturão de Kjaro",
+      "en": "Kjaro's Band",
+      "text": "O Cinturão de Runald sozinho já aproveita a barra. Some Míssil ASM, que cresce com o dano do golpe."
     },
     {
-      "pt": "Óculos do Fabricante de Lentes",
-      "en": "Lens-Maker's Glasses",
-      "text": "Semente Sanguessuga para cura e Cristal de Foco para dano."
+      "pt": "Cinturão de Runald",
+      "en": "Runald's Band",
+      "text": "O Cinturão de Kjaro sozinho já aproveita a barra. Some Míssil ASM e mais Pé de Cabra."
     },
     {
-      "pt": "Míssil ASM Mk. 1",
-      "en": "AtG Missile Mk. 1",
-      "text": "Perfurador Carregado e Bomba Aderente (Sticky Bomb), que também rolam em cada prego."
+      "pt": "Pé de Cabra",
+      "en": "Crowbar",
+      "text": "Empilhe os Cinturões e o Míssil ASM, que também crescem com o tamanho do golpe."
     },
     {
-      "pt": "Ukulele",
-      "en": "Ukulele",
-      "text": "Gancho ou Brutamontes para grupos; sem nenhum, troque a Primária 2 pelo Lançador de Sucata."
+      "pt": "Mocha",
+      "en": "Mocha",
+      "text": "Casco de Bode de Paul para movimento e uma ou duas Seringas Militares para ataque."
     },
     {
-      "pt": "Semente Sanguessuga",
-      "en": "Leeching Seed",
-      "text": "Foice do Ceifador com Óculos, e Placa da Armadura para levar menos dano."
+      "pt": "Pluma de Hopoo",
+      "en": "Hopoo Feather",
+      "text": "Casco de Bode de Paul e Mocha, e o Modo de Transporte para cruzar distâncias no chão."
     },
     {
-      "pt": "Gancho de Carnes Senciente",
-      "en": "Sentient Meat Hook",
-      "text": "Brutamontes Reluzente, Justiça Destruidora para chefes e mais Mísseis."
-    },
-    {
-      "pt": "Opus de Gorag",
-      "en": "Gorag's Opus",
-      "text": "Cubo Primordial para juntar o grupo ou Capacitor Régio para alvos longe."
+      "pt": "Capacitor Régio",
+      "en": "Royal Capacitor",
+      "text": "Opus de Gorag com Chifre da Guerra, ou dois utilitários: Cartão Executivo e Reciclador."
     }
   ],
-  "summary": "Pistola de Pregos nas duas primárias, Filtro Explosivo, Modo de Transporte e Modo de Força. Ligue o Modo de Força perto do grupo e deixe 24 pregos por segundo ativarem Míssil, Ukulele e Gancho. Nos verdes, acumule Mísseis. Empilhe Seringa e Óculos, cure por acerto com Semente e Foice e use o Filtro para atordoar. Saia do Modo de Força para se mover.",
+  "summary": "Perfurador de Barra nas duas primárias, Filtro Explosivo, Modo de Transporte e Reequipar. Segure o tiro e aperte Reequipar depois de cada barra; a barra de 600% passa dos 400% que ativam os Cinturões, e o Pé de Cabra aumenta a primeira em cada inimigo. Leve o Capacitor Régio e um utilitário, junte Mocha, Casco e Pluma para se mover e use o Transporte antes de cair. Se preferir lutar colado, troque para duas Pistolas de Pregos com Modo de Força e empilhe velocidade de ataque.",
   "checklist": [
     {
       "title": "Sempre pegue",
-      "text": "Seringa Militar, Óculos, Míssil ASM, Ukulele, Semente Sanguessuga, Gancho de Carnes."
+      "text": "Cinturões de Kjaro e de Runald, Pé de Cabra, Mocha e Pluma de Hopoo."
     },
     {
-      "title": "Impressoras brancas",
-      "text": "Seringa Militar até umas 6, depois Óculos e Cristal de Foco."
+      "title": "Equipamentos",
+      "text": "Capacitor Régio e, no segundo espaço, Cartão Executivo ou Reciclador."
     },
     {
-      "title": "Primeiro verde",
-      "text": "Míssil ASM, e continue acumulando. Depois Semente Sanguessuga e Ukulele."
+      "title": "Truque do Reequipar",
+      "text": "Segure a primária e aperte Reequipar depois de cada barra."
     },
     {
-      "title": "Equipamento",
-      "text": "Opus de Gorag. Capacitor Régio se os voadores ficarem fora do alcance."
+      "title": "Queda",
+      "text": "Ative o Modo de Transporte antes de pousar de uma queda alta."
     },
     {
-      "title": "Sem Modo de Força",
-      "text": "Use Reequipar com Pistola e Perfurador de Barra, e leve dois equipamentos."
+      "title": "Sem sangramento",
+      "text": "Deixe a Adaga Triangular de lado: ela tira o alvo de cima de 90% e corta o Pé de Cabra."
     },
     {
       "title": "Antes de pegar Vazio",
-      "text": "Camarão corrompe os Mísseis ASM, Polialaúde os Ukuleles, Lentes do Profeta os Óculos."
+      "text": "Faixa da Singularidade corrompe os Cinturões, Célula Lisada as Células de Combustível, Lentes do Profeta os Óculos."
     },
     {
-      "title": "Luta de chefe",
-      "text": "Opus e Filtro, depois Modo de Força colado no chefe. Saia para recuperar as cargas do Filtro e use o Transporte para sair dos golpes grandes."
+      "title": "Variante com Pregos",
+      "text": "Com o Modo de Força, priorize Seringa, Mocha, Adaga, Camarão de Plasma e Cristal de Foco."
     }
   ],
   "sources": [
     {
+      "title": "How To Play MUL-T, Character Guide 2026 (TrentoMento)",
+      "url": "https://www.youtube.com/watch?v=ZKzQxqBuBlc",
+      "kind": "video",
+      "date": "2026-08-27"
+    },
+    {
+      "title": "The Definitive RoR2 Survivor Tier List (2026) (EchoTM)",
+      "url": "https://www.youtube.com/watch?v=JJNOXNWky6U",
+      "kind": "video",
+      "date": "2026-02-27"
+    },
+    {
+      "title": "Best Loadouts for Every Survivor (rndThursday)",
+      "url": "https://www.youtube.com/watch?v=c7yq7nPgKXA",
+      "kind": "video",
+      "date": "2024-12-09"
+    },
+    {
+      "title": "Eclipse Guide [Updated for SotS DLC] (Cecil188), seção MUL-T",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2590199556",
+      "kind": "guide",
+      "date": "2025-06-08"
+    },
+    {
+      "title": "This is the Easiest Mul-T Build for an Eclipse Climb! (Deltsong)",
+      "url": "https://www.youtube.com/watch?v=NbH_f6RsQzg",
+      "kind": "video",
+      "date": "2025-09-08"
+    },
+    {
+      "title": "How To Play MUL-T (QuattroTheHuman)",
+      "url": "https://www.youtube.com/watch?v=LttZ-gJwPng",
+      "kind": "video",
+      "date": "2024-06-28"
+    },
+    {
+      "title": "MUL-T eclipse 8 win (Tips and tricks) (Race)",
+      "url": "https://www.youtube.com/watch?v=v-GYlH_pR-U",
+      "kind": "video",
+      "date": "2022-01-13"
+    },
+    {
+      "title": "MUL-T Nail Boosting (Eclipse 8 Gameplay/Tips) (Race)",
+      "url": "https://www.youtube.com/watch?v=t6U5riRbGpY",
+      "kind": "video",
+      "date": "2022-02-21"
+    },
+    {
+      "title": "Ranking Every Void Item (2026) (EchoTM)",
+      "url": "https://www.youtube.com/watch?v=EUxt9IVzemE",
+      "kind": "video",
+      "date": "2026-09-17"
+    },
+    {
       "title": "MUL-T · Risk of Rain 2 Wiki",
       "url": "https://riskofrain2.wiki.gg/wiki/MUL-T",
+      "kind": "wiki"
+    },
+    {
+      "title": "Kjaro's Band · Risk of Rain 2 Wiki",
+      "url": "https://riskofrain2.wiki.gg/wiki/Kjaro%27s_Band",
+      "kind": "wiki"
+    },
+    {
+      "title": "Oddly-shaped Opal · Risk of Rain 2 Wiki",
+      "url": "https://riskofrain2.wiki.gg/wiki/Oddly-shaped_Opal",
+      "kind": "wiki"
+    },
+    {
+      "title": "H3AD-5T v2 · Risk of Rain 2 Wiki (dano de queda)",
+      "url": "https://riskofrain2.wiki.gg/wiki/H3AD-5T_v2",
       "kind": "wiki"
     },
     {
@@ -652,231 +753,213 @@
       "kind": "wiki"
     },
     {
-      "title": "MUL-T Risk of Rain 2 · Rogue Ranker",
-      "url": "https://rogueranker.com/mul-t-risk-of-rain-2/",
-      "kind": "guide"
+      "title": "Notas de atualização oficiais: Alloyed Collective, Patch 1.4.1 e Hallowed Concepts",
+      "url": "https://store.steampowered.com/news/app/632360",
+      "kind": "patch",
+      "date": "2026-10-08"
     }
   ],
+  "reviewed": "2026-10-13",
   "notes": [
-    "Modo de Força, Lançador de Sucata e Serra Elétrica precisam ser desbloqueados pelos desafios MUL-T: Seventh Day, Pest Control e Gotcha!. Sem o Modo de Força, use Reequipar com Pistola de Pregos e Perfurador de Barra.",
-    "A wiki não diz se a velocidade de ataque muda a rajada final da Pistola de Pregos nem se o Modo de Força altera o uso de equipamentos; o guia não afirma nada sobre isso.",
+    "Duas builds são aceitas pelos jogadores: Perfurador de Barra duplo com Reequipar e Pistola de Pregos dupla com Modo de Força. A maioria dos guias de Eclipse chama a primeira de mais forte ou mais fácil; a página recomenda ela e trata a outra como variante. Serra Elétrica e Lançador de Sucata são vistos como fracos ou só divertidos.",
+    "Velocidade de ataque no truque do Reequipar: a wiki diz que segurar a primária e apertar Reequipar ignora a recarga do Perfurador, então o ataque não escala com velocidade de ataque. Vários guias dizem que 1 ou 2 itens de velocidade de ataque aceleram bastante o truque. Não confirmado.",
+    "Pela wiki, a passiva que carregava dois equipamentos foi incorporada ao Reequipar. Com o Modo de Força, conte com um equipamento só.",
+    "O Acoplador Funcional (Functional Coupler, DLC Alloyed Collective) dá um espaço de equipamento extra a qualquer sobrevivente, o que reduz a vantagem única do Reequipar. O Hallowed Concepts corrigiu um bug entre o Reequipar e o Acoplador; a wiki ainda descreve um bug em que o equipamento pego some quando o espaço ativo está ocupado (ele vai para o espaço extra).",
+    "Um guia diz que correr tira o MUL-T do Modo de Força, por isso a Bebida Energética fica por último na variante. A wiki não confirma. O mesmo guia diz que o Fungo Vibrante (Bustling Fungus) não combina com o Modo de Força; fonte única.",
+    "Óculos do Fabricante de Lentes: jogadores divididos. Um jogador de Eclipse empilha crítico nas barras; outro prefere velocidade; os dois guias mais recentes não citam crítico.",
+    "Modo de Força, Lançador de Sucata e Serra Elétrica precisam ser desbloqueados pelos desafios MUL-T: Seventh Day, Pest Control e Gotcha!. O Reequipar e o Perfurador de Barra já vêm liberados.",
     "A wiki trata a segunda primária do Modo de Força como habilidade Secundária, o que sugere que o Filtro Explosivo fica indisponível nesse modo. Não está confirmado.",
-    "O nome em inglês da passiva (Multifunctional) vem das notas de atualização citadas pela wiki."
+    "Os guias põem o Cartão Executivo ou o Reciclador no segundo espaço do Reequipar. A wiki não diz se o efeito passivo do Cartão vale com ele no espaço inativo.",
+    "O Hallowed Concepts (outubro de 2026) trouxe só uma skin e a correção do Reequipar para o MUL-T; não há habilidade nova."
   ],
   "command": {
-    "intro": "Com a Autoridade, comece por Seringas e Óculos nos brancos e concentre os verdes em Mísseis ASM, com Ukulele em segundo. No Modo de Força são 24 pregos por segundo rolando itens ao acertar, então cada item de chance compensa o coeficiente 0,6 pelo volume.",
+    "intro": "Com a Autoridade, comece por Pé de Cabra e Mocha nos brancos e concentre os verdes nos dois Cinturões, com a Pluma cedo. Cada barra passa dos 400% que ativam os Cinturões, então cada cópia deles soma dano direto.",
     "tiers": [
       {
         "tier": "common",
         "steps": [
           {
+            "en": "Crowbar",
+            "n": 2,
+            "why": "+150% na primeira barra em cada inimigo da fila."
+          },
+          {
+            "en": "Mocha",
+            "n": 2,
+            "why": "Movimento e um pouco de ataque para o MUL-T, que acelera devagar."
+          },
+          {
             "en": "Soldier's Syringe",
-            "n": 2,
-            "why": "Mais pregos por segundo nas duas pistolas logo no primeiro baú."
+            "n": 1,
+            "why": "Os jogadores dizem que uma já acelera o truque do Reequipar."
           },
           {
-            "en": "Lens-Maker's Glasses",
-            "n": 2,
-            "why": "Dano extra constante e base para a Foice e os Instintos."
+            "en": "Backup Magazine",
+            "n": 1,
+            "why": "Mais um Filtro Explosivo para atordoar."
           },
           {
-            "en": "Tri-Tip Dagger",
+            "en": "Oddly-shaped Opal",
+            "n": 1,
+            "why": "Armadura alta entre as lutas, que os guias de Eclipse citam."
+          },
+          {
+            "en": "Crowbar",
             "n": 2,
-            "why": "Muitos pregos compensam a chance reduzida pelo coeficiente."
+            "why": "Quatro Pés de Cabra: +300% contra inimigos acima de 90%."
+          },
+          {
+            "en": "Paul's Goat Hoof",
+            "n": 2,
+            "why": "Mais velocidade e mais dano no Transporte."
           },
           {
             "en": "Repulsion Armor Plate",
             "n": 2,
-            "why": "Você luta colado e leva muitos golpes pequenos."
+            "why": "Corta os golpes pequenos."
+          },
+          {
+            "en": "Mocha",
+            "n": 2,
+            "why": "Quatro Mochas."
           },
           {
             "en": "Soldier's Syringe",
-            "n": 2,
-            "why": "Quatro Seringas: o mínimo da build."
-          },
-          {
-            "en": "Lens-Maker's Glasses",
-            "n": 2,
-            "why": "Quatro Óculos para os críticos virarem cura com a Foice."
-          },
-          {
-            "en": "Focus Crystal",
-            "n": 2,
-            "why": "Os pregos já pedem distância curta, e o Cristal recompensa isso."
-          },
-          {
-            "en": "Soldier's Syringe",
-            "n": 2,
-            "why": "Seis Seringas: ainda mais rolagens por segundo."
-          },
-          {
-            "en": "Lens-Maker's Glasses",
-            "n": 2,
-            "why": "Sexto Óculos, o limite da build."
-          },
-          {
-            "en": "Armor-Piercing Rounds",
-            "n": 2,
-            "why": "Mais dano por prego colado no chefe."
-          },
-          {
-            "en": "Tri-Tip Dagger",
             "n": 1,
-            "why": "Terceira Adaga."
+            "why": "Segunda Seringa; mais rende pouco no truque."
           },
           {
-            "en": "Repulsion Armor Plate",
-            "n": 1,
-            "why": "Terceira Placa contra golpes pequenos."
+            "en": "Crowbar",
+            "n": 2,
+            "why": "Seis Pés de Cabra."
           }
         ],
-        "then": "Depois: Seringa até 8 e Adaga e Cristal até 4. Pente Reserva rende pouco no Modo de Força. Pé de Cabra só na variante com Perfurador de Barra."
+        "then": "Depois: Pé de Cabra, Mocha e Casco. Sem Adaga Triangular. Na variante com Pregos, troque por Seringa, Adaga e Cristal de Foco."
       },
       {
         "tier": "uncommon",
         "steps": [
           {
-            "en": "AtG Missile Mk. 1",
+            "en": "Kjaro's Band",
             "n": 1,
-            "why": "Com 24 pregos por segundo, os mísseis saem o tempo todo: 300% cada."
+            "why": "Cada barra passa dos 400% e solta o tornado."
           },
           {
-            "en": "Leeching Seed",
+            "en": "Runald's Band",
             "n": 1,
-            "why": "Cura a cada prego, sem depender de crítico. Uma basta para começar."
+            "why": "Dispara junto com o Kjaro e deixa o alvo lento."
           },
           {
-            "en": "AtG Missile Mk. 1",
-            "n": 2,
-            "why": "Três Mísseis: 900% por míssil, com a mesma chance de disparo."
-          },
-          {
-            "en": "Ukulele",
+            "en": "Hopoo Feather",
             "n": 1,
-            "why": "Espalha o dano dos pregos para até 3 inimigos em volta."
+            "why": "Mobilidade vertical, que o MUL-T não tem."
           },
           {
-            "en": "AtG Missile Mk. 1",
-            "n": 2,
-            "why": "Cinco Mísseis: 1500% por míssil."
-          },
-          {
-            "en": "Harvester's Scythe",
+            "en": "Kjaro's Band",
             "n": 1,
-            "why": "Com os Óculos, os críticos dos pregos viram cura. Uma basta: o crítico de 5% vem só da primeira."
+            "why": "600% por tornado."
           },
           {
-            "en": "Ukulele",
-            "n": 2,
-            "why": "Três Ukuleles: até 7 alvos e 24 m de alcance. O dano por alvo não muda."
-          },
-          {
-            "en": "Leeching Seed",
+            "en": "Runald's Band",
             "n": 1,
-            "why": "Segunda Semente: 2 de vida por prego."
+            "why": "500% por explosão de gelo."
           },
           {
-            "en": "AtG Missile Mk. 1",
+            "en": "Fuel Cell",
             "n": 1,
-            "why": "Sexto Míssil: 1800% por míssil."
+            "why": "Mais cargas e recarga menor para os dois equipamentos do Reequipar."
+          },
+          {
+            "en": "Kjaro's Band",
+            "n": 1,
+            "why": "Três Cinturões de Kjaro."
+          },
+          {
+            "en": "Runald's Band",
+            "n": 1,
+            "why": "Três Cinturões de Runald."
+          },
+          {
+            "en": "Hopoo Feather",
+            "n": 1,
+            "why": "Segundo salto extra."
+          },
+          {
+            "en": "Kjaro's Band",
+            "n": 1,
+            "why": "Quatro Cinturões de Kjaro: 1.200% por tornado."
+          },
+          {
+            "en": "Runald's Band",
+            "n": 1,
+            "why": "Quatro Cinturões de Runald: 1.000% por explosão."
+          },
+          {
+            "en": "Fuel Cell",
+            "n": 1,
+            "why": "Segunda Célula."
           }
         ],
-        "then": "Depois: continue acumulando Mísseis e leve o Ukulele até 4. Instintos Predatórios só com muitos Óculos. Com Reequipar no lugar do Modo de Força, Chifre da Guerra e Célula de Combustível sobem na ordem."
+        "then": "Depois: continue alternando os dois Cinturões. Um Míssil ASM ou um Chifre da Guerra entram bem."
       },
       {
         "tier": "legendary",
         "steps": [
           {
-            "en": "Sentient Meat Hook",
-            "n": 1,
-            "why": "Rola em cada prego e acerta até 10 inimigos: o dano em grupo que falta."
-          },
-          {
             "en": "Brilliant Behemoth",
             "n": 1,
-            "why": "Cada prego explode, mesmo com o raio menor pelo coeficiente 0,6."
+            "why": "Cada barra explode com raio cheio (coeficiente 1,0)."
           },
           {
-            "en": "Shattering Justice",
+            "en": "H3AD-5T v2",
             "n": 1,
-            "why": "Cinco acertos saem em menos de meio segundo e o efeito dura a luta de chefe."
-          },
-          {
-            "en": "Sentient Meat Hook",
-            "n": 1,
-            "why": "Mais chance e mais alvos para o Gancho."
-          },
-          {
-            "en": "57 Leaf Clover",
-            "n": 1,
-            "why": "Compensa o coeficiente baixo em todos os itens de chance."
+            "why": "Anula todo o dano de queda."
           }
         ],
-        "then": "Depois: o segundo Brutamontes, Suporte do Rejuvenescimento com Semente e Foice, e Escorpião Simbiótico."
-      },
-      {
-        "tier": "boss",
-        "steps": [
-          {
-            "en": "Charged Perforator",
-            "n": 1,
-            "why": "Mais um efeito de chance para os pregos rolarem várias vezes por segundo."
-          }
-        ],
-        "then": "Itens de chefe vêm do chefe do teleporte. A Pérola Irradiante não entra: com a Autoridade ela só sairia da poça de purificação, que não aparece."
+        "then": "Depois: o segundo Brutamontes. Gancho de Carnes Senciente só na variante com Pregos."
       },
       {
         "tier": "equipment",
         "steps": [
           {
-            "en": "Gorag's Opus",
-            "n": 1,
-            "why": "Escolha este primeiro: dobra a cadência das duas pistolas."
-          },
-          {
-            "en": "Primordial Cube",
-            "n": 1,
-            "why": "Junta o grupo dentro do alcance curto dos pregos."
-          },
-          {
             "en": "Royal Capacitor",
             "n": 1,
-            "why": "Alcance que os pregos não têm, contra voadores e elites longe."
+            "why": "3.000% em um alvo e atordoamento, o primeiro equipamento do Reequipar."
           },
           {
-            "en": "Jade Elephant",
+            "en": "Gorag's Opus",
             "n": 1,
-            "why": "Armadura para os golpes que a lentidão do Modo de Força não deixa desviar."
+            "why": "Segundo espaço: com a Autoridade não há terminais multiloja para o Cartão Executivo, e você já escolhe cada item."
           }
         ],
-        "then": "No Modo de Força, conte com um equipamento só. Ovo Vulcânico só com a Serra Elétrica."
+        "then": "Com dois equipamentos, a Célula de Combustível e o Chifre da Guerra rendem mais."
       },
       {
         "tier": "lunar",
         "steps": [
           {
-            "en": "Shaped Glass",
+            "en": "Transcendence",
             "n": 1,
-            "why": "Se a cápsula der escolha: dobra todos os pregos, e o MUL-T tem vida e armadura para pagar a metade."
+            "why": "Se a cápsula der escolha: os guias de Eclipse a citam pela vida alta do MUL-T."
           }
         ],
-        "then": "A wiki não confirma escolha nas cápsulas lunares com a Autoridade. Nunca pegue Ombreira do Fluxo Iluminado: corta metade dos pregos. Pureza só com o Lançador de Sucata."
+        "then": "A wiki não confirma escolha nas cápsulas lunares com a Autoridade. Nunca pegue Ombreira do Fluxo Iluminado."
       },
       {
         "tier": "void",
         "steps": [
           {
-            "en": "Needletick",
+            "en": "Safer Spaces",
             "n": 1,
-            "why": "Em um berço branco, só se aceitar a troca: rola em cada prego, mas corrompe todas as suas Adagas Triangulares."
+            "why": "Em um berço branco: bloqueia um golpe a cada 13,5 s."
           },
           {
-            "en": "Plasma Shrimp",
+            "en": "Polylute",
             "n": 1,
-            "why": "Em um berço verde, só se aceitar a troca: corrompe todos os seus Mísseis ASM."
+            "why": "Em um berço verde: só corrompe Ukuleles, que esta ordem não pega."
           }
         ],
-        "then": "Todo item do Vazio desta build corrompe uma peça dela, então o berço é opcional. Nunca escolha Lentes do Profeta Perdido, que corrompe todos os Óculos, nem Polialaúde, que corrompe os Ukuleles."
+        "then": "Nunca escolha Faixa da Singularidade, que corrompe todos os Cinturões. Célula Lisada corrompe as Células de Combustível."
       }
     ]
   }
