@@ -1,4 +1,4 @@
-# Design system — Logbook
+# Design system: Logbook
 
 > Status: **v0.2, being refined.** The tokens below are already in `src/styles.css`. The layout will still change;
 > the "what not to do" rules apply from now on.
@@ -78,13 +78,13 @@ Source of truth: `src/styles.css` (`@theme`). Each token becomes a Tailwind util
 
 | Token | Hex | Rarity (pt-BR label) |
 | --- | --- | --- |
-| `tier-common` | `#C9CED3` | Common — Comum (white) |
-| `tier-uncommon` | `#7BC86C` | Uncommon — Incomum (green) |
-| `tier-legendary` | `#E5534B` | Legendary — Lendário (red) |
-| `tier-boss` | `#E3C24A` | Boss — Chefe (yellow) |
-| `tier-equipment` | `#F0913A` | Equipment — Equipamento (orange) |
-| `tier-lunar` | `#5AA9E6` | Lunar — Lunar (blue) |
-| `tier-void` | `#B678E0` | Void — Vazio (purple) |
+| `tier-common` | `#C9CED3` | Common / Comum (white) |
+| `tier-uncommon` | `#7BC86C` | Uncommon / Incomum (green) |
+| `tier-legendary` | `#E5534B` | Legendary / Lendário (red) |
+| `tier-boss` | `#E3C24A` | Boss / Chefe (yellow) |
+| `tier-equipment` | `#F0913A` | Equipment / Equipamento (orange) |
+| `tier-lunar` | `#5AA9E6` | Lunar / Lunar (blue) |
+| `tier-void` | `#B678E0` | Void / Vazio (purple) |
 
 Rarity is never conveyed by color alone: the rarity name appears in the detail panel and in the tabs.
 
@@ -96,7 +96,7 @@ Rarity is never conveyed by color alone: the rarity name appears in the detail p
 | `rounded-control` | 6px | rail links, inner fields |
 | `rounded-card` | 8px | cards, item tiles, search |
 | `rounded-panel` | 12px | main panels (core, detail, run mode) |
-| `rounded-full` | — | filter chips, rotation numbers |
+| `rounded-full` | full | filter chips, rotation numbers |
 
 ## 4. Typography
 

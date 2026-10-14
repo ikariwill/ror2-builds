@@ -1,4 +1,4 @@
-# Logbook de Builds — Risk of Rain 2
+# Logbook de Builds · Risk of Rain 2
 
 One recommended build for each Risk of Rain 2 survivor, written in Brazilian Portuguese: loadout, items by rarity
 with priority and quantity, synergies with the kit, fallbacks and a checklist to use during the run.

@@ -1,4 +1,4 @@
-# 0001 — Stack: Vite, React, TypeScript and Tailwind v4
+# 0001: Stack: Vite, React, TypeScript and Tailwind v4
 
 - **Date:** 2026-10-13
 - **Status:** accepted

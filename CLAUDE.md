@@ -1,4 +1,4 @@
-# ror2-builds — Logbook de Builds
+# ror2-builds: Logbook de Builds
 
 Static site with one recommended build per Risk of Rain 2 survivor, written in Brazilian Portuguese.
 For people who play regular runs and want to know what to pick, how many and why.
@@ -36,7 +36,7 @@ src/
   components/palette.tsx  Ctrl+K palette: survivors and items across every build
   views/Desktop.tsx       layout ≥ 761px: survivor rail (≥ 1180px) | content | sticky detail panel; run mode route
   views/Mobile.tsx        layout ≤ 760px: Build/Itens/Partida tabs + detail sheet
-  styles.css              design system tokens (@theme) — source of truth for colors and type
+  styles.css              design system tokens (@theme), the source of truth for colors and type
 public/icons/<slug>.webp  original item icons (see docs/data.md › Sources)
 scripts/                  format-builds.mjs and validate-builds.mjs
 docs/                     project documentation (start at docs/README.md)
@@ -61,7 +61,7 @@ docs/                     project documentation (start at docs/README.md)
   game's language file (docs/data.md). No official translation: use the English name in both fields.
 - Recommend an item because of the survivor's kit (proc coefficient, cooldowns, charges, melee vs. ranged),
   never just because "it is good in general". A Void item that corrupts another recommended item: say so.
-- Writing: natural Brazilian Portuguese, short and direct sentences. No em dash (the "—" character) anywhere,
+- Writing: natural Brazilian Portuguese, short and direct sentences. No em dash (U+2014) anywhere,
   no "não é X, é Y", no filler.
 - Changed build data? Run `npm run validate` and update `docs/data.md` if the format changed.
 

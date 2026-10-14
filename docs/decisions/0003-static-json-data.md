@@ -1,4 +1,4 @@
-# 0003 — Static JSON data, one file per survivor
+# 0003: Static JSON data, one file per survivor
 
 - **Date:** 2026-10-13
 - **Status:** accepted

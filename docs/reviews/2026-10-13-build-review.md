@@ -1,4 +1,4 @@
-# Build review — 2026-10-13
+# Build review, 2026-10-13
 
 Full review of the 21 builds, done by independent reviewers (not the authors), plus an automated check.
 

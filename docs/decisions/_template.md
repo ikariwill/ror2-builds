@@ -1,4 +1,4 @@
-# NNNN — Short decision title
+# NNNN: Short decision title
 
 - **Date:** YYYY-MM-DD
 - **Status:** proposed | accepted | superseded by NNNN

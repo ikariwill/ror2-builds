@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 /*
-  Logbook — design system tokens.
+  Logbook: design system tokens.
   Source of truth: docs/design-system.md. Changed a token here? Update the doc in the same commit.
   Rule: components use ONLY these tokens (bg-panel, text-ink-2, border-line…). No loose colors
   such as bg-slate-800 or text-[#abc] in JSX.
@@ -56,7 +56,7 @@
   --font-sans: "IBM Plex Sans", system-ui, sans-serif;
   --font-mono: "IBM Plex Mono", ui-monospace, monospace;
 
-  --text-label: 0.6875rem;   /* 11px — uppercase mono labels */
+  --text-label: 0.6875rem;   /* 11px, uppercase mono labels */
   --text-label--letter-spacing: 0.08em;
   --text-meta: 0.8125rem;    /* 13px */
   --text-body: 0.9375rem;    /* 15px */

@@ -1,4 +1,4 @@
-# 0002 — Single dark theme
+# 0002: Single dark theme
 
 - **Date:** 2026-10-13
 - **Status:** accepted
