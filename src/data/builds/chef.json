@@ -2,9 +2,9 @@
   "id": "chef",
   "name_pt": "CHEF",
   "name_en": "CHEF",
-  "title": "CHEF: Build de Óleo e Fogo",
-  "tagline": "Óleo, fogo e comida que cura",
-  "lede": "Uma build de combo para jogar normalmente e chegar longe: cobrir os inimigos de óleo com o Cristalizar e incendiá-los com o Chamuscar, que quadruplica o dano de Queimadura. Os itens aumentam o fogo e os efeitos ao acertar dos cutelos. Matar com duas habilidades diferentes faz o inimigo soltar comida que cura, então a própria rotação mantém você de pé.",
+  "title": "CHEF: Build de Gelo e Execução",
+  "tagline": "Óleo, gelo e execução abaixo de 30%",
+  "lede": "A build que os jogadores usam desde o rework do Update 1.3.8: Refrigerador, Maré de Óleo e Sim, CHEF!. Inimigos com Óleo congelam ao sofrer Gelo, e inimigos congelados abaixo de 30% de vida morrem na hora. Os itens somam dano em área no começo, efeitos ao acertar para os cutelos carregados, mobilidade e defesa contra golpes pequenos e quedas.",
   "loadout": [
     {
       "slot": "Passiva",
@@ -16,15 +16,15 @@
     },
     {
       "slot": "Secundária",
-      "skill": "Chamuscar (Sear)"
+      "skill": "Refrigerador (Ice Box)"
     },
     {
       "slot": "Utilitária",
-      "skill": "Rolar (Roll)"
+      "skill": "Maré de Óleo (Oil Spill)"
     },
     {
       "slot": "Especial",
-      "skill": "Cristalizar (Glaze)"
+      "skill": "Sim, CHEF! (Yes, CHEF!)"
     }
   ],
   "skills": [
@@ -34,7 +34,7 @@
       "en": "CHEF's Kiss",
       "pick": "Fixa",
       "spec": "Abater um inimigo com 2 ou mais buffs de habilidades do CHEF o cozinha e solta uma refeição que cura. Mínimo de 8% da vida máxima + 4; cada buff único soma 4% + 2.",
-      "why": "É a principal cura do CHEF. Acerte o mesmo inimigo com duas habilidades diferentes (por exemplo, Picar e Chamuscar) antes de matar. A cura usa a vida máxima de quem pega a refeição. A wiki avisa que esses buffs não contam para a Marca Fatal."
+      "why": "É a principal cura do CHEF. Acerte o mesmo inimigo com duas habilidades diferentes (por exemplo, Picar e Refrigerador) antes de matar. A cura usa a vida máxima de quem pega a refeição. A wiki avisa que esses buffs de cozinha não contam para a Marca Fatal."
     },
     {
       "slot": "Primária",
@@ -42,39 +42,55 @@
       "en": "Dice",
       "pick": "Única opção",
       "spec": "Perfurante, Rápido (recarrega mais rápido com velocidade de ataque). Cutelo de 200% até 55 m. 3 cargas, que voltam quando o cutelo retorna. Segurar deixa os cutelos parados no ar (40% a cada 0,4 s); 0,5 s de carga dobra o dano da volta. Coeficiente 1,0 (1,5 carregado).",
-      "why": "Acerta na ida e na volta e atravessa todos os inimigos no caminho, então ativa muitos itens ao acertar em grupos alinhados. Com Sim, CHEF! (Yes, CHEF!) o próximo Picar arremessa 16 cutelos de 400% em todas as direções, coeficiente 2,25."
+      "why": "Segure cerca de 0,5 s antes de recuperar: a volta causa o dobro de dano com coeficiente 1,5, o que ativa muito mais itens ao acertar. Com Sim, CHEF!, o próximo Picar arremessa 16 cutelos de 400% em todas as direções, coeficiente 2,25. Jogadores usam esse Picar reforçado embaixo do chefe para dano rápido."
     },
     {
       "slot": "Secundária",
-      "pt": "Chamuscar",
-      "en": "Sear",
+      "pt": "Refrigerador",
+      "en": "Ice Box",
       "pick": "Recomendada",
-      "spec": "Incendiário, Ágil. Feixe perfurante de 600% com alcance de 30 m. Recarga 6 s, coeficiente 1,0.",
-      "why": "Incendiário queima o alvo por +50% do dano total ao longo do tempo. Em inimigos cobertos de Óleo, a Queimadura causa o quádruplo. O reforço lança 3 bolas de fogo de 700% e deixa poças de óleo incandescente que queimam duas vezes mais rápido."
+      "spec": "Gelo, Ágil. 3 cubos de 150%. 2 cargas, recarga 5 s, coeficiente 1,0 por cubo. Gelo desacelera; com 6 acúmulos, todos são consumidos e o alvo congela. Inimigos congelados abaixo de 30% de vida morrem na hora.",
+      "why": "A escolha da grande maioria dos jogadores depois do rework, pela execução por congelamento. Em inimigos com Óleo, o Gelo congela na hora. O reforço lança 1 cubo de 1.500% que congela na hora os inimigos em 15 m; chefes não congelam, exceto o Devastador do Vazio. Desbloqueio: desafio It's Getting Hot In Here!."
     },
     {
       "slot": "Secundária (alt.)",
-      "pt": "Refrigerador",
-      "en": "Ice Box",
+      "pt": "Chamuscar",
+      "en": "Sear",
       "pick": "Variante",
-      "spec": "Gelo, Ágil. 3 cubos de 150%. 2 cargas, recarga 5 s, coeficiente 1,0 por cubo.",
-      "why": "Gelo em inimigos com Óleo congela na hora, e inimigos congelados abaixo de 30% de vida morrem. O reforço lança 1 cubo de 1.500% que congela tudo em 15 m (não congela chefes, exceto o Devastador do Vazio). Bom contra grupos, pior contra chefes. Desbloqueio: desafio It's Getting Hot In Here!."
+      "spec": "Gelo, Ágil. 3 cubos de 150%. 2 cargas, recarga 5 s, coeficiente 1,0 por cubo. Gelo desacelera; com 6 acúmulos, todos são consumidos e o alvo congela. Inimigos congelados abaixo de 30% de vida morrem na hora.",
+      "why": "A variante de fogo. Uma minoria prefere para limpar grupos, sempre com Tanque de Ignição. Em inimigos com Óleo, a Queimadura causa o quádruplo. O reforço lança 3 bolas de fogo de 700% que deixam poças de óleo incandescente. Guias de Eclipse a consideram mais fraca que o Refrigerador mesmo com Tanque."
     },
     {
       "slot": "Utilitária",
+      "pt": "Maré de Óleo",
+      "en": "Oil Spill",
+      "pick": "Recomendada",
+      "spec": "Óleo, Ágil. Gira para cima e desce com impacto de 200%, explodindo em Óleo. Pode ser reativada antes de tocar o chão, até 4 vezes no total. Recarga 10 s. Coeficiente 1,0 no impacto, 0,1 nas poças de óleo.",
+      "why": "Os jogadores se dividem meio a meio com o Rolar. Ela cobre o grupo de Óleo, e a wiki diz que inimigos com Óleo congelam na hora ao sofrer Gelo: o primeiro cubo do Refrigerador já congela. Os saltos repetidos dão altura sem o super salto do Rolar, que expõe o CHEF a dano de queda. O reforço não compensa, dizem os jogadores. Desbloqueio: desafio You've Always Been Crazy."
+    },
+    {
+      "slot": "Utilitária (alt.)",
       "pt": "Rolar",
       "en": "Roll",
-      "pick": "Recomendada",
-      "spec": "Atordoante, Ágil. Avanço de 300% a 600% (carga de até 2 s). +200 de armadura enquanto rola. Recarga 8 s, coeficiente 1,0.",
-      "why": "O Chamuscar não alcança longe, e o Rolar leva você até o grupo com +200 de armadura e atordoamento. O reforço adiciona lâminas giratórias de 200% que aplicam Sangramento. A alternativa Maré de Óleo (Oil Spill, 200%, até 4 saltos, recarga 10 s) espalha óleo pelo chão; desbloqueio: desafio You've Always Been Crazy."
+      "pick": "Variante",
+      "spec": "Atordoante, Ágil. Avanço de 300% a 600% (3 níveis de carga em até 2 s). +200 de armadura enquanto rola. O primeiro salto durante o Rolar vai muito mais alto e pode ser feito no ar. Recarga 8 s, coeficiente 1,0.",
+      "why": "A outra metade dos jogadores prefere: mais mobilidade, +200 de armadura e atordoamento. No Eclipse, cuidado: a wiki avisa que o super salto deixa o CHEF exposto a dano de queda, e jogadores apontam a queda como a maior causa de morte do CHEF. Leve Pluma de Hopoo ou Espaços Seguros. Sim, CHEF! cancela o Rolar, e o Rolar reforçado é chamado de inútil."
     },
     {
       "slot": "Especial",
+      "pt": "Sim, CHEF!",
+      "en": "Yes, CHEF!",
+      "pick": "Recomendada",
+      "spec": "Ágil. Explosão de 400% que aplica Incendiário ou Gelo e reforça a próxima habilidade usada. Recarga 10 s, coeficiente 1,0. A habilidade reforçada volta ao normal quando esta ou outra habilidade reforçada é usada.",
+      "why": "O Update 1.3.8 baixou a recarga de 15 s para 10 s, e desde então é a escolha da maioria. Melhores usos: o cubo reforçado do Refrigerador contra grupos e voadores, e o Picar reforçado embaixo do chefe. Rolar e Maré de Óleo reforçados não valem o reforço. Desbloqueio: desafio Barbecued Bison Recipe Complete."
+    },
+    {
+      "slot": "Especial (alt.)",
       "pt": "Cristalizar",
       "en": "Glaze",
-      "pick": "Recomendada",
-      "spec": "7 bolas de óleo de 250%. Aplicam Óleo e Fraqueza (−30 de armadura, −40% de movimento e de dano). Recarga 12 s, coeficiente 1,0 cada.",
-      "why": "Sete acertos que deixam o grupo com Óleo, prontos para o Chamuscar quadruplicar a Queimadura. A alternativa Sim, CHEF! (400%, Incendiário ou Gelo) reforça a próxima habilidade; a wiki não lista a recarga dela."
+      "pick": "Variante",
+      "spec": "7 bolas de óleo de 250%. Aplicam Óleo e Fraqueza (−30 de armadura, −40% de movimento e de dano). Bolas que erram criam poças de óleo. Recarga 12 s, coeficiente 1,0 cada.",
+      "why": "Só na variante de fogo com Chamuscar: as 7 bolas cobrem o grupo de Óleo para a Queimadura quádrupla. Os guias que punham o Cristalizar acima de Sim, CHEF! são de antes do Update 1.3.8."
     }
   ],
   "sections": [
@@ -82,61 +98,115 @@
       "id": "common",
       "name": "Comum",
       "color": "white",
-      "intro": "O CHEF luta a média distância e acerta muito com os cutelos. Os brancos dão dano de perto, sobrevivência e fogo ao abater.",
+      "intro": "Os brancos dão dano em área no começo, mobilidade e defesa contra os golpes pequenos que matam o CHEF.",
       "items": [
+        {
+          "icon": "gasoline",
+          "pt": "Gasolina",
+          "en": "Gasoline",
+          "prio": 1,
+          "qty": "1 a 3",
+          "effect": "Abater um inimigo incendeia todos os inimigos a até 12 m (+4 m por acúmulo), causando 150% do dano base. Além disso, os inimigos queimam por 150% (+75% por acúmulo) do dano base.",
+          "why": "Jogadores de Eclipse usam para limpar ondas no começo, com gelo ou com fogo. Cada abate espalha fogo para o grupo ao redor. Perde força lá pelo estágio 4, então não passe de 3."
+        },
+        {
+          "icon": "pauls-goat-hoof",
+          "pt": "Casco de Bode de Paul",
+          "en": "Paul's Goat Hoof",
+          "prio": 1,
+          "qty": "1 a 3",
+          "effect": "Aumenta a velocidade de movimento em 14% (+14% por acúmulo).",
+          "why": "Velocidade de movimento aparece em quase toda run de CHEF dos jogadores. O CHEF luta a média distância e precisa se reposicionar entre as recargas."
+        },
+        {
+          "icon": "mocha",
+          "pt": "Mocha",
+          "en": "Mocha",
+          "prio": 2,
+          "qty": "1 a 3",
+          "effect": "Aumenta a velocidade de ataque em 7,5% (+7,5% por acúmulo) e a velocidade de movimento em 7% (+7% por acúmulo).",
+          "why": "Jogadores de Eclipse pegam pelo movimento e pela velocidade de ataque no mesmo item. O Picar é Rápido, então a velocidade de ataque também acelera os cutelos."
+        },
+        {
+          "icon": "repulsion-armor-plate",
+          "pt": "Placa da Armadura de Repulsão",
+          "en": "Repulsion Armor Plate",
+          "prio": 2,
+          "qty": "3 a 5",
+          "effect": "Reduz todo o dano recebido em 5 (+5 por acúmulo). O dano não pode ficar abaixo de 1.",
+          "why": "A defesa que os jogadores de Eclipse mais citam no CHEF, que tem pouca vida. Corta os golpes pequenos e frequentes enquanto você segura os cutelos."
+        },
+        {
+          "icon": "energy-drink",
+          "pt": "Bebida Energética",
+          "en": "Energy Drink",
+          "prio": 2,
+          "qty": "1 a 2",
+          "effect": "A velocidade de corrida aumenta em 25% (+25% por acúmulo).",
+          "why": "Outra fonte de velocidade que os jogadores pegam. O Refrigerador e a Maré de Óleo são Ágeis e podem ser usados correndo."
+        },
+        {
+          "icon": "sticky-bomb",
+          "pt": "Bomba Aderente",
+          "en": "Sticky Bomb",
+          "prio": 3,
+          "qty": "1 a 3",
+          "effect": "5% (+5% por acúmulo) de chance ao acertar de grudar uma bomba no inimigo, que detona causando 180% de dano TOTAL.",
+          "why": "Alguns jogadores pegam pelo coeficiente alto dos cutelos carregados. Parte desse argumento era do coeficiente inflado dos cutelos que voltavam sem carga, que o Alloyed Collective removeu."
+        },
+        {
+          "icon": "delicate-watch",
+          "pt": "Relógio Delicado",
+          "en": "Delicate Watch",
+          "prio": 3,
+          "qty": "1 a 3",
+          "effect": "Aumenta o dano em 20% (+20% por acúmulo). Sofrer dano que deixe a vida abaixo de 25% quebra este item.",
+          "why": "Dano puro que alguns jogadores usam no CHEF. Com pouca vida, ele quebra fácil: só vale com boa defesa."
+        },
+        {
+          "icon": "oddly-shaped-opal",
+          "pt": "Opala de Formato Estranho",
+          "en": "Oddly-shaped Opal",
+          "prio": 3,
+          "qty": "1 a 2",
+          "effect": "Aumenta a armadura em 100 (+100 por acúmulo) enquanto fora de perigo.",
+          "why": "Alguns jogadores usam como defesa contra o primeiro golpe de cada luta."
+        },
         {
           "icon": "focus-crystal",
           "pt": "Cristal de Foco",
           "en": "Focus Crystal",
-          "prio": 1,
-          "qty": "3 a 5",
+          "prio": 3,
+          "qty": "1 a 2",
           "effect": "+20% (+20% por acúmulo) de dano contra inimigos a até 13 m.",
-          "why": "Você precisa chegar perto para o Chamuscar e o Rolar. O Cristalizar também costuma sair de perto."
+          "why": "Bom item de dano, mas o CHEF luta a média distância: o Picar vai até 55 m. Nenhum jogador trata como essencial."
         },
         {
           "icon": "bison-steak",
           "pt": "Filé de Bisão",
           "en": "Bison Steak",
-          "prio": 2,
-          "qty": "2 a 4",
+          "prio": 3,
+          "qty": "1 a 3",
           "effect": "Aumenta a vida máxima em 25 (+25 por acúmulo).",
-          "why": "O CHEF tem só 110 de vida base e luta de perto. A refeição do Beijo do CHEF cura uma porcentagem da sua vida máxima, então mais vida também aumenta essa cura."
+          "why": "O CHEF tem só 110 de vida base, e a refeição do Beijo do CHEF cura uma porcentagem da vida máxima. Os jogadores preferem a Placa de Repulsão como defesa."
         },
         {
           "icon": "tougher-times",
           "pt": "Tempos Difíceis",
           "en": "Tougher Times",
-          "prio": 2,
-          "qty": "2 a 4",
-          "effect": "15% (+15% por acúmulo) de chance de bloquear dano recebido. Não é afetado por sorte.",
-          "why": "Fora do Rolar, o CHEF não tem armadura. Bloquear golpes ajuda enquanto você carrega cutelos ou espera recargas."
-        },
-        {
-          "icon": "gasoline",
-          "pt": "Gasolina",
-          "en": "Gasoline",
-          "prio": 2,
-          "qty": "1 a 3",
-          "effect": "Abater um inimigo incendeia todos os inimigos a até 12 m (+4 m por acúmulo), causando 150% do dano base. Além disso, os inimigos queimam por 150% (+75% por acúmulo) do dano base.",
-          "why": "O CHEF luta no meio de grupos, e cada abate espalha fogo para os vizinhos. Fica mais forte com o Tanque de Ignição."
-        },
-        {
-          "icon": "lens-makers-glasses",
-          "pt": "Óculos do Fabricante de Lentes",
-          "en": "Lens-Maker's Glasses",
           "prio": 3,
-          "qty": "2 a 4",
-          "effect": "10% (+10% por acúmulo) de chance de Acerto Crítico, que causa dano dobrado.",
-          "why": "Os golpes diretos de 600% do Chamuscar e de 250% do Cristalizar dobram com crítico. Também ativa a Foice do Ceifador."
+          "qty": "1 a 3",
+          "effect": "15% (+15% por acúmulo) de chance de bloquear dano recebido. Não é afetado por sorte.",
+          "why": "Defesa sem condição. Espaços Seguros (Safer Spaces), que alguns jogadores pegam, corrompe todos os Tempos Difíceis."
         },
         {
           "icon": "soldiers-syringe",
           "pt": "Seringa Militar",
           "en": "Soldier's Syringe",
           "prio": 3,
-          "qty": "2 a 4",
+          "qty": "1 a 3",
           "effect": "+15% (+15% por acúmulo) de velocidade de ataque.",
-          "why": "O Picar é Rápido: recarrega mais rápido com velocidade de ataque. Mais arremessos, mais acertos e mais ativações de itens."
+          "why": "O Picar é Rápido: recarrega mais rápido com velocidade de ataque. Mais arremessos e mais ativações de itens."
         },
         {
           "icon": "backup-magazine",
@@ -145,7 +215,16 @@
           "prio": 3,
           "qty": "1 a 3",
           "effect": "+1 (+1 por acúmulo) carga da habilidade Secundária.",
-          "why": "Dois Chamuscar seguidos depois do Cristalizar: o segundo pega quem o primeiro não incendiou."
+          "why": "Mais uma carga do Refrigerador: mais cubos para chegar aos 6 acúmulos de Gelo."
+        },
+        {
+          "icon": "lens-makers-glasses",
+          "pt": "Óculos do Fabricante de Lentes",
+          "en": "Lens-Maker's Glasses",
+          "prio": 3,
+          "qty": "1 a 3",
+          "effect": "10% (+10% por acúmulo) de chance de Acerto Crítico, que causa dano dobrado.",
+          "why": "Crítico dobra os cutelos e os cubos. Também ativa a Foice do Ceifador."
         },
         {
           "icon": "medkit",
@@ -162,70 +241,79 @@
       "id": "uncommon",
       "name": "Incomum",
       "color": "green",
-      "intro": "Os verdes multiplicam o fogo e os acertos dos cutelos perfurantes.",
+      "intro": "Os verdes empilham o Míssil para os cutelos carregados e dão o salto extra que o CHEF quase sempre quer.",
       "items": [
-        {
-          "icon": "ignition-tank",
-          "pt": "Tanque de Ignição",
-          "en": "Ignition Tank",
-          "prio": 1,
-          "qty": "4 ou mais (empilhe)",
-          "effect": "Efeitos de Incendiar causam +300% (+300% por acúmulo) de dano ao longo do tempo.",
-          "why": "O Chamuscar incendeia, e o Óleo quadruplica a Queimadura. Este item aumenta o fogo que já é a base do dano do CHEF, e também a Gasolina. Empilhe: cada cópia soma mais +300% ao dano de Queimadura, sem teto. Com 4 Tanques são +1.200%."
-        },
         {
           "icon": "atg-missile-mk-1",
           "pt": "Míssil ASM Mk. 1",
           "en": "AtG Missile Mk. 1",
-          "prio": 2,
-          "qty": "3 a 5",
+          "prio": 1,
+          "qty": "3 ou mais (empilhe)",
           "effect": "10% de chance de disparar um míssil que causa 300% (+300% por acúmulo) de dano TOTAL.",
-          "why": "Cada cutelo acerta na ida e na volta, e o Cristalizar acerta 7 vezes. Muitas chances de míssil. Cada cópia soma 300% ao dano de cada míssil. A chance fica em 10%, então os muitos acertos dão os mísseis e as cópias os deixam mais fortes."
+          "why": "O cutelo carregado tem coeficiente 1,5 e o reforçado 2,25, então o Míssil dispara mais que em outros sobreviventes. Os jogadores empilham. Desde o Alloyed Collective, só segurar a carga dá esse coeficiente na volta."
         },
         {
-          "icon": "ukulele",
-          "pt": "Ukulele",
-          "en": "Ukulele",
-          "prio": 2,
+          "icon": "hopoo-feather",
+          "pt": "Pluma de Hopoo",
+          "en": "Hopoo Feather",
+          "prio": 1,
           "qty": "1 a 2",
-          "effect": "25% de chance de disparar um raio em cadeia de 80% de dano TOTAL em até 3 (+2 por acúmulo) alvos a 20 m (+2 m por acúmulo).",
-          "why": "Os cutelos perfurantes acertam vários inimigos por arremesso, e cada acerto pode soltar um raio."
-        },
-        {
-          "icon": "kjaros-band",
-          "pt": "Cinturão de Kjaro",
-          "en": "Kjaro's Band",
-          "prio": 2,
-          "qty": "1",
-          "effect": "Golpes que causam mais de 400% de dano também lançam um tornado de fogo rúnico, causando 300% (+300% por acúmulo) de dano TOTAL ao longo do tempo. Recarrega a cada 10 s.",
-          "why": "O Chamuscar causa 600%, acima do limite de 400%. O golpe carregado do Rolar também pode passar, chegando a 600%."
-        },
-        {
-          "icon": "will-o-the-wisp",
-          "pt": "Will-o'-the-wisp",
-          "en": "Will-o'-the-wisp",
-          "prio": 3,
-          "qty": "1 a 2",
-          "effect": "Ao abater um inimigo, cria um pilar de lava de 12 m (+2,4 m por acúmulo) causando 350% (+280% por acúmulo) do dano base.",
-          "why": "A Queimadura mata grupos de uma vez, e cada abate vira uma explosão. Bom com Gasolina."
-        },
-        {
-          "icon": "harvesters-scythe",
-          "pt": "Foice do Ceifador",
-          "en": "Harvester's Scythe",
-          "prio": 3,
-          "qty": "1 (com Óculos)",
-          "effect": "+5% de chance de crítico. Críticos curam 8 (+4 por acúmulo) de vida.",
-          "why": "Muitos acertos rápidos com o Picar. Com alguns Óculos, cura fora do Beijo do CHEF."
+          "effect": "+1 (+1 por acúmulo) de salto máximo.",
+          "why": "Pedida em várias runs de CHEF dos jogadores. Alcança voadores e lugares altos, ajuda nos atalhos e dá controle na descida depois do super salto do Rolar."
         },
         {
           "icon": "death-mark",
           "pt": "Marca Fatal",
           "en": "Death Mark",
-          "prio": 0,
-          "qty": "0 (ou só com muitos debuffs de itens)",
+          "prio": 2,
+          "qty": "1",
           "effect": "Inimigos com 4 ou mais debuffs ficam marcados e recebem 50% a mais de dano de todas as fontes por 7 s (+7 s por acúmulo).",
-          "why": "Parece ideal para um kit cheio de efeitos, mas a wiki avisa que os buffs de cozinha do CHEF não contam para a Marca Fatal. Só funciona com debuffs de verdade, como Queimadura e Fraqueza, somados a itens."
+          "why": "Vários jogadores pegam, porque o kit já aplica debuffs: Óleo, a lentidão do Gelo, Queimadura e o Sangramento do Rolar reforçado. A wiki só exclui os buffs de cozinha do Beijo do CHEF. Uma cópia basta."
+        },
+        {
+          "icon": "ukulele",
+          "pt": "Ukulele",
+          "en": "Ukulele",
+          "prio": 3,
+          "qty": "1 a 2",
+          "effect": "25% de chance de disparar um raio em cadeia de 80% de dano TOTAL em até 3 (+2 por acúmulo) alvos a 20 m (+2 m por acúmulo).",
+          "why": "Os cutelos perfurantes acertam vários inimigos por arremesso, e o coeficiente alto do cutelo carregado aumenta a chance do raio."
+        },
+        {
+          "icon": "ignition-tank",
+          "pt": "Tanque de Ignição",
+          "en": "Ignition Tank",
+          "prio": 4,
+          "qty": "1 a 3 (só com Chamuscar)",
+          "effect": "Efeitos de Incendiar causam +300% (+300% por acúmulo) de dano ao longo do tempo.",
+          "why": "Só na variante de fogo: aumenta a Queimadura do Chamuscar e da Gasolina. Com o Refrigerador, só reforça a Gasolina. Jogadores de Eclipse acharam o fogo mediano mesmo com 3 Tanques."
+        },
+        {
+          "icon": "kjaros-band",
+          "pt": "Cinturão de Kjaro",
+          "en": "Kjaro's Band",
+          "prio": 4,
+          "qty": "1",
+          "effect": "Golpes que causam mais de 400% de dano também lançam um tornado de fogo rúnico, causando 300% (+300% por acúmulo) de dano TOTAL ao longo do tempo. Recarrega a cada 10 s.",
+          "why": "Ativa com o Chamuscar (600%) e o cubo reforçado (1.500%). O Picar reforçado causa exatamente 400%, e o item pede mais de 400%. Poucos jogadores falam de Cinturões no CHEF."
+        },
+        {
+          "icon": "bandolier",
+          "pt": "Cartucheira",
+          "en": "Bandolier",
+          "prio": 4,
+          "qty": "1 a 2",
+          "effect": "18% (+10% por acúmulo) de chance ao abater de soltar um pacote de munição que reinicia todas as recargas de habilidade.",
+          "why": "Um guia de Eclipse destaca para encadear reforços: o pacote reinicia a recarga de Sim, CHEF!."
+        },
+        {
+          "icon": "harvesters-scythe",
+          "pt": "Foice do Ceifador",
+          "en": "Harvester's Scythe",
+          "prio": 4,
+          "qty": "1 (com Óculos)",
+          "effect": "+5% de chance de crítico. Críticos curam 8 (+4 por acúmulo) de vida.",
+          "why": "Muitos acertos rápidos com o Picar. Com alguns Óculos, cura fora do Beijo do CHEF."
         }
       ]
     },
@@ -233,61 +321,70 @@
       "id": "legendary",
       "name": "Lendário",
       "color": "red",
-      "intro": "Os vermelhos encurtam as recargas do combo e espalham o dano dos cutelos.",
+      "intro": "Nenhum vermelho é consenso no CHEF. Recarga menor é a escolha que mais aparece.",
       "items": [
         {
           "icon": "alien-head",
           "pt": "Cabeça Alienígena",
           "en": "Alien Head",
-          "prio": 1,
+          "prio": 2,
           "qty": "1 a 2",
           "effect": "Reduz o tempo de recarga das habilidades em 25% (+25% por acúmulo).",
-          "why": "O combo depende de três recargas: Cristalizar (12 s), Rolar (8 s) e Chamuscar (6 s). Mais combos por minuto, mais Óleo e mais fogo."
+          "why": "Alguns jogadores pegam cedo. Mais Refrigerador (5 s), Maré de Óleo (10 s) e Sim, CHEF! (10 s), ou seja, mais reforços por minuto."
+        },
+        {
+          "icon": "symbiotic-scorpion",
+          "pt": "Escorpião Simbiótico",
+          "en": "Symbiotic Scorpion",
+          "prio": 4,
+          "qty": "1",
+          "effect": "100% de chance ao acertar de reduzir a armadura em 2 (+2 por acúmulo) permanentemente.",
+          "why": "Os cutelos acertam na ida e na volta e os cubos acertam 3 vezes, então a armadura do alvo cai rápido. Um jogador de Eclipse pede este vermelho junto da Marca Fatal."
         },
         {
           "icon": "brilliant-behemoth",
           "pt": "Brutamontes Reluzente",
           "en": "Brilliant Behemoth",
-          "prio": 1,
-          "qty": "1 a 2",
+          "prio": 3,
+          "qty": "1",
           "effect": "Todos os ataques explodem em 4 m (+2,5 m por acúmulo) causando 60% de dano TOTAL extra.",
-          "why": "Cada cutelo, cada bola de óleo e cada feixe do Chamuscar explode. Transforma o Picar em dano em área."
-        },
-        {
-          "icon": "frost-relic",
-          "pt": "Relíquia Congelada",
-          "en": "Frost Relic",
-          "prio": 3,
-          "qty": "1",
-          "effect": "Abater um inimigo cria ao seu redor uma tempestade de gelo que causa 1200% de dano por segundo e desacelera os inimigos em 80% por 1,5 s. A tempestade cresce a cada abate, aumentando o raio em 2 m. Acumula até 18 m (+12 m por acúmulo).",
-          "why": "O CHEF luta perto e mata grupos inteiros com fogo. A tempestade aproveita isso."
-        },
-        {
-          "icon": "rejuvenation-rack",
-          "pt": "Suporte do Rejuvenescimento",
-          "en": "Rejuvenation Rack",
-          "prio": 3,
-          "qty": "1",
-          "effect": "Cura +100% (+100% por acúmulo) a mais.",
-          "why": "O texto do item vale para toda cura, então dobra a Foice, a regeneração e as refeições do Beijo do CHEF."
-        },
-        {
-          "icon": "hardlight-afterburner",
-          "pt": "Pós-combustor de Holograma",
-          "en": "Hardlight Afterburner",
-          "prio": 3,
-          "qty": "1",
-          "effect": "+2 (+2 por acúmulo) cargas da Utilitária e −33% no tempo de recarga dela.",
-          "why": "Três Rolar seguidos com +200 de armadura cada. Entrar, atordoar e sair."
+          "why": "Cada cutelo e cada cubo explode e espalha dano pelo grupo. Bom no papel, mas nenhum jogador consultado cita no CHEF."
         },
         {
           "icon": "sentient-meat-hook",
           "pt": "Gancho de Carnes Senciente",
           "en": "Sentient Meat Hook",
-          "prio": 2,
+          "prio": 3,
           "qty": "1 a 2",
           "effect": "20% (+20% por acúmulo) de chance ao acertar de lançar ganchos teleguiados em até 10 (+5 por acúmulo) inimigos, causando 100% de dano TOTAL.",
-          "why": "Os cutelos atravessam grupos e acertam na ida e na volta, então o Gancho ativa várias vezes por arremesso."
+          "why": "Os cutelos atravessam grupos e acertam na ida e na volta, então o Gancho ativa várias vezes por arremesso. Nenhum jogador consultado cita no CHEF."
+        },
+        {
+          "icon": "hardlight-afterburner",
+          "pt": "Pós-combustor de Holograma",
+          "en": "Hardlight Afterburner",
+          "prio": 4,
+          "qty": "1",
+          "effect": "+2 (+2 por acúmulo) cargas da Utilitária e −33% no tempo de recarga dela.",
+          "why": "Mais Marés de Óleo ou mais Rolar seguidos. Útil para mobilidade, não para dano."
+        },
+        {
+          "icon": "frost-relic",
+          "pt": "Relíquia Congelada",
+          "en": "Frost Relic",
+          "prio": 4,
+          "qty": "1",
+          "effect": "Abater um inimigo cria ao seu redor uma tempestade de gelo que causa 1.200% de dano por segundo e desacelera os inimigos em 80% por 1,5 s. A tempestade cresce a cada abate, aumentando o raio em 2 m. Acumula até 18 m (+12 m por acúmulo).",
+          "why": "Dano em área para quem já mata grupos com o Picar. Exige ficar perto dos inimigos."
+        },
+        {
+          "icon": "rejuvenation-rack",
+          "pt": "Suporte do Rejuvenescimento",
+          "en": "Rejuvenation Rack",
+          "prio": 4,
+          "qty": "1",
+          "effect": "Cura +100% (+100% por acúmulo) a mais.",
+          "why": "O texto do item vale para toda cura, então dobra as refeições do Beijo do CHEF, a Foice e a regeneração."
         }
       ]
     },
@@ -301,10 +398,10 @@
           "icon": "titanic-knurl",
           "pt": "Fragmento Titânico",
           "en": "Titanic Knurl",
-          "prio": 2,
+          "prio": 3,
           "qty": "1 ou mais",
           "effect": "Aumenta a vida máxima em 40 (+40 por acúmulo) e a regeneração base em +1,6 de vida/s (+1,6 por acúmulo).",
-          "why": "Vida e regeneração para um personagem frágil que precisa lutar de perto."
+          "why": "Vida e regeneração para um personagem frágil."
         },
         {
           "icon": "molten-perforator",
@@ -313,7 +410,16 @@
           "prio": 3,
           "qty": "1",
           "effect": "10% de chance ao acertar de lançar 3 bolas de magma do inimigo, causando 300% (+300% por acúmulo) de dano cada.",
-          "why": "Mais um efeito ao acertar para os cutelos e as 7 bolas do Cristalizar."
+          "why": "Mais um efeito ao acertar para os cutelos carregados."
+        },
+        {
+          "icon": "planula",
+          "pt": "Plânula",
+          "en": "Planula",
+          "prio": 4,
+          "qty": "1",
+          "effect": "Cura 15 (+15 por acúmulo) de vida ao receber dano.",
+          "why": "Um jogador de Eclipse creditou a Plânula na sobrevivência da run. Cura um pouco a cada golpe recebido."
         }
       ]
     },
@@ -321,25 +427,16 @@
       "id": "equipment",
       "name": "Equipamentos",
       "color": "orange",
-      "intro": "Só dá para carregar um. Escolha pelo momento da run.",
+      "intro": "Só dá para carregar um. Nenhum equipamento é consenso no CHEF; escolha pelo momento da run.",
       "items": [
-        {
-          "icon": "molotov-6-pack",
-          "pt": "Molotov (Pacote de 6)",
-          "en": "Molotov (6-Pack)",
-          "prio": 2,
-          "qty": "1 (recarga 45 s)",
-          "effect": "Arremessa 6 coquetéis molotov que incendeiam inimigos por 500% do dano base. Cada molotov deixa uma área em chamas que causa 200% de dano por segundo.",
-          "why": "Mais fogo em área, que o Tanque de Ignição também aumenta."
-        },
         {
           "icon": "primordial-cube",
           "pt": "Cubo Primordial",
           "en": "Primordial Cube",
-          "prio": 1,
+          "prio": 3,
           "qty": "1 (recarga 60 s)",
           "effect": "Buraco negro que puxa inimigos a até 30 m para o centro por 10 s.",
-          "why": "Junta o grupo num ponto: as 7 bolas do Cristalizar cobrem todos de Óleo e um Chamuscar incendeia todos."
+          "why": "Junta o grupo num ponto para o cubo reforçado do Refrigerador, que congela tudo em 15 m. Nenhum jogador consultado cita no CHEF."
         },
         {
           "icon": "royal-capacitor",
@@ -347,8 +444,8 @@
           "en": "Royal Capacitor",
           "prio": 3,
           "qty": "1 (recarga 20 s)",
-          "effect": "Raio em um monstro marcado causando 3000% de dano e atordoando os monstros próximos.",
-          "why": "Dano à distância contra voadores e elites, fora do alcance do Chamuscar."
+          "effect": "Raio em um monstro marcado causando 3.000% de dano e atordoando os monstros próximos.",
+          "why": "Dano contra voadores, que um guia de Eclipse aponta como um problema do CHEF."
         },
         {
           "icon": "gorags-opus",
@@ -357,7 +454,16 @@
           "prio": 3,
           "qty": "1 (recarga 45 s)",
           "effect": "Todos os aliados entram em frenesi por 7 s: +50% de movimento e +100% de velocidade de ataque.",
-          "why": "Dobra o ritmo do Picar por alguns segundos. Bom em grupo."
+          "why": "Dobra o ritmo do Picar e dá velocidade por alguns segundos. Bom em grupo."
+        },
+        {
+          "icon": "molotov-6-pack",
+          "pt": "Molotov (Pacote de 6)",
+          "en": "Molotov (6-Pack)",
+          "prio": 4,
+          "qty": "1 (recarga 45 s)",
+          "effect": "Arremessa 6 coquetéis molotov que incendeiam inimigos por 500% do dano base. Cada molotov deixa uma área em chamas que causa 200% de dano por segundo.",
+          "why": "Só na variante de fogo. Um jogador observou que o fogo do Molotov não acende as poças de óleo do CHEF."
         },
         {
           "icon": "blast-shower",
@@ -383,7 +489,7 @@
           "prio": 3,
           "qty": "1",
           "effect": "Reduz todas as recargas de habilidade em 2 s (+1 s por acúmulo). Todos os efeitos aleatórios são rolados +1 (+1 por acúmulo) vez contra você.",
-          "why": "O Chamuscar cai de 6 s para 4 s e o Cristalizar de 12 s para 10 s. Piora Ukulele, Míssil e crítico."
+          "why": "O Refrigerador cai de 5 s para 3 s, e a Maré de Óleo e Sim, CHEF! de 10 s para 8 s. Piora o Míssil, o Ukulele e o crítico, que são parte do dano."
         },
         {
           "icon": "corpsebloom",
@@ -392,7 +498,7 @@
           "prio": 4,
           "qty": "1",
           "effect": "Cura +100% (+100% por acúmulo) a mais. Toda cura é aplicada ao longo do tempo, até no máximo 10% (−50% por acúmulo) da vida por segundo.",
-          "why": "Dobra a cura das refeições, mas espalha no tempo. Ruim se você precisa de cura rápida no meio do grupo."
+          "why": "Dobra a cura das refeições, mas espalha no tempo. Ruim se você precisa de cura rápida."
         },
         {
           "icon": "shaped-glass",
@@ -401,7 +507,7 @@
           "prio": 0,
           "qty": "0",
           "effect": "+100% (+100% por acúmulo) de dano base. −50% (−50% por acúmulo) de vida máxima.",
-          "why": "O CHEF já tem só 110 de vida e luta de perto. Metade da vida também reduz a cura das refeições, que é uma porcentagem da vida máxima."
+          "why": "O CHEF já tem só 110 de vida e os jogadores o chamam de frágil no Eclipse. Metade da vida também reduz a cura das refeições, que é uma porcentagem da vida máxima."
         }
       ]
     },
@@ -412,185 +518,167 @@
       "intro": "Itens do Vazio (DLC Survivors of the Void) corrompem itens comuns quando pegos. Veja o que vai perder antes.",
       "items": [
         {
+          "icon": "safer-spaces",
+          "pt": "Espaços Seguros",
+          "en": "Safer Spaces",
+          "prio": 3,
+          "qty": "1",
+          "effect": "Bloqueia dano recebido uma vez. Recarrega após 13,5 s (−10% por acúmulo). Corrompe todos os Tempos Difíceis.",
+          "why": "Um jogador de Eclipse diz que ajudou muito com o Rolar: bloqueia um golpe a cada recarga. Corrompe todos os Tempos Difíceis."
+        },
+        {
+          "icon": "plasma-shrimp",
+          "pt": "Camarão de Plasma",
+          "en": "Plasma Shrimp",
+          "prio": 3,
+          "qty": "1 ou mais (corrompe os Mísseis)",
+          "effect": "Ganha um escudo igual a 10% da vida máxima. Enquanto tiver escudo, acertar um inimigo dispara um míssil que causa 40% (+40% por acúmulo) de dano TOTAL. Corrompe todos os Mísseis ASM Mk. 1.",
+          "why": "Alguns jogadores empilham e tiveram runs fortes, porque cada acerto dos cutelos dispara um míssil. Corrompe todos os Mísseis ASM, o item central da build: pegue cedo ou só se não tiver Mísseis."
+        },
+        {
           "icon": "lysate-cell",
           "pt": "Célula Lisada",
           "en": "Lysate Cell",
-          "prio": 1,
-          "qty": "1 a 2",
-          "effect": "+1 (+1 por acúmulo) carga da habilidade Especial e −33% no tempo de recarga dela. Corrompe todas as Células de Combustível.",
-          "why": "O Cristalizar é a recarga mais longa do combo. Duas cargas e recarga menor significam mais grupos com Óleo."
-        },
-        {
-          "icon": "voidsent-flame",
-          "pt": "Chama da Nulidade",
-          "en": "Voidsent Flame",
-          "prio": 2,
-          "qty": "1 a 2",
-          "effect": "Ao acertar um inimigo com a vida cheia, cria um pilar de lava de 12 m (+2,4 m por acúmulo) causando 260% (+156% por acúmulo) do dano base. Corrompe todos os Will-o'-the-wisp.",
-          "why": "Um cutelo perfurante ou o Cristalizar acertam vários inimigos de vida cheia de uma vez. Corrompe o Will-o'-the-wisp recomendado: você perde o pilar de lava ao abater e passa a ter o pilar ao acertar inimigo de vida cheia."
-        },
-        {
-          "icon": "polylute",
-          "pt": "Polialaúde",
-          "en": "Polylute",
           "prio": 3,
-          "qty": "1 a 2",
-          "effect": "25% de chance de disparar um raio de 60% de dano TOTAL até 3 (+3 por acúmulo) vezes. Corrompe todos os Ukuleles.",
-          "why": "Corrompe o Ukulele recomendado: você perde o raio em cadeia que salta entre os inimigos. Em troca, o raio acerta o mesmo alvo até 3 vezes. Mais forte contra um alvo, mais fraco em grupo. Só vale se a run está focada em chefes."
+          "qty": "1",
+          "effect": "+1 (+1 por acúmulo) carga da habilidade Especial e −33% no tempo de recarga dela. Corrompe todas as Células de Combustível.",
+          "why": "Duas cargas de Sim, CHEF! dão dois reforços seguidos, por exemplo cubo e depois Picar. Bom no papel, sem citação dos jogadores."
         },
         {
           "icon": "weeping-fungus",
           "pt": "Fungo Choroso",
           "en": "Weeping Fungus",
-          "prio": 3,
+          "prio": 4,
           "qty": "1 a 2",
           "effect": "Cura 2% (+2% por acúmulo) da vida por segundo enquanto corre. Corrompe todos os Fungos Vibrantes.",
-          "why": "O Chamuscar, o Rolar e o Refrigerador podem ser usados correndo (Ágil). Cura entre um combo e outro."
+          "why": "O Refrigerador, a Maré de Óleo e Sim, CHEF! podem ser usados correndo (Ágil). Cura entre uma luta e outra."
+        },
+        {
+          "icon": "polylute",
+          "pt": "Polialaúde",
+          "en": "Polylute",
+          "prio": 4,
+          "qty": "1 a 2",
+          "effect": "25% de chance de disparar um raio de 60% de dano TOTAL até 3 (+3 por acúmulo) vezes. Corrompe todos os Ukuleles.",
+          "why": "Corrompe todos os Ukuleles: você perde o raio em cadeia entre inimigos. Em troca, o raio acerta o mesmo alvo até 3 vezes. Só vale se a run está focada em chefes."
         }
       ]
     }
   ],
   "synergy": [
     {
-      "title": "Óleo quadruplica a Queimadura",
-      "text": "O Cristalizar cobre os inimigos de Óleo e aplica Fraqueza. Quando um inimigo com Óleo sofre Queimadura, perde o Óleo e a Queimadura causa o quádruplo. Por isso a ordem é sempre Cristalizar e depois Chamuscar. O Tanque de Ignição aumenta essa Queimadura em +300%."
+      "title": "Óleo e Gelo: congelamento na hora",
+      "text": "Pela wiki, um inimigo com Óleo que sofre Gelo perde o Óleo e congela na hora, sem precisar dos 6 acúmulos. A Maré de Óleo cobre o grupo, e o primeiro cubo do Refrigerador já congela."
     },
     {
-      "title": "Poças de óleo",
-      "text": "Pela wiki, habilidades que aplicam Óleo criam poças de óleo, e as poças podem ser incendiadas ou congeladas. Elas não cobrem os inimigos de Óleo, então mire o Cristalizar nos inimigos e use as poças como zona de fogo. A wiki não detalha quando o Cristalizar cria poças."
+      "title": "Execução abaixo de 30%",
+      "text": "Inimigos congelados morrem na hora se ficarem abaixo de 30% de vida. Chefes recebem Gelo mas não congelam; o cubo reforçado só congela o Devastador do Vazio entre eles. Contra chefes, o dano vem dos cutelos e do Picar reforçado."
     },
     {
-      "title": "Beijo do CHEF: cura pela rotação",
-      "text": "Inimigos mortos com 2 ou mais buffs de habilidades diferentes soltam uma refeição de cura. Cada buff a mais soma 4% da vida máxima + 2 na cura. Um combo de Picar, Cristalizar e Chamuscar no mesmo grupo já garante refeições. A cura usa a vida máxima de quem pega, então vida máxima rende duas vezes."
+      "title": "Cutelos carregados e efeitos ao acertar",
+      "text": "Segurar o Picar 0,5 s dobra o dano da volta com coeficiente 1,5, e o Picar reforçado tem 2,25. Por isso o Míssil ASM rende tanto no CHEF. As poças de óleo têm coeficiente 0,1 e quase não ativam itens."
     },
     {
-      "title": "Cutelos e efeitos ao acertar",
-      "text": "O Picar não tem recarga, atravessa todos os inimigos e acerta na ida e na volta. Ukulele, Míssil ASM, Brutamontes e Perfurador Fundido ativam muito com isso. O Cristalizar soma mais 7 acertos com coeficiente 1,0."
+      "title": "Sim, CHEF! no golpe certo",
+      "text": "Reforce o Refrigerador para um cubo de 1.500% que congela tudo em 15 m, bom contra grupos e voadores. Contra um chefe, reforce o Picar: 16 cutelos de 400% em todas as direções."
     },
     {
-      "title": "Rolar para entrar",
-      "text": "O Chamuscar só alcança de perto, e o CHEF tem pouca vida. O Rolar dá +200 de armadura, atordoa e leva você ao grupo. Use o Rolar para chegar, Cristalizar e Chamuscar de perto, e saia com outro Rolar ou correndo."
+      "title": "Debuffs do próprio kit",
+      "text": "Óleo, lentidão do Gelo e Queimadura são debuffs de verdade e contam para a Marca Fatal. Os buffs de cozinha do Beijo do CHEF não contam, mas garantem as refeições de cura quando duas habilidades diferentes acertam o mesmo inimigo."
     }
   ],
   "rotation": [
     {
-      "step": "Rolar até o grupo",
-      "text": "Atordoe e chegue perto com +200 de armadura."
+      "step": "Maré de Óleo no grupo",
+      "text": "Cubra os inimigos de Óleo; salte de novo para ganhar altura e fugir de golpes."
     },
     {
-      "step": "Cristalizar",
-      "text": "Cubra o grupo de Óleo e Fraqueza com as 7 bolas."
+      "step": "Refrigerador",
+      "text": "Inimigos com Óleo congelam com o primeiro cubo. Sem Óleo, 6 acúmulos de Gelo congelam."
     },
     {
-      "step": "Chamuscar",
-      "text": "Incendeie os inimigos com Óleo para quadruplicar a Queimadura."
+      "step": "Picar segurando",
+      "text": "Segure cerca de 0,5 s antes de recuperar: dano dobrado e coeficiente 1,5. Congelados abaixo de 30% morrem."
     },
     {
-      "step": "Picar entre as recargas",
-      "text": "Arremesse cutelos pelo grupo e recupere-os para acertar de novo."
+      "step": "Sim, CHEF! e reforço",
+      "text": "Cubo reforçado contra grupos e voadores; Picar reforçado embaixo do chefe."
     },
     {
       "step": "Pegue as refeições",
-      "text": "Recolha a comida dos inimigos cozidos para se curar antes do próximo combo."
+      "text": "Recolha a comida dos inimigos cozidos para se curar antes da próxima luta."
     }
   ],
   "essentials": [
     {
-      "pt": "Cristal de Foco",
-      "en": "Focus Crystal"
-    },
-    {
       "pt": "Gasolina",
       "en": "Gasoline"
-    },
-    {
-      "pt": "Tanque de Ignição",
-      "en": "Ignition Tank"
     },
     {
       "pt": "Míssil ASM Mk. 1",
       "en": "AtG Missile Mk. 1"
     },
     {
-      "pt": "Cabeça Alienígena",
-      "en": "Alien Head"
+      "pt": "Pluma de Hopoo",
+      "en": "Hopoo Feather"
     },
     {
-      "pt": "Brutamontes Reluzente",
-      "en": "Brilliant Behemoth"
-    },
-    {
-      "pt": "Célula Lisada",
-      "en": "Lysate Cell"
+      "pt": "Casco de Bode de Paul",
+      "en": "Paul's Goat Hoof"
     }
   ],
-  "situational_note": "Situacionais: Pente Reserva, Cinturão de Kjaro, Will-o'-the-wisp, Relíquia Congelada, Pós-combustor, Chama da Nulidade, Pureza e os demais lunares.",
+  "situational_note": "Situacionais: Tanque de Ignição, Cinturão de Kjaro e Molotov (só na variante de fogo), Cartucheira, Foice do Ceifador, Kit de Cura, Plânula, Pós-combustor, Relíquia Congelada, Suporte do Rejuvenescimento, Expurgação Explosiva, Fungo Choroso, Polialaúde e os lunares.",
   "fallbacks": [
-    {
-      "pt": "Cristal de Foco",
-      "en": "Focus Crystal",
-      "text": "Óculos do Fabricante de Lentes para aumentar os golpes diretos de perto."
-    },
     {
       "pt": "Gasolina",
       "en": "Gasoline",
-      "text": "Will-o'-the-wisp para explodir em cada abate, ou Molotov como equipamento."
-    },
-    {
-      "pt": "Tanque de Ignição",
-      "en": "Ignition Tank",
-      "text": "Cinturão de Kjaro para o golpe de 600% do Chamuscar. Sem fogo extra, foque nos itens ao acertar."
+      "text": "Bomba Aderente e Ukulele para dano em área no começo. A Gasolina perde força depois do estágio 4 de qualquer jeito."
     },
     {
       "pt": "Míssil ASM Mk. 1",
       "en": "AtG Missile Mk. 1",
-      "text": "Ukulele, que também ativa muito com os cutelos perfurantes."
+      "text": "Ukulele e Bomba Aderente, que também aproveitam o coeficiente dos cutelos carregados. Sem nenhum Míssil, o Camarão de Plasma ocupa o lugar."
     },
     {
-      "pt": "Cabeça Alienígena",
-      "en": "Alien Head",
-      "text": "Célula Lisada para o Cristalizar e Pente Reserva para o Chamuscar. Pureza se aceitar o custo nos efeitos de chance."
+      "pt": "Pluma de Hopoo",
+      "en": "Hopoo Feather",
+      "text": "Use a Maré de Óleo para ganhar altura. Com o Rolar, Espaços Seguros bloqueia um golpe a cada recarga."
     },
     {
-      "pt": "Brutamontes Reluzente",
-      "en": "Brilliant Behemoth",
-      "text": "Ukulele e Gasolina para espalhar o dano pelo grupo."
-    },
-    {
-      "pt": "Célula Lisada",
-      "en": "Lysate Cell",
-      "text": "Cabeça Alienígena. Sem as duas, guarde o Cristalizar para grupos grandes e chefes."
+      "pt": "Casco de Bode de Paul",
+      "en": "Paul's Goat Hoof",
+      "text": "Mocha ou Bebida Energética."
     }
   ],
-  "summary": "Beijo do CHEF, Picar, Chamuscar, Rolar e Cristalizar. Entre no grupo com o Rolar, cubra todos de Óleo com o Cristalizar e incendeie com o Chamuscar, que quadruplica a Queimadura. Use o Picar entre as recargas e pegue as refeições dos inimigos cozidos para se curar. Empilhe fogo (Tanque de Ignição, Gasolina), efeitos ao acertar (Míssil, Ukulele, Brutamontes) e recargas menores (Cabeça Alienígena, Célula Lisada).",
+  "summary": "Beijo do CHEF, Picar, Refrigerador, Maré de Óleo e Sim, CHEF!. Cubra o grupo de Óleo com a Maré de Óleo, congele com o Refrigerador e termine com os cutelos carregados: congelados abaixo de 30% morrem na hora. Use Sim, CHEF! para o cubo reforçado contra grupos ou o Picar reforçado contra chefes. Itens: Gasolina no começo, Míssil ASM empilhado, Pluma de Hopoo, velocidade (Casco de Bode, Mocha) e Placa de Repulsão.",
   "checklist": [
     {
       "title": "Sempre pegue",
-      "text": "Cristal de Foco, Tanque de Ignição, Míssil ASM, Cabeça Alienígena, Brutamontes, Célula Lisada."
+      "text": "Gasolina no começo, Míssil ASM, Pluma de Hopoo e Casco de Bode ou Mocha. Placa de Repulsão quando aparecer."
     },
     {
-      "title": "Impressoras brancas",
-      "text": "Transforme em Cristal de Foco até umas 4, depois Filé de Bisão e Gasolina."
+      "title": "Cutelos",
+      "text": "Segure cerca de 0,5 s antes de recuperar: dano dobrado e coeficiente 1,5."
     },
     {
-      "title": "Primeiro verde",
-      "text": "Tanque de Ignição, e continue empilhando. Míssil ASM é o segundo verde que vale acumular."
+      "title": "Óleo antes do gelo",
+      "text": "Maré de Óleo primeiro: o primeiro cubo do Refrigerador já congela."
     },
     {
-      "title": "Equipamento",
-      "text": "Cubo Primordial para juntar grupos para o combo; Molotov para mais fogo."
+      "title": "Reforço",
+      "text": "Refrigerador contra grupos e voadores, Picar embaixo do chefe. Não reforce Rolar nem Maré de Óleo."
+    },
+    {
+      "title": "Dano de queda",
+      "text": "Com o Rolar, cuidado com o super salto no Eclipse. Pluma de Hopoo ou Espaços Seguros."
     },
     {
       "title": "Antes de pegar Vazio",
-      "text": "Polialaúde corrompe os Ukuleles; Chama da Nulidade corrompe os Will-o'-the-wisp."
+      "text": "Camarão de Plasma corrompe os Mísseis; Espaços Seguros corrompe os Tempos Difíceis; Polialaúde corrompe os Ukuleles."
     },
     {
       "title": "Não pegue",
       "text": "Vidro Configurado: o CHEF já tem pouca vida e as refeições curam por porcentagem dela."
-    },
-    {
-      "title": "Luta de chefe",
-      "text": "Cristalizar no chefe, Chamuscar logo depois, Picar sem parar e Rolar para desviar."
     }
   ],
   "sources": [
@@ -600,62 +688,119 @@
       "kind": "wiki"
     },
     {
+      "title": "Death Mark · Risk of Rain 2 Wiki",
+      "url": "https://riskofrain2.wiki.gg/wiki/Death_Mark",
+      "kind": "wiki"
+    },
+    {
       "title": "Items · Risk of Rain 2 Wiki",
       "url": "https://riskofrain2.wiki.gg/wiki/Items",
       "kind": "wiki"
     },
     {
-      "title": "CHEF Risk of Rain 2 · Rogue Ranker (guia da comunidade)",
-      "url": "https://rogueranker.com/chef-ror2/",
-      "kind": "guide"
+      "title": "Update Notes v1.3.8 · Gearbox (via devtrackers)",
+      "url": "https://devtrackers.gg/risk-of-rain/p/91e41a15-update-notes-v1-3-8",
+      "kind": "patch",
+      "date": "2025-05-05"
+    },
+    {
+      "title": "Best Loadouts for the Seekers of the Storm Survivors · rndThursday",
+      "url": "https://www.youtube.com/watch?v=2gmZeq4tMO4",
+      "kind": "video",
+      "date": "2025-06-02"
+    },
+    {
+      "title": "Eclipse Guide [Updated for SotS DLC], seção do CHEF · Cecil188 (Steam)",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2590199556",
+      "kind": "guide",
+      "date": "2025-06-08"
+    },
+    {
+      "title": "The Definitive RoR2 Survivor Tier List (2026) · EchoTM",
+      "url": "https://www.youtube.com/watch?v=JJNOXNWky6U",
+      "kind": "video",
+      "date": "2026-02-27"
+    },
+    {
+      "title": "Bad Loadouts: Chef · Race",
+      "url": "https://www.youtube.com/watch?v=2X5XnPaEYMA",
+      "kind": "video",
+      "date": "2025-08-23"
+    },
+    {
+      "title": "The Frostburn Build · Race",
+      "url": "https://www.youtube.com/watch?v=cTu7ZB4JSMo",
+      "kind": "video",
+      "date": "2025-10-17"
+    },
+    {
+      "title": "I Was Sad to See This Item?! Eclipse 8 Chef Gameplay · Deltsong",
+      "url": "https://www.youtube.com/watch?v=hFH3E2UBkkY",
+      "kind": "video",
+      "date": "2025-08-20"
+    },
+    {
+      "title": "The Best Update in YEARS!... (Survivor Reworks) · Disputed Origin",
+      "url": "https://www.youtube.com/watch?v=BS1GzMRKy3M",
+      "kind": "video",
+      "date": "2025-05-05"
+    },
+    {
+      "title": "Is CHEF the new STRONGEST in Risk of Rain 2? · rndThursday",
+      "url": "https://www.youtube.com/watch?v=XLnJA65LhMA",
+      "kind": "video",
+      "date": "2025-05-19"
+    },
+    {
+      "title": "3 Tips for Every Survivor, seção do CHEF · SocksNeedsHelp",
+      "url": "https://www.youtube.com/watch?v=fC9SAP2z9B8",
+      "kind": "video",
+      "date": "2025-07-16"
+    },
+    {
+      "title": "(UPDATED) Risk of Rain 2 - Solo Eclipse 8 - CHEF · Kayn",
+      "url": "https://www.youtube.com/watch?v=uF-1xurUx0g",
+      "kind": "video",
+      "date": "2025-05-10"
     }
   ],
+  "reviewed": "2026-10-13",
   "notes": [
     "O CHEF exige a DLC Seekers of the Storm e é desbloqueado pelo desafio Order Up!.",
-    "A wiki não lista a recarga nem o desafio de desbloqueio de Sim, CHEF! (Yes, CHEF!). Um guia da comunidade cita 10 s de recarga, sem confirmação na wiki.",
-    "A wiki não diz se o Óleo também quadruplica a Queimadura de itens como Gasolina e Molotov.",
-    "A wiki diz que habilidades que aplicam Óleo criam poças, mas a parte do Cristalizar está incompleta; não confirmamos se as bolas que erram viram poças."
+    "A build segue o kit depois do rework do Update 1.3.8 (2025-05-05), que trouxe o Refrigerador e a Maré de Óleo e baixou a recarga de Sim, CHEF! de 15 s para 10 s. Guias que recomendam Chamuscar, Rolar e Cristalizar são anteriores.",
+    "Resolvido: a wiki agora lista 10 s de recarga para Sim, CHEF! e o desafio Barbecued Bison Recipe Complete. Também confirma que as bolas do Cristalizar que erram criam poças de óleo.",
+    "Pendente: a wiki confirma que inimigos com Óleo sofrem o quádruplo de Queimadura, mas não diz se isso vale para a Queimadura da Gasolina, do Tanque de Ignição ou do Molotov. Um jogador observou que o fogo do Molotov não acende as poças de óleo.",
+    "Utilitária dividida: três fontes preferem a Maré de Óleo e três o Rolar. Jogadores dizem que a Maré de Óleo evita dano de queda enquanto está ativa; a wiki não confirma.",
+    "Jogadores dizem que a execução por congelamento funciona no Mithrix. A wiki diz que chefes recebem Gelo mas não congelam e não cita o Mithrix. Não confirmado.",
+    "Possível bug: dois jogadores relatam que o Refrigerador reforçado não gasta o reforço, o que permite um Picar reforçado logo depois; um deles diz que pode ser bug. A wiki diz que a habilidade reforçada volta ao normal quando outra habilidade reforçada é usada. Não confirmamos se ainda funciona depois do Alloyed Collective.",
+    "Divergência: um jogador de Eclipse 8 prefere a variante de fogo (Chamuscar) em grupo e usa o gelo principalmente contra o Mithrix. Outro guia de Eclipse chama o Chamuscar de opção fraca mesmo com Tanque de Ignição.",
+    "O Hallowed Concepts (2026-10-08) deu ao CHEF só um visual novo e correções no salto e no Rolar. Nenhuma habilidade nova."
   ],
   "command": {
-    "intro": "Com a Autoridade, ligue o combo de fogo primeiro: Cristal de Foco e Gasolina nos brancos, Tanque de Ignição no primeiro verde. Depois venha a vida máxima, que também aumenta a cura das refeições do Beijo do CHEF.",
+    "intro": "Com a Autoridade, comece pela Gasolina para limpar ondas e pela defesa contra golpes pequenos, depois velocidade. Nos verdes, empilhe o Míssil ASM, que rende muito com os cutelos carregados, e pegue a Pluma de Hopoo cedo.",
     "tiers": [
       {
         "tier": "common",
         "steps": [
           {
-            "en": "Focus Crystal",
-            "n": 2,
-            "why": "O Chamuscar e o Rolar acontecem de perto."
-          },
-          {
             "en": "Gasoline",
             "n": 1,
-            "why": "Cada abate espalha fogo para o grupo ao redor."
+            "why": "Limpa ondas no começo: cada abate incendeia o grupo."
           },
           {
-            "en": "Bison Steak",
+            "en": "Repulsion Armor Plate",
             "n": 2,
-            "why": "O CHEF tem 110 de vida, e a refeição cura uma porcentagem da vida máxima."
+            "why": "Corta os golpes pequenos que matam o CHEF."
           },
           {
-            "en": "Tougher Times",
-            "n": 2,
-            "why": "Fora do Rolar o CHEF não tem armadura."
-          },
-          {
-            "en": "Focus Crystal",
+            "en": "Paul's Goat Hoof",
             "n": 1,
-            "why": "Três Cristais."
+            "why": "Velocidade para se reposicionar entre as recargas."
           },
           {
-            "en": "Soldier's Syringe",
-            "n": 2,
-            "why": "O Picar é Rápido: mais arremessos e mais ativações de itens."
-          },
-          {
-            "en": "Lens-Maker's Glasses",
-            "n": 2,
-            "why": "Crítico dobra os golpes diretos do Chamuscar e do Cristalizar."
+            "en": "Mocha",
+            "n": 1,
+            "why": "Movimento e velocidade de ataque para o Picar."
           },
           {
             "en": "Gasoline",
@@ -663,124 +808,119 @@
             "why": "A segunda aumenta o raio e a queimadura."
           },
           {
+            "en": "Repulsion Armor Plate",
+            "n": 1,
+            "why": "Três Placas."
+          },
+          {
+            "en": "Sticky Bomb",
+            "n": 1,
+            "why": "Mais um efeito ao acertar para os cutelos carregados."
+          },
+          {
+            "en": "Paul's Goat Hoof",
+            "n": 1,
+            "why": "Segundo Casco."
+          },
+          {
+            "en": "Mocha",
+            "n": 1,
+            "why": "Segundo Mocha."
+          },
+          {
+            "en": "Energy Drink",
+            "n": 1,
+            "why": "Corrida mais rápida; as habilidades são Ágeis."
+          },
+          {
+            "en": "Delicate Watch",
+            "n": 1,
+            "why": "Dano puro, agora que a defesa já está montada."
+          },
+          {
+            "en": "Repulsion Armor Plate",
+            "n": 1,
+            "why": "Quatro Placas."
+          },
+          {
+            "en": "Oddly-shaped Opal",
+            "n": 1,
+            "why": "Armadura no primeiro golpe de cada luta."
+          },
+          {
             "en": "Backup Magazine",
             "n": 1,
-            "why": "Dois Chamuscar seguidos depois do Cristalizar."
-          },
-          {
-            "en": "Focus Crystal",
-            "n": 2,
-            "why": "Chega a 5 Cristais, o máximo da build."
-          },
-          {
-            "en": "Bison Steak",
-            "n": 1,
-            "why": "Mais vida e refeições maiores."
-          },
-          {
-            "en": "Soldier's Syringe",
-            "n": 1,
-            "why": "Três Seringas."
-          },
-          {
-            "en": "Lens-Maker's Glasses",
-            "n": 1,
-            "why": "Três Óculos para a Foice do Ceifador render."
-          },
-          {
-            "en": "Tougher Times",
-            "n": 1,
-            "why": "Terceiro Tempos Difíceis."
+            "why": "Mais uma carga do Refrigerador."
           }
         ],
-        "then": "Depois: Kit de Cura até 2, Gasolina até 3 e Óculos até 4."
+        "then": "Depois: Bomba Aderente até 3, Seringa Militar e Óculos. A Gasolina perde força depois do estágio 4, então não passe de 3."
       },
       {
         "tier": "uncommon",
         "steps": [
           {
-            "en": "Ignition Tank",
+            "en": "AtG Missile Mk. 1",
             "n": 1,
-            "why": "Liga a build: o Óleo quadruplica a Queimadura do Chamuscar, e o Tanque soma +300% a ela e à Gasolina."
+            "why": "O cutelo carregado tem coeficiente 1,5: muitos mísseis."
+          },
+          {
+            "en": "Hopoo Feather",
+            "n": 1,
+            "why": "Alcança voadores e controla a descida."
           },
           {
             "en": "AtG Missile Mk. 1",
-            "n": 1,
-            "why": "Cutelos na ida e na volta e 7 bolas do Cristalizar: muitas chances de míssil de 300%."
+            "n": 2,
+            "why": "Três Mísseis: 900% por disparo."
           },
           {
-            "en": "Ignition Tank",
-            "n": 2,
-            "why": "Três Tanques: +900% no dano de Queimadura."
+            "en": "Death Mark",
+            "n": 1,
+            "why": "O kit já aplica Óleo, lentidão e Queimadura. Uma cópia basta."
           },
           {
             "en": "AtG Missile Mk. 1",
-            "n": 1,
-            "why": "Segundo Míssil: 600% por disparo."
-          },
-          {
-            "en": "Kjaro's Band",
-            "n": 1,
-            "why": "O Chamuscar causa 600%, acima do limite de 400%. Uma cópia basta, porque recarrega a cada 10 s."
-          },
-          {
-            "en": "Ignition Tank",
             "n": 2,
-            "why": "Cinco Tanques: +1.500% na Queimadura."
+            "why": "Cinco Mísseis: 1.500% por disparo."
+          },
+          {
+            "en": "Hopoo Feather",
+            "n": 1,
+            "why": "Segundo salto extra para atalhos e quedas."
           },
           {
             "en": "Ukulele",
             "n": 1,
-            "why": "Cutelos perfurantes acertam vários inimigos, e cada acerto pode soltar raio em 3 alvos."
+            "why": "Cutelos perfurantes acertam vários inimigos, e cada acerto pode soltar raio."
           },
           {
             "en": "AtG Missile Mk. 1",
-            "n": 1,
-            "why": "Terceiro Míssil: 900% por disparo."
-          },
-          {
-            "en": "Harvester's Scythe",
-            "n": 1,
-            "why": "Com os Óculos dos brancos, cura a cada crítico dos cutelos. Uma basta: as próximas só somam +4 de cura."
-          },
-          {
-            "en": "Ignition Tank",
-            "n": 1,
-            "why": "Seis Tanques: +1.800% na Queimadura."
+            "n": 2,
+            "why": "Sete Mísseis."
           }
         ],
-        "then": "Depois: continue empilhando Tanque de Ignição. Míssil até 5. Will-o'-the-wisp só se sobrar escolha. Marca Fatal parece ideal, mas os buffs de cozinha do CHEF não contam para ela."
+        "then": "Depois: continue empilhando o Míssil ASM. Tanque de Ignição só se jogar a variante de fogo."
       },
       {
         "tier": "legendary",
         "steps": [
           {
-            "en": "Brilliant Behemoth",
+            "en": "Alien Head",
             "n": 1,
-            "why": "Cada cutelo, bola de óleo e feixe do Chamuscar explode."
+            "why": "Refrigerador, Maré de Óleo e Sim, CHEF! voltam 25% mais rápido."
           },
           {
             "en": "Alien Head",
             "n": 1,
-            "why": "Cristalizar, Rolar e Chamuscar voltam 25% mais rápido: mais combos."
-          },
-          {
-            "en": "Sentient Meat Hook",
-            "n": 1,
-            "why": "Os cutelos atravessam o grupo na ida e na volta e ativam o Gancho várias vezes."
-          },
-          {
-            "en": "Alien Head",
-            "n": 1,
-            "why": "A segunda Cabeça: mais Óleo e mais fogo por minuto."
+            "why": "Segunda Cabeça: mais reforços por minuto."
           },
           {
             "en": "Brilliant Behemoth",
             "n": 1,
-            "why": "O segundo aumenta o raio da explosão."
+            "why": "Cada cutelo e cada cubo explode no grupo."
           }
         ],
-        "then": "Depois: Gancho até 2, Suporte do Rejuvenescimento para as refeições ou Relíquia Congelada."
+        "then": "Depois: Escorpião Simbiótico com a Marca Fatal, Gancho de Carnes Senciente ou Pós-combustor para mais Marés de Óleo."
       },
       {
         "tier": "boss",
@@ -788,12 +928,12 @@
           {
             "en": "Titanic Knurl",
             "n": 1,
-            "why": "Vida e regeneração para um personagem frágil que luta de perto."
+            "why": "Vida e regeneração para um personagem frágil."
           },
           {
             "en": "Molten Perforator",
             "n": 1,
-            "why": "Mais um efeito ao acertar para os cutelos e as 7 bolas do Cristalizar."
+            "why": "Mais um efeito ao acertar para os cutelos carregados."
           }
         ],
         "then": "Itens de chefe vêm do chefe do teleporte. Depois do Perfurador, mais Fragmentos."
@@ -804,17 +944,17 @@
           {
             "en": "Primordial Cube",
             "n": 1,
-            "why": "Escolha este primeiro: junta o grupo para o Cristalizar e o Chamuscar pegarem todos."
-          },
-          {
-            "en": "Molotov (6-Pack)",
-            "n": 1,
-            "why": "Se ainda não tem o Cubo: mais fogo em área, que o Tanque de Ignição aumenta."
+            "why": "Junta o grupo para o cubo reforçado congelar todos."
           },
           {
             "en": "Royal Capacitor",
             "n": 1,
-            "why": "Terceira opção: dano contra voadores e elites fora do alcance do Chamuscar."
+            "why": "Se ainda não tem o Cubo: dano contra voadores."
+          },
+          {
+            "en": "Gorag's Opus",
+            "n": 1,
+            "why": "Terceira opção: ritmo do Picar e velocidade."
           }
         ],
         "then": "Equipamento é um só: troque apenas se achar um barril com uma opção acima da sua."
@@ -825,7 +965,7 @@
           {
             "en": "Purity",
             "n": 1,
-            "why": "Se a cápsula der escolha: Chamuscar de 6 s para 4 s e Cristalizar de 12 s para 10 s, pior para Ukulele, Míssil e crítico."
+            "why": "Se a cápsula der escolha: Refrigerador de 5 s para 3 s, pior para Míssil e crítico."
           }
         ],
         "then": "A wiki não confirma se a cápsula lunar dá escolha com a Autoridade. Expansão Corporal só se aceitar a cura lenta. Nunca pegue Vidro Configurado."
@@ -834,22 +974,17 @@
         "tier": "void",
         "steps": [
           {
-            "en": "Lysate Cell",
+            "en": "Safer Spaces",
             "n": 1,
-            "why": "Em um berço verde: duas cargas de Cristalizar e recarga menor, mais grupos com Óleo."
+            "why": "Em um berço branco: bloqueia um golpe a cada recarga. Corrompe seus Tempos Difíceis."
           },
           {
             "en": "Lysate Cell",
             "n": 1,
-            "why": "Segunda Célula: mais um Cristalizar por ciclo."
-          },
-          {
-            "en": "Weeping Fungus",
-            "n": 1,
-            "why": "Em um berço branco: cura entre combos, e o Chamuscar e o Rolar podem ser usados correndo."
+            "why": "Em um berço verde: duas cargas de Sim, CHEF!."
           }
         ],
-        "then": "O berço define a raridade da escolha. Chama da Nulidade corrompe seus Will-o'-the-wisp e Polialaúde corrompe seus Ukuleles: pegue só se aceitar perder esses itens."
+        "then": "O berço define a raridade da escolha. Camarão de Plasma corrompe todos os seus Mísseis e Polialaúde todos os Ukuleles: pegue só se aceitar perder esses itens."
       }
     ]
   }
