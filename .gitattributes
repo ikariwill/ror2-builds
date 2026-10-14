@@ -1,0 +1,6 @@
+# Keep LF in the working tree on every OS: npm run validate compares the build JSON byte for byte
+# with the standard format, and a CRLF checkout (core.autocrlf on Windows) would fail it.
+* text=auto eol=lf
+*.webp binary
+*.png binary
+*.svg text eol=lf
