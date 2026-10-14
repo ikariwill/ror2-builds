@@ -62,7 +62,7 @@ export interface Source {
   title: string;
   url: string;
   kind: SourceKind;
-  /** publication or last update (YYYY-MM-DD, or YYYY-MM when the day is unknown); omitted for living wiki pages */
+  /** publication or last update (YYYY-MM-DD; YYYY-MM or YYYY when that is all that is known); omitted for living wiki pages */
   date?: string;
 }
 

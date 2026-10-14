@@ -371,8 +371,8 @@ export function Summary({ build }: { build: Build }) {
 
 const KIND_LABEL: Record<SourceKind, string> = { wiki: 'Wiki', patch: 'Notas de patch', guide: 'Guia', video: 'Vídeo', forum: 'Fórum' };
 
-/** "2025-06-08" → "06/2025", "2025-06" → "06/2025". */
-const monthYear = (d?: string) => (d ? `${d.slice(5, 7)}/${d.slice(0, 4)}` : '');
+/** "2025-06-08" → "06/2025", "2025-06" → "06/2025", "2021" → "2021". */
+const monthYear = (d?: string) => (!d ? '' : d.length === 4 ? d : `${d.slice(5, 7)}/${d.slice(0, 4)}`);
 
 function SourceList({ items }: { items: Source[] }) {
   return (

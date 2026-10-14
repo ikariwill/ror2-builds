@@ -44,7 +44,7 @@ for (const file of readdirSync(DIR).filter((f) => f.endsWith('.json')).sort()) {
   if (d.id && `${d.id}.json` !== file) errs.push(`id "${d.id}" does not match the file name`);
   for (const s of d.sources ?? []) {
     if (!SOURCE_KINDS.includes(s.kind)) errs.push(`source "${s.title}": kind must be one of ${SOURCE_KINDS.join(', ')}`);
-    if (s.date !== undefined && !/^\d{4}-\d{2}(-\d{2})?$/.test(s.date)) errs.push(`source "${s.title}": date must be YYYY-MM-DD or YYYY-MM`);
+    if (s.date !== undefined && !/^\d{4}(-\d{2}(-\d{2})?)?$/.test(s.date)) errs.push(`source "${s.title}": date must be YYYY-MM-DD, YYYY-MM or YYYY`);
   }
   const community = (d.sources ?? []).filter((s) => COMMUNITY.includes(s.kind)).length;
   if (community < MIN_COMMUNITY_SOURCES) warnings.push(`${file}: ${community} community source(s); recommendations should rest on at least ${MIN_COMMUNITY_SOURCES}`);
