@@ -1,20 +1,20 @@
 # Roadmap
 
-## Agora
-- [ ] Refinar o layout (desktop e celular) com base no protótipo do canvas "Builds RoR2 — Redesign".
-- [ ] Evoluir o design system Logbook (ver `design-system.md › Em aberto`).
-- [x] Primeiro deploy na Vercel (13/10/2026).
+## Now
+- [ ] Refine the layout (desktop and mobile) based on the "Builds RoR2 — Redesign" canvas prototype.
+- [ ] Evolve the Logbook design system (see `design-system.md › Open questions`).
+- [x] First deploy on Vercel (2026-10-13).
 
-## Próximo
-- [ ] Incluir itens da DLC Hallowed Concepts quando os dados da wiki estiverem completos.
-- [ ] Revisar Enforcer e Acolyte quando a wiki e a tradução pt-BR saírem.
-- [ ] Resolver as pendências de `data.md › Pendências de verificação`.
-- [ ] Decidir se os nomes de desafios usam a tradução pt-BR do jogo e padronizar.
-- [ ] Trazer para o repositório um script que confira efeitos de itens contra os dados da wiki (hoje roda fora).
-- [ ] Marcar "já peguei" por item, ligado ao modo partida.
-- [ ] Carregar cada build sob demanda (hoje o bundle tem ~170 KB gzip com as 21 builds).
+## Next
+- [ ] Include the Hallowed Concepts DLC items once the wiki data is complete.
+- [ ] Review Enforcer and Acolyte once the wiki and the pt-BR translation are out.
+- [ ] Resolve the items in `data.md › Known pending verifications`.
+- [ ] Decide whether challenge names use the game's pt-BR translation, and standardize.
+- [ ] Bring into the repository a script that checks item effects against the wiki data (today it runs outside).
+- [ ] Mark "already picked up" per item, tied to the run mode ("Modo partida").
+- [ ] Load each build on demand (today the bundle is ~170 KB gzip with all 21 builds).
 
-## Ideias
-- Comparar duas builds lado a lado.
-- Busca global de item: "em quais personagens este item é essencial?".
-- Exportar a lista da partida como imagem para o segundo monitor.
+## Ideas
+- Compare two builds side by side.
+- Global item search: "on which survivors is this item essential?".
+- Export the run checklist as an image for the second monitor.

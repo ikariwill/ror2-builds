@@ -1,15 +1,17 @@
 # Logbook de Builds — Risk of Rain 2
 
-Uma build recomendada para cada sobrevivente de Risk of Rain 2, em português do Brasil: loadout, itens por raridade
-com prioridade e quantidade, sinergias com o kit, substitutos e uma lista para usar durante a partida.
+One recommended build for each Risk of Rain 2 survivor, written in Brazilian Portuguese: loadout, items by rarity
+with priority and quantity, synergies with the kit, fallbacks and a checklist to use during the run.
 
 ```bash
 npm install
 npm run dev
 ```
 
-- Documentação: [`docs/`](docs/README.md)
+- Documentation: [`docs/`](docs/README.md)
 - Design system: [`docs/design-system.md`](docs/design-system.md)
-- Dados e fontes: [`docs/data.md`](docs/data.md)
+- Data and sources: [`docs/data.md`](docs/data.md)
 
-Mecânicas da [Risk of Rain 2 Wiki](https://riskofrain2.wiki.gg/). Site de fã, sem afiliação com a Hopoo Games ou a Gearbox.
+The code and documentation are in English; the site content is in pt-BR.
+
+Mechanics from the [Risk of Rain 2 Wiki](https://riskofrain2.wiki.gg/). Fan site, not affiliated with Hopoo Games or Gearbox.

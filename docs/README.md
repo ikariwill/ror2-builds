@@ -1,23 +1,23 @@
-# Documentação
+# Documentation
 
-O que precisa ficar registrado sobre o projeto. Atualize junto com o código.
+What needs to stay on record about the project. Update it together with the code.
 
-| Documento | Para que serve |
+| Document | What it is for |
 | --- | --- |
-| [design-system.md](design-system.md) | Design system **Logbook**: direção visual, tokens, tipografia, componentes, regras anti-genérico |
-| [data.md](data.md) | De onde vêm os dados, formato do JSON, como criar ou corrigir uma build, ícones, pendências de verificação |
-| [deploy.md](deploy.md) | Publicação na Vercel |
-| [roadmap.md](roadmap.md) | Próximos passos e ideias em aberto |
-| [decisions/](decisions/) | Registro de decisões (ADR), uma por arquivo, numeradas |
+| [design-system.md](design-system.md) | **Logbook** design system: visual direction, tokens, typography, components, anti-generic rules |
+| [data.md](data.md) | Where the data comes from, JSON format, how to create or fix a build, icons, pending verifications |
+| [deploy.md](deploy.md) | Publishing on Vercel |
+| [roadmap.md](roadmap.md) | Next steps and open ideas |
+| [decisions/](decisions/) | Decision records (ADRs), one per file, numbered |
 
-## Decisões registradas
+## Recorded decisions
 
-- [0001 — Stack: Vite, React, TypeScript e Tailwind v4](decisions/0001-stack.md)
-- [0002 — Tema escuro único](decisions/0002-tema-escuro-unico.md)
-- [0003 — Dados estáticos em JSON, um arquivo por sobrevivente](decisions/0003-dados-estaticos.md)
+- [0001 — Stack: Vite, React, TypeScript and Tailwind v4](decisions/0001-stack.md)
+- [0002 — Single dark theme](decisions/0002-single-dark-theme.md)
+- [0003 — Static JSON data, one file per survivor](decisions/0003-static-json-data.md)
 
-## Revisões
+## Reviews
 
-- [13/10/2026 — revisão das 21 builds](revisoes/2026-10-13-revisao-das-builds.md)
+- [2026-10-13 — review of the 21 builds](reviews/2026-10-13-build-review.md)
 
-Modelo de ADR: copie [decisions/_modelo.md](decisions/_modelo.md).
+ADR template: copy [decisions/_template.md](decisions/_template.md).

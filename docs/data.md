@@ -1,106 +1,117 @@
-# Dados das builds
+# Build data
 
-## Fontes
+## Sources
 
-| O quê | Fonte | Observação |
+| What | Source | Notes |
 | --- | --- | --- |
-| Mecânicas, números e notas das habilidades | [Risk of Rain 2 Wiki](https://riskofrain2.wiki.gg/) (wiki.gg, a wiki oficial da comunidade) | Página de cada sobrevivente, incluindo Notes/Tips |
-| Texto exato, raridade e DLC dos itens | Módulos de dados da wiki (`Module:Items/Data`, `Module:Equipment/Data`), via [Petrichor Index](https://github.com/tsieck/petrichor-index) | Verificado em **10/08/2026**. Não inclui a DLC Hallowed Concepts (lançada em 08/10/2026) |
-| Ícones dos itens | Sprites originais do jogo, via Petrichor Index | 125 arquivos `.webp` em `public/icons/` |
-| Nomes em português | Arquivo de idioma pt-BR do jogo (`output-portuguese_br.json`), via [maicogtbr/Descricoes-datalhadas-Risk-of-Rain-2-PT-BR](https://github.com/maicogtbr/Descricoes-datalhadas-Risk-of-Rain-2-PT-BR) | Snapshot de dez/2025. Não tem os textos da Hallowed Concepts |
-| Conferência de escolhas | Guias da comunidade (ex.: Rogue Ranker) | Nunca sobrepõe a wiki em mecânica |
+| Skill mechanics, numbers and notes | [Risk of Rain 2 Wiki](https://riskofrain2.wiki.gg/) (wiki.gg, the official community wiki) | Each survivor's page, including Notes/Tips |
+| Exact item text, rarity and DLC | Wiki data modules (`Module:Items/Data`, `Module:Equipment/Data`), via [Petrichor Index](https://github.com/tsieck/petrichor-index) | Checked on **2026-08-10**. Does not include the Hallowed Concepts DLC (released 2026-10-08) |
+| Item icons | Original game sprites, via Petrichor Index | 125 `.webp` files in `public/icons/` |
+| Portuguese names | The game's pt-BR language file (`output-portuguese_br.json`), via [maicogtbr/Descricoes-datalhadas-Risk-of-Rain-2-PT-BR](https://github.com/maicogtbr/Descricoes-datalhadas-Risk-of-Rain-2-PT-BR) | Snapshot from Dec 2025. Does not have the Hallowed Concepts texts |
+| Cross-checking choices | Community guides (e.g. Rogue Ranker) | Never overrides the wiki on mechanics |
 
-Os ícones e nomes são propriedade da Hopoo Games/Gearbox; o site é de fã e sem fins comerciais.
-O Petrichor Index não declara licença no README; se publicarmos amplamente, vale confirmar com o autor ou
-baixar os ícones direto da wiki.
+The icons and names are property of Hopoo Games/Gearbox; the site is a non-commercial fan site.
+Petrichor Index does not state a license in its README; if we publish widely, it is worth confirming with the author or
+downloading the icons straight from the wiki.
 
-## Formato
+## Format
 
-Um arquivo por sobrevivente: `src/data/builds/<id>.json`. Tipos em `src/types.ts` (`Build`).
+One file per survivor: `src/data/builds/<id>.json`. Types in `src/types.ts` (`Build`).
+
+Keys, ids and enum-like values (`id`, `sections[].id`, `sections[].color`, `command.tiers[].tier`, `prio`, `icon`)
+are code and stay in English. Every text field shown to the reader is pt-BR.
 
 ```jsonc
 {
-  "id": "bandit",                 // = nome do arquivo; também é a URL (#/bandit)
+  "id": "bandit",                 // = file name; also the URL (#/bandit)
   "name_pt": "Bandido", "name_en": "Bandit",
   "title": "Bandido: Build de Crítico",
-  "tagline": "frase curta do seletor",
-  "lede": "2–3 frases: o que a build faz e por quê",
+  "tagline": "short phrase for the selector",
+  "lede": "2–3 sentences: what the build does and why",
   "loadout": [{ "slot": "Primária", "skill": "Rajada (Burst)" }],
-  "skills": [{ "slot", "pt", "en", "pick": "Recomendada|Variante|Fixa|Única opção", "spec": "números", "why": "…" }],
-  "sections": [{                  // nesta ordem: comum, incomum, lendario, chefe, equipamento, lunar, vazio
-    "id": "comum", "name": "Comum", "color": "branco", "intro": "1 frase",
+  "skills": [{ "slot", "pt", "en", "pick": "Recomendada|Variante|Fixa|Única opção", "spec": "numbers", "why": "…" }],
+  "sections": [{                  // in this order: common, uncommon, legendary, boss, equipment, lunar, void
+    "id": "common", "name": "Comum", "color": "white", "intro": "1 sentence",
     "items": [{ "icon": "lens-makers-glasses", "pt": "…", "en": "Lens-Maker's Glasses",
-                "prio": 1, "qty": "4 a 8", "effect": "texto do item traduzido", "why": "por que neste personagem" }]
+                "prio": 1, "qty": "4 a 8", "effect": "translated item text", "why": "why on this survivor" }]
   }],
   "synergy":   [{ "title", "text" }],
   "rotation":  [{ "step", "text" }],
-  "essentials":[{ "pt", "en" }],   // viram o "Núcleo da build"; cada "en" precisa existir em alguma seção
+  "essentials":[{ "pt", "en" }],   // become the "Núcleo da build" (build core); each "en" must exist in some section
   "situational_note": "Situacionais: …",
   "fallbacks": [{ "pt", "en", "text" }],
-  "summary": "3–4 frases",
+  "summary": "3–4 sentences",
   "checklist": [{ "title", "text" }],
   "sources": [{ "title", "url" }],
-  "notes": ["ressalvas: DLC, dados não confirmados, divergências"],
-  "command": {                     // opcional: ordem de compra para o Artefato da Autoridade (Artifact of Command)
-    "intro": "2 frases",
-    "tiers": [{ "tier": "comum", "steps": [{ "en": "Backup Magazine", "n": 2, "why": "1 frase" }], "then": "Depois: …" }]
+  "notes": ["caveats: DLC, unconfirmed data, discrepancies"],
+  "command": {                     // optional: pick order for the Artifact of Command (Artefato da Autoridade)
+    "intro": "2 sentences",
+    "tiers": [{ "tier": "common", "steps": [{ "en": "Backup Magazine", "n": 2, "why": "1 sentence" }], "then": "Depois: …" }]
   }
 }
 ```
 
-Prioridade (`prio`): `1` Essencial · `2` Alta · `3` Média · `4` Situacional · `0` Evitar/cuidado.
+Section `color` values by tier: `common` white · `uncommon` green · `legendary` red · `boss` yellow ·
+`equipment` orange · `lunar` blue · `void` purple.
 
-`npm run validate` confere a formatação (2 espaços),  chaves obrigatórias, ordem e nomes das seções, prioridade válida, existência de cada
-ícone em `public/icons/` se todo essencial aparece numa seção e, na ordem de compra, se cada item existe nos cards da mesma raridade.
+Priority (`prio`): `1` Essential (Essencial) · `2` High (Alta) · `3` Medium (Média) · `4` Situational (Situacional) ·
+`0` Avoid/careful (Evitar).
 
-## Como criar ou corrigir uma build
+`npm run validate` checks the formatting (2 spaces), required keys, section order and names, valid priority, that every
+icon exists in `public/icons/`, that every essential appears in a section and, in the pick order, that every item exists
+in the cards of the same rarity.
 
-1. Leia a página do sobrevivente na wiki (habilidades, Notes, Tips).
-2. Para cada item, use o texto exato do item e traduza mantendo números e empilhamento.
-3. Explique o `why` pelo kit do personagem. Se uma interação não está na wiki, não afirme.
-4. Item novo precisa do ícone em `public/icons/<slug>.webp` (slug em minúsculas com hífens, como os existentes).
+## How to create or fix a build
+
+1. Read the survivor's page on the wiki (skills, Notes, Tips).
+2. For each item, use the exact item text and translate it keeping the numbers and the stacking.
+3. Explain the `why` through the survivor's kit. If an interaction is not on the wiki, do not claim it.
+4. A new item needs its icon in `public/icons/<slug>.webp` (lowercase slug with hyphens, like the existing ones).
 5. `npm run format:data && npm run validate && npm run build`.
-6. Divergência entre wiki e texto do jogo: use o número da wiki e cite a diferença no `spec` da habilidade.
+6. Discrepancy between the wiki and the game text: use the wiki number and mention the difference in the skill's `spec`.
 
-## Artefato da Autoridade (Artifact of Command)
+## Artifact of Command (Artefato da Autoridade)
 
-Nome oficial em pt-BR: **Artefato da Autoridade**. A ordem de compra (`command`) segue o que a wiki confirma:
-cada essência deixa escolher qualquer item desbloqueado da raridade; não aparecem impressoras, sucateiros,
-terminais múltiplos nem Poças de Purificação; **Pérola e Pérola Irradiante não podem ser obtidas** (página
-Irradiant Pearl); berços do Vazio limitam a escolha a uma raridade. Equipamentos lunares ficam fora da ordem laranja.
+Official pt-BR name: **Artefato da Autoridade**. The pick order (`command`) follows what the wiki confirms:
+each essence lets you choose any unlocked item of that rarity; printers, scrappers, multishop terminals and
+Cleansing Pools do not appear; **Pearl and Irradiant Pearl cannot be obtained** (Irradiant Pearl page);
+Void cradles limit the choice to one rarity. Lunar equipment stays out of the orange order.
 
-Critério da ordem: **acumule** os itens que crescem a cada cópia (Míssil ASM, Cinturões, Semente Sanguessuga,
-Tanque de Ignição, Ukulele…) em vez de espalhar 1 de cada. Nos verdes, 1 ou 2 itens de acúmulo somam pelo menos metade
-das ~12 escolhas; itens que crescem pouco (Foice, Instintos, Cartucheira, Marca Fatal…) entram com 1 ou 2 cópias.
-Sucata Regeneradora não serve com o artefato (não há impressoras). O validador barra a ordem que passa do máximo
-do `qty` do card.
+Ordering criterion: **stack** the items that grow with each copy (AtG Missile, the Bands, Leeching Seed,
+Ignition Tank, Ukulele…) instead of spreading 1 of each. In the greens, 1 or 2 stacking items add up to at least half
+of the ~12 picks; items that grow little (Scythe, Instincts, Bandolier, Death Mark…) come in with 1 or 2 copies.
+Regenerating Scrap is useless with the artifact (there are no printers). The validator rejects an order that exceeds the
+maximum of the card's `qty`.
 
-Cinturões de Kjaro e Runald **disparam juntos** e dividem a recarga de 10 s (wiki, Kjaro's Band). Crítico e
-Projéteis Perfurantes não fazem um golpe fraco passar do limite de 400%.
+Kjaro's and Runald's Bands **trigger together** and share the 10 s cooldown (wiki, Kjaro's Band). Critical strikes and
+Armor-Piercing Rounds do not push a weak hit past the 400% threshold.
 
-## Pendências de verificação conhecidas
+## Known pending verifications
 
-Atualizadas na revisão de 13/10/2026 (`docs/revisoes/2026-10-13-revisao-das-builds.md`). Cada build também lista as
-suas em `notes`.
+Updated in the 2026-10-13 review (`docs/reviews/2026-10-13-build-review.md`). Each build also lists its own
+in `notes`.
 
-- **Enforcer e Acolyte** (Hallowed Concepts): números das habilidades conferidos com a wiki de 13/10; requisitos de
-  vários desafios ainda não estão na wiki; habilidades sem nome pt-BR. Revisar quando a wiki e a tradução saírem.
-- **Itens da Hallowed Concepts**: ainda fora do conjunto de dados. Atualizar e reavaliar as builds.
-- **Caçadora**: Chuva de Flechas com números conflitantes na própria wiki (330%/s na tabela, 2090% total nas notas).
-- **REX**: recarga de Rajada de Espinhos 5,5 s (tabela) vs. 5 s (patch note); se aliados pegam as frutas da Colher.
-- **Exploradora (Seeker)**: Mão Invisível 6 s e dano/cura do Meditar confirmados. Sem confirmação na wiki atual:
-  recarga e coeficiente do Meditar, da Explosão de Palma e do Adiamento; efeito da Salvação (Saving Grace), descrito
-  pelo texto do jogo. O arquivo de idioma tem um primário alternativo, Busca de Alma (Soul Search), que a wiki não lista.
-- **CHEF**: recarga de Sim, CHEF! (Yes, CHEF!) não está na wiki (guia diz 10 s); se o Óleo quadruplica queimaduras de
-  itens não está confirmado; seção do Cristalizar incompleta na wiki.
-- **Operador**: o primário alternativo Nanorrecipiente não está na wiki; descrito pelo texto do jogo.
-- **Andarilho**: raridade dos itens do Sucatear, Duplicador com itens temporários e efeito do Trevo 57 na Tralha.
-- **Herege**: a própria wiki se contradiz sobre o que o desafio Destruidor de Barreiras (Blockade Breaker) libera
-  (os quatro itens de Heresia ou só Visões e Ganchos).
-- **Canhoneira**: se a HH44, com exatamente 400%, ativa os Cinturões (a wiki diz ora "mais de", ora "400% ou mais").
-- **Acrid**: se o Veneno pode ser crítico ou ativar itens ao acertar (a wiki não diz).
-- **Mercenário**: 0,6 s de invulnerabilidade por investida (wiki atual) vs. 0,2 s no fim da investida (patch antigo).
-- **Bandido**: duração da invisibilidade da Bomba de Fumaça; se a Lente Rúnica é reduzida pelo coeficiente da Rajada.
-- **Cápsulas lunares com a Autoridade**: a wiki não confirma se dão escolha. O arquivo de idioma do jogo tem a
-  string "Essência da Autoridade Azul", o que sugere que sim. As ordens tratam o lunar como condicional.
-- **Nomes de desafios** estão em inglês nas builds, embora o arquivo pt-BR tenha tradução. Decidir e padronizar.
+- **Enforcer and Acolyte** (Hallowed Concepts): skill numbers checked against the wiki on 10/13; requirements of
+  several challenges are not on the wiki yet; skills have no pt-BR name. Review when the wiki and the translation are out.
+- **Hallowed Concepts items**: still outside the dataset. Update and re-evaluate the builds.
+- **Huntress (Caçadora)**: Arrow Rain has conflicting numbers on the wiki itself (330%/s in the table, 2090% total in the notes).
+- **REX**: Bramble Volley cooldown 5.5 s (table) vs. 5 s (patch note); whether allies pick up the fruit from
+  DIRECTIVE: Harvest.
+- **Seeker (Exploradora)**: Unseen Hand 6 s and Meditate damage/healing confirmed. Not confirmed on the current wiki:
+  cooldown and coefficient of Meditate, Palm Blast and Reprieve; the effect of Saving Grace (Salvação), described
+  from the game text. The language file has an alternate primary, Soul Search (Busca de Alma), which the wiki does not list.
+- **CHEF**: the cooldown of Yes, CHEF! (Sim, CHEF!) is not on the wiki (a guide says 10 s); whether the oil (Óleo)
+  quadruples item burns is not confirmed; the Glaze section is incomplete on the wiki.
+- **Operator (Operador)**: the alternate primary Nanorrecipiente is not on the wiki; described from the game text.
+- **Drifter (Andarilho)**: rarity of the items from Salvage, Substandard Duplicator with temporary items, and the effect
+  of 57 Leaf Clover on junk ("Tralha").
+- **Heretic (Herege)**: the wiki contradicts itself on what the Blockade Breaker challenge (Destruidor de Barreiras)
+  unlocks (all four Heresy items or only Visions and Hooks).
+- **Railgunner (Canhoneira)**: whether the HH44, at exactly 400%, triggers the Bands (the wiki sometimes says "more than",
+  sometimes "400% or more").
+- **Acrid**: whether Poison can crit or trigger on-hit items (the wiki does not say).
+- **Mercenary (Mercenário)**: 0.6 s of invulnerability per dash (current wiki) vs. 0.2 s at the end of the dash (old patch).
+- **Bandit (Bandido)**: duration of Smoke Bomb's invisibility; whether Runic Lens is reduced by Burst's coefficient.
+- **Lunar pods with the Artifact of Command**: the wiki does not confirm whether they give a choice. The game's language
+  file has the string "Essência da Autoridade Azul", which suggests they do. The orders treat lunar as conditional.
+- **Challenge names** are in English in the builds, although the pt-BR file has translations. Decide and standardize.

@@ -1,23 +1,23 @@
 # Deploy
 
-Hospedagem: **Vercel**, projeto ligado ao repositório `ikariwill/ror2-builds`.
+Hosting: **Vercel**, project linked to the `ikariwill/ror2-builds` repository.
 
-## Primeira vez
+## First time
 
-1. vercel.com → **Add New… → Project** → importar `ikariwill/ror2-builds`.
-2. A Vercel detecta **Vite**. Confira:
+1. vercel.com → **Add New… → Project** → import `ikariwill/ror2-builds`.
+2. Vercel detects **Vite**. Check:
    - Build Command: `npm run build`
    - Output Directory: `dist`
    - Install Command: `npm install`
-3. **Deploy.** Sem variáveis de ambiente.
+3. **Deploy.** No environment variables.
 
-## Depois disso
+## After that
 
-- Push na `main` → deploy de produção automático.
-- Push em outra branch ou PR → deploy de pré-visualização com URL própria.
+- Push to `main` → automatic production deploy.
+- Push to another branch or a PR → preview deploy with its own URL.
 
-## Notas
+## Notes
 
-- O roteamento é por hash (`#/bandit`), então não há reescrita de rotas a configurar.
-- Os ícones ficam em `public/icons/` e são servidos estáticos com cache da Vercel.
-- O build roda `tsc --noEmit` antes do `vite build`: erro de tipo quebra o deploy de propósito.
+- Routing is hash-based (`#/bandit`), so there are no route rewrites to configure.
+- The icons live in `public/icons/` and are served as static files with Vercel's cache.
+- The build runs `tsc --noEmit` before `vite build`: a type error breaks the deploy on purpose.
