@@ -638,19 +638,23 @@
   "sources": [
     {
       "title": "MUL-T · Risk of Rain 2 Wiki",
-      "url": "https://riskofrain2.wiki.gg/wiki/MUL-T"
+      "url": "https://riskofrain2.wiki.gg/wiki/MUL-T",
+      "kind": "wiki"
     },
     {
       "title": "Brilliant Behemoth · Risk of Rain 2 Wiki (raio e coeficiente)",
-      "url": "https://riskofrain2.wiki.gg/wiki/Brilliant_Behemoth"
+      "url": "https://riskofrain2.wiki.gg/wiki/Brilliant_Behemoth",
+      "kind": "wiki"
     },
     {
       "title": "Items · Risk of Rain 2 Wiki",
-      "url": "https://riskofrain2.wiki.gg/wiki/Items"
+      "url": "https://riskofrain2.wiki.gg/wiki/Items",
+      "kind": "wiki"
     },
     {
       "title": "MUL-T Risk of Rain 2 · Rogue Ranker",
-      "url": "https://rogueranker.com/mul-t-risk-of-rain-2/"
+      "url": "https://rogueranker.com/mul-t-risk-of-rain-2/",
+      "kind": "guide"
     }
   ],
   "notes": [

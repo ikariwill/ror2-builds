@@ -578,23 +578,28 @@
   "sources": [
     {
       "title": "Operator · Risk of Rain 2 Wiki",
-      "url": "https://riskofrain2.wiki.gg/wiki/Operator"
+      "url": "https://riskofrain2.wiki.gg/wiki/Operator",
+      "kind": "wiki"
     },
     {
       "title": "ADMIN-OVERRIDE · Risk of Rain 2 Wiki",
-      "url": "https://riskofrain2.wiki.gg/wiki/ADMIN-OVERRIDE"
+      "url": "https://riskofrain2.wiki.gg/wiki/ADMIN-OVERRIDE",
+      "kind": "wiki"
     },
     {
       "title": "Operator: Putting Together a Team · Risk of Rain 2 Wiki",
-      "url": "https://riskofrain2.wiki.gg/wiki/Operator:_Putting_Together_a_Team"
+      "url": "https://riskofrain2.wiki.gg/wiki/Operator:_Putting_Together_a_Team",
+      "kind": "wiki"
     },
     {
       "title": "Items · Risk of Rain 2 Wiki",
-      "url": "https://riskofrain2.wiki.gg/wiki/Items"
+      "url": "https://riskofrain2.wiki.gg/wiki/Items",
+      "kind": "wiki"
     },
     {
       "title": "Operator Risk of Rain 2 · Rogue Ranker (guia da comunidade)",
-      "url": "https://rogueranker.com/operator-ror2/"
+      "url": "https://rogueranker.com/operator-ror2/",
+      "kind": "guide"
     }
   ],
   "notes": [

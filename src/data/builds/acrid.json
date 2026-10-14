@@ -659,11 +659,13 @@
   "sources": [
     {
       "title": "Acrid · Risk of Rain 2 Wiki",
-      "url": "https://riskofrain2.wiki.gg/wiki/Acrid"
+      "url": "https://riskofrain2.wiki.gg/wiki/Acrid",
+      "kind": "wiki"
     },
     {
       "title": "Items · Risk of Rain 2 Wiki",
-      "url": "https://riskofrain2.wiki.gg/wiki/Items"
+      "url": "https://riskofrain2.wiki.gg/wiki/Items",
+      "kind": "wiki"
     }
   ],
   "notes": [

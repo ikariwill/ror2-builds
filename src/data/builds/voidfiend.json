@@ -588,19 +588,23 @@
   "sources": [
     {
       "title": "Void Fiend · Risk of Rain 2 Wiki",
-      "url": "https://riskofrain2.wiki.gg/wiki/Void_Fiend"
+      "url": "https://riskofrain2.wiki.gg/wiki/Void_Fiend",
+      "kind": "wiki"
     },
     {
       "title": "Lens-Maker's Glasses · Risk of Rain 2 Wiki",
-      "url": "https://riskofrain2.wiki.gg/wiki/Lens-Maker's_Glasses"
+      "url": "https://riskofrain2.wiki.gg/wiki/Lens-Maker's_Glasses",
+      "kind": "wiki"
     },
     {
       "title": "Proc Coefficient · Risk of Rain 2 Wiki",
-      "url": "https://riskofrain2.wiki.gg/wiki/Proc_Coefficient"
+      "url": "https://riskofrain2.wiki.gg/wiki/Proc_Coefficient",
+      "kind": "wiki"
     },
     {
       "title": "Items · Risk of Rain 2 Wiki",
-      "url": "https://riskofrain2.wiki.gg/wiki/Items"
+      "url": "https://riskofrain2.wiki.gg/wiki/Items",
+      "kind": "wiki"
     }
   ],
   "notes": [

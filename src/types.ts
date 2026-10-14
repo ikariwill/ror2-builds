@@ -55,6 +55,17 @@ export interface CommandOrder {
   tiers: CommandTier[];
 }
 
+/** wiki and patch: mechanics and numbers. guide, video, forum: what players actually pick (recommendations). */
+export type SourceKind = 'wiki' | 'patch' | 'guide' | 'video' | 'forum';
+
+export interface Source {
+  title: string;
+  url: string;
+  kind: SourceKind;
+  /** publication or last update (YYYY-MM-DD, or YYYY-MM when the day is unknown); omitted for living wiki pages */
+  date?: string;
+}
+
 export interface Build {
   id: string;
   name_pt: string;
@@ -72,7 +83,9 @@ export interface Build {
   fallbacks: { pt: string; en: string; text: string }[];
   summary: string;
   checklist: { title: string; text: string }[];
-  sources: { title: string; url: string }[];
+  sources: Source[];
+  /** date the build was last checked against community sources (YYYY-MM-DD) */
+  reviewed?: string;
   notes: string[];
   command?: CommandOrder;
 }

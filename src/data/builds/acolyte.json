@@ -605,11 +605,13 @@
   "sources": [
     {
       "title": "Acolyte · Risk of Rain 2 Wiki",
-      "url": "https://riskofrain2.wiki.gg/wiki/Acolyte"
+      "url": "https://riskofrain2.wiki.gg/wiki/Acolyte",
+      "kind": "wiki"
     },
     {
       "title": "Items · Risk of Rain 2 Wiki",
-      "url": "https://riskofrain2.wiki.gg/wiki/Items"
+      "url": "https://riskofrain2.wiki.gg/wiki/Items",
+      "kind": "wiki"
     }
   ],
   "notes": [

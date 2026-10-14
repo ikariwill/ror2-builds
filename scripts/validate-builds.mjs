@@ -12,6 +12,10 @@ const TOP = ['id', 'name_pt', 'name_en', 'title', 'tagline', 'lede', 'loadout', 
 const TIERS = ['common', 'uncommon', 'legendary', 'boss', 'equipment', 'lunar', 'void'];
 const ITEM = ['icon', 'pt', 'en', 'prio', 'qty', 'effect', 'why'];
 const SKILL = ['slot', 'pt', 'en', 'pick', 'spec', 'why'];
+const SOURCE_KINDS = ['wiki', 'patch', 'guide', 'video', 'forum'];
+const COMMUNITY = ['guide', 'video', 'forum'];
+/** Recommendations must come from players, not only from the wiki (docs/data.md › Sources). */
+const MIN_COMMUNITY_SOURCES = 2;
 
 /** Maximum of a pt-BR quantity such as "3 a 6", "1", "2 a 4 (…)". No maximum ("ou mais", "+", "sem limite"): null. */
 function qtyMax(q) {
@@ -23,6 +27,7 @@ function qtyMax(q) {
 }
 
 let failed = 0;
+const warnings = [];
 for (const file of readdirSync(DIR).filter((f) => f.endsWith('.json')).sort()) {
   const errs = [];
   let d;
@@ -37,6 +42,13 @@ for (const file of readdirSync(DIR).filter((f) => f.endsWith('.json')).sort()) {
   if (raw !== JSON.stringify(d, null, 2) + '\n') errs.push('formatting does not match the standard (run npm run format:data)');
   for (const k of TOP) if (!(k in d)) errs.push(`missing key "${k}"`);
   if (d.id && `${d.id}.json` !== file) errs.push(`id "${d.id}" does not match the file name`);
+  for (const s of d.sources ?? []) {
+    if (!SOURCE_KINDS.includes(s.kind)) errs.push(`source "${s.title}": kind must be one of ${SOURCE_KINDS.join(', ')}`);
+    if (s.date !== undefined && !/^\d{4}-\d{2}(-\d{2})?$/.test(s.date)) errs.push(`source "${s.title}": date must be YYYY-MM-DD or YYYY-MM`);
+  }
+  const community = (d.sources ?? []).filter((s) => COMMUNITY.includes(s.kind)).length;
+  if (community < MIN_COMMUNITY_SOURCES) warnings.push(`${file}: ${community} community source(s); recommendations should rest on at least ${MIN_COMMUNITY_SOURCES}`);
+  if (d.reviewed !== undefined && !/^\d{4}-\d{2}-\d{2}$/.test(d.reviewed)) errs.push('reviewed must be YYYY-MM-DD');
   // Writing rule (CLAUDE.md): no em dash anywhere in the content.
   const dashes = raw.split('\n').filter((l) => l.includes('—'));
   for (const l of dashes) errs.push(`em dash (U+2014) in content: ${l.trim().slice(0, 80)}`);
@@ -94,6 +106,7 @@ for (const file of readdirSync(DIR).filter((f) => f.endsWith('.json')).sort()) {
     console.log(`✓ ${file} (${n} items)`);
   }
 }
+if (warnings.length) console.log(`\nWarnings:\n  ! ${warnings.join('\n  ! ')}`);
 if (failed) {
   console.log(`\n${failed} file(s) with errors.`);
   process.exit(1);

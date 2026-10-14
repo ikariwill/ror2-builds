@@ -645,19 +645,23 @@
   "sources": [
     {
       "title": "Captain · Risk of Rain 2 Wiki",
-      "url": "https://riskofrain2.wiki.gg/wiki/Captain"
+      "url": "https://riskofrain2.wiki.gg/wiki/Captain",
+      "kind": "wiki"
     },
     {
       "title": "Hardlight Afterburner · Risk of Rain 2 Wiki",
-      "url": "https://riskofrain2.wiki.gg/wiki/Hardlight_Afterburner"
+      "url": "https://riskofrain2.wiki.gg/wiki/Hardlight_Afterburner",
+      "kind": "wiki"
     },
     {
       "title": "Lysate Cell · Risk of Rain 2 Wiki",
-      "url": "https://riskofrain2.wiki.gg/wiki/Lysate_Cell"
+      "url": "https://riskofrain2.wiki.gg/wiki/Lysate_Cell",
+      "kind": "wiki"
     },
     {
       "title": "Items · Risk of Rain 2 Wiki",
-      "url": "https://riskofrain2.wiki.gg/wiki/Items"
+      "url": "https://riskofrain2.wiki.gg/wiki/Items",
+      "kind": "wiki"
     }
   ],
   "notes": [

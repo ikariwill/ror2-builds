@@ -1,6 +1,6 @@
 // Content blocks of a build, used by the desktop and mobile views.
 import { BUILDS, GROUPS, PRIO_LABEL, TIER, firstSentence, shortQty, type ItemLanes } from '../data/roster.ts';
-import type { Build, FlatItem, Skill } from '../types.ts';
+import type { Build, FlatItem, Skill, Source, SourceKind } from '../types.ts';
 import { Heading, ItemIcon, Label, PrioTag, cx, icon } from './ui.tsx';
 
 /** Native survivor selector, grouped by DLC. Used on mobile and on narrow desktop (no rail). */
@@ -369,19 +369,55 @@ export function Summary({ build }: { build: Build }) {
   );
 }
 
-export function Sources({ build }: { build: Build }) {
+const KIND_LABEL: Record<SourceKind, string> = { wiki: 'Wiki', patch: 'Notas de patch', guide: 'Guia', video: 'Vídeo', forum: 'Fórum' };
+
+/** "2025-06-08" → "06/2025", "2025-06" → "06/2025". */
+const monthYear = (d?: string) => (d ? `${d.slice(5, 7)}/${d.slice(0, 4)}` : '');
+
+function SourceList({ items }: { items: Source[] }) {
   return (
-    <footer className="text-sm text-ink-3">
-      <p className="m-0">Fontes desta build</p>
-      <ul className="mt-2 flex flex-col gap-1 pl-4">
-        {build.sources.map((s, i) => (
-          <li key={i}>
-            <a href={s.url} target="_blank" rel="noopener noreferrer" className="text-ink-2 hover:text-ink">
-              {s.title}
-            </a>
-          </li>
-        ))}
-      </ul>
+    <ul className="m-0 flex list-none flex-col gap-1.5 p-0">
+      {items.map((s, i) => (
+        <li key={i} className="flex flex-wrap items-baseline gap-x-2">
+          <span className="w-24 flex-none font-mono text-label text-ink-4 uppercase">
+            {KIND_LABEL[s.kind]}
+            {s.date && ` · ${monthYear(s.date)}`}
+          </span>
+          <a href={s.url} target="_blank" rel="noopener noreferrer" className="min-w-0 flex-1 text-ink-2 hover:text-ink">
+            {s.title}
+          </a>
+        </li>
+      ))}
+    </ul>
+  );
+}
+
+/** Player sources (what to pick) apart from wiki and patch notes (mechanics and numbers). */
+export function Sources({ build }: { build: Build }) {
+  const community = build.sources.filter((s) => s.kind === 'guide' || s.kind === 'video' || s.kind === 'forum');
+  const reference = build.sources.filter((s) => s.kind === 'wiki' || s.kind === 'patch');
+  return (
+    <footer className="flex flex-col gap-4 text-sm text-ink-3">
+      <div className="flex flex-col gap-1">
+        <Heading as="h2" size="md">Fontes desta build</Heading>
+        {build.reviewed && (
+          <p className="m-0">
+            Escolhas conferidas com guias e partidas de jogadores experientes em {build.reviewed.split('-').reverse().join('/')}. Números e mecânicas vêm da wiki.
+          </p>
+        )}
+      </div>
+      {community.length > 0 && (
+        <div className="flex flex-col gap-2">
+          <Label>O que os jogadores usam</Label>
+          <SourceList items={community} />
+        </div>
+      )}
+      {reference.length > 0 && (
+        <div className="flex flex-col gap-2">
+          <Label>Mecânicas e números</Label>
+          <SourceList items={reference} />
+        </div>
+      )}
     </footer>
   );
 }

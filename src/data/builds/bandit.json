@@ -653,19 +653,23 @@
   "sources": [
     {
       "title": "Bandit · Risk of Rain 2 Wiki",
-      "url": "https://riskofrain2.wiki.gg/wiki/Bandit"
+      "url": "https://riskofrain2.wiki.gg/wiki/Bandit",
+      "kind": "wiki"
     },
     {
       "title": "Items · Risk of Rain 2 Wiki",
-      "url": "https://riskofrain2.wiki.gg/wiki/Items"
+      "url": "https://riskofrain2.wiki.gg/wiki/Items",
+      "kind": "wiki"
     },
     {
       "title": "Luck · Risk of Rain 2 Wiki",
-      "url": "https://riskofrain2.wiki.gg/wiki/Luck"
+      "url": "https://riskofrain2.wiki.gg/wiki/Luck",
+      "kind": "wiki"
     },
     {
       "title": "Guia do Bandit · Rogue Ranker",
-      "url": "https://rogueranker.com/risk-of-rain-2-bandit/"
+      "url": "https://rogueranker.com/risk-of-rain-2-bandit/",
+      "kind": "guide"
     }
   ],
   "notes": [

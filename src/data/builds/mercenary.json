@@ -623,11 +623,13 @@
   "sources": [
     {
       "title": "Mercenary · Risk of Rain 2 Wiki",
-      "url": "https://riskofrain2.wiki.gg/wiki/Mercenary"
+      "url": "https://riskofrain2.wiki.gg/wiki/Mercenary",
+      "kind": "wiki"
     },
     {
       "title": "Items · Risk of Rain 2 Wiki",
-      "url": "https://riskofrain2.wiki.gg/wiki/Items"
+      "url": "https://riskofrain2.wiki.gg/wiki/Items",
+      "kind": "wiki"
     }
   ],
   "notes": [

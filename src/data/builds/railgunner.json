@@ -622,23 +622,28 @@
   "sources": [
     {
       "title": "Railgunner · Risk of Rain 2 Wiki",
-      "url": "https://riskofrain2.wiki.gg/wiki/Railgunner"
+      "url": "https://riskofrain2.wiki.gg/wiki/Railgunner",
+      "kind": "wiki"
     },
     {
       "title": "Lens-Maker's Glasses · Risk of Rain 2 Wiki",
-      "url": "https://riskofrain2.wiki.gg/wiki/Lens-Maker's_Glasses"
+      "url": "https://riskofrain2.wiki.gg/wiki/Lens-Maker's_Glasses",
+      "kind": "wiki"
     },
     {
       "title": "Laser Scope · Risk of Rain 2 Wiki",
-      "url": "https://riskofrain2.wiki.gg/wiki/Laser_Scope"
+      "url": "https://riskofrain2.wiki.gg/wiki/Laser_Scope",
+      "kind": "wiki"
     },
     {
       "title": "Proc Coefficient · Risk of Rain 2 Wiki",
-      "url": "https://riskofrain2.wiki.gg/wiki/Proc_Coefficient"
+      "url": "https://riskofrain2.wiki.gg/wiki/Proc_Coefficient",
+      "kind": "wiki"
     },
     {
       "title": "Items · Risk of Rain 2 Wiki",
-      "url": "https://riskofrain2.wiki.gg/wiki/Items"
+      "url": "https://riskofrain2.wiki.gg/wiki/Items",
+      "kind": "wiki"
     }
   ],
   "notes": [

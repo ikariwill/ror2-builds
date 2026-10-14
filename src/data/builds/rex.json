@@ -665,19 +665,23 @@
   "sources": [
     {
       "title": "REX · Risk of Rain 2 Wiki",
-      "url": "https://riskofrain2.wiki.gg/wiki/REX"
+      "url": "https://riskofrain2.wiki.gg/wiki/REX",
+      "kind": "wiki"
     },
     {
       "title": "Hardlight Afterburner · Risk of Rain 2 Wiki",
-      "url": "https://riskofrain2.wiki.gg/wiki/Hardlight_Afterburner"
+      "url": "https://riskofrain2.wiki.gg/wiki/Hardlight_Afterburner",
+      "kind": "wiki"
     },
     {
       "title": "Items · Risk of Rain 2 Wiki",
-      "url": "https://riskofrain2.wiki.gg/wiki/Items"
+      "url": "https://riskofrain2.wiki.gg/wiki/Items",
+      "kind": "wiki"
     },
     {
       "title": "Guia do REX · Rogue Ranker",
-      "url": "https://rogueranker.com/?p=1621"
+      "url": "https://rogueranker.com/?p=1621",
+      "kind": "guide"
     }
   ],
   "notes": [

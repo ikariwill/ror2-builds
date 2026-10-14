@@ -612,19 +612,23 @@
   "sources": [
     {
       "title": "Seeker · Risk of Rain 2 Wiki",
-      "url": "https://riskofrain2.wiki.gg/wiki/Seeker"
+      "url": "https://riskofrain2.wiki.gg/wiki/Seeker",
+      "kind": "wiki"
     },
     {
       "title": "Seeker · Risk of Rain 2 Wiki (Fandom, wiki antiga)",
-      "url": "https://riskofrain2.fandom.com/wiki/Seeker"
+      "url": "https://riskofrain2.fandom.com/wiki/Seeker",
+      "kind": "wiki"
     },
     {
       "title": "Seeker RoR2 Guide · Rogue Ranker",
-      "url": "https://rogueranker.com/seeker-ror2/"
+      "url": "https://rogueranker.com/seeker-ror2/",
+      "kind": "guide"
     },
     {
       "title": "Items · Risk of Rain 2 Wiki",
-      "url": "https://riskofrain2.wiki.gg/wiki/Items"
+      "url": "https://riskofrain2.wiki.gg/wiki/Items",
+      "kind": "wiki"
     }
   ],
   "notes": [

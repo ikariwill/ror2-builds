@@ -657,19 +657,23 @@
   "sources": [
     {
       "title": "Drifter · Risk of Rain 2 Wiki",
-      "url": "https://riskofrain2.wiki.gg/wiki/Drifter"
+      "url": "https://riskofrain2.wiki.gg/wiki/Drifter",
+      "kind": "wiki"
     },
     {
       "title": "Temporary Items · Risk of Rain 2 Wiki",
-      "url": "https://riskofrain2.wiki.gg/wiki/Temporary_Items"
+      "url": "https://riskofrain2.wiki.gg/wiki/Temporary_Items",
+      "kind": "wiki"
     },
     {
       "title": "Items · Risk of Rain 2 Wiki",
-      "url": "https://riskofrain2.wiki.gg/wiki/Items"
+      "url": "https://riskofrain2.wiki.gg/wiki/Items",
+      "kind": "wiki"
     },
     {
       "title": "Drifter Risk of Rain 2 · Rogue Ranker",
-      "url": "https://rogueranker.com/drifter-ror2/"
+      "url": "https://rogueranker.com/drifter-ror2/",
+      "kind": "guide"
     }
   ],
   "notes": [

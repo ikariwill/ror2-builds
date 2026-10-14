@@ -619,31 +619,38 @@
   "sources": [
     {
       "title": "Heretic · Risk of Rain 2 Wiki",
-      "url": "https://riskofrain2.wiki.gg/wiki/Heretic"
+      "url": "https://riskofrain2.wiki.gg/wiki/Heretic",
+      "kind": "wiki"
     },
     {
       "title": "Visions of Heresy · Risk of Rain 2 Wiki",
-      "url": "https://riskofrain2.wiki.gg/wiki/Visions_of_Heresy"
+      "url": "https://riskofrain2.wiki.gg/wiki/Visions_of_Heresy",
+      "kind": "wiki"
     },
     {
       "title": "Hooks of Heresy · Risk of Rain 2 Wiki",
-      "url": "https://riskofrain2.wiki.gg/wiki/Hooks_of_Heresy"
+      "url": "https://riskofrain2.wiki.gg/wiki/Hooks_of_Heresy",
+      "kind": "wiki"
     },
     {
       "title": "Strides of Heresy · Risk of Rain 2 Wiki",
-      "url": "https://riskofrain2.wiki.gg/wiki/Strides_of_Heresy"
+      "url": "https://riskofrain2.wiki.gg/wiki/Strides_of_Heresy",
+      "kind": "wiki"
     },
     {
       "title": "Essence of Heresy · Risk of Rain 2 Wiki",
-      "url": "https://riskofrain2.wiki.gg/wiki/Essence_of_Heresy"
+      "url": "https://riskofrain2.wiki.gg/wiki/Essence_of_Heresy",
+      "kind": "wiki"
     },
     {
       "title": "Challenges · Risk of Rain 2 Wiki",
-      "url": "https://riskofrain2.wiki.gg/wiki/Challenges"
+      "url": "https://riskofrain2.wiki.gg/wiki/Challenges",
+      "kind": "wiki"
     },
     {
       "title": "Heretic · Rogue Ranker",
-      "url": "https://rogueranker.com/?p=1614"
+      "url": "https://rogueranker.com/?p=1614",
+      "kind": "guide"
     }
   ],
   "notes": [

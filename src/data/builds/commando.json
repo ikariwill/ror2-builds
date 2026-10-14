@@ -636,11 +636,13 @@
   "sources": [
     {
       "title": "Commando · Risk of Rain 2 Wiki",
-      "url": "https://riskofrain2.wiki.gg/wiki/Commando"
+      "url": "https://riskofrain2.wiki.gg/wiki/Commando",
+      "kind": "wiki"
     },
     {
       "title": "Items · Risk of Rain 2 Wiki",
-      "url": "https://riskofrain2.wiki.gg/wiki/Items"
+      "url": "https://riskofrain2.wiki.gg/wiki/Items",
+      "kind": "wiki"
     }
   ],
   "notes": [

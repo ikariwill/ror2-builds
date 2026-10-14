@@ -596,15 +596,18 @@
   "sources": [
     {
       "title": "CHEF · Risk of Rain 2 Wiki",
-      "url": "https://riskofrain2.wiki.gg/wiki/CHEF"
+      "url": "https://riskofrain2.wiki.gg/wiki/CHEF",
+      "kind": "wiki"
     },
     {
       "title": "Items · Risk of Rain 2 Wiki",
-      "url": "https://riskofrain2.wiki.gg/wiki/Items"
+      "url": "https://riskofrain2.wiki.gg/wiki/Items",
+      "kind": "wiki"
     },
     {
       "title": "CHEF Risk of Rain 2 · Rogue Ranker (guia da comunidade)",
-      "url": "https://rogueranker.com/chef-ror2/"
+      "url": "https://rogueranker.com/chef-ror2/",
+      "kind": "guide"
     }
   ],
   "notes": [

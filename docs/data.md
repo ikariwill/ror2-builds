@@ -8,7 +8,11 @@
 | Exact item text, rarity and DLC | Wiki data modules (`Module:Items/Data`, `Module:Equipment/Data`), via [Petrichor Index](https://github.com/tsieck/petrichor-index) | Checked on **2026-08-10**. Does not include the Hallowed Concepts DLC (released 2026-10-08) |
 | Item icons | Original game sprites, via Petrichor Index | 125 `.webp` files in `public/icons/` |
 | Portuguese names | The game's pt-BR language file (`output-portuguese_br.json`), via [maicogtbr/Descricoes-datalhadas-Risk-of-Rain-2-PT-BR](https://github.com/maicogtbr/Descricoes-datalhadas-Risk-of-Rain-2-PT-BR) | Snapshot from Dec 2025. Does not have the Hallowed Concepts texts |
-| Cross-checking choices | Community guides (e.g. Rogue Ranker) | Never overrides the wiki on mechanics |
+| What to pick, priorities, loadout | Players: Steam Community guides and threads, YouTube guides and Eclipse runs (read through their transcripts), community tier lists with reasoning | At least 2 per build (`kind` guide, video or forum). A priority changes only when 3+ credible sources agree; disagreements are written in the item's `why` or in `notes`. SEO listicles and AI-written pages (e.g. Rogue Ranker) are never the basis for a choice |
+
+Two layers, never mixed: the **wiki** (and patch notes) says what an item or skill does and its numbers; **players**
+say what to pick and in which order. A build that rests on the wiki alone tends to rate "on paper" items as essential
+(the 2026-10-13 community audit found this in all 21 builds; see `docs/reviews/`).
 
 The icons and names are property of Hopoo Games/Gearbox; the site is a non-commercial fan site.
 Petrichor Index does not state a license in its README; if we publish widely, it is worth confirming with the author or
@@ -42,7 +46,8 @@ are code and stay in English. Every text field shown to the reader is pt-BR.
   "fallbacks": [{ "pt", "en", "text" }],
   "summary": "3–4 sentences",
   "checklist": [{ "title", "text" }],
-  "sources": [{ "title", "url" }],
+  "sources": [{ "title", "url", "kind": "wiki|patch|guide|video|forum", "date": "YYYY-MM-DD" }],
+  "reviewed": "YYYY-MM-DD",         // optional: when the choices were last checked against player sources
   "notes": ["caveats: DLC, unconfirmed data, discrepancies"],
   "command": {                     // optional: pick order for the Artifact of Command (Artefato da Autoridade)
     "intro": "2 sentences",
@@ -57,7 +62,7 @@ Section `color` values by tier: `common` white · `uncommon` green · `legendary
 Priority (`prio`): `1` Essential (Essencial) · `2` High (Alta) · `3` Medium (Média) · `4` Situational (Situacional) ·
 `0` Avoid/careful (Evitar).
 
-`npm run validate` checks the formatting (2 spaces), required keys, section order and names, valid priority, that every
+`npm run validate` checks the source kinds and dates (and warns when a build has fewer than 2 player sources), the formatting (2 spaces), required keys, section order and names, valid priority, that every
 icon exists in `public/icons/`, that every essential appears in a section and, in the pick order, that every item exists
 in the cards of the same rarity.
 
