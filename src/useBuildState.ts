@@ -1,28 +1,11 @@
 import { useEffect, useMemo, useState } from 'react';
-import { BUILDS, DEFAULT_ID, flatItems, rank, type PrioFilter } from './data/roster.ts';
-import type { Build, FlatItem, TierId } from './types.ts';
+import { BUILDS, DEFAULT_ID, flatItems, itemLanes, rank, type ItemLanes, type ItemView } from './data/roster.ts';
+import type { Build, FlatItem } from './types.ts';
 
-const DONE_KEY = 'ror2-builds:done';
-
-function readHash(): string {
-  const id = (window.location.hash || '').replace(/^#\/?/, '').split('/')[0];
-  return BUILDS[id] ? id : DEFAULT_ID;
-}
-
-function loadDone(): Record<string, boolean> {
-  try {
-    return JSON.parse(localStorage.getItem(DONE_KEY) || '{}');
-  } catch {
-    return {};
-  }
-}
-
-function saveDone(v: Record<string, boolean>) {
-  try {
-    localStorage.setItem(DONE_KEY, JSON.stringify(v));
-  } catch {
-    /* no storage: the checklist only lasts for this visit */
-  }
+/** Hash route: `#/<survivor>` is the build page, `#/<survivor>/partida` is run mode. */
+function readRoute(): { sid: string; run: boolean } {
+  const [id, sub] = (window.location.hash || '').replace(/^#\/?/, '').split('/');
+  return { sid: BUILDS[id] ? id : DEFAULT_ID, run: sub === 'partida' };
 }
 
 export function useMedia(query: string): boolean {
@@ -41,32 +24,31 @@ export interface BuildState {
   build: Build;
   all: FlatItem[];
   core: FlatItem[];
-  list: FlatItem[];
+  /** items for the "all items" section, grouped by the current view or by the search */
+  lanes: ItemLanes;
   selected: FlatItem | undefined;
   select: (it: FlatItem) => void;
-  tier: TierId | 'all';
-  setTier: (t: TierId | 'all') => void;
-  prio: PrioFilter;
-  setPrio: (p: PrioFilter) => void;
+  view: ItemView;
+  setView: (v: ItemView) => void;
   query: string;
   setQuery: (q: string) => void;
-  done: Record<string, boolean>;
-  toggle: (k: string) => void;
-  resetChecks: () => void;
+  /** true on the run mode route */
+  run: boolean;
   go: (id: string) => void;
+  runHref: string;
+  buildHref: string;
 }
 
-/** Page state: survivor (from the #/id URL), filters, selected item and run checklist. */
+/** Page state: survivor and run mode (from the URL hash), item grouping, search and selected item. */
 export function useBuildState(): BuildState {
-  const [sid, setSid] = useState(readHash);
-  const [tier, setTier] = useState<TierId | 'all'>('all');
-  const [prio, setPrio] = useState<PrioFilter>('all');
+  const [route, setRoute] = useState(readRoute);
+  const [view, setView] = useState<ItemView>('prio');
   const [query, setQuery] = useState('');
   const [selKey, setSelKey] = useState<string | null>(null);
-  const [done, setDone] = useState(loadDone);
+  const { sid, run } = route;
 
   useEffect(() => {
-    const on = () => setSid(readHash());
+    const on = () => setRoute(readRoute());
     window.addEventListener('hashchange', on);
     return () => window.removeEventListener('hashchange', on);
   }, []);
@@ -74,43 +56,29 @@ export function useBuildState(): BuildState {
   const build = BUILDS[sid];
 
   useEffect(() => {
-    setTier('all');
-    setPrio('all');
     setQuery('');
     setSelKey(null);
     document.title = `${build.name_pt} · Logbook de Builds · Risk of Rain 2`;
-    window.scrollTo(0, 0);
   }, [build]);
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [build, run]);
 
   const all = useMemo(() => flatItems(build), [build]);
   const core = useMemo(() => all.filter((i) => i.core).sort((a, b) => rank(a.prio) - rank(b.prio)), [all]);
+  const lanes = useMemo(() => itemLanes(all, view, query), [all, view, query]);
   const selected = all.find((i) => i.key === selKey) ?? core[0] ?? all[0];
 
-  const q = query.trim().toLowerCase();
-  const list = all
-    .filter((it) => (tier === 'all' || it.tier === tier) && (prio === 'all' || String(it.prio) === prio))
-    .filter((it) => !q || it.pt.toLowerCase().includes(q) || it.en.toLowerCase().includes(q))
-    .sort((a, b) => rank(a.prio) - rank(b.prio));
-
-  const toggle = (k: string) => {
-    const nd = { ...done, [k]: !done[k] };
-    setDone(nd);
-    saveDone(nd);
-  };
-  const resetChecks = () => {
-    const nd = { ...done };
-    build.checklist.forEach((_, i) => delete nd[`${sid}:${i}`]);
-    setDone(nd);
-    saveDone(nd);
-  };
-
   return {
-    sid, build, all, core, list, selected,
+    sid, build, all, core, lanes, selected,
     select: (it) => setSelKey(it.key),
-    tier, setTier, prio, setPrio, query, setQuery,
-    done, toggle, resetChecks,
+    view, setView, query, setQuery,
+    run,
     go: (id) => {
       window.location.hash = `/${id}`;
     },
+    runHref: `#/${sid}/partida`,
+    buildHref: `#/${sid}`,
   };
 }
