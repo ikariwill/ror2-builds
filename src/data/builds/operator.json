@@ -3,12 +3,16 @@
   "name_pt": "Operador",
   "name_en": "Operator",
   "title": "Operador: Build de Frota de Drones",
-  "tagline": "Drones sob comando ativam seus itens",
-  "lede": "Uma build de comandante para chegar longe: comprar todos os drones que encontrar e usá-los com o ADMIN-SOBRESCREVER. Os ataques comandados contam como seus, ativam seus itens (inclusive os de abate) e usam o seu dano. Você fica à distância com a pistola carregada e deixa o Núcleo de Ejeção dobrar o dano das habilidades nos inimigos no ar.",
+  "tagline": "Compre todo drone e gaste as cargas do ADMIN",
+  "lede": "O Operador fica mais forte a cada drone: cada um é uma carga do ADMIN-SOBRESCREVER, e os ataques comandados usam seus itens. Os jogadores fecham o loadout com Protocolo de Ascensão e Núcleo de Amplificação, empilham velocidade de ataque, cargas da Secundária e crítico vindo de cima, e atiram no próprio Núcleo para carregar a explosão.",
   "loadout": [
     {
       "slot": "Passiva",
       "skill": "Técnico de Drones (Drone Tech)"
+    },
+    {
+      "slot": "Drones iniciais",
+      "skill": "PIU e DOUTOR (Transporte e Cura)"
     },
     {
       "slot": "Primária",
@@ -24,7 +28,7 @@
     },
     {
       "slot": "Especial",
-      "skill": "Núcleo de Ejeção (Ejection Core)"
+      "skill": "Núcleo de Amplificação (Amp Core)"
     }
   ],
   "skills": [
@@ -33,16 +37,16 @@
       "pt": "Técnico de Drones",
       "en": "Drone Tech",
       "pick": "Fixa",
-      "spec": "Começa cada fase com 2 drones companheiros. A wiki lista três: CROSSHAIRS (Drone Atirador Mk 2), DOUTOR (Drone de Cura Mk 2) e PIU (Drone Transportador Mk 2, desbloqueado depois).",
-      "why": "Os drones do Operador se consertam sozinhos quando caem, não podem ser sucateados e seguem você até os Reinos Ocultos. CROSSHAIRS dá tiros que ricocheteiam uma vez (50%); DOUTOR dá barreira em vez de cura; PIU carrega baús. Um guia da comunidade prefere ter mais drones de ataque. O PIU é desbloqueado pelo desafio Putting Together a Team (recrutar 5 drones diferentes)."
+      "spec": "Começa cada fase com 2 drones companheiros. A wiki lista três: CROSSHAIRS (Drone Atirador Mk 2), DOUTOR (DOC, Drone de Cura Mk 2) e PIU (CHIRP, Drone Transportador Mk 2, desbloqueado depois). Os jogadores escolhem a dupla no loadout e podem repetir o mesmo drone.",
+      "why": "Os drones do Operador se consertam sozinhos quando caem, não podem ser sucateados e seguem você até os Reinos Ocultos. Os dois vídeos mais recentes começam com PIU e DOUTOR: o PIU carrega baús e o DOUTOR dá barreira e um pouco de velocidade, que faltam no começo da run. Um guia de lançamento prefere PIU e CROSSHAIRS, e uma tier list de 2026 usa dois CROSSHAIRS. O PIU é desbloqueado pelo desafio Putting Together a Team (recrutar 5 drones diferentes)."
     },
     {
       "slot": "Primária",
       "pt": "H3-11 OCR Personalizado",
       "en": "H3-11 OCR Custom",
-      "pick": "Recomendada",
+      "pick": "Única opção",
       "spec": "Rápida. Tiro de 150% a 600%; cada carga soma +150% ao próximo tiro, carga máxima em 1,5 s. Ricochete ao abater: salta para o inimigo com menos vida causando 75% do dano TOTAL. Recarga 0,5 s, coeficiente 1,0.",
-      "why": "Rápida quer dizer que recarrega mais rápido com velocidade de ataque. O tiro cheio de 600% passa do limite de 400% do Cinturão de Kjaro, e o Pé de Cabra aumenta muito o primeiro tiro em alvos de vida cheia. O ricochete limpa grupos de inimigos já machucados pelos drones. A alternativa Nanorrecipiente (200% + 5 projéteis de 40%, Buga inimigos) aparece no texto do jogo, mas não foi conferida na wiki."
+      "why": "Rápida quer dizer que recarrega mais rápido com velocidade de ataque. Um guia diz que redução de recarga (Cabeça Alienígena, Pureza) não acelera a pistola; a wiki só confirma que ela escala com velocidade de ataque. Segure as 4 cargas: com um Pé de Cabra o tiro passa de 1.000% em alvos de vida cheia, e o ricochete limpa o grupo."
     },
     {
       "slot": "Secundária",
@@ -50,7 +54,7 @@
       "en": "ADMIN-OVERRIDE",
       "pick": "Recomendada",
       "spec": "Ágil. Faz o próximo drone da fila usar a habilidade especial dele. Guarda 1 carga por drone que você controla. Recarga 4 s, coeficiente 1,0.",
-      "why": "Segundo a wiki, esses ataques contam como seus: ativam seus itens, inclusive de abate, e usam o seu dano. Cada drone tem uma habilidade (Míssil: 6 × 200%; Incinerador: cerca de 1.500% em 4 s; Atirador: 6 × 85%). Drones combinados dão cargas extras e multiplicam o dano por 1 + 0,25 × nível. Exceção: o Drone de Limpeza não ativa seus itens."
+      "why": "É a escolha da maioria dos guias e a melhor para runs longas. Segundo a wiki, os drones usam seus itens nesses ataques. Cada drone tem uma habilidade (Míssil: 6 × 200%; Incinerador: cerca de 1.500% em 4 s; Atirador: 6 × 85%). Drones combinados dão cargas extras e multiplicam o dano por 1 + 0,25 × nível. Exceção: o Drone de Limpeza não ativa seus itens."
     },
     {
       "slot": "Secundária (alt.)",
@@ -58,7 +62,7 @@
       "en": "CMD-SWARM",
       "pick": "Variante",
       "spec": "Modo de marcação: os drones colidem com os inimigos causando 450%. Críticos também incendeiam (+50% do dano total ao longo do tempo). Recarga 3 s, coeficiente 1,0.",
-      "why": "Dano direto e simples, sem depender de qual drone está na fila. Guias da comunidade preferem esta opção para dano bruto. Drones combinados dão cargas extras, mas não o multiplicador de dano do ADMIN-SOBRESCREVER. Desbloqueio: desafio That All You Got?."
+      "why": "Variante de crítico, preferida por parte dos criadores de guia. Sem crítico não há incêndio, então ela pede Óculos, Botas de Escalada e, se vier, Tanque de Ignição. Os mesmos guias dizem que o ADMIN-SOBRESCREVER rende mais em runs longas. Drones combinados dão cargas extras, mas não o multiplicador de dano. Desbloqueio: desafio That All You Got?."
     },
     {
       "slot": "Utilitária",
@@ -66,15 +70,23 @@
       "en": "Ascent Protocol",
       "pick": "Recomendada",
       "spec": "Ágil. Um drone lança você ao ar numa queda controlada. Reative para saltar até outro drone. Recarga 7 s (2,5 s para o novo lançamento no ar).",
-      "why": "É a fuga e a mobilidade do Operador, que tem só 90 de vida. Todas as outras habilidades funcionam durante o voo, e o Núcleo de Ejeção dá um impulso para cima que zera a velocidade de queda. Pular cancela o voo e expõe você a dano de queda. A alternativa FIREWALL (escudo que bloqueia dano, depois 200% a 600%, recarga 8 s) bloqueia ataques difíceis de desviar."
+      "why": "Escolha de quase todos os guias: é a fuga e a mobilidade de um personagem com 90 de vida. Todas as outras habilidades funcionam no voo, e ficar acima dos inimigos carrega as Botas de Escalada. Pule antes de se prender ao próximo drone para ganhar altura. A alternativa FIREWALL (escudo que bloqueia dano, depois 200% a 600%, recarga 8 s) é vista como escolha por diversão."
     },
     {
       "slot": "Especial",
+      "pt": "Núcleo de Amplificação",
+      "en": "Amp Core",
+      "pick": "Recomendada",
+      "spec": "Ágil. Lança um drone que começa com 300% do dano base guardado e guarda 150% do dano que recebe, inclusive o seu. Explode após 2 a 3 s causando 300% a 2.000% num raio de 8 a 20 m. Ao surgir, provoca os inimigos a até 14 m. Recarga 8 s, coeficiente 1,0.",
+      "why": "A maioria dos guias, incluindo o de loadouts mais recente, prefere este Núcleo pelo dano e pela área. O segredo é atirar nele você mesmo para chegar aos 2.000%. A wiki diz que o Pé de Cabra aumenta rápido o dano e o raio. Desde a 1.4.1, atirar no Núcleo não ativa itens ao acertar. Desbloqueio: desafio That Just Happened."
+    },
+    {
+      "slot": "Especial (alt.)",
       "pt": "Núcleo de Ejeção",
       "en": "Ejection Core",
-      "pick": "Recomendada",
+      "pick": "Variante",
       "spec": "Ágil. Drone que arremessa inimigos ao ar causando 300% e aplica Nanodefeituoso (Nano Bug): +100% de dano recebido de habilidades, em acertos de 120% cada. Recarga 8 s, coeficiente 1,0 (0,5 nos acertos extras).",
-      "why": "Dobra o dano das suas habilidades no alvo, e cada acerto extra também ativa itens com coeficiente 0,5. Os acertos seguram o inimigo no ar. A alternativa Núcleo de Amplificação (Amp Core, 300% a 2.000% em 8 a 20 m, absorve dano para carregar) tem teto maior; a wiki diz que o Pé de Cabra aumenta muito o dano e o raio dele."
+      "why": "O guia de lançamento que usa o loadout padrão e uma run com todas as alternativas o acham um pouco melhor. Dobra o dano das suas habilidades no alvo e segura o grupo no ar para o combo: Núcleo, Ascensão, depois todas as cargas da Secundária. Os acertos extras também ativam itens."
     }
   ],
   "sections": [
@@ -82,7 +94,7 @@
       "id": "common",
       "name": "Comum",
       "color": "white",
-      "intro": "Os ataques comandados usam seus itens, então os brancos do Operador servem para ele e para a frota.",
+      "intro": "Os ataques comandados usam seus itens; os brancos do Operador são velocidade de ataque, cargas da Secundária e crítico vindo de cima.",
       "items": [
         {
           "icon": "crowbar",
@@ -91,7 +103,7 @@
           "prio": 1,
           "qty": "2 a 4",
           "effect": "+75% (+75% por acúmulo) de dano contra inimigos acima de 90% de vida.",
-          "why": "O tiro carregado de 600% abre a luta em inimigos de vida cheia, e as rajadas de mísseis dos drones também. A wiki destaca que com o Núcleo de Amplificação o Pé de Cabra aumenta rápido o dano e o raio."
+          "why": "Consenso dos guias. Com 4 cargas e um Pé de Cabra, o tiro passa de 1.000% e derruba grupos até a fase 3, e o ricochete leva o resto. A wiki diz que ele também carrega rápido o Núcleo de Amplificação."
         },
         {
           "icon": "soldiers-syringe",
@@ -100,34 +112,52 @@
           "prio": 1,
           "qty": "3 a 6",
           "effect": "+15% (+15% por acúmulo) de velocidade de ataque.",
-          "why": "A pistola é Rápida: recarrega mais rápido com velocidade de ataque. Mais tiros carregados por segundo."
+          "why": "A pistola é Rápida: recarrega mais rápido com velocidade de ataque. Um guia diz para focar nisso, porque redução de recarga não ajuda a pistola."
+        },
+        {
+          "icon": "hikers-boots",
+          "pt": "Botas de Escalada",
+          "en": "Hiker's Boots",
+          "prio": 1,
+          "qty": "1 ou mais",
+          "effect": "Acertar inimigos de um ponto mais alto concede +1% (+1% por acúmulo) de chance de crítico e de dano crítico, até 10 vezes. Dura 10 s.",
+          "why": "Vários guias dizem que o item parece feito para o Operador: com o Protocolo de Ascensão você passa a luta acima dos inimigos. Dá chance e dano crítico ao mesmo tempo. Desde a 1.4.1 o bônus é garantido quando você acerta de cima."
+        },
+        {
+          "icon": "backup-magazine",
+          "pt": "Pente Reserva",
+          "en": "Backup Magazine",
+          "prio": 1,
+          "qty": "1 ou mais (empilhe)",
+          "effect": "Adiciona +1 (+1 por acúmulo) carga da habilidade Secundária.",
+          "why": "Aqui ele vale de verdade: cada Pente é mais um uso do ADMIN-SOBRESCREVER ou do CMD-ENXAME, a principal fonte de dano. Os guias pedem quantos aparecerem, e ele alimenta o Disparo Luminoso."
+        },
+        {
+          "icon": "gasoline",
+          "pt": "Gasolina",
+          "en": "Gasoline",
+          "prio": 3,
+          "qty": "1 a 2",
+          "effect": "Abater um inimigo incendeia todos os inimigos a até 12 m (+4 m por acúmulo), causando 150% do dano base. Além disso, os inimigos queimam, recebendo 150% (+75% por acúmulo) do dano base.",
+          "why": "Alguns jogadores destacam a Gasolina no Operador. O ricochete da pistola e as rajadas dos drones matam muito, e cada abate espalha fogo. Combina com o Tanque de Ignição."
         },
         {
           "icon": "lens-makers-glasses",
           "pt": "Óculos do Fabricante de Lentes",
           "en": "Lens-Maker's Glasses",
-          "prio": 2,
-          "qty": "2 a 5",
+          "prio": 3,
+          "qty": "2 a 5 (com CMD-ENXAME)",
           "effect": "10% (+10% por acúmulo) de chance de Acerto Crítico, que causa dano dobrado.",
-          "why": "Dobra o tiro de 600%. Com CMD-ENXAME, os críticos também incendeiam."
+          "why": "Para a variante CMD-ENXAME, em que críticos incendeiam. Com ADMIN-SOBRESCREVER, os guias apontam as Botas de Escalada como fonte de crítico."
         },
         {
           "icon": "tougher-times",
           "pt": "Tempos Difíceis",
           "en": "Tougher Times",
-          "prio": 2,
-          "qty": "2 a 4",
-          "effect": "15% (+15% por acúmulo) de chance de bloquear dano recebido. Não é afetado por sorte.",
-          "why": "O Operador tem só 90 de vida base e 0 de armadura. Cada bloqueio pode salvar a run no começo."
-        },
-        {
-          "icon": "bison-steak",
-          "pt": "Filé de Bisão",
-          "en": "Bison Steak",
           "prio": 3,
-          "qty": "2 a 4",
-          "effect": "Aumenta a vida máxima em 25 (+25 por acúmulo).",
-          "why": "Com 90 de vida base, 25 a mais por filé é um ganho grande de sobrevivência."
+          "qty": "1 a 3",
+          "effect": "15% (+15% por acúmulo) de chance de bloquear dano recebido. Não é afetado por sorte.",
+          "why": "O Operador tem só 90 de vida base e 0 de armadura. Nenhum guia do Operador o cita, mas cada bloqueio ajuda no começo."
         },
         {
           "icon": "pauls-goat-hoof",
@@ -136,7 +166,16 @@
           "prio": 3,
           "qty": "1 a 3",
           "effect": "+14% (+14% por acúmulo) de velocidade de movimento.",
-          "why": "O Operador é frágil e vive de se reposicionar. O Protocolo de Ascensão só volta a cada 7 s."
+          "why": "O Operador é frágil e vive de se reposicionar. Alguns guias pedem itens de movimento enquanto o Protocolo de Ascensão recarrega."
+        },
+        {
+          "icon": "bison-steak",
+          "pt": "Filé de Bisão",
+          "en": "Bison Steak",
+          "prio": 4,
+          "qty": "2 a 4",
+          "effect": "Aumenta a vida máxima em 25 (+25 por acúmulo).",
+          "why": "Com 90 de vida base, 25 a mais é um ganho grande. Nenhum guia do Operador o cita."
         },
         {
           "icon": "sticky-bomb",
@@ -145,7 +184,7 @@
           "prio": 4,
           "qty": "1 a 3",
           "effect": "5% (+5% por acúmulo) de chance ao acertar de prender uma bomba no inimigo, que explode causando 180% de dano TOTAL.",
-          "why": "Rajadas de drones comandados acertam muitas vezes e cada acerto pode prender uma bomba."
+          "why": "Rajadas de drones comandados acertam muitas vezes e cada acerto pode prender uma bomba. Pouco citada pelos jogadores."
         }
       ]
     },
@@ -153,16 +192,16 @@
       "id": "uncommon",
       "name": "Incomum",
       "color": "green",
-      "intro": "Os verdes viram dano em área nos muitos acertos dos ataques comandados.",
+      "intro": "Os verdes transformam os usos da Secundária e os muitos acertos dos drones em dano.",
       "items": [
         {
-          "icon": "box-of-dynamite",
-          "pt": "Caixa de Dinamites",
-          "en": "Box of Dynamite",
+          "icon": "luminous-shot",
+          "pt": "Disparo Luminoso",
+          "en": "Luminous Shot",
           "prio": 1,
-          "qty": "1 a 2",
-          "effect": "Ganha o Lt. Droneboy. Em combate, seus drones soltam bananas de dinamite que explodem causando 240% (+85% por acúmulo) de dano e atordoando. Recarrega após 10 s.",
-          "why": "Dá mais um drone, e mais um drone é mais uma carga do ADMIN-SOBRESCREVER. A wiki lista o comando do Lt. Droneboy: 8 dinamites de 300% que escalam com velocidade de ataque."
+          "qty": "1 ou mais",
+          "effect": "Ativar a habilidade Secundária armazena até 5 cargas (+1 por acúmulo). Com 3 cargas, a Primária dispara raios que causam 175% de dano TOTAL (+50% por acúmulo) cada. Reduz a recarga da Secundária em 20%.",
+          "why": "O verde mais pedido nos guias do Operador. Cada drone comprado é como um Pente Reserva a mais, então você gasta a Secundária o tempo todo e a pistola dispara os raios. Uma única ativação do CMD-ENXAME já carrega o item."
         },
         {
           "icon": "ukulele",
@@ -171,7 +210,7 @@
           "prio": 2,
           "qty": "2 a 4",
           "effect": "25% de chance de disparar um raio em cadeia de 80% de dano TOTAL em até 3 (+2 por acúmulo) alvos a 20 m (+2 m por acúmulo).",
-          "why": "Os ataques comandados ativam seus itens. Rajadas como 6 mísseis ou 6 tiros dão muitas chances de raio, e o kit do Operador é quase todo de alvo único. Cada cópia soma 2 alvos e 2 m ao raio. O dano por alvo fica em 80%."
+          "why": "O Operador vive de itens ao acertar, e os ataques comandados usam seus itens. Rajadas como 6 mísseis ou 6 tiros dão muitas chances de raio, e o kit é quase todo de alvo único. Desde a 1.4.1 atirar no Núcleo de Amplificação não ativa o Ukulele."
         },
         {
           "icon": "atg-missile-mk-1",
@@ -180,7 +219,7 @@
           "prio": 2,
           "qty": "4 ou mais (empilhe)",
           "effect": "10% de chance de disparar um míssil que causa 300% (+300% por acúmulo) de dano TOTAL.",
-          "why": "Mesmo motivo do Ukulele: muitos acertos comandados e os acertos extras do Nanodefeituoso. Empilhe: cada cópia soma 300% ao dano de cada míssil. A chance fica em 10%, e as rajadas comandadas dão as tentativas."
+          "why": "Muitos acertos comandados dão as tentativas, e cada cópia soma 300% ao dano de cada míssil. Empilhe: a chance fica em 10%."
         },
         {
           "icon": "kjaros-band",
@@ -189,25 +228,61 @@
           "prio": 2,
           "qty": "1",
           "effect": "Golpes que causam mais de 400% de dano também lançam um tornado de fogo rúnico, causando 300% (+300% por acúmulo) de dano TOTAL ao longo do tempo. Recarrega a cada 10 s.",
-          "why": "O tiro carregado de 600% e a colisão de 450% do CMD-ENXAME passam do limite de 400%."
+          "why": "Os guias pedem os dois Cinturões. O tiro carregado de 600%, a colisão de 450% do CMD-ENXAME e a explosão carregada do Núcleo passam do limite de 400%. Ativa junto com o Cinturão de Runald e divide a recarga de 10 s com ele."
+        },
+        {
+          "icon": "runalds-band",
+          "pt": "Cinturão de Runald",
+          "en": "Runald's Band",
+          "prio": 2,
+          "qty": "1",
+          "effect": "Golpes que causam mais de 400% de dano também atingem os inimigos com uma explosão de gelo rúnico, que desacelera em 80% por 3 s (+3 s por acúmulo) e causa 250% (+250% por acúmulo) de dano TOTAL. Recarrega a cada 10 s.",
+          "why": "Par do Cinturão de Kjaro: os mesmos golpes acima de 400% ativam os dois juntos, com a mesma recarga de 10 s. A lentidão de 80% ajuda a manter os inimigos longe."
+        },
+        {
+          "icon": "box-of-dynamite",
+          "pt": "Caixa de Dinamites",
+          "en": "Box of Dynamite",
+          "prio": 2,
+          "qty": "1",
+          "effect": "Ganha o Ten. Dronato (Lt. Droneboy). Em combate, seus drones soltam bananas de dinamite que detonam causando 240% de dano (+85% por acúmulo) e atordoando os inimigos. Recarrega após 10 s.",
+          "why": "Os guias do Operador gostam dela: dá mais um drone, ou seja, mais uma carga do ADMIN-SOBRESCREVER, e a wiki lista o comando do Ten. Dronato (8 dinamites de 300% que escalam com velocidade de ataque). Os rankings de itens a acham fraca e com acúmulo ruim, então pegue uma."
+        },
+        {
+          "icon": "ignition-tank",
+          "pt": "Tanque de Ignição",
+          "en": "Ignition Tank",
+          "prio": 4,
+          "qty": "1 a 2 (com CMD-ENXAME)",
+          "effect": "Efeitos de incêndio causam +300% (+300% por acúmulo) de dano ao longo do tempo.",
+          "why": "Para a variante CMD-ENXAME com crítico, em que cada crítico incendeia, e para a Gasolina. Dois jogadores o citam."
+        },
+        {
+          "icon": "hopoo-feather",
+          "pt": "Pluma de Hopoo",
+          "en": "Hopoo Feather",
+          "prio": 4,
+          "qty": "1",
+          "effect": "+1 (+1 por acúmulo) salto máximo.",
+          "why": "Um guia recomenda para pular de um drone a outro com mais facilidade durante o Protocolo de Ascensão."
         },
         {
           "icon": "harvesters-scythe",
           "pt": "Foice do Ceifador",
           "en": "Harvester's Scythe",
-          "prio": 3,
-          "qty": "1 (com Óculos)",
+          "prio": 4,
+          "qty": "1 (com CMD-ENXAME)",
           "effect": "+5% de chance de crítico. Críticos curam 8 (+4 por acúmulo) de vida.",
-          "why": "Cura à distância a cada crítico, sem precisar chegar perto. Melhor com alguns Óculos."
+          "why": "Cura à distância a cada crítico. Só vale na variante de crítico, com alguns Óculos e Botas de Escalada."
         },
         {
           "icon": "death-mark",
           "pt": "Marca Fatal",
           "en": "Death Mark",
-          "prio": 3,
+          "prio": 4,
           "qty": "1",
           "effect": "Inimigos com 4 ou mais debuffs ficam marcados e recebem 50% a mais de dano de todas as fontes por 7 s (+7 s por acúmulo).",
-          "why": "O Nanodefeituoso é um debuff. Com Queimadura (Incinerador, CMD-ENXAME), Gelo (Drone Congelante) e Choque, chegar a 4 é possível."
+          "why": "Só com o Núcleo de Ejeção: o Nanodefeituoso é um debuff. Com Queimadura (Incinerador, CMD-ENXAME), Gelo (Drone Congelante) e Choque, chegar a 4 é possível."
         },
         {
           "icon": "breaching-fin",
@@ -216,7 +291,7 @@
           "prio": 4,
           "qty": "1",
           "effect": "Inimigos no chão atingidos por qualquer habilidade são lançados e atordoados. Inimigos atingidos no ar são lançados de novo até 2 vezes (+1 por acúmulo). Inimigos lançados recebem 10% a mais de dano de todas as fontes por lançamento.",
-          "why": "O Nanodefeituoso dura até o inimigo tocar o chão. Lançar inimigos ajuda a mantê-los no ar e soma +10% de dano por lançamento."
+          "why": "Só com o Núcleo de Ejeção: o Nanodefeituoso dura até o inimigo tocar o chão. Lançar inimigos ajuda a mantê-los no ar e soma +10% de dano por lançamento."
         }
       ]
     },
@@ -232,35 +307,8 @@
           "en": "Spare Drone Parts",
           "prio": 1,
           "qty": "1 a 2",
-          "effect": "Ganha o Col. Droneman. Drones ganham +25% (+25% por acúmulo) de velocidade de ataque e redução de recarga. Drones ganham 10% de chance de disparar um míssil ao acertar, causando 150% de dano TOTAL. Drones ganham uma metralhadora automática que causa 6×50% de dano, ricocheteando em 2 inimigos.",
-          "why": "Melhora todos os drones e dá mais um, o que é mais uma carga do ADMIN-SOBRESCREVER. O comando do Col. Droneman dá frenesi ao time (+50% de movimento e +100% de velocidade de ataque por 5 s)."
-        },
-        {
-          "icon": "alien-head",
-          "pt": "Cabeça Alienígena",
-          "en": "Alien Head",
-          "prio": 1,
-          "qty": "1 a 2",
-          "effect": "Reduz o tempo de recarga das habilidades em 25% (+25% por acúmulo).",
-          "why": "ADMIN-SOBRESCREVER (4 s), Núcleo de Ejeção (8 s) e Protocolo de Ascensão (7 s) voltam mais rápido. Mais comandos por minuto."
-        },
-        {
-          "icon": "brilliant-behemoth",
-          "pt": "Brutamontes Reluzente",
-          "en": "Brilliant Behemoth",
-          "prio": 2,
-          "qty": "1 a 2",
-          "effect": "Todos os ataques explodem em 4 m (+2,5 m por acúmulo) causando 60% de dano TOTAL extra.",
-          "why": "Os ataques comandados usam seus itens. Cada míssil e cada tiro da rajada explode em área."
-        },
-        {
-          "icon": "sentient-meat-hook",
-          "pt": "Gancho de Carnes Senciente",
-          "en": "Sentient Meat Hook",
-          "prio": 3,
-          "qty": "1 a 2",
-          "effect": "20% (+20% por acúmulo) de chance ao acertar de lançar ganchos teleguiados em até 10 (+5 por acúmulo) inimigos, causando 100% de dano TOTAL.",
-          "why": "Muitos acertos comandados e acertos extras do Nanodefeituoso. Espalha dano para até 10 inimigos."
+          "effect": "Ganha o Coronel Droneman (Col. Droneman). Drones ganham +25% (+25% por acúmulo) de velocidade de ataque e redução de recarga. Drones ganham 10% de chance de disparar um míssil ao acertar, causando 150% de dano TOTAL. Drones ganham uma metralhadora automática que causa 6×50% de dano, ricocheteando em 2 inimigos.",
+          "why": "Consenso: uma tier list chama Operador com Peças de Drone Avulsas de talvez o combo de sobrevivente e item mais forte do jogo. Melhora todos os drones e dá mais um, o que é mais uma carga do ADMIN-SOBRESCREVER. O patch da Alloyed Collective cortou 50% dos atributos do item, mas um guia diz que os drones ficaram fortes o bastante para compensar."
         },
         {
           "icon": "hardlight-afterburner",
@@ -269,7 +317,43 @@
           "prio": 3,
           "qty": "1",
           "effect": "+2 (+2 por acúmulo) cargas da Utilitária e −33% no tempo de recarga dela.",
-          "why": "Mais Protocolos de Ascensão para fugir e ficar no ar, longe dos ataques no chão."
+          "why": "Mais Protocolos de Ascensão para fugir, ficar no alto (o que mantém as Botas de Escalada) e se mexer contra o Mithrix. Dois guias o colocam entre os itens a priorizar."
+        },
+        {
+          "icon": "alien-head",
+          "pt": "Cabeça Alienígena",
+          "en": "Alien Head",
+          "prio": 3,
+          "qty": "1",
+          "effect": "Reduz o tempo de recarga das habilidades em 25% (+25% por acúmulo).",
+          "why": "ADMIN-SOBRESCREVER (4 s), o Núcleo (8 s) e o Protocolo de Ascensão (7 s) voltam mais rápido. Um guia diz que ela não acelera a pistola, e nenhum a coloca no núcleo da build."
+        },
+        {
+          "icon": "brilliant-behemoth",
+          "pt": "Brutamontes Reluzente",
+          "en": "Brilliant Behemoth",
+          "prio": 3,
+          "qty": "1",
+          "effect": "Todos os ataques explodem em 4 m (+2,5 m por acúmulo) causando 60% de dano TOTAL extra.",
+          "why": "Os ataques comandados usam seus itens: cada míssil e cada tiro da rajada explode em área. Nenhum guia do Operador o cita."
+        },
+        {
+          "icon": "sentient-meat-hook",
+          "pt": "Gancho de Carnes Senciente",
+          "en": "Sentient Meat Hook",
+          "prio": 4,
+          "qty": "1",
+          "effect": "20% (+20% por acúmulo) de chance ao acertar de lançar ganchos teleguiados em até 10 (+5 por acúmulo) inimigos, causando 100% de dano TOTAL.",
+          "why": "Muitos acertos comandados espalham ganchos por até 10 inimigos. Nenhum guia do Operador o cita."
+        },
+        {
+          "icon": "pocket-i-c-b-m",
+          "pt": "M.B.I.C. Compacto",
+          "en": "Pocket I.C.B.M.",
+          "prio": 4,
+          "qty": "1",
+          "effect": "Todos os itens e equipamentos de míssil disparam 2 mísseis a mais. Aumenta o dano dos mísseis em 0% (+50% por acúmulo).",
+          "why": "Desde a 1.4.1 ele também afeta os Drones de Míssil comandados pelo ADMIN-SOBRESCREVER. Vale se a frota tem Drones de Míssil e você empilha Míssil ASM."
         }
       ]
     },
@@ -286,7 +370,7 @@
           "prio": 2,
           "qty": "1",
           "effect": "A cada 30 s, invoca duas Sondas Solus que ganham +100% (+100% por acúmulo) de dano por aliado no seu time.",
-          "why": "A wiki lista as duas sondas (Quiet Probe e Delighted Probe) entre os drones do ADMIN-SOBRESCREVER e do CMD-ENXAME. São duas cargas a mais."
+          "why": "Os jogadores a chamam de um dos melhores itens de chefe para o Operador: o dano das sondas cresce com cada aliado, e a frota é grande. A wiki lista as sondas entre os drones que o ADMIN-SOBRESCREVER comanda, mas um guia diz que elas não somam cargas."
         },
         {
           "icon": "charged-perforator",
@@ -303,17 +387,8 @@
       "id": "equipment",
       "name": "Equipamentos",
       "color": "orange",
-      "intro": "Só dá para carregar um. O Operador quer ouro para comprar drones.",
+      "intro": "Só dá para carregar um; o que os jogadores citam é O Reforço.",
       "items": [
-        {
-          "icon": "executive-card",
-          "pt": "Cartão Executivo",
-          "en": "Executive Card",
-          "prio": 1,
-          "qty": "1 (cedo na run)",
-          "effect": "Sempre que fizer uma compra com ouro, recebe de volta 10% do ouro gasto. Se a compra for num terminal de multiloja, os outros terminais continuam abertos.",
-          "why": "O Operador fica mais forte a cada drone comprado. Ouro de volta em cada drone e cada baú acelera a frota."
-        },
         {
           "icon": "the-back-up",
           "pt": "O Reforço",
@@ -321,7 +396,16 @@
           "prio": 2,
           "qty": "1 (recarga 100 s)",
           "effect": "Chama 4 Drones de Ataque para lutar por você. Duram 25 s.",
-          "why": "A wiki lista o Drone de Ataque (Strike) na tabela do ADMIN-SOBRESCREVER: são 4 drones temporários para comandar numa luta de chefe."
+          "why": "O equipamento que os jogadores citam. A wiki lista o Drone de Ataque (Strike) entre os drones do ADMIN-SOBRESCREVER: são 4 drones temporários para comandar numa luta de chefe."
+        },
+        {
+          "icon": "executive-card",
+          "pt": "Cartão Executivo",
+          "en": "Executive Card",
+          "prio": 3,
+          "qty": "1 (cedo na run)",
+          "effect": "Sempre que fizer uma compra com ouro, recebe de volta 10% do ouro gasto. Se a compra for num terminal de multiloja, os outros terminais continuam abertos.",
+          "why": "Ouro de volta em cada drone e cada baú acelera a frota. Nenhum guia o recomenda; vale se aparecer cedo."
         },
         {
           "icon": "royal-capacitor",
@@ -329,17 +413,17 @@
           "en": "Royal Capacitor",
           "prio": 3,
           "qty": "1 (recarga 20 s)",
-          "effect": "Raio em um monstro marcado causando 3000% de dano e atordoando os monstros próximos.",
+          "effect": "Raio em um monstro marcado causando 3.000% de dano e atordoando os monstros próximos.",
           "why": "Dano alto e frequente à distância, que é onde o Operador quer ficar."
         },
         {
           "icon": "primordial-cube",
           "pt": "Cubo Primordial",
           "en": "Primordial Cube",
-          "prio": 3,
+          "prio": 4,
           "qty": "1 (recarga 60 s)",
           "effect": "Buraco negro que puxa inimigos a até 30 m para o centro por 10 s.",
-          "why": "Junta o grupo para o Núcleo de Ejeção e para o ricochete da pistola."
+          "why": "Junta o grupo dentro da explosão do Núcleo e para o ricochete da pistola."
         },
         {
           "icon": "blast-shower",
@@ -362,10 +446,10 @@
           "icon": "purity",
           "pt": "Pureza",
           "en": "Purity",
-          "prio": 3,
+          "prio": 4,
           "qty": "1",
           "effect": "Reduz todas as recargas de habilidade em 2 s (+1 s por acúmulo). Todos os efeitos aleatórios são rolados +1 (+1 por acúmulo) vez contra você.",
-          "why": "O ADMIN-SOBRESCREVER cai de 4 s para 2 s e o Núcleo de Ejeção de 8 s para 6 s. Piora Ukulele, Míssil e crítico, que a frota usa muito."
+          "why": "O ADMIN-SOBRESCREVER cai de 4 s para 2 s e o Núcleo de 8 s para 6 s. Segundo um guia, a pistola não ganha nada, e os efeitos de chance (Ukulele, Míssil, crítico) pioram. Uma build de nicho com dois DOUTORES usa Pureza para repetir os comandos de cura."
         },
         {
           "icon": "light-flux-pauldron",
@@ -374,7 +458,7 @@
           "prio": 4,
           "qty": "1",
           "effect": "−50% (−50% por acúmulo) no tempo de recarga das habilidades. −50% (−50% por acúmulo) de velocidade de ataque.",
-          "why": "Dobra a frequência dos comandos, mas a pistola é Rápida e perde metade do ritmo. Só se a build já gira em torno dos drones."
+          "why": "Dobra a frequência dos comandos, mas a pistola é Rápida e perde metade do ritmo. Só na build de nicho que gira em torno dos comandos de cura."
         },
         {
           "icon": "shaped-glass",
@@ -397,10 +481,10 @@
           "icon": "lysate-cell",
           "pt": "Célula Lisada",
           "en": "Lysate Cell",
-          "prio": 2,
+          "prio": 3,
           "qty": "1",
           "effect": "+1 (+1 por acúmulo) carga da habilidade Especial e −33% no tempo de recarga dela. Corrompe todas as Células de Combustível.",
-          "why": "Dois Núcleos de Ejeção seguidos. A wiki avisa que com o Núcleo de Amplificação você precisa de pelo menos tantos drones disponíveis quanto Células, ou a corrente de explosões pode disparar na hora."
+          "why": "Mais uma carga do Núcleo e recarga 33% menor. A wiki avisa que com o Núcleo de Amplificação você precisa de pelo menos tantos drones disponíveis quanto Células, ou a explosão sai na hora. Corrompe todas as Células de Combustível. Nenhum jogador a cita."
         },
         {
           "icon": "polylute",
@@ -409,16 +493,16 @@
           "prio": 3,
           "qty": "1 a 2",
           "effect": "25% de chance de disparar um raio de 60% de dano TOTAL até 3 (+3 por acúmulo) vezes. Corrompe todos os Ukuleles.",
-          "why": "Corrompe o Ukulele, que é essencial nesta build: você perde o raio em cadeia que espalha dano pelo grupo. Em troca, o raio acerta o mesmo alvo até 3 vezes. Mais forte contra um alvo, mais fraco em grupo. Só vale se a run está focada em chefes."
+          "why": "Corrompe todos os Ukuleles: você perde o raio em cadeia que espalha dano pelo grupo. Em troca, o raio acerta o mesmo alvo até 3 vezes. Dois jogadores o elogiam no Operador pelos muitos acertos dos drones."
         },
         {
           "icon": "voidsent-flame",
           "pt": "Chama da Nulidade",
           "en": "Voidsent Flame",
-          "prio": 3,
+          "prio": 4,
           "qty": "1 a 2",
           "effect": "Ao acertar um inimigo com a vida cheia, cria um pilar de lava de 12 m (+2,4 m por acúmulo) causando 260% (+156% por acúmulo) do dano base. Corrompe todos os Will-o'-the-wisp.",
-          "why": "O tiro carregado de abertura e o Núcleo de Ejeção acertam inimigos de vida cheia. Combina com o Pé de Cabra."
+          "why": "O tiro carregado de abertura acerta inimigos de vida cheia, como o Pé de Cabra. Corrompe todos os Will-o'-the-wisp. Citado por um jogador."
         },
         {
           "icon": "weeping-fungus",
@@ -434,46 +518,46 @@
   ],
   "synergy": [
     {
-      "title": "Ataques comandados são seus",
-      "text": "Segundo a wiki, os ataques do ADMIN-SOBRESCREVER contam como do Operador: ativam os itens dele, inclusive os de abate, e usam o dano dele. Por isso itens ao acertar (Ukulele, Míssil, Brutamontes) rendem muito com drones de rajada. A wiki não diz que os drones herdam seus itens fora desses comandos. O Drone de Limpeza é exceção e não ativa nada."
+      "title": "Ataques comandados usam seus itens",
+      "text": "Segundo a wiki, os drones usam os itens do Operador quando ele os comanda com a Secundária. Por isso o Operador é um personagem de itens ao acertar (Ukulele, Míssil ASM, Cinturões). Os jogadores dizem que os ataques normais dos drones não herdam seus itens. O Drone de Limpeza não ativa nada."
     },
     {
       "title": "Mais drones, mais cargas",
-      "text": "O ADMIN-SOBRESCREVER guarda 1 carga por drone que você controla. Compre todo drone que puder e combine drones no Combinador de Drones (Drone Combiner Station) para cargas extras e dano de 1 + 0,25 × nível. Caixa de Dinamites, Peças de Drone Avulsas e Núcleos Empáticos dão drones a mais. O Best Buddy não conta como drone."
+      "text": "O ADMIN-SOBRESCREVER guarda 1 carga por drone. Compre todo drone, combine pares na Estação de Combinação de Drones (cargas extras e dano de 1 + 0,25 × nível) e some Pentes Reserva. Caixa de Dinamites e Peças de Drone Avulsas dão um drone a mais. O Disparo Luminoso converte esses usos em raios da pistola."
     },
     {
-      "title": "Nanodefeituoso dobra as habilidades",
-      "text": "O Núcleo de Ejeção arremessa os inimigos e aplica Nanodefeituoso: +100% de dano recebido de habilidades, entregue em acertos de 120% do seu dano. Um golpe de 1.200% vira 10 acertos extras. Os acertos têm coeficiente 0,5, então também ativam itens. Use o Núcleo e depois descarregue o ADMIN-SOBRESCREVER e a pistola carregada."
+      "title": "Atire no Núcleo",
+      "text": "O Núcleo de Amplificação guarda 150% do dano que recebe, inclusive o seu. Jogue no grupo e atire nele para levar a explosão a 2.000% num raio de até 20 m. O Pé de Cabra acelera isso. Carregada, a explosão passa do limite de 400% dos Cinturões. Itens ao acertar não ativam quando você atira no Núcleo."
+    },
+    {
+      "title": "Lutar do alto",
+      "text": "O Protocolo de Ascensão deixa você acima dos inimigos, e todas as habilidades funcionam no voo. Isso carrega as Botas de Escalada (bônus garantido de cima desde a 1.4.1). O Pós-combustor de Holograma dá mais lançamentos."
     },
     {
       "title": "Pistola carregada",
-      "text": "O H3-11 causa de 150% a 600%: cada carga soma 150% e a carga máxima leva 1,5 s. Velocidade de ataque acelera a recarga, porque a habilidade é Rápida. Ao abater, o tiro ricocheteia para o inimigo com menos vida. O tiro cheio ativa o Cinturão de Kjaro e, em alvos de vida cheia, o Pé de Cabra."
-    },
-    {
-      "title": "Sobreviver com 90 de vida",
-      "text": "O Operador é frágil: 90 de vida base, 0 de armadura. Fique longe e use o Protocolo de Ascensão para sair do chão; todas as habilidades funcionam no voo. O DOUTOR dá barreira e +25% de velocidade quando comandado. Tempos Difíceis e Filé de Bisão ajudam muito no começo."
+      "text": "O H3-11 causa de 150% a 600%, e a velocidade de ataque acelera a recarga das cargas. Segure as 4 cargas: o tiro cheio ativa os Cinturões e, com Pé de Cabra, passa de 1.000% em alvos de vida cheia. Ao abater, ricocheteia para o inimigo com menos vida."
     }
   ],
   "rotation": [
     {
-      "step": "Carregue a pistola",
-      "text": "Abra com o tiro de 600% num alvo de vida cheia."
+      "step": "Suba com a Ascensão",
+      "text": "Fique acima do grupo para carregar as Botas de Escalada e sair do alcance."
     },
     {
-      "step": "Núcleo de Ejeção",
-      "text": "Jogue os inimigos para o ar e aplique Nanodefeituoso."
+      "step": "Núcleo de Amplificação",
+      "text": "Jogue no meio dos inimigos e atire nele até a carga máxima."
     },
     {
       "step": "ADMIN-SOBRESCREVER",
-      "text": "Gaste as cargas nos inimigos no ar para dobrar o dano dos drones."
+      "text": "Gaste as cargas nos drones mais fortes; cada uso carrega o Disparo Luminoso."
     },
     {
-      "step": "Tiros carregados",
-      "text": "Continue atirando; o ricochete passa para o próximo inimigo machucado."
+      "step": "Tiro de 4 cargas",
+      "text": "Dispare a pistola cheia com os raios do Disparo Luminoso e deixe o ricochete limpar."
     },
     {
-      "step": "Protocolo de Ascensão para sair",
-      "text": "Suba quando o grupo chegar perto e continue atirando do alto."
+      "step": "Salte de drone em drone",
+      "text": "Reative a Ascensão; pule antes de se prender para ganhar altura."
     }
   ],
   "essentials": [
@@ -486,85 +570,76 @@
       "en": "Soldier's Syringe"
     },
     {
-      "pt": "Caixa de Dinamites",
-      "en": "Box of Dynamite"
+      "pt": "Botas de Escalada",
+      "en": "Hiker's Boots"
     },
     {
-      "pt": "Ukulele",
-      "en": "Ukulele"
+      "pt": "Pente Reserva",
+      "en": "Backup Magazine"
+    },
+    {
+      "pt": "Disparo Luminoso",
+      "en": "Luminous Shot"
     },
     {
       "pt": "Peças de Drone Avulsas",
       "en": "Spare Drone Parts"
-    },
-    {
-      "pt": "Cabeça Alienígena",
-      "en": "Alien Head"
-    },
-    {
-      "pt": "Cartão Executivo",
-      "en": "Executive Card"
     }
   ],
-  "situational_note": "Situacionais: Bomba Aderente, Marca Fatal, Nadadeira da Interrupção, Pós-combustor, Núcleos Empáticos, O Reforço, Pureza e os itens do Vazio.",
+  "situational_note": "Situacionais: Óculos, Foice e Tanque de Ignição na variante CMD-ENXAME; Marca Fatal e Nadadeira com o Núcleo de Ejeção; M.B.I.C. Compacto com Drones de Míssil; Pluma de Hopoo, Pureza e os itens do Vazio.",
   "fallbacks": [
     {
       "pt": "Pé de Cabra",
       "en": "Crowbar",
-      "text": "Óculos do Fabricante de Lentes para o tiro carregado, ou Chama da Nulidade para alvos de vida cheia."
+      "text": "Segure as 4 cargas do mesmo jeito. A Chama da Nulidade também pune alvos de vida cheia."
     },
     {
       "pt": "Seringa Militar",
       "en": "Soldier's Syringe",
-      "text": "Mocha ou Peças de Drone Avulsas para a velocidade de ataque dos drones."
+      "text": "Mocha também dá velocidade de ataque. Peças de Drone Avulsas aceleram os drones."
     },
     {
-      "pt": "Caixa de Dinamites",
-      "en": "Box of Dynamite",
-      "text": "Compre mais drones nas fases; cada um é uma carga a mais."
+      "pt": "Botas de Escalada",
+      "en": "Hiker's Boots",
+      "text": "Óculos do Fabricante de Lentes para crítico, sobretudo com CMD-ENXAME."
     },
     {
-      "pt": "Ukulele",
-      "en": "Ukulele",
-      "text": "Míssil ASM ou Brutamontes, que também ativam com os acertos comandados."
+      "pt": "Pente Reserva",
+      "en": "Backup Magazine",
+      "text": "Compre e combine mais drones: cada um é uma carga a mais da Secundária."
+    },
+    {
+      "pt": "Disparo Luminoso",
+      "en": "Luminous Shot",
+      "text": "Míssil ASM e Ukulele nos ataques comandados; os Cinturões no tiro carregado."
     },
     {
       "pt": "Peças de Drone Avulsas",
       "en": "Spare Drone Parts",
-      "text": "Combine drones no Combinador de Drones para mais cargas e dano."
-    },
-    {
-      "pt": "Cabeça Alienígena",
-      "en": "Alien Head",
-      "text": "Célula Lisada para o Núcleo de Ejeção e Pós-combustor para a Ascensão. Pureza se aceitar o custo nos efeitos de chance."
-    },
-    {
-      "pt": "Cartão Executivo",
-      "en": "Executive Card",
-      "text": "O Reforço para lutas de chefe ou Capacitor Régio para dano à distância."
+      "text": "Caixa de Dinamites, que também dá um drone, e combinar drones na Estação de Combinação."
     }
   ],
-  "summary": "Técnico de Drones, H3-11 OCR Personalizado, ADMIN-SOBRESCREVER, Protocolo de Ascensão e Núcleo de Ejeção. Compre todos os drones que puder: cada um é uma carga do ADMIN-SOBRESCREVER, e os ataques comandados ativam seus itens e usam seu dano. Abra com o tiro carregado, jogue o grupo para o ar com o Núcleo de Ejeção e gaste os comandos enquanto o Nanodefeituoso dobra o dano. Empilhe Pé de Cabra, Seringa e itens ao acertar, e pegue Peças de Drone Avulsas e Caixa de Dinamites para aumentar a frota.",
+  "summary": "Técnico de Drones com PIU e DOUTOR, H3-11 OCR Personalizado, ADMIN-SOBRESCREVER, Protocolo de Ascensão e Núcleo de Amplificação. Compre todos os drones: cada um é uma carga do ADMIN-SOBRESCREVER, e os ataques comandados usam seus itens. Lute do alto, atire no próprio Núcleo para carregar a explosão e gaste as cargas antes do tiro de 4 cargas. Empilhe Seringa, Pé de Cabra, Botas de Escalada e Pente Reserva, e pegue Disparo Luminoso e Peças de Drone Avulsas.",
   "checklist": [
     {
       "title": "Sempre pegue",
-      "text": "Pé de Cabra, Seringa Militar, Caixa de Dinamites, Ukulele, Peças de Drone Avulsas, Cabeça Alienígena."
+      "text": "Pé de Cabra, Seringa Militar, Botas de Escalada, Pente Reserva, Disparo Luminoso, Peças de Drone Avulsas."
     },
     {
       "title": "Compre drones",
-      "text": "Todo drone que puder pagar. Cada um é mais uma carga do ADMIN-SOBRESCREVER."
+      "text": "Não saia da fase com drone parado. Cada um é mais uma carga do ADMIN-SOBRESCREVER."
     },
     {
-      "title": "Impressoras brancas",
-      "text": "Transforme em Seringa Militar até umas 5, depois Pé de Cabra e Tempos Difíceis."
+      "title": "Atire no Núcleo",
+      "text": "O Núcleo de Amplificação só chega a 2.000% se absorver dano, inclusive o seu."
     },
     {
-      "title": "Primeiro verde",
-      "text": "Caixa de Dinamites. Depois Míssil ASM, e continue empilhando."
+      "title": "Fique no alto",
+      "text": "Lute no ar com a Ascensão para manter as Botas de Escalada."
     },
     {
-      "title": "Equipamento",
-      "text": "Cartão Executivo no começo para comprar mais drones; Capacitor Régio mais tarde."
+      "title": "Drones em risco",
+      "text": "O Grão-Progenitor e o chefe final da Alloyed Collective destroem drones. Tenha dano próprio de reserva."
     },
     {
       "title": "Antes de pegar Vazio",
@@ -576,6 +651,78 @@
     }
   ],
   "sources": [
+    {
+      "title": "How Operator Breaks the Game - Operator Guide · rndThursday (YouTube)",
+      "url": "https://www.youtube.com/watch?v=S651l-KxtXc",
+      "kind": "video",
+      "date": "2026-02-08"
+    },
+    {
+      "title": "Best Operator & Drifter Loadouts · rndThursday (YouTube)",
+      "url": "https://www.youtube.com/watch?v=PHL3V1ZgLVg",
+      "kind": "video",
+      "date": "2026-03-29"
+    },
+    {
+      "title": "The Only Operator Character Guide You'll EVER NEED · TrentoMento (YouTube)",
+      "url": "https://www.youtube.com/watch?v=9GwVKuiP8zM",
+      "kind": "video",
+      "date": "2025-11-22"
+    },
+    {
+      "title": "Operator Character Guide (Risk of Rain 2 Alloyed Collective) · Woolie (YouTube)",
+      "url": "https://www.youtube.com/watch?v=TFx5YMvdem4",
+      "kind": "video",
+      "date": "2025-11-25"
+    },
+    {
+      "title": "The Definitive Risk of Rain 2 Survivor Tier List (2026) · EchoTM (YouTube)",
+      "url": "https://www.youtube.com/watch?v=JJNOXNWky6U",
+      "kind": "video",
+      "date": "2026-02-27"
+    },
+    {
+      "title": "The ULTIMATE Operator Character Guide (Unlock ALL Abilities) · Mishic (YouTube)",
+      "url": "https://www.youtube.com/watch?v=_-31sNRS2eY",
+      "kind": "video",
+      "date": "2025-12-26"
+    },
+    {
+      "title": "I Tried Operator's Alternate Abilities, So You Don't Have to · Deltsong (YouTube)",
+      "url": "https://www.youtube.com/watch?v=rbhEC6xEzUc",
+      "kind": "video",
+      "date": "2025-11-26"
+    },
+    {
+      "title": "An Operator's Eclipse w/ Operator Guide and Tips · hollow0b (YouTube)",
+      "url": "https://www.youtube.com/watch?v=pPlqberMKnI",
+      "kind": "video",
+      "date": "2025-12-08"
+    },
+    {
+      "title": "Ranking Every Green Item in Risk of Rain 2 (2026) · EchoTM (YouTube)",
+      "url": "https://www.youtube.com/watch?v=y-r2v8JF3RQ",
+      "kind": "video",
+      "date": "2026-08-22"
+    },
+    {
+      "title": "Ranking Every White Item in Risk of Rain 2 (2026) · EchoTM (YouTube)",
+      "url": "https://www.youtube.com/watch?v=vL2G6mV-3Bs",
+      "kind": "video",
+      "date": "2026-07-21"
+    },
+    {
+      "title": "Eclipse Strategy Guide · Steam Community",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3616777918",
+      "kind": "guide",
+      "date": "2025-12-03"
+    },
+    {
+      "title": "Brainless Operator Build: Colonel Dronespam · Steam Community",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3611563175",
+      "kind": "guide",
+      "date": "2025-12-08"
+    },
     {
       "title": "Operator · Risk of Rain 2 Wiki",
       "url": "https://riskofrain2.wiki.gg/wiki/Operator",
@@ -597,92 +744,120 @@
       "kind": "wiki"
     },
     {
-      "title": "Operator Risk of Rain 2 · Rogue Ranker (guia da comunidade)",
-      "url": "https://rogueranker.com/operator-ror2/",
-      "kind": "guide"
+      "title": "Alloyed Collective and Patch Notes - November 18, 2025 · 2K",
+      "url": "https://support.2k.com/hc/en-us/articles/46614659423891",
+      "kind": "patch",
+      "date": "2025-11-18"
+    },
+    {
+      "title": "Risk of Rain 2 Update 1.4.1 Patch Notes · MP1st",
+      "url": "https://mp1st.com/title-updates-and-patches/risk-of-rain-2-new-update-1-4-1-patch-1-20-1-004-100",
+      "kind": "patch",
+      "date": "2025-12-09"
+    },
+    {
+      "title": "Risk of Rain 2: Patch Notes - October 8, 2026 · 2K",
+      "url": "https://support.2k.com/hc/en-us/articles/56193476123795-Risk-of-Rain-2-Patch-Notes-October-8-2026",
+      "kind": "patch",
+      "date": "2026-10-08"
     }
   ],
+  "reviewed": "2026-10-13",
   "notes": [
     "O Operador exige a DLC Alloyed Collective.",
-    "CMD-ENXAME, FIREWALL e Núcleo de Amplificação são desbloqueados pelos desafios That All You Got?, Not So Different e That Just Happened.",
-    "A wiki não detalha como se escolhem os 2 drones companheiros no menu de loadout, nem a primária alternativa Nanorrecipiente. Esses pontos vêm do texto do jogo em português."
+    "Evidência mais fina que a dos sobreviventes antigos: cerca de 9 fontes específicas do Operador, quase todas de novembro de 2025 a março de 2026. Nenhuma run de Eclipse 8 comentada por um jogador de topo foi encontrada. As prioridades aqui são conservadoras.",
+    "Núcleo de Amplificação contra Núcleo de Ejeção: cinco fontes (três de alta qualidade, incluindo o vídeo de loadouts mais recente) preferem o de Amplificação; duas preferem o de Ejeção. Um guia diz que a diferença entre as duas Especiais é pequena.",
+    "Drones iniciais: não há consenso. PIU e DOUTOR é a dupla dos dois vídeos mais recentes do mesmo criador; PIU e CROSSHAIRS, de um guia de lançamento; dois CROSSHAIRS, de uma tier list de 2026. A wiki não explica como a dupla é escolhida.",
+    "Redução de recarga e a pistola: um guia diz que Cabeça Alienígena, Pureza e outros itens de recarga não aceleram o H3-11. A wiki só diz que a habilidade é Rápida (escala com velocidade de ataque) e não fala de redução de recarga.",
+    "Núcleos Empáticos: a wiki lista as habilidades das duas sondas entre os comandos do ADMIN-SOBRESCREVER, mas um guia de lançamento diz que elas não somam cargas da Secundária. Não confirmado.",
+    "Peças de Drone Avulsas: o patch da Alloyed Collective (18 nov. 2025) cortou 50% de todos os atributos do item. Não está claro se o texto do item acima já reflete o corte.",
+    "O Ukulele com o Núcleo de Amplificação era recomendado no lançamento por ativar ao atirar no Núcleo. Segundo a wiki, desde a 1.4.1 isso não acontece mais.",
+    "FIREWALL: a Hallowed Concepts (8 out. 2026) fez o escudo bloquear explosões vindas de fora dele, incluindo o laser do Voidling. Ainda não há avaliação dos jogadores. A DLC não trouxe habilidade nova para o Operador.",
+    "Nanorrecipiente: o arquivo pt-BR do jogo tem uma Primária alternativa com esse nome (200% + 5 projéteis de 40%, Buga inimigos). A wiki não a lista, nenhum guia a usa e todos tratam o H3-11 como única Primária. Tratamos como conteúdo não disponível.",
+    "Citados por um jogador só, fora da lista: Cartucheira (devolve uma carga da pistola; a wiki diz que com Célula Lisada recarrega o Núcleo), Mira Laser na variante CMD-ENXAME, Condutor Defeituoso, Escorpião Simbiótico, Camarão de Plasma e itens de corrida (um guia diz que o voo conta como correr).",
+    "CMD-ENXAME, FIREWALL e Núcleo de Amplificação são desbloqueados pelos desafios That All You Got?, Not So Different e That Just Happened. Pelo texto do jogo, o último pede manter um Lemuriano Ancião no ar por 10 s."
   ],
   "command": {
-    "intro": "Com a Autoridade você escolhe cada item, mas os drones continuam sendo comprados com ouro. Priorize o que dá drones e cargas do ADMIN-SOBRESCREVER (Caixa de Dinamites, Peças de Drone Avulsas) e, nos brancos, Pé de Cabra e Seringa primeiro, com defesa logo atrás, porque o Operador tem só 90 de vida.",
+    "intro": "Com a Autoridade você escolhe cada item, mas os drones continuam sendo comprados com ouro. Nos brancos, velocidade de ataque, Pé de Cabra, Pente Reserva e Botas de Escalada primeiro; nos verdes, Disparo Luminoso e os itens ao acertar; no vermelho, Peças de Drone Avulsas.",
     "tiers": [
       {
         "tier": "common",
         "steps": [
-          {
-            "en": "Crowbar",
-            "n": 2,
-            "why": "O tiro carregado de 600% e as rajadas comandadas abrem a luta em inimigos de vida cheia."
-          },
           {
             "en": "Soldier's Syringe",
             "n": 2,
             "why": "A pistola é Rápida: mais velocidade de ataque, mais tiros carregados."
           },
           {
-            "en": "Tougher Times",
-            "n": 2,
-            "why": "Com 90 de vida e 0 de armadura, cada bloqueio no começo pode salvar a run."
+            "en": "Crowbar",
+            "n": 1,
+            "why": "Um Pé de Cabra já leva o tiro de 4 cargas a mais de 1.000% em alvos de vida cheia."
           },
           {
-            "en": "Lens-Maker's Glasses",
+            "en": "Backup Magazine",
             "n": 2,
-            "why": "Crítico dobra o tiro de 600%."
+            "why": "Duas cargas a mais do ADMIN-SOBRESCREVER desde o começo."
+          },
+          {
+            "en": "Hiker's Boots",
+            "n": 2,
+            "why": "Com a Ascensão você luta de cima: até 20% de crítico e de dano crítico."
           },
           {
             "en": "Soldier's Syringe",
-            "n": 2,
-            "why": "Quatro Seringas para manter a pistola girando entre os comandos."
-          },
-          {
-            "en": "Bison Steak",
-            "n": 2,
-            "why": "+50 de vida sobre uma base de 90."
+            "n": 1,
+            "why": "Terceira Seringa."
           },
           {
             "en": "Crowbar",
             "n": 1,
-            "why": "Terceiro Pé de Cabra: o tiro de abertura derruba a maioria dos inimigos comuns."
-          },
-          {
-            "en": "Lens-Maker's Glasses",
-            "n": 2,
-            "why": "Quatro Óculos deixam o crítico frequente e preparam a Foice."
-          },
-          {
-            "en": "Soldier's Syringe",
-            "n": 1,
-            "why": "Quinta Seringa."
-          },
-          {
-            "en": "Paul's Goat Hoof",
-            "n": 1,
-            "why": "Para se reposicionar enquanto o Protocolo de Ascensão recarrega."
+            "why": "Segundo Pé de Cabra, também para carregar o Núcleo mais rápido."
           },
           {
             "en": "Tougher Times",
             "n": 1,
-            "why": "Terceiro bloqueio para os estágios finais."
+            "why": "Um bloqueio para uma vida base de 90."
           },
           {
-            "en": "Bison Steak",
+            "en": "Backup Magazine",
+            "n": 2,
+            "why": "Quatro Pentes: mais usos da Secundária e mais cargas do Disparo Luminoso."
+          },
+          {
+            "en": "Hiker's Boots",
             "n": 1,
-            "why": "Mais 25 de vida."
+            "why": "Terceira Bota: até 30% de crítico e de dano crítico."
+          },
+          {
+            "en": "Soldier's Syringe",
+            "n": 2,
+            "why": "Cinco Seringas."
+          },
+          {
+            "en": "Gasoline",
+            "n": 1,
+            "why": "Ricochetes e rajadas matam muito, e cada abate espalha fogo."
+          },
+          {
+            "en": "Paul's Goat Hoof",
+            "n": 1,
+            "why": "Para se reposicionar enquanto a Ascensão recarrega."
+          },
+          {
+            "en": "Crowbar",
+            "n": 1,
+            "why": "Terceiro Pé de Cabra."
           }
         ],
-        "then": "Depois: complete Seringa, Óculos e Pé de Cabra até o limite da build. Bomba Aderente só se sobrar escolha, pelas rajadas comandadas."
+        "then": "Depois: mais Pente Reserva e Botas de Escalada, que não têm limite útil aqui. Na variante CMD-ENXAME, troque parte dos Pés de Cabra por Óculos do Fabricante de Lentes."
       },
       {
         "tier": "uncommon",
         "steps": [
           {
-            "en": "Box of Dynamite",
+            "en": "Luminous Shot",
             "n": 1,
-            "why": "Liga a build: mais um drone é mais uma carga do ADMIN-SOBRESCREVER, e o Lt. Droneboy tem um comando próprio de dinamites."
+            "why": "Cada uso da Secundária vira carga para os raios da pistola."
           },
           {
             "en": "Ukulele",
@@ -692,17 +867,32 @@
           {
             "en": "AtG Missile Mk. 1",
             "n": 2,
-            "why": "Dois Mísseis: 600% por disparo nas rajadas e nos acertos extras do Nanodefeituoso."
+            "why": "Dois Mísseis: 600% por disparo nas rajadas comandadas."
           },
           {
             "en": "Kjaro's Band",
             "n": 1,
-            "why": "O tiro carregado de 600% passa do limite de 400%. Uma cópia basta, porque recarrega a cada 10 s."
+            "why": "O tiro cheio e a explosão carregada do Núcleo passam do limite de 400%."
+          },
+          {
+            "en": "Runald's Band",
+            "n": 1,
+            "why": "Ativa junto com o Cinturão de Kjaro na mesma recarga de 10 s."
+          },
+          {
+            "en": "Box of Dynamite",
+            "n": 1,
+            "why": "Mais um drone e mais uma carga do ADMIN-SOBRESCREVER. Uma basta: a segunda só soma 85% às dinamites."
           },
           {
             "en": "AtG Missile Mk. 1",
             "n": 1,
             "why": "Terceiro Míssil: 900% por disparo."
+          },
+          {
+            "en": "Luminous Shot",
+            "n": 1,
+            "why": "Segundo Disparo: 6 cargas guardadas e raios de 225%."
           },
           {
             "en": "Ukulele",
@@ -715,22 +905,12 @@
             "why": "Cinco Mísseis: 1.500% por disparo."
           },
           {
-            "en": "Harvester's Scythe",
-            "n": 1,
-            "why": "Com quatro Óculos, cura à distância a cada crítico. Uma basta: as próximas só somam +4 de cura."
-          },
-          {
             "en": "Ukulele",
             "n": 1,
             "why": "Terceiro Ukulele: 7 alvos a 24 m."
-          },
-          {
-            "en": "Death Mark",
-            "n": 1,
-            "why": "Nanodefeituoso, Queimadura e Gelo dos drones ajudam a chegar aos 4 debuffs."
           }
         ],
-        "then": "Depois: continue empilhando Míssil ASM. Segunda Caixa de Dinamites só aumenta o dano das dinamites em 85%. Nadadeira da Interrupção se quiser manter os inimigos no ar para o Nanodefeituoso."
+        "then": "Depois: continue empilhando Míssil ASM e Disparo Luminoso. Uma Pluma de Hopoo ajuda a pular entre drones. Tanque de Ignição só na variante CMD-ENXAME."
       },
       {
         "tier": "legendary",
@@ -738,22 +918,12 @@
           {
             "en": "Spare Drone Parts",
             "n": 1,
-            "why": "Melhora todos os drones e dá o Col. Droneman, mais uma carga do ADMIN-SOBRESCREVER."
+            "why": "Melhora todos os drones e dá o Coronel Droneman, mais uma carga do ADMIN-SOBRESCREVER."
           },
           {
-            "en": "Alien Head",
+            "en": "Hardlight Afterburner",
             "n": 1,
-            "why": "ADMIN-SOBRESCREVER, Núcleo de Ejeção e Protocolo de Ascensão voltam mais rápido."
-          },
-          {
-            "en": "Brilliant Behemoth",
-            "n": 1,
-            "why": "Cada míssil e cada tiro comandado explode em área."
-          },
-          {
-            "en": "Alien Head",
-            "n": 1,
-            "why": "Segunda Cabeça: mais comandos por minuto."
+            "why": "Mais Protocolos de Ascensão para ficar no alto e fugir."
           },
           {
             "en": "Spare Drone Parts",
@@ -761,12 +931,17 @@
             "why": "Mais velocidade de ataque e redução de recarga para todos os drones."
           },
           {
-            "en": "Sentient Meat Hook",
+            "en": "Alien Head",
             "n": 1,
-            "why": "Os muitos acertos comandados espalham ganchos por até 10 inimigos."
+            "why": "Secundária, Núcleo e Ascensão voltam mais rápido. Segundo um guia, não acelera a pistola."
+          },
+          {
+            "en": "Brilliant Behemoth",
+            "n": 1,
+            "why": "Cada míssil e cada tiro comandado explode em área."
           }
         ],
-        "then": "Depois: mais Brutamontes ou Gancho. Pós-combustor se precisar de mais Protocolos de Ascensão para fugir."
+        "then": "Depois: Gancho de Carnes Senciente, ou M.B.I.C. Compacto se a frota tiver Drones de Míssil."
       },
       {
         "tier": "boss",
@@ -774,7 +949,7 @@
           {
             "en": "Empathy Cores",
             "n": 1,
-            "why": "As duas sondas contam como drones: duas cargas a mais do ADMIN-SOBRESCREVER."
+            "why": "As sondas ganham dano por aliado, e a frota é grande."
           },
           {
             "en": "Charged Perforator",
@@ -788,38 +963,22 @@
         "tier": "equipment",
         "steps": [
           {
-            "en": "Executive Card",
-            "n": 1,
-            "why": "Escolha este no primeiro barril: 10% do ouro volta em cada drone e baú comprado."
-          },
-          {
             "en": "The Back-up",
             "n": 1,
             "why": "Quatro Drones de Ataque temporários para comandar nas lutas de chefe."
           },
           {
-            "en": "Royal Capacitor",
+            "en": "Executive Card",
             "n": 1,
-            "why": "Se ainda não desbloqueou os dois acima: 3000% a cada 20 s, de longe."
+            "why": "Alternativa no começo: 10% do ouro volta em cada drone e baú comprado."
           },
           {
-            "en": "Primordial Cube",
+            "en": "Royal Capacitor",
             "n": 1,
-            "why": "Reserva: junta o grupo para o Núcleo de Ejeção e o ricochete."
+            "why": "Se ainda não desbloqueou os dois acima: 3.000% a cada 20 s, de longe."
           }
         ],
-        "then": "Equipamento é um só. Sem terminais múltiplos na Autoridade, o Cartão vale só pelo ouro de volta. Quando o ouro sobrar no fim da run, troque pelo Reforço num barril."
-      },
-      {
-        "tier": "lunar",
-        "steps": [
-          {
-            "en": "Purity",
-            "n": 1,
-            "why": "ADMIN-SOBRESCREVER cai de 4 s para 2 s e o Núcleo de Ejeção de 8 s para 6 s. Piora Ukulele, Míssil e crítico."
-          }
-        ],
-        "then": "A wiki não confirma se a cápsula lunar dá escolha com a Autoridade. Se der, Pureza é a única que vale. Nunca Vidro Configurado: corta pela metade uma vida de 90."
+        "then": "Equipamento é um só. Sem terminais múltiplos na Autoridade, o Cartão vale só pelo ouro de volta; troque pelo Reforço quando o ouro sobrar."
       },
       {
         "tier": "void",
@@ -827,17 +986,12 @@
           {
             "en": "Lysate Cell",
             "n": 1,
-            "why": "Em um berço verde: dois Núcleos de Ejeção seguidos e recarga 33% menor. Corrompe a Célula de Combustível, que a build não usa."
+            "why": "Em um berço verde: mais uma carga do Núcleo, se houver drones livres. Corrompe a Célula de Combustível, que a build não usa."
           },
           {
             "en": "Voidsent Flame",
             "n": 1,
-            "why": "Também em berço verde: o tiro de abertura e o Núcleo de Ejeção acertam inimigos de vida cheia. Corrompe o Will-o'-the-wisp, que a build não usa."
-          },
-          {
-            "en": "Voidsent Flame",
-            "n": 1,
-            "why": "Segunda Chama: pilar maior e mais forte."
+            "why": "Também em berço verde: o tiro de abertura acerta inimigos de vida cheia. Corrompe o Will-o'-the-wisp, que a build não usa."
           },
           {
             "en": "Weeping Fungus",
@@ -845,7 +999,7 @@
             "why": "Em um berço branco: cura enquanto corre, e as habilidades Ágeis funcionam correndo. Corrompe o Fungo Vibrante, que a build não usa."
           }
         ],
-        "then": "O berço do Vazio define a raridade da escolha. Evite Polialaúde: corrompe todos os seus Ukuleles e o raio em cadeia que espalha dano."
+        "then": "O berço do Vazio define a raridade da escolha. Polialaúde corrompe todos os seus Ukuleles; só vale se você não tiver nenhum."
       }
     ]
   }
