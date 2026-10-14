@@ -2,9 +2,9 @@
   "id": "captain",
   "name_pt": "Capitão",
   "name_en": "Captain",
-  "title": "Capitão: Build de Escopeta e Sondas",
-  "tagline": "Escopeta de oito projéteis e ataques do céu",
-  "lede": "O Capitão (Captain) não tem habilidade de movimento nem Utilitária e Especial comuns: pede Sondas Orbitais e Faróis de Suprimento à nave. Esta build usa a Escopeta Vulcan para ativar itens ao acertar, as Sondas para dano alto e dois faróis escolhidos antes da run: Cura para sobreviver e Hack para itens grátis. Os itens aumentam os oito projéteis da escopeta e dão mais Sondas.",
+  "title": "Capitão: Build de Hack, Sondas e Drones",
+  "tagline": "Itens grátis, Sondas de 1.000% e drones com Microrrobôs",
+  "lede": "O Capitão (Captain) não tem habilidade de movimento, mas pede Sondas Orbitais e faróis à nave. A maioria dos jogadores leva dois Faróis: Hack para encher a run de itens e drones grátis, e usa as Sondas de 1.000% para ativar o Cinturão de Kjaro e o de Runald. A Escopeta Vulcan ativa itens oito vezes por disparo, e velocidade vem antes de dano nas primeiras fases.",
   "loadout": [
     {
       "slot": "Passiva",
@@ -28,7 +28,7 @@
     },
     {
       "slot": "Farol 1",
-      "skill": "Farol: Cura (Beacon: Healing)"
+      "skill": "Farol: Hack (Beacon: Hacking)"
     },
     {
       "slot": "Farol 2",
@@ -42,7 +42,7 @@
       "en": "Defensive Microbots",
       "pick": "Fixa",
       "spec": "Item lendário grátis. Derruba 1 (+1 por acúmulo) projétil a até 20 m a cada 0,5 s. A recarga escala com a velocidade de ataque.",
-      "why": "Muito forte contra Lemurianos e outros inimigos que atiram projéteis; não para o laser do Titã de Pedra (Stone Titan) nem os ataques do Templário de Barro (Clay Templar). É um item de verdade: se for perdido numa Impressora Mili-Tech, Sucateadora, Santuário da Ordem ou Egocentrismo, some para sempre. Drones novos também recebem Microrrobôs."
+      "why": "Muito forte contra Lemurianos e outros inimigos que atiram projéteis; não para o laser do Titã de Pedra (Stone Titan) nem os ataques do Templário de Barro (Clay Templar). Segundo a wiki, todo drone ou torreta aliada nova também recebe Microrrobôs, e por isso os jogadores compram drones em toda run. É um item de verdade: se for descartado numa Impressora Mili-Tech, Sucateadora, Santuário da Ordem ou Egocentrismo, a wiki diz que o Capitão o perde para sempre."
     },
     {
       "slot": "Primária",
@@ -50,7 +50,7 @@
       "en": "Vulcan Shotgun",
       "pick": "Única opção",
       "spec": "8 projéteis de 120%. Coeficiente 0,75 cada. Disparo a cada 1 s, carga de 1,2 s (os dois escalam com velocidade de ataque).",
-      "why": "Carregar estreita a dispersão: de perto, tiro rápido; de longe, tiro carregado. Os oito projéteis são oito chances de efeitos ao acertar, e a wiki cita a Adaga Triangular e o Baço Desfigurado. O crítico é rolado por disparo: ou todos os projéteis são críticos, ou nenhum. Perde dano com a distância."
+      "why": "Carregar estreita a dispersão: de perto, atire sem carregar; de longe, carregue. Os oito projéteis são oito chances de efeitos ao acertar, e a wiki cita a Adaga Triangular e o Baço Desfigurado. O crítico é rolado por disparo: ou todos os projéteis são críticos, ou nenhum. Perde dano com a distância."
     },
     {
       "slot": "Secundária",
@@ -58,15 +58,15 @@
       "en": "Power Tazer",
       "pick": "Única opção",
       "spec": "Eletrizante. 100% de dano, área de 2 m. Coeficiente 1,0. Recarga 6 s. Vai mais longe se ricochetear.",
-      "why": "Choca garantido inimigos que não são chefes por até 5 s, ou até levarem mais de 10% da vida máxima de dano. Um alvo parado é alvo certo para a Sonda. Segundo a wiki, o choque não conta para a Marca Fatal."
+      "why": "Choca garantido inimigos que não são chefes por até 5 s, ou até levarem mais de 10% da vida máxima de dano. Um alvo parado é alvo certo para a Sonda. Os jogadores a consideram a parte mais fraca do kit, e alguns jogadores de Eclipse trocam pelos Ganchos da Heresia (Hooks of Heresy). Segundo a wiki, o choque não conta para a Marca Fatal."
     },
     {
       "slot": "Utilitária",
       "pt": "Sonda Orbital",
       "en": "Orbital Probe",
       "pick": "Recomendada",
-      "spec": "Atordoante. Até 3 sondas de 1000% cada. Coeficiente 1,0 por sonda. 3 cargas, recarga 11 s.",
-      "why": "A recarga só começa depois de gastar as três cargas. As sondas demoram alguns segundos para cair, e isso não muda com velocidade de ataque; mire onde o inimigo vai estar. Correr cancela a mira, mas se já pediu alguma sonda a recarga inteira é aplicada."
+      "spec": "Atordoante. Até 3 sondas de 1.000% cada. Coeficiente 1,0 por sonda. 3 cargas, recarga 11 s.",
+      "why": "Preferida por jogadores de Eclipse 8 e mains antigos pela consistência: três cargas a cada 11 s, sem a espera de 20 s do DIABLO. Cada sonda de 1.000% passa do limite de 400% dos Cinturões. A recarga só começa depois de gastar as três cargas, e as sondas demoram alguns segundos para cair: mire onde o inimigo vai estar. Correr cancela a mira, mas se já pediu alguma sonda a recarga inteira é aplicada. O DIABLO é uma opção do mesmo nível (abaixo)."
     },
     {
       "slot": "Utilitária (alt.)",
@@ -74,39 +74,39 @@
       "en": "OGM-72 'DIABLO' Strike",
       "pick": "Variante",
       "spec": "Atordoante. 40.000% de dano a TODOS os personagens após 20 s. Coeficiente 1,0. Recarga 40 s. Desbloqueio: Capitão: Esmagado (Smushed).",
-      "why": "Mata quase tudo, mas demora 20 s e perde dano longe do centro. O Capitão leva metade (20.000%) se ficar perto. A recarga é a maior do jogo, então a wiki indica a Cartucheira para usar mais vezes. Bom contra chefes lentos; as Sondas são melhores no dia a dia."
+      "why": "Opção do mesmo nível que a Sonda: os criadores com mais alcance em 2024 e 2026 e os speedruns preferem o DIABLO com dois Faróis: Hack. Mata chefes de teleporte de uma vez e ativa os Cinturões. Demora 20 s, perde dano longe do centro, e o Capitão leva metade (20.000%) se ficar perto. Com ele, a Cartucheira, o Pós-combustor e a Cabeça Alienígena sobem, por causa da recarga de 40 s. Os jogadores de Eclipse acham o risco alto."
     },
     {
       "slot": "Especial",
       "pt": "Farol de Suprimento Orbital",
       "en": "Orbital Supply Beacon",
       "pick": "Fixa",
-      "spec": "2 faróis permanentes por fase, raio de 10 m. 2000% de dano se cair num inimigo. Não dá crítico.",
-      "why": "O primeiro farol sai pelo botão da Primária e o segundo pelo da Secundária. Depois dos dois, a habilidade trava até a próxima fase. Dentro de dois Faróis: Cura, a cura se soma. Indisponível nos Reinos Ocultos (Hidden Realms); funciona normalmente embaixo de tetos."
+      "spec": "2 faróis permanentes por fase, raio de 10 m. 2.000% de dano se cair num inimigo. Não dá crítico.",
+      "why": "O primeiro farol sai pelo botão da Primária e o segundo pelo da Secundária. Depois dos dois, a habilidade trava até a próxima fase. Segundo a wiki, os faróis apertam as placas de pressão do Aqueduto Abandonado (Abandoned Aqueduct). Indisponível nos Reinos Ocultos (Hidden Realms); funciona normalmente embaixo de tetos."
     },
     {
-      "slot": "Farol 1",
-      "pt": "Farol: Cura",
-      "en": "Beacon: Healing",
-      "pick": "Recomendada",
-      "spec": "Cura todos os aliados próximos em 10% da vida máxima por segundo.",
-      "why": "O Capitão tem pouca vida e 0 de armadura. Coloque o farol no teleporte antes de ativar e lute dentro do raio de 10 m: 10% por segundo recupera a vida inteira em 10 s."
-    },
-    {
-      "slot": "Farol 2",
+      "slot": "Farol 1 e 2",
       "pt": "Farol: Hack",
       "en": "Beacon: Hacking",
       "pick": "Recomendada",
       "spec": "Hackeia os compráveis próximos para custo $0 com o tempo, começando pelo mais perto. Desbloqueio: Capitão: Valeu Cada Centavo (Worth Every Penny).",
-      "why": "Hackeia todos os compráveis por perto, um de cada vez: baús, drones e santuários de graça em toda fase são mais itens para chegar longe. A velocidade depende do custo base do objeto. Não funciona em coisas travadas pelo teleporte nem em compras que não usam ouro."
+      "why": "A escolha da grande maioria dos jogadores, nos dois espaços. Zera o custo dos compráveis por perto, um de cada vez. Use primeiro num Santuário da Chance: segundo a wiki, todas as tentativas restantes custam $0. Depois, baús grandes ou grupos de baús. Ponha cedo na fase, porque o valor cai quando o dinheiro sobra. A velocidade depende do custo base do objeto. Não funciona em coisas travadas pelo teleporte nem em compras que não usam ouro."
     },
     {
-      "slot": "Farol (alt.)",
+      "slot": "Farol 2 (alt.)",
       "pt": "Farol: Eletrizante",
       "en": "Beacon: Shocking",
       "pick": "Variante",
       "spec": "A cada 3 s, choca todos os inimigos próximos e os imobiliza até serem atacados.",
-      "why": "Troque o Hack por este se estiver morrendo no teleporte. Os inimigos parados viram alvo fácil para as Sondas. Combina com o Farol: Cura no mesmo lugar."
+      "why": "A principal alternativa: Hack + Eletrizante. Os inimigos parados viram alvo fácil para as Sondas e o DIABLO. Alguns jogadores dizem que o segundo Hack perde força depois do primeiro ciclo (loop), quando o dinheiro sobra, e que o Eletrizante rende mais a partir daí."
+    },
+    {
+      "slot": "Farol (alt.)",
+      "pt": "Farol: Cura",
+      "en": "Beacon: Healing",
+      "pick": "Variante",
+      "spec": "Cura todos os aliados próximos em 10% da vida máxima por segundo.",
+      "why": "Para co-op, ou se estiver morrendo no teleporte. Quase nenhum jogador atual leva: a maioria prefere os itens grátis do Hack. Dentro do raio de 10 m, 10% por segundo recupera a vida inteira em 10 s, e dois Faróis: Cura somam a cura."
     },
     {
       "slot": "Farol (alt.)",
@@ -114,7 +114,7 @@
       "en": "Beacon: Resupply",
       "pick": "Variante",
       "spec": "Recarrega o equipamento ao usar. Até 3 usos. Desbloqueio: Capitão: Desejo de Viajar (Wanderlust).",
-      "why": "Só vale com um equipamento de recarga longa e muito forte. Para runs normais, Cura e Hack dão mais."
+      "why": "Só vale com um equipamento de recarga longa e muito forte, como o Acumulador de Préon. Os jogadores o tratam como escolha de build de brincadeira."
     }
   ],
   "sections": [
@@ -122,7 +122,7 @@
       "id": "common",
       "name": "Comum",
       "color": "white",
-      "intro": "O Capitão é frágil e atira oito projéteis por vez. Os brancos dão efeitos por projétil e defesa.",
+      "intro": "O Capitão não tem mobilidade e atira oito projéteis por vez: os brancos dão velocidade, sangramento e defesa.",
       "items": [
         {
           "icon": "tri-tip-dagger",
@@ -131,7 +131,16 @@
           "prio": 1,
           "qty": "3 a 5",
           "effect": "10% (+10% por acúmulo) de chance de fazer um inimigo sangrar, causando 240% do dano base.",
-          "why": "A wiki cita a Adaga com a Escopeta. Oito projéteis por disparo, mesmo com coeficiente 0,75, aplicam muitos sangramentos em cada alvo."
+          "why": "Jogadores de Eclipse vão de sangramento desde a fase 1. Oito projéteis por disparo, mesmo com coeficiente 0,75, aplicam muitos sangramentos em cada alvo, e a wiki cita a Adaga com a Escopeta. Alimenta o Baço Desfigurado."
+        },
+        {
+          "icon": "pauls-goat-hoof",
+          "pt": "Casco de Bode de Paul",
+          "en": "Paul's Goat Hoof",
+          "prio": 1,
+          "qty": "2 a 5",
+          "effect": "Aumenta a velocidade de movimento em 14% (+14% por acúmulo).",
+          "why": "O Capitão não tem nenhuma habilidade de movimento, e os guias chamam velocidade de obrigatória. Pegue antes de dano nas fases 1 e 2. Uma run de Eclipse 8 terminou com 5 Cascos."
         },
         {
           "icon": "soldiers-syringe",
@@ -143,13 +152,31 @@
           "why": "O intervalo entre disparos e o tempo de carga da Escopeta escalam com a velocidade de ataque. Também recarrega os Microrrobôs mais rápido."
         },
         {
+          "icon": "crowbar",
+          "pt": "Pé de Cabra",
+          "en": "Crowbar",
+          "prio": 2,
+          "qty": "1 a 3",
+          "effect": "Causa +75% (+75% por acúmulo) de dano a inimigos acima de 90% de vida.",
+          "why": "Guias chamam de obrigatório para quem mata com Sondas ou DIABLO: a primeira Sonda num grupo com vida cheia causa 75% a mais. A wiki cita o Pé de Cabra com o DIABLO pelo mesmo motivo."
+        },
+        {
+          "icon": "gasoline",
+          "pt": "Gasolina",
+          "en": "Gasoline",
+          "prio": 2,
+          "qty": "1 a 2",
+          "effect": "Abater um inimigo incendeia todos os inimigos a até 12 m (+4 m por acúmulo), causando 150% do dano base. Além disso, os inimigos queimam por 150% (+75% por acúmulo) do dano base.",
+          "why": "Dano em grupo é o ponto fraco do Capitão. Vários jogadores combinam a Gasolina com o Ukulele: cada morte espalha fogo pelo grupo."
+        },
+        {
           "icon": "lens-makers-glasses",
           "pt": "Óculos do Fabricante de Lentes",
           "en": "Lens-Maker's Glasses",
           "prio": 2,
           "qty": "2 a 5",
           "effect": "Seus ataques têm 10% (+10% por acúmulo) de chance de dar Acerto Crítico, causando dano dobrado.",
-          "why": "O crítico vale para o disparo inteiro: os oito projéteis dobram juntos. Com o Baço Desfigurado, um disparo crítico faz o alvo sangrar."
+          "why": "O crítico vale para o disparo inteiro: os oito projéteis dobram juntos, ou nenhum. Com o Baço Desfigurado, um disparo crítico faz o alvo sangrar. Os jogadores se dividem sobre quantos pegar."
         },
         {
           "icon": "tougher-times",
@@ -161,22 +188,40 @@
           "why": "O Capitão tem 110 de vida e 0 de armadura. Bloquear golpes compensa a falta de mobilidade."
         },
         {
-          "icon": "crowbar",
-          "pt": "Pé de Cabra",
-          "en": "Crowbar",
+          "icon": "energy-drink",
+          "pt": "Bebida Energética",
+          "en": "Energy Drink",
           "prio": 3,
           "qty": "1 a 3",
-          "effect": "Causa +75% (+75% por acúmulo) de dano a inimigos acima de 90% de vida.",
-          "why": "A primeira Sonda num grupo com vida cheia causa 75% a mais. A wiki cita o Pé de Cabra com o DIABLO pelo mesmo motivo."
+          "effect": "A velocidade de corrida aumenta em 25% (+25% por acúmulo).",
+          "why": "Velocidade é consenso no Capitão, e um guia põe a Bebida e o Casco como os brancos mais importantes dele. Ele corre o tempo todo entre baús, drones e o teleporte."
         },
         {
-          "icon": "pauls-goat-hoof",
-          "pt": "Casco de Bode de Paul",
-          "en": "Paul's Goat Hoof",
+          "icon": "repulsion-armor-plate",
+          "pt": "Placa da Armadura de Repulsão",
+          "en": "Repulsion Armor Plate",
+          "prio": 3,
+          "qty": "2 a 4 (Eclipse)",
+          "effect": "Reduz todo o dano recebido em 5 (+5 por acúmulo). O dano não fica abaixo de 1.",
+          "why": "Um guia de Eclipse a coloca como prioridade alta, e uma run acumulou quatro. Segundo esses jogadores, protege dos ataques que os Microrrobôs não derrubam."
+        },
+        {
+          "icon": "mocha",
+          "pt": "Mocha",
+          "en": "Mocha",
           "prio": 3,
           "qty": "1 a 3",
-          "effect": "Aumenta a velocidade de movimento em 14% (+14% por acúmulo).",
-          "why": "O Capitão não tem nenhuma habilidade de movimento. Velocidade é a única forma de sair dos ataques."
+          "effect": "Aumenta a velocidade de ataque em 7,5% (+7,5% por acúmulo) e a velocidade de movimento em 7% (+7% por acúmulo).",
+          "why": "Velocidade de movimento e de ataque no mesmo item. Alguns jogadores de Eclipse levam junto com os Cascos."
+        },
+        {
+          "icon": "oddly-shaped-opal",
+          "pt": "Opala de Formato Estranho",
+          "en": "Oddly-shaped Opal",
+          "prio": 3,
+          "qty": "1 a 3",
+          "effect": "Aumenta a armadura em 100 (+100 por acúmulo) enquanto fora de perigo.",
+          "why": "O Capitão tem 0 de armadura. Um jogador de Eclipse 8 usa várias Opalas como defesa principal: o primeiro golpe de cada luta chega reduzido."
         },
         {
           "icon": "medkit",
@@ -185,7 +230,7 @@
           "prio": 3,
           "qty": "1 a 3",
           "effect": "2 segundos depois de ser ferido, cura 20 mais 5% (+5% por acúmulo) da vida máxima.",
-          "why": "Cura fora do farol. Com pouca vida, os 20 fixos já fazem diferença no começo."
+          "why": "Sem o Farol: Cura, o Capitão quase não tem cura. Com pouca vida, os 20 fixos já fazem diferença no começo."
         },
         {
           "icon": "sticky-bomb",
@@ -202,7 +247,7 @@
       "id": "uncommon",
       "name": "Incomum",
       "color": "green",
-      "intro": "Os verdes do Capitão aproveitam os oito projéteis e as Sondas de 1000%.",
+      "intro": "Os Cinturões aproveitam as Sondas de 1.000%, e o Ukulele dá à Escopeta dano em grupo.",
       "items": [
         {
           "icon": "ukulele",
@@ -211,25 +256,43 @@
           "prio": 1,
           "qty": "3 a 5",
           "effect": "25% de chance de disparar um raio em cadeia que causa 80% de dano TOTAL em até 3 (+2 por acúmulo) alvos a até 20 m (+2 m por acúmulo).",
-          "why": "Cada um dos oito projéteis pode ativar, e o raio pula para outros inimigos. Dá à Escopeta um dano em grupo que ela não tem. Cada cópia soma +2 alvos e +2 m de alcance ao raio. O dano por alvo não sobe."
-        },
-        {
-          "icon": "bandolier",
-          "pt": "Cartucheira",
-          "en": "Bandolier",
-          "prio": 1,
-          "qty": "1 a 3",
-          "effect": "18% (+10% por acúmulo) de chance ao matar de soltar um pacote de munição que reinicia todas as recargas.",
-          "why": "Segundo a wiki, pegar um pacote enquanto mira a Sonda devolve uma carga, até 3. Também reinicia a Arma de Eletrochoque. A wiki indica a Cartucheira para o DIABLO, por causa da recarga longa."
+          "why": "Cada um dos oito projéteis pode ativar, e o raio pula para outros inimigos: dá à Escopeta o dano em grupo que ela não tem. Cada cópia soma +2 alvos e +2 m de alcance. O Polialaúde (Polylute) corrompe todos os Ukuleles."
         },
         {
           "icon": "kjaros-band",
           "pt": "Cinturão de Kjaro",
           "en": "Kjaro's Band",
+          "prio": 1,
+          "qty": "1 a 3",
+          "effect": "Golpes que causam mais de 400% de dano também atingem os inimigos com um tornado de chamas rúnicas, causando 300% (+300% por acúmulo) de dano TOTAL ao longo do tempo. Recarrega a cada 10 segundos.",
+          "why": "Núcleo para quase todos os guias, com Sonda ou DIABLO: cada Sonda de 1.000% passa do limite de 400%. Os projéteis da Escopeta (120%) não ativam. Na fase 2, jogadores usam os dois faróis nas placas de pressão do Aqueduto Abandonado para pegar os Cinturões de graça; isso gasta os faróis da fase."
+        },
+        {
+          "icon": "runalds-band",
+          "pt": "Cinturão de Runald",
+          "en": "Runald's Band",
+          "prio": 1,
+          "qty": "1 a 3",
+          "effect": "Golpes que causam mais de 400% de dano também atingem os inimigos com uma explosão de gelo rúnico, deixando-os 80% mais lentos por 3 s (+3 s por acúmulo) e causando 250% (+250% por acúmulo) de dano TOTAL. Recarrega a cada 10 segundos.",
+          "why": "O par do Cinturão de Kjaro, com o mesmo apoio dos jogadores. Segundo a wiki, os dois ativam juntos no mesmo golpe e dividem a recarga de 10 s. A lentidão de 80% segura o alvo para a próxima Sonda."
+        },
+        {
+          "icon": "hopoo-feather",
+          "pt": "Pluma de Hopoo",
+          "en": "Hopoo Feather",
           "prio": 2,
           "qty": "1 a 2",
-          "effect": "Golpes que causam mais de 400% de dano também atingem os inimigos com um tornado de chamas rúnicas, causando 300% (+300% por acúmulo) de dano TOTAL ao longo do tempo. Recarrega a cada 10 segundos.",
-          "why": "Cada Sonda causa 1000%, bem acima do limite de 400%. Os projéteis da Escopeta (120%) não ativam."
+          "effect": "Ganha +1 (+1 por acúmulo) pulo máximo.",
+          "why": "Os guias chamam a Pluma e a Codorna de quase obrigatórias. Sem habilidade de movimento, um pulo extra ajuda a desviar e a subir no mapa."
+        },
+        {
+          "icon": "will-o-the-wisp",
+          "pt": "Fogo Fátuo",
+          "en": "Will-o'-the-wisp",
+          "prio": 2,
+          "qty": "1 a 2",
+          "effect": "Ao abater um inimigo, cria um pilar de lava num raio de 12 m (+2,4 m por acúmulo) que causa 350% (+280% por acúmulo) do dano base.",
+          "why": "Dano em grupo ao matar, o ponto fraco do Capitão. Vários guias colocam junto com a Gasolina e o Ukulele."
         },
         {
           "icon": "atg-missile-mk-1",
@@ -238,7 +301,7 @@
           "prio": 2,
           "qty": "4 a 6",
           "effect": "10% de chance de disparar um míssil que causa 300% (+300% por acúmulo) de dano TOTAL.",
-          "why": "Oito chances por disparo. É o verde para acumular: cada cópia soma +300% ao dano de cada míssil."
+          "why": "Oito chances por disparo. Cada cópia soma +300% ao dano de cada míssil. O Camarão de Plasma (Plasma Shrimp) corrompe todos os Mísseis."
         },
         {
           "icon": "harvesters-scythe",
@@ -247,16 +310,16 @@
           "prio": 2,
           "qty": "1 a 2 (com Óculos)",
           "effect": "Ganha 5% de chance de crítico. Acertos Críticos curam 8 (+4 por acúmulo) de vida.",
-          "why": "Cura fora do farol. Com alguns Óculos, cada disparo crítico cura."
+          "why": "Cura sem depender do Farol: Cura. Com alguns Óculos, cada disparo crítico cura."
         },
         {
-          "icon": "hopoo-feather",
-          "pt": "Pluma de Hopoo",
-          "en": "Hopoo Feather",
+          "icon": "wax-quail",
+          "pt": "Codorna de Cera",
+          "en": "Wax Quail",
           "prio": 3,
           "qty": "1 a 2",
-          "effect": "Ganha +1 (+1 por acúmulo) pulo máximo.",
-          "why": "Sem habilidade de movimento, um pulo extra ajuda a desviar e a subir no mapa."
+          "effect": "Pular enquanto corre impulsiona você 10 m (+10 m por acúmulo) para a frente.",
+          "why": "Mobilidade que o Capitão não tem: um impulso para fugir ou atravessar o mapa. Os guias citam junto com a Pluma de Hopoo."
         },
         {
           "icon": "old-war-stealthkit",
@@ -265,7 +328,16 @@
           "prio": 3,
           "qty": "1",
           "effect": "Cair abaixo de 25% de vida faz você ganhar 40% de velocidade de movimento e invisibilidade por 5 s. Recarrega a cada 30 segundos (−50% por acúmulo).",
-          "why": "Fuga para um personagem sem fuga. Dá tempo de voltar ao Farol: Cura."
+          "why": "Fuga para um personagem sem fuga."
+        },
+        {
+          "icon": "bandolier",
+          "pt": "Cartucheira",
+          "en": "Bandolier",
+          "prio": 4,
+          "qty": "1 a 2 (só com DIABLO)",
+          "effect": "18% (+10% por acúmulo) de chance ao matar de soltar um pacote de munição que reinicia todas as recargas.",
+          "why": "Os jogadores só a mantêm com o DIABLO: cada pacote reinicia a recarga de 40 s, e a wiki também a indica para ele. Com a Sonda é um verde comum: um pacote pego mirando devolve uma carga, sem passar de 3."
         },
         {
           "icon": "death-mark",
@@ -282,25 +354,34 @@
       "id": "legendary",
       "name": "Lendário",
       "color": "red",
-      "intro": "Os vermelhos do Capitão multiplicam as Sondas e os projéteis da Escopeta.",
+      "intro": "Os vermelhos dão mais força aos drones, mais Sondas ou dano em área à Escopeta.",
       "items": [
+        {
+          "icon": "spare-drone-parts",
+          "pt": "Peças de Drone Avulsas",
+          "en": "Spare Drone Parts",
+          "prio": 2,
+          "qty": "1 a 2",
+          "effect": "Ganha o Coronel Droneman. Drones ganham +25% (+25% por acúmulo) de velocidade de ataque e redução de recarga. Drones ganham 10% de chance de disparar um míssil ao acertar, causando 150% de dano TOTAL. Drones ganham uma metralhadora automática que causa 6x50% de dano e ricocheteia em 2 inimigos.",
+          "why": "A wiki indica para o Capitão: os drones já ganham Microrrobôs, e este item aumenta o dano deles. Um jogador o chama do vermelho mais procurado. A Alloyed Collective cortou os atributos em 50%, mas deixou os drones bem mais fortes."
+        },
         {
           "icon": "hardlight-afterburner",
           "pt": "Pós-combustor de Holograma",
           "en": "Hardlight Afterburner",
-          "prio": 1,
+          "prio": 2,
           "qty": "1 a 2",
           "effect": "Adiciona +2 (+2 por acúmulo) cargas da habilidade Utilitária. Reduz a recarga da Utilitária em 33%.",
-          "why": "A wiki diz que o Capitão aproveita muito este item: com ele dá para pedir até 9 Sondas em sequência, concentrando 9000% num alvo ou cobrindo uma área bem maior."
+          "why": "A wiki diz que o Capitão aproveita muito este item: com ele dá para pedir até 9 Sondas em sequência, e cada uma ativa os Cinturões. Os jogadores valorizam, mas as runs atuais não dependem dele."
         },
         {
           "icon": "brilliant-behemoth",
           "pt": "Brutamontes Reluzente",
           "en": "Brilliant Behemoth",
-          "prio": 1,
+          "prio": 2,
           "qty": "1 a 2",
           "effect": "Todos os seus ataques explodem num raio de 4 m (+2,5 m por acúmulo), causando 60% de dano TOTAL extra a inimigos próximos.",
-          "why": "Cada um dos oito projéteis explode. A Escopeta, que é de alvo único, passa a acertar em área."
+          "why": "Cada um dos oito projéteis explode, e a Escopeta passa a acertar em área. Os jogadores gostam, mas poucas fontes recentes o colocam como obrigatório."
         },
         {
           "icon": "alien-head",
@@ -309,16 +390,7 @@
           "prio": 2,
           "qty": "1 a 2",
           "effect": "Reduz a recarga das habilidades em 25% (+25% por acúmulo).",
-          "why": "Sondas (11 s) e Arma de Eletrochoque (6 s) voltam mais rápido. Os faróis não se beneficiam, porque são limitados a dois por fase."
-        },
-        {
-          "icon": "sentient-meat-hook",
-          "pt": "Gancho de Carnes Senciente",
-          "en": "Sentient Meat Hook",
-          "prio": 2,
-          "qty": "1 a 2",
-          "effect": "20% (+20% por acúmulo) de chance ao acertar de disparar ganchos teleguiados em até 10 (+5 por acúmulo) inimigos, causando 100% de dano TOTAL.",
-          "why": "Oito projéteis por disparo ativam o Gancho com frequência, e cada ativação atinge até 10 inimigos."
+          "why": "Sondas (11 s), DIABLO (40 s) e Arma de Eletrochoque (6 s) voltam mais rápido. Os faróis não se beneficiam, porque são limitados a dois por fase."
         },
         {
           "icon": "57-leaf-clover",
@@ -327,16 +399,25 @@
           "prio": 3,
           "qty": "1",
           "effect": "Todos os efeitos aleatórios são rolados +1 (+1 por acúmulo) vez a seu favor.",
-          "why": "Adaga, Ukulele, Míssil e Gancho rolam por projétil. Num personagem de oito projéteis, o Trevo vale muito."
+          "why": "Adaga, Ukulele e Míssil rolam por projétil. Num personagem de oito projéteis, o Trevo vale muito."
+        },
+        {
+          "icon": "sentient-meat-hook",
+          "pt": "Gancho de Carnes Senciente",
+          "en": "Sentient Meat Hook",
+          "prio": 3,
+          "qty": "1 a 2",
+          "effect": "20% (+20% por acúmulo) de chance ao acertar de disparar ganchos teleguiados em até 10 (+5 por acúmulo) inimigos, causando 100% de dano TOTAL.",
+          "why": "Os oito projéteis ativam o Gancho com frequência. Aparece em listas antigas; as runs atuais quase não o citam."
         },
         {
           "icon": "rejuvenation-rack",
           "pt": "Suporte do Rejuvenescimento",
           "en": "Rejuvenation Rack",
-          "prio": 3,
-          "qty": "1",
+          "prio": 4,
+          "qty": "1 (com Farol: Cura)",
           "effect": "Cura +100% (+100% por acúmulo) a mais.",
-          "why": "O Farol: Cura passa a curar ainda mais. Ajuda a aguentar chefes fortes no teleporte."
+          "why": "Só vale com o Farol: Cura, no co-op. Sem ele, o Capitão quase não tem cura para multiplicar."
         }
       ]
     },
@@ -353,7 +434,7 @@
           "prio": 1,
           "qty": "1 ou mais",
           "effect": "Ganha 5% de chance de crítico. Acertos Críticos fazem os inimigos sangrar, causando 240% do dano base. Inimigos sangrando explodem ao morrer, causando 400% (+400% por acúmulo) de dano mais 15% (+15% por acúmulo) da vida máxima deles.",
-          "why": "A wiki cita o Baço com a Escopeta. Um disparo crítico acerta oito vezes, e com a Adaga Triangular quase todo inimigo sangra e explode ao morrer."
+          "why": "Jogadores de Eclipse combinam com a Adaga Triangular, e a wiki cita o Baço com a Escopeta. Um disparo crítico acerta oito vezes, e com as Adagas quase todo inimigo sangra e explode ao morrer."
         },
         {
           "icon": "irradiant-pearl",
@@ -363,6 +444,15 @@
           "qty": "1 ou mais",
           "effect": "Aumenta TODOS os atributos em 10% (+10% por acúmulo).",
           "why": "Vida, armadura, dano e velocidade de uma vez, para um personagem fraco em defesa. Com o Artefato da Autoridade (Artifact of Command) não sai: as Poças de Purificação não aparecem e a essência amarela não oferece pérolas."
+        },
+        {
+          "icon": "empathy-cores",
+          "pt": "Núcleos Empáticos",
+          "en": "Empathy Cores",
+          "prio": 4,
+          "qty": "1 (com drones)",
+          "effect": "A cada 30 segundos, invoca duas Sondas Solus que ganham +100% (+100% por acúmulo) de dano por aliado na sua equipe.",
+          "why": "Parte do pacote de drones: mais dois aliados lutando ao seu lado. Um guia chama as Peças de Drone Avulsas com os Núcleos da dupla mais forte do Capitão."
         }
       ]
     },
@@ -370,34 +460,43 @@
       "id": "equipment",
       "name": "Equipamentos",
       "color": "orange",
-      "intro": "Só dá para carregar um. O Capitão quer juntar inimigos para as Sondas ou ganhar críticos.",
+      "intro": "Só dá para carregar um. O Capitão quer dano instantâneo, inimigos juntos para as Sondas ou mais drones.",
       "items": [
-        {
-          "icon": "primordial-cube",
-          "pt": "Cubo Primordial",
-          "en": "Primordial Cube",
-          "prio": 1,
-          "qty": "1 (recarga 60 s)",
-          "effect": "Dispara um buraco negro que puxa os inimigos a até 30 m para o centro. Dura 10 segundos.",
-          "why": "A wiki indica para o Capitão: o buraco negro segura os inimigos num ponto, e as Sondas caem exatamente ali."
-        },
-        {
-          "icon": "ocular-hud",
-          "pt": "Visor Ocular",
-          "en": "Ocular HUD",
-          "prio": 2,
-          "qty": "1 (recarga 60 s)",
-          "effect": "Ganha +100% de chance de Acerto Crítico por 8 segundos.",
-          "why": "Oito segundos em que todo disparo da Escopeta é crítico. Com o Baço Desfigurado, todo inimigo atingido sangra."
-        },
         {
           "icon": "royal-capacitor",
           "pt": "Capacitor Régio",
           "en": "Royal Capacitor",
           "prio": 2,
           "qty": "1 (recarga 20 s)",
-          "effect": "Chama um raio sobre um monstro marcado, causando 3000% de dano e atordoando os monstros próximos.",
-          "why": "Dano instantâneo de longe, sem o atraso das Sondas. Recarga curta."
+          "effect": "Chama um raio sobre um monstro marcado, causando 3.000% de dano e atordoando os monstros próximos.",
+          "why": "Um guia o põe entre os melhores equipamentos do Capitão. Dano instantâneo de longe, sem o atraso das Sondas, e recarga curta."
+        },
+        {
+          "icon": "primordial-cube",
+          "pt": "Cubo Primordial",
+          "en": "Primordial Cube",
+          "prio": 2,
+          "qty": "1 (recarga 60 s)",
+          "effect": "Dispara um buraco negro que puxa os inimigos a até 30 m para o centro. Dura 10 segundos.",
+          "why": "A wiki indica para o Capitão: o buraco negro segura os inimigos num ponto, e as Sondas ou o DIABLO caem ali. Os jogadores gostam, mas não o tratam como obrigatório."
+        },
+        {
+          "icon": "the-crowdfunder",
+          "pt": "O Financiador",
+          "en": "The Crowdfunder",
+          "prio": 3,
+          "qty": "1",
+          "effect": "Dispara uma rajada contínua que causa 100% de dano por bala. Custa $1 por bala. O custo aumenta com o tempo.",
+          "why": "Um guia o coloca com o Capacitor Régio como o melhor equipamento do Capitão, e uma run o usou com o Polialaúde. O dinheiro que o Farol: Hack economiza paga as balas."
+        },
+        {
+          "icon": "the-back-up",
+          "pt": "O Reforço",
+          "en": "The Back-up",
+          "prio": 3,
+          "qty": "1",
+          "effect": "Chama 4 Drones de Ataque para lutar por você. Dura 25 segundos.",
+          "why": "Mais quatro drones na luta. A wiki diz que todo drone aliado novo recebe Microrrobôs, e os jogadores contam que os do Reforço também. Desde a Alloyed Collective, os Drones de Ataque do Reforço escalam com o nível."
         },
         {
           "icon": "jade-elephant",
@@ -409,13 +508,22 @@
           "why": "O Capitão não tem como fugir de um golpe forte. Cinco segundos quase sem levar dano resolvem isso."
         },
         {
+          "icon": "ocular-hud",
+          "pt": "Visor Ocular",
+          "en": "Ocular HUD",
+          "prio": 4,
+          "qty": "1 (recarga 60 s)",
+          "effect": "Ganha +100% de chance de Acerto Crítico por 8 segundos.",
+          "why": "Só um jogador de Eclipse o usou, e sem gostar muito. Com o Baço Desfigurado, oito segundos de disparos críticos fazem todo alvo sangrar."
+        },
+        {
           "icon": "preon-accumulator",
           "pt": "Acumulador de Préon",
           "en": "Preon Accumulator",
           "prio": 4,
           "qty": "1 (recarga 140 s, com Farol: Reabastecimento)",
-          "effect": "Dispara tentáculos de préon que eletrocutam inimigos a até 35 m por até 600% de dano por segundo. Ao tocar algo, detona numa explosão enorme de 20 m causando 4000% de dano.",
-          "why": "Recarga muito longa. Só vale se você trocar o Hack pelo Farol: Reabastecimento, que recarrega o equipamento até 3 vezes."
+          "effect": "Dispara tentáculos de préon que eletrocutam inimigos a até 35 m por até 600% de dano por segundo. Ao tocar algo, detona numa explosão enorme de 20 m causando 4.000% de dano.",
+          "why": "Recarga muito longa. Só vale se você trocar um Hack pelo Farol: Reabastecimento, que recarrega o equipamento até 3 vezes."
         }
       ]
     },
@@ -423,8 +531,26 @@
       "id": "lunar",
       "name": "Lunares",
       "color": "blue",
-      "intro": "Itens lunares têm custo embutido. Nenhum é obrigatório.",
+      "intro": "Itens lunares têm custo embutido. No Eclipse, a Transcendência é a exceção que vale pegar.",
       "items": [
+        {
+          "icon": "transcendence",
+          "pt": "Transcendência",
+          "en": "Transcendence",
+          "prio": 2,
+          "qty": "1 (Eclipse)",
+          "effect": "Converte toda a vida, menos 1, em escudos que se regeneram. Ganha 50% (+25% por acúmulo) de vida máxima.",
+          "why": "Jogadores de Eclipse põem como primeira prioridade no Capitão, que não tem nenhuma proteção contra queda. A wiki explica: o dano de queda usa a vida máxima e ignora escudos, então a Transcendência quase anula a queda. Itens de cura passam a quase não servir."
+        },
+        {
+          "icon": "hooks-of-heresy",
+          "pt": "Ganchos da Heresia",
+          "en": "Hooks of Heresy",
+          "prio": 4,
+          "qty": "1",
+          "effect": "Substitui sua Habilidade Secundária pelo Redemoinho Cortante. Carregue um projétil que causa 875% de dano por segundo aos inimigos próximos e explode após 3 segundos, causando 700% de dano e enraizando os inimigos por 3 (+3 por acúmulo) segundos. Recarrega após 5 (+5 por acúmulo) segundos.",
+          "why": "Alguns jogadores de Eclipse trocam a Arma de Eletrochoque, a parte mais fraca do kit, pelos Ganchos. A explosão de 700% passa do limite de 400% dos Cinturões e prende os inimigos para as Sondas."
+        },
         {
           "icon": "purity",
           "pt": "Pureza",
@@ -441,7 +567,7 @@
           "prio": 4,
           "qty": "1 (só se estiver confortável)",
           "effect": "Aumenta o dano base em 100% (+100% por acúmulo). Reduz a vida máxima em 50% (−50% por acúmulo).",
-          "why": "Dobra Sondas e Escopeta, mas o Capitão já tem pouca vida (110) e nenhuma fuga. O Farol: Cura compensa só dentro do raio."
+          "why": "Dobra Sondas e Escopeta, mas o Capitão já tem pouca vida (110) e nenhuma fuga."
         },
         {
           "icon": "light-flux-pauldron",
@@ -467,7 +593,16 @@
           "prio": 2,
           "qty": "1 a 2",
           "effect": "Adiciona +1 (+1 por acúmulo) carga da habilidade Especial. Reduz a recarga da Especial em 33%. Corrompe todas as Células de Combustível.",
-          "why": "Segundo a wiki, dá cargas extras só do primeiro farol (o da esquerda), uma por Célula. O limite de dois faróis no mapa continua: o terceiro remove o mais antigo. Coloque no primeiro farol o que você quer repetir."
+          "why": "Mais um Farol: Hack por fase. Segundo a wiki, cada Célula dá uma carga extra só do primeiro farol (o da esquerda), e só dois faróis ficam no mapa: o terceiro remove o mais antigo. Chame o terceiro depois que o primeiro terminar de hackear. Um vídeo de 2026 diz que só a primeira Célula conta (veja as notas)."
+        },
+        {
+          "icon": "polylute",
+          "pt": "Polialaúde",
+          "en": "Polylute",
+          "prio": 3,
+          "qty": "1 ou mais (troca os Ukuleles)",
+          "effect": "25% de chance de disparar um raio que causa 60% de dano TOTAL até 3 (+3 por acúmulo) vezes. Corrompe todos os Ukuleles.",
+          "why": "Alguns jogadores montam a run em volta dele com Adaga Triangular e Trevo 57, e ele aparece na run do recorde mundial. Melhor contra um alvo só. Corrompe todos os Ukuleles, que dão à Escopeta dano em grupo: pegue quando tiver Gasolina ou Fogo Fátuo para os grupos."
         },
         {
           "icon": "needletick",
@@ -476,16 +611,16 @@
           "prio": 3,
           "qty": "1 a 2",
           "effect": "10% (+10% por acúmulo) de chance de causar colapso num inimigo por 400% do dano base. Corrompe todas as Adagas Triangulares.",
-          "why": "Oito projéteis ativam o Colapso com frequência. Mas corrompe todas as Adagas Triangulares, que são essenciais aqui e alimentam o Baço Desfigurado. Só pegue sem Adagas."
+          "why": "Oito projéteis ativam o Colapso com frequência, mas corrompe todas as Adagas Triangulares, que alimentam o Baço. Um jogador de Eclipse 8 testou e achou o sangramento melhor. Com o DIABLO, a wiki avisa que o Colapso pode causar um golpe extra depois do impacto e matar o Capitão."
         },
         {
-          "icon": "polylute",
-          "pt": "Polialaúde",
-          "en": "Polylute",
+          "icon": "plasma-shrimp",
+          "pt": "Camarão de Plasma",
+          "en": "Plasma Shrimp",
           "prio": 4,
           "qty": "1",
-          "effect": "25% de chance de disparar um raio que causa 60% de dano TOTAL até 3 (+3 por acúmulo) vezes. Corrompe todos os Ukuleles.",
-          "why": "Melhor contra um alvo só, mas corrompe os Ukuleles, que dão à Escopeta dano em grupo."
+          "effect": "Ganha um escudo igual a 10% da sua vida máxima. Enquanto tiver escudo, acertar um inimigo dispara um míssil que causa 40% (+40% por acúmulo) de dano TOTAL. Corrompe todos os Mísseis ASM Mk. 1.",
+          "why": "Segundo jogadores, a Escopeta dispara vários mísseis do Camarão a cada disparo, e o item já dá o escudo que ele precisa. Corrompe todos os Mísseis ASM Mk. 1."
         },
         {
           "icon": "weeping-fungus",
@@ -494,7 +629,7 @@
           "prio": 4,
           "qty": "1",
           "effect": "Cura 2% (+2% por acúmulo) da sua vida por segundo enquanto corre. Corrompe todos os Fungos Vibrantes.",
-          "why": "Cura entre as lutas para um personagem que só se cura no farol. Corrompe o Fungo Vibrante (Bustling Fungus)."
+          "why": "Cura entre as lutas para um personagem que quase não se cura. Corrompe o Fungo Vibrante (Bustling Fungus)."
         }
       ]
     }
@@ -502,51 +637,55 @@
   "synergy": [
     {
       "title": "Oito projéteis, oito chances",
-      "text": "Cada disparo da Escopeta Vulcan são 8 projéteis de 120% com coeficiente 0,75. Itens de chance ao acertar (Adaga Triangular, Ukulele, Míssil, Gancho de Carnes) rolam por projétil, por isso rendem tanto no Capitão. O crítico é diferente: é rolado uma vez por disparo e vale para os oito juntos."
+      "text": "Cada disparo da Escopeta Vulcan são 8 projéteis de 120% com coeficiente 0,75. Itens de chance ao acertar (Adaga Triangular, Ukulele, Míssil ASM) rolam por projétil, por isso rendem tanto no Capitão. O crítico é diferente: é rolado uma vez por disparo e vale para os oito juntos."
     },
     {
-      "title": "Como funcionam os faróis",
-      "text": "O Capitão não tem Utilitária e Especial comuns. A Especial pede dois faróis permanentes por fase, escolhidos no menu de equipamento antes da run, com raio de 10 m. Os faróis não usam recarga: depois dos dois, a habilidade trava até a próxima fase, então Cabeça Alienígena e Pureza não ajudam aqui. A Célula Lisada dá cargas extras só do primeiro farol."
+      "title": "Dois Faróis: Hack",
+      "text": "A maioria dos jogadores leva o Hack nos dois espaços. Cada farol zera o custo dos compráveis por perto, um de cada vez. Use primeiro num Santuário da Chance, depois em baús grandes, e ponha cedo na fase. Hack + Eletrizante é a alternativa, melhor depois do primeiro ciclo segundo alguns jogadores; o Farol: Cura fica para o co-op."
     },
     {
-      "title": "Por que Cura e Hack",
-      "text": "O Farol: Cura resolve a defesa no teleporte, onde as lutas mais difíceis acontecem: 10% da vida máxima por segundo. O Farol: Hack zera o custo dos compráveis por perto, um de cada vez, o que soma muitos itens ao longo da run. O Eletrizante é a troca se você precisar de mais controle no teleporte, e o Reabastecimento só serve para equipamentos de recarga longa."
+      "title": "Sondas acima de 400%",
+      "text": "Cada Sonda (1.000%) e o DIABLO (40.000%) passam do limite dos Cinturões de Kjaro e de Runald, que ativam juntos e dividem a recarga de 10 s. O Pé de Cabra aumenta o primeiro golpe, o Pós-combustor dá mais Sondas, e a Arma de Eletrochoque prende o alvo antes."
     },
     {
-      "title": "Sondas que acertam",
-      "text": "As Sondas demoram alguns segundos para cair. Para acertar, imobilize antes: a Arma de Eletrochoque e o Farol: Eletrizante chocam o alvo, e o Cubo Primordial segura o grupo num ponto. O Pós-combustor dá até 9 Sondas em sequência, e a Cartucheira devolve uma carga por pacote pego mirando."
+      "title": "Drones com Microrrobôs",
+      "text": "Todo drone aliado novo recebe Microrrobôs, mesmo se o Capitão tiver perdido os dele (wiki). Desde a Alloyed Collective os drones focam o mesmo alvo, ficam perto e regeneram mais, e o conserto ficou mais barato. Compre drones desde a fase 1 e lute perto deles. Peças de Drone Avulsas, Núcleos Empáticos e O Reforço aumentam o grupo."
     },
     {
       "title": "Sangramento e Baço Desfigurado",
-      "text": "A Adaga Triangular faz os oito projéteis aplicarem sangramento. O Baço Desfigurado faz críticos sangrarem e inimigos sangrando explodirem ao morrer, com 15% da vida máxima deles. A wiki cita os dois itens com a Escopeta. O Agulhão corrompe as Adagas, então pense antes."
+      "text": "A Adaga Triangular faz os oito projéteis aplicarem sangramento. O Baço Desfigurado faz críticos sangrarem e inimigos sangrando explodirem ao morrer, com 15% da vida máxima deles. O Agulhão corrompe as Adagas, então pense antes."
     }
   ],
   "rotation": [
     {
-      "step": "Faróis no teleporte",
-      "text": "Ponha o Farol: Cura perto do teleporte e o Hack perto dos baús e santuários da fase."
+      "step": "Faróis cedo",
+      "text": "No começo da fase, ponha os dois Faróis: Hack num Santuário da Chance e perto dos baús grandes. Na fase 2, no Aqueduto Abandonado, use nas placas de pressão para pegar os Cinturões."
+    },
+    {
+      "step": "Compre drones",
+      "text": "Gaste o dinheiro que sobra em drones, principalmente os de cura, e lute perto deles."
     },
     {
       "step": "Arma de Eletrochoque",
-      "text": "Choque o inimigo mais perigoso para ele ficar parado."
+      "text": "Choque o inimigo mais perigoso para ele ficar parado dentro das Sondas."
     },
     {
       "step": "Sondas Orbitais",
-      "text": "Peça as três sondas sobre o alvo parado ou o grupo junto."
+      "text": "Peça as sondas sobre o alvo parado ou o grupo junto. Não empurre o alvo para fora do círculo com a Escopeta."
     },
     {
       "step": "Escopeta Vulcan",
-      "text": "Atire de perto sem carregar; carregue para alvos longe."
-    },
-    {
-      "step": "Lute dentro do farol",
-      "text": "Fique no raio de 10 m da cura durante o evento do teleporte."
+      "text": "De perto, atire sem carregar; carregue só para alvos longe."
     }
   ],
   "essentials": [
     {
       "pt": "Adaga Triangular",
       "en": "Tri-Tip Dagger"
+    },
+    {
+      "pt": "Casco de Bode de Paul",
+      "en": "Paul's Goat Hoof"
     },
     {
       "pt": "Seringa Militar",
@@ -557,23 +696,19 @@
       "en": "Ukulele"
     },
     {
-      "pt": "Cartucheira",
-      "en": "Bandolier"
+      "pt": "Cinturão de Kjaro",
+      "en": "Kjaro's Band"
     },
     {
-      "pt": "Pós-combustor de Holograma",
-      "en": "Hardlight Afterburner"
+      "pt": "Cinturão de Runald",
+      "en": "Runald's Band"
     },
     {
-      "pt": "Brutamontes Reluzente",
-      "en": "Brilliant Behemoth"
-    },
-    {
-      "pt": "Cubo Primordial",
-      "en": "Primordial Cube"
+      "pt": "Baço Desfigurado",
+      "en": "Shatterspleen"
     }
   ],
-  "situational_note": "Situacionais: Cinturão de Kjaro, Gancho de Carnes Senciente, Célula Lisada, Agulhão, Marca Fatal, Visor Ocular e os lunares.",
+  "situational_note": "Situacionais: Cartucheira (só com DIABLO), Visor Ocular, Núcleos Empáticos, Ganchos da Heresia, Camarão de Plasma, Suporte do Rejuvenescimento (só com Farol: Cura) e os lunares fora a Transcendência.",
   "fallbacks": [
     {
       "pt": "Adaga Triangular",
@@ -581,71 +716,180 @@
       "text": "Bomba Aderente e Míssil ASM para efeitos por projétil. Agulhão só se não tiver Adagas."
     },
     {
+      "pt": "Casco de Bode de Paul",
+      "en": "Paul's Goat Hoof",
+      "text": "Bebida Energética e Mocha nos brancos; Pluma de Hopoo e Codorna de Cera nos verdes."
+    },
+    {
       "pt": "Seringa Militar",
       "en": "Soldier's Syringe",
-      "text": "Óculos do Fabricante de Lentes para aumentar o dano por disparo."
+      "text": "Mocha, que também dá velocidade de movimento, ou Óculos do Fabricante de Lentes."
     },
     {
       "pt": "Ukulele",
       "en": "Ukulele",
-      "text": "Mais Mísseis ASM Mk. 1 e Gancho de Carnes Senciente para dano em grupo."
+      "text": "Gasolina e Fogo Fátuo para dano em grupo, ou Polialaúde se o foco for um alvo só."
     },
     {
-      "pt": "Cartucheira",
-      "en": "Bandolier",
-      "text": "Cabeça Alienígena para as Sondas voltarem mais rápido."
+      "pt": "Cinturão de Kjaro",
+      "en": "Kjaro's Band",
+      "text": "O Cinturão de Runald faz o mesmo papel. Na fase 2, use os faróis nas placas do Aqueduto Abandonado."
     },
     {
-      "pt": "Pós-combustor de Holograma",
-      "en": "Hardlight Afterburner",
-      "text": "Cabeça Alienígena e Cinturão de Kjaro para tirar mais de cada Sonda."
+      "pt": "Cinturão de Runald",
+      "en": "Runald's Band",
+      "text": "Mais Cinturões de Kjaro e Pé de Cabra para o primeiro golpe das Sondas."
     },
     {
-      "pt": "Brutamontes Reluzente",
-      "en": "Brilliant Behemoth",
-      "text": "Ukulele e Gancho de Carnes para a Escopeta acertar mais de um inimigo."
-    },
-    {
-      "pt": "Cubo Primordial",
-      "en": "Primordial Cube",
-      "text": "Visor Ocular com o Baço Desfigurado, ou Capacitor Régio."
+      "pt": "Baço Desfigurado",
+      "en": "Shatterspleen",
+      "text": "Mais Adagas Triangulares para o sangramento. O Baço só cai de chefes de teleporte."
     }
   ],
-  "summary": "Microrrobôs Defensivos, Escopeta Vulcan, Arma de Eletrochoque, Sonda Orbital e os faróis Cura e Hack. Choque o alvo, peça as Sondas e atire com a Escopeta, que ativa itens oito vezes por disparo. Empilhe Adaga Triangular e Seringa nos brancos, Ukulele e Míssil ASM nos verdes, com uma Cartucheira, e procure o Pós-combustor para ter até 9 Sondas. Lute o teleporte dentro do Farol: Cura.",
+  "summary": "Microrrobôs Defensivos, Escopeta Vulcan, Arma de Eletrochoque, Sonda Orbital e dois Faróis: Hack, como a maioria dos jogadores; o DIABLO é uma Utilitária do mesmo nível. Use os faróis cedo para itens grátis, compre drones, que ganham Microrrobôs, e pegue velocidade antes de dano nas primeiras fases. Empilhe Adaga Triangular, Casco e Seringa nos brancos e Ukulele e os Cinturões de Kjaro e Runald nos verdes: cada Sonda de 1.000% ativa os Cinturões.",
   "checklist": [
     {
       "title": "Sempre pegue",
-      "text": "Adaga Triangular, Seringa Militar, Ukulele, Cartucheira, Pós-combustor, Brutamontes."
+      "text": "Adaga Triangular, Casco de Bode, Seringa, Ukulele e os dois Cinturões."
     },
     {
-      "title": "Impressoras brancas",
-      "text": "Adaga Triangular até umas 5, depois Seringa Militar."
+      "title": "Fases 1 e 2",
+      "text": "Velocidade antes de dano: Casco, Bebida Energética, Pluma de Hopoo."
     },
     {
-      "title": "Primeiro verde",
-      "text": "Ukulele e uma Cartucheira. Depois empilhe Míssil ASM e mais Ukuleles."
+      "title": "Faróis: Hack",
+      "text": "Santuário da Chance primeiro, depois baús grandes. Ponha cedo na fase."
     },
     {
-      "title": "Faróis",
-      "text": "Cura e Hack para runs normais. Eletrizante no lugar do Hack se o teleporte estiver difícil."
+      "title": "Aqueduto",
+      "text": "Fase 2 no Aqueduto Abandonado: faróis nas placas de pressão para os Cinturões."
     },
     {
-      "title": "Equipamento",
-      "text": "Cubo Primordial para juntar alvos para as Sondas."
+      "title": "Drones",
+      "text": "Compre drones desde a fase 1 e lute perto deles."
+    },
+    {
+      "title": "Reinos Ocultos",
+      "text": "Sondas, DIABLO e faróis não funcionam lá. Lute só com a Escopeta e a Arma de Eletrochoque."
     },
     {
       "title": "Antes de pegar Vazio",
-      "text": "Agulhão corrompe as Adagas Triangulares; Polialaúde corrompe os Ukuleles."
+      "text": "Agulhão corrompe as Adagas; Polialaúde, os Ukuleles; Camarão de Plasma, os Mísseis ASM."
     },
     {
       "title": "Não pegue",
-      "text": "Ombreira do Fluxo Iluminado. E nunca coloque os Microrrobôs numa Sucateadora ou Impressora Mili-Tech."
+      "text": "Ombreira do Fluxo Iluminado. Nunca descarte os Microrrobôs: o Capitão os perde para sempre."
     }
   ],
   "sources": [
     {
+      "title": "Best Loadouts for Every Survivor · rndThursday (YouTube)",
+      "url": "https://www.youtube.com/watch?v=c7yq7nPgKXA",
+      "kind": "video",
+      "date": "2024-12-09"
+    },
+    {
+      "title": "The Definitive RoR2 Survivor Tier List (2026) · EchoTM (YouTube)",
+      "url": "https://www.youtube.com/watch?v=JJNOXNWky6U",
+      "kind": "video",
+      "date": "2026-02-27"
+    },
+    {
+      "title": "How To Play Captain · QuattroTheHuman (YouTube)",
+      "url": "https://www.youtube.com/watch?v=yKnH2NV2ajI",
+      "kind": "video",
+      "date": "2024-11-19"
+    },
+    {
+      "title": "This Item Made My Run Harder? Eclipse 8 Captain · Deltsong (YouTube)",
+      "url": "https://www.youtube.com/watch?v=KvMwwRmMmbk",
+      "kind": "video",
+      "date": "2025-09-22"
+    },
+    {
+      "title": "Squid Polyps are Actually Good?! Eclipse 8 Captain · Deltsong (YouTube)",
+      "url": "https://www.youtube.com/watch?v=bVRYp9gSR-E",
+      "kind": "video",
+      "date": "2025-08-11"
+    },
+    {
+      "title": "The Enemies Never Stood a Chance, Road to E8 · Deltsong (YouTube)",
+      "url": "https://www.youtube.com/watch?v=tnfgx552pbQ",
+      "kind": "video",
+      "date": "2025-07-04"
+    },
+    {
+      "title": "The Most Broken Captain Build I've Ever Played · Rybread Gaming (YouTube)",
+      "url": "https://www.youtube.com/watch?v=tJwDS1qgQiM",
+      "kind": "video",
+      "date": "2025-07-30"
+    },
+    {
+      "title": "Eclipse Guide [Updated for SotS DLC] · Cecil188 (Steam)",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2590199556",
+      "kind": "guide",
+      "date": "2025-06-08"
+    },
+    {
+      "title": "The Captain World Record is CRAZY! · Sogudu (YouTube)",
+      "url": "https://www.youtube.com/watch?v=Yk-L8B6ARU8",
+      "kind": "video",
+      "date": "2025-11-06"
+    },
+    {
+      "title": "Ranking Every Void Item (2026) · EchoTM (YouTube)",
+      "url": "https://www.youtube.com/watch?v=EUxt9IVzemE",
+      "kind": "video",
+      "date": "2026-09-17"
+    },
+    {
+      "title": "Ranking All Items, Base Game · Rybread Gaming (YouTube)",
+      "url": "https://www.youtube.com/watch?v=0KCBexOwzlg",
+      "kind": "video",
+      "date": "2025-11-15"
+    },
+    {
+      "title": "In-Depth Captain Guide · SpadesPlaysGame (YouTube)",
+      "url": "https://www.youtube.com/watch?v=h58RoI9yiFM",
+      "kind": "video",
+      "date": "2022-05-16"
+    },
+    {
+      "title": "Captain Character Guide · Woolie (YouTube)",
+      "url": "https://www.youtube.com/watch?v=ltwHLXyFtnA",
+      "kind": "video",
+      "date": "2020-08-14"
+    },
+    {
+      "title": "Captain Guide · rndThursday (YouTube)",
+      "url": "https://www.youtube.com/watch?v=q_NNJpXZ3I4",
+      "kind": "video",
+      "date": "2020-08-17"
+    },
+    {
+      "title": "Alloyed Collective is available now · Risk of Rain 2 (devtrackers.gg)",
+      "url": "https://devtrackers.gg/risk-of-rain/p/502adb1e-risk-of-rain-2-alloyed-collective-is-available-now",
+      "kind": "patch",
+      "date": "2025-11"
+    },
+    {
       "title": "Captain · Risk of Rain 2 Wiki",
       "url": "https://riskofrain2.wiki.gg/wiki/Captain",
+      "kind": "wiki"
+    },
+    {
+      "title": "Spare Drone Parts · Risk of Rain 2 Wiki",
+      "url": "https://riskofrain2.wiki.gg/wiki/Spare_Drone_Parts",
+      "kind": "wiki"
+    },
+    {
+      "title": "Transcendence · Risk of Rain 2 Wiki",
+      "url": "https://riskofrain2.wiki.gg/wiki/Transcendence",
+      "kind": "wiki"
+    },
+    {
+      "title": "Kjaro's Band · Risk of Rain 2 Wiki",
+      "url": "https://riskofrain2.wiki.gg/wiki/Kjaro's_Band",
       "kind": "wiki"
     },
     {
@@ -664,13 +908,20 @@
       "kind": "wiki"
     }
   ],
+  "reviewed": "2026-10-13",
   "notes": [
     "O Capitão não tem Utilitária e Especial no sentido comum: a Utilitária pede Sondas à nave e a Especial pede dois Faróis de Suprimento por fase, escolhidos no menu antes da run.",
-    "Farol: Hack, Farol: Reabastecimento e o DIABLO precisam ser desbloqueados por desafios.",
-    "Sondas, DIABLO e faróis não funcionam nos Reinos Ocultos (Hidden Realms)."
+    "Sonda ou DIABLO: os jogadores se dividem quase ao meio. Os criadores com mais alcance em 2024 e 2026 e os speedruns preferem o DIABLO; jogadores de Eclipse 8, um guia de Eclipse e um main de mais de 1000 horas preferem a Sonda pela consistência, e um deles admite que o DIABLO talvez seja mais forte. A build DIABLO: dois Hacks, Cinturões, Pé de Cabra, Cartucheira, Pós-combustor e Cabeça Alienígena.",
+    "Guias de 2020 dizem que os Microrrobôs voltam na fase seguinte se forem descartados. A wiki atual diz que o Capitão os perde para sempre, então esses guias estão desatualizados.",
+    "Célula Lisada: a wiki diz que cada Célula dá uma carga extra do primeiro farol; um vídeo de 2026 diz que só a primeira conta. A build segue a wiki.",
+    "Truques do DIABLO citados por jogadores: pular os pilares de Mithrix acertando a si mesmo com mais de 90% de vida, e pré-posicionar o ataque nas fases 1 e 3 de Mithrix. A wiki confirma que o golpe lança o Capitão longe ao custo de 90% da vida, e que acima de 90% de vida vale a proteção contra golpe fatal. Arriscado do Eclipse 3 em diante, com dano de queda.",
+    "Não confirmados pela wiki: que a Arma de Eletrochoque reinicia o tempo da Escopeta (guias de 2020), que os Microrrobôs não derrubam o ataque dos Lesser Wisps (um guia de Eclipse; a wiki só cita o Titã de Pedra e o Templário de Barro) e a técnica de tiro rápido alternando o farol, citada por jogadores avançados.",
+    "Bebida Energética: velocidade é consenso, mas só um guia cita a Bebida pelo nome; por isso ficou em Média. Pente Reserva fica fora: uns jogadores querem mais choques, outros quase não usam a Arma de Eletrochoque.",
+    "Farol: Hack, Farol: Reabastecimento e o DIABLO precisam ser desbloqueados por desafios. A Hallowed Concepts (8 out. 2026) não deu habilidade nova ao Capitão.",
+    "Sondas, DIABLO e faróis não funcionam nos Reinos Ocultos (Hidden Realms), inclusive na luta contra o Aurelionite."
   ],
   "command": {
-    "intro": "Com a Autoridade, comece pelas Adagas e Seringas, que rendem nos oito projéteis da Escopeta, e pegue defesa cedo, porque o Capitão tem pouca vida e nenhuma fuga. Nos verdes, acumule Mísseis ASM e Ukuleles, que ganham a cada cópia. Os vermelhos giram em torno das Sondas.",
+    "intro": "Com a Autoridade, comece por velocidade e Adagas, e pegue os Cinturões cedo: cada Sonda ativa os dois. Sem impressoras nem terminais, os Faróis: Hack valem pelos baús e drones, então ponha os faróis perto deles e compre drones.",
     "tiers": [
       {
         "tier": "common",
@@ -681,19 +932,19 @@
             "why": "Oito projéteis por disparo aplicam sangramento desde a primeira fase."
           },
           {
+            "en": "Paul's Goat Hoof",
+            "n": 2,
+            "why": "Velocidade antes de dano nas primeiras fases."
+          },
+          {
             "en": "Soldier's Syringe",
             "n": 2,
             "why": "Dispara e carrega a Escopeta mais rápido e recarrega os Microrrobôs."
           },
           {
-            "en": "Tougher Times",
+            "en": "Crowbar",
             "n": 1,
-            "why": "Bloqueio para quem tem 110 de vida e 0 de armadura."
-          },
-          {
-            "en": "Lens-Maker's Glasses",
-            "n": 2,
-            "why": "O crítico vale para os oito projéteis do disparo de uma vez."
+            "why": "A primeira Sonda num grupo de vida cheia causa 75% a mais."
           },
           {
             "en": "Tri-Tip Dagger",
@@ -701,29 +952,34 @@
             "why": "Três Adagas: o mínimo da build."
           },
           {
+            "en": "Gasoline",
+            "n": 1,
+            "why": "Dano em grupo ao matar, junto com o Ukulele."
+          },
+          {
+            "en": "Energy Drink",
+            "n": 1,
+            "why": "Mais velocidade ao correr entre baús e drones."
+          },
+          {
+            "en": "Lens-Maker's Glasses",
+            "n": 2,
+            "why": "O crítico vale para os oito projéteis do disparo de uma vez."
+          },
+          {
             "en": "Soldier's Syringe",
             "n": 1,
             "why": "Três Seringas: o mínimo da build."
           },
           {
-            "en": "Tougher Times",
-            "n": 1,
-            "why": "Segundo bloqueio, para lutar fora do Farol: Cura."
-          },
-          {
-            "en": "Lens-Maker's Glasses",
-            "n": 2,
-            "why": "Quatro Óculos deixam o disparo crítico frequente para o Baço Desfigurado."
-          },
-          {
             "en": "Paul's Goat Hoof",
             "n": 1,
-            "why": "Sem habilidade de movimento, velocidade é a única forma de desviar."
+            "why": "Três Cascos para não ser pego pelos ataques."
           },
           {
-            "en": "Crowbar",
+            "en": "Tougher Times",
             "n": 1,
-            "why": "A primeira Sonda num grupo de vida cheia causa 75% a mais."
+            "why": "Bloqueio para quem tem 110 de vida e 0 de armadura."
           },
           {
             "en": "Tri-Tip Dagger",
@@ -736,35 +992,45 @@
             "why": "Cinco Seringas para a Escopeta e os Microrrobôs."
           },
           {
-            "en": "Medkit",
-            "n": 1,
-            "why": "Cura fora do farol."
-          },
-          {
             "en": "Lens-Maker's Glasses",
-            "n": 1,
-            "why": "Cinco Óculos, o máximo da build."
+            "n": 2,
+            "why": "Quatro Óculos deixam o disparo crítico frequente para o Baço."
           }
         ],
-        "then": "Depois: Seringa até 6 e Tempos Difíceis até 4. Bomba Aderente só para completar. O Farol: Hack zera o custo de baús, drones e santuários por perto, um de cada vez. Sem impressoras e terminais múltiplos, ele vale pelos baús: ponha o farol perto deles, e cada baú hackeado é mais uma essência."
+        "then": "Depois: Casco até 5, Placa da Armadura de Repulsão no Eclipse e Tempos Difíceis até 4. O Farol: Hack zera o custo de baús, drones e santuários por perto, um de cada vez."
       },
       {
         "tier": "uncommon",
         "steps": [
+          {
+            "en": "Kjaro's Band",
+            "n": 1,
+            "why": "Cada Sonda de 1.000% passa do limite de 400% e ativa o tornado."
+          },
+          {
+            "en": "Runald's Band",
+            "n": 1,
+            "why": "Ativa junto com o Kjaro no mesmo golpe."
+          },
           {
             "en": "Ukulele",
             "n": 1,
             "why": "Dá à Escopeta o dano em grupo que ela não tem; cada projétil pode ativar."
           },
           {
-            "en": "Bandolier",
+            "en": "Hopoo Feather",
             "n": 1,
-            "why": "Pacote pego mirando devolve uma carga de Sonda e reinicia a Arma de Eletrochoque."
+            "why": "Um pulo extra para um personagem sem mobilidade."
           },
           {
-            "en": "AtG Missile Mk. 1",
-            "n": 2,
-            "why": "Dois Mísseis: oito chances por disparo, 600% por míssil."
+            "en": "Kjaro's Band",
+            "n": 1,
+            "why": "Segundo Kjaro: +300% no tornado."
+          },
+          {
+            "en": "Runald's Band",
+            "n": 1,
+            "why": "Segundo Runald: +250% de dano e +3 s de lentidão."
           },
           {
             "en": "Ukulele",
@@ -772,19 +1038,19 @@
             "why": "Segundo Ukulele: o raio pula para 5 alvos."
           },
           {
+            "en": "Will-o'-the-wisp",
+            "n": 1,
+            "why": "Mais dano em grupo ao matar."
+          },
+          {
             "en": "Kjaro's Band",
             "n": 1,
-            "why": "Cada Sonda de 1000% passa do limite de 400% e ativa o tornado."
+            "why": "Três Kjaros: 900% por tornado."
           },
           {
-            "en": "AtG Missile Mk. 1",
-            "n": 2,
-            "why": "Quatro Mísseis: 1200% por míssil."
-          },
-          {
-            "en": "Old War Stealthkit",
+            "en": "Runald's Band",
             "n": 1,
-            "why": "Fuga para voltar ao Farol: Cura."
+            "why": "Três Runalds: 750% por explosão de gelo."
           },
           {
             "en": "Ukulele",
@@ -792,43 +1058,48 @@
             "why": "Terceiro Ukulele: 7 alvos e 24 m de alcance."
           },
           {
-            "en": "AtG Missile Mk. 1",
+            "en": "Wax Quail",
+            "n": 1,
+            "why": "Impulso para fugir ou atravessar o mapa."
+          },
+          {
+            "en": "Ukulele",
             "n": 2,
-            "why": "Seis Mísseis: 1800% por míssil."
+            "why": "Cinco Ukuleles: 11 alvos por raio."
           }
         ],
-        "then": "Depois: Ukulele até 5. A Cartucheira cresce pouco por cópia: a segunda só com o DIABLO, que sobe para o primeiro passo por causa da recarga de 40 s."
+        "then": "Depois: Mísseis ASM e uma segunda Pluma. Com o DIABLO, uma Cartucheira entra no começo por causa da recarga de 40 s."
       },
       {
         "tier": "legendary",
         "steps": [
+          {
+            "en": "Hardlight Afterburner",
+            "n": 1,
+            "why": "Até 9 Sondas em sequência, e cada uma ativa os Cinturões."
+          },
+          {
+            "en": "Spare Drone Parts",
+            "n": 1,
+            "why": "Os drones, que já têm Microrrobôs, passam a causar muito mais dano."
+          },
           {
             "en": "Brilliant Behemoth",
             "n": 1,
             "why": "Cada um dos oito projéteis explode: a Escopeta passa a acertar em área."
           },
           {
-            "en": "Hardlight Afterburner",
+            "en": "57 Leaf Clover",
             "n": 1,
-            "why": "Até 9 Sondas em sequência, num alvo ou numa área bem maior."
+            "why": "Adaga, Ukulele e Míssil rolam por projétil."
           },
           {
             "en": "Alien Head",
             "n": 1,
             "why": "Sondas e Arma de Eletrochoque voltam mais rápido."
-          },
-          {
-            "en": "Sentient Meat Hook",
-            "n": 1,
-            "why": "Os oito projéteis ativam o Gancho com frequência."
-          },
-          {
-            "en": "57 Leaf Clover",
-            "n": 1,
-            "why": "Adaga, Ukulele, Míssil e Gancho rolam por projétil."
           }
         ],
-        "then": "Depois: o segundo Pós-combustor ou Brutamontes. Suporte do Rejuvenescimento se estiver morrendo no teleporte: ele aumenta a cura do Farol: Cura."
+        "then": "Depois: o segundo Pós-combustor ou as segundas Peças de Drone Avulsas. Com o DIABLO, a Cabeça Alienígena sobe por causa da recarga de 40 s."
       },
       {
         "tier": "boss",
@@ -839,44 +1110,44 @@
             "why": "Com as Adagas, quase todo inimigo sangra e explode ao morrer."
           }
         ],
-        "then": "Depois: mais Baço. A Pérola Irradiante não sai da essência do teleporte: segundo a wiki, a essência dela vem só das Poças de Purificação, que não aparecem com a Autoridade."
+        "then": "Depois: mais Baço, ou Núcleos Empáticos se tiver muitos drones. A Pérola Irradiante não sai da essência do teleporte: segundo a wiki, a essência dela vem só das Poças de Purificação, que não aparecem com a Autoridade."
       },
       {
         "tier": "equipment",
         "steps": [
           {
-            "en": "Primordial Cube",
-            "n": 1,
-            "why": "Escolha este no primeiro barril: segura o grupo num ponto e as Sondas caem ali."
-          },
-          {
-            "en": "Ocular HUD",
-            "n": 1,
-            "why": "Se ainda não desbloqueou o Cubo: 8 s de disparos críticos."
-          },
-          {
             "en": "Royal Capacitor",
             "n": 1,
-            "why": "Dano instantâneo sem o atraso das Sondas."
+            "why": "Escolha este no primeiro barril: dano instantâneo e recarga curta."
           },
           {
-            "en": "Jade Elephant",
+            "en": "Primordial Cube",
             "n": 1,
-            "why": "Última opção: 5 s quase sem levar dano."
+            "why": "Alternativa: segura o grupo num ponto, e as Sondas caem ali."
+          },
+          {
+            "en": "The Crowdfunder",
+            "n": 1,
+            "why": "O dinheiro que o Hack economiza paga as balas."
+          },
+          {
+            "en": "The Back-up",
+            "n": 1,
+            "why": "Mais quatro drones por 25 s."
           }
         ],
-        "then": "Equipamento é um só. O Acumulador de Préon só vale se trocar o Hack pelo Farol: Reabastecimento."
+        "then": "Equipamento é um só. O Acumulador de Préon só vale se trocar um Hack pelo Farol: Reabastecimento."
       },
       {
         "tier": "lunar",
         "steps": [
           {
-            "en": "Shaped Glass",
+            "en": "Transcendence",
             "n": 1,
-            "why": "Só se estiver confortável: dobra Sondas e Escopeta, mas o Capitão já tem pouca vida e nenhuma fuga."
+            "why": "No Eclipse: quase anula o dano de queda, que pesa muito no Capitão."
           }
         ],
-        "then": "A wiki não confirma se a cápsula lunar dá escolha com a Autoridade. Se der, nenhum lunar é obrigatório: Pureza piora os efeitos por projétil, e a Ombreira do Fluxo Iluminado deixa a Escopeta lenta. O Farol: Hack não paga cápsulas lunares, que custam moedas."
+        "then": "A wiki não confirma se a cápsula lunar dá escolha com a Autoridade. Se der, os Ganchos da Heresia substituem a Arma de Eletrochoque; Pureza piora os efeitos por projétil, e a Ombreira do Fluxo Iluminado deixa a Escopeta lenta. O Farol: Hack não paga cápsulas lunares, que custam moedas."
       },
       {
         "tier": "void",
@@ -884,12 +1155,7 @@
           {
             "en": "Lysate Cell",
             "n": 1,
-            "why": "Em um berço verde: uma carga extra do primeiro farol escolhido no menu."
-          },
-          {
-            "en": "Lysate Cell",
-            "n": 1,
-            "why": "Segunda Célula: mais uma carga do mesmo farol."
+            "why": "Em um berço verde: mais um Farol: Hack por fase."
           },
           {
             "en": "Weeping Fungus",
@@ -897,7 +1163,7 @@
             "why": "Em um berço branco: cura entre lutas. Corrompe o Fungo Vibrante, que esta build não usa."
           }
         ],
-        "then": "Nunca escolha Agulhão (berço branco): corrompe todas as Adagas, que alimentam o Baço. Polialaúde (berço verde) corrompe os Ukuleles."
+        "then": "Uma segunda Célula Lisada dá mais uma carga, segundo a wiki (veja as notas). Nunca escolha Agulhão (berço branco): corrompe todas as Adagas, que alimentam o Baço. Polialaúde (berço verde) corrompe os Ukuleles."
       }
     ]
   }
