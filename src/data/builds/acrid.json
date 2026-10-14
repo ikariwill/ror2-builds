@@ -79,9 +79,9 @@
   ],
   "sections": [
     {
-      "id": "comum",
+      "id": "common",
       "name": "Comum",
-      "color": "branco",
+      "color": "white",
       "intro": "O Acrid luta colado no inimigo. Os brancos dão o que ele mais usa: velocidade de ataque, dano de perto e defesa.",
       "items": [
         {
@@ -168,9 +168,9 @@
       ]
     },
     {
-      "id": "incomum",
+      "id": "uncommon",
       "name": "Incomum",
-      "color": "verde",
+      "color": "green",
       "intro": "Os verdes dão a cura por golpe e os efeitos ao acertar que a Epidemia espalha pelo grupo.",
       "items": [
         {
@@ -257,9 +257,9 @@
       ]
     },
     {
-      "id": "lendario",
+      "id": "legendary",
       "name": "Lendário",
-      "color": "vermelho",
+      "color": "red",
       "intro": "Os vermelhos que mais mudam o Acrid encurtam as recargas e amplificam o corpo a corpo.",
       "items": [
         {
@@ -337,9 +337,9 @@
       ]
     },
     {
-      "id": "chefe",
+      "id": "boss",
       "name": "Chefe",
-      "color": "amarelo",
+      "color": "yellow",
       "intro": "Itens de chefe só caem de chefes de teleporte.",
       "items": [
         {
@@ -363,9 +363,9 @@
       ]
     },
     {
-      "id": "equipamento",
+      "id": "equipment",
       "name": "Equipamentos",
-      "color": "laranja",
+      "color": "orange",
       "intro": "Só dá para carregar um. Escolha pelo momento da run.",
       "items": [
         {
@@ -418,7 +418,7 @@
     {
       "id": "lunar",
       "name": "Lunares",
-      "color": "azul",
+      "color": "blue",
       "intro": "Itens lunares têm custo embutido. Nenhum é obrigatório.",
       "items": [
         {
@@ -460,9 +460,9 @@
       ]
     },
     {
-      "id": "vazio",
+      "id": "void",
       "name": "Vazio",
-      "color": "roxo",
+      "color": "purple",
       "intro": "Itens do Vazio (DLC Survivors of the Void) corrompem itens comuns quando pegos. Veja o que vai perder antes.",
       "items": [
         {
@@ -673,7 +673,7 @@
     "intro": "Com a Autoridade, o Acrid começa por Seringa Militar e Cristal de Foco, que aceleram as Dilacerações e aumentam golpes e Veneno de perto. No verde, a Semente Sanguessuga vem primeiro, porque é a cura de cada golpe. Depois, acumule Mísseis ASM e Sementes, que crescem a cada cópia.",
     "tiers": [
       {
-        "tier": "comum",
+        "tier": "common",
         "steps": [
           {
             "en": "Soldier's Syringe",
@@ -739,7 +739,7 @@
         "then": "Depois: Seringa até 8, Tempos Difíceis até 4 e Mocha até 3. O Relógio Delicado quebra fácil em quem luta de perto."
       },
       {
-        "tier": "incomum",
+        "tier": "uncommon",
         "steps": [
           {
             "en": "Leeching Seed",
@@ -790,7 +790,7 @@
         "then": "Depois: Míssil até 6, depois mais Sementes. Shuriken ou Foice (com Óculos) só se faltar opção. Espinho Nocivo só na variante com Praga, que acumula."
       },
       {
-        "tier": "lendario",
+        "tier": "legendary",
         "steps": [
           {
             "en": "Alien Head",
@@ -821,7 +821,7 @@
         "then": "Depois: o segundo Brutamontes, Justiça Destruidora e Escorpião Simbiótico, que reduzem a armadura e aumentam o Veneno."
       },
       {
-        "tier": "chefe",
+        "tier": "boss",
         "steps": [
           {
             "en": "Molten Perforator",
@@ -832,7 +832,7 @@
         "then": "Itens de chefe vêm do chefe do teleporte. A Pérola Irradiante não sai com a Autoridade: a wiki diz que as pérolas não aparecem na essência amarela."
       },
       {
-        "tier": "equipamento",
+        "tier": "equipment",
         "steps": [
           {
             "en": "Primordial Cube",
@@ -864,7 +864,7 @@
         "then": "A wiki não confirma se as cápsulas lunares dão escolha com a Autoridade. Se derem, Tônico de Espinélia ou Pureza. Nunca a Ombreira do Fluxo Iluminado: corta pela metade a velocidade das Dilacerações."
       },
       {
-        "tier": "vazio",
+        "tier": "void",
         "steps": [
           {
             "en": "Lysate Cell",

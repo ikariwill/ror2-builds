@@ -119,9 +119,9 @@
   ],
   "sections": [
     {
-      "id": "comum",
+      "id": "common",
       "name": "Comum",
-      "color": "branco",
+      "color": "white",
       "intro": "O Capitão é frágil e atira oito projéteis por vez. Os brancos dão efeitos por projétil e defesa.",
       "items": [
         {
@@ -199,9 +199,9 @@
       ]
     },
     {
-      "id": "incomum",
+      "id": "uncommon",
       "name": "Incomum",
-      "color": "verde",
+      "color": "green",
       "intro": "Os verdes do Capitão aproveitam os oito projéteis e as Sondas de 1000%.",
       "items": [
         {
@@ -279,9 +279,9 @@
       ]
     },
     {
-      "id": "lendario",
+      "id": "legendary",
       "name": "Lendário",
-      "color": "vermelho",
+      "color": "red",
       "intro": "Os vermelhos do Capitão multiplicam as Sondas e os projéteis da Escopeta.",
       "items": [
         {
@@ -341,9 +341,9 @@
       ]
     },
     {
-      "id": "chefe",
+      "id": "boss",
       "name": "Chefe",
-      "color": "amarelo",
+      "color": "yellow",
       "intro": "Itens de chefe só caem de chefes de teleporte.",
       "items": [
         {
@@ -367,9 +367,9 @@
       ]
     },
     {
-      "id": "equipamento",
+      "id": "equipment",
       "name": "Equipamentos",
-      "color": "laranja",
+      "color": "orange",
       "intro": "Só dá para carregar um. O Capitão quer juntar inimigos para as Sondas ou ganhar críticos.",
       "items": [
         {
@@ -422,7 +422,7 @@
     {
       "id": "lunar",
       "name": "Lunares",
-      "color": "azul",
+      "color": "blue",
       "intro": "Itens lunares têm custo embutido. Nenhum é obrigatório.",
       "items": [
         {
@@ -455,9 +455,9 @@
       ]
     },
     {
-      "id": "vazio",
+      "id": "void",
       "name": "Vazio",
-      "color": "roxo",
+      "color": "purple",
       "intro": "Itens do Vazio (DLC Survivors of the Void) corrompem itens comuns quando pegos. Veja o que vai perder antes.",
       "items": [
         {
@@ -669,7 +669,7 @@
     "intro": "Com a Autoridade, comece pelas Adagas e Seringas, que rendem nos oito projéteis da Escopeta, e pegue defesa cedo, porque o Capitão tem pouca vida e nenhuma fuga. Nos verdes, acumule Mísseis ASM e Ukuleles, que ganham a cada cópia. Os vermelhos giram em torno das Sondas.",
     "tiers": [
       {
-        "tier": "comum",
+        "tier": "common",
         "steps": [
           {
             "en": "Tri-Tip Dagger",
@@ -745,7 +745,7 @@
         "then": "Depois: Seringa até 6 e Tempos Difíceis até 4. Bomba Aderente só para completar. O Farol: Hack zera o custo de baús, drones e santuários por perto, um de cada vez. Sem impressoras e terminais múltiplos, ele vale pelos baús: ponha o farol perto deles, e cada baú hackeado é mais uma essência."
       },
       {
-        "tier": "incomum",
+        "tier": "uncommon",
         "steps": [
           {
             "en": "Ukulele",
@@ -796,7 +796,7 @@
         "then": "Depois: Ukulele até 5. A Cartucheira cresce pouco por cópia: a segunda só com o DIABLO, que sobe para o primeiro passo por causa da recarga de 40 s."
       },
       {
-        "tier": "lendario",
+        "tier": "legendary",
         "steps": [
           {
             "en": "Brilliant Behemoth",
@@ -827,7 +827,7 @@
         "then": "Depois: o segundo Pós-combustor ou Brutamontes. Suporte do Rejuvenescimento se estiver morrendo no teleporte: ele aumenta a cura do Farol: Cura."
       },
       {
-        "tier": "chefe",
+        "tier": "boss",
         "steps": [
           {
             "en": "Shatterspleen",
@@ -838,7 +838,7 @@
         "then": "Depois: mais Baço. A Pérola Irradiante não sai da essência do teleporte: segundo a wiki, a essência dela vem só das Poças de Purificação, que não aparecem com a Autoridade."
       },
       {
-        "tier": "equipamento",
+        "tier": "equipment",
         "steps": [
           {
             "en": "Primordial Cube",
@@ -875,7 +875,7 @@
         "then": "A wiki não confirma se a cápsula lunar dá escolha com a Autoridade. Se der, nenhum lunar é obrigatório: Pureza piora os efeitos por projétil, e a Ombreira do Fluxo Iluminado deixa a Escopeta lenta. O Farol: Hack não paga cápsulas lunares, que custam moedas."
       },
       {
-        "tier": "vazio",
+        "tier": "void",
         "steps": [
           {
             "en": "Lysate Cell",

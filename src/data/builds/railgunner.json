@@ -87,9 +87,9 @@
   ],
   "sections": [
     {
-      "id": "comum",
+      "id": "common",
       "name": "Comum",
-      "color": "branco",
+      "color": "white",
       "intro": "A Canhoneira vive de poucos tiros enormes. Os brancos aumentam esse tiro e dão um pouco de folga.",
       "items": [
         {
@@ -176,9 +176,9 @@
       ]
     },
     {
-      "id": "incomum",
+      "id": "uncommon",
       "name": "Incomum",
-      "color": "verde",
+      "color": "green",
       "intro": "Os verdes dela são os que ativam com golpes acima de 400% e os que convertem crítico em algo útil.",
       "items": [
         {
@@ -247,9 +247,9 @@
       ]
     },
     {
-      "id": "lendario",
+      "id": "legendary",
       "name": "Lendário",
-      "color": "vermelho",
+      "color": "red",
       "intro": "Os vermelhos que mais mudam a Canhoneira aumentam o crítico e espalham o tiro único para o grupo.",
       "items": [
         {
@@ -309,9 +309,9 @@
       ]
     },
     {
-      "id": "chefe",
+      "id": "boss",
       "name": "Chefe",
-      "color": "amarelo",
+      "color": "yellow",
       "intro": "Itens de chefe só caem de chefes de teleporte.",
       "items": [
         {
@@ -335,9 +335,9 @@
       ]
     },
     {
-      "id": "equipamento",
+      "id": "equipment",
       "name": "Equipamentos",
-      "color": "laranja",
+      "color": "orange",
       "intro": "Só dá para carregar um. O Visor Ocular foi praticamente feito para ela.",
       "items": [
         {
@@ -390,7 +390,7 @@
     {
       "id": "lunar",
       "name": "Lunares",
-      "color": "azul",
+      "color": "blue",
       "intro": "Itens lunares têm custo embutido. Pense no que ela perde.",
       "items": [
         {
@@ -423,9 +423,9 @@
       ]
     },
     {
-      "id": "vazio",
+      "id": "void",
       "name": "Vazio",
-      "color": "roxo",
+      "color": "purple",
       "intro": "Itens do Vazio corrompem itens comuns quando pegos. Na Canhoneira, um deles destrói a build.",
       "items": [
         {
@@ -650,7 +650,7 @@
     "intro": "Com a Autoridade, a Canhoneira começa por Pé de Cabra e Óculos, que aumentam direto o tiro de M99 e o Supercarregado. Depois vêm os Cinturões, acumulados em várias cópias, e a Mira Laser, que transformam cada acerto em Ponto Fraco num tiro de chefe.",
     "tiers": [
       {
-        "tier": "comum",
+        "tier": "common",
         "steps": [
           {
             "en": "Crowbar",
@@ -716,7 +716,7 @@
         "then": "Depois: Óculos até 15 e Pé de Cabra até 6. Com a HH44, o Pente Reserva é inútil: troque os dois passos de Pente por Seringas."
       },
       {
-        "tier": "incomum",
+        "tier": "uncommon",
         "steps": [
           {
             "en": "Kjaro's Band",
@@ -777,7 +777,7 @@
         "then": "Depois: Kjaro até 6, Runald até 4 e Mísseis. Instintos Predatórios cresce pouco: o segundo só se a recarga da M99 estiver lenta. Com a HH44, a wiki não confirma se 400% exatos ativam os Cinturões: troque os Cinturões por Mísseis e Ukulele."
       },
       {
-        "tier": "lendario",
+        "tier": "legendary",
         "steps": [
           {
             "en": "Laser Scope",
@@ -808,7 +808,7 @@
         "then": "Depois: terceira Mira Laser. M.B.I.C. Compacto só se já tiver Mísseis ASM. Pós-combustor se quiser mais cargas de Concussão."
       },
       {
-        "tier": "chefe",
+        "tier": "boss",
         "steps": [
           {
             "en": "Charged Perforator",
@@ -819,7 +819,7 @@
         "then": "Depois: mais Perfurador Carregado. A Pérola Irradiante não sai da essência do teleporte: segundo a wiki, a essência dela vem só das Poças de Purificação, que não aparecem com a Autoridade."
       },
       {
-        "tier": "equipamento",
+        "tier": "equipment",
         "steps": [
           {
             "en": "Ocular HUD",
@@ -856,7 +856,7 @@
         "then": "A wiki não confirma se a cápsula lunar dá escolha com a Autoridade. Se der, Pureza só como situacional: piora Míssil, Ukulele e Perfurador. Nunca a Ombreira do Fluxo Iluminado."
       },
       {
-        "tier": "vazio",
+        "tier": "void",
         "steps": [
           {
             "en": "Lysate Cell",

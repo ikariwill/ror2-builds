@@ -79,9 +79,9 @@
   ],
   "sections": [
     {
-      "id": "comum",
+      "id": "common",
       "name": "Comum",
-      "color": "branco",
+      "color": "white",
       "intro": "Os brancos do Falso Filho são quase todos vida máxima bônus, que vira Crescimento.",
       "items": [
         {
@@ -159,9 +159,9 @@
       ]
     },
     {
-      "id": "incomum",
+      "id": "uncommon",
       "name": "Incomum",
-      "color": "verde",
+      "color": "green",
       "intro": "Os verdes aproveitam os golpes enormes da clava e o Crescimento.",
       "items": [
         {
@@ -230,9 +230,9 @@
       ]
     },
     {
-      "id": "lendario",
+      "id": "legendary",
       "name": "Lendário",
-      "color": "vermelho",
+      "color": "red",
       "intro": "Os vermelhos encurtam recargas e espalham os golpes da clava pelo grupo.",
       "items": [
         {
@@ -292,9 +292,9 @@
       ]
     },
     {
-      "id": "chefe",
+      "id": "boss",
       "name": "Chefe",
-      "color": "amarelo",
+      "color": "yellow",
       "intro": "Itens de chefe só caem de chefes de teleporte. Os dois abaixo dão Crescimento, segundo a wiki.",
       "items": [
         {
@@ -318,9 +318,9 @@
       ]
     },
     {
-      "id": "equipamento",
+      "id": "equipment",
       "name": "Equipamentos",
-      "color": "laranja",
+      "color": "orange",
       "intro": "Só dá para carregar um. O Tônico é o melhor por causa da vida máxima.",
       "items": [
         {
@@ -364,7 +364,7 @@
     {
       "id": "lunar",
       "name": "Lunares",
-      "color": "azul",
+      "color": "blue",
       "intro": "Itens lunares têm custo embutido. Nenhum é obrigatório.",
       "items": [
         {
@@ -397,9 +397,9 @@
       ]
     },
     {
-      "id": "vazio",
+      "id": "void",
       "name": "Vazio",
-      "color": "roxo",
+      "color": "purple",
       "intro": "Itens do Vazio (DLC Survivors of the Void) corrompem itens comuns quando pegos. Veja o que vai perder antes.",
       "items": [
         {
@@ -603,7 +603,7 @@
     "intro": "Com a Autoridade, comece por vida máxima bônus: Filé de Bisão e Infusão viram Espinhos pelo Crescimento desde a primeira fase. Depois venham Cinturão de Kjaro e Brutamontes, que aproveitam os golpes de 450% e 1.000% da clava.",
     "tiers": [
       {
-        "tier": "comum",
+        "tier": "common",
         "steps": [
           {
             "en": "Bison Steak",
@@ -669,7 +669,7 @@
         "then": "Depois: Filé até 10, Placa até 5 e Casco até 3. Com a Vontade do Meridiano, o Casco sobe na ordem, porque aumenta o alcance do teleporte. A Adaga Triangular só se sobrar escolha."
       },
       {
-        "tier": "incomum",
+        "tier": "uncommon",
         "steps": [
           {
             "en": "Infusion",
@@ -725,7 +725,7 @@
         "then": "Depois: Kjaro até 5. Kit Furtivo da Guerra Antiga só se faltar fuga. O Rosário da Prece fica fora: ele só entrega os atributos guardados quando sai do inventário."
       },
       {
-        "tier": "lendario",
+        "tier": "legendary",
         "steps": [
           {
             "en": "Brilliant Behemoth",
@@ -756,7 +756,7 @@
         "then": "Depois: Justiça Destruidora para chefes ou Suporte do Rejuvenescimento. O Néctar de Crescimento por último: a wiki não diz quanto Crescimento ele dá."
       },
       {
-        "tier": "chefe",
+        "tier": "boss",
         "steps": [
           {
             "en": "Titanic Knurl",
@@ -772,7 +772,7 @@
         "then": "Itens de chefe vêm do chefe do teleporte. A Pérola fica fora: segundo a wiki, a essência dela só sai da Poça de Purificação, que não aparece com a Autoridade."
       },
       {
-        "tier": "equipamento",
+        "tier": "equipment",
         "steps": [
           {
             "en": "Primordial Cube",
@@ -804,7 +804,7 @@
         "then": "A wiki não confirma se a cápsula lunar dá escolha com a Autoridade. Se der, o Tônico de Espinélia vem antes da Ombreira. Nunca pegue Vidro Configurado."
       },
       {
-        "tier": "vazio",
+        "tier": "void",
         "steps": [
           {
             "en": "Lysate Cell",

@@ -71,9 +71,9 @@
   ],
   "sections": [
     {
-      "id": "comum",
+      "id": "common",
       "name": "Comum",
-      "color": "branco",
+      "color": "white",
       "intro": "Os brancos do Demônio Nulo enchem a Corrupção com críticos e aceleram o raio corrompido.",
       "items": [
         {
@@ -160,9 +160,9 @@
       ]
     },
     {
-      "id": "incomum",
+      "id": "uncommon",
       "name": "Incomum",
-      "color": "verde",
+      "color": "green",
       "intro": "Os verdes certos convertem crítico em velocidade e aproveitam os muitos acertos do raio e os 400% da Inundação.",
       "items": [
         {
@@ -231,9 +231,9 @@
       ]
     },
     {
-      "id": "lendario",
+      "id": "legendary",
       "name": "Lendário",
-      "color": "vermelho",
+      "color": "red",
       "intro": "Os vermelhos que mais rendem ampliam o crítico e transformam o raio contínuo em dano de área.",
       "items": [
         {
@@ -284,9 +284,9 @@
       ]
     },
     {
-      "id": "chefe",
+      "id": "boss",
       "name": "Chefe",
-      "color": "amarelo",
+      "color": "yellow",
       "intro": "Itens de chefe só caem de chefes de teleporte.",
       "items": [
         {
@@ -310,9 +310,9 @@
       ]
     },
     {
-      "id": "equipamento",
+      "id": "equipment",
       "name": "Equipamentos",
-      "color": "laranja",
+      "color": "orange",
       "intro": "Só dá para carregar um. O melhor é o que segura a forma corrompida.",
       "items": [
         {
@@ -356,7 +356,7 @@
     {
       "id": "lunar",
       "name": "Lunares",
-      "color": "azul",
+      "color": "blue",
       "intro": "Itens lunares têm custo embutido. Dois deles atrapalham a Corrupção.",
       "items": [
         {
@@ -389,9 +389,9 @@
       ]
     },
     {
-      "id": "vazio",
+      "id": "void",
       "name": "Vazio",
-      "color": "roxo",
+      "color": "purple",
       "intro": "Cada item do Vazio sobe o mínimo de Corrupção em 2% e faz a barra esvaziar mais devagar. Mesmo assim, veja o que cada um corrompe.",
       "items": [
         {
@@ -612,7 +612,7 @@
     "intro": "Com a Autoridade, o Demônio Nulo começa por Óculos e Seringas: crítico enche a Corrupção e velocidade dá mais acertos ao raio corrompido. Itens do Vazio sobem o mínimo da barra, então os berços valem a pena, desde que não corrompam os Óculos.",
     "tiers": [
       {
-        "tier": "comum",
+        "tier": "common",
         "steps": [
           {
             "en": "Lens-Maker's Glasses",
@@ -678,7 +678,7 @@
         "then": "Depois: Seringa até 6 e Mocha até 3. Pare os Óculos em 10. Placa da Armadura de Repulsão é a defesa de reserva que também não cura."
       },
       {
-        "tier": "incomum",
+        "tier": "uncommon",
         "steps": [
           {
             "en": "Predatory Instincts",
@@ -729,7 +729,7 @@
         "then": "Depois: continue acumulando Míssil. Ukulele e Cinturão de Runald ficam fora: o dano do Ukulele por alvo não sobe com cópias, e o Runald soma menos por cópia que o Kjaro (250% contra 300%). Nunca escolha Semente Sanguessuga: a cura em cada acerto tira Corrupção."
       },
       {
-        "tier": "lendario",
+        "tier": "legendary",
         "steps": [
           {
             "en": "Brilliant Behemoth",
@@ -760,7 +760,7 @@
         "then": "Depois: o segundo Brutamontes. Escorpião Simbiótico se as lutas forem contra chefes."
       },
       {
-        "tier": "chefe",
+        "tier": "boss",
         "steps": [
           {
             "en": "Charged Perforator",
@@ -771,7 +771,7 @@
         "then": "Depois: mais Perfurador Carregado, ou um Perfurador Fundido."
       },
       {
-        "tier": "equipamento",
+        "tier": "equipment",
         "steps": [
           {
             "en": "Ocular HUD",
@@ -808,7 +808,7 @@
         "then": "A wiki não confirma se a cápsula lunar dá escolha com a Autoridade. Se der, nunca escolha Pureza nem Expansão Corporal: as duas atrapalham a Corrupção."
       },
       {
-        "tier": "vazio",
+        "tier": "void",
         "steps": [
           {
             "en": "Lysate Cell",

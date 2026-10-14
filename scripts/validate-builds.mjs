@@ -9,7 +9,7 @@ const DIR = join(ROOT, 'src/data/builds');
 const ICONS = join(ROOT, 'public/icons');
 
 const TOP = ['id', 'name_pt', 'name_en', 'title', 'tagline', 'lede', 'loadout', 'skills', 'sections', 'synergy', 'rotation', 'essentials', 'situational_note', 'fallbacks', 'summary', 'checklist', 'sources', 'notes'];
-const TIERS = ['comum', 'incomum', 'lendario', 'chefe', 'equipamento', 'lunar', 'vazio'];
+const TIERS = ['common', 'uncommon', 'legendary', 'boss', 'equipment', 'lunar', 'void'];
 const ITEM = ['icon', 'pt', 'en', 'prio', 'qty', 'effect', 'why'];
 const SKILL = ['slot', 'pt', 'en', 'pick', 'spec', 'why'];
 

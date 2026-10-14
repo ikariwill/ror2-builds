@@ -91,9 +91,9 @@
   ],
   "sections": [
     {
-      "id": "comum",
+      "id": "common",
       "name": "Comum",
-      "color": "branco",
+      "color": "white",
       "intro": "A Caçadora luta de longe e correndo. Os brancos dão crítico, velocidade e a defesa que os 90 de vida dela não têm.",
       "items": [
         {
@@ -171,9 +171,9 @@
       ]
     },
     {
-      "id": "incomum",
+      "id": "uncommon",
       "name": "Incomum",
-      "color": "verde",
+      "color": "green",
       "intro": "Os verdes de crítico rendem em dobro no Turbilhão. Os de chance rolam em cada flecha, mas com coeficiente 0,7.",
       "items": [
         {
@@ -251,9 +251,9 @@
       ]
     },
     {
-      "id": "lendario",
+      "id": "legendary",
       "name": "Lendário",
-      "color": "vermelho",
+      "color": "red",
       "intro": "Os vermelhos que mais mudam a Caçadora multiplicam o crítico e dão dano em área às flechas.",
       "items": [
         {
@@ -322,9 +322,9 @@
       ]
     },
     {
-      "id": "chefe",
+      "id": "boss",
       "name": "Chefe",
-      "color": "amarelo",
+      "color": "yellow",
       "intro": "Itens de chefe só caem de chefes de teleporte.",
       "items": [
         {
@@ -348,9 +348,9 @@
       ]
     },
     {
-      "id": "equipamento",
+      "id": "equipment",
       "name": "Equipamentos",
-      "color": "laranja",
+      "color": "orange",
       "intro": "Só dá para carregar um. O Visor Ocular é o melhor parceiro do Turbilhão.",
       "items": [
         {
@@ -403,7 +403,7 @@
     {
       "id": "lunar",
       "name": "Lunares",
-      "color": "azul",
+      "color": "blue",
       "intro": "Itens lunares têm custo embutido. Com 90 de vida, cuidado com os que tiram vida.",
       "items": [
         {
@@ -436,9 +436,9 @@
       ]
     },
     {
-      "id": "vazio",
+      "id": "void",
       "name": "Vazio",
-      "color": "roxo",
+      "color": "purple",
       "intro": "Itens do Vazio (DLC Survivors of the Void) corrompem itens comuns. Veja o que vai perder antes.",
       "items": [
         {
@@ -641,7 +641,7 @@
     "intro": "Com a Autoridade, o crítico vem primeiro: Óculos nos brancos e Foice e Instintos nos verdes, porque no Turbilhão cada crítico dobra as flechas. Depois, os verdes vão para Míssil ASM e Broquel da Rosa, que crescem a cada cópia.",
     "tiers": [
       {
-        "tier": "comum",
+        "tier": "common",
         "steps": [
           {
             "en": "Lens-Maker's Glasses",
@@ -712,7 +712,7 @@
         "then": "Depois: Seringa até 6, Tempos Difíceis até 4 e Bebida Energética. Se ficar no Disparo, a ordem dos brancos é a mesma."
       },
       {
-        "tier": "incomum",
+        "tier": "uncommon",
         "steps": [
           {
             "en": "Harvester's Scythe",
@@ -758,7 +758,7 @@
         "then": "Depois: continue acumulando Míssil ASM, que soma 300% por cópia. Quarto e quinto Broquel se estiver morrendo muito. Kit Furtivo da Guerra Antiga para fugas; Cinturão de Kjaro só para reforçar a Balista contra chefes."
       },
       {
-        "tier": "lendario",
+        "tier": "legendary",
         "steps": [
           {
             "en": "Laser Scope",
@@ -789,7 +789,7 @@
         "then": "Depois: Cabeça Alienígena para mais Balistas, Trevo 57 e Melhor Amigo de Dio como seguro."
       },
       {
-        "tier": "chefe",
+        "tier": "boss",
         "steps": [
           {
             "en": "Shatterspleen",
@@ -800,7 +800,7 @@
         "then": "Itens de chefe vêm do chefe do teleporte. A Pérola Irradiante não entra: com a Autoridade ela só sairia da poça de purificação, que não aparece."
       },
       {
-        "tier": "equipamento",
+        "tier": "equipment",
         "steps": [
           {
             "en": "Ocular HUD",
@@ -837,7 +837,7 @@
         "then": "A wiki não confirma escolha nas cápsulas lunares com a Autoridade. Nunca pegue Vidro Configurado: com 90 de vida, metade disso deixa qualquer elite letal."
       },
       {
-        "tier": "vazio",
+        "tier": "void",
         "steps": [
           {
             "en": "Lysate Cell",

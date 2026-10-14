@@ -29,13 +29,13 @@ export interface Tier {
 
 export const TIERS: Tier[] = [
   { id: 'all', name: 'Todos', color: 'var(--color-ink-3)' },
-  { id: 'comum', name: 'Comum', color: 'var(--color-tier-comum)' },
-  { id: 'incomum', name: 'Incomum', color: 'var(--color-tier-incomum)' },
-  { id: 'lendario', name: 'Lendário', color: 'var(--color-tier-lendario)' },
-  { id: 'chefe', name: 'Chefe', color: 'var(--color-tier-chefe)' },
-  { id: 'equipamento', name: 'Equipamento', color: 'var(--color-tier-equipamento)' },
+  { id: 'common', name: 'Comum', color: 'var(--color-tier-common)' },
+  { id: 'uncommon', name: 'Incomum', color: 'var(--color-tier-uncommon)' },
+  { id: 'legendary', name: 'Lendário', color: 'var(--color-tier-legendary)' },
+  { id: 'boss', name: 'Chefe', color: 'var(--color-tier-boss)' },
+  { id: 'equipment', name: 'Equipamento', color: 'var(--color-tier-equipment)' },
   { id: 'lunar', name: 'Lunar', color: 'var(--color-tier-lunar)' },
-  { id: 'vazio', name: 'Vazio', color: 'var(--color-tier-vazio)' },
+  { id: 'void', name: 'Vazio', color: 'var(--color-tier-void)' },
 ];
 export const TIER = Object.fromEntries(TIERS.map((t) => [t.id, t])) as Record<Tier['id'], Tier>;
 

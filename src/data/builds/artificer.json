@@ -79,9 +79,9 @@
   ],
   "sections": [
     {
-      "id": "comum",
+      "id": "common",
       "name": "Comum",
-      "color": "branco",
+      "color": "white",
       "intro": "A Artífice precisa de velocidade de ataque para as recargas e o Lança-chamas, e de velocidade de movimento por não ter fuga horizontal.",
       "items": [
         {
@@ -168,9 +168,9 @@
       ]
     },
     {
-      "id": "incomum",
+      "id": "uncommon",
       "name": "Incomum",
-      "color": "verde",
+      "color": "green",
       "intro": "Os verdes que mais rendem ativam com golpes de mais de 400% ou com os muitos acertos do Lança-chamas.",
       "items": [
         {
@@ -248,9 +248,9 @@
       ]
     },
     {
-      "id": "lendario",
+      "id": "legendary",
       "name": "Lendário",
-      "color": "vermelho",
+      "color": "red",
       "intro": "Os vermelhos que mais ajudam encurtam as recargas de 5 s e 12 s ou somam dano em área aos golpes grandes.",
       "items": [
         {
@@ -319,9 +319,9 @@
       ]
     },
     {
-      "id": "chefe",
+      "id": "boss",
       "name": "Chefe",
-      "color": "amarelo",
+      "color": "yellow",
       "intro": "Itens de chefe só caem de chefes de teleporte.",
       "items": [
         {
@@ -345,9 +345,9 @@
       ]
     },
     {
-      "id": "equipamento",
+      "id": "equipment",
       "name": "Equipamentos",
-      "color": "laranja",
+      "color": "orange",
       "intro": "Só dá para carregar um. A Artífice ganha mais com equipamentos que juntam inimigos ou dão mobilidade.",
       "items": [
         {
@@ -400,7 +400,7 @@
     {
       "id": "lunar",
       "name": "Lunares",
-      "color": "azul",
+      "color": "blue",
       "intro": "Itens lunares têm custo embutido. Para a Artífice, cuidado com o que corta velocidade de ataque ou vida.",
       "items": [
         {
@@ -433,9 +433,9 @@
       ]
     },
     {
-      "id": "vazio",
+      "id": "void",
       "name": "Vazio",
-      "color": "roxo",
+      "color": "purple",
       "intro": "Itens do Vazio (DLC Survivors of the Void) corrompem seus equivalentes. Dois dos itens centrais desta build podem ser corrompidos.",
       "items": [
         {
@@ -646,7 +646,7 @@
     "intro": "A Artífice precisa primeiro de velocidade de ataque e Pente Reserva para girar Nanobomba e Lança-chamas, e de velocidade de movimento por não ter fuga horizontal. Nos verdes, acumule Cinturão de Kjaro e Tanque de Ignição, porque a Nanobomba e o fogo ativam os dois sozinhos e cada cópia soma 300%.",
     "tiers": [
       {
-        "tier": "comum",
+        "tier": "common",
         "steps": [
           {
             "en": "Soldier's Syringe",
@@ -712,7 +712,7 @@
         "then": "Depois: Casco até 4 e Tempos Difíceis até 3. Com Surto de Íon na utilitária, troque os Cascos por Bebida Energética."
       },
       {
-        "tier": "incomum",
+        "tier": "uncommon",
         "steps": [
           {
             "en": "Kjaro's Band",
@@ -763,7 +763,7 @@
         "then": "Depois: sexto Kjaro e quinto Tanque, e então o segundo Runald (+250% e +3 s de lentidão). Will-o'-the-wisp ajuda contra voadores. A Pluma de Hopoo gasta pulos de um jeito que atrapalha a Roupa AMB."
       },
       {
-        "tier": "lendario",
+        "tier": "legendary",
         "steps": [
           {
             "en": "Alien Head",
@@ -794,7 +794,7 @@
         "then": "Depois: Trevo 57 ou Gancho de Carnes Senciente. Suporte do Rejuvenescimento só se já tiver Semente Sanguessuga."
       },
       {
-        "tier": "chefe",
+        "tier": "boss",
         "steps": [
           {
             "en": "Molten Perforator",
@@ -805,7 +805,7 @@
         "then": "Itens de chefe vêm do chefe do teleporte. A Pérola Irradiante não entra: com a Autoridade ela não sai."
       },
       {
-        "tier": "equipamento",
+        "tier": "equipment",
         "steps": [
           {
             "en": "Primordial Cube",
@@ -837,7 +837,7 @@
         "then": "A wiki não confirma se a cápsula lunar dá escolha com a Autoridade. Se der, Pureza é a única opção que vale. Nunca a Ombreira do Fluxo Iluminado, que corta a velocidade de ataque."
       },
       {
-        "tier": "vazio",
+        "tier": "void",
         "steps": [
           {
             "en": "Lysate Cell",

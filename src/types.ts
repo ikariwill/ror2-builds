@@ -1,6 +1,6 @@
 // Formato dos arquivos em src/data/builds/<id>.json. Documentado em docs/data.md.
 
-export type TierId = 'comum' | 'incomum' | 'lendario' | 'chefe' | 'equipamento' | 'lunar' | 'vazio';
+export type TierId = 'common' | 'uncommon' | 'legendary' | 'boss' | 'equipment' | 'lunar' | 'void';
 
 /** 1 Essencial · 2 Alta · 3 Média · 4 Situacional · 0 Evitar/cuidado */
 export type Prio = 0 | 1 | 2 | 3 | 4;

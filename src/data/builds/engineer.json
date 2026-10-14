@@ -75,9 +75,9 @@
   ],
   "sections": [
     {
-      "id": "comum",
+      "id": "common",
       "name": "Comum",
-      "color": "branco",
+      "color": "white",
       "intro": "Cada branco vai para você e para cada torreta. Priorize o que mantém as torretas vivas e o que ativa com tiro rápido.",
       "items": [
         {
@@ -164,9 +164,9 @@
       ]
     },
     {
-      "id": "incomum",
+      "id": "uncommon",
       "name": "Incomum",
-      "color": "verde",
+      "color": "green",
       "intro": "Os verdes de efeito ao acertar rendem muito: cada torreta tem cópia própria e atira sem parar com coeficiente 1,0.",
       "items": [
         {
@@ -244,9 +244,9 @@
       ]
     },
     {
-      "id": "lendario",
+      "id": "legendary",
       "name": "Lendário",
-      "color": "vermelho",
+      "color": "red",
       "intro": "Um lendário nas torretas vale por dois ou três. Os melhores somam dano em área ou tornam as torretas mais difíceis de matar.",
       "items": [
         {
@@ -333,9 +333,9 @@
       ]
     },
     {
-      "id": "chefe",
+      "id": "boss",
       "name": "Chefe",
-      "color": "amarelo",
+      "color": "yellow",
       "intro": "Itens de chefe que dão atributos ou ativam ao acertar passam para as torretas. Os que invocam aliados, como Glândula da Rainha (Queen's Gland), Núcleos Empáticos (Empathy Cores) e Semente Intocada (Halcyon Seed), não passam.",
       "items": [
         {
@@ -359,9 +359,9 @@
       ]
     },
     {
-      "id": "equipamento",
+      "id": "equipment",
       "name": "Equipamentos",
-      "color": "laranja",
+      "color": "orange",
       "intro": "As torretas herdam o equipamento, mas não conseguem ativá-lo, nem com a Marca do Submerso (Gesture of the Drowned). Escolha pensando no que você ativa.",
       "items": [
         {
@@ -414,7 +414,7 @@
     {
       "id": "lunar",
       "name": "Lunares",
-      "color": "azul",
+      "color": "blue",
       "intro": "Lunares também passam para as torretas, com o custo junto. Pense no efeito em três corpos.",
       "items": [
         {
@@ -447,9 +447,9 @@
       ]
     },
     {
-      "id": "vazio",
+      "id": "void",
       "name": "Vazio",
-      "color": "roxo",
+      "color": "purple",
       "intro": "Itens do Vazio (DLC Survivors of the Void) corrompem seus equivalentes. Olhe o que perde antes, porque as torretas perdem junto.",
       "items": [
         {
@@ -673,7 +673,7 @@
     "intro": "As torretas herdam quase todos os seus itens, então cada escolha vale duas ou três vezes: comece pelo que mantém as torretas vivas e pelo que ativa com o tiro rápido delas. Elas só recebem o que você já tinha ao serem posicionadas, então reposicione depois de cada leva de escolhas.",
     "tiers": [
       {
-        "tier": "comum",
+        "tier": "common",
         "steps": [
           {
             "en": "Bustling Fungus",
@@ -739,7 +739,7 @@
         "then": "Depois: Placas até 8 e Seringas até 6. O Estandarte de Guerra não passa para as torretas, então só vale se você plantar perto delas."
       },
       {
-        "tier": "incomum",
+        "tier": "uncommon",
         "steps": [
           {
             "en": "AtG Missile Mk. 1",
@@ -790,7 +790,7 @@
         "then": "Depois: continue acumulando Mísseis e leve o Ukulele até 4. A Margarida de Lépton não passa para as torretas. Marca Fatal só se os tiros já aplicam sangramento, lentidão e redução de armadura."
       },
       {
-        "tier": "lendario",
+        "tier": "legendary",
         "steps": [
           {
             "en": "Brilliant Behemoth",
@@ -821,7 +821,7 @@
         "then": "Depois: Gancho até 2, Peças de Drone Avulsas (DLC: as torretas não copiam, mas a sua cópia vale para elas) ou Trevo 57."
       },
       {
-        "tier": "chefe",
+        "tier": "boss",
         "steps": [
           {
             "en": "Molten Perforator",
@@ -832,7 +832,7 @@
         "then": "Itens de chefe vêm do chefe do teleporte. A Pérola Irradiante não entra: com a Autoridade ela não sai. Glândula da Rainha, Núcleos Empáticos e Semente Intocada não passam para as torretas."
       },
       {
-        "tier": "equipamento",
+        "tier": "equipment",
         "steps": [
           {
             "en": "Primordial Cube",
@@ -853,7 +853,7 @@
         "then": "As torretas herdam o equipamento, mas não o ativam. Nunca use o Tônico de Espinélia: elas herdam as Aflições e não ganham o bônus."
       },
       {
-        "tier": "vazio",
+        "tier": "void",
         "steps": [
           {
             "en": "Lysate Cell",

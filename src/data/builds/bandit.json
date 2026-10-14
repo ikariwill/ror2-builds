@@ -91,9 +91,9 @@
   ],
   "sections": [
     {
-      "id": "comum",
+      "id": "common",
       "name": "Comum",
-      "color": "branco",
+      "color": "white",
       "intro": "Itens brancos aparecem muito. Aqui está o grosso da build: crítico, cargas da Faca e velocidade de recarga.",
       "items": [
         {
@@ -180,9 +180,9 @@
       ]
     },
     {
-      "id": "incomum",
+      "id": "uncommon",
       "name": "Incomum",
-      "color": "verde",
+      "color": "green",
       "intro": "Os verdes trazem a sustentação e os efeitos que transformam críticos em vida, velocidade e mais Hemorragia.",
       "items": [
         {
@@ -269,9 +269,9 @@
       ]
     },
     {
-      "id": "lendario",
+      "id": "legendary",
       "name": "Lendário",
-      "color": "vermelho",
+      "color": "red",
       "intro": "Poucos itens vermelhos aparecem por run. Estes são os que mudam o Bandido de patamar.",
       "items": [
         {
@@ -340,9 +340,9 @@
       ]
     },
     {
-      "id": "chefe",
+      "id": "boss",
       "name": "Chefe",
-      "color": "amarelo",
+      "color": "yellow",
       "intro": "Itens de chefe só caem de chefes de teleporte. Vale um para o Bandido.",
       "items": [
         {
@@ -357,9 +357,9 @@
       ]
     },
     {
-      "id": "equipamento",
+      "id": "equipment",
       "name": "Equipamentos",
-      "color": "laranja",
+      "color": "orange",
       "intro": "Só dá para carregar um. Escolha pelo momento da run.",
       "items": [
         {
@@ -421,7 +421,7 @@
     {
       "id": "lunar",
       "name": "Lunares",
-      "color": "azul",
+      "color": "blue",
       "intro": "Itens lunares têm um custo embutido. Nenhum é obrigatório; estes têm sinergia real com o Bandido.",
       "items": [
         {
@@ -463,9 +463,9 @@
       ]
     },
     {
-      "id": "vazio",
+      "id": "void",
       "name": "Vazio",
-      "color": "roxo",
+      "color": "purple",
       "intro": "Itens do Vazio (DLC Survivors of the Void) corrompem itens comuns quando pegos. Confira o que vai perder antes de pegar.",
       "items": [
         {
@@ -676,7 +676,7 @@
     "intro": "Com o Artefato da Autoridade cada baú solta uma essência e você escolhe o item daquela raridade. Não aparecem impressoras nem sucateiros, então os brancos vêm só dos baús: siga a ordem e cada escolha completa a anterior.",
     "tiers": [
       {
-        "tier": "comum",
+        "tier": "common",
         "steps": [
           {
             "en": "Backup Magazine",
@@ -732,7 +732,7 @@
         "then": "Depois: alterne Pente Reserva e Seringa até o limite da build. Pare os Óculos quando o crítico somado passar de 100%."
       },
       {
-        "tier": "incomum",
+        "tier": "uncommon",
         "steps": [
           {
             "en": "Harvester's Scythe",
@@ -778,7 +778,7 @@
         "then": "Depois: continue acumulando Disparo Luminoso, que soma 50% por raio e 1 carga por cópia. Na variante com Bandoleiro (Desperado), troque os Ukuleles por Cartucheira até 3. Kit Furtivo da Guerra Antiga ou Arpão do Caçador se faltar fuga."
       },
       {
-        "tier": "lendario",
+        "tier": "legendary",
         "steps": [
           {
             "en": "Laser Scope",
@@ -809,7 +809,7 @@
         "then": "Depois: mais Mira Laser, que não tem limite."
       },
       {
-        "tier": "chefe",
+        "tier": "boss",
         "steps": [
           {
             "en": "Shatterspleen",
@@ -820,7 +820,7 @@
         "then": "Itens de chefe vêm do chefe do teleporte. Depois do primeiro Baço, a escolha amarela importa pouco para esta build."
       },
       {
-        "tier": "equipamento",
+        "tier": "equipment",
         "steps": [
           {
             "en": "Ocular HUD",
@@ -852,7 +852,7 @@
         "then": "Com Luzes Apagadas, nenhum item lunar é necessário. Guarde as moedas."
       },
       {
-        "tier": "vazio",
+        "tier": "void",
         "steps": [
           {
             "en": "Lysate Cell",

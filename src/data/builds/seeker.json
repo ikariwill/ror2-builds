@@ -95,9 +95,9 @@
   ],
   "sections": [
     {
-      "id": "comum",
+      "id": "common",
       "name": "Comum",
-      "color": "branco",
+      "color": "white",
       "intro": "A Exploradora luta a média distância e paga vida pela Estadia. Os brancos dão dano de perto e vida para gastar.",
       "items": [
         {
@@ -175,9 +175,9 @@
       ]
     },
     {
-      "id": "incomum",
+      "id": "uncommon",
       "name": "Incomum",
-      "color": "verde",
+      "color": "green",
       "intro": "Os verdes que mais rendem nela ativam com golpes acima de 400% e dão defesa no voo.",
       "items": [
         {
@@ -246,9 +246,9 @@
       ]
     },
     {
-      "id": "lendario",
+      "id": "legendary",
       "name": "Lendário",
-      "color": "vermelho",
+      "color": "red",
       "intro": "Os vermelhos que mais mudam a Exploradora encurtam as recargas e dobram a cura da Mão Invisível.",
       "items": [
         {
@@ -308,9 +308,9 @@
       ]
     },
     {
-      "id": "chefe",
+      "id": "boss",
       "name": "Chefe",
-      "color": "amarelo",
+      "color": "yellow",
       "intro": "Itens de chefe só caem de chefes de teleporte.",
       "items": [
         {
@@ -334,9 +334,9 @@
       ]
     },
     {
-      "id": "equipamento",
+      "id": "equipment",
       "name": "Equipamentos",
-      "color": "laranja",
+      "color": "orange",
       "intro": "Só dá para carregar um. Lembre que não dá para usar equipamento durante a Estadia.",
       "items": [
         {
@@ -380,7 +380,7 @@
     {
       "id": "lunar",
       "name": "Lunares",
-      "color": "azul",
+      "color": "blue",
       "intro": "Itens lunares têm custo embutido. Os que cortam vida pesam muito nela.",
       "items": [
         {
@@ -413,9 +413,9 @@
       ]
     },
     {
-      "id": "vazio",
+      "id": "void",
       "name": "Vazio",
-      "color": "roxo",
+      "color": "purple",
       "intro": "Itens do Vazio (DLC Survivors of the Void) corrompem itens comuns quando pegos. Veja o que vai perder antes.",
       "items": [
         {
@@ -639,7 +639,7 @@
     "intro": "Com a Autoridade, comece pelo que aumenta o dano da Mão Invisível, porque o dano dela também é a sua cura: Cristal de Foco, Cinturão de Kjaro e Cabeça Alienígena. Depois venha a vida e a defesa para pagar o custo da Estadia.",
     "tiers": [
       {
-        "tier": "comum",
+        "tier": "common",
         "steps": [
           {
             "en": "Focus Crystal",
@@ -715,7 +715,7 @@
         "then": "Depois: Seringa até 6, Placa até 5 e Pente Reserva até 3. Com a Espiral de Alma, o Pente Reserva sobe na ordem."
       },
       {
-        "tier": "incomum",
+        "tier": "uncommon",
         "steps": [
           {
             "en": "Kjaro's Band",
@@ -771,7 +771,7 @@
         "then": "Depois: Kjaro até 6 e Broquel até 5. Com os dois no máximo, o segundo Cinturão de Runald. A Foice do Ceifador fica fora: sem Óculos nesta build, ela quase não ativa."
       },
       {
-        "tier": "lendario",
+        "tier": "legendary",
         "steps": [
           {
             "en": "Alien Head",
@@ -802,7 +802,7 @@
         "then": "Depois: o segundo Brutamontes. Pós-combustor só se a vida aguentar mais Estadias seguidas."
       },
       {
-        "tier": "chefe",
+        "tier": "boss",
         "steps": [
           {
             "en": "Little Disciple",
@@ -818,7 +818,7 @@
         "then": "Itens de chefe vêm do chefe do teleporte. Depois da Plânula, mais Pequenos Discípulos."
       },
       {
-        "tier": "equipamento",
+        "tier": "equipment",
         "steps": [
           {
             "en": "Primordial Cube",
@@ -850,7 +850,7 @@
         "then": "A wiki não confirma se a cápsula lunar dá escolha com a Autoridade. Nunca pegue Vidro Configurado: menos vida encurta a Estadia."
       },
       {
-        "tier": "vazio",
+        "tier": "void",
         "steps": [
           {
             "en": "Lysate Cell",

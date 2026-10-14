@@ -35,13 +35,13 @@
   --color-on-accent: #10161d;
 
   /* Raridades do jogo: a ÚNICA família de cores saturadas do sistema */
-  --color-tier-comum: #c9ced3;
-  --color-tier-incomum: #7bc86c;
-  --color-tier-lendario: #e5534b;
-  --color-tier-chefe: #e3c24a;
-  --color-tier-equipamento: #f0913a;
+  --color-tier-common: #c9ced3;
+  --color-tier-uncommon: #7bc86c;
+  --color-tier-legendary: #e5534b;
+  --color-tier-boss: #e3c24a;
+  --color-tier-equipment: #f0913a;
   --color-tier-lunar: #5aa9e6;
-  --color-tier-vazio: #b678e0;
+  --color-tier-void: #b678e0;
 
   /* Prioridade (semântica, separada do acento) */
   --color-prio-avoid: #5a2328;

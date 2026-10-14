@@ -103,9 +103,9 @@
   ],
   "sections": [
     {
-      "id": "comum",
+      "id": "common",
       "name": "Comum",
-      "color": "branco",
+      "color": "white",
       "intro": "O REX quer dano, porque a cura da Injetar vem do dano, e vida e armadura para pagar as habilidades.",
       "items": [
         {
@@ -192,9 +192,9 @@
       ]
     },
     {
-      "id": "incomum",
+      "id": "uncommon",
       "name": "Incomum",
-      "color": "verde",
+      "color": "green",
       "intro": "Os verdes do REX aproveitam os golpes acima de 400% e os grupos presos pelo Emaranhado.",
       "items": [
         {
@@ -290,9 +290,9 @@
       ]
     },
     {
-      "id": "lendario",
+      "id": "legendary",
       "name": "Lendário",
-      "color": "vermelho",
+      "color": "red",
       "intro": "Os vermelhos do REX multiplicam a cura e dão mais usos da Rajada e do Emaranhado.",
       "items": [
         {
@@ -361,9 +361,9 @@
       ]
     },
     {
-      "id": "chefe",
+      "id": "boss",
       "name": "Chefe",
-      "color": "amarelo",
+      "color": "yellow",
       "intro": "Itens de chefe só caem de chefes de teleporte.",
       "items": [
         {
@@ -387,9 +387,9 @@
       ]
     },
     {
-      "id": "equipamento",
+      "id": "equipment",
       "name": "Equipamentos",
-      "color": "laranja",
+      "color": "orange",
       "intro": "Só dá para carregar um. O REX quer juntar grupos ou aguentar uma luta de chefe.",
       "items": [
         {
@@ -442,7 +442,7 @@
     {
       "id": "lunar",
       "name": "Lunares",
-      "color": "azul",
+      "color": "blue",
       "intro": "Itens lunares têm custo embutido. No REX, cuidado com tudo que mexe na vida.",
       "items": [
         {
@@ -475,9 +475,9 @@
       ]
     },
     {
-      "id": "vazio",
+      "id": "void",
       "name": "Vazio",
-      "color": "roxo",
+      "color": "purple",
       "intro": "Itens do Vazio (DLC Survivors of the Void) corrompem itens comuns quando pegos. Veja o que vai perder antes.",
       "items": [
         {
@@ -689,7 +689,7 @@
     "intro": "Com a Autoridade, o REX começa pela Placa da Armadura de Repulsão e pela Seringa Militar: uma barateia o custo da Barragem e da Rajada, a outra acelera a cura da Injetar. Depois vêm os itens que curam a partir do custo de vida e os que aproveitam o grupo preso pelo Emaranhado.",
     "tiers": [
       {
-        "tier": "comum",
+        "tier": "common",
         "steps": [
           {
             "en": "Repulsion Armor Plate",
@@ -750,7 +750,7 @@
         "then": "Depois: Seringa até 6, Placa até 5 e Filé de Bisão até 4. Casco de Bode de Paul se sentir falta de mobilidade."
       },
       {
-        "tier": "incomum",
+        "tier": "uncommon",
         "steps": [
           {
             "en": "Kjaro's Band",
@@ -806,7 +806,7 @@
         "then": "Depois: continue acumulando Cinturão de Kjaro. Will-o'-the-wisp até 3 se os grupos presos morrem juntos. Ukulele, Arame Farpado e Foice são extras. Kit Furtivo ou Transmissor Instável só se estiver morrendo com a vida baixa."
       },
       {
-        "tier": "lendario",
+        "tier": "legendary",
         "steps": [
           {
             "en": "Rejuvenation Rack",
@@ -837,7 +837,7 @@
         "then": "Depois: Brutamontes Reluzente para os grupos presos, Égide ou o segundo Juízo de N'kuhana."
       },
       {
-        "tier": "chefe",
+        "tier": "boss",
         "steps": [
           {
             "en": "Planula",
@@ -853,7 +853,7 @@
         "then": "Itens de chefe vêm do chefe do teleporte. Depois: a segunda Plânula, e então Fragmento Titânico."
       },
       {
-        "tier": "equipamento",
+        "tier": "equipment",
         "steps": [
           {
             "en": "Primordial Cube",
@@ -885,7 +885,7 @@
         "then": "A wiki não confirma se as cápsulas lunares dão escolha com a Autoridade. Se derem, Pureza ou Tônico de Espinélia. Nunca Transcendência: o custo das habilidades gasta o escudo, e a cura só recupera vida."
       },
       {
-        "tier": "vazio",
+        "tier": "void",
         "steps": [
           {
             "en": "Lysate Cell",

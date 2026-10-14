@@ -75,9 +75,9 @@
   ],
   "sections": [
     {
-      "id": "comum",
+      "id": "common",
       "name": "Comum",
-      "color": "branco",
+      "color": "white",
       "intro": "Os brancos da Herege aceleram o Olhar Faminto e compensam a vida que ela perde fora de combate.",
       "items": [
         {
@@ -155,9 +155,9 @@
       ]
     },
     {
-      "id": "incomum",
+      "id": "uncommon",
       "name": "Incomum",
-      "color": "verde",
+      "color": "green",
       "intro": "Os verdes trazem cura por acerto e efeitos que aproveitam os golpes grandes da Ruína e do Redemoinho.",
       "items": [
         {
@@ -235,9 +235,9 @@
       ]
     },
     {
-      "id": "lendario",
+      "id": "legendary",
       "name": "Lendário",
-      "color": "vermelho",
+      "color": "red",
       "intro": "Os vermelhos que mais mudam a Herege encurtam recargas e dão mais Dissipações.",
       "items": [
         {
@@ -306,9 +306,9 @@
       ]
     },
     {
-      "id": "chefe",
+      "id": "boss",
       "name": "Chefe",
-      "color": "amarelo",
+      "color": "yellow",
       "intro": "Itens de chefe só caem de chefes de teleporte. Para a Herege, os dois que mexem na regeneração valem muito.",
       "items": [
         {
@@ -332,9 +332,9 @@
       ]
     },
     {
-      "id": "equipamento",
+      "id": "equipment",
       "name": "Equipamentos",
-      "color": "laranja",
+      "color": "orange",
       "intro": "Só dá para carregar um. A Herege pode usar equipamento durante a Dissipação Sombria.",
       "items": [
         {
@@ -387,7 +387,7 @@
     {
       "id": "lunar",
       "name": "Lunares",
-      "color": "azul",
+      "color": "blue",
       "intro": "Os quatro itens da Heresia são a Herege. Cada cópia extra aumenta um número da habilidade e, em três deles, também a recarga.",
       "items": [
         {
@@ -429,9 +429,9 @@
       ]
     },
     {
-      "id": "vazio",
+      "id": "void",
       "name": "Vazio",
-      "color": "roxo",
+      "color": "purple",
       "intro": "Itens do Vazio (DLC Survivors of the Void) corrompem itens comuns quando pegos. Dois deles tomam itens desta build.",
       "items": [
         {
@@ -656,7 +656,7 @@
     "intro": "Você começa com outro sobrevivente e só vira a Herege ao segurar os quatro itens da Heresia, que são lunares. Por isso os primeiros itens da ordem servem a qualquer personagem, e os que seguram a regeneração negativa (Lesma, Fragmento Titânico, Criatura da Floresta) vêm em seguida para quando a transformação acontecer.",
     "tiers": [
       {
-        "tier": "comum",
+        "tier": "common",
         "steps": [
           {
             "en": "Soldier's Syringe",
@@ -732,7 +732,7 @@
         "then": "Depois: Seringa até 6, Tempos Difíceis até 3 e um segundo Gerador de Escudo. O Broche de Topázio não salva da regeneração negativa."
       },
       {
-        "tier": "incomum",
+        "tier": "uncommon",
         "steps": [
           {
             "en": "Harvester's Scythe",
@@ -788,7 +788,7 @@
         "then": "Depois: continue acumulando Semente Sanguessuga e leve o Cinturão de Kjaro até 4. Ukulele, Míssil e Cinturão de Runald só depois disso. Instintos Predatórios só com Óculos."
       },
       {
-        "tier": "lendario",
+        "tier": "legendary",
         "steps": [
           {
             "en": "Alien Head",
@@ -824,7 +824,7 @@
         "then": "Depois: Mira Laser se já tiver crítico, Gancho de Carnes Senciente ou Trevo 57."
       },
       {
-        "tier": "chefe",
+        "tier": "boss",
         "steps": [
           {
             "en": "Titanic Knurl",
@@ -840,7 +840,7 @@
         "then": "Itens de chefe vêm do chefe do teleporte. A página do Artefato da Autoridade diz que a Pérola Irradiante tem essência própria, que só cai da fonte original do item. Não conte com ela na essência amarela do teleporte."
       },
       {
-        "tier": "equipamento",
+        "tier": "equipment",
         "steps": [
           {
             "en": "Gnarled Woodsprite",
@@ -902,7 +902,7 @@
         "then": "A página do Artefato da Autoridade não diz se a Cápsula Lunar solta uma essência com escolha. Sem o artefato, a cápsula dá um item ou equipamento lunar aleatório entre os desbloqueados. Se der escolha, siga esta ordem. Se não der, cada moeda é um sorteio, e você pode receber lunares fora da build. Não pegue cópias extras de Visões, Ganchos ou Essência: elas alongam as recargas."
       },
       {
-        "tier": "vazio",
+        "tier": "void",
         "steps": [
           {
             "en": "Lysate Cell",

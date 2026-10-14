@@ -103,9 +103,9 @@
   ],
   "sections": [
     {
-      "id": "comum",
+      "id": "common",
       "name": "Comum",
-      "color": "branco",
+      "color": "white",
       "intro": "O MUL-T luta de perto e dispara pregos sem parar. Os brancos dão velocidade de ataque, crítico e dano a curta distância.",
       "items": [
         {
@@ -183,9 +183,9 @@
       ]
     },
     {
-      "id": "incomum",
+      "id": "uncommon",
       "name": "Incomum",
-      "color": "verde",
+      "color": "green",
       "intro": "Os verdes ao acertar rendem pelo volume de pregos, mesmo com o coeficiente 0,6.",
       "items": [
         {
@@ -263,9 +263,9 @@
       ]
     },
     {
-      "id": "lendario",
+      "id": "legendary",
       "name": "Lendário",
-      "color": "vermelho",
+      "color": "red",
       "intro": "Os vermelhos ao acertar escalam com o volume de pregos do MUL-T.",
       "items": [
         {
@@ -334,9 +334,9 @@
       ]
     },
     {
-      "id": "chefe",
+      "id": "boss",
       "name": "Chefe",
-      "color": "amarelo",
+      "color": "yellow",
       "intro": "Itens de chefe só caem de chefes de teleporte.",
       "items": [
         {
@@ -360,9 +360,9 @@
       ]
     },
     {
-      "id": "equipamento",
+      "id": "equipment",
       "name": "Equipamentos",
-      "color": "laranja",
+      "color": "orange",
       "intro": "Com o Reequipar você leva dois; no Modo de Força, conte com o equipamento ativo.",
       "items": [
         {
@@ -415,7 +415,7 @@
     {
       "id": "lunar",
       "name": "Lunares",
-      "color": "azul",
+      "color": "blue",
       "intro": "Itens lunares têm custo embutido. Os 200 de vida do MUL-T aguentam alguns deles.",
       "items": [
         {
@@ -448,9 +448,9 @@
       ]
     },
     {
-      "id": "vazio",
+      "id": "void",
       "name": "Vazio",
-      "color": "roxo",
+      "color": "purple",
       "intro": "Itens do Vazio (DLC Survivors of the Void) corrompem itens comuns. Veja o que vai perder antes.",
       "items": [
         {
@@ -663,7 +663,7 @@
     "intro": "Com a Autoridade, comece por Seringas e Óculos nos brancos e concentre os verdes em Mísseis ASM, com Ukulele em segundo. No Modo de Força são 24 pregos por segundo rolando itens ao acertar, então cada item de chance compensa o coeficiente 0,6 pelo volume.",
     "tiers": [
       {
-        "tier": "comum",
+        "tier": "common",
         "steps": [
           {
             "en": "Soldier's Syringe",
@@ -729,7 +729,7 @@
         "then": "Depois: Seringa até 8 e Adaga e Cristal até 4. Pente Reserva rende pouco no Modo de Força. Pé de Cabra só na variante com Perfurador de Barra."
       },
       {
-        "tier": "incomum",
+        "tier": "uncommon",
         "steps": [
           {
             "en": "AtG Missile Mk. 1",
@@ -780,7 +780,7 @@
         "then": "Depois: continue acumulando Mísseis e leve o Ukulele até 4. Instintos Predatórios só com muitos Óculos. Com Reequipar no lugar do Modo de Força, Chifre da Guerra e Célula de Combustível sobem na ordem."
       },
       {
-        "tier": "lendario",
+        "tier": "legendary",
         "steps": [
           {
             "en": "Sentient Meat Hook",
@@ -811,7 +811,7 @@
         "then": "Depois: o segundo Brutamontes, Suporte do Rejuvenescimento com Semente e Foice, e Escorpião Simbiótico."
       },
       {
-        "tier": "chefe",
+        "tier": "boss",
         "steps": [
           {
             "en": "Charged Perforator",
@@ -822,7 +822,7 @@
         "then": "Itens de chefe vêm do chefe do teleporte. A Pérola Irradiante não entra: com a Autoridade ela só sairia da poça de purificação, que não aparece."
       },
       {
-        "tier": "equipamento",
+        "tier": "equipment",
         "steps": [
           {
             "en": "Gorag's Opus",
@@ -859,7 +859,7 @@
         "then": "A wiki não confirma escolha nas cápsulas lunares com a Autoridade. Nunca pegue Ombreira do Fluxo Iluminado: corta metade dos pregos. Pureza só com o Lançador de Sucata."
       },
       {
-        "tier": "vazio",
+        "tier": "void",
         "steps": [
           {
             "en": "Needletick",

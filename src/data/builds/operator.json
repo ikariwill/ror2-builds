@@ -79,9 +79,9 @@
   ],
   "sections": [
     {
-      "id": "comum",
+      "id": "common",
       "name": "Comum",
-      "color": "branco",
+      "color": "white",
       "intro": "Os ataques comandados usam seus itens, então os brancos do Operador servem para ele e para a frota.",
       "items": [
         {
@@ -150,9 +150,9 @@
       ]
     },
     {
-      "id": "incomum",
+      "id": "uncommon",
       "name": "Incomum",
-      "color": "verde",
+      "color": "green",
       "intro": "Os verdes viram dano em área nos muitos acertos dos ataques comandados.",
       "items": [
         {
@@ -221,9 +221,9 @@
       ]
     },
     {
-      "id": "lendario",
+      "id": "legendary",
       "name": "Lendário",
-      "color": "vermelho",
+      "color": "red",
       "intro": "O vermelho mais importante do Operador fortalece todos os drones de uma vez.",
       "items": [
         {
@@ -274,9 +274,9 @@
       ]
     },
     {
-      "id": "chefe",
+      "id": "boss",
       "name": "Chefe",
-      "color": "amarelo",
+      "color": "yellow",
       "intro": "Itens de chefe só caem de chefes de teleporte.",
       "items": [
         {
@@ -300,9 +300,9 @@
       ]
     },
     {
-      "id": "equipamento",
+      "id": "equipment",
       "name": "Equipamentos",
-      "color": "laranja",
+      "color": "orange",
       "intro": "Só dá para carregar um. O Operador quer ouro para comprar drones.",
       "items": [
         {
@@ -355,7 +355,7 @@
     {
       "id": "lunar",
       "name": "Lunares",
-      "color": "azul",
+      "color": "blue",
       "intro": "Itens lunares têm custo embutido. Nenhum é obrigatório.",
       "items": [
         {
@@ -388,9 +388,9 @@
       ]
     },
     {
-      "id": "vazio",
+      "id": "void",
       "name": "Vazio",
-      "color": "roxo",
+      "color": "purple",
       "intro": "Itens do Vazio (DLC Survivors of the Void) corrompem itens comuns quando pegos. Veja o que vai perder antes.",
       "items": [
         {
@@ -606,7 +606,7 @@
     "intro": "Com a Autoridade você escolhe cada item, mas os drones continuam sendo comprados com ouro. Priorize o que dá drones e cargas do ADMIN-SOBRESCREVER (Caixa de Dinamites, Peças de Drone Avulsas) e, nos brancos, Pé de Cabra e Seringa primeiro, com defesa logo atrás, porque o Operador tem só 90 de vida.",
     "tiers": [
       {
-        "tier": "comum",
+        "tier": "common",
         "steps": [
           {
             "en": "Crowbar",
@@ -672,7 +672,7 @@
         "then": "Depois: complete Seringa, Óculos e Pé de Cabra até o limite da build. Bomba Aderente só se sobrar escolha, pelas rajadas comandadas."
       },
       {
-        "tier": "incomum",
+        "tier": "uncommon",
         "steps": [
           {
             "en": "Box of Dynamite",
@@ -728,7 +728,7 @@
         "then": "Depois: continue empilhando Míssil ASM. Segunda Caixa de Dinamites só aumenta o dano das dinamites em 85%. Nadadeira da Interrupção se quiser manter os inimigos no ar para o Nanodefeituoso."
       },
       {
-        "tier": "lendario",
+        "tier": "legendary",
         "steps": [
           {
             "en": "Spare Drone Parts",
@@ -764,7 +764,7 @@
         "then": "Depois: mais Brutamontes ou Gancho. Pós-combustor se precisar de mais Protocolos de Ascensão para fugir."
       },
       {
-        "tier": "chefe",
+        "tier": "boss",
         "steps": [
           {
             "en": "Empathy Cores",
@@ -780,7 +780,7 @@
         "then": "Itens de chefe vêm do chefe do teleporte. Depois dos dois, a escolha amarela importa pouco para esta build."
       },
       {
-        "tier": "equipamento",
+        "tier": "equipment",
         "steps": [
           {
             "en": "Executive Card",
@@ -817,7 +817,7 @@
         "then": "A wiki não confirma se a cápsula lunar dá escolha com a Autoridade. Se der, Pureza é a única que vale. Nunca Vidro Configurado: corta pela metade uma vida de 90."
       },
       {
-        "tier": "vazio",
+        "tier": "void",
         "steps": [
           {
             "en": "Lysate Cell",

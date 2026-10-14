@@ -46,10 +46,10 @@ const range = (r: Row) => (r.from === r.to ? `${r.from}º` : `${r.from}º–${r.
 
 export function CommandOrder({ build, idPrefix, compact }: { build: Build; idPrefix: string; compact?: boolean }) {
   const order = build.command;
-  const [tier, setTier] = useState<TierId>(order?.tiers[0]?.tier ?? 'comum');
+  const [tier, setTier] = useState<TierId>(order?.tiers[0]?.tier ?? 'common');
   const [counts, setCounts] = useState(load);
 
-  useEffect(() => setTier(order?.tiers[0]?.tier ?? 'comum'), [build.id, order]);
+  useEffect(() => setTier(order?.tiers[0]?.tier ?? 'common'), [build.id, order]);
 
   const current = order?.tiers.find((t) => t.tier === tier) ?? order?.tiers[0];
   const list = useMemo(() => (current ? rows(build, current) : []), [build, current]);

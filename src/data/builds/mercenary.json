@@ -79,9 +79,9 @@
   ],
   "sections": [
     {
-      "id": "comum",
+      "id": "common",
       "name": "Comum",
-      "color": "branco",
+      "color": "white",
       "intro": "Os brancos dão o que o Mercenário mais usa: velocidade de ataque para o Estripar, velocidade de movimento para as investidas e dano de perto.",
       "items": [
         {
@@ -159,9 +159,9 @@
       ]
     },
     {
-      "id": "incomum",
+      "id": "uncommon",
       "name": "Incomum",
-      "color": "verde",
+      "color": "green",
       "intro": "Os verdes dão cura por golpe e efeitos ao acertar, que o Mercenário ativa muito com coeficiente 1,0 em todas as habilidades.",
       "items": [
         {
@@ -239,9 +239,9 @@
       ]
     },
     {
-      "id": "lendario",
+      "id": "legendary",
       "name": "Lendário",
-      "color": "vermelho",
+      "color": "red",
       "intro": "Os vermelhos que mais mudam o Mercenário encurtam as recargas das habilidades com invulnerabilidade ou dão área ao corpo a corpo.",
       "items": [
         {
@@ -310,9 +310,9 @@
       ]
     },
     {
-      "id": "chefe",
+      "id": "boss",
       "name": "Chefe",
-      "color": "amarelo",
+      "color": "yellow",
       "intro": "Itens de chefe só caem de chefes de teleporte.",
       "items": [
         {
@@ -336,9 +336,9 @@
       ]
     },
     {
-      "id": "equipamento",
+      "id": "equipment",
       "name": "Equipamentos",
-      "color": "laranja",
+      "color": "orange",
       "intro": "Só dá para carregar um. O Mercenário precisa de algo que junte inimigos ou alcance os que estão longe.",
       "items": [
         {
@@ -391,7 +391,7 @@
     {
       "id": "lunar",
       "name": "Lunares",
-      "color": "azul",
+      "color": "blue",
       "intro": "Itens lunares têm custo embutido. No Mercenário, a Pureza é o mais conhecido.",
       "items": [
         {
@@ -424,9 +424,9 @@
       ]
     },
     {
-      "id": "vazio",
+      "id": "void",
       "name": "Vazio",
-      "color": "roxo",
+      "color": "purple",
       "intro": "Itens do Vazio (DLC Survivors of the Void) corrompem itens comuns quando pegos. Veja o que vai perder antes.",
       "items": [
         {
@@ -638,7 +638,7 @@
     "intro": "O Mercenário depende de velocidade de ataque para encher o Estripar e de Cristal de Foco, que vale em todos os golpes. Nos verdes, a Semente Sanguessuga vem primeiro porque é a única cura que ele tem. Depois, acumule Míssil ASM: os muitos golpes disparam muitos mísseis, e cada cópia soma 300% a cada um.",
     "tiers": [
       {
-        "tier": "comum",
+        "tier": "common",
         "steps": [
           {
             "en": "Soldier's Syringe",
@@ -704,7 +704,7 @@
         "then": "Depois: Casco e Tempos Difíceis até 4. Com a DLC, Mocha soma os dois atributos que a build usa. Adaga Triangular só se não for usar Agulhão."
       },
       {
-        "tier": "incomum",
+        "tier": "uncommon",
         "steps": [
           {
             "en": "Leeching Seed",
@@ -755,7 +755,7 @@
         "then": "Depois: continue acumulando Míssil ASM. Semente até 5 se a cura não der conta. Segundo Ukulele para mais alvos; Shuriken para dano à distância."
       },
       {
-        "tier": "lendario",
+        "tier": "legendary",
         "steps": [
           {
             "en": "Alien Head",
@@ -786,7 +786,7 @@
         "then": "Depois: segundo Brutamontes, Suporte do Rejuvenescimento para dobrar a cura ou Trevo 57. H3AD-5T v2 só se treinar o Tornado em rampas."
       },
       {
-        "tier": "chefe",
+        "tier": "boss",
         "steps": [
           {
             "en": "Irradiant Pearl",
@@ -802,7 +802,7 @@
         "then": "Depois do primeiro Perfurador, pegue mais Pérolas."
       },
       {
-        "tier": "equipamento",
+        "tier": "equipment",
         "steps": [
           {
             "en": "Primordial Cube",
@@ -834,7 +834,7 @@
         "then": "A wiki não confirma se a cápsula lunar dá escolha com a Autoridade. Se der, a segunda Pureza encurta mais o Estripar. Vidro Configurado só se você já confia nas janelas de invulnerabilidade. Nunca a Ombreira do Fluxo Iluminado."
       },
       {
-        "tier": "vazio",
+        "tier": "void",
         "steps": [
           {
             "en": "Lysate Cell",
