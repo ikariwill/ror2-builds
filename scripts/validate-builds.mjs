@@ -37,6 +37,9 @@ for (const file of readdirSync(DIR).filter((f) => f.endsWith('.json')).sort()) {
   if (raw !== JSON.stringify(d, null, 2) + '\n') errs.push('formatting does not match the standard (run npm run format:data)');
   for (const k of TOP) if (!(k in d)) errs.push(`missing key "${k}"`);
   if (d.id && `${d.id}.json` !== file) errs.push(`id "${d.id}" does not match the file name`);
+  // Writing rule (CLAUDE.md): no em dash anywhere in the content.
+  const dashes = raw.split('\n').filter((l) => l.includes('—'));
+  for (const l of dashes) errs.push(`em dash (U+2014) in content: ${l.trim().slice(0, 80)}`);
 
   const names = new Set();
   let order = -1;
