@@ -2,9 +2,9 @@
   "id": "commando",
   "name_pt": "Comando",
   "name_en": "Commando",
-  "title": "Comando: Build de Ativação por Acerto",
-  "tagline": "Tiro rápido que ativa todos os itens",
-  "lede": "O Tiro Duplo dispara 6 vezes por segundo com coeficiente de ativação 1,0, um dos maiores potenciais de ativação de itens entre todas as primárias. A build empilha velocidade de ataque e itens ao acertar para transformar cada tiro em mísseis, raios e sangramento. O Fogo de Supressão atordoa grupos e também ganha disparos com a velocidade de ataque.",
+  "title": "Comando: Build de Crítico e Ativação por Acerto",
+  "tagline": "Tiro rápido, crítico alto e itens ao acertar",
+  "lede": "O Tiro Duplo dispara 6 vezes por segundo com coeficiente 1,0, então cada item ao acertar rola o tempo todo. A build empilha velocidade de ataque e crítico até perto de 100%, com Baço Desfigurado e Brutamontes Reluzente para dar ao Comando o dano em área que o kit não tem. A Explosão Fásica cuida do dano de perto, e o Fogo de Supressão atordoa o que ameaçar você.",
   "loadout": [
     {
       "slot": "Primária",
@@ -12,7 +12,7 @@
     },
     {
       "slot": "Secundária",
-      "skill": "Projétil Fásico (Phase Round)"
+      "skill": "Explosão Fásica (Phase Blast)"
     },
     {
       "slot": "Utilitária",
@@ -30,23 +30,23 @@
       "en": "Double Tap",
       "pick": "Fixa",
       "spec": "100% de dano por tiro, 6 tiros por segundo na velocidade base. Coeficiente 1,0. Perde dano com a distância.",
-      "why": "É o motor da build: muitos acertos por segundo, cada um com coeficiente cheio. A velocidade de ataque tem limite de 900%. Apertar o botão em vez de segurar atira um pouco mais devagar, mas fica bem mais preciso de longe."
+      "why": "É o motor da build: muitos acertos por segundo, cada um com coeficiente cheio. Fique perto, porque o tiro perde dano de longe. A velocidade de ataque tem limite de 900%. Apertar o botão em vez de segurar atira um pouco mais devagar, mas fica bem mais preciso de longe."
     },
     {
       "slot": "Secundária",
-      "pt": "Projétil Fásico",
-      "en": "Phase Round",
+      "pt": "Explosão Fásica",
+      "en": "Phase Blast",
       "pick": "Recomendada",
-      "spec": "Perfurante. 300% de dano; cada inimigo atravessado soma 40% ao dano total. Atravessa o cenário. Recarga 3 s. Coeficiente 1,0.",
-      "why": "Alcance ilimitado e atravessa paredes, então funciona contra grupos em fila e contra alvos escondidos. Só ativa os Cinturões de Runald e Kjaro depois de atravessar pelo menos um inimigo. O Pente Reserva dá cargas extras."
+      "spec": "8 × 200% de dano em duas rajadas de curto alcance, com queda de dano tipo escopeta. Recarga 3 s. Coeficiente 0,5 por projétil. Desbloqueio: Commando: Rolling Thunder.",
+      "why": "A escolha da maioria dos guias e jogadores de Eclipse. É o dano concentrado que falta ao Comando: derruba um Golem de perto no primeiro estágio. Cancela a animação final do Fogo de Supressão. Cada projétil causa 200%, então não ativa os Cinturões."
     },
     {
       "slot": "Secundária (alt.)",
-      "pt": "Explosão Fásica",
-      "en": "Phase Blast",
+      "pt": "Projétil Fásico",
+      "en": "Phase Round",
       "pick": "Variante",
-      "spec": "8 × 200% de dano em duas rajadas de curto alcance. Recarga 3 s. Coeficiente 0,5 por projétil. Desbloqueio: Commando: Rolling Thunder.",
-      "why": "Mais dano total de perto, com queda de dano tipo escopeta. O coeficiente de 0,5 reduz a chance dos itens ao acertar. Boa para quem joga colado e usa Cristal de Foco."
+      "spec": "Perfurante. 300% de dano; cada inimigo atravessado soma 40% ao dano total. Atravessa o cenário. Recarga 3 s. Coeficiente 1,0.",
+      "why": "Escolha se a run vai girar em torno dos Cinturões: depois de atravessar pelo menos um inimigo, passa de 400% e ativa o Cinturão de Kjaro. Fora disso, só rende com inimigos em fila. Também cancela a animação final do Fogo de Supressão."
     },
     {
       "slot": "Utilitária",
@@ -62,7 +62,7 @@
       "en": "Tactical Slide",
       "pick": "Recomendada",
       "spec": "Ágil. Desliza pelo chão; no ar funciona como um pulo curto extra. Recarga 4 s. Desbloqueio: Commando: Godspeed.",
-      "why": "Você pode atirar enquanto desliza, então o Tiro Duplo não para de ativar itens durante a esquiva. Pular no meio do deslize mantém o impulso e atravessa buracos."
+      "why": "Consenso entre os guias. Você atira enquanto desliza, então o Tiro Duplo não para de ativar itens durante a esquiva. No ar dá um pouco de altura, e pular no meio do deslize mantém o impulso."
     },
     {
       "slot": "Especial",
@@ -70,7 +70,7 @@
       "en": "Suppressive Fire",
       "pick": "Recomendada",
       "spec": "Atordoante. 100% por disparo, 6 disparos × velocidade de ataque. Recarga 9 s. Coeficiente 1,0 por disparo.",
-      "why": "Cada ponto de velocidade de ataque é mais disparos e mais ativações de itens. Atordoa e interrompe ataques. A animação final bloqueia o Tiro Duplo. O Projétil Fásico ou a Explosão Fásica cancelam essa animação, então emende com a Secundária."
+      "why": "A maioria dos jogadores fica com ele pelo atordoamento: interrompe o ataque de Lemurianos Anciões e outros inimigos perigosos. Cada ponto de velocidade de ataque é mais disparos e mais ativações. A animação final bloqueia o Tiro Duplo; cancele com a Secundária."
     },
     {
       "slot": "Especial (alt.)",
@@ -78,7 +78,7 @@
       "en": "Frag Grenade",
       "pick": "Variante",
       "spec": "700% no centro, 175% na borda, raio de 11 m. Até 2 cargas, recarga 5 s. Coeficiente 1,0. Desbloqueio: Commando: Incorruptible.",
-      "why": "Único ataque em área do Comando. Acertos no centro ativam os Cinturões de Runald e Kjaro com facilidade. Não atordoa, só desequilibra o inimigo por um instante. Prefira se tiver Cinturões ou Faixa da Singularidade."
+      "why": "Parte dos jogadores prefere em Eclipse 8 e em runs que vão direto ao Mithrix: é o único ataque em área do Comando e, com a Explosão Fásica na Secundária, a única habilidade que ativa os Cinturões. Só ativa os Cinturões com acerto no centro. Não atordoa."
     }
   ],
   "sections": [
@@ -86,7 +86,7 @@
       "id": "common",
       "name": "Comum",
       "color": "white",
-      "intro": "O Comando ataca o tempo todo e de média distância. Os brancos que mais rendem são velocidade de ataque e chance ao acertar.",
+      "intro": "Nos brancos, velocidade de ataque e crítico vêm primeiro, com um pouco de dano em área e defesa para os primeiros estágios.",
       "items": [
         {
           "icon": "soldiers-syringe",
@@ -102,18 +102,18 @@
           "pt": "Óculos do Fabricante de Lentes",
           "en": "Lens-Maker's Glasses",
           "prio": 1,
-          "qty": "3 a 6",
+          "qty": "4 a 10 (até ~100% de crítico)",
           "effect": "10% (+10% por acúmulo) de chance de Acerto Crítico, que causa dano dobrado.",
-          "why": "Com 6 tiros por segundo, o crítico vira um aumento de dano constante e ativa Foice do Ceifador e Instintos Predatórios."
+          "why": "A base da build de crítico. Jogadores de Eclipse empilham até 9 ou 10 para chegar perto de 100% somando Instintos, Foice e Baço. Com 6 tiros por segundo, quase todo tiro vira crítico."
         },
         {
           "icon": "tri-tip-dagger",
           "pt": "Adaga Triangular",
           "en": "Tri-Tip Dagger",
-          "prio": 2,
+          "prio": 1,
           "qty": "2 a 4",
           "effect": "10% (+10% por acúmulo) de chance de sangrar um inimigo por 240% do dano base.",
-          "why": "Rola a cada tiro com coeficiente cheio. Com algumas adagas, o alvo sangra quase sem parar."
+          "why": "Rola a cada tiro com coeficiente cheio, e o sangramento derrete chefes e elites. Inimigos sangrando explodem ao morrer com o Baço Desfigurado. O Agulhão (Needletick) corrompe todas as Adagas Triangulares."
         },
         {
           "icon": "tougher-times",
@@ -123,6 +123,42 @@
           "qty": "2 a 4",
           "effect": "15% (+15% por acúmulo) de chance de bloquear dano recebido. Não é afetado por sorte.",
           "why": "O Comando tem 110 de vida e nenhuma armadura. Cada bloqueio é um golpe inteiro evitado."
+        },
+        {
+          "icon": "gasoline",
+          "pt": "Gasolina",
+          "en": "Gasoline",
+          "prio": 2,
+          "qty": "1 a 2 (cedo)",
+          "effect": "Abater um inimigo incendeia todos os inimigos num raio de 12 m (+4 m por acúmulo) por 150% do dano base. Além disso, os inimigos queimam por 150% (+75% por acúmulo) do dano base.",
+          "why": "Nos primeiros estágios o Comando não tem dano em área. Os guias pedem um item de abate como este cedo, para que cada inimigo derrubado incendeie o grupo em volta."
+        },
+        {
+          "icon": "repulsion-armor-plate",
+          "pt": "Placa da Armadura de Repulsão",
+          "en": "Repulsion Armor Plate",
+          "prio": 3,
+          "qty": "1 a 3 (Eclipse)",
+          "effect": "Reduz todo o dano recebido em 5 (+5 por acúmulo). O dano não pode ficar abaixo de 1.",
+          "why": "Jogadores de Eclipse pegam algumas: cada cópia tira 5 de cada golpe, o que pesa mais contra golpes fracos e frequentes. Ajuda o Comando, que tem pouca vida e nenhuma armadura, a perder menos vida máxima no Eclipse 8."
+        },
+        {
+          "icon": "pauls-goat-hoof",
+          "pt": "Casco de Bode de Paul",
+          "en": "Paul's Goat Hoof",
+          "prio": 3,
+          "qty": "1 a 3",
+          "effect": "+14% (+14% por acúmulo) de velocidade de movimento.",
+          "why": "Mais rápido para atravessar os estágios e para manter distância de inimigos corpo a corpo enquanto atira. Vários jogadores de Eclipse pegam os primeiros que aparecem."
+        },
+        {
+          "icon": "energy-drink",
+          "pt": "Bebida Energética",
+          "en": "Energy Drink",
+          "prio": 3,
+          "qty": "1 a 2",
+          "effect": "+25% (+25% por acúmulo) de velocidade de corrida.",
+          "why": "Alguns jogadores preferem para correr pelos estágios no Eclipse, onde vale não ficar parado. Só acelera a corrida."
         },
         {
           "icon": "armor-piercing-rounds",
@@ -149,16 +185,7 @@
           "prio": 3,
           "qty": "1 a 3",
           "effect": "+1 (+1 por acúmulo) carga da habilidade Secundária.",
-          "why": "Mais Projéteis Fásicos em sequência. Use para cancelar a animação final do Fogo de Supressão sem perder dano."
-        },
-        {
-          "icon": "pauls-goat-hoof",
-          "pt": "Casco de Bode de Paul",
-          "en": "Paul's Goat Hoof",
-          "prio": 4,
-          "qty": "1 a 2",
-          "effect": "+14% (+14% por acúmulo) de velocidade de movimento.",
-          "why": "Ajuda a manter distância dos inimigos corpo a corpo enquanto atira."
+          "why": "Mais Explosões Fásicas seguidas para o dano de perto. Uma carga sobra para cancelar a animação final do Fogo de Supressão."
         }
       ]
     },
@@ -175,7 +202,7 @@
           "prio": 1,
           "qty": "4 ou mais (empilhe)",
           "effect": "10% de chance de disparar um míssil que causa 300% (+300% por acúmulo) de dano TOTAL.",
-          "why": "Com 6 tiros por segundo, sai em média um míssil a cada 1,7 s na velocidade base, e mais com Seringas. Vale acumular: cada cópia soma 300% ao dano de cada míssil, e a chance de 10% fica igual."
+          "why": "Com 6 tiros por segundo, sai em média um míssil a cada 1,7 s na velocidade base, e mais com Seringas. Cada cópia soma 300% ao dano de cada míssil. O Camarão de Plasma (Plasma Shrimp) corrompe todos os Mísseis ASM."
         },
         {
           "icon": "ukulele",
@@ -183,26 +210,44 @@
           "en": "Ukulele",
           "prio": 1,
           "qty": "3 a 5",
-          "effect": "25% de chance de disparar um raio em cadeia de 80% de dano TOTAL em até 3 (+2 por acúmulo) alvos a 20 m (+2 m por acúmulo).",
-          "why": "O Tiro Duplo é de alvo único. O Ukulele espalha o dano para o grupo a cada poucos tiros. Vale acumular: cada cópia soma 2 alvos e 2 m de alcance ao raio. O dano por alvo continua 80%."
+          "effect": "25% de chance de disparar um raio em cadeia de 80% de dano TOTAL em até 3 (+2 por acúmulo) alvos a até 20 m (+2 m por acúmulo).",
+          "why": "O Tiro Duplo é de alvo único. O Ukulele espalha o dano para o grupo a cada poucos tiros, e cada cópia soma 2 alvos e 2 m de alcance. A Polialaúde (Polylute) corrompe todos os Ukuleles."
         },
         {
           "icon": "predatory-instincts",
           "pt": "Instintos Predatórios",
           "en": "Predatory Instincts",
-          "prio": 2,
+          "prio": 1,
           "qty": "1 a 2 (com Óculos)",
           "effect": "+5% de chance de crítico. Críticos dão +12% de velocidade de ataque, até 36% (+24% por acúmulo).",
-          "why": "Com tiros rápidos e alguns Óculos, o bônus fica no máximo quase o tempo todo."
+          "why": "Consenso nos guias de crítico. Com tiros rápidos e alguns Óculos, o bônus fica no máximo quase o tempo todo, e mais velocidade é mais rolagem para os outros itens."
         },
         {
           "icon": "harvesters-scythe",
           "pt": "Foice do Ceifador",
           "en": "Harvester's Scythe",
-          "prio": 1,
+          "prio": 2,
           "qty": "1 a 2 (com Óculos)",
           "effect": "+5% de chance de crítico. Críticos curam 8 (+4 por acúmulo) de vida.",
-          "why": "É a cura principal da build. Muitos tiros com chance de crítico viram cura constante."
+          "why": "A cura da build, já que o Comando não tem cura própria. Só rende com crítico: com os Óculos empilhados, vira cura constante."
+        },
+        {
+          "icon": "hopoo-feather",
+          "pt": "Pluma de Hopoo",
+          "en": "Hopoo Feather",
+          "prio": 2,
+          "qty": "1 a 2",
+          "effect": "+1 (+1 por acúmulo) pulo máximo.",
+          "why": "Vários jogadores, de Eclipse e de speedrun, a pegam cedo. O Comando é lento para atravessar os estágios, e um pulo extra ajuda a correr para o teleporte e a fugir de ataques."
+        },
+        {
+          "icon": "will-o-the-wisp",
+          "pt": "Fogo Fátuo",
+          "en": "Will-o'-the-wisp",
+          "prio": 3,
+          "qty": "1 a 2 (cedo)",
+          "effect": "Ao abater um inimigo, cria um pilar de lava num raio de 12 m (+2,4 m por acúmulo) que causa 350% (+280% por acúmulo) do dano base.",
+          "why": "Mesmo papel da Gasolina: dano em área ao abater, que falta ao Comando no início. Perde espaço para Míssil e Ukulele depois."
         },
         {
           "icon": "leeching-seed",
@@ -214,22 +259,22 @@
           "why": "Cura a cada tiro. Boa opção se os Óculos não aparecerem."
         },
         {
-          "icon": "death-mark",
-          "pt": "Marca Fatal",
-          "en": "Death Mark",
-          "prio": 3,
-          "qty": "1",
-          "effect": "Inimigos com 4 ou mais debuffs ficam marcados e recebem 50% a mais de dano de todas as fontes por 7 s (+7 s por acúmulo).",
-          "why": "Sangramento e redução de armadura de itens ao acertar se somam rápido com tiros contínuos. Só vale se você já tiver várias fontes de debuff."
-        },
-        {
           "icon": "kjaros-band",
           "pt": "Cinturão de Kjaro",
           "en": "Kjaro's Band",
           "prio": 4,
-          "qty": "1 (melhor com Granada)",
+          "qty": "1 (só com ativador)",
           "effect": "Golpes que causam mais de 400% de dano também lançam um tornado de chamas rúnico com 300% (+300% por acúmulo) de dano TOTAL ao longo do tempo. Recarrega a cada 10 s.",
-          "why": "O Tiro Duplo nunca passa de 400%. Quem ativa é o Projétil Fásico depois de atravessar um inimigo ou a Granada de Fragmentação no centro, e a wiki considera a Granada melhor para isso."
+          "why": "O Tiro Duplo e a Explosão Fásica nunca passam de 400%. Precisa de um ativador: Granada de Fragmentação no centro ou Projétil Fásico atravessando um inimigo. Jogadores também citam o Capacitor Régio."
+        },
+        {
+          "icon": "death-mark",
+          "pt": "Marca Fatal",
+          "en": "Death Mark",
+          "prio": 4,
+          "qty": "1",
+          "effect": "Inimigos com 4 ou mais debuffs ficam marcados e recebem 50% a mais de dano de todas as fontes por 7 s (+7 s por acúmulo).",
+          "why": "Pouca evidência de que jogadores a escolham no Comando. Só vale se você já tiver várias fontes de debuff, como sangramento e queimadura."
         },
         {
           "icon": "shuriken",
@@ -246,7 +291,7 @@
       "id": "legendary",
       "name": "Lendário",
       "color": "red",
-      "intro": "Os vermelhos ao acertar e de crítico escalam com o volume de tiros do Comando.",
+      "intro": "Nos vermelhos, área e crítico. Vermelhos que não servem viram sucata para mais crítico.",
       "items": [
         {
           "icon": "brilliant-behemoth",
@@ -254,26 +299,8 @@
           "en": "Brilliant Behemoth",
           "prio": 1,
           "qty": "1 a 2",
-          "effect": "Todos os ataques explodem em 4 m (+2,5 m por acúmulo) causando 60% de dano TOTAL extra.",
-          "why": "Transforma o Tiro Duplo, que é de alvo único, em dano em área a cada tiro. O coeficiente 1,0 dá o raio cheio."
-        },
-        {
-          "icon": "sentient-meat-hook",
-          "pt": "Gancho de Carnes Senciente",
-          "en": "Sentient Meat Hook",
-          "prio": 1,
-          "qty": "1 a 2",
-          "effect": "20% (+20% por acúmulo) de chance ao acertar de disparar ganchos teleguiados em até 10 (+5 por acúmulo) inimigos, causando 100% de dano TOTAL.",
-          "why": "Rola em cada um dos 6 tiros por segundo e acerta até 10 inimigos. Limpa o grupo enquanto você foca um alvo."
-        },
-        {
-          "icon": "laser-scope",
-          "pt": "Mira Laser",
-          "en": "Laser Scope",
-          "prio": 2,
-          "qty": "1 (com Óculos)",
-          "effect": "Acertos Críticos causam +100% (+100% por acúmulo) de dano.",
-          "why": "Críticos passam a causar o triplo de dano. Só vale com boa chance de crítico."
+          "effect": "Todos os ataques explodem num raio de 4 m (+2,5 m por acúmulo) causando 60% de dano TOTAL extra.",
+          "why": "O vermelho mais citado para o Comando. Transforma o Tiro Duplo, que é de alvo único, em dano em área a cada tiro, com o raio cheio do coeficiente 1,0."
         },
         {
           "icon": "shattering-justice",
@@ -285,13 +312,31 @@
           "why": "Cinco acertos levam menos de um segundo com o Tiro Duplo. Contra chefes, o efeito fica ativo quase a luta toda."
         },
         {
+          "icon": "laser-scope",
+          "pt": "Mira Laser",
+          "en": "Laser Scope",
+          "prio": 3,
+          "qty": "1 (com Óculos)",
+          "effect": "Acertos Críticos causam +100% (+100% por acúmulo) de dano.",
+          "why": "Com crítico perto de 100%, triplica o dano de quase todo tiro. Poucos guias falam dela no Comando, então fica atrás do Brutamontes."
+        },
+        {
+          "icon": "sentient-meat-hook",
+          "pt": "Gancho de Carnes Senciente",
+          "en": "Sentient Meat Hook",
+          "prio": 3,
+          "qty": "1",
+          "effect": "20% (+20% por acúmulo) de chance ao acertar de disparar ganchos teleguiados em até 10 (+5 por acúmulo) inimigos, causando 100% de dano TOTAL.",
+          "why": "Rola em todo tiro e chama atenção, mas os rankings recentes o colocam abaixo do Brutamontes, e há quem o troque por crítico na sucata."
+        },
+        {
           "icon": "57-leaf-clover",
           "pt": "Trevo 57",
           "en": "57 Leaf Clover",
           "prio": 3,
           "qty": "1",
           "effect": "Todos os efeitos aleatórios são rolados +1 (+1 por acúmulo) vez a seu favor.",
-          "why": "Melhora todos os itens de chance da build: Míssil, Ukulele, Adaga, Gancho e crítico."
+          "why": "Melhora todos os itens de chance da build: Míssil, Ukulele, Adaga e crítico."
         },
         {
           "icon": "symbiotic-scorpion",
@@ -309,7 +354,7 @@
           "prio": 4,
           "qty": "1",
           "effect": "Reduz o tempo de recarga das habilidades em 25% (+25% por acúmulo).",
-          "why": "O dano do Comando vem do Tiro Duplo, que não tem recarga. Só encurta o Projétil Fásico, o Deslize e o Fogo de Supressão."
+          "why": "O dano do Comando vem do Tiro Duplo, que não tem recarga. Só encurta a Explosão Fásica, o Deslize e o Fogo de Supressão."
         }
       ]
     },
@@ -317,8 +362,17 @@
       "id": "boss",
       "name": "Chefe",
       "color": "yellow",
-      "intro": "Itens de chefe só caem de chefes de teleporte.",
+      "intro": "Itens de chefe só caem de chefes de teleporte, e o Baço Desfigurado é o que mais importa aqui.",
       "items": [
+        {
+          "icon": "shatterspleen",
+          "pt": "Baço Desfigurado",
+          "en": "Shatterspleen",
+          "prio": 1,
+          "qty": "1",
+          "effect": "+5% de chance de crítico. Críticos fazem o inimigo sangrar por 240% do dano base. Inimigos sangrando explodem ao morrer, causando 400% (+400% por acúmulo) de dano mais 15% (+15% por acúmulo) da vida máxima deles.",
+          "why": "A maioria dos guias e rankings o põe no topo para o Comando. Com crítico alto, quase todo inimigo sangra e explode ao morrer, e as explosões limpam o grupo em volta."
+        },
         {
           "icon": "charged-perforator",
           "pt": "Perfurador Carregado",
@@ -329,13 +383,13 @@
           "why": "Mais um efeito de chance para o Tiro Duplo rolar várias vezes por segundo."
         },
         {
-          "icon": "shatterspleen",
-          "pt": "Baço Desfigurado",
-          "en": "Shatterspleen",
+          "icon": "molten-perforator",
+          "pt": "Perfurador Fundido",
+          "en": "Molten Perforator",
           "prio": 3,
           "qty": "1",
-          "effect": "+5% de chance de crítico. Críticos fazem o inimigo sangrar por 240% do dano base. Inimigos sangrando explodem ao morrer, causando 400% (+400% por acúmulo) de dano mais 15% (+15% por acúmulo) da vida máxima deles.",
-          "why": "Com crítico alto, quase todo inimigo sangra e explode ao morrer, limpando o grupo em volta."
+          "effect": "10% de chance ao acertar de lançar 3 bolas de magma a partir de um inimigo, cada uma causando 300% (+300% por acúmulo) de dano.",
+          "why": "Alguns guias o citam pelo mesmo motivo do Perfurador Carregado: rola em todo tiro do Tiro Duplo."
         }
       ]
     },
@@ -343,34 +397,61 @@
       "id": "equipment",
       "name": "Equipamentos",
       "color": "orange",
-      "intro": "O Comando não tem dano em área próprio. O equipamento cobre esse buraco ou acelera os tiros.",
+      "intro": "Nenhum equipamento é obrigatório: o Capacitor Régio dá dano e ativa Cinturões, e no Eclipse muitos levam um que pule os pilares.",
       "items": [
-        {
-          "icon": "gorags-opus",
-          "pt": "Opus de Gorag",
-          "en": "Gorag's Opus",
-          "prio": 1,
-          "qty": "1 (recarga 45 s)",
-          "effect": "Todos os aliados entram em frenesi por 7 s: +50% de movimento e +100% de velocidade de ataque.",
-          "why": "Dobra a velocidade de ataque: o Tiro Duplo e o Fogo de Supressão disparam o dobro e ativam o dobro de itens."
-        },
         {
           "icon": "royal-capacitor",
           "pt": "Capacitor Régio",
           "en": "Royal Capacitor",
           "prio": 2,
           "qty": "1 (recarga 20 s)",
-          "effect": "Raio em um monstro marcado causando 3000% de dano e atordoando os monstros próximos.",
-          "why": "Recarga curta e muito dano num alvo só. Bom para derrubar elites."
+          "effect": "Raio em um monstro marcado causando 3.000% de dano e atordoando os monstros próximos.",
+          "why": "Recarga curta e muito dano num alvo só, bom para derrubar elites. Jogadores o usam como ativador dos Cinturões, que o kit do Comando não ativa sem Granada ou Projétil Fásico."
+        },
+        {
+          "icon": "gorags-opus",
+          "pt": "Opus de Gorag",
+          "en": "Gorag's Opus",
+          "prio": 3,
+          "qty": "1 (recarga 45 s)",
+          "effect": "Todos os aliados entram em frenesi por 7 s: +50% de movimento e +100% de velocidade de ataque.",
+          "why": "Dobra a velocidade de ataque por 7 s, e com ela os tiros e as ativações. Boa, mas os jogadores não a tratam como obrigatória."
+        },
+        {
+          "icon": "eccentric-vase",
+          "pt": "Jarro Excêntrico",
+          "en": "Eccentric Vase",
+          "prio": 3,
+          "qty": "1 (Eclipse, antes da Lua)",
+          "effect": "Cria um túnel quântico de até 1.000 m de comprimento. Dura 30 s.",
+          "why": "Jogadores de Eclipse trocam de equipamento antes do último estágio para pular os pilares e ir direto ao Mithrix. Menos tempo na Lua é menos dano acumulado no Eclipse 8."
+        },
+        {
+          "icon": "milky-chrysalis",
+          "pt": "Crisálida Láctea",
+          "en": "Milky Chrysalis",
+          "prio": 4,
+          "qty": "1 (Eclipse, antes da Lua)",
+          "effect": "Cria asas e voa por 15 s. +20% de velocidade de movimento durante o efeito.",
+          "why": "Outra opção dos jogadores de Eclipse para pular os pilares. O voo também ajuda a atravessar estágios grandes."
+        },
+        {
+          "icon": "volcanic-egg",
+          "pt": "Ovo Vulcânico",
+          "en": "Volcanic Egg",
+          "prio": 4,
+          "qty": "1 (Eclipse, antes da Lua)",
+          "effect": "Vira uma bola de fogo dracônica por 5 s. Causa 500% de dano ao impacto e explode no fim causando 800% de dano.",
+          "why": "Também citado para pular os pilares. Dura menos que a Crisálida, então exige mais cuidado no trajeto."
         },
         {
           "icon": "primordial-cube",
           "pt": "Cubo Primordial",
           "en": "Primordial Cube",
-          "prio": 2,
+          "prio": 3,
           "qty": "1 (recarga 60 s)",
           "effect": "Buraco negro que puxa inimigos a até 30 m para o centro por 10 s.",
-          "why": "Junta o grupo para o Brutamontes, o Ukulele e o Projétil Fásico atravessarem todo mundo."
+          "why": "Junta o grupo para o Brutamontes, o Ukulele e a Explosão Fásica de perto."
         },
         {
           "icon": "ocular-hud",
@@ -379,16 +460,16 @@
           "prio": 3,
           "qty": "1 (recarga 60 s)",
           "effect": "+100% de chance de Acerto Crítico por 8 s.",
-          "why": "Oito segundos de crítico garantido em todos os tiros, ótimo com Foice e Mira Laser."
+          "why": "Oito segundos de crítico garantido em todos os tiros. Ajuda enquanto os Óculos ainda são poucos."
         },
         {
           "icon": "preon-accumulator",
           "pt": "Acumulador de Préon",
           "en": "Preon Accumulator",
-          "prio": 3,
+          "prio": 4,
           "qty": "1 (recarga 140 s)",
-          "effect": "Dispara tentáculos de préon que atingem inimigos a até 35 m com até 600% de dano por segundo. Ao contato, explode numa área de 20 m causando 4000% de dano.",
-          "why": "Dano em área enorme para abrir lutas de chefe. Recarga longa."
+          "effect": "Dispara tentáculos de préon que atingem inimigos a até 35 m com até 600% de dano por segundo. Ao contato, explode numa área de 20 m causando 4.000% de dano.",
+          "why": "Dano em área enorme para abrir lutas de chefe. Um guia de Eclipse o sugere para quem quer ativar os Cinturões. Recarga longa."
         }
       ]
     },
@@ -398,6 +479,15 @@
       "color": "blue",
       "intro": "Itens lunares têm custo embutido. Dois deles estragam a primária do Comando.",
       "items": [
+        {
+          "icon": "transcendence",
+          "pt": "Transcendência",
+          "en": "Transcendence",
+          "prio": 3,
+          "qty": "1 (Eclipse)",
+          "effect": "Converte toda a vida, menos 1, em escudo que regenera. +50% (+25% por acúmulo) de vida máxima.",
+          "why": "Jogadores de Eclipse a pegam no Eclipse 3 e no 5, quando a Foice já não dá conta. Com a vida quase toda em escudo, a Foice e a Semente Sanguessuga quase não curam mais."
+        },
         {
           "icon": "shaped-glass",
           "pt": "Vidro Configurado",
@@ -414,7 +504,7 @@
           "prio": 4,
           "qty": "0 a 1",
           "effect": "Reduz todas as recargas de habilidade em 2 s (+1 s por acúmulo). Todos os efeitos aleatórios são rolados +1 (+1 por acúmulo) vez contra você.",
-          "why": "As recargas do Comando já são curtas, e o custo piora todos os itens de chance que são a base da build. Quase nunca compensa."
+          "why": "As recargas do Comando já são curtas, e o custo piora o crítico e todos os itens de chance da build. Quase nunca compensa."
         },
         {
           "icon": "light-flux-pauldron",
@@ -440,7 +530,7 @@
       "id": "void",
       "name": "Vazio",
       "color": "purple",
-      "intro": "Itens do Vazio (DLC Survivors of the Void) corrompem itens comuns. Vários deles corrompem peças centrais desta build.",
+      "intro": "Itens do Vazio (DLC Survivors of the Void) corrompem itens comuns, e vários corrompem peças do núcleo desta build.",
       "items": [
         {
           "icon": "lysate-cell",
@@ -449,34 +539,43 @@
           "prio": 2,
           "qty": "1",
           "effect": "+1 (+1 por acúmulo) carga da habilidade Especial e −33% no tempo de recarga dela. Corrompe todas as Células de Combustível.",
-          "why": "Dois Fogos de Supressão seguidos para atordoar e ativar itens, ou uma terceira carga de Granada se usar a variante."
-        },
-        {
-          "icon": "needletick",
-          "pt": "Agulhão",
-          "en": "Needletick",
-          "prio": 3,
-          "qty": "1 a 2",
-          "effect": "10% (+10% por acúmulo) de chance de colapsar um inimigo por 400% do dano base. Corrompe todas as Adagas Triangulares.",
-          "why": "Funciona bem com tiros rápidos. Corrompe as Adagas Triangulares que esta build recomenda; pegue só se aceitar a troca."
+          "why": "Dois Fogos de Supressão seguidos para atordoar e ativar itens, ou uma terceira carga de Granada na variante. Não corrompe nada desta build."
         },
         {
           "icon": "polylute",
           "pt": "Polialaúde",
           "en": "Polylute",
-          "prio": 3,
-          "qty": "1",
+          "prio": 4,
+          "qty": "1 (troca pelos Ukuleles)",
           "effect": "25% de chance de disparar um raio de 60% de dano TOTAL até 3 (+3 por acúmulo) vezes. Corrompe todos os Ukuleles.",
-          "why": "Mais forte contra um alvo, mais fraco contra grupos. Corrompe os Ukuleles, que são o dano em grupo da build."
+          "why": "Corrompe todos os Ukuleles. Um ranking recente de itens do Vazio sempre faz essa troca: o raio bate várias vezes no mesmo alvo, mais forte contra chefes e mais fraco contra grupos."
+        },
+        {
+          "icon": "needletick",
+          "pt": "Agulhão",
+          "en": "Needletick",
+          "prio": 4,
+          "qty": "1 a 2 (troca pelas Adagas)",
+          "effect": "10% (+10% por acúmulo) de chance de colapsar um inimigo por 400% do dano base. Corrompe todas as Adagas Triangulares.",
+          "why": "Corrompe todas as Adagas Triangulares, que estão no núcleo. Funciona bem com tiros rápidos, mas sem sangramento das Adagas o Baço Desfigurado depende só dos críticos."
+        },
+        {
+          "icon": "plasma-shrimp",
+          "pt": "Camarão de Plasma",
+          "en": "Plasma Shrimp",
+          "prio": 4,
+          "qty": "1 (troca pelos Mísseis)",
+          "effect": "Ganha um escudo igual a 10% da vida máxima. Enquanto tiver escudo, acertar um inimigo dispara um míssil que causa 40% (+40% por acúmulo) de dano TOTAL. Corrompe todos os Mísseis ASM Mk. 1.",
+          "why": "Corrompe todos os Mísseis ASM, que estão no núcleo. Um ranking de itens do Vazio cita o Comando como bom usuário porque ele acerta muitas vezes por segundo. Só troque se tiver poucos Mísseis."
         },
         {
           "icon": "singularity-band",
           "pt": "Faixa da Singularidade",
           "en": "Singularity Band",
-          "prio": 4,
-          "qty": "1 (com Granada)",
+          "prio": 0,
+          "qty": "0 (só em multijogador)",
           "effect": "Golpes que causam mais de 400% de dano também disparam um buraco negro que puxa inimigos a até 15 m para o centro. Dura 5 s e depois colapsa, causando 100% (+100% por acúmulo) de dano TOTAL. Recarrega a cada 20 s. Corrompe todos os Cinturões de Runald e Kjaro.",
-          "why": "Ativado pela Granada de Fragmentação ou pelo Projétil Fásico perfurando. Junta o grupo para o Brutamontes. Corrompe todos os Cinturões de Kjaro: você troca o tornado de 300% a cada 10 s por um buraco negro de 100% a cada 20 s."
+          "why": "Corrompe todos os Cinturões de Kjaro e Runald, e um ranking recente de itens do Vazio a coloca como a pior. Só em multijogador, para juntar inimigos para o grupo."
         },
         {
           "icon": "lost-seers-lenses",
@@ -485,7 +584,7 @@
           "prio": 0,
           "qty": "0",
           "effect": "0,5% (+0,5% por acúmulo) de chance de matar instantaneamente um inimigo que não seja chefe. Corrompe todos os Óculos do Fabricante de Lentes.",
-          "why": "Corrompe todos os Óculos do Fabricante de Lentes, que esta build empilha. Você troca 10% de crítico por acúmulo por 0,5% de chance de abate e perde o crítico que alimenta Foice, Instintos e Mira Laser."
+          "why": "Corrompe todos os Óculos do Fabricante de Lentes, que esta build empilha. Você troca 10% de crítico por acúmulo por 0,5% de chance de abate e perde o crítico que alimenta Baço, Instintos e Foice."
         }
       ]
     }
@@ -493,45 +592,49 @@
   "synergy": [
     {
       "title": "Coeficiente 1,0 em 6 tiros por segundo",
-      "text": "Itens ao acertar rolam a chance a cada golpe, multiplicada pelo coeficiente da habilidade. O Tiro Duplo tem coeficiente 1,0 e dispara 6 vezes por segundo, por isso a wiki o coloca entre as primárias com maior potencial de ativação. Míssil, Ukulele, Gancho e Adaga rendem mais aqui do que em habilidades lentas."
+      "text": "Itens ao acertar rolam a chance a cada golpe, multiplicada pelo coeficiente da habilidade. O Tiro Duplo tem coeficiente 1,0 e dispara 6 vezes por segundo. Míssil, Ukulele e Adaga rendem mais aqui do que em habilidades lentas."
+    },
+    {
+      "title": "Crítico perto de 100%",
+      "text": "Óculos, Instintos Predatórios, Foice e Baço Desfigurado somam crítico. Perto de 100%, os Instintos ficam no máximo de velocidade, a Foice cura em quase todo tiro e o Baço faz quase todo inimigo sangrar."
+    },
+    {
+      "title": "Baço e sangramento",
+      "text": "Inimigos sangrando explodem ao morrer com o Baço Desfigurado. Críticos e Adagas Triangulares aplicam o sangramento, e o Brutamontes espalha cada tiro em área. É assim que o Comando limpa grupos."
     },
     {
       "title": "Velocidade de ataque em dobro",
-      "text": "A Seringa acelera o Tiro Duplo e também aumenta o número de disparos do Fogo de Supressão, que é 6 × velocidade de ataque. Opus de Gorag e Instintos Predatórios entram no mesmo cálculo. O limite é 900% de velocidade de ataque."
-    },
-    {
-      "title": "Crítico e cura",
-      "text": "O Comando não tem cura própria. A Foice do Ceifador cura a cada crítico, e com tiros rápidos isso vira cura constante. Óculos e Instintos aumentam a chance, e a Mira Laser triplica o dano dos críticos."
-    },
-    {
-      "title": "Cinturões e golpes acima de 400%",
-      "text": "O Tiro Duplo nunca passa de 400% por tiro e não ativa os Cinturões. O Projétil Fásico só ativa depois de atravessar um inimigo. A Granada de Fragmentação ativa com acertos no centro, por isso a wiki a prefere para os Cinturões."
+      "text": "A Seringa acelera o Tiro Duplo e também aumenta o número de disparos do Fogo de Supressão, que é 6 × velocidade de ataque. Instintos Predatórios e Opus de Gorag entram no mesmo cálculo. O limite é 900%."
     },
     {
       "title": "Cancelar o Fogo de Supressão",
-      "text": "O Fogo de Supressão termina com uma animação que impede o Tiro Duplo. O Projétil Fásico ou a Explosão Fásica cancelam essa animação. Emende com a Secundária para não ficar parado."
+      "text": "O Fogo de Supressão termina com uma animação que impede o Tiro Duplo. A Explosão Fásica ou o Projétil Fásico cancelam essa animação. Emende com a Secundária para não ficar parado."
     }
   ],
   "rotation": [
     {
-      "step": "Tiro Duplo no alvo principal",
-      "text": "Mantenha o fogo contínuo; é ele que ativa os itens."
+      "step": "Tiro Duplo de perto",
+      "text": "Mantenha o fogo contínuo e fique perto: o tiro perde dano com a distância."
     },
     {
-      "step": "Projétil Fásico na fila",
-      "text": "Mire para atravessar vários inimigos, já que cada um soma 40% ao dano."
+      "step": "Explosão Fásica no alvo perigoso",
+      "text": "Encoste e descarregue as duas rajadas em elites e Golems."
     },
     {
       "step": "Fogo de Supressão no perigo",
       "text": "Atordoa e interrompe o ataque de quem está prestes a acertar você."
     },
     {
-      "step": "Projétil Fásico para cancelar",
+      "step": "Secundária para cancelar",
       "text": "Encerra a animação final do Fogo de Supressão e volta ao Tiro Duplo."
     },
     {
       "step": "Deslize atirando",
-      "text": "Esquive dos ataques sem parar de atirar."
+      "text": "Esquive sem parar de atirar."
+    },
+    {
+      "step": "Siga em frente",
+      "text": "No Eclipse, passe rápido pelos estágios 1 a 3 e não faça loop."
     }
   ],
   "essentials": [
@@ -544,6 +647,10 @@
       "en": "Lens-Maker's Glasses"
     },
     {
+      "pt": "Adaga Triangular",
+      "en": "Tri-Tip Dagger"
+    },
+    {
       "pt": "Míssil ASM Mk. 1",
       "en": "AtG Missile Mk. 1"
     },
@@ -552,19 +659,19 @@
       "en": "Ukulele"
     },
     {
-      "pt": "Foice do Ceifador",
-      "en": "Harvester's Scythe"
+      "pt": "Instintos Predatórios",
+      "en": "Predatory Instincts"
     },
     {
       "pt": "Brutamontes Reluzente",
       "en": "Brilliant Behemoth"
     },
     {
-      "pt": "Gancho de Carnes Senciente",
-      "en": "Sentient Meat Hook"
+      "pt": "Baço Desfigurado",
+      "en": "Shatterspleen"
     }
   ],
-  "situational_note": "Situacionais: Cinturão de Kjaro e Faixa da Singularidade (com Granada), Marca Fatal, Shuriken, Célula Lisada, Vidro Configurado e os itens do Vazio que corrompem peças da build.",
+  "situational_note": "Situacionais: Cinturão de Kjaro (com Granada, Projétil Fásico ou Capacitor Régio), Marca Fatal, Shuriken, equipamentos para pular os pilares no Eclipse, Vidro Configurado e as trocas do Vazio que corrompem peças do núcleo.",
   "fallbacks": [
     {
       "pt": "Seringa Militar",
@@ -574,66 +681,135 @@
     {
       "pt": "Óculos do Fabricante de Lentes",
       "en": "Lens-Maker's Glasses",
-      "text": "Semente Sanguessuga para cura e Adaga Triangular para dano. Visor Ocular cobre as lutas de chefe."
+      "text": "Junte o crítico de Instintos, Foice e Baço, e use o Visor Ocular nas lutas de chefe. Sem crítico, Semente Sanguessuga para cura."
+    },
+    {
+      "pt": "Adaga Triangular",
+      "en": "Tri-Tip Dagger",
+      "text": "O Baço Desfigurado aplica sangramento com críticos. Sem os dois, mais Mísseis ASM e Justiça Destruidora para chefes."
     },
     {
       "pt": "Míssil ASM Mk. 1",
       "en": "AtG Missile Mk. 1",
-      "text": "Bomba Aderente e Perfurador Carregado, que também rolam a cada tiro."
+      "text": "Perfurador Carregado e Bomba Aderente, que também rolam a cada tiro."
     },
     {
       "pt": "Ukulele",
       "en": "Ukulele",
-      "text": "Brutamontes ou Gancho para dano em grupo. Sem nenhum, use o Projétil Fásico em inimigos enfileirados."
+      "text": "Brutamontes para dano em grupo e Gasolina ou Fogo Fátuo no início. Sem nenhum, a Granada de Fragmentação dá a área."
     },
     {
-      "pt": "Foice do Ceifador",
-      "en": "Harvester's Scythe",
-      "text": "Semente Sanguessuga, que cura a cada tiro sem precisar de crítico."
+      "pt": "Instintos Predatórios",
+      "en": "Predatory Instincts",
+      "text": "Mais Seringas Militares e Óculos. O Opus de Gorag cobre picos de velocidade."
     },
     {
       "pt": "Brutamontes Reluzente",
       "en": "Brilliant Behemoth",
-      "text": "Gancho de Carnes Senciente e Ukulele. Cubo Primordial para juntar grupos."
+      "text": "Ukulele e Baço Desfigurado para o grupo. Justiça Destruidora ou Mira Laser se o vermelho for outro."
     },
     {
-      "pt": "Gancho de Carnes Senciente",
-      "en": "Sentient Meat Hook",
-      "text": "Justiça Destruidora para dano em chefes e mais Mísseis ASM."
+      "pt": "Baço Desfigurado",
+      "en": "Shatterspleen",
+      "text": "Item de chefe não é garantido. Perfurador Carregado é a melhor segunda opção amarela; Adagas Triangulares mantêm o sangramento."
     }
   ],
-  "summary": "Tiro Duplo, Projétil Fásico, Deslize Tático e Fogo de Supressão. A build vive de tiros rápidos com coeficiente 1,0 que ativam itens ao acertar o tempo todo. Empilhe Seringa e Óculos, depois acumule Míssil ASM e Ukulele, com uma Foice para a cura; nos vermelhos, Brutamontes e Gancho. Fique a média distância, atire sem parar e use o Fogo de Supressão para atordoar o que chegar perto.",
+  "summary": "Tiro Duplo, Explosão Fásica, Deslize Tático e Fogo de Supressão. A build vive de tiros rápidos com coeficiente 1,0 e crítico perto de 100%. Empilhe Seringa e Óculos, Adagas no começo, depois acumule Míssil ASM e Ukulele com um Instintos Predatórios; nos vermelhos, Brutamontes, e do chefe, o Baço Desfigurado. Fique perto, atire sem parar, atordoe o que ameaçar você e não perca tempo nos estágios.",
   "checklist": [
     {
       "title": "Sempre pegue",
-      "text": "Seringa Militar, Óculos, Míssil ASM, Ukulele, Foice do Ceifador, Brutamontes, Gancho."
+      "text": "Seringa, Óculos, Adaga, Míssil ASM, Ukulele, Instintos, Brutamontes, Baço."
     },
     {
       "title": "Impressoras brancas",
-      "text": "Seringa Militar até umas 6, depois Óculos até uns 50% de crítico somado."
+      "text": "Seringa até umas 6, depois Óculos até perto de 100% de crítico somado."
     },
     {
-      "title": "Primeiro verde",
-      "text": "Míssil ASM. Depois uma Foice do Ceifador e continue acumulando Míssil e Ukulele."
+      "title": "Início da run",
+      "text": "Gasolina ou Fogo Fátuo cedo para ter dano em área; Pluma de Hopoo se aparecer."
     },
     {
-      "title": "Equipamento",
-      "text": "Opus de Gorag para dobrar os tiros; Capacitor Régio para elites."
+      "title": "Fique perto",
+      "text": "O Tiro Duplo perde dano de longe. A Explosão Fásica só funciona colado."
     },
     {
       "title": "Antes de pegar Vazio",
-      "text": "Lentes do Profeta corrompe os Óculos, Polialaúde os Ukuleles, Agulhão as Adagas Triangulares, Faixa da Singularidade os Cinturões de Kjaro."
+      "text": "Polialaúde corrompe os Ukuleles, Agulhão as Adagas, Camarão de Plasma os Mísseis, Lentes do Profeta os Óculos."
     },
     {
       "title": "Não pegue",
-      "text": "Ombreira do Fluxo Iluminado e Visões Profanas: os dois estragam o Tiro Duplo."
+      "text": "Ombreira do Fluxo Iluminado e Visões Profanas. Faixa da Singularidade só em multijogador."
     },
     {
-      "title": "Luta de chefe",
-      "text": "Equipamento, Tiro Duplo sem parar, Projétil Fásico na recarga, Fogo de Supressão quando ele for atacar."
+      "title": "Sucata",
+      "text": "Vermelhos que não servem viram sucata para Óculos e Seringas."
+    },
+    {
+      "title": "Eclipse",
+      "text": "Não faça loop. Transcendência a partir do E3, e um equipamento para pular os pilares antes da Lua."
     }
   ],
   "sources": [
+    {
+      "title": "Eclipse Guide [Updated for SotS DLC], Cecil188 (Steam)",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2590199556",
+      "kind": "guide",
+      "date": "2025-06-08"
+    },
+    {
+      "title": "rndThursday: Best Loadouts for Every Survivor",
+      "url": "https://www.youtube.com/watch?v=c7yq7nPgKXA",
+      "kind": "video",
+      "date": "2024-12-09"
+    },
+    {
+      "title": "rndThursday: Commando Guide",
+      "url": "https://www.youtube.com/watch?v=7HAB3ItLj4w",
+      "kind": "video",
+      "date": "2020-10-16"
+    },
+    {
+      "title": "Woolie: How to improve at Eclipse (Commando E8)",
+      "url": "https://www.youtube.com/watch?v=nZ9MFslSjGg",
+      "kind": "video",
+      "date": "2020-12-22"
+    },
+    {
+      "title": "QuattroTheHuman: How To Play Commando",
+      "url": "https://www.youtube.com/watch?v=hDioMHRRDBI",
+      "kind": "video",
+      "date": "2024-05-31"
+    },
+    {
+      "title": "Deltsong: The Rare 101% Crit Run, E8 Commando",
+      "url": "https://www.youtube.com/watch?v=auhoQyirpkE",
+      "kind": "video",
+      "date": "2025-09-05"
+    },
+    {
+      "title": "Sogudu: The Commando World Record is Crazy",
+      "url": "https://www.youtube.com/watch?v=l24XnLc1Y4E",
+      "kind": "video",
+      "date": "2025-08-15"
+    },
+    {
+      "title": "EchoTM: Ranking Every Void Item (2026)",
+      "url": "https://www.youtube.com/watch?v=EUxt9IVzemE",
+      "kind": "video",
+      "date": "2026-09-17"
+    },
+    {
+      "title": "Rybread Gaming: Ranking All Items, Base Game",
+      "url": "https://www.youtube.com/watch?v=0KCBexOwzlg",
+      "kind": "video",
+      "date": "2025-11-15"
+    },
+    {
+      "title": "A character building guide as told by an idiot (Steam)",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2643452112",
+      "kind": "guide",
+      "date": "2024-03"
+    },
     {
       "title": "Commando · Risk of Rain 2 Wiki",
       "url": "https://riskofrain2.wiki.gg/wiki/Commando",
@@ -645,11 +821,20 @@
       "kind": "wiki"
     }
   ],
+  "reviewed": "2026-10-13",
   "notes": [
-    "Deslize Tático, Explosão Fásica e Granada de Fragmentação precisam ser desbloqueados pelos desafios Commando: Godspeed, Rolling Thunder e Incorruptible. Sem o Deslize, use a Esquiva Tática."
+    "Sabotagem (Sabotage), nova Especial do Hallowed Concepts (desafio Commando: Retribution): nova, ainda sem avaliação dos jogadores. Pela wiki, lança 3 explosivos de 400% cada, raio de 8,25 m, recarga 7 s, coeficiente 1,0.",
+    "O Hallowed Concepts corrigiu um bug que limitava a velocidade de ataque do Tiro Duplo abaixo do previsto (histórico de versões da wiki). O limite atual é 900%.",
+    "Especial dividida: a maioria fica com o Fogo de Supressão; parte dos jogadores prefere a Granada de Fragmentação no Eclipse 8 e em runs com Cinturões. O autor do guia de Eclipse usado aqui nunca testou a Granada.",
+    "Que o Capacitor Régio e o Acumulador de Préon ativem os Cinturões vem de guias de jogadores; a wiki do Comando não confirma.",
+    "Pular os pilares da Lua com Jarro Excêntrico, Crisálida Láctea ou Ovo Vulcânico é tática de jogadores de Eclipse, não descrita na wiki do Comando.",
+    "Granada de Atordoamento (Stun Grenade) e Bumerangue Elétrico (Electric Boomerang) aparecem em duas fontes cada, uma delas fraca. Ficaram de fora.",
+    "Textos oficiais em pt-BR divergem da wiki: Brutamontes Reluzente diz +1,5 m por acúmulo (wiki: +2,5 m) e Camarão de Plasma diz +50% por acúmulo (wiki: +40%). Usamos a wiki.",
+    "Deslize Tático, Explosão Fásica e Granada de Fragmentação precisam ser desbloqueados pelos desafios Commando: Godspeed, Rolling Thunder e Incorruptible. Sem o Deslize, use a Esquiva Tática. Sem a Explosão Fásica, use o Projétil Fásico.",
+    "Reddit não estava acessível durante a pesquisa."
   ],
   "command": {
-    "intro": "Com a Autoridade, comece pelo motor: Seringas e Óculos nos brancos, Míssil e Ukulele nos verdes. Cada tiro do Tiro Duplo rola os itens ao acertar com coeficiente 1,0, então velocidade de ataque e itens de chance rendem desde o primeiro estágio.",
+    "intro": "Com a Autoridade, comece pelo motor: Seringas, Óculos e Adagas nos brancos, Míssil e Ukulele nos verdes. Cada tiro do Tiro Duplo rola os itens ao acertar com coeficiente 1,0, então velocidade de ataque e crítico rendem desde o primeiro estágio.",
     "tiers": [
       {
         "tier": "common",
@@ -662,12 +847,12 @@
           {
             "en": "Lens-Maker's Glasses",
             "n": 3,
-            "why": "Crítico para o dano constante e para a Foice que vem nos verdes."
+            "why": "Crítico para o dano constante e para os Instintos que vêm nos verdes."
           },
           {
-            "en": "Tougher Times",
-            "n": 2,
-            "why": "O Comando tem 110 de vida e nenhuma armadura: cada bloqueio é um golpe evitado."
+            "en": "Gasoline",
+            "n": 1,
+            "why": "Dano em área ao abater, que o Comando não tem no início."
           },
           {
             "en": "Tri-Tip Dagger",
@@ -675,19 +860,19 @@
             "why": "Rola a cada tiro com coeficiente cheio e deixa o alvo sangrando."
           },
           {
+            "en": "Tougher Times",
+            "n": 2,
+            "why": "O Comando tem 110 de vida e nenhuma armadura: cada bloqueio é um golpe evitado."
+          },
+          {
             "en": "Soldier's Syringe",
             "n": 2,
-            "why": "Quatro Seringas: o mínimo da build e mais rolagens por segundo."
+            "why": "Quatro Seringas: o mínimo da build."
           },
           {
             "en": "Lens-Maker's Glasses",
             "n": 2,
-            "why": "Cinco Óculos deixam a Foice e os Instintos ativando quase sempre."
-          },
-          {
-            "en": "Armor-Piercing Rounds",
-            "n": 2,
-            "why": "Mais dano direto do Tiro Duplo nas lutas de teleporte."
+            "why": "Cinco Óculos: os Instintos ativam quase sempre."
           },
           {
             "en": "Tri-Tip Dagger",
@@ -701,11 +886,11 @@
           },
           {
             "en": "Lens-Maker's Glasses",
-            "n": 1,
-            "why": "Sexto Óculos, o limite da build."
+            "n": 4,
+            "why": "Nove Óculos com Instintos e Foice chegam a 100% de crítico."
           }
         ],
-        "then": "Depois: Seringa até 8, Pente Reserva para emendar Projéteis Fásicos após o Fogo de Supressão e Tempos Difíceis até 4. Bomba Aderente só se os outros já estiverem no limite."
+        "then": "Depois: Seringa até 8, Casco de Bode de Paul para atravessar os estágios, Pente Reserva para mais Explosões Fásicas e Tempos Difíceis até 4. No Eclipse, Placa da Armadura de Repulsão."
       },
       {
         "tier": "uncommon",
@@ -716,14 +901,14 @@
             "why": "Com 6 tiros por segundo, o míssil sai a todo momento desde o primeiro: 300% por disparo."
           },
           {
-            "en": "Harvester's Scythe",
+            "en": "Predatory Instincts",
             "n": 1,
-            "why": "A cura da build: o Comando não tem cura própria. Uma basta; as outras só somam 4 de cura."
+            "why": "Com os Óculos, o bônus de velocidade fica no máximo quase o tempo todo."
           },
           {
-            "en": "AtG Missile Mk. 1",
+            "en": "Harvester's Scythe",
             "n": 1,
-            "why": "Segundo Míssil: 600% por disparo."
+            "why": "A cura da build: o Comando não tem cura própria. Uma basta."
           },
           {
             "en": "Ukulele",
@@ -731,14 +916,14 @@
             "why": "Espalha o dano do Tiro Duplo, que é de alvo único, para até 3 inimigos."
           },
           {
-            "en": "Predatory Instincts",
-            "n": 1,
-            "why": "Com os Óculos, o bônus de velocidade fica no máximo quase o tempo todo. Uma basta."
-          },
-          {
             "en": "AtG Missile Mk. 1",
             "n": 2,
-            "why": "Quatro Mísseis: 1200% por disparo."
+            "why": "Três Mísseis: 900% por disparo."
+          },
+          {
+            "en": "Hopoo Feather",
+            "n": 1,
+            "why": "Um pulo extra para atravessar os estágios mais rápido."
           },
           {
             "en": "Ukulele",
@@ -748,7 +933,7 @@
           {
             "en": "AtG Missile Mk. 1",
             "n": 2,
-            "why": "Seis Mísseis: 1800% por disparo."
+            "why": "Cinco Mísseis: 1.500% por disparo."
           },
           {
             "en": "Ukulele",
@@ -756,7 +941,7 @@
             "why": "Quarto Ukulele: até 9 inimigos a até 26 m."
           }
         ],
-        "then": "Depois: continue acumulando Míssil ASM, que soma 300% por cópia. Quinto Ukulele para grupos grandes. Segunda Foice ou Semente Sanguessuga só se a cura faltar. Na variante com Granada de Fragmentação, um Cinturão de Kjaro."
+        "then": "Depois: continue acumulando Míssil ASM, que soma 300% por cópia. Quinto Ukulele para grupos grandes. Segundo Instintos se o crítico já estiver alto. Na variante com Granada de Fragmentação ou Projétil Fásico, um Cinturão de Kjaro."
       },
       {
         "tier": "legendary",
@@ -767,14 +952,9 @@
             "why": "Cada tiro vira dano em área, com o raio cheio do coeficiente 1,0."
           },
           {
-            "en": "Sentient Meat Hook",
+            "en": "Shattering Justice",
             "n": 1,
-            "why": "Rola em cada tiro e acerta até 10 inimigos."
-          },
-          {
-            "en": "Laser Scope",
-            "n": 1,
-            "why": "Com os Óculos, os críticos passam a causar o triplo de dano."
+            "why": "Cinco tiros já tiram 60 de armadura do chefe."
           },
           {
             "en": "Brilliant Behemoth",
@@ -782,65 +962,70 @@
             "why": "O segundo aumenta o raio das explosões."
           },
           {
-            "en": "Sentient Meat Hook",
+            "en": "Laser Scope",
             "n": 1,
-            "why": "Mais chance e mais alvos para o Gancho."
+            "why": "Com crítico perto de 100%, triplica o dano de quase todo tiro."
           }
         ],
-        "then": "Depois: Justiça Destruidora para chefes, Trevo 57 e Escorpião Simbiótico. A Cabeça Alienígena rende pouco: o Tiro Duplo não tem recarga."
+        "then": "Depois: Trevo 57, Escorpião Simbiótico ou Gancho de Carnes Senciente. A Cabeça Alienígena rende pouco: o Tiro Duplo não tem recarga."
       },
       {
         "tier": "boss",
         "steps": [
+          {
+            "en": "Shatterspleen",
+            "n": 1,
+            "why": "Com crítico alto, quase todo inimigo sangra e explode ao morrer."
+          },
           {
             "en": "Charged Perforator",
             "n": 1,
             "why": "Mais um efeito de chance para o Tiro Duplo rolar várias vezes por segundo."
           },
           {
-            "en": "Shatterspleen",
+            "en": "Molten Perforator",
             "n": 1,
-            "why": "Com crítico alto, quase todo inimigo sangra e explode ao morrer."
+            "why": "Mesmo motivo: rola em todo tiro."
           }
         ],
-        "then": "Itens de chefe vêm do chefe do teleporte. Com os dois, a escolha amarela importa pouco para esta build."
+        "then": "Itens de chefe vêm do chefe do teleporte. Com o Baço, a escolha amarela importa pouco para esta build."
       },
       {
         "tier": "equipment",
         "steps": [
-          {
-            "en": "Gorag's Opus",
-            "n": 1,
-            "why": "Escolha este primeiro: dobra a velocidade de ataque e as ativações de itens."
-          },
           {
             "en": "Royal Capacitor",
             "n": 1,
             "why": "Recarga curta e muito dano num alvo para derrubar elites."
           },
           {
+            "en": "Gorag's Opus",
+            "n": 1,
+            "why": "Dobra a velocidade de ataque e as ativações por 7 s."
+          },
+          {
             "en": "Primordial Cube",
             "n": 1,
-            "why": "Junta o grupo para o Brutamontes, o Ukulele e o Projétil Fásico."
+            "why": "Junta o grupo para o Brutamontes e o Ukulele."
           },
           {
             "en": "Ocular HUD",
             "n": 1,
-            "why": "Oito segundos de crítico garantido, bom com Foice e Mira Laser."
+            "why": "Oito segundos de crítico garantido enquanto os Óculos são poucos."
           }
         ],
-        "then": "Equipamento é um só: troque apenas se achar um barril com uma opção acima da sua."
+        "then": "Equipamento é um só: troque apenas se achar um barril com uma opção acima da sua. No Eclipse, troque por Jarro Excêntrico, Crisálida Láctea ou Ovo Vulcânico antes da Lua para pular os pilares."
       },
       {
         "tier": "lunar",
         "steps": [
           {
-            "en": "Shaped Glass",
+            "en": "Transcendence",
             "n": 1,
-            "why": "Só se a cápsula der escolha e você já tiver Tempos Difíceis e Foice: dobra o dano, mas a vida cai pela metade."
+            "why": "No Eclipse 3 em diante, quando a Foice já não dá conta do dano recebido."
           }
         ],
-        "then": "A wiki não confirma escolha nas cápsulas lunares com a Autoridade. Nunca pegue Ombreira do Fluxo Iluminado nem Visões Profanas: cortam ou tiram o Tiro Duplo."
+        "then": "A wiki não confirma escolha nas cápsulas lunares com a Autoridade. Vidro Configurado só com boa defesa. Nunca pegue Ombreira do Fluxo Iluminado nem Visões Profanas: cortam ou tiram o Tiro Duplo."
       },
       {
         "tier": "void",
@@ -851,12 +1036,12 @@
             "why": "Em um berço verde: dois Fogos de Supressão seguidos. Não corrompe nada desta build."
           },
           {
-            "en": "Needletick",
+            "en": "Polylute",
             "n": 1,
-            "why": "Em um berço branco, só se aceitar a troca: corrompe todas as suas Adagas Triangulares."
+            "why": "Em um berço verde, se aceitar a troca: corrompe todos os seus Ukuleles por mais dano em alvo único."
           }
         ],
-        "then": "O berço do Vazio define a raridade da escolha. Nunca escolha Lentes do Profeta Perdido, que corrompe todos os Óculos, nem Polialaúde, que corrompe os Ukuleles. Faixa da Singularidade só na variante com Granada, e ela corrompe os Cinturões de Kjaro."
+        "then": "O berço do Vazio define a raridade da escolha. Agulhão corrompe as Adagas Triangulares e Camarão de Plasma os Mísseis ASM: só com poucas cópias do original. Nunca escolha Lentes do Profeta Perdido, que corrompe todos os Óculos, nem Faixa da Singularidade fora do multijogador."
       }
     ]
   }
