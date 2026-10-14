@@ -8,11 +8,11 @@ import {
 } from '../components/build-parts.tsx';
 import { CommandOrder } from '../components/command-order.tsx';
 
-type Tab = 'build' | 'itens' | 'partida';
+type Tab = 'build' | 'items' | 'run';
 const TABS: [Tab, string][] = [
   ['build', 'Build'],
-  ['itens', 'Itens'],
-  ['partida', 'Partida'],
+  ['items', 'Itens'],
+  ['run', 'Partida'],
 ];
 
 function More({ title, children }: { title: string; children: ReactNode }) {
@@ -31,7 +31,7 @@ function More({ title, children }: { title: string; children: ReactNode }) {
 
 export function Mobile(s: BuildState) {
   const { build, all, core, list, selected, sid } = s;
-  const [tab, setTab] = useState<Tab>('itens');
+  const [tab, setTab] = useState<Tab>('items');
   const [sheet, setSheet] = useState(false);
 
   useEffect(() => setSheet(false), [sid]);
@@ -84,7 +84,7 @@ export function Mobile(s: BuildState) {
           </div>
         )}
 
-        {tab === 'itens' && (
+        {tab === 'items' && (
           <div className="flex flex-col gap-4">
             <div className="flex flex-col gap-2.5">
               <div className="flex items-baseline justify-between">
@@ -107,7 +107,7 @@ export function Mobile(s: BuildState) {
                 ))}
               </div>
             </div>
-            <SearchField id="m-busca" value={s.query} onChange={s.setQuery} />
+            <SearchField id="m-search" value={s.query} onChange={s.setQuery} />
             <TierTabs all={all} tier={s.tier} setTier={s.setTier} />
             <div className="flex flex-col gap-0.5">
               {list.map((it) => (
@@ -134,12 +134,12 @@ export function Mobile(s: BuildState) {
           </div>
         )}
 
-        {tab === 'partida' && (
+        {tab === 'run' && (
           <div className="flex flex-col gap-6">
             {build.command && (
-              <section aria-labelledby="m-ordem-h" className="flex flex-col gap-3">
+              <section aria-labelledby="m-order-h" className="flex flex-col gap-3">
                 <div className="flex items-baseline justify-between gap-3">
-                  <Heading id="m-ordem-h" size="md">Ordem de compra</Heading>
+                  <Heading id="m-order-h" size="md">Ordem de compra</Heading>
                   <Label>Artefato da Autoridade (Artifact of Command)</Label>
                 </div>
                 <CommandOrder build={build} idPrefix="m" compact />

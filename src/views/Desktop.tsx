@@ -11,12 +11,12 @@ const tileBase = 'flex min-w-0 cursor-pointer flex-col items-center gap-2 rounde
 const tileSel = 'bg-raised ring-2 ring-accent';
 
 const SECTIONS: [string, string][] = [
-  ['nucleo', 'Núcleo'],
-  ['ordem', 'Ordem de compra'],
-  ['itens', 'Itens'],
-  ['habilidades', 'Habilidades'],
-  ['sinergia', 'Sinergia'],
-  ['substitutos', 'Substitutos'],
+  ['core', 'Núcleo'],
+  ['order', 'Ordem de compra'],
+  ['items', 'Itens'],
+  ['skills', 'Habilidades'],
+  ['synergy', 'Sinergia'],
+  ['fallbacks', 'Substitutos'],
 ];
 
 /** Trilho de personagens a partir de 1180px; abaixo disso o seletor fica no topo do conteúdo. */
@@ -92,22 +92,22 @@ export function Desktop(s: BuildState) {
           </section>
 
           <nav aria-label="Seções da build" className="sticky top-0 z-10 flex items-center gap-1 overflow-x-auto border-y border-line-soft bg-surface/95 px-6 py-1.5">
-            {SECTIONS.filter(([id]) => id !== 'ordem' || build.command).map(([id, label]) => (
+            {SECTIONS.filter(([id]) => id !== 'order' || build.command).map(([id, label]) => (
               <a key={id} href={`#${id}`} onClick={(e) => { e.preventDefault(); document.getElementById(id)?.scrollIntoView(); }} className="flex min-h-9 flex-none items-center rounded-control px-2.5 text-meta font-medium text-ink-3 no-underline hover:bg-panel hover:text-ink">
                 {label}
               </a>
             ))}
             <div className="ml-auto max-w-72 min-w-44 flex-1 py-0.5">
-              <SearchField id="busca" value={s.query} onChange={(v) => { s.setQuery(v); if (v) document.getElementById('itens')?.scrollIntoView(); }} />
+              <SearchField id="search" value={s.query} onChange={(v) => { s.setQuery(v); if (v) document.getElementById('items')?.scrollIntoView(); }} />
             </div>
           </nav>
 
           <div className="flex flex-col gap-10 px-8 pt-6 pb-12">
             <Notes build={build} />
 
-            <section id="nucleo" aria-labelledby="nucleo-h" className="flex scroll-mt-16 flex-col gap-3.5 rounded-panel border border-line bg-panel px-5 py-5 @container">
+            <section id="core" aria-labelledby="core-h" className="flex scroll-mt-16 flex-col gap-3.5 rounded-panel border border-line bg-panel px-5 py-5 @container">
               <div className="flex flex-wrap items-baseline justify-between gap-x-3 gap-y-1">
-                <Heading id="nucleo-h">Núcleo da build</Heading>
+                <Heading id="core-h">Núcleo da build</Heading>
                 <span className="text-sm text-ink-3">Pegue estes primeiro. Clique para ver o motivo.</span>
               </div>
               <div
@@ -128,9 +128,9 @@ export function Desktop(s: BuildState) {
 
             <CommandSection build={build} idPrefix="d" />
 
-            <section id="itens" aria-labelledby="itens-h" className="flex scroll-mt-16 flex-col gap-4">
+            <section id="items" aria-labelledby="items-h" className="flex scroll-mt-16 flex-col gap-4">
               <div className="flex flex-wrap items-baseline justify-between gap-3">
-                <Heading id="itens-h">Todos os itens</Heading>
+                <Heading id="items-h">Todos os itens</Heading>
                 <span className="font-mono text-meta text-ink-3">
                   {list.length} de {all.length} itens
                 </span>
@@ -159,18 +159,18 @@ export function Desktop(s: BuildState) {
               )}
             </section>
 
-            <section id="habilidades" aria-labelledby="habilidades-h" className="flex scroll-mt-16 flex-col gap-3.5">
-              <Heading id="habilidades-h">Habilidades</Heading>
+            <section id="skills" aria-labelledby="skills-h" className="flex scroll-mt-16 flex-col gap-3.5">
+              <Heading id="skills-h">Habilidades</Heading>
               <Skills build={build} />
             </section>
 
-            <section id="sinergia" aria-labelledby="sinergia-h" className="flex scroll-mt-16 flex-col gap-3.5">
-              <Heading id="sinergia-h">Como as peças se encaixam</Heading>
+            <section id="synergy" aria-labelledby="synergy-h" className="flex scroll-mt-16 flex-col gap-3.5">
+              <Heading id="synergy-h">Como as peças se encaixam</Heading>
               <Synergy build={build} />
             </section>
 
-            <section id="substitutos" aria-labelledby="subs-h" className="flex scroll-mt-16 flex-col gap-3.5">
-              <Heading id="subs-h">Quando faltar um essencial</Heading>
+            <section id="fallbacks" aria-labelledby="fallbacks-h" className="flex scroll-mt-16 flex-col gap-3.5">
+              <Heading id="fallbacks-h">Quando faltar um essencial</Heading>
               <Fallbacks build={build} />
             </section>
 

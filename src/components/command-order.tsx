@@ -173,9 +173,9 @@ export function CommandOrder({ build, idPrefix, compact }: { build: Build; idPre
 export function CommandSection({ build, idPrefix }: { build: Build; idPrefix: string }) {
   if (!build.command) return null;
   return (
-    <section id="ordem" aria-labelledby={`${idPrefix}-ordem-h`} className="flex scroll-mt-16 flex-col gap-3.5">
+    <section id="order" aria-labelledby={`${idPrefix}-order-h`} className="flex scroll-mt-16 flex-col gap-3.5">
       <div className="flex flex-wrap items-baseline justify-between gap-x-3 gap-y-1">
-        <Heading id={`${idPrefix}-ordem-h`}>Ordem de compra</Heading>
+        <Heading id={`${idPrefix}-order-h`}>Ordem de compra</Heading>
         <Label>Artefato da Autoridade (Artifact of Command)</Label>
       </div>
       <CommandOrder build={build} idPrefix={idPrefix} />
