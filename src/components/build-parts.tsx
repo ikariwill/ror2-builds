@@ -1,9 +1,9 @@
-// Blocos de conteúdo de uma build, usados pelas visões de desktop e celular.
+// Content blocks of a build, used by the desktop and mobile views.
 import { BUILDS, GROUPS, PRIO_LABEL, PRIOS, TIER, TIERS, type PrioFilter } from '../data/roster.ts';
 import type { Build, FlatItem, TierId } from '../types.ts';
 import { Chip, Heading, Label, cx, icon } from './ui.tsx';
 
-/** Seletor nativo de sobrevivente, agrupado por DLC. Usado no celular e no desktop estreito (sem trilho). */
+/** Native survivor selector, grouped by DLC. Used on mobile and on narrow desktop (no rail). */
 export function SurvivorSelect({ id, sid, go, className }: { id: string; sid: string; go: (id: string) => void; className?: string }) {
   return (
     <div className={cx('relative', className)}>

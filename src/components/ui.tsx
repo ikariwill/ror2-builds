@@ -1,4 +1,4 @@
-// Primitivas do design system Logbook. Ver docs/design-system.md › Componentes.
+// Logbook design system primitives. See docs/design-system.md › Components.
 import type { ButtonHTMLAttributes, ElementType, HTMLAttributes, ReactNode } from 'react';
 import { PRIO_LABEL } from '../data/roster.ts';
 import type { Prio } from '../types.ts';
@@ -42,7 +42,7 @@ export function Heading({ as: As = 'h2', size = 'lg', className, children, ...re
   );
 }
 
-/** Pílula de filtro/aba. `tab`: selecionado em ink claro. `filter`: selecionado no acento. */
+/** Filter/tab pill. `tab`: selected in light ink. `filter`: selected in the accent. */
 type ChipProps = ButtonHTMLAttributes<HTMLButtonElement> & { on?: boolean; variant?: 'tab' | 'filter' };
 export function Chip({ on, variant = 'tab', className, children, ...rest }: ChipProps) {
   const base = 'inline-flex min-h-9 flex-none cursor-pointer items-center gap-2 rounded-full px-3.5 text-meta font-medium transition-colors';
@@ -61,7 +61,7 @@ export function Chip({ on, variant = 'tab', className, children, ...rest }: Chip
   );
 }
 
-/** Ícone de item com a faixa da raridade embaixo: a assinatura visual do sistema. */
+/** Item icon with the rarity strip underneath: the visual signature of the system. */
 export function ItemIcon({ slug, color, size = 64, className }: { slug: string; color: string; size?: number; className?: string }) {
   return (
     <span className={cx('block rounded-card p-1', className)} style={{ boxShadow: `inset 0 -3px 0 ${color}` }}>

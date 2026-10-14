@@ -1,15 +1,15 @@
-// Formato dos arquivos em src/data/builds/<id>.json. Documentado em docs/data.md.
+// Format of the src/data/builds/<id>.json files. Documented in docs/data.md.
 
 export type TierId = 'common' | 'uncommon' | 'legendary' | 'boss' | 'equipment' | 'lunar' | 'void';
 
-/** 1 Essencial · 2 Alta · 3 Média · 4 Situacional · 0 Evitar/cuidado */
+/** 1 Essential · 2 High · 3 Medium · 4 Situational · 0 Avoid/careful (pt-BR labels in PRIO_LABEL) */
 export type Prio = 0 | 1 | 2 | 3 | 4;
 
 export interface BuildItem {
-  /** slug do ícone em public/icons/<icon>.webp */
+  /** icon slug in public/icons/<icon>.webp */
   icon: string;
   pt: string;
-  /** nome exato em inglês, como no jogo */
+  /** exact English name, as in the game */
   en: string;
   prio: Prio;
   qty: string;
@@ -29,12 +29,13 @@ export interface Skill {
   slot: string;
   pt: string;
   en: string;
+  /** pt-BR label shown to the reader; 'Recomendada' gets the accent highlight. */
   pick: 'Recomendada' | 'Variante' | 'Fixa' | 'Única opção' | string;
   spec: string;
   why: string;
 }
 
-/** Um passo da ordem de compra: pegue `n` cópias deste item (nome exato em inglês, da mesma raridade). */
+/** One step of the pick order: take `n` copies of this item (exact English name, same rarity). */
 export interface CommandStep {
   en: string;
   n: number;
@@ -44,11 +45,11 @@ export interface CommandStep {
 export interface CommandTier {
   tier: TierId;
   steps: CommandStep[];
-  /** o que fazer depois do último passo */
+  /** what to do after the last step */
   then: string;
 }
 
-/** Ordem de compra para o Artefato da Autoridade (Artifact of Command) (escolher o item de cada essência). */
+/** Pick order for the Artifact of Command (choosing the item from each essence). */
 export interface CommandOrder {
   intro: string;
   tiers: CommandTier[];
@@ -76,7 +77,7 @@ export interface Build {
   command?: CommandOrder;
 }
 
-/** Item achatado para a UI: inclui a raridade e se faz parte do núcleo. */
+/** Flattened item for the UI: includes the rarity and whether it is part of the core. */
 export interface FlatItem extends BuildItem {
   tier: TierId;
   key: string;

@@ -23,7 +23,7 @@ export const DEFAULT_ID = BUILDS.bandit ? 'bandit' : ORDER[0];
 export interface Tier {
   id: TierId | 'all';
   name: string;
-  /** valor CSS do token da raridade (docs/design-system.md › Raridades) */
+  /** CSS value of the rarity token (docs/design-system.md › Rarities) */
   color: string;
 }
 
@@ -50,7 +50,7 @@ export const PRIOS: { id: PrioFilter; label: string }[] = [
 ];
 export const PRIO_LABEL: Record<Prio, string> = { 1: 'Essencial', 2: 'Alta', 3: 'Média', 4: 'Situacional', 0: 'Evitar' };
 
-/** Ordenação por prioridade: 1 primeiro, "Evitar" (0) por último. */
+/** Sort by priority: 1 first, "Evitar" (Avoid, 0) last. */
 export const rank = (p: Prio): number => (p === 0 ? 9 : p);
 
 export function flatItems(build: Build): FlatItem[] {
@@ -66,8 +66,8 @@ export function splitTitle(title: string): { name: string; build: string } {
   return i < 0 ? { name: title, build: '' } : { name: title.slice(0, i).trim(), build: title.slice(i + 1).trim() };
 }
 
-/** Nome do grupo (DLC) de um sobrevivente. */
+/** Group (DLC) name of a survivor. */
 export const groupOf = (id: string): string => GROUPS.find((g) => g.ids.includes(id))?.label ?? '';
 
-/** "3 a 6 (mais não faz mal)" → "3 a 6" para caber no selo do ícone. */
+/** "3 a 6 (mais não faz mal)" → "3 a 6" so it fits the icon badge. */
 export const shortQty = (q: string): string => q.split(' (')[0].replace(' ou mais', '+');

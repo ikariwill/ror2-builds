@@ -1,5 +1,5 @@
-// Reescreve src/data/builds/*.json no formato padrão (2 espaços, quebra de linha no fim).
-// Uso: npm run format:data
+// Rewrites src/data/builds/*.json in the standard format (2 spaces, trailing newline).
+// Usage: npm run format:data
 import { readdirSync, readFileSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
 import { fileURLToPath } from 'node:url';
@@ -15,4 +15,4 @@ for (const f of readdirSync(DIR).filter((x) => x.endsWith('.json'))) {
     changed++;
   }
 }
-console.log(changed ? `${changed} arquivo(s) formatado(s).` : 'Formatação já estava em dia.');
+console.log(changed ? `${changed} file(s) formatted.` : 'Formatting was already up to date.');

@@ -21,7 +21,7 @@ function saveDone(v: Record<string, boolean>) {
   try {
     localStorage.setItem(DONE_KEY, JSON.stringify(v));
   } catch {
-    /* sem armazenamento: a lista vale só nesta visita */
+    /* no storage: the checklist only lasts for this visit */
   }
 }
 
@@ -56,7 +56,7 @@ export interface BuildState {
   go: (id: string) => void;
 }
 
-/** Estado da página: sobrevivente (pela URL #/id), filtros, item selecionado e lista da partida. */
+/** Page state: survivor (from the #/id URL), filters, selected item and run checklist. */
 export function useBuildState(): BuildState {
   const [sid, setSid] = useState(readHash);
   const [tier, setTier] = useState<TierId | 'all'>('all');

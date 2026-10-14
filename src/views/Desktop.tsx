@@ -19,12 +19,12 @@ const SECTIONS: [string, string][] = [
   ['fallbacks', 'Substitutos'],
 ];
 
-/** Trilho de personagens a partir de 1180px; abaixo disso o seletor fica no topo do conteúdo. */
+/** Survivor rail from 1180px up; below that the selector sits at the top of the content. */
 export function Desktop(s: BuildState) {
   const { build, all, core, list, selected, select, sid } = s;
   const isSel = (key: string) => selected?.key === key;
   const { name, build: buildName } = splitTitle(build.title);
-  // Núcleo em uma linha quando cabe; senão em duas linhas equilibradas (nunca 6 + 1).
+  // Core on one row when it fits; otherwise two balanced rows (never 6 + 1).
   const coreCols = { '--n': core.length, '--half': Math.ceil(core.length / 2) } as CSSProperties;
 
   return (

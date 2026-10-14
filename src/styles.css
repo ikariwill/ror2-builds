@@ -2,39 +2,39 @@
 
 /*
   Logbook — design system tokens.
-  Fonte da verdade: docs/design-system.md. Mudou um token aqui? Atualize o doc no mesmo commit.
-  Regra: componentes usam SÓ estes tokens (bg-panel, text-ink-2, border-line…). Nada de cores soltas
-  como bg-slate-800 ou text-[#abc] no JSX.
+  Source of truth: docs/design-system.md. Changed a token here? Update the doc in the same commit.
+  Rule: components use ONLY these tokens (bg-panel, text-ink-2, border-line…). No loose colors
+  such as bg-slate-800 or text-[#abc] in JSX.
 */
 @theme {
-  /* Reset da paleta padrão do Tailwind: só existem as cores do Logbook. */
+  /* Reset Tailwind's default palette: only the Logbook colors exist. */
   --color-*: initial;
 
-  /* Chão e superfícies (azul-tinta, do mais fundo ao mais alto) */
+  /* Ground and surfaces (ink blue, from deepest to highest) */
   --color-ground: #0d1318;
   --color-surface: #10161d;
   --color-sunken: #141c24;
   --color-panel: #17202a;
   --color-raised: #1e2934;
 
-  /* Linhas */
+  /* Lines */
   --color-line: #273341;
   --color-line-soft: #222d38;
   --color-line-strong: #3a4856;
 
-  /* Texto */
+  /* Text */
   --color-ink: #e7ecef;
   --color-ink-2: #c3cdd5;
   --color-ink-3: #93a1ae;
   --color-ink-4: #7d8b98;
   --color-ink-off: #5f6e7b;
 
-  /* Acento único: dourado de interface do jogo */
+  /* Single accent: the game's interface gold */
   --color-accent: #e8b04a;
   --color-accent-hi: #f4cc7a;
   --color-on-accent: #10161d;
 
-  /* Raridades do jogo: a ÚNICA família de cores saturadas do sistema */
+  /* Game rarities: the system's ONLY family of saturated colors */
   --color-tier-common: #c9ced3;
   --color-tier-uncommon: #7bc86c;
   --color-tier-legendary: #e5534b;
@@ -43,7 +43,7 @@
   --color-tier-lunar: #5aa9e6;
   --color-tier-void: #b678e0;
 
-  /* Prioridade (semântica, separada do acento) */
+  /* Priority (semantic, separate from the accent) */
   --color-prio-avoid: #5a2328;
   --color-prio-avoid-ink: #f3b5b9;
 
@@ -51,12 +51,12 @@
   --color-black: #000000;
   --color-transparent: transparent;
 
-  /* Tipografia */
+  /* Typography */
   --font-display: "Saira Condensed", "Arial Narrow", sans-serif;
   --font-sans: "IBM Plex Sans", system-ui, sans-serif;
   --font-mono: "IBM Plex Mono", ui-monospace, monospace;
 
-  --text-label: 0.6875rem;   /* 11px — rótulos em mono caixa-alta */
+  --text-label: 0.6875rem;   /* 11px — uppercase mono labels */
   --text-label--letter-spacing: 0.08em;
   --text-meta: 0.8125rem;    /* 13px */
   --text-body: 0.9375rem;    /* 15px */
@@ -66,7 +66,7 @@
   --text-h-xl: 3.5rem;       /* 56px */
   --text-h-xl--line-height: 0.95;
 
-  /* Raios: poucos e com papel definido */
+  /* Radii: few, each with a defined role */
   --radius-tag: 4px;
   --radius-control: 6px;
   --radius-card: 8px;
@@ -111,7 +111,7 @@
 }
 
 @layer components {
-  /* Rótulo técnico: mono, caixa-alta, espaçado. Usado para slots, campos e contadores. */
+  /* Technical label: mono, uppercase, tracked. Used for slots, fields and counters. */
   .label {
     font-family: var(--font-mono);
     font-size: var(--text-label);
@@ -119,7 +119,7 @@
     text-transform: uppercase;
     color: var(--color-ink-4);
   }
-  /* Título de seção: display condensado em caixa-alta. */
+  /* Section title: condensed display in uppercase. */
   .heading {
     font-family: var(--font-display);
     font-weight: 700;

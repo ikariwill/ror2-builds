@@ -1,4 +1,4 @@
-// Ordem de compra para o Artefato da Autoridade (Artifact of Command), com contador por raridade para usar durante a run.
+// Pick order for the Artifact of Command, with a per-rarity counter to use during the run.
 import { useEffect, useMemo, useState } from 'react';
 import { TIER } from '../data/roster.ts';
 import type { Build, BuildItem, CommandTier, TierId } from '../types.ts';
@@ -17,7 +17,7 @@ function save(v: Record<string, number>) {
   try {
     localStorage.setItem(KEY, JSON.stringify(v));
   } catch {
-    /* sem armazenamento: o contador vale só nesta visita */
+    /* no storage: the counter only lasts for this visit */
   }
 }
 
