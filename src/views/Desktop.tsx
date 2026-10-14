@@ -158,7 +158,7 @@ export function Desktop(s: BuildState) {
                 <Heading id="core-h">Núcleo da build</Heading>
                 <span className="text-sm text-ink-3">Pegue estes sempre. O selo mostra quantos.</span>
               </div>
-              <div style={coreCols} className="grid grid-cols-[repeat(var(--half),minmax(0,1fr))] gap-1.5 @[680px]:grid-cols-[repeat(var(--n),minmax(0,1fr))]">
+              <div style={coreCols} className="grid grid-cols-[repeat(var(--half),minmax(0,160px))] gap-1.5 @[680px]:grid-cols-[repeat(var(--n),minmax(0,160px))]">
                 {core.map((it) => (
                   <button
                     key={it.key}
