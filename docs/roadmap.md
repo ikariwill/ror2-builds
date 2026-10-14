@@ -13,7 +13,7 @@
 - [ ] Decide whether challenge names use the game's pt-BR translation, and standardize.
 - [ ] Bring into the repository a script that checks item effects against the wiki data (today it runs outside).
 - [x] Mark "already picked up" per item, tied to the run mode ("Modo partida").
-- [ ] Load each build on demand (today the JS bundle is ~215 KB gzip with all 21 builds).
+- [ ] Load each build on demand (today the JS bundle is ~300 KB gzip with all 21 builds, after the community rebuild).
 
 ## Ideas
 - Compare two builds side by side.

@@ -20,5 +20,6 @@ What needs to stay on record about the project. Update it together with the code
 ## Reviews
 
 - [2026-10-13: review of the 21 builds](reviews/2026-10-13-build-review.md)
+- [2026-10-14: community audit of the 21 builds](reviews/2026-10-14-community-audit.md)
 
 ADR template: copy [decisions/_template.md](decisions/_template.md).
