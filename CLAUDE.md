@@ -28,11 +28,13 @@ src/
   data/builds/<id>.json   one build per survivor (format in src/types.ts and docs/data.md)
   data/roster.ts          order, DLC groups, rarities, priorities, helpers
   types.ts                data types
-  useBuildState.ts        page state: survivor (#/id in the URL), filters, selected item, run checklist
-  components/ui.tsx       design system primitives (Chip, Label, Heading, PrioTag, ItemIcon…)
-  components/build-parts.tsx  content blocks (item detail, checklist, rotation, skills…)
-  components/command-order.tsx  pick order for the Artifact of Command, with a counter
-  views/Desktop.tsx       layout ≥ 761px: survivor rail (≥ 1180px) | content | sticky detail panel
+  useBuildState.ts        page state: survivor and run mode (#/id, #/id/partida), item grouping, search, selected item
+  useRunState.ts          run mode state: item counts, equipment in hand, Command picks (localStorage, synced across tabs)
+  components/ui.tsx       design system primitives (Label, Heading, PrioTag, Segmented…) and `cx` (tailwind-merge + tokens)
+  components/build-parts.tsx  content blocks (item lanes, item detail, skills, rotation, reminders…)
+  components/run-mode.tsx run mode views: RunDesktop (second monitor) and RunMobile (Partida tab)
+  components/palette.tsx  Ctrl+K palette: survivors and items across every build
+  views/Desktop.tsx       layout ≥ 761px: survivor rail (≥ 1180px) | content | sticky detail panel; run mode route
   views/Mobile.tsx        layout ≤ 760px: Build/Itens/Partida tabs + detail sheet
   styles.css              design system tokens (@theme) — source of truth for colors and type
 public/icons/<slug>.webp  original item icons (see docs/data.md › Sources)
@@ -59,8 +61,8 @@ docs/                     project documentation (start at docs/README.md)
   game's language file (docs/data.md). No official translation: use the English name in both fields.
 - Recommend an item because of the survivor's kit (proc coefficient, cooldowns, charges, melee vs. ranged),
   never just because "it is good in general". A Void item that corrupts another recommended item: say so.
-- Writing: natural Brazilian Portuguese, short and direct sentences. No em dash as an aside, no "não é X, é Y",
-  no filler.
+- Writing: natural Brazilian Portuguese, short and direct sentences. No em dash (the "—" character) anywhere,
+  no "não é X, é Y", no filler.
 - Changed build data? Run `npm run validate` and update `docs/data.md` if the format changed.
 
 ### Interface

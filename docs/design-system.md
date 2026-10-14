@@ -117,32 +117,55 @@ Primitives in `src/components/ui.tsx`:
 | --- | --- |
 | `Heading` | section heading (`size` md/lg/xl) |
 | `Label` | technical mono label |
-| `Chip` | tab pill (`variant="tab"`) or filter pill (`variant="filter"`) |
+| `Chip` | tab pill with an optional rarity dot; selected = raised with the accent ring; `size="lg"` is 44px for touch |
 | `PrioTag` | priority badge (Essencial, Alta, Média, Situacional, Evitar) |
-| `ItemIcon` | item icon with the rarity strip underneath — the visual signature of the system |
+| `ItemIcon` | item icon with the rarity strip underneath: the visual signature of the system |
 | `QtyBadge` | gold quantity badge over the icon |
-| `SearchField` | search with an accessible label |
+| `SearchField` | search with an accessible label; `compact` for the section bar, `hint` shows a key such as `/` |
+| `Segmented` | two or more mutually exclusive options in one control (group by priority or rarity, run mode) |
 
-In `command-order.tsx`: `CommandOrder` (pick order per rarity with a "got the next one" counter, saved in the browser) and `CommandSection`.
+`cx` joins class names through tailwind-merge, configured with the Logbook tokens: when a component receives a
+class that sets the same property (`text-[28px]` over `text-h-md`), the later one wins. A new token in `@theme`
+must also be added to the merge config in `ui.tsx`, or the merge can drop the wrong class.
 
-Also in `build-parts.tsx`: `SurvivorSelect` (native selector grouped by DLC, used on mobile and on narrow desktop).
+Blocks in `src/components/build-parts.tsx`:
 
-Blocks in `src/components/build-parts.tsx`: `TierTabs`, `PrioChips`, `ItemDetail`, `Checklist`, `Rotation`,
-`Notes`, `Skills`, `Synergy`, `Fallbacks`, `Summary`, `Sources`, `SiteFooter`.
+| Block | What it is |
+| --- | --- |
+| `SurvivorSelect` | native selector grouped by DLC (mobile and narrow desktop) |
+| `ItemLanesGrid` / `ItemLanesList` | items in lanes (by priority, by rarity or search results); grid on desktop, list on mobile |
+| `AvoidNote` | "Evite" callout for the build's Avoid items, under the core |
+| `ItemDetail` | item detail, with "Se não aparecer" when the item has a fallback |
+| `Skills` | one row per slot: what to use and the alternatives |
+| `Rotation` | numbered steps (`list` or `cards`) |
+| `Reminders` | the build checklist shown as run reminders |
+| `Notes`, `Synergy`, `Fallbacks`, `Summary`, `Sources`, `SiteFooter` | reading blocks |
+
+Run mode in `src/components/run-mode.tsx` (`RunDesktop`, `RunMobile`), state in `src/useRunState.ts`.
+Search palette in `src/components/palette.tsx` (`CommandPalette`, `usePaletteShortcuts`).
 
 ## 6. Layout
 
 - **Wide desktop (≥ 1180px):** three-column grid, max width 1680px.
   - Survivor rail (232px), fixed on screen with its own scrolling; the brand sits at its top.
-  - Content: build header (survivor name in `h-xl`, build name below, loadout in cards),
-    then a **sticky section bar** (Núcleo · Itens · Habilidades · Sinergia · Substitutos + search; anchors
-    `#core`, `#order` when the build has a pick order, `#items`, `#skills`, `#synergy`, `#fallbacks`).
-  - Side panel (360px), fixed on screen with its own scrolling: item detail, run mode ("Modo partida") and rotation.
-    The detail stays visible while scrolling the item grid.
+  - Content: build header (survivor name in `h-xl`, build name below, lede, loadout chips, "Modo partida" button),
+    then a **sticky section bar** (Núcleo · Itens · Habilidades · Rotação · Sinergia · Substitutos + search; anchors
+    `#core`, `#items`, `#skills`, `#rotation`, `#synergy`, `#fallbacks`).
+  - Reading order: the core ("Núcleo da build", the only place the essentials appear) with the "Evite" callout,
+    then "Depois do núcleo" (the other items in priority lanes; "Por raridade" lists all items by rarity), then the
+    explanations.
+  - Side panel (360px), fixed on screen with its own scrolling: the selected item's detail and, for core items,
+    what to do if it does not show up.
+- **Run mode (`#/<id>/partida`):** full width, no rail, made for a second monitor. "Run normal" shows one column per
+  rarity with the next pick highlighted; "Artefato da Autoridade" shows the pick order and the bag computed from it.
+  See `docs/decisions/0004-run-mode.md`.
+- **Search palette:** Ctrl+K (⌘K) on desktop, also from the rail button; `/` focuses the build search.
 - **Narrow desktop (761–1179px):** the rail disappears; the survivor selector (`SurvivorSelect`) moves to the top of
   the content. Two columns: content + panel (340px).
-- **Mobile (≤ 760px):** sticky header with the survivor selector; bottom tabs (Build, Itens, Partida; keys
-  `build`, `items`, `run`); item detail in a sheet that slides up from the bottom. Respects `safe-area-inset`.
+- **Mobile (≤ 760px):** sticky header with the survivor selector (and the search on the Itens tab); bottom tabs
+  (Build, Itens, Partida; keys `build`, `items`, `run`; Build is the default). Build has the core; Itens lists every
+  item, the core first; Partida is run mode. Item detail in a sheet that slides up from the bottom. Respects
+  `safe-area-inset`.
 - **Build core:** one row when the container is ≥ 680px; otherwise two balanced rows
   (`ceil(n/2)` columns, via container query). A single item is never left alone on a row.
 - Spacing between siblings with `gap`, never loose margins.
@@ -168,5 +191,6 @@ Blocks in `src/components/build-parts.tsx`: `TierTabs`, `PrioChips`, `ItemDetail
 - ~~7-item core breaking into 6 + 1~~ → one row or two balanced ones (v0.2).
 - ~~Heading scale on mobile~~ → survivor name and build name separated (v0.2).
 - Survivor portrait or silhouette in the rail? Only if it is official art with a clear license.
-- "Item marked as picked up" state tied to run mode.
-- Test the section bar search with the keyboard (`/` shortcut?).
+- ~~"Item marked as picked up" state tied to run mode~~ → run mode counts per item (v0.3).
+- ~~Section bar search with the keyboard~~ → `/` focuses it; Ctrl+K opens the palette (v0.3).
+- Run mode targets come from the build quantities. Some builds may need an explicit pick order for regular runs.

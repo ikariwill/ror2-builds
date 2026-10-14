@@ -15,6 +15,7 @@ What needs to stay on record about the project. Update it together with the code
 - [0001 — Stack: Vite, React, TypeScript and Tailwind v4](decisions/0001-stack.md)
 - [0002 — Single dark theme](decisions/0002-single-dark-theme.md)
 - [0003 — Static JSON data, one file per survivor](decisions/0003-static-json-data.md)
+- [0004: Run mode answers "what do I pick next?"](decisions/0004-run-mode.md)
 
 ## Reviews
 
